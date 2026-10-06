@@ -18,3 +18,9 @@ Assemblage : `cat head.js kit.js body.js scenes.js > film.js`.
 
 Pour un nouvel animal : ajouter une entrée dans `SP` (kind + couleurs) et, si besoin, un nouveau `kind` dans `critter`
 (oreilles, queue, marques du visage). Pour un nouvel objet ou un nouveau décor : écrire une fonction sur le modèle de `truck()`, `room()`, `garden()`.
+
+## Voix (choix de l'utilisateur)
+`vo.py` alterne tout seul entre deux voix d'une vidéo à l'autre (il affiche « voix : homme » ou « voix : femme ») et les télécharge lui-même :
+- homme : `vits-piper-fr_FR-upmc-medium`, locuteur 1, débit fixe 0.88, sans effet, pause de 1,25 temps entre les phrases ;
+- femme : `vits-piper-fr_FR-siwis-medium`, la voix d'origine.
+Pour forcer : `VOIX=homme uv run vo.py ...` ou `VOIX=femme ...`. Ne pas changer ces réglages. Si vo.py dit que l'histoire est trop longue, raccourcir le texte (180 à 210 mots).
