@@ -24,7 +24,7 @@ from zoneinfo import ZoneInfo
 now = datetime.datetime.now(ZoneInfo("Europe/Paris"))
 slot = 0 if now.hour < 10 else 1 if now.hour < 14 else 2 if now.hour < 18 else 3
 WHO = os.environ.get("VOIX") or ("homme" if (now.timetuple().tm_yday + slot) % 2 == 0 else "femme")
-PROF = {"homme": dict(voice="vits-piper-fr_FR-upmc-medium", sid=1, speed=0.88, lo=0.85, hi=0.95, ns=0.5, nw=0.7, gap=1.25, fx=PROF["fx"]),
+PROF = {"homme": dict(voice="vits-piper-fr_FR-upmc-medium", sid=1, speed=0.88, lo=0.85, hi=0.95, ns=0.5, nw=0.7, gap=1.25, fx="highpass=f=70,alimiter=limit=0.8"),
         "femme": dict(voice="vits-piper-fr_FR-siwis-medium", sid=0, speed=float(sys.argv[3]) if len(sys.argv) > 3 else 0.86, lo=0.74, hi=1.0, ns=0.6, nw=0.9, gap=0.75,
                       fx="equalizer=f=210:t=q:w=1.1:g=2.5,equalizer=f=3400:t=q:w=1.4:g=-2,highshelf=f=7000:g=-3.5,aecho=0.9:0.5:38|61:0.10|0.06,alimiter=limit=0.8")}[WHO]
 print("voix :", WHO)
