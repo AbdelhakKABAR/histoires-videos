@@ -1,0 +1,191 @@
+[
+ {
+  "id": "maison",
+  "phrases": [
+   {
+    "t": "Dans une petite maison au bord de la forêt, vivait un ourson qui s'appelait Miel."
+   },
+   {
+    "t": "Il avait un trésor : un beau camion rouge.",
+    "speed": 0.82,
+    "pre": 1.25
+   }
+  ]
+ },
+ {
+  "id": "regle",
+  "phrases": [
+   {
+    "t": "Ce matin-là, maman lui dit :"
+   },
+   {
+    "t": "« Miel, ton amie Rosie vient jouer. Vous partagerez vos jouets. »",
+    "who": "mama",
+    "speed": 0.86,
+    "pre": 1.0
+   }
+  ]
+ },
+ {
+  "id": "arrivee",
+  "phrases": [
+   {
+    "t": "Toc, toc, toc ! Rosie la petite renarde arriva.",
+    "speed": 0.84
+   },
+   {
+    "t": "« Oh ! Le beau camion ! Je peux jouer avec ? »",
+    "who": "rosie",
+    "speed": 0.9,
+    "pre": 1.25
+   }
+  ]
+ },
+ {
+  "id": "refus",
+  "phrases": [
+   {
+    "t": "Miel serra le camion contre lui.",
+    "speed": 0.8
+   },
+   {
+    "t": "« Non ! Il est à moi ! »",
+    "who": "miel",
+    "speed": 0.84,
+    "pre": 1.75
+   }
+  ]
+ },
+ {
+  "id": "consequence",
+  "phrases": [
+   {
+    "t": "Rosie baissa les oreilles.",
+    "speed": 0.8
+   },
+   {
+    "t": "« Alors… je rentre chez moi. »",
+    "who": "rosie",
+    "speed": 0.78,
+    "pre": 1.5
+   },
+   {
+    "t": "Et elle s'en alla.",
+    "speed": 0.76,
+    "pre": 2.0
+   }
+  ]
+ },
+ {
+  "id": "seul",
+  "phrases": [
+   {
+    "t": "Miel fit rouler son camion. Tout seul.",
+    "speed": 0.8
+   },
+   {
+    "t": "Vroum… vroum… Ce n'était pas très drôle.",
+    "speed": 0.78,
+    "pre": 1.75
+   }
+  ]
+ },
+ {
+  "id": "dehors",
+  "phrases": [
+   {
+    "t": "Par la fenêtre, il vit Rosie qui jouait avec un simple bâton."
+   },
+   {
+    "t": "Elle riait avec les papillons.",
+    "speed": 0.84,
+    "pre": 1.25
+   }
+  ]
+ },
+ {
+  "id": "malaise",
+  "phrases": [
+   {
+    "t": "Le cœur de Miel se serra.",
+    "speed": 0.76
+   },
+   {
+    "t": "Son camion était beau… mais il était bien silencieux.",
+    "speed": 0.78,
+    "pre": 1.75
+   }
+  ]
+ },
+ {
+  "id": "sage",
+  "phrases": [
+   {
+    "t": "Papi Blaireau passait par là."
+   },
+   {
+    "t": "« Un jouet partagé, petit, c'est deux fois plus de joie. »",
+    "who": "papi",
+    "speed": 0.76,
+    "pre": 1.5
+   }
+  ]
+ },
+ {
+  "id": "course",
+  "phrases": [
+   {
+    "t": "Alors Miel prit son camion…",
+    "speed": 0.8
+   },
+   {
+    "t": "et courut dehors !",
+    "speed": 0.88,
+    "pre": 1.5
+   }
+  ]
+ },
+ {
+  "id": "partage",
+  "phrases": [
+   {
+    "t": "« Rosie ! Pardon. Tiens, c'est ton tour. »",
+    "who": "miel",
+    "speed": 0.8
+   },
+   {
+    "t": "Rosie fit un grand sourire.",
+    "speed": 0.84,
+    "pre": 1.75
+   }
+  ]
+ },
+ {
+  "id": "jeu",
+  "phrases": [
+   {
+    "t": "Ils jouèrent ensemble tout l'après-midi."
+   },
+   {
+    "t": "Le camion transportait des cailloux, des fleurs… et même des papillons !",
+    "speed": 0.86,
+    "pre": 1.0
+   },
+   {
+    "t": "« C'est bien plus drôle à deux ! »",
+    "who": "miel",
+    "speed": 0.84,
+    "pre": 1.5
+   }
+  ]
+ },
+ {
+  "id": "morale",
+  "phrases": [
+   {
+    "t": "Partager, c'est doubler la joie.",
+    "speed": 0.76
+   }
+  ]
+ }
+]
