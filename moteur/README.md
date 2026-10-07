@@ -24,3 +24,9 @@ Pour un nouvel animal : ajouter une entrée dans `SP` (kind + couleurs) et, si b
 - homme : `vits-piper-fr_FR-upmc-medium`, locuteur 1, débit fixe 0.88, sans effet, pause de 1,25 temps entre les phrases ;
 - femme : `vits-piper-fr_FR-siwis-medium`, la voix d'origine.
 Pour forcer : `VOIX=homme uv run vo.py ...` ou `VOIX=femme ...`. Ne pas changer ces réglages. Si vo.py dit que l'histoire est trop longue, raccourcir le texte (180 à 210 mots).
+
+## Son : éviter la mise en sourdine par TikTok (important)
+Une vidéo (abeille, 7 oct. 2026) a été mise « en sourdine » par TikTok, sans doute parce que sa bande-son a été prise pour une musique protégée.
+- Aucune mélodie, aucun air, aucune suite de notes qui ressemble à une musique ou à une comptine : pas de boîte à musique, pas de fredonnement, pas de bourdonnement « chanté », pas de carillon mélodique.
+- Ambiance = bruits seulement (vent, pluie, eau, oiseaux courts et irréguliers, tic-tac, pas). Bruitages HITS : garder les notes isolées (une cloche, un « pop »), jamais plus de 2 ou 3 notes de suite, et pas de motif répété.
+- Ne pas répéter en boucle un même motif sonore rythmé.
