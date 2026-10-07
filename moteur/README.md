@@ -25,6 +25,16 @@ Pour un nouvel animal : ajouter une entrée dans `SP` (kind + couleurs) et, si b
 - femme : `vits-piper-fr_FR-siwis-medium`, la voix d'origine.
 Pour forcer : `VOIX=homme uv run vo.py ...` ou `VOIX=femme ...`. Ne pas changer ces réglages. Si vo.py dit que l'histoire est trop longue, raccourcir le texte (180 à 210 mots).
 
+## Voix des personnages (demande de l'utilisateur, 7 oct. 2026)
+Chaque personnage parle avec SA voix. Dans story.json, chaque réplique porte, en plus de `who`, le champ `voice` :
+`"homme"` (papa, monsieur), `"femme"` (maman, dame), `"garcon"` (petit garçon), `"fille"` (petite fille), `"papi"`, `"mamie"`.
+Les phrases du conteur n'ont pas de `voice`. Un même personnage garde la même voix dans toute l'histoire.
+Varier le casting : héros garçon ou héroïne fille, une vidéo sur deux ; au moins deux voix de personnages différentes par histoire.
+
+## Imagination (demande de l'utilisateur, 7 oct. 2026)
+Les vidéos se ressemblaient trop (même début à la maison, même règle des parents, même déroulé). Chaque histoire doit surprendre :
+autre lieu de départ, autre type d'intrigue, autre objet, autre personnage secondaire. Voir la consigne de la tâche.
+
 ## Son : éviter la mise en sourdine par TikTok (important)
 Une vidéo (abeille, 7 oct. 2026) a été mise « en sourdine » par TikTok, sans doute parce que sa bande-son a été prise pour une musique protégée.
 - Aucune mélodie, aucun air, aucune suite de notes qui ressemble à une musique ou à une comptine : pas de boîte à musique, pas de fredonnement, pas de bourdonnement « chanté », pas de carillon mélodique.

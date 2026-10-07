@@ -38,16 +38,43 @@ tts = sherpa_onnx.OfflineTts(sherpa_onnx.OfflineTtsConfig(model=sherpa_onnx.Offl
 SR = 48000
 
 
+# Voix des personnages (demande de l'utilisateur, 7 oct. 2026) : chaque réplique de story.json peut porter
+# "voice" : "homme", "femme", "garcon", "fille", "papi" ou "mamie". Sans "voice", c'est la voix du conteur.
+# Les voix d'enfants et de grands-parents sont obtenues en changeant la hauteur d'une voix de base (r > 1 = plus aigu).
+CAST = {"homme": ("vits-piper-fr_FR-upmc-medium", 1, 1.0, 0.92), "femme": ("vits-piper-fr_FR-siwis-medium", 0, 1.0, 0.9),
+        "garcon": ("vits-piper-fr_FR-upmc-medium", 0, 1.15, 0.95), "fille": ("vits-piper-fr_FR-siwis-medium", 0, 1.24, 0.95),
+        "papi": ("vits-piper-fr_FR-upmc-medium", 1, 0.93, 0.86), "mamie": ("vits-piper-fr_FR-siwis-medium", 0, 0.92, 0.84)}
+ENG = {PROF["voice"]: tts}
+def engine(voice):
+    if voice not in ENG:
+        d = MODEL.parent / voice
+        if not d.exists():
+            subprocess.run(f"curl -sSL https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/{voice}.tar.bz2 | tar xj -C '{d.parent}'", shell=True, check=True)
+        ENG[voice] = sherpa_onnx.OfflineTts(sherpa_onnx.OfflineTtsConfig(model=sherpa_onnx.OfflineTtsModelConfig(
+            vits=sherpa_onnx.OfflineTtsVitsModelConfig(model=str(next(d.glob("*.onnx"))), tokens=str(d / "tokens.txt"), data_dir=str(d / "espeak-ng-data"), noise_scale=0.6, noise_scale_w=0.8), num_threads=4)))
+    return ENG[voice]
+
+
 def take(ph):
     text = ph["t"]
     spoken = text.replace("«", "").replace("»", "").strip()
-    a = tts.generate(spoken, sid=SID, speed=max(PROF["lo"], min(PROF["hi"], ph.get("speed", SPEED))))
-    x = resample_poly(np.asarray(a.samples, dtype=np.float64), SR, a.sample_rate)
+    v = ph.get("voice")
+    if v in CAST:
+        voice, sid, r, sp = CAST[v]
+        a = engine(voice).generate(spoken, sid=sid, speed=sp / r)   # dit plus lentement, puis accéléré de r : la hauteur change, pas le débit
+        x = resample_poly(np.asarray(a.samples, dtype=np.float64), SR, a.sample_rate)
+        x = np.interp(np.arange(0, len(x) - 1, r), np.arange(len(x)), x)
+        x *= 0.25 / (np.sqrt(np.mean(x[np.abs(x) > 0.02] ** 2)) + 1e-9) * NARR_RMS / 0.25
+    else:
+        a = tts.generate(spoken, sid=SID, speed=max(PROF["lo"], min(PROF["hi"], ph.get("speed", SPEED))))
+        x = resample_poly(np.asarray(a.samples, dtype=np.float64), SR, a.sample_rate)
     idx = np.where(np.abs(x) > 0.02)[0]; x = x[max(idx[0] - 480, 0): idx[-1] + 3600]
     x[-2400:] *= np.linspace(1, 0, 2400)
     return x
 
 
+_r = resample_poly(np.asarray(tts.generate("Il était une fois une histoire.", sid=SID, speed=SPEED).samples, dtype=np.float64), SR, 22050)
+NARR_RMS = float(np.sqrt(np.mean(_r[np.abs(_r) > 0.02] ** 2)))   # les personnages parlent aussi fort que le conteur
 takes = [[take(t) for t in ph] for _, ph in SCENES]
 LEAD, GAP, TAIL, END = 1.5, PROF["gap"], 2.0, 0   # beats: before 1st phrase, between phrases, after last; END = moral card
 need = sum(LEAD + TAIL + sum(len(x) / SR / P for x in tk) + sum(q.get("pre", GAP) for q in ph[1:]) for (_, ph), tk in zip(SCENES, takes))
@@ -65,7 +92,7 @@ for k, ((sid, ph), tk) in enumerate(zip(SCENES, takes)):
         c = round(c * 4) / 4
         i = int((grid["offset"] + c * P) * SR); out[i:i + len(x)] += x[: len(out) - i]
         e = c + len(x) / SR / P
-        phrases.append({"scene": sid, "u0": round(c, 2), "u1": round(e, 2), "text": text, "who": q.get("who", "")}); c = e
+        phrases.append({"scene": sid, "u0": round(c, 2), "u1": round(e, 2), "text": text, "who": q.get("who", ""), "voice": q.get("voice", "")}); c = e
     u = total - END if k == len(SCENES) - 1 else float(round(c + TAIL + extra))
     scenes.append({"id": sid, "u0": u0, "u1": u}); print(f"{sid:<11} {u0:6.1f}-{u:6.1f}  ({(u - u0) * P:4.1f}s)")
 out *= 0.7 / np.max(np.abs(out))
