@@ -299,7 +299,9 @@ const HITS = [
 ].sort((a, b) => a[0] - b[0]);
 
 const DRAW = { maison: sMaison, regle: sRegle, arrivee: sArrivee, refus: sRefus, consequence: sConsequence, seul: sSeul, dehors: sDehors, malaise: sMalaise, sage: sSage, course: sCourse, partage: sPartage, jeu: sJeu, morale: sMorale };
-M.film({
+// filmPro = M.film + finition (étalonnage, vignette, grain). grade(u) choisit l'ambiance de chaque scène : warm (soleil), cold (pluie, tristesse), night.
+filmPro({
+  grade: (u) => { const s = TL.scenes.find((x) => u < x.u1) || TL.scenes[TL.scenes.length - 1]; return s.id === 'morale' ? null : { warm: 0.3, cold: s.id === 'seul' || s.id === 'malaise' ? 0.35 : 0 }; },
   fonts: [font(100, 700, DISPLAY), font(100, 800, DISPLAY), font(40, 500, UI)],
   hits: HITS,
   draw(ctx, u) {

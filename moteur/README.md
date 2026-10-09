@@ -9,8 +9,9 @@ Fichiers à réutiliser pour chaque nouvelle histoire (projet motion-reel 9x16, 
   `critter(ctx,x,y,s,id,pose)` = personnage articulé (pose : look, lookY, mood -1..1, brow, talk, armL, armR (négatif = bras croisés sur le ventre),
   walk, stride, lean, droop (oreilles), wag (queue), sq, tilt, tear, squint, wide, cane, hold) ; table `SP` des espèces (bear, fox, badger) ;
   `truck()` ; `butterfly()` ; `sparkles()` ; `iconBub()` ; décors `room()` (chambre) et `garden()` (jardin, option warm = coucher de soleil).
-- `scenes-exemple.js` : les 13 scènes de « Miel », la liste HITS (bruitages) et l'appel `M.film`. À réécrire pour chaque histoire.
+- `scenes-exemple.js` : les 13 scènes de « Miel », la liste HITS (bruitages) et l'appel `filmPro` (= `M.film` + finition). À réécrire pour chaque histoire.
 - `story-exemple.json` : le texte ; chaque phrase peut porter `who` (personnage qui parle), `speed`, `pre` (silence avant, en temps).
+- `rendu.mjs` : le rendu final rapide (voir « Rendu haut de gamme »).
 - `vo.py` : `uv run vo.py <film> <dossier voix> 0.86` -> audio/vo.wav, timeline.js / timeline.json (scènes, phrases, `who`, enveloppe `env` à 60 i/s pour les bouches).
 - `amb-exemple.py` : ambiance synthétisée -> audio/music.wav.
 
@@ -19,11 +20,35 @@ Assemblage : `cat head.js kit.js body.js scenes.js > film.js`.
 Pour un nouvel animal : ajouter une entrée dans `SP` (kind + couleurs) et, si besoin, un nouveau `kind` dans `critter`
 (oreilles, queue, marques du visage). Pour un nouvel objet ou un nouveau décor : écrire une fonction sur le modèle de `truck()`, `room()`, `garden()`.
 
-## Voix (choix de l'utilisateur)
-`vo.py` alterne tout seul entre deux voix d'une vidéo à l'autre (il affiche « voix : homme » ou « voix : femme ») et les télécharge lui-même :
-- homme : `vits-piper-fr_FR-upmc-medium`, locuteur 1, débit fixe 0.88, sans effet, pause de 1,25 temps entre les phrases ;
-- femme : `vits-piper-fr_FR-siwis-medium`, la voix d'origine.
-Pour forcer : `VOIX=homme uv run vo.py ...` ou `VOIX=femme ...`. Ne pas changer ces réglages. Si vo.py dit que l'histoire est trop longue, raccourcir le texte (180 à 210 mots).
+## Rendu « haut de gamme » (demande de l'utilisateur, 9 oct. 2026) — OBLIGATOIRE
+L'utilisateur a jugé l'ancien rendu en aplats « pas haut de gamme ». Le moteur peint maintenant en volume, avec lumière et profondeur. Règles :
+
+- **Formes en volume, automatiquement** : `ell`, `box`, `limb` ombrent toutes seules les couleurs écrites `'#RRGGBB'` (lumière en haut à gauche).
+  Écrire les couleurs en hexadécimal 6 chiffres. `flat(() => ...)` pour un aplat voulu. Les ombres au sol (`'rgba(20,24,50,0.2)'`) deviennent douces ; `softShadow(ctx, x, y, rx, ry, a)` en pose une sous chaque objet posé.
+- **Finition** : lancer le film avec `filmPro({ grade, fonts, hits, draw })` à la place de `M.film` (voir la fin de scenes-exemple.js).
+  `grade(u)` renvoie l'ambiance de l'instant : `{ warm }` soleil (0.3 par défaut), `{ cold }` pluie ou tristesse, `{ night }` nuit, ou `null` pour le carton de fin.
+  Faire CHANGER la lumière avec l'histoire (froid quand le héros est triste, chaud à la réconciliation) : c'est ce qui fait « cinéma ».
+- **Profondeur** dans chaque décor d'extérieur : `haze(ctx, couleurDuCiel, 0.12 à 0.3)` entre deux calques `cam()` pour éloigner le fond ;
+  `foreground(ctx, u, c, { cols })` EN DERNIER pour le feuillage flou du premier plan (`cols` = feuilles rousses en automne, `{ branch: false }` ou `{ grass: false }` pour n'en garder qu'un).
+  `bake(clé, w, h, flou, fn)` pré-rend une fois un calque flou (arbres lointains, nuages) : s'en servir pour les fonds des nouveaux décors.
+- **Lumière** : `sunRays(ctx, u, x, y, k, 'r,g,b')` (halo + rayons, coordonnées écran), `motes(ctx, u, k, 'r,g,b')` (poussières dorées, ou lucioles vertes la nuit ; dans `cam(ctx, c, 1, ...)`).
+- **Météo** : `rainFx(ctx, u, k, 'back')` derrière les personnages, `rainFx(ctx, u, k, 'front')` devant, `splashFx(ctx, u, k)` au sol (dans `cam(ctx, c, 1, ...)`).
+- **Jeu des personnages** (les 12 principes, version courte) : un élan avant chaque saut ou départ (`sq` positif 0,15 s avant), un écrasement à l'atterrissage (`sq` avec `wobble`),
+  ce qui pend suit avec retard (foulard, oreilles `droop`, queue `wag`), les yeux bougent AVANT la tête (`look` puis `tilt`), un clignement à chaque changement de regard,
+  jamais deux personnages qui font le même geste au même instant.
+- **Couleurs rgba** : écrire l'opacité avec `AL(valeur)` (`\`rgba(255,255,255,${AL(a)})\``) — une opacité négative ou en notation 1e-7 fait planter le rendu.
+- **Pas de grain** (`grain` reste à 0) : il multiplie le temps de rendu par 4 et TikTok l'efface.
+
+### Rendu final : `rendu.mjs` (remplace `render.mjs --video-only`)
+`node rendu.mjs --film <film> --workers 10` (copier rendu.mjs à côté du dossier du film, là où playwright est installé). Il capture en JPEG qualité 96 au lieu de PNG :
+avec les dégradés, l'encodage PNG prenait 0,8 s par image. Durée mesurée : à peu près celle de l'ancien rendu (flou de mouvement à 6 passes, réglé dans filmPro).
+Les images de contrôle (`--at`, `--strip`) se font toujours avec `render.mjs` du skill.
+
+## Voix du conteur (choix de l'utilisateur, 9 oct. 2026)
+Le conteur de TOUTES les vidéos est la « voix H » : moteur Supertonic 2 (`sherpa-onnx-supertonic-tts-int8-2026-03-06`), locuteur 7, en français,
+lecture lente (0.85), sans effet. `vo.py` la télécharge et l'utilise tout seul (il affiche « voix : conteurH »). Ne pas changer ces réglages.
+Licence OpenRAIL-M (usage commercial permis). Les anciennes voix restent possibles pour un essai : `VOIX=homme`, `VOIX=femme`, `VOIX=conteur11`.
+Si vo.py dit que l'histoire est trop longue, raccourcir le texte (180 à 210 mots).
 
 ## Voix des personnages (demande de l'utilisateur, 7 oct. 2026)
 Chaque personnage parle avec SA voix. Dans story.json, chaque réplique porte, en plus de `who`, le champ `voice` :

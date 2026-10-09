@@ -23,8 +23,13 @@ import os, datetime, subprocess
 from zoneinfo import ZoneInfo
 now = datetime.datetime.now(ZoneInfo("Europe/Paris"))
 slot = 0 if now.hour < 10 else 1 if now.hour < 14 else 2 if now.hour < 18 else 3
-WHO = os.environ.get("VOIX") or ("homme" if (now.timetuple().tm_yday + slot) % 2 == 0 else "femme")
-PROF = {"homme": dict(voice="vits-piper-fr_FR-upmc-medium", sid=1, speed=0.88, lo=0.85, hi=0.95, ns=0.5, nw=0.7, gap=1.25, fx="highpass=f=70,alimiter=limit=0.8"),
+# 9 oct. 2026 : l'utilisateur a choisi la « voix H » comme conteur de TOUTES les vidéos : Supertonic 2, locuteur 7, en français,
+# lecture lente (0.85). Licence OpenRAIL-M (usage commercial permis). Les anciennes restent accessibles : VOIX=homme, VOIX=femme ou VOIX=conteur11.
+WHO = os.environ.get("VOIX") or "conteurH"
+SUPER = "sherpa-onnx-supertonic-tts-int8-2026-03-06"
+PROF = {"conteurH": dict(voice=SUPER, sid=7, speed=0.85, lo=0.78, hi=0.9, ns=0, nw=0, gap=1.0, fx="highpass=f=70,alimiter=limit=0.8"),
+        "conteur11": dict(voice="vits-mms-fra", sid=0, speed=0.9, lo=0.84, hi=0.96, ns=0.55, nw=0.75, gap=1.0, fx="highpass=f=70,alimiter=limit=0.8"),
+        "homme": dict(voice="vits-piper-fr_FR-upmc-medium", sid=1, speed=0.88, lo=0.85, hi=0.95, ns=0.5, nw=0.7, gap=1.25, fx="highpass=f=70,alimiter=limit=0.8"),
         "femme": dict(voice="vits-piper-fr_FR-siwis-medium", sid=0, speed=float(sys.argv[3]) if len(sys.argv) > 3 else 0.86, lo=0.74, hi=1.0, ns=0.6, nw=0.9, gap=0.75,
                       fx="equalizer=f=210:t=q:w=1.1:g=2.5,equalizer=f=3400:t=q:w=1.4:g=-2,highshelf=f=7000:g=-3.5,aecho=0.9:0.5:38|61:0.10|0.06,alimiter=limit=0.8")}[WHO]
 print("voix :", WHO)
@@ -32,9 +37,20 @@ MODEL = MODEL.parent / PROF["voice"]
 if not MODEL.exists():
     subprocess.run(f"curl -sSL https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/{PROF['voice']}.tar.bz2 | tar xj -C '{MODEL.parent}'", shell=True, check=True)
 SID, SPEED = PROF["sid"], PROF["speed"]
-onnx = next(MODEL.glob("*.onnx"))
-tts = sherpa_onnx.OfflineTts(sherpa_onnx.OfflineTtsConfig(model=sherpa_onnx.OfflineTtsModelConfig(
-    vits=sherpa_onnx.OfflineTtsVitsModelConfig(model=str(onnx), tokens=str(MODEL / "tokens.txt"), data_dir=str(MODEL / "espeak-ng-data"), noise_scale=PROF["ns"], noise_scale_w=PROF["nw"]), num_threads=4)))
+def supertonic(d):
+    f = lambda n: str(d / n)
+    return sherpa_onnx.OfflineTts(sherpa_onnx.OfflineTtsConfig(model=sherpa_onnx.OfflineTtsModelConfig(supertonic=sherpa_onnx.OfflineTtsSupertonicModelConfig(
+        duration_predictor=f("duration_predictor.int8.onnx"), text_encoder=f("text_encoder.int8.onnx"), vector_estimator=f("vector_estimator.int8.onnx"),
+        vocoder=f("vocoder.int8.onnx"), tts_json=f("tts.json"), unicode_indexer=f("unicode_indexer.bin"), voice_style=f("voice.bin")), num_threads=4)))
+def narrate(text, speed):
+    """Le conteur : renvoie l'audio généré (samples, sample_rate), quel que soit le moteur."""
+    if PROF["voice"] == SUPER:
+        g = sherpa_onnx.GenerationConfig(); g.sid = SID; g.speed = speed; g.num_steps = 10; g.extra = {"lang": "fr"}
+        return tts.generate(text, g)
+    return tts.generate(text, sid=SID, speed=speed)
+onnx = None if PROF["voice"] == SUPER else next(MODEL.glob("*.onnx"))
+tts = supertonic(MODEL) if PROF["voice"] == SUPER else sherpa_onnx.OfflineTts(sherpa_onnx.OfflineTtsConfig(model=sherpa_onnx.OfflineTtsModelConfig(
+    vits=sherpa_onnx.OfflineTtsVitsModelConfig(model=str(onnx), tokens=str(MODEL / "tokens.txt"), data_dir=str(MODEL / "espeak-ng-data") if (MODEL / "espeak-ng-data").exists() else "", noise_scale=PROF["ns"], noise_scale_w=PROF["nw"]), num_threads=4)))
 SR = 48000
 
 
@@ -51,7 +67,7 @@ def engine(voice):
         if not d.exists():
             subprocess.run(f"curl -sSL https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/{voice}.tar.bz2 | tar xj -C '{d.parent}'", shell=True, check=True)
         ENG[voice] = sherpa_onnx.OfflineTts(sherpa_onnx.OfflineTtsConfig(model=sherpa_onnx.OfflineTtsModelConfig(
-            vits=sherpa_onnx.OfflineTtsVitsModelConfig(model=str(next(d.glob("*.onnx"))), tokens=str(d / "tokens.txt"), data_dir=str(d / "espeak-ng-data"), noise_scale=0.6, noise_scale_w=0.8), num_threads=4)))
+            vits=sherpa_onnx.OfflineTtsVitsModelConfig(model=str(next(d.glob("*.onnx"))), tokens=str(d / "tokens.txt"), data_dir=str(d / "espeak-ng-data") if (d / "espeak-ng-data").exists() else "", noise_scale=0.6, noise_scale_w=0.8), num_threads=4)))
     return ENG[voice]
 
 
@@ -66,14 +82,15 @@ def take(ph):
         x = np.interp(np.arange(0, len(x) - 1, r), np.arange(len(x)), x)
         x *= 0.25 / (np.sqrt(np.mean(x[np.abs(x) > 0.02] ** 2)) + 1e-9) * NARR_RMS / 0.25
     else:
-        a = tts.generate(spoken, sid=SID, speed=max(PROF["lo"], min(PROF["hi"], ph.get("speed", SPEED))))
+        a = narrate(spoken, max(PROF["lo"], min(PROF["hi"], ph.get("speed", SPEED) + (0 if PROF["voice"] != SUPER or "speed" not in ph else -0.04))))
         x = resample_poly(np.asarray(a.samples, dtype=np.float64), SR, a.sample_rate)
     idx = np.where(np.abs(x) > 0.02)[0]; x = x[max(idx[0] - 480, 0): idx[-1] + 3600]
     x[-2400:] *= np.linspace(1, 0, 2400)
     return x
 
 
-_r = resample_poly(np.asarray(tts.generate("Il était une fois une histoire.", sid=SID, speed=SPEED).samples, dtype=np.float64), SR, 22050)
+_a = narrate("Il était une fois une histoire.", SPEED)
+_r = resample_poly(np.asarray(_a.samples, dtype=np.float64), SR, _a.sample_rate)
 NARR_RMS = float(np.sqrt(np.mean(_r[np.abs(_r) > 0.02] ** 2)))   # les personnages parlent aussi fort que le conteur
 takes = [[take(t) for t in ph] for _, ph in SCENES]
 LEAD, GAP, TAIL, END = 1.5, PROF["gap"], 2.0, 0   # beats: before 1st phrase, between phrases, after last; END = moral card
