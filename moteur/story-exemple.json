@@ -3,10 +3,10 @@
   "id": "maison",
   "phrases": [
    {
-    "t": "Dans une petite maison au bord de la forêt, vivait un ourson qui s'appelait Miel."
+    "t": "Dans une petite maison au bord de la forêt, vit un ourson qui s'appelle Miel."
    },
    {
-    "t": "Il avait un trésor : un beau camion rouge.",
+    "t": "Il a un trésor : un beau camion rouge.",
     "speed": 0.82,
     "pre": 1.25
    }
@@ -16,7 +16,7 @@
   "id": "regle",
   "phrases": [
    {
-    "t": "Ce matin-là, maman lui dit :"
+    "t": "Ce matin, maman lui dit :"
    },
    {
     "t": "« Miel, ton amie Rosie vient jouer. Vous partagerez vos jouets. »",
@@ -30,7 +30,7 @@
   "id": "arrivee",
   "phrases": [
    {
-    "t": "Toc, toc, toc ! Rosie la petite renarde arriva.",
+    "t": "Toc, toc, toc ! Rosie, la petite renarde, arrive.",
     "speed": 0.84
    },
    {
@@ -45,7 +45,7 @@
   "id": "refus",
   "phrases": [
    {
-    "t": "Miel serra le camion contre lui.",
+    "t": "Miel serre le camion contre lui.",
     "speed": 0.8
    },
    {
@@ -60,7 +60,7 @@
   "id": "consequence",
   "phrases": [
    {
-    "t": "Rosie baissa les oreilles.",
+    "t": "Rosie baisse les oreilles.",
     "speed": 0.8
    },
    {
@@ -70,7 +70,7 @@
     "pre": 1.5
    },
    {
-    "t": "Et elle s'en alla.",
+    "t": "Et elle s'en va.",
     "speed": 0.76,
     "pre": 2.0
    }
@@ -80,11 +80,11 @@
   "id": "seul",
   "phrases": [
    {
-    "t": "Miel fit rouler son camion. Tout seul.",
+    "t": "Miel fait rouler son camion. Tout seul.",
     "speed": 0.8
    },
    {
-    "t": "Vroum… vroum… Ce n'était pas très drôle.",
+    "t": "Vroum… vroum… Ce n'est pas très drôle.",
     "speed": 0.78,
     "pre": 1.75
    }
@@ -94,10 +94,10 @@
   "id": "dehors",
   "phrases": [
    {
-    "t": "Par la fenêtre, il vit Rosie qui jouait avec un simple bâton."
+    "t": "Par la fenêtre, il voit Rosie, qui joue avec un simple bâton."
    },
    {
-    "t": "Elle riait avec les papillons.",
+    "t": "Elle rit avec les papillons.",
     "speed": 0.84,
     "pre": 1.25
    }
@@ -107,11 +107,11 @@
   "id": "malaise",
   "phrases": [
    {
-    "t": "Le cœur de Miel se serra.",
+    "t": "Le cœur de Miel se serre.",
     "speed": 0.76
    },
    {
-    "t": "Son camion était beau… mais il était bien silencieux.",
+    "t": "Son camion est beau… mais il est bien silencieux.",
     "speed": 0.78,
     "pre": 1.75
    }
@@ -121,7 +121,7 @@
   "id": "sage",
   "phrases": [
    {
-    "t": "Papi Blaireau passait par là."
+    "t": "Papi Blaireau passe par là."
    },
    {
     "t": "« Un jouet partagé, petit, c'est deux fois plus de joie. »",
@@ -135,11 +135,11 @@
   "id": "course",
   "phrases": [
    {
-    "t": "Alors Miel prit son camion…",
+    "t": "Alors Miel prend son camion…",
     "speed": 0.8
    },
    {
-    "t": "et courut dehors !",
+    "t": "et il court dehors !",
     "speed": 0.88,
     "pre": 1.5
    }
@@ -154,7 +154,7 @@
     "speed": 0.8
    },
    {
-    "t": "Rosie fit un grand sourire.",
+    "t": "Rosie fait un grand sourire.",
     "speed": 0.84,
     "pre": 1.75
    }
@@ -164,10 +164,10 @@
   "id": "jeu",
   "phrases": [
    {
-    "t": "Ils jouèrent ensemble tout l'après-midi."
+    "t": "Ils jouent ensemble tout l'après-midi."
    },
    {
-    "t": "Le camion transportait des cailloux, des fleurs… et même des papillons !",
+    "t": "Le camion transporte des cailloux, des fleurs… et même des papillons !",
     "speed": 0.86,
     "pre": 1.0
    },

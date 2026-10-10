@@ -44,11 +44,23 @@ L'utilisateur a jugé l'ancien rendu en aplats « pas haut de gamme ». Le moteu
 avec les dégradés, l'encodage PNG prenait 0,8 s par image. Durée mesurée : à peu près celle de l'ancien rendu (flou de mouvement à 6 passes, réglé dans filmPro).
 Les images de contrôle (`--at`, `--strip`) se font toujours avec `render.mjs` du skill.
 
-## Voix du conteur (choix de l'utilisateur, 9 oct. 2026)
-Le conteur de TOUTES les vidéos est la « voix H » : moteur Supertonic 2 (`sherpa-onnx-supertonic-tts-int8-2026-03-06`), locuteur 7, en français,
-lecture lente (0.85), sans effet. `vo.py` la télécharge et l'utilise tout seul (il affiche « voix : conteurH »). Ne pas changer ces réglages.
-Licence OpenRAIL-M (usage commercial permis). Les anciennes voix restent possibles pour un essai : `VOIX=homme`, `VOIX=femme`, `VOIX=conteur11`.
-Si vo.py dit que l'histoire est trop longue, raccourcir le texte (180 à 210 mots).
+## Texte : TOUJOURS au présent (demande répétée de l'utilisateur, 10-11 oct. 2026) — PRIORITAIRE
+Le conteur raconte au PRÉSENT de l'indicatif, comme si l'histoire se passait maintenant sous les yeux de l'enfant.
+- INTERDIT : le passé simple (« arriva », « prit », « dit-il », « jouèrent », « s'en alla ») et l'imparfait de narration (« vivait », « était », « passait »).
+- À écrire : « Rosie arrive. », « Miel serre son camion. », « Ils jouent ensemble. ». Le passé composé reste permis pour un fait déjà terminé (« Elle a perdu son nœud. »).
+- Relis story.json avant de lancer vo.py : aucune phrase du conteur ne doit contenir un verbe au passé simple.
+- Ponctuation soignée : une virgule là où le conteur doit respirer, un point à la fin de chaque idée. vo.py met un vrai silence à chaque virgule, point-virgule et deux-points.
+- Phrases simples, mots courants, pas de mots rares ni d'onomatopées longues dans la bouche du conteur (la voix les prononce mal).
+
+## Voix du conteur (choix de l'utilisateur, 9 oct. 2026 ; réglée le 11 oct. 2026)
+Le conteur de TOUTES les vidéos est la « voix H » : moteur Supertonic 2 (`sherpa-onnx-supertonic-tts-int8-2026-03-06`), locuteur 7, en français.
+`vo.py` la télécharge et l'utilise tout seul (il affiche « voix : conteurH »). Ne pas changer ces réglages. Licence OpenRAIL-M (usage commercial permis).
+L'utilisateur lui reprochait de parler trop vite, d'oublier des mots et de ne pas marquer la ponctuation. `vo.py` corrige cela tout seul :
+débit lent (0.8), silence réel à chaque virgule / point-virgule / deux-points, et chaque morceau est réécouté par reconnaissance vocale (Whisper, téléchargé tout seul, environ 640 Mo)
+puis redit jusqu'à ce qu'aucun mot ne manque. À la fin, vo.py affiche « contrôle des mots du conteur » et la liste des morceaux encore imparfaits :
+réécris ces phrases plus simplement (mots courants, pas d'exclamation isolée) et relance vo.py une fois. Compter 3 à 5 minutes pour vo.py.
+Les anciennes voix restent possibles pour un essai : `VOIX=homme`, `VOIX=femme`, `VOIX=conteur11`.
+Si vo.py dit que l'histoire est trop longue, raccourcir le texte (170 à 200 mots : la voix est plus lente qu'avant).
 
 ## Voix des personnages (demande de l'utilisateur, 7 oct. 2026)
 Chaque personnage parle avec SA voix. Dans story.json, chaque réplique porte, en plus de `who`, le champ `voice` :
