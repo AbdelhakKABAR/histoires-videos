@@ -1,0 +1,20 @@
+[
+ {
+  "t": "Depuis ce jour, Pico et Plume jouent ensemble.",
+  "voice": "conteur",
+  "who": "",
+  "at": 0.4
+ },
+ {
+  "t": "Attrape-moi, Pico !",
+  "voice": "fille",
+  "who": "oisillon",
+  "at": 4.9
+ },
+ {
+  "t": "J'arrive !",
+  "voice": "garcon",
+  "who": "herisson",
+  "at": 7.4
+ }
+]

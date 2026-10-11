@@ -1,0 +1,32 @@
+[
+ {
+  "t": "Mais un soir, la nuit tombe très vite. Plume a peur du noir.",
+  "voice": "conteur",
+  "who": "",
+  "at": 0.5
+ },
+ {
+  "t": "N'aie pas peur, j'ai ma lanterne !",
+  "voice": "garcon",
+  "who": "herisson",
+  "at": 8.2
+ },
+ {
+  "t": "Oh, c'est joli !",
+  "voice": "fille",
+  "who": "oisillon",
+  "at": 11.5
+ },
+ {
+  "t": "Les lucioles s'allument, une à une.",
+  "voice": "conteur",
+  "who": "",
+  "at": 14.2
+ },
+ {
+  "t": "Un ami, c'est une lumière dans la nuit.",
+  "voice": "conteur",
+  "who": "",
+  "at": 22.4
+ }
+]

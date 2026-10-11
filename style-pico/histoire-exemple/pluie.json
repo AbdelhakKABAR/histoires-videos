@@ -1,0 +1,26 @@
+[
+ {
+  "t": "Il pleut sur la forêt. Plume, le petit oiseau, grelotte sur son tronc.",
+  "voice": "conteur",
+  "who": "",
+  "at": 0.5
+ },
+ {
+  "t": "Viens sous ma feuille !",
+  "voice": "garcon",
+  "who": "herisson",
+  "at": 8.3
+ },
+ {
+  "t": "Oh, merci Pico !",
+  "voice": "fille",
+  "who": "oisillon",
+  "at": 11.3
+ },
+ {
+  "t": "La pluie s'arrête, et le soleil revient.",
+  "voice": "conteur",
+  "who": "",
+  "at": 13.3
+ }
+]
