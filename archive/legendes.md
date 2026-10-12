@@ -33,3 +33,12 @@ Pouf ! Le vent fait tomber le bonhomme de neige de Luna… et elle se fâche tr�
 
 #histoirepourenfants #contepourenfants #histoiredusoir #dessinanime #enfants #parents #pourtoi #louve #colere #respirer
 ```
+
+## histoire_flamant_rose_20261012_20.mp4
+Rubis et Perle : la fête de l'étang
+
+```
+Le nénuphar penche, le gâteau glisse vers l'eau… Qui va le rattraper à temps ? 🦩🐸
+
+#histoirepourenfants #contepourenfants #histoiredusoir #dessinanime #enfants #parents #pourtoi #flamantrose #politesse #bonnesmanieres
+```
