@@ -17,8 +17,28 @@ SUPER = "sherpa-onnx-supertonic-tts-int8-2026-03-06"; MODEL = VD / SUPER; PROF =
 # voix 7 (Supertonic 6, homme) quand le héros est un garçon. 3e argument : 3 ou 7 (par défaut 3).
 NARR = sys.argv[3] if len(sys.argv) > 3 else "3"; SID = {"3": 2, "7": 6}[NARR]
 # Personnages = voix d'ENFANTS (demande de l'utilisateur du 12 oct. 2026) : une voix Supertonic dite plus lentement puis
-# accélérée d'un facteur r, ce qui monte la hauteur sans changer le débit. fille : Supertonic 1 (r 1.18), garcon : Supertonic 4 (r 1.38).
-SUPCAST = {"fille": (1, 1.18, 0.95), "garcon": (4, 1.38, 0.95)}
+# accélérée d'un facteur r. Mesuré le 12 oct. 2026 (reconnaissance vocale sur 58 mots) : monter la hauteur rend les mots flous
+# (9 à 13 mots perdus), alors que les deux voix les plus claires et les plus jeunes, sans changement et coupées à chaque
+# ! ? . , n'en perdent que 2 ou 3. Donc : fille = Supertonic 1, garcon = Supertonic 0, r = 1 (pas de changement de hauteur),
+# débit 0.75 (plus lent que le conteur : « trop rapide, on ne comprend pas »), un silence après chaque morceau, et chaque
+# morceau réécouté par Whisper jusqu'à 5 prises : on garde la première où aucun mot ne manque.
+SUPCAST = {"fille": (1, 1.0, 0.75), "garcon": (0, 1.0, 0.75)}
+def child(text, sid, r, sp):
+    out = []; sr = 44100
+    for part in [p for p in re.split(r"(?<=[!?.,;:])\s+", text.strip()) if p]:
+        pause = 0.3; best = None
+        for k in range(5):
+            g = sherpa_onnx.GenerationConfig(); g.sid = sid; g.speed = sp / r; g.num_steps = 16; g.extra = {"lang": "fr"}
+            a = tts.generate(part, g); x = np.asarray(a.samples, dtype=np.float64); sr = a.sample_rate
+            x = np.interp(np.arange(0, len(x) - 1, r), np.arange(len(x)), x); m = missing(part, x, sr); VERIF["prises"] += 1
+            if best is None or m < best[0]: best = (m, x)
+            if m == 0: break
+            VERIF["refaites"] += 1
+        if best[0]: VERIF["restent"].append(part)
+        x = best[1]; idx = np.where(np.abs(x) > 0.02 * np.max(np.abs(x)))[0]
+        if len(idx): x = x[max(idx[0] - 400, 0): idx[-1] + 1800]
+        out += [x, np.zeros(int(sr * pause))]
+    return np.concatenate(out), sr
 CAST = {
         "homme": ("vits-piper-fr_FR-upmc-medium", 1, 1.0, 0.92), "femme": ("vits-piper-fr_FR-siwis-medium", 0, 1.0, 0.9)}
 for name in [SUPER] + sorted({v[0] for v in CAST.values()}):
@@ -33,8 +53,7 @@ dur = json.loads((FILM / "film.json").read_text())["duration"]; N = int(dur * SR
 for ln in json.loads((FILM / "story.json").read_text()):
     if ln["voice"] == "conteur": a = narrate(ln["t"], 0.82); x = resample_poly(np.asarray(a.samples, dtype=np.float64), SR, a.sample_rate)
     elif ln["voice"] in SUPCAST:
-        sid, r, sp = SUPCAST[ln["voice"]]; g = sherpa_onnx.GenerationConfig(); g.sid = sid; g.speed = sp / r; g.num_steps = 16; g.extra = {"lang": "fr"}
-        a = tts.generate(ln["t"], g); x = resample_poly(np.asarray(a.samples, dtype=np.float64), SR, a.sample_rate); x = np.interp(np.arange(0, len(x) - 1, r), np.arange(len(x)), x)
+        x, sr0 = child(ln["t"], *SUPCAST[ln["voice"]]); x = resample_poly(x, SR, sr0)
     else:
         v, sid, r, sp = CAST[ln["voice"]]; a = piper(v).generate(ln["t"], sid=sid, speed=sp / r)
         x = resample_poly(np.asarray(a.samples, dtype=np.float64), SR, a.sample_rate); x = np.interp(np.arange(0, len(x) - 1, r), np.arange(len(x)), x)
