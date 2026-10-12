@@ -11,7 +11,7 @@ Ce dossier contient cette vidéo complète, prête à être rendue, pour servir 
 - **Jeu des personnages** : élan avant le saut, écrasement à l'atterrissage (`sq`, `wobble`), ce qui pend suit avec retard (écharpe, piquants, feuille), regard qui précède le geste, clignements, bouche calée sur la voix (`mouth`).
 - **Météo et lumière** : pluie sur deux profondeurs, éclaboussures, brume, rayons, poussières, lucioles, reflet dans la mare, vignette.
 - **Sous-titres** : mots blancs à contour sombre qui s'allument un par un (`subs`), couleur différente quand un personnage parle. Morale en grand à la fin, puis « Fin ».
-- **Récit au présent**, voix H lente pour le conteur, une voix par personnage, aucune musique (bruits seulement).
+- **Récit au présent**, conteur = voix 1 (Supertonic 0, femme douce, lente), filles = voix 3 (Supertonic 2), garçons = voix 7 (Supertonic 6) — choix de l'utilisateur du 12 oct. 2026, aucune musique (bruits seulement).
 
 ## Fichiers
 - `exemple-pluie.js`, `exemple-jeu.js`, `exemple-nuit.js` : les trois parties de « Pico et Plume » (chacune est un `film.js` complet et autonome).
