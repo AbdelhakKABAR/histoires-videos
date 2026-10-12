@@ -40,3 +40,8 @@ Ce dossier contient cette vidéo complète, prête à être rendue, pour servir 
 
 ## Limite connue
 Ces dessins sont faits par code. L'utilisateur préfère encore le style « peint » d'images générées par IA, mais elles ne peuvent pas être téléchargées dans les sessions (accès réseau refusé vers Figma) : ne pas tenter de générer des images.
+
+## Version « premium, une seule voix » (essai du 12 oct. 2026)
+- `premium.js` : passe appliquée une fois par image après le flou de mouvement (halo lumineux, reflet anamorphique sur le soleil, bokeh, voile de lumière chaude, contraste et vignette de cinéma, carton-titre doré « Pico & Plume » dans la partie 1).
+- `patch_premium.py` : branche cette passe sur les trois parties (ajoute `post` à `lib/motion.js`), coupe les bouches des personnages (seul le conteur parle) et adoucit les sous-titres.
+- Version avec une seule voix : toutes les lignes de story.json ont `"voice": "conteur"` (le conteur lit aussi les répliques), `voix.py … 7`.
