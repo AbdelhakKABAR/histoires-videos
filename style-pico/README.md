@@ -11,7 +11,7 @@ Ce dossier contient cette vidéo complète, prête à être rendue, pour servir 
 - **Jeu des personnages** : élan avant le saut, écrasement à l'atterrissage (`sq`, `wobble`), ce qui pend suit avec retard (écharpe, piquants, feuille), regard qui précède le geste, clignements, bouche calée sur la voix (`mouth`).
 - **Météo et lumière** : pluie sur deux profondeurs, éclaboussures, brume, rayons, poussières, lucioles, reflet dans la mare, vignette.
 - **Sous-titres** : mots blancs à contour sombre qui s'allument un par un (`subs`), couleur différente quand un personnage parle. Morale en grand à la fin, puis « Fin ».
-- **Récit au présent**, conteur = voix 1 (Supertonic 0, femme douce, lente), filles = voix 3 (Supertonic 2), garçons = voix 7 (Supertonic 6) — choix de l'utilisateur du 12 oct. 2026, aucune musique (bruits seulement).
+- **Récit au présent**, conteur = voix 3 (Supertonic 2) si l'héroïne est une fille, voix 7 (Supertonic 6) si le héros est un garçon (3e argument de voix.py), personnages = voix d'enfants (fille : Supertonic 1 aiguë, garçon : Supertonic 4 aiguë) — choix de l'utilisateur du 12 oct. 2026, aucune musique (bruits seulement).
 
 ## Fichiers
 - `exemple-pluie.js`, `exemple-jeu.js`, `exemple-nuit.js` : les trois parties de « Pico et Plume » (chacune est un `film.js` complet et autonome).
@@ -19,7 +19,7 @@ Ce dossier contient cette vidéo complète, prête à être rendue, pour servir 
   - `exemple-jeu.js` : même décor au soleil ; `ACT(t, tr)` écrit un jeu nouveau (l'oiseau vole en rond, le hérisson le suit des yeux et saute) : c'est l'exemple à suivre pour écrire une action.
   - `exemple-nuit.js` : la nuit (ciel, lune, étoiles, voile bleu en `multiply`), `lantern()`, lucioles en `lighter`, morale en grand et « Fin ».
 - `histoire-exemple/*.json` : le texte de chaque partie, avec la seconde de départ de chaque phrase (`at`).
-- `voix.py` : `uv run voix.py <partie> <dossier des voix>` → `audio/vo.wav` + `timeline.js`. Affiche le début et la fin de chaque phrase et signale les chevauchements.
+- `voix.py` : `uv run voix.py <partie> <dossier des voix> 3|7` → `audio/vo.wav` + `timeline.js`. Affiche le début et la fin de chaque phrase et signale les chevauchements.
 - `ambiance.py` : `uv run ambiance.py <partie> pluie|jour|nuit` → `audio/music.wav` (bruits seulement). À adapter : les instants des pas et des battements d'ailes y sont écrits en dur.
 - `assemble.sh` : `./assemble.sh p1 p2 p3 sortie.mp4` → la vidéo finale (fondu de 0,4 s entre les parties, moins de 28 Mo).
 

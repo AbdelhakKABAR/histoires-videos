@@ -2,9 +2,9 @@
 # requires-python = ">=3.10"
 # dependencies = ["sherpa-onnx", "numpy", "soundfile", "scipy"]
 # ///
-"""Voix d'une partie du film : uv run voix.py <partie> <dossier des voix>
+"""Voix d'une partie du film : uv run voix.py <partie> <dossier des voix> [3|7]
 story.json = [{"t": texte, "voice": "conteur" | "garcon" | "fille" | "homme" | "femme", "who": "" ou nom du personnage, "at": seconde de départ}, ...]
-Conteur = voix 1 (Supertonic 0) lente, vérifiée mot à mot (fonctions de moteur/vo.py) ; personnages = voix piper. -> audio/vo.wav + timeline.js (phrases + enveloppe des bouches).
+Conteur = voix 3 ou 7 (3e argument) lente, vérifiée mot à mot (fonctions de moteur/vo.py) ; personnages = voix piper. -> audio/vo.wav + timeline.js (phrases + enveloppe des bouches).
 Le script affiche t0/t1 de chaque phrase : règle les "at" pour qu'aucune phrase n'en chevauche une autre, puis relance."""
 import json, subprocess, sys
 from pathlib import Path
@@ -12,9 +12,13 @@ import numpy as np, soundfile as sf, sherpa_onnx
 from scipy.signal import resample_poly
 FILM = Path(sys.argv[1]); VD = Path(sys.argv[2]).resolve(); SR = 48000
 src = (Path(__file__).resolve().parent.parent / "moteur" / "vo.py").read_text()   # le conteur vérifié (voix H) vient de moteur/vo.py
-SUPER = "sherpa-onnx-supertonic-tts-int8-2026-03-06"; MODEL = VD / SUPER; PROF = {"voice": SUPER}; SID = 0   # conteur = voix 1 (Supertonic 0, femme douce), choix de l'utilisateur du 12 oct. 2026
-# personnages (choix de l'utilisateur du 12 oct. 2026) : fille = voix 3 (Supertonic 2), garcon = voix 7 (Supertonic 6)
-SUPCAST = {"fille": (2, 0.9), "garcon": (6, 0.9)}
+SUPER = "sherpa-onnx-supertonic-tts-int8-2026-03-06"; MODEL = VD / SUPER; PROF = {"voice": SUPER}
+# Conteur (choix de l'utilisateur du 12 oct. 2026) : voix 3 (Supertonic 2, femme) quand l'héroïne est une fille,
+# voix 7 (Supertonic 6, homme) quand le héros est un garçon. 3e argument : 3 ou 7 (par défaut 3).
+NARR = sys.argv[3] if len(sys.argv) > 3 else "3"; SID = {"3": 2, "7": 6}[NARR]
+# Personnages = voix d'ENFANTS (demande de l'utilisateur du 12 oct. 2026) : une voix Supertonic dite plus lentement puis
+# accélérée d'un facteur r, ce qui monte la hauteur sans changer le débit. fille : Supertonic 1 (r 1.18), garcon : Supertonic 4 (r 1.38).
+SUPCAST = {"fille": (1, 1.18, 0.95), "garcon": (4, 1.38, 0.95)}
 CAST = {
         "homme": ("vits-piper-fr_FR-upmc-medium", 1, 1.0, 0.92), "femme": ("vits-piper-fr_FR-siwis-medium", 0, 1.0, 0.9)}
 for name in [SUPER] + sorted({v[0] for v in CAST.values()}):
@@ -29,8 +33,8 @@ dur = json.loads((FILM / "film.json").read_text())["duration"]; N = int(dur * SR
 for ln in json.loads((FILM / "story.json").read_text()):
     if ln["voice"] == "conteur": a = narrate(ln["t"], 0.82); x = resample_poly(np.asarray(a.samples, dtype=np.float64), SR, a.sample_rate)
     elif ln["voice"] in SUPCAST:
-        sid, sp = SUPCAST[ln["voice"]]; g = sherpa_onnx.GenerationConfig(); g.sid = sid; g.speed = sp; g.num_steps = 16; g.extra = {"lang": "fr"}
-        a = tts.generate(ln["t"], g); x = resample_poly(np.asarray(a.samples, dtype=np.float64), SR, a.sample_rate)
+        sid, r, sp = SUPCAST[ln["voice"]]; g = sherpa_onnx.GenerationConfig(); g.sid = sid; g.speed = sp / r; g.num_steps = 16; g.extra = {"lang": "fr"}
+        a = tts.generate(ln["t"], g); x = resample_poly(np.asarray(a.samples, dtype=np.float64), SR, a.sample_rate); x = np.interp(np.arange(0, len(x) - 1, r), np.arange(len(x)), x)
     else:
         v, sid, r, sp = CAST[ln["voice"]]; a = piper(v).generate(ln["t"], sid=sid, speed=sp / r)
         x = resample_poly(np.asarray(a.samples, dtype=np.float64), SR, a.sample_rate); x = np.interp(np.arange(0, len(x) - 1, r), np.arange(len(x)), x)
