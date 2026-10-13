@@ -15,5 +15,5 @@ const GY0 = 1240, gy = (x) => GY0 + 7 * Math.sin(x / 230);
 const RS = 1.08, KS = 1.05;
 '''
 K = '// ---------------------------------------------------------------- '
-out = head + sl(K + 'kit', K + 'layers') + sl(K + 'layers', K + 'the laundry') + sl('function sock(', 'function dress(') + sl(K + 'Prune, the kangaroo', K + 'performances') + open(os.path.join(D, 'quiz-body.js')).read()
+out = head + sl(K + 'kit', K + 'layers') + sl(K + 'layers', K + 'the laundry') + sl('function sock(', 'function dress(') + sl(K + 'Prune, the kangaroo', K + 'performances') + open(os.path.join(D, 'hosts-extra.js')).read() + open(os.path.join(D, 'quiz-body.js')).read()
 open(sys.argv[1], 'w').write(out)

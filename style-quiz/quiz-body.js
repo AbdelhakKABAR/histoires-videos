@@ -155,7 +155,7 @@ function readAlong(ctx, ph, tr, y0) {
 // ---------------------------------------------------------------- the hosts
 function hosts(ctx, tr, st) {
   const qz0 = QZ[0].q0 - 0.45, qEnd = QZ[NQ - 1].end, toCorner = sm((tr - (qz0 - 0.3)) / 0.8), toCenter = sm((tr - qEnd) / 0.8);
-  const big = 1 - toCorner + toCenter, scR = lerp(0.58, 0.95, big), scK = lerp(0.56, 0.92, big);
+  const big = 1 - toCorner + toCenter, scR = lerp(PAIR.sL[0], PAIR.sL[1], big), scK = lerp(PAIR.sR[0], PAIR.sR[1], big);
   const rx = lerp(150, 330, big), kx = lerp(935, 760, big), gyH = lerp(1492, 1460, big);
   let tlk = false; for (const p of TL.phrases) if (tr > p.t0 - 0.05 && tr < p.t1 + 0.1) tlk = true;
   let think = 0, cheer = 0, ci = -1;
@@ -173,7 +173,7 @@ function hosts(ctx, tr, st) {
   const ks = { x: kx, y: gyH, air: kAir, sq: ksq, dir: -1, lean: think * 0.05 * Math.sin(tr * 2.3 + 1) + 0.02 * Math.sin(tr * 1.1),
     lookX: think ? -0.5 * Math.sin(tr * 1.2) : -0.6, lookY: think ? -0.8 : -0.5, blink: blinkAt((tr + 2.1) % 5.7, [1.2, 3.9]), happy: cheer || st.k !== 'q' ? 1 : 0, wide: think ? 0.3 : 0, mood: 1,
     talk: 0, point: think ? 0.35 + 0.1 * Math.sin(tr * 5) : cheer ? 1 : 0, hold: cheer ? 0.9 : 0.3, t: tr, trail: kAir > 0 ? 1 : 0.4, jig: ksq };
-  roo(ctx, rs.x, rs.y, scR, rs); koala(ctx, ks.x, ks.y, scK, ks);
+  PAIR.L(ctx, rs.x, rs.y, scR, rs); PAIR.R(ctx, ks.x, ks.y, scK, ks);
   // little thinking dots over Tilou while the clock runs
   if (think) for (let d = 0; d < 3; d++) { const a = 0.5 + 0.5 * Math.sin(tr * 5 - d * 0.9); ball(ctx, kx - 105 - d * 30, gyH - 225 - d * 16, 11 + d * 3, 11 + d * 3, '#FFFFFF', '#F0F2FA', '#C0C8E0'); ctx.globalAlpha = 1 - a * 0.5; ctx.globalAlpha = 1; }
 }

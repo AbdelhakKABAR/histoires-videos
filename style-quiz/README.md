@@ -37,3 +37,8 @@ Hôtes : Prune la kangourou (elle parle, voix 3) et Tilou le koala. Décor de la
 ## Corrections (13 oct. 2026, demande de l'utilisateur)
 - Titre à l'écran : « Les grandes questions » (pas « quiz »). Fin : « Bravo ! Abonnez-vous pour plus de questions ! »
 - Intro en deux phrases, lue plus lentement (vitesse 0.75, champ "intro_speed"), 0,6 s de silence entre les deux. Fin à 0.85. Durée ≈ 40 s.
+
+## Changer de personnages (demande de l'utilisateur du 13 oct. 2026 : « des fois change les personnages »)
+Champ "hosts" de l'épisode : "prune-tilou" (kangourou + koala, par défaut) ou "lulu-bouba" (Lulu la lapine, qui parle, + Bouba l'ourson).
+Les dessins sont dans hosts-extra.js (table HOSTPAIRS) : pour un nouveau duo, dessiner deux fonctions sur ce modèle et les ajouter à la table.
+Alterner les duos d'un épisode à l'autre.
