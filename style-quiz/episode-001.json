@@ -1,0 +1,247 @@
+{
+ "title": "Le grand quiz de Prune",
+ "intro": "Bonjour les amis ! Voici le grand quiz. Dix questions, et cinq secondes pour réfléchir. C'est parti !",
+ "outro": "Bravo ! Combien de bonnes réponses as-tu trouvées ? À bientôt pour un nouveau quiz !",
+ "questions": [
+  {
+   "q": "Quel animal fait meuh ?",
+   "show": "🐮",
+   "a": [
+    [
+     "🐶",
+     "Le chien"
+    ],
+    [
+     "🐱",
+     "Le chat"
+    ],
+    [
+     "🐄",
+     "La vache"
+    ],
+    [
+     "🐑",
+     "Le mouton"
+    ]
+   ],
+   "ok": 2,
+   "say": "C'est la vache !"
+  },
+  {
+   "q": "De quelle couleur est la banane ?",
+   "show": "🍌",
+   "a": [
+    [
+     "🟡",
+     "Jaune"
+    ],
+    [
+     "🔵",
+     "Bleu"
+    ],
+    [
+     "🔴",
+     "Rouge"
+    ],
+    [
+     "🟢",
+     "Vert"
+    ]
+   ],
+   "ok": 0,
+   "say": "Jaune, bien sûr !"
+  },
+  {
+   "q": "Combien y a-t-il de pommes ?",
+   "show": "🍎🍎🍎",
+   "a": [
+    [
+     "",
+     "2"
+    ],
+    [
+     "",
+     "3"
+    ],
+    [
+     "",
+     "4"
+    ],
+    [
+     "",
+     "5"
+    ]
+   ],
+   "ok": 1,
+   "say": "Il y a trois pommes !"
+  },
+  {
+   "q": "Quel animal vit dans la mer ?",
+   "show": "🌊",
+   "a": [
+    [
+     "🐘",
+     "L'éléphant"
+    ],
+    [
+     "🐔",
+     "La poule"
+    ],
+    [
+     "🐰",
+     "Le lapin"
+    ],
+    [
+     "🐬",
+     "Le dauphin"
+    ]
+   ],
+   "ok": 3,
+   "say": "C'est le dauphin !"
+  },
+  {
+   "q": "Que dit-on quand on reçoit un cadeau ?",
+   "show": "🎁",
+   "a": [
+    [
+     "🙏",
+     "Merci"
+    ],
+    [
+     "👋",
+     "Au revoir"
+    ],
+    [
+     "🌙",
+     "Bonne nuit"
+    ],
+    [
+     "🍽️",
+     "Bon appétit"
+    ]
+   ],
+   "ok": 0,
+   "say": "On dit merci !"
+  },
+  {
+   "q": "Lequel est un fruit ?",
+   "show": "🧺",
+   "a": [
+    [
+     "🥕",
+     "La carotte"
+    ],
+    [
+     "🥦",
+     "Le brocoli"
+    ],
+    [
+     "🍓",
+     "La fraise"
+    ],
+    [
+     "🧀",
+     "Le fromage"
+    ]
+   ],
+   "ok": 2,
+   "say": "C'est la fraise !"
+  },
+  {
+   "q": "Quel animal a une longue trompe ?",
+   "show": "🌴",
+   "a": [
+    [
+     "🦒",
+     "La girafe"
+    ],
+    [
+     "🦁",
+     "Le lion"
+    ],
+    [
+     "🐻",
+     "L'ours"
+    ],
+    [
+     "🐘",
+     "L'éléphant"
+    ]
+   ],
+   "ok": 3,
+   "say": "C'est l'éléphant !"
+  },
+  {
+   "q": "Combien de pattes a un chat ?",
+   "show": "🐈",
+   "a": [
+    [
+     "",
+     "2"
+    ],
+    [
+     "",
+     "4"
+    ],
+    [
+     "",
+     "6"
+    ],
+    [
+     "",
+     "8"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le chat a quatre pattes !"
+  },
+  {
+   "q": "Avec quoi se brosse-t-on les dents ?",
+   "show": "🦷",
+   "a": [
+    [
+     "🥄",
+     "Une cuillère"
+    ],
+    [
+     "🖍️",
+     "Un crayon"
+    ],
+    [
+     "🪥",
+     "Une brosse"
+    ],
+    [
+     "🧦",
+     "Une chaussette"
+    ]
+   ],
+   "ok": 2,
+   "say": "Avec une brosse à dents !"
+  },
+  {
+   "q": "Qui est le bébé de la poule ?",
+   "show": "🐔",
+   "a": [
+    [
+     "🐣",
+     "Le poussin"
+    ],
+    [
+     "🐷",
+     "Le cochon"
+    ],
+    [
+     "🐸",
+     "La grenouille"
+    ],
+    [
+     "🦊",
+     "Le renard"
+    ]
+   ],
+   "ok": 0,
+   "say": "C'est le poussin !"
+  }
+ ]
+}
