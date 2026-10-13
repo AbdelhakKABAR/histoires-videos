@@ -1,0 +1,11 @@
+{
+ "title": "Le quiz de Prune",
+ "outro": "Bravo !",
+ "questions": [
+  {"q": "Qui fait meuh ?", "show": "🐮", "a": [["🐶","Le chien"],["🐱","Le chat"],["🐄","La vache"],["🐑","Le mouton"]], "ok": 2, "say": "La vache !"},
+  {"q": "Quel fruit est jaune ?", "show": "🟡", "a": [["🍌","La banane"],["🍓","La fraise"],["🍇","Le raisin"],["🍏","La pomme"]], "ok": 0, "say": "La banane !"},
+  {"q": "Combien de pommes ?", "show": "🍎🍎🍎", "a": [["","2"],["","3"],["","4"],["","5"]], "ok": 1, "say": "Trois !"},
+  {"q": "Qui vit dans la mer ?", "show": "🌊", "a": [["🐘","L'éléphant"],["🐔","La poule"],["🐰","Le lapin"],["🐬","Le dauphin"]], "ok": 3, "say": "Le dauphin !"},
+  {"q": "Que dit-on pour un cadeau ?", "show": "🎁", "a": [["👋","Au revoir"],["🙏","Merci"],["🌙","Bonne nuit"],["🍽️","Bon appétit"]], "ok": 1, "say": "Merci !"}
+ ]
+}

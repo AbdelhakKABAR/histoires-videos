@@ -7,7 +7,9 @@ const CARD = { w: 470, h: 262, x: [52, 558], y: [660, 948] };
 const CCOL = [['#FF9A8A', '#F0605A', '#B83A3A'], ['#8FD0FF', '#4A9FE8', '#2A64B0'], ['#9BE8B0', '#45BE72', '#2A8048'], ['#FFE07A', '#F5B83A', '#C0801A']];
 const LET = ['A', 'B', 'C', 'D'];
 const STAGE = (tr) => { if (tr < QZ[0].q0 - 0.45) return { k: 'intro' }; for (let i = 0; i < NQ; i++) if (tr < QZ[i].end) return { k: 'q', i, s: QZ[i] }; return { k: 'outro' }; };
-const sayFrac = (s, k) => s.a0 + (s.a1 - s.a0) * (k / 4) * 0.92;   // when the k-th answer is spoken (approx.)
+// when the k-th card pops: with the spoken answer (long format) or quickly during the question (short format, answers not read)
+const sayFrac = (s, k) => (s.a0 === s.q0 ? s.q0 + 0.12 + k * 0.17 : s.a0 + (s.a1 - s.a0) * (k / 4) * 0.92);
+const WAITOF = (s) => s.c1 - s.c0;
 
 // sound on every visible accent (beat = 2 × seconds)
 const HITS = [];
@@ -15,7 +17,7 @@ HITS.push([2 * 0.3, 'title', 'swell', { gain: 0.12 }]);
 QZ.forEach((s, i) => {
   HITS.push([2 * (s.q0 - 0.4), 'slide in', 'whoosh', { len: 0.35, gain: 0.1, from: 600, to: 2000 }]);
   for (let k = 0; k < 4; k++) HITS.push([2 * sayFrac(s, k), 'card ' + k, 'pop', { pitch: ['C6', 'D6', 'E6', 'G6'][k], gain: 0.16 }]);
-  for (let k = 0; k < 5; k++) HITS.push([2 * (s.c0 + k), 'tick', 'tick', { gain: k === 4 ? 0.34 : 0.26 }]);
+  const nw = Math.round(WAITOF(s)); for (let k = 0; k < nw; k++) HITS.push([2 * (s.c0 + k), 'tick', 'tick', { gain: k === nw - 1 ? 0.34 : 0.26 }]);
   HITS.push([2 * s.c1, 'reveal', 'bell', { pitch: 'E6', gain: 0.18 }], [2 * (s.c1 + 0.08), 'reveal', 'bell', { pitch: 'B6', gain: 0.12 }], [2 * (s.c1 + 0.12), 'confetti', 'pop', { pitch: 'A6', gain: 0.14 }]);
 });
 HITS.push([2 * (QZ[NQ - 1].end + 0.2), 'bravo', 'swell', { gain: 0.14 }], [2 * (QZ[NQ - 1].end + 0.5), 'stars', 'bell', { pitch: 'G6', gain: 0.14 }]);
@@ -106,14 +108,14 @@ function card(ctx, idx, q, s, tr) {
 }
 
 function countdown(ctx, s, tr) {
-  const p = (tr - s.c0) / 5, inn = spring(tr - s.c0 + 0.1, SPRING.bouncy), out = 1 - sm((tr - s.c1) / 0.25);
+  const WT = WAITOF(s), p = (tr - s.c0) / WT, inn = spring(tr - s.c0 + 0.1, SPRING.bouncy), out = 1 - sm((tr - s.c1) / 0.25);
   if (p < -0.05 || out <= 0.01) return;
-  const cx = W / 2, cy = 932, n = Math.max(1, 5 - Math.floor(clamp(p, 0, 0.999) * 5)), sub = (clamp(p) * 5) % 1;
+  const cx = W / 2, cy = 932, n = Math.max(1, WT - Math.floor(clamp(p, 0, 0.999) * WT)), sub = (clamp(p) * WT) % 1;
   ctx.save(); ctx.translate(cx, cy); ctx.scale(inn * out, inn * out);
   ball(ctx, 0, 0, 86, 86, '#FFFFFF', '#F2F4FF', '#C6CCE8');
-  ctx.beginPath(); ctx.arc(0, 0, 72, -PI / 2, -PI / 2 + TAU * (1 - clamp(p)), false); stroke(ctx, p > 0.8 ? '#F0605A' : '#7B5CFF', 14);
+  ctx.beginPath(); ctx.arc(0, 0, 72, -PI / 2, -PI / 2 + TAU * (1 - clamp(p)), false); stroke(ctx, p > 1 - 1 / WT ? '#F0605A' : '#7B5CFF', 14);
   const pop = 1 + 0.25 * Math.exp(-sub * 7);
-  ctx.scale(pop, pop); outlined(ctx, String(n), 0, 4, 92, p > 0.8 ? '#F0605A' : '#5A3CE0', null);
+  ctx.scale(pop, pop); outlined(ctx, String(n), 0, 4, 92, p > 1 - 1 / WT ? '#F0605A' : '#5A3CE0', null);
   ctx.restore();
 }
 
@@ -160,8 +162,8 @@ function hosts(ctx, tr, st) {
   if (st.k === 'q') { const s = st.s; think = tr > s.c0 && tr < s.c1 ? 1 : 0; cheer = tr > s.c1 && tr < s.c1 + 1.3 ? 1 : 0; ci = st.i; }
   const lt = st.k === 'q' ? tr - st.s.c1 : -1;
   const hop = (t0, h) => { const p = (tr - t0) / 0.42; return p > 0 && p < 1 ? Math.sin(p * PI) * h : 0; };
-  const outroHop = st.k === 'outro' ? hop(qEnd + 1.0, 90) + hop(qEnd + 1.6, 70) : 0, introHop = hop(0.5, 80);
-  const rAir = (cheer ? hop(st.s.c1 + 0.05, 70) : 0) + outroHop + introHop, kAir = (cheer ? hop(st.s.c1 + 0.2, 80) + hop(st.s.c1 + 0.7, 50) : 0) + (st.k === 'outro' ? hop(qEnd + 1.25, 80) : 0) + hop(0.75, 70);
+  const outroHop = st.k === 'outro' ? hop(qEnd + 0.3, 90) + hop(qEnd + 0.9, 70) : 0, introHop = hop(0.5, 80);
+  const rAir = (cheer ? hop(st.s.c1 + 0.05, 70) : 0) + outroHop + introHop, kAir = (cheer ? hop(st.s.c1 + 0.2, 80) + hop(st.s.c1 + 0.7, 50) : 0) + (st.k === 'outro' ? hop(qEnd + 0.5, 80) : 0) + hop(0.75, 70);
   const land = (t0) => (tr > t0 ? 0.15 * wobble((tr - t0) * 2, 2.1, 3.4) * (tr < t0 + 1 ? 1 : 0) : 0);
   const rsq = cheer ? land(st.s.c1 + 0.47) : 0, ksq = cheer ? land(st.s.c1 + 0.62) + land(st.s.c1 + 1.12) : 0;
   const rRS = scR / RS;   // roo() draws at scale s; rooHand assumes RS, unused here
@@ -201,11 +203,11 @@ function draw(ctx, u, tr) {
   if (st.k === 'q' || (tr > QZ[0].q0 - 0.6 && tr < QZ[NQ - 1].end)) { const s2 = st.k === 'q' ? st : { i: 0, s: QZ[0] }; header(ctx, s2.i, s2.s, tr); }
   if (st.k === 'outro') {
     const ot = TL.phrases[TL.phrases.length - 1], t0 = QZ[NQ - 1].end;
-    const p = spring(tr - (t0 + 0.2), SPRING.bouncy); if (p > 0.01) { ctx.save(); ctx.translate(W / 2, 400); ctx.scale(p, p); ctx.rotate(0.04 * Math.sin(tr * 2.4)); outlined(ctx, 'Bravo !', 0, 0, 190, '#FFD84A', 'rgba(60,30,110,0.9)', 0.16); ctx.restore(); }
-    for (let i = 0; i < 10; i++) { const k = spring(tr - (t0 + 0.6 + i * 0.12), SPRING.bouncy); if (k <= 0.01) continue; const x = W / 2 + (i - 4.5) * 92, y = 600 + 10 * Math.sin(tr * 3 + i);
+    const p = spring(tr - (t0 + 0.05), SPRING.bouncy); if (p > 0.01) { ctx.save(); ctx.translate(W / 2, 400); ctx.scale(p, p); ctx.rotate(0.04 * Math.sin(tr * 2.4)); outlined(ctx, 'Bravo !', 0, 0, 190, '#FFD84A', 'rgba(60,30,110,0.9)', 0.16); ctx.restore(); }
+    for (let i = 0; i < NQ; i++) { const k = spring(tr - (t0 + 0.3 + i * 0.08), SPRING.bouncy); if (k <= 0.01) continue; const x = W / 2 + (i - (NQ - 1) / 2) * 92, y = 600 + 10 * Math.sin(tr * 3 + i);
       ctx.save(); ctx.translate(x, y); ctx.scale(k, k); ctx.rotate(0.1 * Math.sin(tr * 2 + i)); ctx.beginPath(); for (let j = 0; j < 10; j++) { const r = j % 2 ? 18 : 40, a = -PI / 2 + j * PI / 5; ctx.lineTo(Math.cos(a) * r, Math.sin(a) * r); } ctx.closePath(); ctx.fillStyle = lgrad(ctx, 0, -40, 0, 40, [[0, '#FFF3A0'], [1, '#F5A623']]); ctx.fill(); stroke(ctx, '#C07A10', 4); ctx.restore(); }
-    readAlong(ctx, ot, tr, 760);
-    const f = spring(tr - (ot.t1 + 0.6), SPRING.gentle); if (f > 0.01) { ctx.save(); ctx.globalAlpha = clamp(f); outlined(ctx, 'À bientôt !', W / 2, 820 + (1 - f) * 30, 90, '#FFFFFF', 'rgba(10,20,40,0.9)', 0.18); ctx.restore(); }
+    if (ot.text.split(' ').length > 3) readAlong(ctx, ot, tr, 760);
+    const f = spring(tr - (ot.t1 + 0.1), SPRING.gentle); if (f > 0.01) { ctx.save(); ctx.globalAlpha = clamp(f); outlined(ctx, 'À bientôt !', W / 2, 820 + (1 - f) * 30, 90, '#FFFFFF', 'rgba(10,20,40,0.9)', 0.18); ctx.restore(); }
     confetti(ctx, W / 2, 400, (tr - (t0 + 0.2)) * 0.8);
   }
   hosts(ctx, tr, st);
