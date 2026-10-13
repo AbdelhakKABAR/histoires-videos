@@ -108,7 +108,7 @@ function card(ctx, idx, q, s, tr) {
 }
 
 function countdown(ctx, s, tr) {
-  const WT = WAITOF(s), p = (tr - s.c0) / WT, inn = spring(tr - s.c0 + 0.1, SPRING.bouncy), out = 1 - sm((tr - s.c1) / 0.25);
+  const WT = Math.round(WAITOF(s)), p = (tr - s.c0) / WT, inn = spring(tr - s.c0 + 0.1, SPRING.bouncy), out = 1 - sm((tr - s.c1) / 0.25);
   if (p < -0.05 || out <= 0.01) return;
   const cx = W / 2, cy = 932, n = Math.max(1, WT - Math.floor(clamp(p, 0, 0.999) * WT)), sub = (clamp(p) * WT) % 1;
   ctx.save(); ctx.translate(cx, cy); ctx.scale(inn * out, inn * out);
@@ -197,7 +197,7 @@ function draw(ctx, u, tr) {
       const words = ['Le', 'grand', 'quiz']; ctx.font = font(150, 600, DISPLAY);
       words.forEach((w, i) => { const p = spring(tr - (0.2 + i * 0.18), SPRING.bouncy); if (p > 0.01) { ctx.save(); ctx.translate(W / 2, 380 + i * 0 + (i === 2 ? 150 : 0) + (1 - p) * 60); ctx.rotate(0.03 * Math.sin(tr * 2 + i)); ctx.scale(p, p);
         const x = i === 0 ? -170 : i === 1 ? 110 : 0; outlined(ctx, w, x, 0, i === 2 ? 190 : 120, i === 2 ? '#FFD84A' : '#FFFFFF', 'rgba(60,30,110,0.9)', 0.16); ctx.restore(); } });
-      const p2 = spring(tr - 1.1, SPRING.bouncy); if (p2 > 0.01) { ctx.save(); ctx.translate(W / 2, 700); ctx.scale(p2, p2); panel(ctx, -330, -50, 660, 100, 50, '#B49CFF', '#7B5CFF', 'rgba(255,255,255,0.6)'); outlined(ctx, '10 questions · 5 secondes', 0, 2, 50, '#FFFFFF', 'rgba(40,20,90,0.7)', 0.14); ctx.restore(); }
+      const p2 = spring(tr - 1.1, SPRING.bouncy); if (p2 > 0.01) { ctx.save(); ctx.translate(W / 2, 700); ctx.scale(p2, p2); panel(ctx, -330, -50, 660, 100, 50, '#B49CFF', '#7B5CFF', 'rgba(255,255,255,0.6)'); outlined(ctx, `${NQ} questions · ${Math.round(QZ[0].c1 - QZ[0].c0)} secondes`, 0, 2, 50, '#FFFFFF', 'rgba(40,20,90,0.7)', 0.14); ctx.restore(); }
       ctx.restore(); readAlong(ctx, it, tr, 800); }
   }
   if (st.k === 'q' || (tr > QZ[0].q0 - 0.6 && tr < QZ[NQ - 1].end)) { const s2 = st.k === 'q' ? st : { i: 0, s: QZ[0] }; header(ctx, s2.i, s2.s, tr); }
@@ -206,8 +206,12 @@ function draw(ctx, u, tr) {
     const p = spring(tr - (t0 + 0.05), SPRING.bouncy); if (p > 0.01) { ctx.save(); ctx.translate(W / 2, 400); ctx.scale(p, p); ctx.rotate(0.04 * Math.sin(tr * 2.4)); outlined(ctx, 'Bravo !', 0, 0, 190, '#FFD84A', 'rgba(60,30,110,0.9)', 0.16); ctx.restore(); }
     for (let i = 0; i < NQ; i++) { const k = spring(tr - (t0 + 0.3 + i * 0.08), SPRING.bouncy); if (k <= 0.01) continue; const x = W / 2 + (i - (NQ - 1) / 2) * 92, y = 600 + 10 * Math.sin(tr * 3 + i);
       ctx.save(); ctx.translate(x, y); ctx.scale(k, k); ctx.rotate(0.1 * Math.sin(tr * 2 + i)); ctx.beginPath(); for (let j = 0; j < 10; j++) { const r = j % 2 ? 18 : 40, a = -PI / 2 + j * PI / 5; ctx.lineTo(Math.cos(a) * r, Math.sin(a) * r); } ctx.closePath(); ctx.fillStyle = lgrad(ctx, 0, -40, 0, 40, [[0, '#FFF3A0'], [1, '#F5A623']]); ctx.fill(); stroke(ctx, '#C07A10', 4); ctx.restore(); }
-    if (ot.text.split(' ').length > 3) readAlong(ctx, ot, tr, 760);
-    const f = spring(tr - (ot.t1 + 0.1), SPRING.gentle); if (f > 0.01) { ctx.save(); ctx.globalAlpha = clamp(f); outlined(ctx, 'À bientôt !', W / 2, 820 + (1 - f) * 30, 90, '#FFFFFF', 'rgba(10,20,40,0.9)', 0.18); ctx.restore(); }
+    if (ot.text.split(' ').length > 3) readAlong(ctx, ot, tr, 720);
+    const sub = ot.text.toLowerCase().includes('abonn'), f = spring(tr - (sub ? ot.t0 + (ot.t1 - ot.t0) * 0.3 : ot.t1 + 0.1), SPRING.bouncy);
+    if (f > 0.01) { ctx.save(); ctx.globalAlpha = clamp(f * 1.4); ctx.translate(W / 2, 900 + (1 - f) * 30); ctx.scale(0.8 + 0.2 * f, 0.8 + 0.2 * f);
+      if (sub) { const pulse = 1 + 0.04 * Math.sin(tr * 7); ctx.scale(pulse, pulse); panel(ctx, -300, -58, 600, 116, 58, '#FF6B6B', '#D62F3A', 'rgba(255,255,255,0.7)'); emoji(ctx, '🔔', -232, 2, 60); outlined(ctx, 'Abonnez-vous !', 40, 4, 58, '#FFFFFF', 'rgba(100,10,20,0.6)', 0.12); }
+      else outlined(ctx, 'À bientôt !', 0, 0, 90, '#FFFFFF', 'rgba(10,20,40,0.9)', 0.18);
+      ctx.restore(); }
     confetti(ctx, W / 2, 400, (tr - (t0 + 0.2)) * 0.8);
   }
   hosts(ctx, tr, st);

@@ -35,13 +35,14 @@ def put(text, kind, at):
     x = say(text); clips.append((at, x)); ph = {"t0": round(at, 3), "t1": round(at + len(x) / SR, 3), "text": text, "who": kind}; phrases.append(ph); print(ph); return ph
 phrases = []
 WAIT = float(Q.get("wait", 3)); t = 0.4
+if Q.get("intro"): it = put(Q["intro"], "intro", 0.4); t = it["t1"] + 0.7
 for n, q in enumerate(Q["questions"]):
     qp = put(q["q"], "q", t)
     c0 = qp["t1"] + 0.15; c1 = c0 + WAIT
     rp = put(q["say"], "r", c1 + 0.15)
     quiz.append({"q0": qp["t0"], "q1": qp["t1"], "a0": qp["t0"], "a1": qp["t1"], "c0": round(c0, 3), "c1": round(c1, 3), "r0": rp["t0"], "r1": rp["t1"], "end": round(rp["t1"] + 0.3, 3)})
     t = rp["t1"] + 0.3
-op = put(Q["outro"], "outro", t); dur = round(op["t1"] + 0.4, 2)
+op = put(Q["outro"], "outro", t); dur = round(op["t1"] + (1.5 if len(Q["outro"].split()) > 3 else 0.4), 2)
 N = int(dur * SR); vo = np.zeros(N)
 for at, x in clips: k = int(at * SR); vo[k:k + len(x)] += x[: N - k]
 vo *= 0.7 / np.max(np.abs(vo)); (FILM / "audio").mkdir(parents=True, exist_ok=True); sf.write(FILM / "audio" / "vo.wav", np.stack([vo, vo], 1), SR)

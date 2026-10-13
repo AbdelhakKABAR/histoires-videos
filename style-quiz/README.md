@@ -29,3 +29,7 @@ Hôtes : Prune la kangourou (elle parle, voix 3) et Tilou le koala. Décor de la
 - Voix : « voix 2 » = Piper fr_FR siwis medium (et non Kokoro), vitesse 0.95.
 - Attente : 5 secondes (« wait": 5 dans le JSON). Pour rester sous 30 s : 4 questions par épisode (≈ 30 s).
   Avec 5 questions et 5 s, la vidéo ferait environ 38 s.
+
+## Intro et abonnement (13 oct. 2026, demande de l'utilisateur)
+- Intro parlée (champ "intro") : « Quatre questions, cinq secondes pour répondre ! Ton enfant trouvera-t-il toutes les bonnes réponses ? »
+- Fin (champ "outro") : « Bravo ! Abonnez-vous pour plus de quiz ! » avec un bouton rouge « Abonnez-vous ! » à l'écran. Durée totale ≈ 38 s.
