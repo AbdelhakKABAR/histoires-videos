@@ -3,7 +3,7 @@
 # dependencies = ["sherpa-onnx", "numpy", "soundfile", "scipy"]
 # ///
 """Voix d'un épisode de quiz court (30 s) : uv run quiz_voix.py <dossier> <quiz.json> <dossier des voix>
-Voix : Kokoro « ff_siwis » (sid 30), choisie le 13 oct. 2026 pour sa bonne prononciation du français.
+Voix : Piper fr_FR siwis medium, choisie par l'utilisateur le 13 oct. 2026 (« voix 2 »).
 Le conteur lit l'intro, chaque question, les 4 réponses, puis la bonne réponse après 5 s de réflexion. Les phrases sont
 posées les unes après les autres (pas de « at » à régler) -> audio/vo.wav + timeline.js (phrases, enveloppe, minutage du quiz) + film.json."""
 import json, re, sys
@@ -15,18 +15,19 @@ src = (Path(__file__).resolve().parent.parent / "moteur" / "vo.py").read_text()
 SUPER = "sherpa-onnx-supertonic-tts-int8-2026-03-06"; MODEL = VD / SUPER; PROF = {"voice": SUPER}
 import subprocess, unicodedata, difflib
 MODEL = VD / SUPER; i = src.index("_asr = None"); j = src.index("def chunks(text):"); exec(src[i:j])
-KD = VD / "kokoro-multi-lang-v1_0"
-if not KD.exists(): subprocess.run(f"curl -sSL --fail https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/kokoro-multi-lang-v1_0.tar.bz2 | tar xj -C '{VD}'", shell=True, check=True)
-tts = sherpa_onnx.OfflineTts(sherpa_onnx.OfflineTtsConfig(model=sherpa_onnx.OfflineTtsModelConfig(kokoro=sherpa_onnx.OfflineTtsKokoroModelConfig(model=str(KD / "model.onnx"), voices=str(KD / "voices.bin"), tokens=str(KD / "tokens.txt"), data_dir=str(KD / "espeak-ng-data"), dict_dir=str(KD / "dict"), lexicon=f"{KD}/lexicon-us-en.txt,{KD}/lexicon-zh.txt", lang="fr"), num_threads=2)))
+# Voix choisie par l'utilisateur le 13 oct. 2026 (« voix 2 ») : Piper fr_FR siwis medium (femme, français très net).
+PD = VD / "vits-piper-fr_FR-siwis-medium"
+if not PD.exists(): subprocess.run(f"curl -sSL --fail https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-piper-fr_FR-siwis-medium.tar.bz2 | tar xj -C '{VD}'", shell=True, check=True)
+tts = sherpa_onnx.OfflineTts(sherpa_onnx.OfflineTtsConfig(model=sherpa_onnx.OfflineTtsModelConfig(vits=sherpa_onnx.OfflineTtsVitsModelConfig(model=str(next(PD.glob("*.onnx"))), tokens=str(PD / "tokens.txt"), data_dir=str(PD / "espeak-ng-data")), num_threads=2)))
 VERIF = {"restent": []}
 def narrate(text, speed):
-    a = tts.generate(text, sid=30, speed=speed)
+    a = tts.generate(text, sid=0, speed=speed)
     if missing(text, np.asarray(a.samples, dtype=np.float64), a.sample_rate): VERIF["restent"].append(text)
     return a
 NUM = {"1": "un", "2": "deux", "3": "trois", "4": "quatre", "5": "cinq", "6": "six", "7": "sept", "8": "huit", "9": "neuf", "10": "dix"}
 NTH = ["un", "deux", "trois", "quatre", "cinq", "six", "sept", "huit", "neuf", "dix"]
 def say(text):
-    a = narrate(text, 1.0); x = resample_poly(np.asarray(a.samples, dtype=np.float64), SR, a.sample_rate)
+    a = narrate(text, 0.95); x = resample_poly(np.asarray(a.samples, dtype=np.float64), SR, a.sample_rate)
     idx = np.where(np.abs(x) > 0.02 * np.max(np.abs(x)))[0]; x = x[max(idx[0] - 480, 0): idx[-1] + 3600]; x[-2400:] *= np.linspace(1, 0, 2400)
     return x / np.sqrt(np.mean(x[np.abs(x) > 0.02] ** 2))
 clips = []; quiz = []; t = 0.5
@@ -40,7 +41,7 @@ for n, q in enumerate(Q["questions"]):
     rp = put(q["say"], "r", c1 + 0.15)
     quiz.append({"q0": qp["t0"], "q1": qp["t1"], "a0": qp["t0"], "a1": qp["t1"], "c0": round(c0, 3), "c1": round(c1, 3), "r0": rp["t0"], "r1": rp["t1"], "end": round(rp["t1"] + 0.3, 3)})
     t = rp["t1"] + 0.3
-op = put(Q["outro"], "outro", t + 0.2); dur = round(op["t1"] + 1.0, 2)
+op = put(Q["outro"], "outro", t); dur = round(op["t1"] + 0.4, 2)
 N = int(dur * SR); vo = np.zeros(N)
 for at, x in clips: k = int(at * SR); vo[k:k + len(x)] += x[: N - k]
 vo *= 0.7 / np.max(np.abs(vo)); (FILM / "audio").mkdir(parents=True, exist_ok=True); sf.write(FILM / "audio" / "vo.wav", np.stack([vo, vo], 1), SR)

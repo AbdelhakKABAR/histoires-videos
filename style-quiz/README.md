@@ -24,3 +24,8 @@ Hôtes : Prune la kangourou (elle parle, voix 3) et Tilou le koala. Décor de la
   puis il dit la réponse en 1 ou 2 mots (« La vache ! »). Fin : « Bravo ! » + étoiles. Total ≈ 29 s.
 - `uv run quiz_voix_court.py q2 episode-court-NNN.json <dossier des voix>` (option "wait" dans le JSON, 3 par défaut), puis comme ci-dessus.
 - Questions de 4 mots environ, réponses de 1 à 2 mots, varier la position de la bonne réponse.
+
+## Mise à jour (13 oct. 2026, choix de l'utilisateur)
+- Voix : « voix 2 » = Piper fr_FR siwis medium (et non Kokoro), vitesse 0.95.
+- Attente : 5 secondes (« wait": 5 dans le JSON). Pour rester sous 30 s : 4 questions par épisode (≈ 30 s).
+  Avec 5 questions et 5 s, la vidéo ferait environ 38 s.
