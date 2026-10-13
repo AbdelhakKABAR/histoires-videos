@@ -192,11 +192,11 @@ function draw(ctx, u, tr) {
   { ctx.save(); ctx.globalCompositeOperation = 'lighter'; for (let i = 0; i < 16; i++) { const life = (tr * (0.05 + 0.04 * hash01(i, 14)) + hash01(i, 15)) % 1, x = 1080 * hash01(i, 16) + 30 * Math.sin(tr * 0.9 + i), y = 1500 - 1300 * life, r = 6 + 8 * hash01(i, 17); ctx.fillStyle = rgrad(ctx, x, y, r * 2.4, [[0, `rgba(255,240,180,${A(0.45 * Math.sin(life * PI))})`], [1, 'rgba(255,240,180,0)']]); ctx.beginPath(); ctx.arc(x, y, r * 2.4, 0, TAU); ctx.fill(); } ctx.restore(); }
 
   if (st.k === 'intro' || tr < QZ[0].q0) {
-    const it = TL.phrases[0], k = spring(tr - 0.2, SPRING.bouncy), out = 1 - sm((tr - (QZ[0].q0 - 0.9)) / 0.4);
+    const intros = TL.phrases.filter((p) => p.who === 'intro'), it = intros.filter((p) => tr >= p.t0 - 0.2).pop() || intros[0], k = spring(tr - 0.2, SPRING.bouncy), out = 1 - sm((tr - (QZ[0].q0 - 0.9)) / 0.4);
     if (out > 0.01) { ctx.save(); ctx.globalAlpha = out;
-      const words = ['Le', 'grand', 'quiz']; ctx.font = font(150, 600, DISPLAY);
+      const words = ['Les', 'grandes', 'questions']; ctx.font = font(150, 600, DISPLAY);
       words.forEach((w, i) => { const p = spring(tr - (0.2 + i * 0.18), SPRING.bouncy); if (p > 0.01) { ctx.save(); ctx.translate(W / 2, 380 + i * 0 + (i === 2 ? 150 : 0) + (1 - p) * 60); ctx.rotate(0.03 * Math.sin(tr * 2 + i)); ctx.scale(p, p);
-        const x = i === 0 ? -170 : i === 1 ? 110 : 0; outlined(ctx, w, x, 0, i === 2 ? 190 : 120, i === 2 ? '#FFD84A' : '#FFFFFF', 'rgba(60,30,110,0.9)', 0.16); ctx.restore(); } });
+        const x = i === 0 ? -250 : i === 1 ? 90 : 0; outlined(ctx, w, x, 0, i === 2 ? 160 : 112, i === 2 ? '#FFD84A' : '#FFFFFF', 'rgba(60,30,110,0.9)', 0.16); ctx.restore(); } });
       const p2 = spring(tr - 1.1, SPRING.bouncy); if (p2 > 0.01) { ctx.save(); ctx.translate(W / 2, 700); ctx.scale(p2, p2); panel(ctx, -330, -50, 660, 100, 50, '#B49CFF', '#7B5CFF', 'rgba(255,255,255,0.6)'); outlined(ctx, `${NQ} questions · ${Math.round(QZ[0].c1 - QZ[0].c0)} secondes`, 0, 2, 50, '#FFFFFF', 'rgba(40,20,90,0.7)', 0.14); ctx.restore(); }
       ctx.restore(); readAlong(ctx, it, tr, 800); }
   }

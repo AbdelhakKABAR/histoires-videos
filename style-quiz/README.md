@@ -33,3 +33,7 @@ Hôtes : Prune la kangourou (elle parle, voix 3) et Tilou le koala. Décor de la
 ## Intro et abonnement (13 oct. 2026, demande de l'utilisateur)
 - Intro parlée (champ "intro") : « Quatre questions, cinq secondes pour répondre ! Ton enfant trouvera-t-il toutes les bonnes réponses ? »
 - Fin (champ "outro") : « Bravo ! Abonnez-vous pour plus de quiz ! » avec un bouton rouge « Abonnez-vous ! » à l'écran. Durée totale ≈ 38 s.
+
+## Corrections (13 oct. 2026, demande de l'utilisateur)
+- Titre à l'écran : « Les grandes questions » (pas « quiz »). Fin : « Bravo ! Abonnez-vous pour plus de questions ! »
+- Intro en deux phrases, lue plus lentement (vitesse 0.75, champ "intro_speed"), 0,6 s de silence entre les deux. Fin à 0.85. Durée ≈ 40 s.

@@ -1,6 +1,6 @@
 {
  "title": "Le quiz de Prune",
- "outro": "Bravo ! Abonnez-vous pour plus de quiz !",
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
  "questions": [
   {
    "q": "Qui fait meuh ?",
@@ -100,5 +100,8 @@
   }
  ],
  "wait": 5,
- "intro": "Quatre questions, cinq secondes pour répondre ! Ton enfant trouvera-t-il toutes les bonnes réponses ?"
+ "intro": [
+  "Quatre questions, cinq secondes pour répondre !",
+  "Ton enfant trouvera-t-il toutes les bonnes réponses ?"
+ ]
 }

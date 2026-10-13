@@ -26,23 +26,27 @@ def narrate(text, speed):
     return a
 NUM = {"1": "un", "2": "deux", "3": "trois", "4": "quatre", "5": "cinq", "6": "six", "7": "sept", "8": "huit", "9": "neuf", "10": "dix"}
 NTH = ["un", "deux", "trois", "quatre", "cinq", "six", "sept", "huit", "neuf", "dix"]
-def say(text):
-    a = narrate(text, 0.95); x = resample_poly(np.asarray(a.samples, dtype=np.float64), SR, a.sample_rate)
+def say(text, speed=0.95):
+    a = narrate(text, speed); x = resample_poly(np.asarray(a.samples, dtype=np.float64), SR, a.sample_rate)
     idx = np.where(np.abs(x) > 0.02 * np.max(np.abs(x)))[0]; x = x[max(idx[0] - 480, 0): idx[-1] + 3600]; x[-2400:] *= np.linspace(1, 0, 2400)
     return x / np.sqrt(np.mean(x[np.abs(x) > 0.02] ** 2))
 clips = []; quiz = []; t = 0.5
-def put(text, kind, at):
-    x = say(text); clips.append((at, x)); ph = {"t0": round(at, 3), "t1": round(at + len(x) / SR, 3), "text": text, "who": kind}; phrases.append(ph); print(ph); return ph
+def put(text, kind, at, speed=0.95):
+    x = say(text, speed); clips.append((at, x)); ph = {"t0": round(at, 3), "t1": round(at + len(x) / SR, 3), "text": text, "who": kind}; phrases.append(ph); print(ph); return ph
 phrases = []
 WAIT = float(Q.get("wait", 3)); t = 0.4
-if Q.get("intro"): it = put(Q["intro"], "intro", 0.4); t = it["t1"] + 0.7
+# intro : une ou plusieurs phrases, lues plus lentement (demande de l'utilisateur : « trop rapide »), avec un silence entre elles
+if Q.get("intro"):
+    for k, line in enumerate(Q["intro"] if isinstance(Q["intro"], list) else [Q["intro"]]):
+        it = put(line, "intro", t, Q.get("intro_speed", 0.75)); t = it["t1"] + 0.6
+    t += 0.2
 for n, q in enumerate(Q["questions"]):
     qp = put(q["q"], "q", t)
     c0 = qp["t1"] + 0.15; c1 = c0 + WAIT
     rp = put(q["say"], "r", c1 + 0.15)
     quiz.append({"q0": qp["t0"], "q1": qp["t1"], "a0": qp["t0"], "a1": qp["t1"], "c0": round(c0, 3), "c1": round(c1, 3), "r0": rp["t0"], "r1": rp["t1"], "end": round(rp["t1"] + 0.3, 3)})
     t = rp["t1"] + 0.3
-op = put(Q["outro"], "outro", t); dur = round(op["t1"] + (1.5 if len(Q["outro"].split()) > 3 else 0.4), 2)
+op = put(Q["outro"], "outro", t, Q.get("outro_speed", 0.85)); dur = round(op["t1"] + (1.5 if len(Q["outro"].split()) > 3 else 0.4), 2)
 N = int(dur * SR); vo = np.zeros(N)
 for at, x in clips: k = int(at * SR); vo[k:k + len(x)] += x[: N - k]
 vo *= 0.7 / np.max(np.abs(vo)); (FILM / "audio").mkdir(parents=True, exist_ok=True); sf.write(FILM / "audio" / "vo.wav", np.stack([vo, vo], 1), SR)
