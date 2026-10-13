@@ -1,0 +1,109 @@
+{
+ "title": "Le quiz de Prune",
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Qui vit sur la glace ?",
+   "show": "🧊",
+   "a": [
+    [
+     "🐧",
+     "Le pingouin"
+    ],
+    [
+     "🐒",
+     "Le singe"
+    ],
+    [
+     "🦒",
+     "La girafe"
+    ],
+    [
+     "🐊",
+     "Le crocodile"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le pingouin !"
+  },
+  {
+   "q": "Combien de flocons ?",
+   "show": "❄️❄️❄️",
+   "a": [
+    [
+     "",
+     "4"
+    ],
+    [
+     "",
+     "3"
+    ],
+    [
+     "",
+     "2"
+    ],
+    [
+     "",
+     "5"
+    ]
+   ],
+   "ok": 1,
+   "say": "Trois !"
+  },
+  {
+   "q": "De quelle couleur est la neige ?",
+   "show": "🌨️",
+   "a": [
+    [
+     "🟠",
+     "Orange"
+    ],
+    [
+     "🟤",
+     "Marron"
+    ],
+    [
+     "⚪",
+     "Blanche"
+    ],
+    [
+     "🟢",
+     "Verte"
+    ]
+   ],
+   "ok": 2,
+   "say": "Blanche !"
+  },
+  {
+   "q": "Que met-on quand il fait froid ?",
+   "show": "🥶",
+   "a": [
+    [
+     "🩳",
+     "Un short"
+    ],
+    [
+     "🩴",
+     "Des tongs"
+    ],
+    [
+     "🕶️",
+     "Des lunettes"
+    ],
+    [
+     "🧣",
+     "Une écharpe"
+    ]
+   ],
+   "ok": 3,
+   "say": "Une écharpe !"
+  }
+ ],
+ "wait": 5,
+ "intro": [
+  "Quatre questions, cinq secondes pour répondre !",
+  "Ton enfant trouvera-t-il toutes les bonnes réponses ?"
+ ],
+ "hosts": "mimi-pingo",
+ "decor": "neige"
+}

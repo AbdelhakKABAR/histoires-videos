@@ -188,8 +188,8 @@ function draw(ctx, u, tr) {
   { ctx.save(); ctx.globalCompositeOperation = 'lighter'; const SX = 880, SY = 300; for (let i = 0; i < 6; i++) { const a = PI * 0.62 + (i - 3) * 0.15 + 0.03 * Math.sin(tr * 0.5 + i), w0 = 0.03 + 0.02 * hash01(i, 9), al = 0.05 + 0.04 * Math.sin(tr * 1.1 + i * 2);
     ctx.beginPath(); ctx.moveTo(SX, SY); ctx.lineTo(SX + Math.cos(a - w0) * 2400, SY + Math.sin(a - w0) * 2400); ctx.lineTo(SX + Math.cos(a + w0) * 2400, SY + Math.sin(a + w0) * 2400); ctx.closePath(); ctx.fillStyle = rgrad(ctx, SX, SY, 1900, [[0, `rgba(255,236,170,${A(al)})`], [1, 'rgba(255,236,170,0)']]); ctx.fill(); } ctx.restore(); }
   ctx.drawImage(BG.veil, 0, 0);
-  // floating motes
-  { ctx.save(); ctx.globalCompositeOperation = 'lighter'; for (let i = 0; i < 16; i++) { const life = (tr * (0.05 + 0.04 * hash01(i, 14)) + hash01(i, 15)) % 1, x = 1080 * hash01(i, 16) + 30 * Math.sin(tr * 0.9 + i), y = 1500 - 1300 * life, r = 6 + 8 * hash01(i, 17); ctx.fillStyle = rgrad(ctx, x, y, r * 2.4, [[0, `rgba(255,240,180,${A(0.45 * Math.sin(life * PI))})`], [1, 'rgba(255,240,180,0)']]); ctx.beginPath(); ctx.arc(x, y, r * 2.4, 0, TAU); ctx.fill(); } ctx.restore(); }
+  // floating motes (snow in the snowy setting)
+  if (DECOR === 'neige') snowfall(ctx, tr); else { ctx.save(); ctx.globalCompositeOperation = 'lighter'; for (let i = 0; i < 16; i++) { const life = (tr * (0.05 + 0.04 * hash01(i, 14)) + hash01(i, 15)) % 1, x = 1080 * hash01(i, 16) + 30 * Math.sin(tr * 0.9 + i), y = 1500 - 1300 * life, r = 6 + 8 * hash01(i, 17); ctx.fillStyle = rgrad(ctx, x, y, r * 2.4, [[0, `rgba(255,240,180,${A(0.45 * Math.sin(life * PI))})`], [1, 'rgba(255,240,180,0)']]); ctx.beginPath(); ctx.arc(x, y, r * 2.4, 0, TAU); ctx.fill(); } ctx.restore(); }
 
   if (st.k === 'intro' || tr < QZ[0].q0) {
     const intros = TL.phrases.filter((p) => p.who === 'intro'), it = intros.filter((p) => tr >= p.t0 - 0.2).pop() || intros[0], k = spring(tr - 0.2, SPRING.bouncy), out = 1 - sm((tr - (QZ[0].q0 - 0.9)) / 0.4);
@@ -222,4 +222,4 @@ function draw(ctx, u, tr) {
 }
 
 await document.fonts.load(`100px ${EMO}`, QD.questions.map((q) => q.show + q.a.map((a) => a[0]).join('')).join(''));
-M.film({ fonts: [font(60, 600, DISPLAY)], hits: HITS, samples: 1, init() { buildBG(); }, draw });
+M.film({ fonts: [font(60, 600, DISPLAY)], hits: HITS, samples: 1, init() { if (DECOR === 'neige') buildSnowBG(); else buildBG(); }, draw });

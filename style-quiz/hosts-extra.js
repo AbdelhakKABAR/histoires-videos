@@ -80,4 +80,3 @@ const HOSTPAIRS = {
   'prune-tilou': { L: (c, x, y, s, o) => roo(c, x, y, s, o), R: koala, sL: [0.58, 0.95], sR: [0.56, 0.92] },
   'lulu-bouba': { L: (c, x, y, s, o) => bunny(c, x, y, s, { ...o, dir: 1, point: o.reach2 > 0.9 ? 1 : 0, hold: o.reach > 0.5 ? 0.8 : 0.2 }), R: bear, sL: [0.62, 1.0], sR: [0.56, 0.9] },
 };
-const PAIR = HOSTPAIRS[TL.data.hosts] || HOSTPAIRS['prune-tilou'];

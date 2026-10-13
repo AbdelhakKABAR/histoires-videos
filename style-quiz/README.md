@@ -42,3 +42,8 @@ Hôtes : Prune la kangourou (elle parle, voix 3) et Tilou le koala. Décor de la
 Champ "hosts" de l'épisode : "prune-tilou" (kangourou + koala, par défaut) ou "lulu-bouba" (Lulu la lapine, qui parle, + Bouba l'ourson).
 Les dessins sont dans hosts-extra.js (table HOSTPAIRS) : pour un nouveau duo, dessiner deux fonctions sur ce modèle et les ajouter à la table.
 Alterner les duos d'un épisode à l'autre.
+
+## Nouveau duo et nouveau décor (13 oct. 2026)
+- "hosts": "mimi-pingo" = Mimi la petite chatte rousse (écharpe rose, elle parle) + Pingo le pingouin (écharpe bleue rayée), dans decor-extra.js.
+- "decor": "neige" = banquise : montagnes enneigées, sapins, igloo, flocons qui tombent (ambiance : `ambiance.py ... vent`, mix --music-db -14).
+  "decor": "colline" (défaut) = la colline au soleil.
