@@ -40,11 +40,16 @@ if Q.get("intro"):
     for k, line in enumerate(Q["intro"] if isinstance(Q["intro"], list) else [Q["intro"]]):
         it = put(line, "intro", t, Q.get("intro_speed", 0.75)); t = it["t1"] + 0.6
     t += 0.2
+LEVELS = Q.get("levels", []); prev = None
 for n, q in enumerate(Q["questions"]):
+    lv = None
+    # niveaux (facile, normal, difficile, impossible) : une annonce parlée avant la première question de chaque niveau
+    if "level" in q and q["level"] != prev:
+        lp = put(f"Niveau {LEVELS[q['level']]} !", "level", t, 0.85); lv = [lp["t0"], lp["t1"], q["level"]]; t = lp["t1"] + 1.2; prev = q["level"]
     qp = put(q["q"], "q", t)
     c0 = qp["t1"] + 0.15; c1 = c0 + WAIT
     rp = put(q["say"], "r", c1 + 0.15)
-    quiz.append({"q0": qp["t0"], "q1": qp["t1"], "a0": qp["t0"], "a1": qp["t1"], "c0": round(c0, 3), "c1": round(c1, 3), "r0": rp["t0"], "r1": rp["t1"], "end": round(rp["t1"] + 0.3, 3)})
+    quiz.append({"q0": qp["t0"], "q1": qp["t1"], "a0": qp["t0"], "a1": qp["t1"], "c0": round(c0, 3), "c1": round(c1, 3), "r0": rp["t0"], "r1": rp["t1"], "end": round(rp["t1"] + 0.3, 3), "lv": lv, "level": q.get("level")})
     t = rp["t1"] + 0.3
 op = put(Q["outro"], "outro", t, Q.get("outro_speed", 0.85)); dur = round(op["t1"] + (1.5 if len(Q["outro"].split()) > 3 else 0.4), 2)
 N = int(dur * SR); vo = np.zeros(N)

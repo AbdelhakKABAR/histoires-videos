@@ -47,3 +47,9 @@ Alterner les duos d'un épisode à l'autre.
 - "hosts": "mimi-pingo" = Mimi la petite chatte rousse (écharpe rose, elle parle) + Pingo le pingouin (écharpe bleue rayée), dans decor-extra.js.
 - "decor": "neige" = banquise : montagnes enneigées, sapins, igloo, flocons qui tombent (ambiance : `ambiance.py ... vent`, mix --music-db -14).
   "decor": "colline" (défaut) = la colline au soleil.
+
+## Format « niveaux » (13 oct. 2026) : 12 questions, 4 niveaux
+- Champs : "levels": ["facile","normal","difficile","impossible"], "level" (0 à 3) sur chaque question, "pill": "12 questions · 4 niveaux".
+- Avant la 1re question de chaque niveau : annonce parlée « Niveau facile ! » + grand panneau coloré (vert, bleu, orange, rouge) avec 1 à 3 étoiles, puis 🔥 pour « impossible ».
+- L'étiquette du haut affiche « Facile · 1 / 12 » dans la couleur du niveau. Les questions deviennent plus dures à chaque niveau.
+- Nouveau duo "ruby-hop" : Ruby la petite renarde (nœud vert, elle parle) + Hop le grenouillon (foulard rouge). Durée ≈ 1 min 52.

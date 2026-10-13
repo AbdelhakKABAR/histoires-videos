@@ -1,0 +1,320 @@
+{
+ "title": "Les grandes questions",
+ "hosts": "ruby-hop",
+ "decor": "colline",
+ "wait": 5,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "pill": "12 questions · 4 niveaux",
+ "intro": [
+  "Douze questions, quatre niveaux, de facile à impossible !",
+  "Ton enfant ira-t-il jusqu'au bout ?"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Qui fait ouaf ?",
+   "show": "🔊",
+   "a": [
+    [
+     "🐱",
+     "Le chat"
+    ],
+    [
+     "🐶",
+     "Le chien"
+    ],
+    [
+     "🐮",
+     "La vache"
+    ],
+    [
+     "🐔",
+     "La poule"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le chien !",
+   "level": 0
+  },
+  {
+   "q": "De quelle couleur est la tomate ?",
+   "show": "🍅",
+   "a": [
+    [
+     "🔵",
+     "Bleu"
+    ],
+    [
+     "🟡",
+     "Jaune"
+    ],
+    [
+     "🟢",
+     "Vert"
+    ],
+    [
+     "🔴",
+     "Rouge"
+    ]
+   ],
+   "ok": 3,
+   "say": "Rouge !",
+   "level": 0
+  },
+  {
+   "q": "Combien de doigts sur une main ?",
+   "show": "✋",
+   "a": [
+    [
+     "",
+     "5"
+    ],
+    [
+     "",
+     "3"
+    ],
+    [
+     "",
+     "10"
+    ],
+    [
+     "",
+     "4"
+    ]
+   ],
+   "ok": 0,
+   "say": "Cinq !",
+   "level": 0
+  },
+  {
+   "q": "Quel animal a des rayures ?",
+   "show": "🔍",
+   "a": [
+    [
+     "🐘",
+     "L'éléphant"
+    ],
+    [
+     "🐻",
+     "L'ours"
+    ],
+    [
+     "🦓",
+     "Le zèbre"
+    ],
+    [
+     "🐑",
+     "Le mouton"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le zèbre !",
+   "level": 1
+  },
+  {
+   "q": "Combien de pattes a une araignée ?",
+   "show": "🕷️",
+   "a": [
+    [
+     "",
+     "6"
+    ],
+    [
+     "",
+     "8"
+    ],
+    [
+     "",
+     "4"
+    ],
+    [
+     "",
+     "10"
+    ]
+   ],
+   "ok": 1,
+   "say": "Huit !",
+   "level": 1
+  },
+  {
+   "q": "Quel légume est orange ?",
+   "show": "🧡",
+   "a": [
+    [
+     "🥦",
+     "Le brocoli"
+    ],
+    [
+     "🥒",
+     "Le concombre"
+    ],
+    [
+     "🍆",
+     "L'aubergine"
+    ],
+    [
+     "🥕",
+     "La carotte"
+    ]
+   ],
+   "ok": 3,
+   "say": "La carotte !",
+   "level": 1
+  },
+  {
+   "q": "Combien de jours dans une semaine ?",
+   "show": "📅",
+   "a": [
+    [
+     "",
+     "7"
+    ],
+    [
+     "",
+     "5"
+    ],
+    [
+     "",
+     "10"
+    ],
+    [
+     "",
+     "12"
+    ]
+   ],
+   "ok": 0,
+   "say": "Sept !",
+   "level": 2
+  },
+  {
+   "q": "Quel est le plus grand animal ?",
+   "show": "🌊",
+   "a": [
+    [
+     "🐘",
+     "L'éléphant"
+    ],
+    [
+     "🦒",
+     "La girafe"
+    ],
+    [
+     "🐋",
+     "La baleine"
+    ],
+    [
+     "🦛",
+     "L'hippopotame"
+    ]
+   ],
+   "ok": 2,
+   "say": "La baleine !",
+   "level": 2
+  },
+  {
+   "q": "Que fabrique l'abeille ?",
+   "show": "🐝",
+   "a": [
+    [
+     "🥛",
+     "Le lait"
+    ],
+    [
+     "🍯",
+     "Le miel"
+    ],
+    [
+     "🧀",
+     "Le fromage"
+    ],
+    [
+     "🍫",
+     "Le chocolat"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le miel !",
+   "level": 2
+  },
+  {
+   "q": "Combien font trois plus quatre ?",
+   "show": "➕",
+   "a": [
+    [
+     "",
+     "6"
+    ],
+    [
+     "",
+     "8"
+    ],
+    [
+     "",
+     "5"
+    ],
+    [
+     "",
+     "7"
+    ]
+   ],
+   "ok": 3,
+   "say": "Sept !",
+   "level": 3
+  },
+  {
+   "q": "Combien de pattes a un papillon ?",
+   "show": "🦋",
+   "a": [
+    [
+     "",
+     "4"
+    ],
+    [
+     "",
+     "2"
+    ],
+    [
+     "",
+     "6"
+    ],
+    [
+     "",
+     "8"
+    ]
+   ],
+   "ok": 2,
+   "say": "Six !",
+   "level": 3
+  },
+  {
+   "q": "Combien de pattes a un serpent ?",
+   "show": "🐍",
+   "a": [
+    [
+     "",
+     "4"
+    ],
+    [
+     "",
+     "0"
+    ],
+    [
+     "",
+     "2"
+    ],
+    [
+     "",
+     "6"
+    ]
+   ],
+   "ok": 1,
+   "say": "Zéro !",
+   "level": 3
+  }
+ ]
+}

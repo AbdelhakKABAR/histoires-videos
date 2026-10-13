@@ -105,4 +105,70 @@ function penguin(ctx, x, y, s, o) {
   ctx.restore();
 }
 HOSTPAIRS['mimi-pingo'] = { L: (c, x, y, s, o) => kitten(c, x, y, s, { ...o, dir: 1, point: o.reach2 > 0.9 ? 1 : 0, hold: o.reach > 0.5 ? 0.8 : 0.2 }), R: penguin, sL: [0.62, 1.0], sR: [0.52, 0.86] };
+
+// ---------------------------------------------------------------- Ruby, la petite renarde (elle parle), et Hop, le grenouillon
+const RNR = { hi: '#FFB46A', mid: '#F07A2A', lo: '#A8461A', cream: '#FFF6EA' };
+function fox(ctx, x, y, s, o) {
+  const { dir = 1, air = 0, sq = 0, lean = 0, lookX = 0, lookY = 0, blink = 0, happy = 0, wide = 0, talk = 0, mood = 0.6, point = 0, hold = 0, t = 0, trail = 0, jig = 0 } = o;
+  softShadow(ctx, x, y + 6, 115 * s * (1 - clamp(air / 300) * 0.4), 20 * s, 0.42 * (1 - clamp(air / 400) * 0.5));
+  ctx.save(); ctx.translate(x, y - air); ctx.scale(dir * s * (1 + sq), s * (1 - sq)); ctx.rotate(lean);
+  // big fluffy tail with a white tip: it swings late
+  { const sw = 0.22 * Math.sin(t * 2.2 - 0.5) + 0.25 * trail * Math.sin(t * 7) + jig * 0.8;
+    ctx.save(); ctx.translate(-50, -60); ctx.rotate(-0.9 + sw);
+    ctx.beginPath(); ctx.moveTo(0, 14); ctx.bezierCurveTo(-30, -40, -20, -130, 20, -170); ctx.bezierCurveTo(60, -130, 52, -40, 22, 10); ctx.closePath();
+    ctx.fillStyle = lgrad(ctx, -30, 0, 60, 0, [[0, RNR.lo], [0.5, RNR.mid], [1, RNR.hi]]); ctx.fill();
+    ctx.beginPath(); ctx.moveTo(4, -128); ctx.bezierCurveTo(4, -150, 12, -164, 20, -170); ctx.bezierCurveTo(36, -156, 42, -140, 40, -126); ctx.quadraticCurveTo(22, -116, 4, -128); ctx.fillStyle = '#FFFFFF'; ctx.fill(); ctx.restore(); }
+  ball(ctx, -30, -14, 32, 15, '#5A3A2A', '#3A2418', '#1E120C'); ball(ctx, 32, -14, 32, 15, '#5A3A2A', '#3A2418', '#1E120C');
+  ball(ctx, 0, -96, 66, 80, RNR.hi, RNR.mid, RNR.lo);
+  ctx.fillStyle = rgrad(ctx, 4, -90, 50, [[0, RNR.cream], [1, 'rgba(255,246,234,0)']]); ctx.beginPath(); ctx.ellipse(4, -92, 36, 52, 0, 0, TAU); ctx.fill();
+  { const th = lerp(2.2, -1.95, point) + 0.08 * Math.sin(t * 9) * point, sx = -50, sy = -128, hx = sx + Math.cos(th) * 60, hy = sy + Math.sin(th) * 60; ctx.beginPath(); ctx.moveTo(sx, sy); ctx.lineTo(hx, hy); stroke(ctx, '#E8722A', 22); ball(ctx, hx, hy, 14, 14, '#5A3A2A', '#3A2418', '#1E120C'); }
+  { const th = lerp(1.0, -0.15, hold) + 0.06 * Math.sin(t * 3), sx = 50, sy = -128, hx = sx + Math.cos(th) * 60, hy = sy + Math.sin(th) * 60; ctx.beginPath(); ctx.moveTo(sx, sy); ctx.lineTo(hx, hy); stroke(ctx, '#F4843A', 22); ball(ctx, hx, hy, 14, 14, '#5A3A2A', '#3A2418', '#1E120C'); }
+  ctx.save(); ctx.translate(0, -214); ctx.rotate(lookY * 0.08 + lean * 0.5 + jig * 0.12 + 0.04 * Math.sin(t * 1.7));
+  [-1, 1].forEach((k) => { const tw = 0.1 * bump((t + k * 0.9) % 3.4, 1.7, 0.2); ctx.save(); ctx.translate(k * 52, -44); ctx.rotate(k * (0.32 + tw)); ctx.beginPath(); ctx.moveTo(-32, 16); ctx.quadraticCurveTo(-8, -70, 2, -84); ctx.quadraticCurveTo(20, -50, 32, 16); ctx.closePath(); ctx.fillStyle = lgrad(ctx, 0, -84, 0, 16, [[0, '#3A2418'], [0.3, RNR.mid], [1, RNR.lo]]); ctx.fill();
+    ctx.beginPath(); ctx.moveTo(-17, 10); ctx.quadraticCurveTo(-4, -46, 2, -56); ctx.quadraticCurveTo(12, -34, 18, 10); ctx.closePath(); ctx.fillStyle = '#FFE6D2'; ctx.fill(); ctx.restore(); });
+  ball(ctx, 0, 0, 84, 70, RNR.hi, RNR.mid, RNR.lo);
+  // white cheeks and a pointed muzzle
+  ctx.beginPath(); ctx.moveTo(-84, 10); ctx.quadraticCurveTo(-40, 0, 0, 16); ctx.quadraticCurveTo(40, 0, 84, 10); ctx.quadraticCurveTo(50, 66, 0, 70); ctx.quadraticCurveTo(-50, 66, -84, 10); ctx.fillStyle = rgrad(ctx, 0, 40, 90, [[0, '#FFFFFF'], [1, '#F2E6DA']]); ctx.fill();
+  ctx.globalAlpha = 0.5; ell(ctx, -50, 28, 13, 8, '#F58CA0'); ell(ctx, 50, 28, 13, 8, '#F58CA0'); ctx.globalAlpha = 1;
+  eye(ctx, -30, -10, 13, 16, { lx: lookX, ly: lookY, blink, happy, wide, skin: RNR.mid });
+  eye(ctx, 30, -10, 13, 16, { lx: lookX, ly: lookY, blink, happy, wide, skin: RNR.mid });
+  ball(ctx, 0, 24, 12, 9, '#5A3A3A', '#2B1D1A', '#140C0A'); ell(ctx, -4, 20, 4, 3, 'rgba(255,255,255,0.7)');
+  if (talk > 0.08) { ell(ctx, 0, 44 + 3 * talk, 10 + 3 * talk, 3 + 10 * talk, '#7A2A38'); if (talk > 0.3) ell(ctx, 0, 48 + 6 * talk, 6, 3 * talk, '#F08A9A'); }
+  else { ctx.beginPath(); ctx.moveTo(-14, 40 - mood * 2); ctx.quadraticCurveTo(0, 46 + mood * 8, 14, 40 - mood * 2); stroke(ctx, '#6A3A2A', 3.5); }
+  // a little green bow on the head, its ribbons wobble late
+  ctx.save(); ctx.translate(36, -56); ctx.rotate(0.3 + 0.12 * Math.sin(t * 3) + jig * 0.5);
+  chain(ctx, -2, 6, 1.9 - 0.5 * trail, 3, 14, t, trail, 7, '#3FAE5A', 0); chain(ctx, 2, 6, 1.3 - 0.4 * trail, 3, 13, t, trail, 7, '#3FAE5A', 1.2);
+  ball(ctx, -15, 0, 15, 10, '#9CEAA8', '#4CC266', '#2A8A40', -0.4); ball(ctx, 15, 0, 15, 10, '#9CEAA8', '#4CC266', '#2A8A40', 0.4); ball(ctx, 0, 1, 7, 7, '#7CDA8A', '#3AA852', '#207A34');
+  ctx.restore();
+  ctx.restore();
+  ctx.restore();
+}
+const GRE = { hi: '#B6F07A', mid: '#6CC444', lo: '#2E7A2A', belly: '#F2F8C8' };
+function frog(ctx, x, y, s, o) {
+  const { dir = -1, air = 0, sq = 0, lean = 0, lookX = 0, lookY = 0, blink = 0, happy = 0, wide = 0, talk = 0, mood = 0.6, point = 0, hold = 0, t = 0, trail = 0, jig = 0 } = o;
+  softShadow(ctx, x, y + 6, 125 * s * (1 - clamp(air / 300) * 0.4), 22 * s, 0.42 * (1 - clamp(air / 400) * 0.5));
+  ctx.save(); ctx.translate(x, y - air); ctx.scale(dir * s * (1 + sq), s * (1 - sq)); ctx.rotate(lean);
+  // big folded legs and webbed feet
+  [-1, 1].forEach((k) => { ball(ctx, k * 62, -40, 46, 38, GRE.hi, GRE.mid, GRE.lo); ctx.save(); ctx.translate(k * 70, -10); [-0.5, 0, 0.5].forEach((a) => ball(ctx, Math.sin(a) * 26 * k + k * 8, Math.cos(a) * 4, 14, 9, '#9CE070', '#5AB03C', '#2E7A2A')); ctx.restore(); });
+  ball(ctx, 0, -92, 82, 82, GRE.hi, GRE.mid, GRE.lo);
+  ctx.fillStyle = rgrad(ctx, 0, -76, 62, [[0, GRE.belly], [0.8, 'rgba(242,248,200,0.8)'], [1, 'rgba(242,248,200,0)']]); ctx.beginPath(); ctx.ellipse(0, -76, 52, 56, 0, 0, TAU); ctx.fill();
+  // spots
+  [[-56, -120, 10], [60, -104, 8], [-40, -60, 7]].forEach(([sx, sy, r]) => ell(ctx, sx, sy, r, r * 0.8, 'rgba(46,122,42,0.45)'));
+  { const th = lerp(2.2, -1.95, point) + 0.08 * Math.sin(t * 9) * point, sx = -60, sy = -112, hx = sx + Math.cos(th) * 62, hy = sy + Math.sin(th) * 62; ctx.beginPath(); ctx.moveTo(sx, sy); ctx.lineTo(hx, hy); stroke(ctx, '#5AB03C', 22); ball(ctx, hx, hy, 15, 13, '#9CE070', '#5AB03C', '#2E7A2A'); }
+  { const th = lerp(1.0, -0.15, hold) + 0.06 * Math.sin(t * 3), sx = 60, sy = -112, hx = sx + Math.cos(th) * 62, hy = sy + Math.sin(th) * 62; ctx.beginPath(); ctx.moveTo(sx, sy); ctx.lineTo(hx, hy); stroke(ctx, '#66BC44', 22); ball(ctx, hx, hy, 15, 13, '#9CE070', '#5AB03C', '#2E7A2A'); }
+  // red neckerchief, its point flutters
+  ctx.beginPath(); ctx.moveTo(-62, -150); ctx.quadraticCurveTo(0, -128, 62, -150); stroke(ctx, '#E8463E', 22);
+  { const fl = 0.15 * Math.sin(t * 5) + 0.3 * trail * Math.sin(t * 9) + jig; ctx.save(); ctx.translate(0, -138); ctx.rotate(fl * 0.4); ctx.beginPath(); ctx.moveTo(-24, -4); ctx.lineTo(24, -4); ctx.lineTo(4 * Math.sin(t * 4), 40); ctx.closePath(); ctx.fillStyle = lgrad(ctx, 0, -4, 0, 40, [[0, '#FF6A5A'], [1, '#C02A2A']]); ctx.fill(); ell(ctx, -6, 10, 3, 3, '#FFFFFF'); ell(ctx, 8, 18, 3, 3, '#FFFFFF'); ctx.restore(); }
+  // head: wide, with two big eyes on top
+  ctx.save(); ctx.translate(0, -214); ctx.rotate(lookY * 0.07 + jig * 0.1 + 0.04 * Math.sin(t * 1.9));
+  ball(ctx, 0, 0, 104, 66, GRE.hi, GRE.mid, GRE.lo);
+  [-1, 1].forEach((k) => { ball(ctx, k * 50, -52, 40, 38, GRE.hi, GRE.mid, GRE.lo); eye(ctx, k * 50, -54, 25, 26, { lx: lookX, ly: lookY, blink, happy, wide, skin: GRE.mid }); });
+  ctx.globalAlpha = 0.5; ell(ctx, -70, 14, 15, 9, '#F58CA0'); ell(ctx, 70, 14, 15, 9, '#F58CA0'); ctx.globalAlpha = 1;
+  ell(ctx, -12, -6, 3, 2.5, '#2E5A2A'); ell(ctx, 12, -6, 3, 2.5, '#2E5A2A');
+  if (talk > 0.08) { ctx.beginPath(); ctx.moveTo(-50, 14); ctx.quadraticCurveTo(0, 30 + 26 * talk, 50, 14); ctx.quadraticCurveTo(0, 22, -50, 14); ctx.fillStyle = '#7A2A38'; ctx.fill(); ell(ctx, 0, 22 + 12 * talk, 14, 5 * talk, '#F08A9A'); }
+  else { ctx.beginPath(); ctx.moveTo(-56, 10); ctx.quadraticCurveTo(0, 34 + mood * 12, 56, 10); stroke(ctx, '#245A22', 5); }
+  ctx.restore();
+  ctx.restore();
+}
+HOSTPAIRS['ruby-hop'] = { L: (c, x, y, s, o) => fox(c, x, y, s, { ...o, dir: 1, point: o.reach2 > 0.9 ? 1 : 0, hold: o.reach > 0.5 ? 0.8 : 0.2 }), R: frog, sL: [0.64, 1.0], sR: [0.56, 0.9] };
 const PAIR = HOSTPAIRS[TL.data.hosts] || HOSTPAIRS['prune-tilou'];

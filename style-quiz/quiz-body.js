@@ -6,6 +6,18 @@ const EMO = '"Noto Color Emoji"';
 const CARD = { w: 470, h: 262, x: [52, 558], y: [660, 948] };
 const CCOL = [['#FF9A8A', '#F0605A', '#B83A3A'], ['#8FD0FF', '#4A9FE8', '#2A64B0'], ['#9BE8B0', '#45BE72', '#2A8048'], ['#FFE07A', '#F5B83A', '#C0801A']];
 const LET = ['A', 'B', 'C', 'D'];
+// niveaux : nom affiché, couleurs (vert, bleu, orange, rouge), nombre de flammes
+const LVNAME = (k) => { const n = (QD.levels || [])[k] || ''; return n.charAt(0).toUpperCase() + n.slice(1); };
+const LVCOL = [['#8FE39A', '#34B04A'], ['#8FCBFF', '#3A8FE0'], ['#FFC46A', '#F08A1E'], ['#FF8A8A', '#D8283A']];
+function levelBanner(ctx, tr) {
+  for (const s of QZ) { if (!s.lv) continue; const [a, b, k] = s.lv, p = spring(tr - (a - 0.25), SPRING.bouncy), out = 1 - sm((tr - (s.q0 - 0.5)) / 0.3); if (tr < a - 0.3 || out <= 0.01 || p <= 0.01) continue;
+    ctx.save(); ctx.globalAlpha = clamp(out * 1.4); ctx.translate(W / 2, 700); ctx.scale(0.6 + 0.4 * p, 0.6 + 0.4 * p); ctx.rotate(0.03 * Math.sin(tr * 3));
+    const [hi, lo] = LVCOL[k]; panel(ctx, -400, -190, 800, 380, 70, hi, lo, 'rgba(255,255,255,0.75)');
+    outlined(ctx, `NIVEAU ${k + 1}`, 0, -100, 80, '#FFFFFF', 'rgba(20,24,60,0.55)', 0.14);
+    outlined(ctx, LVNAME(k), 0, 10, 130, '#FFFFFF', 'rgba(20,24,60,0.8)', 0.16);
+    for (let j = 0; j <= k; j++) { const q = spring(tr - (a + 0.15 + j * 0.15), SPRING.bouncy); if (q > 0.01) { ctx.save(); ctx.translate((j - k / 2) * 90, 120); ctx.scale(q, q); emoji(ctx, k === 3 ? '🔥' : '⭐', 0, 0, 64); ctx.restore(); } }
+    ctx.restore(); }
+}
 const STAGE = (tr) => { if (tr < QZ[0].q0 - 0.45) return { k: 'intro' }; for (let i = 0; i < NQ; i++) if (tr < QZ[i].end) return { k: 'q', i, s: QZ[i] }; return { k: 'outro' }; };
 // when the k-th card pops: with the spoken answer (long format) or quickly during the question (short format, answers not read)
 const sayFrac = (s, k) => (s.a0 === s.q0 ? s.q0 + 0.12 + k * 0.17 : s.a0 + (s.a1 - s.a0) * (k / 4) * 0.92);
@@ -14,6 +26,7 @@ const WAITOF = (s) => s.c1 - s.c0;
 // sound on every visible accent (beat = 2 × seconds)
 const HITS = [];
 HITS.push([2 * 0.3, 'title', 'swell', { gain: 0.12 }]);
+QZ.forEach((s) => { if (s.lv) { HITS.push([2 * (s.lv[0] - 0.2), 'level', 'swell', { gain: 0.14 }]); for (let j = 0; j <= s.lv[2]; j++) HITS.push([2 * (s.lv[0] + 0.15 + j * 0.15), 'star', 'bell', { pitch: ['C6', 'E6', 'G6', 'C7'][j], gain: 0.12 }]); } });
 QZ.forEach((s, i) => {
   HITS.push([2 * (s.q0 - 0.4), 'slide in', 'whoosh', { len: 0.35, gain: 0.1, from: 600, to: 2000 }]);
   for (let k = 0; k < 4; k++) HITS.push([2 * sayFrac(s, k), 'card ' + k, 'pop', { pitch: ['C6', 'D6', 'E6', 'G6'][k], gain: 0.16 }]);
@@ -124,11 +137,11 @@ function header(ctx, i, s, tr) {
   const slide = (1 - k) * 700 - (1 - out) * 900;
   ctx.save(); ctx.translate(slide, 0); ctx.globalAlpha = clamp(Math.min(k * 1.4, out * 1.5));
   // pill
-  panel(ctx, W / 2 - 210, 262, 420, 92, 46, '#FFB45E', '#F07A2A', 'rgba(255,255,255,0.6)'); outlined(ctx, `Question ${i + 1} / ${NQ}`, W / 2, 310, 54, '#FFFFFF', 'rgba(120,50,10,0.75)', 0.16);
+  { const lc = s.level != null ? LVCOL[s.level] : ['#FFB45E', '#F07A2A']; panel(ctx, W / 2 - 230, 262, 460, 92, 46, lc[0], lc[1], 'rgba(255,255,255,0.6)'); } outlined(ctx, s.level != null ? `${LVNAME(s.level)} · ${i + 1} / ${NQ}` : `Question ${i + 1} / ${NQ}`, W / 2, 310, s.level != null ? 46 : 54, '#FFFFFF', 'rgba(120,50,10,0.75)', 0.16);
   // progress dots
-  for (let d = 0; d < NQ; d++) { const dx = W / 2 + (d - (NQ - 1) / 2) * 44, done = d < i || (d === i && tr > s.c1); ball(ctx, dx, 384, 13, 13, done ? '#FFF6B0' : '#FFFFFF', done ? '#FFC83A' : 'rgba(255,255,255,0.7)', done ? '#D08A10' : 'rgba(170,180,210,0.9)'); if (d === i) { ctx.beginPath(); ctx.arc(dx, 384, 19, 0, TAU); stroke(ctx, '#FFFFFF', 4); } }
+  for (let d = 0; d < NQ; d++) { const dx = W / 2 + (d - (NQ - 1) / 2) * Math.min(44, 900 / NQ), done = d < i || (d === i && tr > s.c1); ball(ctx, dx, 384, 13, 13, done ? '#FFF6B0' : '#FFFFFF', done ? '#FFC83A' : 'rgba(255,255,255,0.7)', done ? '#D08A10' : 'rgba(170,180,210,0.9)'); if (d === i) { ctx.beginPath(); ctx.arc(dx, 384, 19, 0, TAU); stroke(ctx, '#FFFFFF', 4); } }
   // question panel
-  const q = QD.questions[i], lines = wrapWords(ctx, q.q, 62, 900);
+  const q = QD.questions[i], lines = wrapWords(ctx, q.q.replace(/ ([?!:;])/g, '\u00a0$1'), 62, 900);
   panel(ctx, 44, 418, W - 88, 216, 44, '#FFFFFF', '#F3EEE4', 'rgba(255,255,255,0.9)');
   const showK = spring(tr - (s.q0 + 0.2), SPRING.bouncy);
   if (showK > 0.01) { ctx.save(); ctx.translate(W / 2, 474); ctx.scale(showK, showK); emoji(ctx, q.show, 0, Math.sin(tr * 2) * 4, q.show.length > 2 ? 78 : 86); ctx.restore(); }
@@ -192,19 +205,19 @@ function draw(ctx, u, tr) {
   if (DECOR === 'neige') snowfall(ctx, tr); else { ctx.save(); ctx.globalCompositeOperation = 'lighter'; for (let i = 0; i < 16; i++) { const life = (tr * (0.05 + 0.04 * hash01(i, 14)) + hash01(i, 15)) % 1, x = 1080 * hash01(i, 16) + 30 * Math.sin(tr * 0.9 + i), y = 1500 - 1300 * life, r = 6 + 8 * hash01(i, 17); ctx.fillStyle = rgrad(ctx, x, y, r * 2.4, [[0, `rgba(255,240,180,${A(0.45 * Math.sin(life * PI))})`], [1, 'rgba(255,240,180,0)']]); ctx.beginPath(); ctx.arc(x, y, r * 2.4, 0, TAU); ctx.fill(); } ctx.restore(); }
 
   if (st.k === 'intro' || tr < QZ[0].q0) {
-    const intros = TL.phrases.filter((p) => p.who === 'intro'), it = intros.filter((p) => tr >= p.t0 - 0.2).pop() || intros[0], k = spring(tr - 0.2, SPRING.bouncy), out = 1 - sm((tr - (QZ[0].q0 - 0.9)) / 0.4);
+    const intros = TL.phrases.filter((p) => p.who === 'intro'), it = intros.filter((p) => tr >= p.t0 - 0.2).pop() || intros[0], k = spring(tr - 0.2, SPRING.bouncy), out = 1 - sm((tr - (QZ[0].lv ? QZ[0].lv[0] - 0.5 : QZ[0].q0 - 0.9)) / 0.4);
     if (out > 0.01) { ctx.save(); ctx.globalAlpha = out;
       const words = ['Les', 'grandes', 'questions']; ctx.font = font(150, 600, DISPLAY);
       words.forEach((w, i) => { const p = spring(tr - (0.2 + i * 0.18), SPRING.bouncy); if (p > 0.01) { ctx.save(); ctx.translate(W / 2, 380 + i * 0 + (i === 2 ? 150 : 0) + (1 - p) * 60); ctx.rotate(0.03 * Math.sin(tr * 2 + i)); ctx.scale(p, p);
         const x = i === 0 ? -250 : i === 1 ? 90 : 0; outlined(ctx, w, x, 0, i === 2 ? 160 : 112, i === 2 ? '#FFD84A' : '#FFFFFF', 'rgba(60,30,110,0.9)', 0.16); ctx.restore(); } });
-      const p2 = spring(tr - 1.1, SPRING.bouncy); if (p2 > 0.01) { ctx.save(); ctx.translate(W / 2, 700); ctx.scale(p2, p2); panel(ctx, -330, -50, 660, 100, 50, '#B49CFF', '#7B5CFF', 'rgba(255,255,255,0.6)'); outlined(ctx, `${NQ} questions · ${Math.round(QZ[0].c1 - QZ[0].c0)} secondes`, 0, 2, 50, '#FFFFFF', 'rgba(40,20,90,0.7)', 0.14); ctx.restore(); }
+      const p2 = spring(tr - 1.1, SPRING.bouncy); if (p2 > 0.01) { ctx.save(); ctx.translate(W / 2, 700); ctx.scale(p2, p2); panel(ctx, -330, -50, 660, 100, 50, '#B49CFF', '#7B5CFF', 'rgba(255,255,255,0.6)'); outlined(ctx, (QD.pill || `${NQ} questions · ${Math.round(QZ[0].c1 - QZ[0].c0)} secondes`), 0, 2, 50, '#FFFFFF', 'rgba(40,20,90,0.7)', 0.14); ctx.restore(); }
       ctx.restore(); readAlong(ctx, it, tr, 800); }
   }
   if (st.k === 'q' || (tr > QZ[0].q0 - 0.6 && tr < QZ[NQ - 1].end)) { const s2 = st.k === 'q' ? st : { i: 0, s: QZ[0] }; header(ctx, s2.i, s2.s, tr); }
   if (st.k === 'outro') {
     const ot = TL.phrases[TL.phrases.length - 1], t0 = QZ[NQ - 1].end;
     const p = spring(tr - (t0 + 0.05), SPRING.bouncy); if (p > 0.01) { ctx.save(); ctx.translate(W / 2, 400); ctx.scale(p, p); ctx.rotate(0.04 * Math.sin(tr * 2.4)); outlined(ctx, 'Bravo !', 0, 0, 190, '#FFD84A', 'rgba(60,30,110,0.9)', 0.16); ctx.restore(); }
-    for (let i = 0; i < NQ; i++) { const k = spring(tr - (t0 + 0.3 + i * 0.08), SPRING.bouncy); if (k <= 0.01) continue; const x = W / 2 + (i - (NQ - 1) / 2) * 92, y = 600 + 10 * Math.sin(tr * 3 + i);
+    for (let i = 0; i < NQ; i++) { const k = spring(tr - (t0 + 0.3 + i * 0.08), SPRING.bouncy); if (k <= 0.01) continue; const x = W / 2 + (i - (NQ - 1) / 2) * Math.min(92, 960 / NQ), y = 600 + 10 * Math.sin(tr * 3 + i);
       ctx.save(); ctx.translate(x, y); ctx.scale(k, k); ctx.rotate(0.1 * Math.sin(tr * 2 + i)); ctx.beginPath(); for (let j = 0; j < 10; j++) { const r = j % 2 ? 18 : 40, a = -PI / 2 + j * PI / 5; ctx.lineTo(Math.cos(a) * r, Math.sin(a) * r); } ctx.closePath(); ctx.fillStyle = lgrad(ctx, 0, -40, 0, 40, [[0, '#FFF3A0'], [1, '#F5A623']]); ctx.fill(); stroke(ctx, '#C07A10', 4); ctx.restore(); }
     if (ot.text.split(' ').length > 3) readAlong(ctx, ot, tr, 720);
     const sub = ot.text.toLowerCase().includes('abonn'), f = spring(tr - (sub ? ot.t0 + (ot.t1 - ot.t0) * 0.3 : ot.t1 + 0.1), SPRING.bouncy);
@@ -214,6 +227,7 @@ function draw(ctx, u, tr) {
       ctx.restore(); }
     confetti(ctx, W / 2, 400, (tr - (t0 + 0.2)) * 0.8);
   }
+  levelBanner(ctx, tr);
   hosts(ctx, tr, st);
   // grade: warm light, gentle vignette, grain
   ctx.save(); ctx.globalCompositeOperation = 'soft-light'; ctx.globalAlpha = 0.18; ctx.fillStyle = '#FFB55E'; ctx.fillRect(0, 0, W, H);
