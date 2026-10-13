@@ -1,0 +1,108 @@
+{
+ "title": "Le quiz de Prune",
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Qui fait miaou ?",
+   "show": "🔊",
+   "a": [
+    [
+     "🐶",
+     "Le chien"
+    ],
+    [
+     "🐷",
+     "Le cochon"
+    ],
+    [
+     "🐱",
+     "Le chat"
+    ],
+    [
+     "🐓",
+     "Le coq"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le chat !"
+  },
+  {
+   "q": "Quel est le fruit rouge ?",
+   "show": "🔴",
+   "a": [
+    [
+     "🍌",
+     "La banane"
+    ],
+    [
+     "🍓",
+     "La fraise"
+    ],
+    [
+     "🍐",
+     "La poire"
+    ],
+    [
+     "🥝",
+     "Le kiwi"
+    ]
+   ],
+   "ok": 1,
+   "say": "La fraise !"
+  },
+  {
+   "q": "Combien de ballons ?",
+   "show": "🎈🎈",
+   "a": [
+    [
+     "",
+     "2"
+    ],
+    [
+     "",
+     "1"
+    ],
+    [
+     "",
+     "3"
+    ],
+    [
+     "",
+     "4"
+    ]
+   ],
+   "ok": 0,
+   "say": "Deux !"
+  },
+  {
+   "q": "Où fait-on dodo ?",
+   "show": "🌙",
+   "a": [
+    [
+     "🛁",
+     "Dans le bain"
+    ],
+    [
+     "🚗",
+     "En voiture"
+    ],
+    [
+     "🌳",
+     "Dans un arbre"
+    ],
+    [
+     "🛏️",
+     "Dans un lit"
+    ]
+   ],
+   "ok": 3,
+   "say": "Dans un lit !"
+  }
+ ],
+ "wait": 5,
+ "intro": [
+  "Quatre questions, cinq secondes pour répondre !",
+  "Ton enfant trouvera-t-il toutes les bonnes réponses ?"
+ ],
+ "hosts": "prune-tilou"
+}
