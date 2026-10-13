@@ -1,0 +1,107 @@
+{
+ "title": "Le quiz de Prune",
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Qui fait coin-coin ?",
+   "show": "🎵",
+   "a": [
+    [
+     "🐸",
+     "La grenouille"
+    ],
+    [
+     "🦆",
+     "Le canard"
+    ],
+    [
+     "🐮",
+     "La vache"
+    ],
+    [
+     "🐴",
+     "Le cheval"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le canard !"
+  },
+  {
+   "q": "De quelle couleur est le ciel ?",
+   "show": "🌤️",
+   "a": [
+    [
+     "🔴",
+     "Rouge"
+    ],
+    [
+     "🟢",
+     "Vert"
+    ],
+    [
+     "🟣",
+     "Violet"
+    ],
+    [
+     "🔵",
+     "Bleu"
+    ]
+   ],
+   "ok": 3,
+   "say": "Bleu !"
+  },
+  {
+   "q": "Combien d'étoiles ?",
+   "show": "⭐⭐⭐⭐",
+   "a": [
+    [
+     "",
+     "3"
+    ],
+    [
+     "",
+     "5"
+    ],
+    [
+     "",
+     "4"
+    ],
+    [
+     "",
+     "2"
+    ]
+   ],
+   "ok": 2,
+   "say": "Quatre !"
+  },
+  {
+   "q": "Que faut-il quand il pleut ?",
+   "show": "🌧️",
+   "a": [
+    [
+     "☂️",
+     "Un parapluie"
+    ],
+    [
+     "🕶️",
+     "Des lunettes"
+    ],
+    [
+     "🩴",
+     "Des tongs"
+    ],
+    [
+     "🎈",
+     "Un ballon"
+    ]
+   ],
+   "ok": 0,
+   "say": "Un parapluie !"
+  }
+ ],
+ "wait": 5,
+ "intro": [
+  "Quatre questions, cinq secondes pour répondre !",
+  "Ton enfant trouvera-t-il toutes les bonnes réponses ?"
+ ]
+}

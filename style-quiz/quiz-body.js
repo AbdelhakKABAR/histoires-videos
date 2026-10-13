@@ -175,7 +175,7 @@ function hosts(ctx, tr, st) {
     talk: 0, point: think ? 0.35 + 0.1 * Math.sin(tr * 5) : cheer ? 1 : 0, hold: cheer ? 0.9 : 0.3, t: tr, trail: kAir > 0 ? 1 : 0.4, jig: ksq };
   roo(ctx, rs.x, rs.y, scR, rs); koala(ctx, ks.x, ks.y, scK, ks);
   // little thinking dots over Tilou while the clock runs
-  if (think) for (let d = 0; d < 3; d++) { const a = 0.5 + 0.5 * Math.sin(tr * 5 - d * 0.9); ball(ctx, kx - 60 - d * 34, gyH - 300 - d * 30, 11 + d * 3, 11 + d * 3, '#FFFFFF', '#F0F2FA', '#C0C8E0'); ctx.globalAlpha = 1 - a * 0.5; ctx.globalAlpha = 1; }
+  if (think) for (let d = 0; d < 3; d++) { const a = 0.5 + 0.5 * Math.sin(tr * 5 - d * 0.9); ball(ctx, kx - 105 - d * 30, gyH - 225 - d * 16, 11 + d * 3, 11 + d * 3, '#FFFFFF', '#F0F2FA', '#C0C8E0'); ctx.globalAlpha = 1 - a * 0.5; ctx.globalAlpha = 1; }
 }
 
 // ---------------------------------------------------------------- frame
