@@ -42,3 +42,12 @@ Le nénuphar penche, le gâteau glisse vers l'eau… Qui va le rattraper à temp
 
 #histoirepourenfants #contepourenfants #histoiredusoir #dessinanime #enfants #parents #pourtoi #flamantrose #politesse #bonnesmanieres
 ```
+
+## histoire_kangourou_20261013_08.mp4
+Prune et Tilou : le linge s'envole
+
+```
+Un coup de vent… et tout le linge de maman file vers l'étang ! Prune la kangourou arrivera-t-elle à le sauver ? 🦘🐨
+
+#histoirepourenfants #contepourenfants #histoiredusoir #dessinanime #enfants #parents #pourtoi #kangourou #koala #aideralamaison
+```
