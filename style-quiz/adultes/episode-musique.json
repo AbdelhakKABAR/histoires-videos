@@ -1,0 +1,20 @@
+{
+ "title": "La musique", "subject": "Musique", "banner": "La musique",
+ "symbols": ["🎵","🎶","🎹","🎸","🎻","🎺","🎷","🥁","🎼","🎤","🎧","♪","♫","♩","♬","🪕"],
+ "description": "🎵 Quiz Musique : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #musique #musiqueclassique #culturegenerale #question #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Combien de cordes a une guitare classique ?", "qd": "Cordes d'une guitare classique ?", "a": [["","Quatre"],["","Cinq"],["","Six"],["","Sept"]], "ok": 2, "say": "Six cordes !", "level": 0},
+  {"q": "Qui a composé La Lettre à Élise ?", "qd": "Le compositeur de La Lettre à Élise ?", "a": [["","Beethoven"],["","Mozart"],["","Chopin"],["","Bach"]], "ok": 0, "say": "Beethoven !", "level": 0},
+  {"q": "De quel instrument jouait Jimi Hendrix ?", "qd": "L'instrument de Jimi Hendrix ?", "a": [["","La batterie"],["","Le piano"],["","La basse"],["","La guitare"]], "ok": 3, "say": "La guitare !", "level": 0},
+  {"q": "Combien de touches compte un piano standard ?", "qd": "Touches d'un piano standard ?", "a": [["","76"],["","88"],["","92"],["","100"]], "ok": 1, "say": "88 touches !", "level": 1},
+  {"q": "Combien de lignes compte une portée musicale ?", "qd": "Lignes d'une portée musicale ?", "a": [["","Quatre"],["","Six"],["","Cinq"],["","Sept"]], "ok": 2, "say": "Cinq lignes !", "level": 1},
+  {"q": "Qui a composé Les Quatre Saisons ?", "qd": "Le compositeur des Quatre Saisons ?", "a": [["","Vivaldi"],["","Haendel"],["","Bach"],["","Verdi"]], "ok": 0, "say": "Vivaldi !", "level": 1},
+  {"q": "Combien de symphonies Beethoven a-t-il achevées ?", "qd": "Symphonies achevées par Beethoven ?", "a": [["","Cinq"],["","Sept"],["","Douze"],["","Neuf"]], "ok": 3, "say": "Neuf symphonies !", "level": 2},
+  {"q": "À quel âge Mozart est-il mort ?", "qd": "L'âge de Mozart à sa mort ?", "a": [["","29 ans"],["","35 ans"],["","42 ans"],["","51 ans"]], "ok": 1, "say": "À 35 ans !", "level": 2},
+  {"q": "Combien de cordes a une harpe de concert ?", "qd": "Cordes d'une harpe de concert ?", "a": [["","36"],["","40"],["","47"],["","52"]], "ok": 2, "say": "47 cordes !", "level": 3},
+  {"q": "En quelle année le Boléro de Ravel a-t-il été créé ?", "qd": "L'année de création du Boléro ?", "a": [["","1928"],["","1905"],["","1912"],["","1937"]], "ok": 0, "say": "En 1928 !", "level": 3}
+ ]
+}
