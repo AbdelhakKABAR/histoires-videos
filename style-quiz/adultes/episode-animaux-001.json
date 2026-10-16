@@ -1,0 +1,264 @@
+{
+ "title": "Quiz Animaux",
+ "wait": 5,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est le plus grand animal du monde ?",
+   "show": "",
+   "a": [
+    [
+     "",
+     "L'éléphant"
+    ],
+    [
+     "",
+     "Le requin-baleine"
+    ],
+    [
+     "",
+     "La girafe"
+    ],
+    [
+     "",
+     "La baleine bleue"
+    ]
+   ],
+   "ok": 3,
+   "say": "La baleine bleue !",
+   "level": 0
+  },
+  {
+   "q": "Combien de pattes a un insecte ?",
+   "show": "",
+   "a": [
+    [
+     "",
+     "6"
+    ],
+    [
+     "",
+     "8"
+    ],
+    [
+     "",
+     "4"
+    ],
+    [
+     "",
+     "10"
+    ]
+   ],
+   "ok": 0,
+   "say": "Six pattes !",
+   "level": 0
+  },
+  {
+   "q": "Quel mammifère peut vraiment voler ?",
+   "show": "",
+   "a": [
+    [
+     "",
+     "L'écureuil"
+    ],
+    [
+     "",
+     "La chauve-souris"
+    ],
+    [
+     "",
+     "Le lémurien"
+    ],
+    [
+     "",
+     "Le hibou"
+    ]
+   ],
+   "ok": 1,
+   "say": "La chauve-souris !",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'animal terrestre le plus rapide ?",
+   "show": "",
+   "a": [
+    [
+     "",
+     "Le lion"
+    ],
+    [
+     "",
+     "L'antilope"
+    ],
+    [
+     "",
+     "Le guépard"
+    ],
+    [
+     "",
+     "Le cheval"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le guépard !",
+   "level": 1
+  },
+  {
+   "q": "Combien d'estomacs a une vache ?",
+   "show": "",
+   "a": [
+    [
+     "",
+     "1"
+    ],
+    [
+     "",
+     "2"
+    ],
+    [
+     "",
+     "3"
+    ],
+    [
+     "",
+     "4"
+    ]
+   ],
+   "ok": 3,
+   "say": "Quatre !",
+   "level": 1
+  },
+  {
+   "q": "Combien de temps dure la grossesse d'un éléphant ?",
+   "show": "",
+   "a": [
+    [
+     "",
+     "9 mois"
+    ],
+    [
+     "",
+     "22 mois"
+    ],
+    [
+     "",
+     "12 mois"
+    ],
+    [
+     "",
+     "36 mois"
+    ]
+   ],
+   "ok": 1,
+   "say": "Environ vingt-deux mois !",
+   "level": 1
+  },
+  {
+   "q": "De quelle couleur est la peau d'un ours polaire ?",
+   "show": "",
+   "a": [
+    [
+     "",
+     "Noire"
+    ],
+    [
+     "",
+     "Blanche"
+    ],
+    [
+     "",
+     "Rose"
+    ],
+    [
+     "",
+     "Grise"
+    ]
+   ],
+   "ok": 0,
+   "say": "Noire !",
+   "level": 2
+  },
+  {
+   "q": "Quel animal a les plus grands yeux du monde ?",
+   "show": "",
+   "a": [
+    [
+     "",
+     "La baleine bleue"
+    ],
+    [
+     "",
+     "L'autruche"
+    ],
+    [
+     "",
+     "Le calmar colossal"
+    ],
+    [
+     "",
+     "Le hibou"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le calmar colossal !",
+   "level": 2
+  },
+  {
+   "q": "Quel animal a des empreintes digitales presque comme les nôtres ?",
+   "show": "",
+   "a": [
+    [
+     "",
+     "Le panda"
+    ],
+    [
+     "",
+     "Le koala"
+    ],
+    [
+     "",
+     "Le raton laveur"
+    ],
+    [
+     "",
+     "Le paresseux"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le koala !",
+   "level": 3
+  },
+  {
+   "q": "Quel animal est considéré comme immortel ?",
+   "show": "",
+   "a": [
+    [
+     "",
+     "La tortue"
+    ],
+    [
+     "",
+     "Le homard"
+    ],
+    [
+     "",
+     "Le requin"
+    ],
+    [
+     "",
+     "Une méduse"
+    ]
+   ],
+   "ok": 3,
+   "say": "Une méduse ! Elle peut rajeunir !",
+   "level": 3
+  }
+ ],
+ "skip_first_level": true
+}

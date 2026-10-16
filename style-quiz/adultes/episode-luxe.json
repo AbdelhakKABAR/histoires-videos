@@ -1,0 +1,17 @@
+{
+ "title": "Marques de luxe françaises", "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quelle marque a pour logo deux C entrelacés ?", "show": "", "a": [["","Céline"],["","Chanel"],["","Cartier"],["","Courrèges"]], "ok": 1, "say": "Chanel !", "level": 0},
+  {"q": "Quelle maison est célèbre pour le sac Birkin ?", "show": "", "a": [["","Hermès"],["","Dior"],["","Lancel"],["","Longchamp"]], "ok": 0, "say": "Hermès !", "level": 0},
+  {"q": "Quelle marque est connue pour ses sacs au monogramme L V ?", "show": "", "a": [["","Lanvin"],["","Lacoste"],["","Louis Vuitton"],["","Longchamp"]], "ok": 2, "say": "Louis Vuitton !", "level": 0},
+  {"q": "Quelle maison a créé le parfum J'adore ?", "show": "", "a": [["","Guerlain"],["","Chanel"],["","Givenchy"],["","Dior"]], "ok": 3, "say": "Dior !", "level": 1},
+  {"q": "Quel créateur a fondé sa maison de couture en 1961 ?", "show": "", "a": [["","Yves Saint Laurent"],["","Christian Dior"],["","Coco Chanel"],["","Jean Paul Gaultier"]], "ok": 0, "say": "Yves Saint Laurent !", "level": 1},
+  {"q": "Par quel métier Hermès a-t-il commencé en 1837 ?", "show": "", "a": [["","La parfumerie"],["","La sellerie"],["","La joaillerie"],["","La couture"]], "ok": 1, "say": "La sellerie ! Des harnais pour les chevaux !", "level": 1},
+  {"q": "Quel était le vrai prénom de Coco Chanel ?", "show": "", "a": [["","Marie"],["","Simone"],["","Gabrielle"],["","Colette"]], "ok": 2, "say": "Gabrielle !", "level": 2},
+  {"q": "Quel groupe français possède Louis Vuitton et Dior ?", "show": "", "a": [["","Kering"],["","L'Oréal"],["","Richemont"],["","LVMH"]], "ok": 3, "say": "L V M H !", "level": 2},
+  {"q": "En quelle année la maison Louis Vuitton a-t-elle été fondée ?", "show": "", "a": [["","1854"],["","1900"],["","1789"],["","1925"]], "ok": 0, "say": "En mille huit cent cinquante-quatre !", "level": 3},
+  {"q": "Quel joaillier s'installe le premier place Vendôme, en 1893 ?", "show": "", "a": [["","Cartier"],["","Chaumet"],["","Boucheron"],["","Van Cleef"]], "ok": 2, "say": "Boucheron !", "level": 3}
+ ]
+}

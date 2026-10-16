@@ -1,0 +1,20 @@
+{
+ "title": "Les drapeaux du monde", "subject": "Drapeaux", "banner": "Les drapeaux du monde",
+ "symbols": ["🏳","🚩","🌍","⭐","☾","✚","🗺","🏴","✦","🌐","★","⚑","🧭","🌎","✧","🏁"],
+ "description": "🚩 Quiz Drapeaux du monde : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #drapeaux #geographie #culturegenerale #question #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel pays a une feuille d'érable rouge sur son drapeau ?", "qd": "Le drapeau à la feuille d'érable ?", "a": [["","Les États-Unis"],["","Le Canada"],["","L'Australie"],["","La Suisse"]], "ok": 1, "say": "Le Canada !", "level": 0},
+  {"q": "Quelles sont les couleurs du drapeau de l'Italie ?", "qd": "Les couleurs du drapeau italien ?", "a": [["","Vert, blanc, rouge"],["","Bleu, blanc, rouge"],["","Rouge, jaune, vert"],["","Noir, rouge, or"]], "ok": 0, "say": "Vert, blanc, rouge !", "level": 0},
+  {"q": "Quel pays a un drapeau blanc avec un rond rouge ?", "qd": "Drapeau blanc avec un rond rouge ?", "a": [["","La Chine"],["","La Corée du Sud"],["","Le Japon"],["","Le Vietnam"]], "ok": 2, "say": "Le Japon !", "level": 0},
+  {"q": "Quel drapeau compte cinquante étoiles ?", "qd": "Le drapeau aux 50 étoiles ?", "a": [["","Le Brésil"],["","L'Union européenne"],["","L'Australie"],["","Les États-Unis"]], "ok": 3, "say": "Les États-Unis !", "level": 1},
+  {"q": "Quel pays a un cèdre sur son drapeau ?", "qd": "Le drapeau avec un cèdre ?", "a": [["","Le Liban"],["","La Syrie"],["","Chypre"],["","Le Maroc"]], "ok": 0, "say": "Le Liban !", "level": 1},
+  {"q": "Quel pays a une croix blanche sur un fond rouge carré ?", "qd": "Croix blanche sur fond rouge, drapeau carré ?", "a": [["","La Suède"],["","La Suisse"],["","La Finlande"],["","L'Angleterre"]], "ok": 1, "say": "La Suisse !", "level": 1},
+  {"q": "Quel est le seul drapeau national qui n'est pas rectangulaire ?", "qd": "Le seul drapeau non rectangulaire ?", "a": [["","Le Bhoutan"],["","La Suisse"],["","Le Népal"],["","Le Vatican"]], "ok": 2, "say": "Le Népal !", "level": 2},
+  {"q": "Quel pays a un dragon sur son drapeau ?", "qd": "Le pays au dragon sur son drapeau ?", "a": [["","La Chine"],["","Le Japon"],["","La Mongolie"],["","Le Bhoutan"]], "ok": 3, "say": "Le Bhoutan !", "level": 2},
+  {"q": "Quel est le plus ancien drapeau national encore utilisé ?", "qd": "Le plus ancien drapeau encore utilisé ?", "a": [["","Le Danemark"],["","La France"],["","Le Royaume-Uni"],["","Les Pays-Bas"]], "ok": 0, "say": "Le Danemark !", "level": 3},
+  {"q": "Quel pays a un fusil sur son drapeau ?", "qd": "Le pays avec un fusil sur son drapeau ?", "a": [["","L'Angola"],["","Le Mozambique"],["","Le Kenya"],["","Le Zimbabwe"]], "ok": 1, "say": "Le Mozambique !", "level": 3}
+ ]
+}

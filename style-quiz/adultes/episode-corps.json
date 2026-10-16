@@ -1,0 +1,17 @@
+{
+ "title": "Le corps humain", "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Combien de dents a un adulte ?", "show": "", "a": [["","28"],["","30"],["","32"],["","36"]], "ok": 2, "say": "Trente-deux dents !", "level": 0},
+  {"q": "Quel organe pompe le sang dans le corps ?", "show": "", "a": [["","Le cœur"],["","Les poumons"],["","Le foie"],["","Les reins"]], "ok": 0, "say": "Le cœur !", "level": 0},
+  {"q": "Combien de sens avons-nous ?", "show": "", "a": [["","4"],["","5"],["","6"],["","7"]], "ok": 1, "say": "Cinq sens !", "level": 0},
+  {"q": "Quel est l'os le plus long du corps ?", "show": "", "a": [["","Le tibia"],["","L'humérus"],["","La colonne"],["","Le fémur"]], "ok": 3, "say": "Le fémur !", "level": 1},
+  {"q": "Quel groupe sanguin est donneur universel ?", "show": "", "a": [["","AB positif"],["","O négatif"],["","A positif"],["","B négatif"]], "ok": 1, "say": "O négatif !", "level": 1},
+  {"q": "Combien de litres de sang a un adulte ?", "show": "", "a": [["","Environ 5 litres"],["","Environ 2 litres"],["","Environ 10 litres"],["","Environ 1 litre"]], "ok": 0, "say": "Environ cinq litres !", "level": 1},
+  {"q": "Quel organe peut repousser après une opération ?", "show": "", "a": [["","Le cœur"],["","Le cerveau"],["","Le foie"],["","Le rein"]], "ok": 2, "say": "Le foie !", "level": 2},
+  {"q": "Combien de chromosomes possède l'être humain ?", "show": "", "a": [["","23"],["","44"],["","48"],["","46"]], "ok": 3, "say": "Quarante-six !", "level": 2},
+  {"q": "Combien de fois le cœur bat-il environ par jour ?", "show": "", "a": [["","10 000"],["","100 000"],["","1 million"],["","50 000"]], "ok": 1, "say": "Environ cent mille fois !", "level": 3},
+  {"q": "Quelle partie du corps ne reçoit pas de sang ?", "show": "", "a": [["","La cornée"],["","La langue"],["","Le lobe de l'oreille"],["","La paupière"]], "ok": 0, "say": "La cornée, de l'œil !", "level": 3}
+ ]
+}

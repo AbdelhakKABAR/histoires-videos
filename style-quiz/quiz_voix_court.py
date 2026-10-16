@@ -41,6 +41,8 @@ if Q.get("intro"):
         it = put(line, "intro", t, Q.get("intro_speed", 0.75)); t = it["t1"] + 0.6
     t += 0.2
 LEVELS = Q.get("levels", []); prev = None
+# "skip_first_level": pas d'annonce « Niveau facile » au début : la vidéo démarre directement sur la 1re question
+if Q.get("skip_first_level") and Q["questions"] and "level" in Q["questions"][0]: prev = Q["questions"][0]["level"]; t = 0.25
 for n, q in enumerate(Q["questions"]):
     lv = None
     # niveaux (facile, normal, difficile, impossible) : une annonce parlée avant la première question de chaque niveau

@@ -1,0 +1,17 @@
+{
+ "title": "Célèbres de France", "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Dans quelle ville se trouve la tour Eiffel ?", "show": "", "a": [["","Lyon"],["","Paris"],["","Marseille"],["","Nice"]], "ok": 1, "say": "À Paris !", "level": 0},
+  {"q": "Dans quel musée célèbre se trouve la Joconde ?", "show": "", "a": [["","Le Louvre"],["","Orsay"],["","Beaubourg"],["","Le Grand Palais"]], "ok": 0, "say": "Au Louvre !", "level": 0},
+  {"q": "Quelle course cycliste célèbre a lieu chaque été ?", "show": "", "a": [["","Paris-Roubaix"],["","Le Giro"],["","Le Tour de France"],["","La Vuelta"]], "ok": 2, "say": "Le Tour de France !", "level": 0},
+  {"q": "Dans quelle ville a lieu le célèbre festival du cinéma ?", "show": "", "a": [["","Nice"],["","Deauville"],["","Monaco"],["","Cannes"]], "ok": 3, "say": "À Cannes !", "level": 1},
+  {"q": "Quel château célèbre était la résidence de Louis Quatorze ?", "show": "", "a": [["","Chambord"],["","Versailles"],["","Fontainebleau"],["","Chenonceau"]], "ok": 1, "say": "Versailles !", "level": 1},
+  {"q": "Quel lieu célèbre est entouré par la mer en Normandie ?", "show": "", "a": [["","Le Mont-Saint-Michel"],["","Étretat"],["","Saint-Malo"],["","Honfleur"]], "ok": 0, "say": "Le Mont-Saint-Michel !", "level": 1},
+  {"q": "Qui a sculpté le célèbre Penseur ?", "show": "", "a": [["","Michel-Ange"],["","Camille Claudel"],["","Rodin"],["","Degas"]], "ok": 2, "say": "Auguste Rodin !", "level": 2},
+  {"q": "Quel peintre célèbre a peint Les Nymphéas ?", "show": "", "a": [["","Renoir"],["","Cézanne"],["","Manet"],["","Monet"]], "ok": 3, "say": "Claude Monet !", "level": 2},
+  {"q": "Combien de temps a duré la construction de la tour Eiffel ?", "show": "", "a": [["","6 mois"],["","Environ 2 ans"],["","5 ans"],["","10 ans"]], "ok": 1, "say": "Environ deux ans !", "level": 3},
+  {"q": "La tour Eiffel est repeinte tous les combien d'années ?", "show": "", "a": [["","Tous les 2 ans"],["","Tous les 15 ans"],["","Tous les 7 ans"],["","Tous les 25 ans"]], "ok": 2, "say": "Tous les sept ans environ !", "level": 3}
+ ]
+}

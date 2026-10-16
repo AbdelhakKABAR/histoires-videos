@@ -1,0 +1,17 @@
+{
+ "title": "Le cinéma", "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel film de 1997 raconte le naufrage d'un célèbre paquebot ?", "show": "", "a": [["","Pearl Harbor"],["","Titanic"],["","Le Grand Bleu"],["","Poséidon"]], "ok": 1, "say": "Titanic !", "level": 0},
+  {"q": "Quelle statuette récompense les films à Hollywood ?", "show": "", "a": [["","L'Oscar"],["","Le César"],["","La Palme d'or"],["","L'Emmy"]], "ok": 0, "say": "L'Oscar !", "level": 0},
+  {"q": "Qui joue Obélix dans Astérix et Obélix contre César ?", "show": "", "a": [["","Christian Clavier"],["","Jean Reno"],["","Gérard Depardieu"],["","Jean Dujardin"]], "ok": 2, "say": "Gérard Depardieu !", "level": 0},
+  {"q": "Quel film français de 2011 avec Omar Sy a été un immense succès ?", "show": "", "a": [["","Les Visiteurs"],["","Lupin"],["","Taxi"],["","Intouchables"]], "ok": 3, "say": "Intouchables !", "level": 1},
+  {"q": "Comment s'appelle la récompense française du cinéma ?", "show": "", "a": [["","Les Molières"],["","Les César"],["","Les Victoires"],["","Les Oscars"]], "ok": 1, "say": "Les César !", "level": 1},
+  {"q": "Combien d'épisodes compte la saga Star Wars principale ?", "show": "", "a": [["","9"],["","6"],["","7"],["","12"]], "ok": 0, "say": "Neuf épisodes !", "level": 1},
+  {"q": "Quel film français a fait le plus d'entrées en France ?", "show": "", "a": [["","Intouchables"],["","Les Visiteurs"],["","Bienvenue chez les Ch'tis"],["","La Grande Vadrouille"]], "ok": 2, "say": "Bienvenue chez les Ch'tis !", "level": 2},
+  {"q": "Qui a réalisé Le Fabuleux Destin d'Amélie Poulain ?", "show": "", "a": [["","Luc Besson"],["","Claude Lelouch"],["","Jacques Audiard"],["","Jean-Pierre Jeunet"]], "ok": 3, "say": "Jean-Pierre Jeunet !", "level": 2},
+  {"q": "Quel est le tout premier film projeté par les frères Lumière ?", "show": "", "a": [["","L'Arrivée d'un train"],["","La Sortie de l'usine"],["","L'Arroseur arrosé"],["","Le Voyage dans la Lune"]], "ok": 1, "say": "La Sortie de l'usine Lumière !", "level": 3},
+  {"q": "Quel film a gagné onze Oscars, comme Titanic ?", "show": "", "a": [["","Avatar"],["","Gladiator"],["","Le Retour du roi"],["","Forrest Gump"]], "ok": 2, "say": "Le Seigneur des anneaux, Le Retour du roi !", "level": 3}
+ ]
+}

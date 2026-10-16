@@ -1,0 +1,17 @@
+{
+ "title": "Les capitales du monde", "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quelle est la capitale de l'Espagne ?", "show": "", "a": [["","Barcelone"],["","Madrid"],["","Séville"],["","Valence"]], "ok": 1, "say": "Madrid !", "level": 0},
+  {"q": "Quelle est la capitale du Japon ?", "show": "", "a": [["","Tokyo"],["","Osaka"],["","Kyoto"],["","Séoul"]], "ok": 0, "say": "Tokyo !", "level": 0},
+  {"q": "Quelle est la capitale de l'Allemagne ?", "show": "", "a": [["","Munich"],["","Francfort"],["","Berlin"],["","Hambourg"]], "ok": 2, "say": "Berlin !", "level": 0},
+  {"q": "Quelle est la capitale du Maroc ?", "show": "", "a": [["","Casablanca"],["","Marrakech"],["","Fès"],["","Rabat"]], "ok": 3, "say": "Rabat ! Pas Casablanca !", "level": 1},
+  {"q": "Quelle est la capitale de la Turquie ?", "show": "", "a": [["","Istanbul"],["","Ankara"],["","Izmir"],["","Antalya"]], "ok": 1, "say": "Ankara ! Pas Istanbul !", "level": 1},
+  {"q": "Quelle est la capitale de la Suisse ?", "show": "", "a": [["","Berne"],["","Genève"],["","Zurich"],["","Lausanne"]], "ok": 0, "say": "Berne !", "level": 1},
+  {"q": "Quelle est la capitale du Brésil ?", "show": "", "a": [["","Rio de Janeiro"],["","São Paulo"],["","Brasília"],["","Salvador"]], "ok": 2, "say": "Brasilia !", "level": 2},
+  {"q": "Quelle est la capitale de la Nouvelle-Zélande ?", "show": "", "a": [["","Auckland"],["","Christchurch"],["","Queenstown"],["","Wellington"]], "ok": 3, "say": "Wellington !", "level": 2},
+  {"q": "Quelle est la capitale de la Birmanie ?", "show": "", "a": [["","Rangoun"],["","Naypyidaw"],["","Mandalay"],["","Bagan"]], "ok": 1, "say": "Naypyidaw, depuis deux mille cinq !", "level": 3},
+  {"q": "Quelle est la capitale officielle de la Bolivie ?", "show": "", "a": [["","Sucre"],["","La Paz"],["","Santa Cruz"],["","Cochabamba"]], "ok": 0, "say": "Sucre ! La Paz est le siège du gouvernement !", "level": 3}
+ ]
+}

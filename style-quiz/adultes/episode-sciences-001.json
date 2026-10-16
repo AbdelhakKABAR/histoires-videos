@@ -1,0 +1,18 @@
+{
+ "title": "Quiz Sciences", "wait": 5,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "intro": ["Dix questions de sciences, de facile à impossible !", "Tu iras jusqu'au bout ?"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quelle planète est la plus proche du Soleil ?", "show": "", "a": [["","Vénus"],["","Mercure"],["","Mars"],["","La Terre"]], "ok": 1, "say": "Mercure !", "level": 0},
+  {"q": "Combien de pattes a une araignée ?", "show": "", "a": [["","6"],["","10"],["","8"],["","12"]], "ok": 2, "say": "Huit pattes !", "level": 0},
+  {"q": "Quel gaz les plantes rejettent-elles le jour ?", "show": "", "a": [["","L'oxygène"],["","L'azote"],["","Le CO2"],["","L'hélium"]], "ok": 0, "say": "L'oxygène !", "level": 0},
+  {"q": "Combien d'os a un adulte ?", "show": "", "a": [["","186"],["","312"],["","256"],["","206"]], "ok": 3, "say": "Deux cent six !", "level": 1},
+  {"q": "Quel est le plus grand organe du corps humain ?", "show": "", "a": [["","Le foie"],["","La peau"],["","Le cerveau"],["","Les poumons"]], "ok": 1, "say": "La peau !", "level": 1},
+  {"q": "Quel est le symbole chimique de l'or ?", "show": "", "a": [["","Or"],["","Ag"],["","Au"],["","Go"]], "ok": 2, "say": "A, U !", "level": 1},
+  {"q": "Combien de cœurs a une pieuvre ?", "show": "", "a": [["","3"],["","1"],["","2"],["","8"]], "ok": 0, "say": "Trois cœurs !", "level": 2},
+  {"q": "En combien de temps la lumière du Soleil arrive-t-elle sur Terre ?", "show": "", "a": [["","8 secondes"],["","1 heure"],["","1 seconde"],["","8 minutes"]], "ok": 3, "say": "Environ huit minutes !", "level": 2},
+  {"q": "Quel est l'élément le plus abondant de l'univers ?", "show": "", "a": [["","L'oxygène"],["","L'hydrogène"],["","Le carbone"],["","L'hélium"]], "ok": 1, "say": "L'hydrogène !", "level": 3},
+  {"q": "Qu'est-ce qui est le plus long ? Un jour ou une année sur Vénus ?", "show": "", "a": [["","Une année"],["","Pareil"],["","Un jour"],["","Ça dépend"]], "ok": 2, "say": "Un jour ! Vénus tourne très lentement sur elle-même !", "level": 3}
+ ]
+}

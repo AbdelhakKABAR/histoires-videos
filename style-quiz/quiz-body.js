@@ -229,11 +229,13 @@ function draw(ctx, u, tr) {
   }
   levelBanner(ctx, tr);
   hosts(ctx, tr, st);
-  // grade: warm light, gentle vignette, grain
-  ctx.save(); ctx.globalCompositeOperation = 'soft-light'; ctx.globalAlpha = 0.18; ctx.fillStyle = '#FFB55E'; ctx.fillRect(0, 0, W, H);
-  ctx.globalCompositeOperation = 'source-over'; ctx.globalAlpha = 1; ctx.fillStyle = rgrad(ctx, W / 2, H * 0.5, H * 0.75, [[0, 'rgba(6,10,26,0)'], [0.65, 'rgba(6,10,26,0.04)'], [1, 'rgba(6,10,26,0.32)']]); ctx.fillRect(0, 0, W, H);
-  ctx.restore();
+  if (QD.banner) { // même titre que les vidéos adultes : cadre sombre bordé bleu-blanc-rouge, majuscules espacées (police UI = Montserrat)
+    const t = QD.banner.toUpperCase(); let bf = 50; ctx.save(); ctx.font = font(bf, 900, 'UI'); ctx.letterSpacing = '4px'; let tw = ctx.measureText(t).width; if (tw > W - 260) { bf = Math.floor(bf * (W - 260) / tw); ctx.font = font(bf, 900, 'UI'); tw = ctx.measureText(t).width; }
+    const bw = tw + 120, bx = W / 2 - bw / 2, by = 92;
+    ctx.shadowColor = 'rgba(56,189,248,0.45)'; ctx.shadowBlur = 30; ctx.beginPath(); ctx.roundRect(bx, by, bw, 96, 48); ctx.fillStyle = lgrad(ctx, bx, 0, bx + bw, 0, [[0, '#1D4ED8'], [0.5, '#F8FAFC'], [1, '#DC2626']]); ctx.fill(); ctx.shadowBlur = 0;
+    ctx.beginPath(); ctx.roundRect(bx + 4, by + 4, bw - 8, 88, 44); ctx.fillStyle = 'rgba(10,15,31,0.88)'; ctx.fill();
+    ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillStyle = '#FFFFFF'; ctx.fillText(t, W / 2, by + 50); ctx.letterSpacing = '0px'; ctx.restore(); }
 }
 
 await document.fonts.load(`100px ${EMO}`, QD.questions.map((q) => q.show + q.a.map((a) => a[0]).join('')).join(''));
-M.film({ fonts: [font(60, 600, DISPLAY)], hits: HITS, samples: 1, init() { if (DECOR === 'neige') buildSnowBG(); else buildBG(); }, draw });
+M.film({ fonts: [font(60, 600, DISPLAY), font(50, 900, 'UI')], hits: HITS, samples: 1, init() { if (DECOR === 'neige') buildSnowBG(); else buildBG(); }, draw });

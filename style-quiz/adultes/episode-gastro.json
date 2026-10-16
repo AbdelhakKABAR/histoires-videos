@@ -1,0 +1,17 @@
+{
+ "title": "Gastronomie française", "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "De quelle région vient la choucroute ?", "show": "", "a": [["","La Bretagne"],["","L'Alsace"],["","La Provence"],["","La Normandie"]], "ok": 1, "say": "L'Alsace !", "level": 0},
+  {"q": "Quel fromage met-on dans une tartiflette ?", "show": "", "a": [["","Le reblochon"],["","Le camembert"],["","Le comté"],["","Le brie"]], "ok": 0, "say": "Le reblochon !", "level": 0},
+  {"q": "De quelle ville vient la bouillabaisse ?", "show": "", "a": [["","Nice"],["","Bordeaux"],["","Marseille"],["","Lyon"]], "ok": 2, "say": "Marseille !", "level": 0},
+  {"q": "Quel dessert est une tarte aux pommes renversée ?", "show": "", "a": [["","Le clafoutis"],["","Le far breton"],["","Le kouign-amann"],["","La tarte Tatin"]], "ok": 3, "say": "La tarte Tatin !", "level": 1},
+  {"q": "Quelle ville est célèbre pour sa moutarde ?", "show": "", "a": [["","Dijon"],["","Reims"],["","Lille"],["","Nantes"]], "ok": 0, "say": "Dijon !", "level": 1},
+  {"q": "Quel plat est fait de bœuf mijoté au vin rouge ?", "show": "", "a": [["","Le pot-au-feu"],["","Le bœuf bourguignon"],["","La blanquette"],["","Le hachis parmentier"]], "ok": 1, "say": "Le bœuf bourguignon !", "level": 1},
+  {"q": "Quel fromage est surnommé le roi des fromages ?", "show": "", "a": [["","Le roquefort"],["","Le comté"],["","Le brie"],["","Le munster"]], "ok": 2, "say": "Le brie !", "level": 2},
+  {"q": "Quel légume est la base de la soupe vichyssoise ?", "show": "", "a": [["","La carotte"],["","Le chou"],["","La tomate"],["","Le poireau"]], "ok": 3, "say": "Le poireau !", "level": 2},
+  {"q": "Quel fromage a été le premier à obtenir une appellation d'origine, en 1925 ?", "show": "", "a": [["","Le roquefort"],["","Le camembert"],["","Le cantal"],["","Le beaufort"]], "ok": 0, "say": "Le roquefort !", "level": 3},
+  {"q": "Combien de couches de pâte a un millefeuille classique ?", "show": "", "a": [["","1000"],["","3"],["","10"],["","5"]], "ok": 1, "say": "Trois couches ! Pas mille !", "level": 3}
+ ]
+}

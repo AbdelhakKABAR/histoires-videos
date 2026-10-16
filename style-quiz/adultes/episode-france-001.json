@@ -1,0 +1,17 @@
+{
+ "title": "Quiz France", "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel est l'hymne national de la France ?", "show": "", "a": [["","La Marseillaise"],["","Le Chant du départ"],["","La Parisienne"],["","Douce France"]], "ok": 0, "say": "La Marseillaise !", "level": 0},
+  {"q": "Quel fromage vient de Normandie ?", "show": "", "a": [["","Le comté"],["","Le roquefort"],["","Le camembert"],["","Le reblochon"]], "ok": 2, "say": "Le camembert !", "level": 0},
+  {"q": "Quel est l'animal symbole de la France ?", "show": "", "a": [["","L'aigle"],["","Le coq"],["","Le lion"],["","L'ours"]], "ok": 1, "say": "Le coq !", "level": 0},
+  {"q": "En quelle année la tour Eiffel a-t-elle été inaugurée ?", "show": "", "a": [["","1900"],["","1789"],["","1925"],["","1889"]], "ok": 3, "say": "En mille huit cent quatre-vingt-neuf !", "level": 1},
+  {"q": "Quel est le plus haut sommet de France ?", "show": "", "a": [["","Le mont Blanc"],["","Le Vignemale"],["","La Meije"],["","Le mont Ventoux"]], "ok": 0, "say": "Le mont Blanc !", "level": 1},
+  {"q": "Qui a écrit Les Misérables ?", "show": "", "a": [["","Zola"],["","Balzac"],["","Victor Hugo"],["","Molière"]], "ok": 2, "say": "Victor Hugo !", "level": 1},
+  {"q": "Quelle ville est surnommée la Ville rose ?", "show": "", "a": [["","Lyon"],["","Toulouse"],["","Bordeaux"],["","Nice"]], "ok": 1, "say": "Toulouse !", "level": 2},
+  {"q": "Combien de départements compte la France ?", "show": "", "a": [["","95"],["","96"],["","110"],["","101"]], "ok": 3, "say": "Cent un, avec l'outre-mer !", "level": 2},
+  {"q": "Quel département porte le numéro 1 ?", "show": "", "a": [["","L'Ain"],["","L'Aisne"],["","L'Allier"],["","L'Aube"]], "ok": 0, "say": "L'Ain !", "level": 3},
+  {"q": "Quelle est la plus petite commune de France ?", "show": "", "a": [["","Rochefourchat"],["","Plassac"],["","Castelmoron-d'Albret"],["","Eus"]], "ok": 2, "say": "Castelmoron d'Albret, en Gironde !", "level": 3}
+ ]
+}

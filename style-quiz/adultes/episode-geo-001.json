@@ -1,0 +1,18 @@
+{
+ "title": "Quiz Géographie", "wait": 5,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "intro": ["Dix questions de géographie, de facile à impossible !", "Tu iras jusqu'au bout ?"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quelle est la capitale de l'Italie ?", "show": "", "a": [["","Milan"],["","Rome"],["","Venise"],["","Naples"]], "ok": 1, "say": "Rome !", "level": 0},
+  {"q": "Quel est le plus grand océan du monde ?", "show": "", "a": [["","Atlantique"],["","Indien"],["","Arctique"],["","Pacifique"]], "ok": 3, "say": "Le Pacifique !", "level": 0},
+  {"q": "Sur quel continent se trouve l'Égypte ?", "show": "", "a": [["","Afrique"],["","Asie"],["","Europe"],["","Océanie"]], "ok": 0, "say": "L'Afrique !", "level": 0},
+  {"q": "Quelle est la capitale de l'Australie ?", "show": "", "a": [["","Sydney"],["","Melbourne"],["","Canberra"],["","Perth"]], "ok": 2, "say": "Canberra !", "level": 1},
+  {"q": "Quel est le plus long fleuve de France ?", "show": "", "a": [["","La Seine"],["","Le Rhône"],["","La Garonne"],["","La Loire"]], "ok": 3, "say": "La Loire !", "level": 1},
+  {"q": "Quel est le pays le plus peuplé du monde ?", "show": "", "a": [["","Chine"],["","Inde"],["","États-Unis"],["","Indonésie"]], "ok": 1, "say": "L'Inde !", "level": 1},
+  {"q": "Quel est le plus petit pays du monde ?", "show": "", "a": [["","Vatican"],["","Monaco"],["","Malte"],["","Saint-Marin"]], "ok": 0, "say": "Le Vatican !", "level": 2},
+  {"q": "Combien de pays compte l'Afrique ?", "show": "", "a": [["","48"],["","52"],["","60"],["","54"]], "ok": 3, "say": "Cinquante-quatre !", "level": 2},
+  {"q": "Quelle est la capitale du Kazakhstan ?", "show": "", "a": [["","Almaty"],["","Astana"],["","Bichkek"],["","Tachkent"]], "ok": 1, "say": "Astana !", "level": 3},
+  {"q": "Quel pays a le plus de fuseaux horaires ?", "show": "", "a": [["","Russie"],["","États-Unis"],["","France"],["","Chine"]], "ok": 2, "say": "La France, grâce à l'outre-mer !", "level": 3}
+ ]
+}

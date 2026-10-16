@@ -1,0 +1,18 @@
+{
+ "title": "Quiz Histoire", "wait": 5,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "intro": ["Dix questions d'histoire, de facile à impossible !", "Tu iras jusqu'au bout ?"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "En quelle année a commencé la Révolution française ?", "show": "", "a": [["","1789"],["","1815"],["","1492"],["","1914"]], "ok": 0, "say": "En dix-sept cent quatre-vingt-neuf !", "level": 0},
+  {"q": "Qui était le premier empereur des Français ?", "show": "", "a": [["","Louis XIV"],["","Charlemagne"],["","Napoléon"],["","De Gaulle"]], "ok": 2, "say": "Napoléon !", "level": 0},
+  {"q": "Dans quel pays se trouvent les pyramides de Gizeh ?", "show": "", "a": [["","Mexique"],["","Égypte"],["","Irak"],["","Soudan"]], "ok": 1, "say": "En Égypte !", "level": 0},
+  {"q": "En quelle année l'homme a-t-il marché sur la Lune ?", "show": "", "a": [["","1961"],["","1975"],["","1957"],["","1969"]], "ok": 3, "say": "En mille neuf cent soixante-neuf !", "level": 1},
+  {"q": "En quelle année est tombé le mur de Berlin ?", "show": "", "a": [["","1989"],["","1991"],["","1985"],["","1945"]], "ok": 0, "say": "En mille neuf cent quatre-vingt-neuf !", "level": 1},
+  {"q": "Qui a découvert l'Amérique en 1492 ?", "show": "", "a": [["","Magellan"],["","Vasco de Gama"],["","Christophe Colomb"],["","Cartier"]], "ok": 2, "say": "Christophe Colomb !", "level": 1},
+  {"q": "Combien de temps a duré la guerre de Cent Ans ?", "show": "", "a": [["","100 ans"],["","116 ans"],["","99 ans"],["","124 ans"]], "ok": 1, "say": "Cent seize ans !", "level": 2},
+  {"q": "Qui a été le premier président de la Cinquième République ?", "show": "", "a": [["","Pompidou"],["","Mitterrand"],["","Coty"],["","De Gaulle"]], "ok": 3, "say": "Charles de Gaulle !", "level": 2},
+  {"q": "Quel roi de France a régné le plus longtemps ?", "show": "", "a": [["","Louis XIV"],["","Louis XV"],["","Saint Louis"],["","Henri IV"]], "ok": 0, "say": "Louis Quatorze, soixante-douze ans !", "level": 3},
+  {"q": "Combien de temps a duré la guerre la plus courte de l'histoire ?", "show": "", "a": [["","3 jours"],["","38 minutes"],["","6 heures"],["","1 semaine"]], "ok": 1, "say": "Trente-huit minutes !", "level": 3}
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "title": "L'espace", "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Combien de planètes compte le système solaire ?", "show": "", "a": [["","7"],["","9"],["","8"],["","10"]], "ok": 2, "say": "Huit planètes !", "level": 0},
+  {"q": "Quelle est la plus grande planète du système solaire ?", "show": "", "a": [["","Jupiter"],["","Saturne"],["","Neptune"],["","La Terre"]], "ok": 0, "say": "Jupiter !", "level": 0},
+  {"q": "Comment s'appelle notre galaxie ?", "show": "", "a": [["","Andromède"],["","La Voie lactée"],["","Orion"],["","La Grande Ourse"]], "ok": 1, "say": "La Voie lactée !", "level": 0},
+  {"q": "Quelle planète est surnommée la planète rouge ?", "show": "", "a": [["","Vénus"],["","Jupiter"],["","Mercure"],["","Mars"]], "ok": 3, "say": "Mars !", "level": 1},
+  {"q": "Qui a été le premier homme à marcher sur la Lune ?", "show": "", "a": [["","Buzz Aldrin"],["","Neil Armstrong"],["","Youri Gagarine"],["","Thomas Pesquet"]], "ok": 1, "say": "Neil Armstrong !", "level": 1},
+  {"q": "Quelle est l'étoile la plus proche de la Terre ?", "show": "", "a": [["","Le Soleil"],["","Sirius"],["","L'étoile polaire"],["","Proxima"]], "ok": 0, "say": "Le Soleil ! C'est une étoile !", "level": 1},
+  {"q": "Qui a été le premier homme dans l'espace ?", "show": "", "a": [["","Neil Armstrong"],["","John Glenn"],["","Youri Gagarine"],["","Alan Shepard"]], "ok": 2, "say": "Youri Gagarine, en mille neuf cent soixante et un !", "level": 2},
+  {"q": "Quelle est la planète la plus chaude ?", "show": "", "a": [["","Mercure"],["","Mars"],["","Jupiter"],["","Vénus"]], "ok": 3, "say": "Vénus ! Pas Mercure !", "level": 2},
+  {"q": "Combien de temps met la lumière de la Lune pour arriver sur Terre ?", "show": "", "a": [["","8 minutes"],["","1 seconde environ"],["","1 heure"],["","1 jour"]], "ok": 1, "say": "Environ une seconde !", "level": 3},
+  {"q": "Quelle planète tourne couchée sur le côté ?", "show": "", "a": [["","Neptune"],["","Saturne"],["","Uranus"],["","Mars"]], "ok": 2, "say": "Uranus !", "level": 3}
+ ]
+}

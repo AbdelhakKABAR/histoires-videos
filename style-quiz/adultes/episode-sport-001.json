@@ -1,0 +1,17 @@
+{
+ "title": "Quiz Sport", "wait": 5,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Combien de joueurs a une équipe de foot sur le terrain ?", "show": "", "a": [["","10"],["","12"],["","11"],["","9"]], "ok": 2, "say": "Onze joueurs !", "level": 0},
+  {"q": "Quel pays a gagné la Coupe du monde de foot en 2018 ?", "show": "", "a": [["","La France"],["","Le Brésil"],["","La Croatie"],["","L'Allemagne"]], "ok": 0, "say": "La France !", "level": 0},
+  {"q": "Dans quel sport utilise-t-on un volant ?", "show": "", "a": [["","Le tennis"],["","Le badminton"],["","Le squash"],["","Le padel"]], "ok": 1, "say": "Le badminton !", "level": 0},
+  {"q": "Combien de minutes dure un match de rugby ?", "show": "", "a": [["","90"],["","70"],["","60"],["","80"]], "ok": 3, "say": "Quatre-vingts minutes !", "level": 1},
+  {"q": "Tous les combien d'années ont lieu les Jeux olympiques d'été ?", "show": "", "a": [["","2 ans"],["","4 ans"],["","5 ans"],["","3 ans"]], "ok": 1, "say": "Tous les quatre ans !", "level": 1},
+  {"q": "Quel joueur a gagné le plus de Ballons d'or ?", "show": "", "a": [["","Ronaldo"],["","Platini"],["","Messi"],["","Zidane"]], "ok": 2, "say": "Lionel Messi !", "level": 1},
+  {"q": "Combien de points vaut un essai au rugby ?", "show": "", "a": [["","5"],["","3"],["","7"],["","4"]], "ok": 0, "say": "Cinq points !", "level": 2},
+  {"q": "Quel est le meilleur score possible avec une seule fléchette ?", "show": "", "a": [["","50"],["","100"],["","40"],["","60"]], "ok": 3, "say": "Soixante, le triple vingt !", "level": 2},
+  {"q": "En quelle année ont eu lieu les premiers Jeux olympiques modernes ?", "show": "", "a": [["","1900"],["","1896"],["","1924"],["","1888"]], "ok": 1, "say": "En mille huit cent quatre-vingt-seize, à Athènes !", "level": 3},
+  {"q": "Combien de temps a duré le plus long match de tennis de l'histoire ?", "show": "", "a": [["","6 h 33"],["","8 h 11"],["","11 h 05"],["","9 h 40"]], "ok": 2, "say": "Onze heures et cinq minutes !", "level": 3}
+ ]
+}

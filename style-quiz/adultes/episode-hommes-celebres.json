@@ -1,0 +1,17 @@
+{
+ "title": "Hommes célèbres de France", "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Qui a été le premier empereur des Français ?", "show": "", "a": [["","Louis Quatorze"],["","Napoléon"],["","Charlemagne"],["","Clovis"]], "ok": 1, "say": "Napoléon Bonaparte !", "level": 0},
+  {"q": "Quel roi était surnommé le Roi-Soleil ?", "show": "", "a": [["","Louis Quatorze"],["","Henri Quatre"],["","François Premier"],["","Louis Seize"]], "ok": 0, "say": "Louis Quatorze !", "level": 0},
+  {"q": "Quel savant a créé le vaccin contre la rage ?", "show": "", "a": [["","Marie Curie"],["","Ampère"],["","Louis Pasteur"],["","Lavoisier"]], "ok": 2, "say": "Louis Pasteur !", "level": 0},
+  {"q": "Qui a écrit Le Petit Prince ?", "show": "", "a": [["","Jules Verne"],["","Victor Hugo"],["","Albert Camus"],["","Saint-Exupéry"]], "ok": 3, "say": "Antoine de Saint-Exupéry !", "level": 1},
+  {"q": "Qui a lancé l'appel du 18 juin 1940 ?", "show": "", "a": [["","Pétain"],["","De Gaulle"],["","Jean Moulin"],["","Churchill"]], "ok": 1, "say": "Charles de Gaulle !", "level": 1},
+  {"q": "Quel auteur a écrit Le Malade imaginaire ?", "show": "", "a": [["","Molière"],["","Racine"],["","Corneille"],["","La Fontaine"]], "ok": 0, "say": "Molière !", "level": 1},
+  {"q": "Qui a inventé le cinéma en 1895 ?", "show": "", "a": [["","Georges Méliès"],["","Thomas Edison"],["","Les frères Lumière"],["","Charles Pathé"]], "ok": 2, "say": "Les frères Lumière !", "level": 2},
+  {"q": "Qui a inventé l'écriture pour les aveugles ?", "show": "", "a": [["","Valentin Haüy"],["","Blaise Pascal"],["","Denis Diderot"],["","Louis Braille"]], "ok": 3, "say": "Louis Braille !", "level": 2},
+  {"q": "Quel était le vrai nom de Molière ?", "show": "", "a": [["","Jean Racine"],["","Jean-Baptiste Poquelin"],["","François Arouet"],["","Pierre Corneille"]], "ok": 1, "say": "Jean-Baptiste Poquelin !", "level": 3},
+  {"q": "À quel âge Napoléon est-il devenu empereur ?", "show": "", "a": [["","28 ans"],["","42 ans"],["","35 ans"],["","50 ans"]], "ok": 2, "say": "À trente-cinq ans !", "level": 3}
+ ]
+}

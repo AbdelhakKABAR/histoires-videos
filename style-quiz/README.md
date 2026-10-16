@@ -53,3 +53,13 @@ Alterner les duos d'un épisode à l'autre.
 - Avant la 1re question de chaque niveau : annonce parlée « Niveau facile ! » + grand panneau coloré (vert, bleu, orange, rouge) avec 1 à 3 étoiles, puis 🔥 pour « impossible ».
 - L'étiquette du haut affiche « Facile · 1 / 12 » dans la couleur du niveau. Les questions deviennent plus dures à chaque niveau.
 - Nouveau duo "ruby-hop" : Ruby la petite renarde (nœud vert, elle parle) + Hop le grenouillon (foulard rouge). Durée ≈ 1 min 52.
+
+## Quiz ADULTES (style pro) — une commande (16 oct. 2026)
+Fond bleu nuit, police Montserrat, titre fixe en haut (cadre bordé bleu-blanc-rouge), 10 questions en 4 niveaux, démarre directement
+sur la question 1 (pas d'intro, pas d'écran « Niveau facile »), voix siwis, ≈ 1 min 40.
+1. Écrire `adultes/episode-<nom>.json` sur le modèle de `adultes/episode-drapeaux.json` : `q` = question lue, `qd` = version courte affichée,
+   4 réponses courtes (varier la position de `ok`), `say` = réponse dite, `level` 0-3 (3 / 3 / 2 / 2 questions), `subject`, `banner`, `symbols`, `description`.
+   Les faits doivent être exacts et sans ambiguïté (éviter les questions discutées). Thèmes déjà faits / à faire : `adultes/themes.json`.
+2. `bash style-quiz/faire_quiz_adulte.sh style-quiz/adultes/episode-<nom>.json` -> `style-quiz/_films/livraison/<nom>.mp4` (≈ 10 min).
+3. Publication : `python3 style-quiz/publier_publio.py <clone de publio> <mp4> <episode.json>`, commit + push dans publio, puis lancer
+   le workflow « Publier les vidéos » (REST : POST repos/AbdelhakKABAR/publio/actions/workflows/publish.yml/dispatches, ref=main).
