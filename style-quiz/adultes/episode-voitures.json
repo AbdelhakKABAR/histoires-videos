@@ -1,0 +1,20 @@
+{
+ "title": "Les voitures", "subject": "Voitures", "banner": "Les voitures",
+ "symbols": ["🚗","🏎","🚙","🛞","⛽","🔑","🏁","🚘","🛣","🔧","🚦","⚙","🚓","🏆","🚕","🗺"],
+ "description": "🏎 Quiz Voitures : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #voiture #automobile #culturegenerale #question #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quelle marque automobile a un lion pour logo ?", "qd": "La marque au logo de lion ?", "a": [["","Renault"],["","Citroën"],["","Peugeot"],["","Fiat"]], "ok": 2, "say": "Peugeot !", "level": 0},
+  {"q": "Dans quel pays la marque Ferrari a-t-elle été fondée ?", "qd": "Le pays d'origine de Ferrari ?", "a": [["","L'Italie"],["","L'Allemagne"],["","La France"],["","L'Espagne"]], "ok": 0, "say": "L'Italie !", "level": 0},
+  {"q": "Quelle marque fabriquait la célèbre Coccinelle ?", "qd": "La marque de la Coccinelle ?", "a": [["","Fiat"],["","Volkswagen"],["","Renault"],["","Mini"]], "ok": 1, "say": "Volkswagen !", "level": 0},
+  {"q": "Quelle marque a pour logo deux chevrons ?", "qd": "La marque aux deux chevrons ?", "a": [["","Peugeot"],["","Opel"],["","Renault"],["","Citroën"]], "ok": 3, "say": "Citroën !", "level": 1},
+  {"q": "De quel pays vient la marque Volvo ?", "qd": "Le pays d'origine de Volvo ?", "a": [["","La Norvège"],["","La Suède"],["","Le Danemark"],["","La Finlande"]], "ok": 1, "say": "La Suède !", "level": 1},
+  {"q": "De 1914 à 1925, en quelle couleur était vendue la Ford T ?", "qd": "La couleur de la Ford T de 1914 à 1925 ?", "a": [["","Noir"],["","Rouge"],["","Blanc"],["","Vert"]], "ok": 0, "say": "En noir !", "level": 1},
+  {"q": "Que signifie l'abréviation SUV ?", "qd": "Que signifie SUV ?", "a": [["","Super Urban Vehicle"],["","Safe Utility Van"],["","Sport Utility Vehicle"],["","Speed Urban Van"]], "ok": 2, "say": "Sport Utility Vehicle !", "level": 2},
+  {"q": "En quelle année ont eu lieu les premières 24 Heures du Mans ?", "qd": "Les premières 24 Heures du Mans ?", "a": [["","1906"],["","1937"],["","1949"],["","1923"]], "ok": 3, "say": "En 1923 !", "level": 2},
+  {"q": "Comment s'appelle la première voiture de Karl Benz, en 1886 ?", "qd": "La première voiture de Karl Benz ?", "a": [["","Le Velo"],["","Le Patent-Motorwagen"],["","La Victoria"],["","Le Phaeton"]], "ok": 1, "say": "Le Patent-Motorwagen !", "level": 3},
+  {"q": "Que veut dire le mot latin Audi, nom de la marque ?", "qd": "Que veut dire « Audi » en latin ?", "a": [["","Écoute !"],["","Avance !"],["","Regarde !"],["","Roule !"]], "ok": 0, "say": "Écoute !", "level": 3}
+ ]
+}
