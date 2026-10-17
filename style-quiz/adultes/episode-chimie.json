@@ -1,0 +1,20 @@
+{
+ "title": "La chimie", "subject": "Chimie", "banner": "La chimie",
+ "symbols": ["⚗","🧪","⚛","🔬","💧","🔥","🧫","⚡","✦","🧲","★","💎","🌡","🫧","✧","☢"],
+ "description": "🧪 Quiz Chimie : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #chimie #science #culturegenerale #question #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel est le symbole chimique de l'or ?", "qd": "Le symbole chimique de l'or ?", "a": [["","Or"],["","Au"],["","Ag"],["","Go"]], "ok": 1, "say": "Au, du latin aurum !", "level": 0},
+  {"q": "Quelle est la formule chimique de l'eau ?", "qd": "La formule chimique de l'eau ?", "a": [["","H2O"],["","CO2"],["","O2"],["","H2O2"]], "ok": 0, "say": "H deux O !", "level": 0},
+  {"q": "Quel est le gaz le plus abondant dans l'air ?", "qd": "Le gaz le plus abondant dans l'air ?", "a": [["","L'oxygène"],["","Le CO2"],["","L'azote"],["","L'argon"]], "ok": 2, "say": "L'azote, environ 78 % !", "level": 0},
+  {"q": "Quel est le symbole chimique du fer ?", "qd": "Le symbole chimique du fer ?", "a": [["","F"],["","Fr"],["","Ir"],["","Fe"]], "ok": 3, "say": "F E, du latin ferrum !", "level": 1},
+  {"q": "Quel est le pH de l'eau pure à 25 degrés ?", "qd": "Le pH de l'eau pure à 25 °C ?", "a": [["","7"],["","0"],["","14"],["","1"]], "ok": 0, "say": "Sept, c'est neutre !", "level": 1},
+  {"q": "Qui a créé le tableau périodique des éléments en 1869 ?", "qd": "Le créateur du tableau périodique ?", "a": [["","Lavoisier"],["","Mendeleïev"],["","Marie Curie"],["","Pasteur"]], "ok": 1, "say": "Dmitri Mendeleïev !", "level": 1},
+  {"q": "Quel est l'élément le plus abondant dans l'univers ?", "qd": "L'élément le plus abondant de l'univers ?", "a": [["","L'oxygène"],["","L'hélium"],["","L'hydrogène"],["","Le carbone"]], "ok": 2, "say": "L'hydrogène !", "level": 2},
+  {"q": "Quel élément a pour symbole la lettre K ?", "qd": "Quel élément a pour symbole K ?", "a": [["","Le krypton"],["","Le calcium"],["","Le cobalt"],["","Le potassium"]], "ok": 3, "say": "Le potassium, du latin kalium !", "level": 2},
+  {"q": "Quel est le numéro atomique du carbone ?", "qd": "Le numéro atomique du carbone ?", "a": [["","6"],["","12"],["","8"],["","14"]], "ok": 0, "say": "Six !", "level": 3},
+  {"q": "Quel élément a pour symbole la lettre W ?", "qd": "Quel élément a pour symbole W ?", "a": [["","Le vanadium"],["","Le tungstène"],["","Le zinc"],["","L'osmium"]], "ok": 1, "say": "Le tungstène, ou wolfram !", "level": 3}
+ ]
+}
