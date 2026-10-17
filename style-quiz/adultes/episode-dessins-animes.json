@@ -1,0 +1,20 @@
+{
+ "title": "Les dessins animés", "subject": "Dessins animés", "banner": "Les dessins animés",
+ "symbols": ["🎬","🐭","🦁","🧽","🎨","✏","📺","🍿","⭐","🎞","🐰","✦","🏰","🎥","✧","🖍"],
+ "description": "🎬 Quiz Dessins animés : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #dessinsanimes #disney #animation #culturegenerale #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Comment s'appelle la célèbre souris créée par Walt Disney en 1928 ?", "qd": "La souris de Walt Disney ?", "a": [["","Jerry"],["","Mickey"],["","Speedy"],["","Stuart Little"]], "ok": 1, "say": "Mickey !", "level": 0},
+  {"q": "Dans Le Roi lion, comment s'appelle le jeune lion héros du film ?", "qd": "Le héros du Roi lion ?", "a": [["","Mufasa"],["","Scar"],["","Nala"],["","Simba"]], "ok": 3, "say": "Simba !", "level": 0},
+  {"q": "Quel personnage de dessin animé vit dans un ananas sous la mer ?", "qd": "Il vit dans un ananas sous la mer ?", "a": [["","Bob l'éponge"],["","Nemo"],["","Patrick"],["","Sébastien"]], "ok": 0, "say": "Bob l'éponge !", "level": 0},
+  {"q": "Quel studio a réalisé Toy Story, premier long métrage entièrement en images de synthèse ?", "qd": "Le studio de Toy Story ?", "a": [["","DreamWorks"],["","Pixar"],["","Ghibli"],["","Illumination"]], "ok": 1, "say": "Pixar !", "level": 1},
+  {"q": "Dans quelle ville vit la famille Simpson ?", "qd": "La ville des Simpson ?", "a": [["","Shelbyville"],["","Quahog"],["","Springfield"],["","South Park"]], "ok": 2, "say": "Springfield !", "level": 1},
+  {"q": "Quel est le premier long métrage d'animation des studios Disney ?", "qd": "Le premier long métrage Disney ?", "a": [["","Pinocchio"],["","Bambi"],["","Cendrillon"],["","Blanche-Neige"]], "ok": 3, "say": "Blanche-Neige et les Sept Nains !", "level": 1},
+  {"q": "Quel film japonais a gagné l'Oscar du meilleur film d'animation en 2003 ?", "qd": "Oscar de l'animation en 2003 ?", "a": [["","Princesse Mononoké"],["","Le Voyage de Chihiro"],["","Mon voisin Totoro"],["","Akira"]], "ok": 1, "say": "Le Voyage de Chihiro !", "level": 2},
+  {"q": "Comment s'appelle le chat de Gargamel dans Les Schtroumpfs ?", "qd": "Le chat de Gargamel ?", "a": [["","Azraël"],["","Grosminet"],["","Félix"],["","Tom"]], "ok": 0, "say": "Azraël !", "level": 2},
+  {"q": "Quel est le plus ancien long métrage d'animation encore conservé ?", "qd": "Le plus ancien long métrage animé conservé ?", "a": [["","Blanche-Neige"],["","Fantasia"],["","Le Prince Ahmed"],["","Le Roi et l'Oiseau"]], "ok": 2, "say": "Les Aventures du prince Ahmed, de 1926 !", "level": 3},
+  {"q": "Quel personnage animé a été le premier à recevoir une étoile sur le Walk of Fame d'Hollywood ?", "qd": "1re étoile animée du Walk of Fame ?", "a": [["","Bugs Bunny"],["","Donald"],["","Woody Woodpecker"],["","Mickey"]], "ok": 3, "say": "Mickey, en 1978 !", "level": 3}
+ ]
+}
