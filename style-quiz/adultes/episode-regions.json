@@ -1,0 +1,20 @@
+{
+ "title": "Les régions de France", "subject": "Régions de France", "banner": "Les régions de France",
+ "symbols": ["🇫🇷","🗺","📍","🏰","⛰","🌊","🍇","🧀","🥖","🏞","⚓","🌻","🗼","⛪","🧭","★"],
+ "description": "🗺 Quiz Les régions de France : 10 questions, du niveau facile à impossible. Tu connais vraiment ta France ? Donne ton score en commentaire 👇 #quiz #quiztime #france #regions #geographie #culturegenerale #question #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quelle est la capitale de la région Bretagne ?", "qd": "La capitale de la Bretagne ?", "a": [["","Brest"],["","Rennes"],["","Nantes"],["","Quimper"]], "ok": 1, "say": "Rennes !", "level": 0},
+  {"q": "Combien de régions compte la France métropolitaine ?", "qd": "Combien de régions en métropole ?", "a": [["","13"],["","18"],["","22"],["","12"]], "ok": 0, "say": "Treize !", "level": 0},
+  {"q": "Dans quelle région se trouve Marseille ?", "qd": "La région de Marseille ?", "a": [["","Occitanie"],["","Auvergne-Rhône-Alpes"],["","Provence-Alpes-Côte d'Azur"],["","Corse"]], "ok": 2, "say": "Provence-Alpes-Côte d'Azur !", "level": 0},
+  {"q": "Quelle est la capitale de la région Grand Est ?", "qd": "La capitale du Grand Est ?", "a": [["","Metz"],["","Reims"],["","Nancy"],["","Strasbourg"]], "ok": 3, "say": "Strasbourg !", "level": 1},
+  {"q": "Dans quelle région se trouve Bordeaux ?", "qd": "La région de Bordeaux ?", "a": [["","Occitanie"],["","Nouvelle-Aquitaine"],["","Pays de la Loire"],["","Centre-Val de Loire"]], "ok": 1, "say": "La Nouvelle-Aquitaine !", "level": 1},
+  {"q": "Quel est le chef-lieu de la région Occitanie ?", "qd": "Le chef-lieu de l'Occitanie ?", "a": [["","Toulouse"],["","Montpellier"],["","Perpignan"],["","Nîmes"]], "ok": 0, "say": "Toulouse !", "level": 1},
+  {"q": "Quelle est la plus grande région de France métropolitaine ?", "qd": "La plus grande région de métropole ?", "a": [["","Occitanie"],["","Auvergne-Rhône-Alpes"],["","Grand Est"],["","Nouvelle-Aquitaine"]], "ok": 3, "say": "La Nouvelle-Aquitaine !", "level": 2},
+  {"q": "Quel est le chef-lieu de la région Centre-Val de Loire ?", "qd": "Le chef-lieu du Centre-Val de Loire ?", "a": [["","Tours"],["","Orléans"],["","Bourges"],["","Blois"]], "ok": 1, "say": "Orléans !", "level": 2},
+  {"q": "Quelle région compte le plus de départements ?", "qd": "La région avec le plus de départements ?", "a": [["","Auvergne-Rhône-Alpes"],["","Nouvelle-Aquitaine"],["","Occitanie"],["","Grand Est"]], "ok": 2, "say": "L'Occitanie, avec treize départements !", "level": 3},
+  {"q": "En quelle année la France est-elle passée à treize régions en métropole ?", "qd": "L'année du passage à 13 régions ?", "a": [["","2016"],["","2010"],["","2014"],["","2019"]], "ok": 0, "say": "En 2016 !", "level": 3}
+ ]
+}
