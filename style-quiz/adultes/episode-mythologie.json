@@ -1,0 +1,20 @@
+{
+ "title": "La mythologie grecque", "subject": "Mythologie grecque", "banner": "La mythologie grecque",
+ "symbols": ["⚡","🔱","🏛","🦉","🐍","🏺","☀","🌙","⚔","🛡","🍇","🔥","🌊","🏹","⭐","🐂"],
+ "description": "⚡ Quiz Mythologie grecque : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #mythologie #mythologiegrecque #grece #culturegenerale #question #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Qui est le roi des dieux de l'Olympe ?", "qd": "Le roi des dieux de l'Olympe ?", "a": [["","Apollon"],["","Hadès"],["","Zeus"],["","Arès"]], "ok": 2, "say": "Zeus !", "level": 0},
+  {"q": "Quel est le dieu de la mer ?", "qd": "Le dieu de la mer ?", "a": [["","Poséidon"],["","Hermès"],["","Dionysos"],["","Hadès"]], "ok": 0, "say": "Poséidon !", "level": 0},
+  {"q": "Quel héros a accompli les douze travaux ?", "qd": "Le héros des douze travaux ?", "a": [["","Achille"],["","Héraclès"],["","Ulysse"],["","Jason"]], "ok": 1, "say": "Héraclès, ou Hercule !", "level": 0},
+  {"q": "Quel héros a tranché la tête de Méduse ?", "qd": "Qui a tranché la tête de Méduse ?", "a": [["","Thésée"],["","Jason"],["","Achille"],["","Persée"]], "ok": 3, "say": "Persée !", "level": 1},
+  {"q": "Quelle est la déesse de la sagesse, symbolisée par la chouette ?", "qd": "La déesse de la sagesse ?", "a": [["","Athéna"],["","Héra"],["","Artémis"],["","Déméter"]], "ok": 0, "say": "Athéna !", "level": 1},
+  {"q": "Quel monstre, mi-homme mi-taureau, vivait dans le labyrinthe ?", "qd": "Le monstre du labyrinthe ?", "a": [["","Le Cyclope"],["","Le Centaure"],["","Le Minotaure"],["","La Chimère"]], "ok": 2, "say": "Le Minotaure !", "level": 1},
+  {"q": "Quel Titan a volé le feu aux dieux pour le donner aux hommes ?", "qd": "Qui a volé le feu aux dieux ?", "a": [["","Atlas"],["","Prométhée"],["","Cronos"],["","Héphaïstos"]], "ok": 1, "say": "Prométhée !", "level": 2},
+  {"q": "Comment s'appelle le chien qui garde l'entrée des Enfers ?", "qd": "Le chien gardien des Enfers ?", "a": [["","Orthros"],["","Argos"],["","Typhon"],["","Cerbère"]], "ok": 3, "say": "Cerbère !", "level": 2},
+  {"q": "Qui est la mère du héros Achille ?", "qd": "La mère d'Achille ?", "a": [["","Thétis"],["","Héra"],["","Léto"],["","Pénélope"]], "ok": 0, "say": "Thétis !", "level": 3},
+  {"q": "Quel roi est condamné à pousser éternellement un rocher en haut d'une colline ?", "qd": "Condamné à pousser un rocher sans fin ?", "a": [["","Tantale"],["","Midas"],["","Sisyphe"],["","Ixion"]], "ok": 2, "say": "Sisyphe !", "level": 3}
+ ]
+}
