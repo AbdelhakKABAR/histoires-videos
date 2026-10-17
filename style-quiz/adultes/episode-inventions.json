@@ -1,0 +1,20 @@
+{
+ "title": "Les inventions", "subject": "Inventions", "banner": "Les inventions",
+ "symbols": ["💡","⚙","🔧","🔬","📷","🚂","✈","🎞","🧪","🔭","⚡","🛠","📡","🧲","🔩","🚀"],
+ "description": "💡 Quiz Les inventions : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #inventions #histoire #sciences #culturegenerale #question #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Qui a mis au point le vaccin contre la rage ?", "qd": "Le vaccin contre la rage ?", "a": [["","Louis Pasteur"],["","Marie Curie"],["","Robert Koch"],["","Alexander Fleming"]], "ok": 0, "say": "Louis Pasteur !", "level": 0},
+  {"q": "Qui a inventé l'imprimerie à caractères mobiles en Europe ?", "qd": "L'imprimerie en Europe ?", "a": [["","Léonard de Vinci"],["","Galilée"],["","Gutenberg"],["","Isaac Newton"]], "ok": 2, "say": "Gutenberg !", "level": 0},
+  {"q": "Quels frères ont inventé le cinématographe ?", "qd": "Les inventeurs du cinématographe ?", "a": [["","Les Montgolfier"],["","Les Lumière"],["","Les Wright"],["","Les Pathé"]], "ok": 1, "say": "Les frères Lumière !", "level": 0},
+  {"q": "Qui a inventé l'écriture en relief pour les aveugles ?", "qd": "L'écriture pour les aveugles ?", "a": [["","Valentin Haüy"],["","Victor Hugo"],["","Charles Perrault"],["","Louis Braille"]], "ok": 3, "say": "Louis Braille !", "level": 1},
+  {"q": "En quelle année les frères Wright ont-ils réussi le premier vol motorisé ?", "qd": "Le premier vol des frères Wright ?", "a": [["","1889"],["","1903"],["","1914"],["","1927"]], "ok": 1, "say": "En 1903 !", "level": 1},
+  {"q": "Qui a inventé la dynamite ?", "qd": "L'inventeur de la dynamite ?", "a": [["","Thomas Edison"],["","Nikola Tesla"],["","Alfred Nobel"],["","Louis Pasteur"]], "ok": 2, "say": "Alfred Nobel !", "level": 1},
+  {"q": "Quel médecin français a inventé le stéthoscope ?", "qd": "L'inventeur du stéthoscope ?", "a": [["","René Laennec"],["","Ambroise Paré"],["","Claude Bernard"],["","Louis Pasteur"]], "ok": 0, "say": "René Laennec !", "level": 2},
+  {"q": "Qui a inventé le métier à tisser à cartes perforées ?", "qd": "Le métier à cartes perforées ?", "a": [["","Vaucanson"],["","Denis Papin"],["","Cugnot"],["","Jacquard"]], "ok": 3, "say": "Joseph-Marie Jacquard !", "level": 2},
+  {"q": "Qui a construit le fardier, le premier véhicule à vapeur, au dix-huitième siècle ?", "qd": "Le fardier à vapeur, c'est qui ?", "a": [["","Denis Papin"],["","James Watt"],["","Cugnot"],["","Jacquard"]], "ok": 2, "say": "Nicolas-Joseph Cugnot !", "level": 3},
+  {"q": "Quel Français a réalisé la plus ancienne photographie connue ?", "qd": "La plus ancienne photo connue ?", "a": [["","Daguerre"],["","Niépce"],["","Nadar"],["","Talbot"]], "ok": 1, "say": "Nicéphore Niépce !", "level": 3}
+ ]
+}
