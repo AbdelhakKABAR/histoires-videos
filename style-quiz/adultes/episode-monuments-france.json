@@ -1,0 +1,20 @@
+{
+ "title": "Les monuments de France", "subject": "Monuments de France", "banner": "Les monuments de France",
+ "symbols": ["🗼","🏰","⛪","🏛","🇫🇷","🌉","🗽","⛲","🕌","🏯","⚜","🧭","🗺","★","📸","🌙"],
+ "description": "🏰 Quiz Les monuments de France : 10 questions, du niveau facile à impossible. Tu les connais tous ? Donne ton score en commentaire 👇 #quiz #quiztime #france #monuments #patrimoine #culturegenerale #question #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Dans quelle ville se trouve la tour Eiffel ?", "qd": "La ville de la tour Eiffel ?", "a": [["","Lyon"],["","Paris"],["","Marseille"],["","Lille"]], "ok": 1, "say": "Paris !", "level": 0},
+  {"q": "Dans quelle région se trouve le Mont-Saint-Michel ?", "qd": "La région du Mont-Saint-Michel ?", "a": [["","Bretagne"],["","Pays de la Loire"],["","Normandie"],["","Hauts-de-France"]], "ok": 2, "say": "En Normandie !", "level": 0},
+  {"q": "Quel roi a installé la cour au château de Versailles ?", "qd": "Le roi qui installe la cour à Versailles ?", "a": [["","Louis XVI"],["","Henri IV"],["","François Ier"],["","Louis XIV"]], "ok": 3, "say": "Louis XIV !", "level": 0},
+  {"q": "Dans quelle ville se trouve le palais des Papes ?", "qd": "La ville du palais des Papes ?", "a": [["","Avignon"],["","Nîmes"],["","Arles"],["","Lyon"]], "ok": 0, "say": "Avignon !", "level": 1},
+  {"q": "Quel monument de Paris abrite la tombe du Soldat inconnu ?", "qd": "La tombe du Soldat inconnu ?", "a": [["","Le Panthéon"],["","L'Arc de triomphe"],["","Les Invalides"],["","Le Sacré-Cœur"]], "ok": 1, "say": "L'Arc de triomphe !", "level": 1},
+  {"q": "Qu'est-ce que le pont du Gard ?", "qd": "Le pont du Gard, c'est… ?", "a": [["","Un pont médiéval"],["","Un viaduc ferroviaire"],["","Un aqueduc romain"],["","Un barrage"]], "ok": 2, "say": "Un aqueduc romain !", "level": 1},
+  {"q": "En quelle année la tour Eiffel a-t-elle été inaugurée ?", "qd": "L'inauguration de la tour Eiffel ?", "a": [["","1878"],["","1889"],["","1900"],["","1914"]], "ok": 1, "say": "En 1889 !", "level": 2},
+  {"q": "Quelle rivière le viaduc de Millau franchit-il ?", "qd": "La rivière sous le viaduc de Millau ?", "a": [["","Le Lot"],["","L'Aveyron"],["","La Dordogne"],["","Le Tarn"]], "ok": 3, "say": "Le Tarn !", "level": 2},
+  {"q": "Dans quelle ville se trouve le temple romain appelé la Maison carrée ?", "qd": "La ville de la Maison carrée ?", "a": [["","Arles"],["","Orange"],["","Nîmes"],["","Vienne"]], "ok": 2, "say": "Nîmes !", "level": 3},
+  {"q": "En quelle année Notre-Dame de Paris a-t-elle rouvert après l'incendie ?", "qd": "La réouverture de Notre-Dame ?", "a": [["","2024"],["","2022"],["","2023"],["","2025"]], "ok": 0, "say": "En 2024 !", "level": 3}
+ ]
+}
