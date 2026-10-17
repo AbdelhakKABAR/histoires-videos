@@ -1,0 +1,20 @@
+{
+ "title": "Les océans", "subject": "Océans", "banner": "Les océans",
+ "symbols": ["🌊","🐋","🐬","🐙","🦈","🐠","🐚","⚓","🚢","🏝","🦀","🐢","🪸","🧭","🐡","🦑"],
+ "description": "🌊 Quiz Océans : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #ocean #mer #planete #culturegenerale #question #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel est le plus grand océan du monde ?", "qd": "Le plus grand océan du monde ?", "a": [["","Atlantique"],["","Pacifique"],["","Indien"],["","Arctique"]], "ok": 1, "say": "L'océan Pacifique !", "level": 0},
+  {"q": "Quel océan sépare l'Europe de l'Amérique ?", "qd": "Entre l'Europe et l'Amérique ?", "a": [["","Indien"],["","Pacifique"],["","Austral"],["","Atlantique"]], "ok": 3, "say": "L'océan Atlantique !", "level": 0},
+  {"q": "Quel est le plus grand animal vivant dans les océans ?", "qd": "Le plus grand animal des océans ?", "a": [["","Baleine bleue"],["","Requin-baleine"],["","Orque"],["","Cachalot"]], "ok": 0, "say": "La baleine bleue !", "level": 0},
+  {"q": "Comment s'appelle le point le plus profond des océans ?", "qd": "Le point le plus profond des océans ?", "a": [["","Fosse de Porto Rico"],["","Fosse des Tonga"],["","Fosse des Mariannes"],["","Fosse de Java"]], "ok": 2, "say": "La fosse des Mariannes !", "level": 1},
+  {"q": "Quelle part de la surface de la Terre est couverte par les océans ?", "qd": "Part de la Terre couverte d'océans ?", "a": [["","Environ 51 %"],["","Environ 61 %"],["","Environ 81 %"],["","Environ 71 %"]], "ok": 3, "say": "Environ 71 % !", "level": 1},
+  {"q": "Quel est le plus petit océan du monde ?", "qd": "Le plus petit océan du monde ?", "a": [["","Indien"],["","Arctique"],["","Austral"],["","Atlantique"]], "ok": 1, "say": "L'océan Arctique !", "level": 1},
+  {"q": "Quel courant chaud adoucit le climat de l'Europe de l'Ouest ?", "qd": "Le courant chaud qui réchauffe l'Europe ?", "a": [["","Gulf Stream"],["","Kuroshio"],["","Humboldt"],["","El Niño"]], "ok": 0, "say": "Le Gulf Stream !", "level": 2},
+  {"q": "Quelle mer n'est bordée par aucune côte ?", "qd": "La mer sans aucune côte ?", "a": [["","Mer de Corail"],["","Mer de Weddell"],["","Mer des Sargasses"],["","Mer d'Arabie"]], "ok": 2, "say": "La mer des Sargasses !", "level": 2},
+  {"q": "Quelle est la profondeur de la fosse des Mariannes ?", "qd": "Profondeur de la fosse des Mariannes ?", "a": [["","Environ 6 000 m"],["","Environ 8 000 m"],["","Environ 14 000 m"],["","Environ 11 000 m"]], "ok": 3, "say": "Environ 11 000 mètres !", "level": 3},
+  {"q": "Combien de sel contient en moyenne un litre d'eau de mer ?", "qd": "Sel dans un litre d'eau de mer ?", "a": [["","Environ 15 g"],["","Environ 35 g"],["","Environ 55 g"],["","Environ 5 g"]], "ok": 1, "say": "Environ 35 grammes !", "level": 3}
+ ]
+}
