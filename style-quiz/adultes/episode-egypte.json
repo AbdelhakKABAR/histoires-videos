@@ -1,0 +1,20 @@
+{
+ "title": "L'Égypte ancienne", "subject": "Égypte ancienne", "banner": "L'Égypte ancienne",
+ "symbols": ["☥","🐫","🏜","🔺","🏺","🐍","☀","🪲","👁","🐈","📜","⚱","🌴","🌙","✦","⭐"],
+ "description": "🏺 Quiz Égypte ancienne : 10 questions, du niveau facile à impossible. Pharaons, pyramides, dieux... tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #egypte #egypteancienne #histoire #culturegenerale #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel fleuve traverse l'Égypte ?", "qd": "Le fleuve de l'Égypte ?", "a": [["","Le Tigre"],["","L'Euphrate"],["","Le Nil"],["","Le Jourdain"]], "ok": 2, "say": "Le Nil !", "level": 0},
+  {"q": "Comment appelait-on le roi de l'Égypte ancienne ?", "qd": "Le titre du roi égyptien ?", "a": [["","Le sultan"],["","Le pharaon"],["","Le calife"],["","Le tsar"]], "ok": 1, "say": "Le pharaon !", "level": 0},
+  {"q": "Quelle statue géante, au corps de lion et à tête humaine, garde les pyramides de Gizeh ?", "qd": "Corps de lion, tête humaine, à Gizeh ?", "a": [["","Le Minotaure"],["","Le Griffon"],["","La Chimère"],["","Le Sphinx"]], "ok": 3, "say": "Le Sphinx !", "level": 0},
+  {"q": "Quel pharaon a vu son tombeau découvert presque intact en 1922 ?", "qd": "Tombeau découvert intact en 1922 ?", "a": [["","Toutânkhamon"],["","Ramsès II"],["","Khéops"],["","Akhenaton"]], "ok": 0, "say": "Toutânkhamon !", "level": 1},
+  {"q": "Quelle pierre a permis à Champollion de déchiffrer les hiéroglyphes ?", "qd": "La pierre de Champollion ?", "a": [["","La pierre de Gizeh"],["","La pierre de Louxor"],["","La pierre de Rosette"],["","La pierre de Thèbes"]], "ok": 2, "say": "La pierre de Rosette !", "level": 1},
+  {"q": "Quel dieu à tête de chacal veillait sur l'embaumement des morts ?", "qd": "Le dieu à tête de chacal ?", "a": [["","Horus"],["","Anubis"],["","Rê"],["","Thot"]], "ok": 1, "say": "Anubis !", "level": 1},
+  {"q": "Quel pharaon a fait construire la pyramide à degrés de Saqqarah ?", "qd": "La pyramide à degrés de Saqqarah ?", "a": [["","Khéops"],["","Khéphren"],["","Mykérinos"],["","Djéser"]], "ok": 3, "say": "Djéser !", "level": 2},
+  {"q": "De quel temple vient l'obélisque de la place de la Concorde, à Paris ?", "qd": "L'obélisque de la Concorde vient de ?", "a": [["","Louxor"],["","Karnak"],["","Héliopolis"],["","Memphis"]], "ok": 0, "say": "Du temple de Louxor !", "level": 2},
+  {"q": "Quel pharaon a imposé le culte d'un dieu unique, Aton ?", "qd": "Le pharaon du dieu unique Aton ?", "a": [["","Ramsès II"],["","Akhenaton"],["","Thoutmôsis III"],["","Séthi Ier"]], "ok": 1, "say": "Akhenaton !", "level": 3},
+  {"q": "Quel temple Ramsès II a-t-il fait creuser dans la roche, en Nubie ?", "qd": "Le temple creusé par Ramsès II en Nubie ?", "a": [["","Karnak"],["","Edfou"],["","Abou Simbel"],["","Philae"]], "ok": 2, "say": "Abou Simbel !", "level": 3}
+ ]
+}
