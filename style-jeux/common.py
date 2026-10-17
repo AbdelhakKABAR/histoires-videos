@@ -194,25 +194,28 @@ class Painter:
         self.text(cr, cfg.get("titre2", "VA GAGNER ?"), W / 2, 450, 104, color=th["accent"], a=ap)
         self.text(cr, cfg.get("sous_titre", ""), W / 2, 540, 44, a=ap * 0.95, light=True)
         # grille des participants
-        cols = 5 if n > 6 else 3
+        cols = 3 if n <= 6 else (5 if n <= 10 else (5 if n <= 15 else 6))
         rows = (n + cols - 1) // cols
+        big = n <= 10
+        br, dx, dy = (62, 190, 210) if big else (46, 165, 160)
         for i in range(n):
             rr, cc = divmod(i, cols)
             cnt = min(cols, n - rr * cols)
-            x = W / 2 + (cc - (cnt - 1) / 2) * 190
-            y = 700 + rr * 210
+            x = W / 2 + (cc - (cnt - 1) / 2) * dx
+            y = 700 + rr * dy
             a = ease((T - 0.15 - i * 0.05) / 0.25)
             if a <= 0: continue
             cr.save(); cr.translate(x, y); s = back((T - 0.15 - i * 0.05) / 0.35); cr.scale(s, s)
-            self.ball(cr, 0, 0, 0, i, r=62, ringw=4)
+            self.ball(cr, 0, 0, 0, i, r=br, ringw=4)
             cr.restore()
             nm = self.parts[i]["nom"]
-            self.text(cr, nm, x, y + 108, 30 if len(nm) <= 10 else 25, a=a, font="Inter Display")
+            if not self.parts[i].get("numero"):
+                self.text(cr, nm, x, y + br + 46, (30 if len(nm) <= 10 else 25) * (1 if big else 0.85), a=a, font="Inter Display")
         cd = T - 1.6
         if cd >= 0:
             k = int(cd); lab = ["3", "2", "1", "GO !"][min(k, 3)]; frac = cd - k
             s = 1 + 0.6 * (1 - ease(frac / 0.4)); al = 1 - ease((frac - 0.6) / 0.4) if k < 3 else 1
-            cr.save(); cr.translate(W / 2, 700 + rows * 210 + 230); cr.scale(s, s)
+            cr.save(); cr.translate(W / 2, 700 + rows * dy + 200); cr.scale(s, s)
             self.text(cr, lab, 0, 70, 220, color=th["accent2"] if k == 3 else (1, 1, 1), a=al)
             cr.restore()
 

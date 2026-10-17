@@ -3,7 +3,7 @@ import math, random
 import pymunk
 from common import W, H, FPS
 
-WL, WR, R, SUB = 60, 1020, 36, 8
+WL, WR, SUB = 60, 1020, 8
 SECTIONS = ["clous", "zigzag", "moulins", "entonnoir", "bumpers", "trampolines", "portes", "roue", "escalier"]
 NOMS = {"clous": "CLOUS", "zigzag": "ZIGZAG", "moulins": "MOULINS", "entonnoir": "ENTONNOIR", "bumpers": "BUMPERS",
         "trampolines": "TRAMPOLINES", "portes": "PORTES", "roue": "LA ROUE", "escalier": "ESCALIER", "sprint": "SPRINT FINAL"}
@@ -16,6 +16,11 @@ class Course:
     def __init__(self, n, seed, sections=None):
         self.n, self.seed = n, seed
         rng = random.Random(seed)
+        self.R = 36 if n <= 10 else (30 if n <= 14 else 26)
+        self.cols = 5 if n <= 10 else (6 if n <= 14 else 7)
+        self.rdy = 110 if n <= 10 else 92
+        rows = (n + self.cols - 1) // self.cols
+        self.GATE = int(190 + (rows - 1) * self.rdy + self.R + 44)
         self.sections = sections or rng.sample(SECTIONS, 5)
         sp = pymunk.Space(); sp.gravity = (0, 1150); sp.damping = 0.995
         self.geo = {"seg": [], "peg": [], "bump": [], "tramp": [], "kin": [], "zones": []}
@@ -54,7 +59,7 @@ class Course:
             sp.add(b, s); g["kin"].append({"type": "slide", "body": b, "L": L, "lo": lo, "hi": hi})
 
         FIN = 0
-        y = 470
+        y = self.GATE + 90
         for name in self.sections + ["sprint"]:
             g["zones"].append((y - 30, NOMS[name]))
             y += 60
@@ -124,8 +129,9 @@ class Course:
         n = self.n
         balls = []
         for i in range(n):
+            R = self.R; sx = 900 / self.cols
             b = pymunk.Body(1, pymunk.moment_for_circle(1, 0, R))
-            b.position = (180 + (i % 5) * 180 + rng.uniform(-4, 4), 190 + (i // 5) * 110)
+            b.position = (90 + sx / 2 + (i % self.cols) * sx + rng.uniform(-4, 4), 190 + (i // self.cols) * self.rdy)
             c = pymunk.Circle(b, R); c.elasticity = 0.55; c.friction = 0.7; c.collision_type = 1
             sp.add(b, c); balls.append(b)
         self.hits, cur = [], [0.0]
@@ -251,20 +257,20 @@ class Course:
         if intro or k < 12:
             al = 1 if intro else 1 - k / 12
             cr.set_source_rgba(*th["accent2"], al); cr.set_line_width(10)
-            cr.move_to(60, 380 - oy); cr.line_to(1020, 380 - oy); cr.stroke()
+            cr.move_to(60, self.GATE - oy); cr.line_to(1020, self.GATE - oy); cr.stroke()
         # billes
         lead = self.rank(k)[0] if not intro else None
         for i in range(self.n):
             col = pt.parts[i]["couleur"]
             for d in range(1, 9):
                 x, y, _, _ = self.frames[max(0, k - d)]["balls"][i]
-                cr.set_source_rgba(*col, 0.22 * (1 - d / 9)); cr.arc(x, y - oy, R * (1 - d / 14), 0, 6.29); cr.fill()
+                cr.set_source_rgba(*col, 0.22 * (1 - d / 9)); cr.arc(x, y - oy, self.R * (1 - d / 14), 0, 6.29); cr.fill()
         for i in sorted(range(self.n), key=lambda i: i == lead):
             x, y, a, _ = f["balls"][i]
             if -60 < y - oy < H + 60:
                 if i == lead:
-                    cr.set_source_rgba(*th["accent"], 0.35); cr.arc(x, y - oy, R + 16, 0, 6.29); cr.fill()
-                pt.ball(cr, x, y - oy, a, i, R, ring=th["accent"] if i == lead else (1, 1, 1), ringw=6 if i == lead else 4)
+                    cr.set_source_rgba(*th["accent"], 0.35); cr.arc(x, y - oy, self.R + 16, 0, 6.29); cr.fill()
+                pt.ball(cr, x, y - oy, a, i, self.R, ring=th["accent"] if i == lead else (1, 1, 1), ringw=6 if i == lead else 4)
 
     def hud(self, cr, pt, k, a):
         pt.podium_hud(cr, self.rank(k), a)

@@ -19,9 +19,11 @@ les 2 derniers jeux et les 5 derniers habillages (historique.json, à committer 
 neon, stade, lave, glace, bonbon, desert, espace, or, militaire — couleurs, fond animé, police propres à chacun.
 
 ## Fichier de jeu (jeux/AAAA-MM-JJ-<nom>.json)
-titre1, titre2, sous_titre (facultatif), question_fin, description (TikTok + hashtags), participants (6 à 10),
+titre1, titre2, sous_titre (facultatif), question_fin, description (TikTok + hashtags), participants (6 à 20 — varier : parfois 6, parfois 16-20),
 mode / theme facultatifs ("auto" par défaut).
-- Pays : {"nom": "Maroc", "drapeau": "ma"}
+- Pays : {"nom": "Maroc", "drapeau": "ma"} (codes flag-icons : ISO 2 lettres, + gb-eng, gb-sct, gb-wls…)
+- Bulles numérotées : mettre "numeros": 12 à la place de participants (bulles colorées 1 à 12, sans pays) ;
+  ou {"numero": 7} dans la liste.
 - Équipe : {"nom": "PSG", "sigle": "PSG", "couleurs": ["#0B2A5B", "#DA291C", "#FFFFFF"], "motif": "bande"}
   motifs : uni, bande, rayures, cerceaux, moitie, diagonale, col. JAMAIS de logo ni d'écusson (marques déposées).
 
