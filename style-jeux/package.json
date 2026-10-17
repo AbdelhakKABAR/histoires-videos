@@ -1,0 +1,22 @@
+{
+  "name": "jeux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@expo-google-fonts/anton": "^0.4.2",
+    "@expo-google-fonts/bebas-neue": "^0.4.1",
+    "@expo-google-fonts/black-ops-one": "^0.4.1",
+    "@expo-google-fonts/bungee": "^0.4.1",
+    "@expo-google-fonts/luckiest-guy": "^0.4.1",
+    "@expo-google-fonts/righteous": "^0.4.1",
+    "@expo-google-fonts/russo-one": "^0.4.1",
+    "flag-icons": "^7.2.3"
+  }
+}
