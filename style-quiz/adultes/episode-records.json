@@ -1,0 +1,20 @@
+{
+ "title": "Les records du monde", "subject": "Records du monde", "banner": "Les records du monde",
+ "symbols": ["🏆","🥇","🌍","⛰","🌊","🐋","🏜","🐆","📏","⭐","🌋","❄","💧","🗺","✦","🏁"],
+ "description": "🏆 Quiz Records du monde : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #records #recorddumonde #culturegenerale #geographie #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quelle est la plus haute montagne du monde ?", "qd": "La plus haute montagne du monde ?", "a": [["","Le K2"],["","Le mont Everest"],["","Le Kilimandjaro"],["","Le mont Blanc"]], "ok": 1, "say": "Le mont Everest !", "level": 0},
+  {"q": "Quel est le plus grand océan du monde ?", "qd": "Le plus grand océan du monde ?", "a": [["","L'océan Pacifique"],["","L'océan Atlantique"],["","L'océan Indien"],["","L'océan Arctique"]], "ok": 0, "say": "L'océan Pacifique !", "level": 0},
+  {"q": "Quel est le plus grand animal du monde ?", "qd": "Le plus grand animal du monde ?", "a": [["","L'éléphant"],["","Le requin-baleine"],["","La girafe"],["","La baleine bleue"]], "ok": 3, "say": "La baleine bleue !", "level": 0},
+  {"q": "Quel est le plus grand pays du monde par sa superficie ?", "qd": "Le plus grand pays du monde ?", "a": [["","Le Canada"],["","La Chine"],["","La Russie"],["","Les États-Unis"]], "ok": 2, "say": "La Russie !", "level": 1},
+  {"q": "Quel est l'animal terrestre le plus rapide ?", "qd": "L'animal terrestre le plus rapide ?", "a": [["","Le guépard"],["","Le lion"],["","L'antilope"],["","Le lévrier"]], "ok": 0, "say": "Le guépard !", "level": 1},
+  {"q": "Quel est le plus grand désert chaud du monde ?", "qd": "Le plus grand désert chaud ?", "a": [["","Le désert de Gobi"],["","Le Sahara"],["","Le Kalahari"],["","Le désert d'Arabie"]], "ok": 1, "say": "Le Sahara !", "level": 1},
+  {"q": "Quel est le lac le plus profond du monde ?", "qd": "Le lac le plus profond du monde ?", "a": [["","Le lac Tanganyika"],["","Le lac Victoria"],["","Le lac Supérieur"],["","Le lac Baïkal"]], "ok": 3, "say": "Le lac Baïkal !", "level": 2},
+  {"q": "Quel est le plus long fleuve d'Europe ?", "qd": "Le plus long fleuve d'Europe ?", "a": [["","Le Danube"],["","Le Rhin"],["","La Volga"],["","La Loire"]], "ok": 2, "say": "La Volga !", "level": 2},
+  {"q": "Quelle est la plus haute chute d'eau du monde ?", "qd": "La plus haute chute d'eau du monde ?", "a": [["","Le Salto Angel"],["","Les chutes du Niagara"],["","Les chutes Victoria"],["","Les chutes d'Iguaçu"]], "ok": 0, "say": "Le Salto Angel, au Venezuela !", "level": 3},
+  {"q": "Où a-t-on mesuré officiellement la température la plus froide sur Terre ?", "qd": "Le record de froid officiel sur Terre ?", "a": [["","Oïmiakon"],["","La station Vostok"],["","Verkhoïansk"],["","Le pôle Nord"]], "ok": 1, "say": "La station Vostok, en Antarctique !", "level": 3}
+ ]
+}
