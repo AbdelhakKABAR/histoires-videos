@@ -1,0 +1,20 @@
+{
+ "type": "course",
+ "titre1": "QUEL CLUB",
+ "titre2": "VA GAGNER ?",
+ "sous_titre": "Spécial Ligue des champions",
+ "question_fin": "Ton club a gagné ?",
+ "participants": [
+  {"nom": "PSG", "sigle": "PSG", "couleurs": ["#0B2A5B", "#DA291C", "#FFFFFF"], "motif": "bande"},
+  {"nom": "Barcelone", "sigle": "BAR", "couleurs": ["#A50044", "#004D98"], "motif": "rayures"},
+  {"nom": "Bayern", "sigle": "BAY", "couleurs": ["#DC052D", "#FFFFFF"], "motif": "uni"},
+  {"nom": "Arsenal", "sigle": "ARS", "couleurs": ["#EF0107", "#FFFFFF"], "motif": "col"},
+  {"nom": "Real Madrid", "sigle": "RMA", "couleurs": ["#FFFFFF", "#FEBE10"], "motif": "col", "trainee": "#FEBE10"},
+  {"nom": "Dortmund", "sigle": "BVB", "couleurs": ["#FDE100", "#000000"], "motif": "col"},
+  {"nom": "Man City", "sigle": "MCI", "couleurs": ["#6CABDD", "#1C2C5B"], "motif": "col"},
+  {"nom": "Inter", "sigle": "INT", "couleurs": ["#0068A8", "#000000"], "motif": "rayures"},
+  {"nom": "Lille", "sigle": "LOSC", "couleurs": ["#E01E13", "#1B2A4A"], "motif": "col"},
+  {"nom": "Lens", "sigle": "RCL", "couleurs": ["#FFE500", "#E30613"], "motif": "moitie"}
+ ],
+ "description": "⚽ Quel club va gagner ? Choisis le tien AVANT le départ et dis-le en commentaire 👇 Spécial Ligue des champions cette semaine ! #liguedeschampions #psg #barcelone #realmadrid #football #course #marblerace #suspense #pourtoi"
+}

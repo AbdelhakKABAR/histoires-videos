@@ -10,15 +10,15 @@ INTRO = 4.6          # s : choix + compte à rebours
 AFTER = 2.0          # s : course qui continue après la victoire
 OUTRO = 5.5          # s : écran vainqueur
 
-PAYS = [("fr", "France", (0.23, 0.42, 0.96)), ("it", "Italie", (0.13, 0.64, 0.35)),
-        ("us", "États-Unis", (0.24, 0.36, 0.84)), ("ca", "Canada", (0.89, 0.15, 0.18)),
-        ("dz", "Algérie", (0.12, 0.62, 0.34)), ("ma", "Maroc", (0.76, 0.15, 0.18)),
-        ("tn", "Tunisie", (0.91, 0.0, 0.07)), ("es", "Espagne", (0.95, 0.75, 0.0)),
-        ("br", "Brésil", (0.13, 0.64, 0.29)), ("de", "Allemagne", (1.0, 0.81, 0.0))]
+CFG = json.load(open(sys.argv[3] if len(sys.argv) > 3 else "jeu.json"))
+import badges
+BM = badges.build(CFG)
+PAYS = [(str(i), m["nom"], tuple(m["couleur"]), m["sigle"]) for i, m in enumerate(BM)]
+N = len(PAYS)
 
 rng = random.Random(SEED * 7 + 1)
-slots = list(range(10)); rng.shuffle(slots)          # slot de départ -> pays
-R = sim.simulate(10, SEED)
+slots = list(range(N)); rng.shuffle(slots)          # slot de départ -> pays
+R = sim.simulate(N, SEED)
 fr, geo, FY = R["frames"], R["geo"], R["finish_y"]
 first_i = next(i for i, x in enumerate(fr) if any(p[1] > FY for p in x["balls"]))
 race_frames = min(len(fr), first_i + int(AFTER * FPS))
@@ -29,13 +29,13 @@ def ranking(k):
     f = fr[min(k, len(fr) - 1)]
     done = [i for i in R["order"] if any(x["balls"][i][1] > FY for x in fr[:k + 1][-1:])]
     arrived = [i for i in R["order"] if f["balls"][i][1] > FY]
-    rest = sorted([i for i in range(10) if i not in arrived], key=lambda i: -f["balls"][i][1])
+    rest = sorted([i for i in range(N) if i not in arrived], key=lambda i: -f["balls"][i][1])
     return arrived + rest
 
 final_rank = ranking(race_frames - 1)
 
-flag = {c: cairo.ImageSurface.create_from_png(f"flags/{c}.png") for c, _, _ in PAYS}
-flagw = {c: cairo.ImageSurface.create_from_png(f"flags/{c}_w.png") for c, _, _ in PAYS}
+flag = {c: cairo.ImageSurface.create_from_png(f"badges/{c}.png") for c, *_ in PAYS}
+flagw = {c: cairo.ImageSurface.create_from_png(f"badges/{c}_w.png") for c, *_ in PAYS}
 def P(i): return PAYS[slots[i]]
 
 FONT = "Inter Display"
@@ -70,6 +70,14 @@ def ball(cr, x, y, ang, i, r=sim.R, ring=(1, 1, 1), ringw=4):
     g.add_color_stop_rgba(1, 0, 0, 0, 0.35)
     cr.set_source(g); cr.arc(x, y, r, 0, 2 * math.pi); cr.fill()
     cr.set_source_rgb(*ring); cr.set_line_width(ringw); cr.arc(x, y, r, 0, 2 * math.pi); cr.stroke()
+    sg = P(i)[3]
+    if sg:
+        fs = r * (0.78 if len(sg) <= 3 else 2.4 / len(sg))
+        cr.select_font_face(FONT, cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD); cr.set_font_size(fs)
+        e = cr.text_extents(sg)
+        cr.move_to(x - e.width / 2 - e.x_bearing, y - e.height / 2 - e.y_bearing); cr.text_path(sg)
+        cr.set_source_rgb(0, 0, 0); cr.set_line_width(fs * 0.18); cr.stroke_preserve()
+        cr.set_source_rgb(1, 1, 1); cr.fill()
 
 def glow_line(cr, a, b, oy, w, col):
     for lw, al in ((w + 22, 0.10), (w + 10, 0.22), (w, 1.0)):
@@ -142,13 +150,13 @@ def track(cr, oy, t, k, labels=True):
 
 def balls_layer(cr, oy, k, leader, names=False):
     f = fr[k]
-    for i in range(10):
+    for i in range(N):
         col = P(i)[2]
         for d in range(1, 9, 1):
             kk = max(0, k - d)
             x, y, _ = fr[kk]["balls"][i]
             cr.set_source_rgba(*col, 0.22 * (1 - d / 9)); cr.arc(x, y - oy, sim.R * (1 - d / 14), 0, 2 * math.pi); cr.fill()
-    for i in sorted(range(10), key=lambda i: i == leader):
+    for i in sorted(range(N), key=lambda i: i == leader):
         x, y, a = f["balls"][i]
         if -60 < y - oy < H + 60:
             if i == leader:
@@ -179,7 +187,7 @@ def minimap(cr, k, a=1.0):
     cr.set_source_rgba(1, 1, 1, 0.15 * a); cr.set_line_width(6); cr.set_line_cap(cairo.LINE_CAP_ROUND)
     cr.move_to(x, top); cr.line_to(x, bot); cr.stroke()
     cr.set_source_rgba(*GOLD, a); cr.rectangle(x - 14, bot - 3, 28, 6); cr.fill()
-    for i in sorted(range(10), key=lambda i: fr[k]["balls"][i][1]):
+    for i in sorted(range(N), key=lambda i: fr[k]["balls"][i][1]):
         y = fr[k]["balls"][i][1]
         p = max(0, min(1, (y - 200) / (FY - 200)))
         yy = top + p * (bot - top)
@@ -236,9 +244,9 @@ for g in range(TOTAL):
         glow_line(cr, (60, 380), (1020, 380), oy, 10, PINK)
         balls_layer(cr, oy, 0, None, names=True)
         ap = ease(T / 0.35)
-        text(cr, "QUEL DRAPEAU", W / 2, 470, 96, cairo.FONT_WEIGHT_BOLD, WHITE, ap)
-        text(cr, "VA GAGNER ?", W / 2, 580, 96, cairo.FONT_WEIGHT_BOLD, GOLD, ap)
-        text(cr, "Choisis le tien maintenant", W / 2, 680, 44, cairo.FONT_WEIGHT_NORMAL, WHITE, ap * 0.9)
+        text(cr, CFG.get("titre1", "QUEL DRAPEAU"), W / 2, 470, 96, cairo.FONT_WEIGHT_BOLD, WHITE, ap)
+        text(cr, CFG.get("titre2", "VA GAGNER ?"), W / 2, 580, 96, cairo.FONT_WEIGHT_BOLD, GOLD, ap)
+        text(cr, CFG.get("sous_titre", "Choisis le tien maintenant"), W / 2, 680, 44, cairo.FONT_WEIGHT_NORMAL, WHITE, ap * 0.9)
         cd = T - 1.6
         if cd >= 0:
             n = int(cd)
@@ -295,7 +303,7 @@ for g in range(TOTAL):
                 cr.scale(al, al); ball(cr, 0, 0, 0, i, r=62); cr.restore()
                 text(cr, lab + "  " + P(i)[1], xx, 1360, 40, color=WHITE, a=al)
         al = ease((e - 1.4) / 0.4)
-        text(cr, "Ton drapeau a gagné ?", W / 2, 1480, 56, color=WHITE, a=al)
+        text(cr, CFG.get("question_fin", "Ton drapeau a gagné ?"), W / 2, 1480, 56, color=WHITE, a=al)
         text(cr, "Dis-le en commentaire !", W / 2, 1550, 56, color=PINK, a=al)
         # confettis
         for (x0, y0, v, ph, col) in conf:

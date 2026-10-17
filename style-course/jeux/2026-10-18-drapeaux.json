@@ -1,0 +1,50 @@
+{
+ "type": "course",
+ "titre1": "QUEL DRAPEAU",
+ "titre2": "VA GAGNER ?",
+ "sous_titre": "Choisis le tien maintenant",
+ "question_fin": "Ton drapeau a gagné ?",
+ "participants": [
+  {
+   "nom": "France",
+   "drapeau": "fr"
+  },
+  {
+   "nom": "Italie",
+   "drapeau": "it"
+  },
+  {
+   "nom": "États-Unis",
+   "drapeau": "us"
+  },
+  {
+   "nom": "Canada",
+   "drapeau": "ca"
+  },
+  {
+   "nom": "Algérie",
+   "drapeau": "dz"
+  },
+  {
+   "nom": "Maroc",
+   "drapeau": "ma"
+  },
+  {
+   "nom": "Tunisie",
+   "drapeau": "tn"
+  },
+  {
+   "nom": "Espagne",
+   "drapeau": "es"
+  },
+  {
+   "nom": "Brésil",
+   "drapeau": "br"
+  },
+  {
+   "nom": "Allemagne",
+   "drapeau": "de"
+  }
+ ],
+ "description": "🏁 Quel drapeau va gagner ? Choisis le tien AVANT le départ et dis-le en commentaire 👇 #course #drapeaux #marblerace #quiz #france #maroc #algerie #tunisie #suspense #pourtoi"
+}
