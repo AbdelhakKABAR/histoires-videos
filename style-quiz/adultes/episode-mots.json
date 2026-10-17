@@ -1,0 +1,20 @@
+{
+ "title": "Les mots de la langue française", "subject": "Langue française", "banner": "Les mots de la langue française",
+ "symbols": ["📖","✍","🔤","📚","✒","🖋","📝","🅰","❝","❞","✦","📜","🇫🇷","⭐","✧","🔠"],
+ "description": "📖 Quiz Langue française : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #languefrancaise #francais #orthographe #culturegenerale #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Combien de lettres compte l'alphabet français ?", "qd": "Combien de lettres dans l'alphabet ?", "a": [["","24"],["","26"],["","28"],["","30"]], "ok": 1, "say": "Vingt-six !", "level": 0},
+  {"q": "Quel est le contraire du mot rapide ?", "qd": "Le contraire de « rapide » ?", "a": [["","Lent"],["","Vif"],["","Pressé"],["","Agile"]], "ok": 0, "say": "Lent !", "level": 0},
+  {"q": "Quel mot est un synonyme de content ?", "qd": "Un synonyme de « content » ?", "a": [["","Triste"],["","Fâché"],["","Fatigué"],["","Heureux"]], "ok": 3, "say": "Heureux !", "level": 0},
+  {"q": "Comment appelle-t-on un mot qui se lit pareil dans les deux sens ?", "qd": "Un mot qui se lit dans les deux sens ?", "a": [["","Une anagramme"],["","Un homonyme"],["","Un palindrome"],["","Un synonyme"]], "ok": 2, "say": "Un palindrome !", "level": 1},
+  {"q": "Lequel de ces mots est un palindrome ?", "qd": "Lequel est un palindrome ?", "a": [["","Bateau"],["","Kayak"],["","Canoë"],["","Voilier"]], "ok": 1, "say": "Kayak !", "level": 1},
+  {"q": "Quel est le pluriel du mot cheval ?", "qd": "Le pluriel de « cheval » ?", "a": [["","Chevals"],["","Chevaus"],["","Chevales"],["","Chevaux"]], "ok": 3, "say": "Chevaux !", "level": 1},
+  {"q": "Quelle institution veille sur la langue française depuis 1635 ?", "qd": "Qui veille sur la langue depuis 1635 ?", "a": [["","L'Académie française"],["","La Sorbonne"],["","Le Collège de France"],["","Le Sénat"]], "ok": 0, "say": "L'Académie française !", "level": 2},
+  {"q": "Comment s'appelle le petit signe placé sous la lettre c ?", "qd": "Le signe sous le « ç » ?", "a": [["","Le tréma"],["","L'accent aigu"],["","La cédille"],["","L'apostrophe"]], "ok": 2, "say": "La cédille !", "level": 2},
+  {"q": "Combien de noms en o u prennent un x au pluriel ?", "qd": "Combien de mots en -ou font -oux ?", "a": [["","5"],["","7"],["","9"],["","12"]], "ok": 1, "say": "Sept : bijou, caillou, chou, genou, hibou, joujou, pou !", "level": 3},
+  {"q": "Quel est le seul mot français qui s'écrit avec un u accent grave ?", "qd": "Le seul mot avec un « ù » ?", "a": [["","Là"],["","Déjà"],["","Voilà"],["","Où"]], "ok": 3, "say": "Où !", "level": 3}
+ ]
+}
