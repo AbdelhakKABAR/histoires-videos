@@ -1,0 +1,20 @@
+{
+ "title": "Les rois de France", "subject": "Rois de France", "banner": "Les rois de France",
+ "symbols": ["👑","⚜","🏰","🗡","🛡","⚔","🐎","📜","🏯","✦","🔱","⭐","🪙","💎","✧","🦁"],
+ "description": "👑 Quiz Rois de France : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #histoire #roisdefrance #culturegenerale #question #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel roi était surnommé le Roi-Soleil ?", "qd": "Le Roi-Soleil, c'est qui ?", "a": [["","Louis XVI"],["","Louis XIV"],["","François Ier"],["","Henri IV"]], "ok": 1, "say": "Louis XIV !", "level": 0},
+  {"q": "Quel roi a été guillotiné en 1793 ?", "qd": "Le roi guillotiné en 1793 ?", "a": [["","Louis XV"],["","Charles X"],["","Henri III"],["","Louis XVI"]], "ok": 3, "say": "Louis XVI !", "level": 0},
+  {"q": "Quel roi a été sacré à Reims grâce à Jeanne d'Arc ?", "qd": "Le roi sacré grâce à Jeanne d'Arc ?", "a": [["","Charles VII"],["","Louis XI"],["","Charles VI"],["","Philippe IV"]], "ok": 0, "say": "Charles VII !", "level": 0},
+  {"q": "Dans quelle ville étaient sacrés la plupart des rois de France ?", "qd": "La ville du sacre des rois ?", "a": [["","Paris"],["","Orléans"],["","Reims"],["","Chartres"]], "ok": 2, "say": "Reims !", "level": 1},
+  {"q": "Quel roi a signé l'édit de Nantes en 1598 ?", "qd": "Le roi de l'édit de Nantes ?", "a": [["","Louis XIII"],["","Henri IV"],["","Henri II"],["","François Ier"]], "ok": 1, "say": "Henri IV !", "level": 1},
+  {"q": "Quel roi a remporté la bataille de Marignan en 1515 ?", "qd": "Le vainqueur de Marignan en 1515 ?", "a": [["","Louis XII"],["","Charles VIII"],["","Henri II"],["","François Ier"]], "ok": 3, "say": "François Ier !", "level": 1},
+  {"q": "Quel roi était surnommé le Bien-Aimé ?", "qd": "Le roi surnommé le Bien-Aimé ?", "a": [["","Louis XV"],["","Louis XIII"],["","Henri IV"],["","Louis XVIII"]], "ok": 0, "say": "Louis XV !", "level": 2},
+  {"q": "Combien d'années a duré le règne de Louis XIV ?", "qd": "Durée du règne de Louis XIV ?", "a": [["","54 ans"],["","63 ans"],["","72 ans"],["","81 ans"]], "ok": 2, "say": "72 ans !", "level": 2},
+  {"q": "Quel roi est mort d'un coup de lance lors d'un tournoi en 1559 ?", "qd": "Le roi tué lors d'un tournoi en 1559 ?", "a": [["","François II"],["","Charles IX"],["","Henri III"],["","Henri II"]], "ok": 3, "say": "Henri II !", "level": 3},
+  {"q": "Quel roi de France était surnommé le Hutin ?", "qd": "Le roi surnommé le Hutin ?", "a": [["","Philippe V"],["","Louis X"],["","Charles IV"],["","Jean II"]], "ok": 1, "say": "Louis X !", "level": 3}
+ ]
+}
