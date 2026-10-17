@@ -1,0 +1,20 @@
+{
+ "title": "La Seconde Guerre mondiale", "subject": "Seconde Guerre mondiale", "banner": "La Seconde Guerre mondiale",
+ "symbols": ["✈","🪖","🎖","📻","🗺","⚓","🚢","🕊","💣","🧭","⭐","✉","🔭","🏳","🎗","⚔"],
+ "description": "🎖 Quiz Seconde Guerre mondiale : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #histoire #secondeguerremondiale #ww2 #culturegenerale #question #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "En quelle année a commencé la Seconde Guerre mondiale ?", "qd": "Le début de la guerre ?", "a": [["","1914"],["","1939"],["","1940"],["","1945"]], "ok": 1, "say": "En 1939 !", "level": 0},
+  {"q": "À quelle date a eu lieu le débarquement en Normandie ?", "qd": "La date du débarquement en Normandie ?", "a": [["","8 mai 1945"],["","14 juillet 1944"],["","6 juin 1944"],["","11 novembre 1942"]], "ok": 2, "say": "Le 6 juin 1944 !", "level": 0},
+  {"q": "Quel général a lancé l'appel du 18 juin 1940 ?", "qd": "L'auteur de l'appel du 18 juin ?", "a": [["","Leclerc"],["","Pétain"],["","Joffre"],["","De Gaulle"]], "ok": 3, "say": "Le général de Gaulle !", "level": 0},
+  {"q": "Quelle attaque japonaise a fait entrer les États-Unis dans la guerre ?", "qd": "L'attaque qui fait entrer les USA en guerre ?", "a": [["","Pearl Harbor"],["","Midway"],["","Okinawa"],["","Guadalcanal"]], "ok": 0, "say": "Pearl Harbor !", "level": 1},
+  {"q": "Sur quelle ville a été larguée la première bombe atomique ?", "qd": "La première bombe atomique ?", "a": [["","Nagasaki"],["","Hiroshima"],["","Tokyo"],["","Osaka"]], "ok": 1, "say": "Sur Hiroshima !", "level": 1},
+  {"q": "Quelle date, fériée en France, marque la victoire de 1945 en Europe ?", "qd": "La victoire de 1945, fériée en France ?", "a": [["","11 novembre"],["","14 juillet"],["","8 mai"],["","6 juin"]], "ok": 2, "say": "Le 8 mai !", "level": 1},
+  {"q": "Quel était le nom de code du débarquement en Normandie ?", "qd": "Le nom de code du débarquement ?", "a": [["","Barbarossa"],["","Torch"],["","Market Garden"],["","Overlord"]], "ok": 3, "say": "Opération Overlord !", "level": 2},
+  {"q": "Comment s'appelle aujourd'hui la ville de Stalingrad ?", "qd": "Le nom actuel de Stalingrad ?", "a": [["","Volgograd"],["","Saint-Pétersbourg"],["","Kaliningrad"],["","Novgorod"]], "ok": 0, "say": "Volgograd !", "level": 2},
+  {"q": "Sur quelle plage normande ont débarqué les Canadiens ?", "qd": "La plage des Canadiens en Normandie ?", "a": [["","Omaha"],["","Juno"],["","Utah"],["","Gold"]], "ok": 1, "say": "Juno Beach !", "level": 3},
+  {"q": "Sur quel cuirassé le Japon a-t-il signé sa capitulation ?", "qd": "Le cuirassé de la capitulation japonaise ?", "a": [["","USS Arizona"],["","Yamato"],["","USS Missouri"],["","Bismarck"]], "ok": 2, "say": "L'USS Missouri !", "level": 3}
+ ]
+}
