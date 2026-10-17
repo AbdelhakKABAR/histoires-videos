@@ -7,5 +7,5 @@ P, V, E = pathlib.Path(sys.argv[1]), pathlib.Path(sys.argv[2]), json.load(open(s
 (P / "queue/videos").mkdir(parents=True, exist_ok=True); dst = P / "queue/videos" / V.name; shutil.copy(V, dst)
 q = json.loads((P / "queue/schedule.json").read_text())
 now = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=2))).replace(microsecond=0).isoformat()
-q.append({"time": now, "video": f"queue/videos/{V.name}", "caption": E.get("description", E["title"]), "privacy": "SELF_ONLY", "mode": "draft"})
+q.append({"time": now, "video": f"queue/videos/{V.name}", "caption": E.get("description") or E.get("title", ""), "privacy": "SELF_ONLY", "mode": "draft"})
 (P / "queue/schedule.json").write_text(json.dumps(q, ensure_ascii=False, indent=2)); print("ajouté :", dst)
