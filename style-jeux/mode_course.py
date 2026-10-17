@@ -13,10 +13,11 @@ class Course:
     ELIM = False
     titre_fin = "LE VAINQUEUR"
 
-    def __init__(self, n, seed, sections=None):
+    def __init__(self, n, seed, sections=None, big=False):
         self.n, self.seed = n, seed
         rng = random.Random(seed)
         self.R = 36 if n <= 10 else (30 if n <= 14 else 26)
+        if big: self.R = min(42, int(self.R * 1.25))
         self.cols = 5 if n <= 10 else (6 if n <= 14 else 7)
         self.rdy = 110 if n <= 10 else 92
         rows = (n + self.cols - 1) // self.cols

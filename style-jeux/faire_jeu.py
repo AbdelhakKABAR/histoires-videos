@@ -43,7 +43,7 @@ best = None
 for _ in range(30 if mode == "course" else 24):
     s = rnd.randrange(10 ** 7)
     try:
-        g = MODES[mode](n, s)
+        g = MODES[mode](n, s, big=all(p.get("numero") for p in parts))
     except Exception as e:
         continue
     ok, sc, d = g.score()

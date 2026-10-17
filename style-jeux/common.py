@@ -131,6 +131,7 @@ class Painter:
         sg = self.parts[i].get("sigle")
         if sg:
             fs = r * (0.78 if len(sg) <= 3 else 2.4 / len(sg))
+            if self.parts[i].get("numero"): fs = r * (1.25 if len(sg) == 1 else 1.0)
             cr.select_font_face("Inter Display", cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD); cr.set_font_size(fs)
             e = cr.text_extents(sg)
             cr.move_to(x - e.width / 2 - e.x_bearing, y - e.height / 2 - e.y_bearing); cr.text_path(sg)

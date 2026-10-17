@@ -62,10 +62,11 @@ class Elim:
 
 
 class Cercle(Elim):
-    def __init__(self, n, seed):
+    def __init__(self, n, seed, big=False):
         self.n, self.seed = n, seed
         rng = random.Random(seed)
         self.R = 34 if n <= 8 else (30 if n <= 10 else (25 if n <= 16 else 21))
+        if big: self.R = min(42, int(self.R * 1.3))
         sp = pymunk.Space(); sp.gravity = (0, rng.uniform(650, 850))
         self.rings = []
         nr = rng.choice((1, 2, 2))
@@ -166,10 +167,11 @@ class Cercle(Elim):
 
 
 class Arene(Elim):
-    def __init__(self, n, seed):
+    def __init__(self, n, seed, big=False):
         self.n, self.seed = n, seed
         rng = random.Random(seed)
         self.R = 34 if n <= 8 else (30 if n <= 10 else (25 if n <= 16 else 21))
+        if big: self.R = min(42, int(self.R * 1.3))
         self.AR = 480
         self.speed = rng.uniform(440, 560)
         self.grow = rng.uniform(4.5, 6.5)
