@@ -11,7 +11,7 @@ from common import Encoder, W, H, FPS, ease, back, rrect
 
 ACC, ACC2, GOOD, BAD = (0.22, 0.74, 0.97), (0.65, 0.55, 0.98), (0.13, 0.77, 0.37), (0.94, 0.27, 0.27)
 FONT = "Inter Display"
-THINK = 3.0
+THINK = 20.0
 
 
 def hexc(h): h = h.lstrip("#"); return tuple(int(h[i:i + 2], 16) / 255 for i in (0, 2, 4))
@@ -91,12 +91,12 @@ def countdown(cr, t, c0, y=1330):
     left = THINK - (t - c0); n = int(math.ceil(left)); frac = left / THINK
     pulse = 1 + 0.08 * (1 - (left % 1))
     cr.save(); cr.translate(W / 2, y); cr.scale(pulse, pulse)
-    col = BAD if n == 1 else ACC
+    col = BAD if n <= 5 else ACC
     for k, al in ((26, 0.12), (16, 0.25)):
         cr.new_path(); cr.set_source_rgba(*col, al); cr.set_line_width(k); cr.arc(0, 0, 110, -math.pi / 2, -math.pi / 2 + 2 * math.pi * frac); cr.stroke()
     cr.new_path(); cr.set_source_rgba(1, 1, 1, 0.12); cr.set_line_width(10); cr.arc(0, 0, 110, 0, 6.29); cr.stroke()
     cr.new_path(); cr.set_source_rgb(*col); cr.set_line_width(10); cr.arc(0, 0, 110, -math.pi / 2, -math.pi / 2 + 2 * math.pi * frac); cr.stroke()
-    T(cr, str(n), 0, 38, 110, glow=col)
+    T(cr, str(n), 0, 38, 100 if n < 10 else 88, glow=col)
     cr.restore()
 
 
@@ -124,7 +124,7 @@ def build_mot(D, tl):
     s["cat"] = tl.say(D["categorie_dite"] if "categorie_dite" in D else D["categorie"] + ".", 0.95, 0.35)[0]
     s["ind"] = [tl.say(i, 0.97, 0.45)[0] for i in D["indices"]]
     s["c0"] = tl.t; tl.wait(THINK)
-    for k in range(3): tl.fx("tic", s["c0"] + k)
+    for k in range(int(THINK)): tl.fx("tic", s["c0"] + k)
     s["rev"] = tl.t; tl.fx("bon", tl.t)
     tl.say(f"C'était : {D.get('dire', D['mot'].capitalize())} !", 0.95, 0.4)
     s["fin"] = tl.t; tl.say(D.get("fin", "Tu l'avais trouvé ? Dis-le en commentaire !"), 0.95, 0.8)
@@ -186,7 +186,7 @@ def build_logique(D, tl):
     tl.wait(0.2); s["hook"] = tl.say(D.get("accroche_dite", "Seulement un pour cent des gens trouvent la suite."), 0.95, 0.3)[0]
     s["q"] = tl.say(D.get("question_dite", "Quel nombre vient ensuite ?"), 0.95, 0.4)[0]
     s["c0"] = tl.t; tl.wait(THINK)
-    for k in range(3): tl.fx("tic", s["c0"] + k)
+    for k in range(int(THINK)): tl.fx("tic", s["c0"] + k)
     s["rev"] = tl.t; tl.fx("bon", tl.t)
     tl.say(D.get("explication_dite", D["explication"]), 0.95, 0.4)
     s["fin"] = tl.t; tl.say(D.get("fin", "Tu avais trouvé ? Dis-le en commentaire !"), 0.95, 0.8)
