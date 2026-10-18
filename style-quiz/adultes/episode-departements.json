@@ -1,0 +1,20 @@
+{
+ "title": "Les départements français", "subject": "Départements", "banner": "Les départements français",
+ "symbols": ["🗺","🇫🇷","📍","🏛","🧭","🏰","⛰","🌊","🚗","🏘","🔢","📮","🌻","🍇","⭐","🗼"],
+ "description": "🇫🇷 Quiz Départements français : 10 questions, du niveau facile à impossible. Tu connais vraiment la France ? Donne ton score en commentaire 👇 #quiz #quiztime #france #departements #geographie #culturegenerale #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel est le numéro du département de Paris ?", "qd": "Le numéro de Paris ?", "a": [["","13"],["","75"],["","69"],["","33"]], "ok": 1, "say": "Soixante-quinze !", "level": 0},
+  {"q": "Quel département porte le numéro treize ?", "qd": "Le département numéro 13 ?", "a": [["","La Gironde"],["","Le Nord"],["","Les Bouches-du-Rhône"],["","Le Rhône"]], "ok": 2, "say": "Les Bouches-du-Rhône !", "level": 0},
+  {"q": "Quelle est la préfecture de la Gironde ?", "qd": "La préfecture de la Gironde ?", "a": [["","Bordeaux"],["","Toulouse"],["","Nantes"],["","Pau"]], "ok": 0, "say": "Bordeaux !", "level": 0},
+  {"q": "Combien y a-t-il de départements en France, outre-mer compris ?", "qd": "Combien de départements en France ?", "a": [["","96"],["","95"],["","110"],["","101"]], "ok": 3, "say": "Cent un !", "level": 1},
+  {"q": "Quel département porte le numéro un ?", "qd": "Le département numéro 01 ?", "a": [["","L'Ain"],["","L'Aisne"],["","L'Allier"],["","L'Ardèche"]], "ok": 0, "say": "L'Ain !", "level": 1},
+  {"q": "Quelle est la préfecture du Bas-Rhin ?", "qd": "La préfecture du Bas-Rhin ?", "a": [["","Colmar"],["","Strasbourg"],["","Mulhouse"],["","Metz"]], "ok": 1, "say": "Strasbourg !", "level": 1},
+  {"q": "Quel est le numéro de la Corse-du-Sud ?", "qd": "Le numéro de la Corse-du-Sud ?", "a": [["","20"],["","2B"],["","2A"],["","96"]], "ok": 2, "say": "Deux A !", "level": 2},
+  {"q": "Quel département d'outre-mer porte le numéro neuf cent soixante-seize ?", "qd": "Le département numéro 976 ?", "a": [["","La Réunion"],["","La Guyane"],["","La Martinique"],["","Mayotte"]], "ok": 3, "say": "Mayotte !", "level": 2},
+  {"q": "Quelle est la préfecture de la Lozère ?", "qd": "La préfecture de la Lozère ?", "a": [["","Mende"],["","Rodez"],["","Privas"],["","Gap"]], "ok": 0, "say": "Mende !", "level": 3},
+  {"q": "Quelle est la préfecture des Alpes-de-Haute-Provence ?", "qd": "Préfecture des Alpes-de-Haute-Provence ?", "a": [["","Manosque"],["","Digne-les-Bains"],["","Sisteron"],["","Forcalquier"]], "ok": 1, "say": "Digne-les-Bains !", "level": 3}
+ ]
+}
