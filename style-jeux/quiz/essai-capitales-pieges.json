@@ -1,0 +1,12 @@
+{
+ "titre": "CAPITALES PIÈGES",
+ "fin": "Combien tu en as eu ?",
+ "questions": [
+  {"q": "Quelle est la capitale du Canada ?", "r": ["Toronto", "Montréal", "Ottawa", "Vancouver"], "ok": 2},
+  {"q": "Quelle est la capitale du Maroc ?", "r": ["Rabat", "Casablanca", "Marrakech", "Fès"], "ok": 0},
+  {"q": "Quelle est la capitale de la Turquie ?", "r": ["Istanbul", "Izmir", "Antalya", "Ankara"], "ok": 3},
+  {"q": "Quelle est la capitale de l'Australie ?", "r": ["Sydney", "Canberra", "Melbourne", "Perth"], "ok": 1},
+  {"q": "Quelle est la capitale du Brésil ?", "r": ["Rio de Janeiro", "São Paulo", "Brasília", "Salvador"], "ok": 2}
+ ],
+ "description": "🧠 5 CAPITALES PIÈGES : la plus grande ville n'est pas toujours la capitale ! Trouve la bonne réponse avant que les mauvaises s'échappent. Ton score en commentaire 👇 #quiz #capitales #culturegenerale #geographie #quiztime #pourtoi"
+}

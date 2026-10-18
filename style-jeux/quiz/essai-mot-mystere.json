@@ -1,0 +1,48 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "sous_titre": "Spécial France : trouve le mot avant la fin des indices !",
+ "intro": "Trouve le mot mystère avant la fin des indices ! Spécial France.",
+ "manches": [
+  {
+   "mot": "BAGUETTE",
+   "categorie": "Un aliment",
+   "indices": [
+    "On l'achète à la boulangerie.",
+    "Elle est longue et croustillante.",
+    "Son savoir-faire est inscrit à l'UNESCO depuis 2022."
+   ]
+  },
+  {
+   "mot": "VERSAILLES",
+   "categorie": "Un lieu célèbre",
+   "indices": [
+    "C'est un château.",
+    "Louis XIV y installe la cour en 1682.",
+    "On y trouve la galerie des Glaces."
+   ],
+   "dire": "Versailles"
+  },
+  {
+   "mot": "MARSEILLE",
+   "categorie": "Une ville",
+   "indices": [
+    "C'est un grand port de la Méditerranée.",
+    "Elle a été fondée par des Grecs il y a environ 2600 ans.",
+    "Son surnom : la cité phocéenne."
+   ]
+  },
+  {
+   "mot": "CROISSANT",
+   "categorie": "Une viennoiserie",
+   "indices": [
+    "On le mange souvent au petit-déjeuner.",
+    "Il a la forme d'une lune.",
+    "On le préfère pur beurre."
+   ]
+  }
+ ],
+ "fin": "Combien de mots as-tu trouvés ? Dis-le en commentaire !",
+ "fin_ecrite": "Combien de mots as-tu trouvés ?",
+ "description": "🔤 MOT MYSTÈRE spécial France : trouve le mot avant la fin des indices ! Ton score en commentaire 👇 #motmystere #quiz #france #culturegenerale #devinette #pourtoi"
+}

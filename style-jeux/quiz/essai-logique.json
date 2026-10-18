@@ -1,0 +1,115 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "sous_titre": "Seuls les plus malins vont jusqu'au bout !",
+ "manches": [
+  {
+   "suite": [
+    "2",
+    "4",
+    "8",
+    "16"
+   ],
+   "options": [
+    "24",
+    "32",
+    "20",
+    "18"
+   ],
+   "ok": 1,
+   "explication": "On multiplie par 2 à chaque fois.",
+   "explication_dite": "Trente-deux : on multiplie par deux à chaque fois."
+  },
+  {
+   "suite": [
+    "A",
+    "C",
+    "E",
+    "G"
+   ],
+   "options": [
+    "I",
+    "H",
+    "K",
+    "J"
+   ],
+   "ok": 0,
+   "explication": "Une lettre sur deux dans l'alphabet.",
+   "explication_dite": "La lettre I : une lettre sur deux dans l'alphabet."
+  },
+  {
+   "suite": [
+    "1",
+    "4",
+    "9",
+    "16"
+   ],
+   "options": [
+    "20",
+    "23",
+    "25",
+    "36"
+   ],
+   "ok": 2,
+   "explication": "Les carrés : 1×1, 2×2, 3×3, 4×4, 5×5.",
+   "explication_dite": "Vingt-cinq : ce sont les carrés, cinq fois cinq."
+  },
+  {
+   "suite": [
+    "3",
+    "6",
+    "11",
+    "18"
+   ],
+   "options": [
+    "24",
+    "29",
+    "25",
+    "27"
+   ],
+   "ok": 3,
+   "explication": "On ajoute 3, puis 5, puis 7, puis 9.",
+   "explication_dite": "Vingt-sept : on ajoute trois, puis cinq, puis sept, puis neuf."
+  },
+  {
+   "suite": [
+    "L",
+    "M",
+    "M",
+    "J",
+    "V",
+    "S"
+   ],
+   "options": [
+    "S",
+    "A",
+    "D",
+    "L"
+   ],
+   "ok": 2,
+   "explication": "Lundi, Mardi, Mercredi, Jeudi, Vendredi, Samedi… Dimanche !",
+   "explication_dite": "La lettre D : ce sont les jours de la semaine, jusqu'à dimanche."
+  },
+  {
+   "suite": [
+    "J",
+    "F",
+    "M",
+    "A",
+    "M",
+    "J"
+   ],
+   "options": [
+    "A",
+    "J",
+    "S",
+    "M"
+   ],
+   "ok": 1,
+   "explication": "Les mois : Janvier, Février, Mars, Avril, Mai, Juin… Juillet !",
+   "explication_dite": "La lettre J : ce sont les mois de l'année. Après juin vient juillet."
+  }
+ ],
+ "fin_ecrite": "Combien de suites as-tu trouvées ?",
+ "description": "🧩 SUITES LOGIQUES : de facile à très difficile. Seuls les plus malins vont jusqu'au bout ! Ton score sur 6 en commentaire 👇 #logique #quiz #enigme #cerveau #suitelogique #pourtoi"
+}

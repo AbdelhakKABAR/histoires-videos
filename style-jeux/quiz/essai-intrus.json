@@ -1,0 +1,70 @@
+{
+ "format": "intrus",
+ "titre": "L'INTRUS",
+ "sous_titre": "Attention, il y a des pièges !",
+ "manches": [
+  {
+   "items": [
+    "Paris",
+    "Lyon",
+    "Genève",
+    "Marseille"
+   ],
+   "intrus": 2,
+   "explication": "Genève est en Suisse. Les autres villes sont françaises."
+  },
+  {
+   "items": [
+    "Dauphin",
+    "Baleine",
+    "Orque",
+    "Requin"
+   ],
+   "intrus": 3,
+   "explication": "Le requin est un poisson. Les autres sont des mammifères."
+  },
+  {
+   "items": [
+    "Lune",
+    "Mercure",
+    "Vénus",
+    "Mars"
+   ],
+   "intrus": 0,
+   "explication": "La Lune est un satellite, pas une planète."
+  },
+  {
+   "items": [
+    "Tomate",
+    "Carotte",
+    "Courgette",
+    "Concombre"
+   ],
+   "intrus": 1,
+   "explication": "Piège ! Tomate, courgette et concombre sont des fruits pour les botanistes. La carotte est une racine."
+  },
+  {
+   "items": [
+    "Espagnol",
+    "Italien",
+    "Allemand",
+    "Portugais"
+   ],
+   "intrus": 2,
+   "explication": "L'allemand n'est pas une langue latine.",
+   "explication_dite": "L'allemand n'est pas une langue latine."
+  },
+  {
+   "items": [
+    "Monet",
+    "Renoir",
+    "Degas",
+    "Picasso"
+   ],
+   "intrus": 3,
+   "explication": "Monet, Renoir et Degas sont des peintres impressionnistes. Pas Picasso !"
+  }
+ ],
+ "fin_ecrite": "Combien d'intrus as-tu trouvés ?",
+ "description": "🕵️ TROUVE L'INTRUS… attention aux pièges ! Ton score sur 6 en commentaire 👇 #intrus #quiz #piege #culturegenerale #logique #pourtoi"
+}
