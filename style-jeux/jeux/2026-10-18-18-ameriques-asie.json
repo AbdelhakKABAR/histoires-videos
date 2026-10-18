@@ -1,0 +1,27 @@
+{
+ "mode": "auto",
+ "theme": "auto",
+ "titre1": "AMÉRIQUES & ASIE",
+ "titre2": "QUI VA L'EMPORTER ?",
+ "sous_titre": "16 pays, un seul vainqueur. Choisis vite !",
+ "question_fin": "Ton pays a gagné ?",
+ "description": "🌎🌏 Duel AMÉRIQUES vs ASIE : 16 pays, un seul vainqueur, c'est le hasard qui décide ! Choisis ton pays AVANT le départ et dis-le en commentaire 👇 #drapeaux #ameriques #asie #bresil #japon #suspense #jeu #quivagagner #pourtoi",
+ "participants": [
+  {"nom": "Brésil", "drapeau": "br"},
+  {"nom": "Argentine", "drapeau": "ar"},
+  {"nom": "Mexique", "drapeau": "mx"},
+  {"nom": "Colombie", "drapeau": "co"},
+  {"nom": "Uruguay", "drapeau": "uy"},
+  {"nom": "Chili", "drapeau": "cl"},
+  {"nom": "Pérou", "drapeau": "pe"},
+  {"nom": "Jamaïque", "drapeau": "jm"},
+  {"nom": "Japon", "drapeau": "jp"},
+  {"nom": "Corée du Sud", "drapeau": "kr"},
+  {"nom": "Inde", "drapeau": "in"},
+  {"nom": "Vietnam", "drapeau": "vn"},
+  {"nom": "Thaïlande", "drapeau": "th"},
+  {"nom": "Indonésie", "drapeau": "id"},
+  {"nom": "Philippines", "drapeau": "ph"},
+  {"nom": "Arabie saoudite", "drapeau": "sa"}
+ ]
+}
