@@ -1,0 +1,20 @@
+{
+ "title": "Les fromages de France", "subject": "Fromages", "banner": "Les fromages de France",
+ "symbols": ["🧀","🐄","🐐","🐑","🥖","🍷","🇫🇷","🥛","🍇","🌾","⛰","🏔","🧈","🔪","🍽","✦"],
+ "description": "🧀 Quiz Fromages de France : 10 questions, du niveau facile à impossible. Tu es un vrai connaisseur ? Donne ton score en commentaire 👇 #quiz #quiztime #france #fromage #gastronomie #culturegenerale #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel fromage normand porte le nom d'un village de l'Orne ?", "qd": "Le fromage normand au nom de village ?", "a": [["","Le Camembert"],["","Le Comté"],["","Le Reblochon"],["","Le Cantal"]], "ok": 0, "say": "Le Camembert !", "level": 0},
+  {"q": "Le Roquefort est fabriqué avec le lait de quel animal ?", "qd": "Le Roquefort, c'est le lait de… ?", "a": [["","La vache"],["","La chèvre"],["","La brebis"],["","La bufflonne"]], "ok": 2, "say": "La brebis !", "level": 0},
+  {"q": "Quel fromage est indispensable pour faire une tartiflette ?", "qd": "Le fromage de la tartiflette ?", "a": [["","Le Brie"],["","Le Reblochon"],["","Le Roquefort"],["","Le Munster"]], "ok": 1, "say": "Le Reblochon !", "level": 0},
+  {"q": "Dans quel massif est produit le Comté ?", "qd": "Le Comté vient de quel massif ?", "a": [["","Les Alpes"],["","Les Pyrénées"],["","Le Massif central"],["","Le Jura"]], "ok": 3, "say": "Le Jura !", "level": 1},
+  {"q": "Quel fromage du Nord a une pâte orange et la forme d'une boule ?", "qd": "Pâte orange, en forme de boule ?", "a": [["","La Mimolette"],["","Le Maroilles"],["","Le Munster"],["","Le Saint-Nectaire"]], "ok": 0, "say": "La Mimolette !", "level": 1},
+  {"q": "Quel fromage de Seine-et-Marne est surnommé le roi des fromages ?", "qd": "Le « roi des fromages » ?", "a": [["","Le Camembert"],["","Le Coulommiers"],["","Le Brie de Meaux"],["","Le Chaource"]], "ok": 2, "say": "Le Brie de Meaux !", "level": 1},
+  {"q": "Quel fromage de chèvre de Touraine est traversé par une paille de seigle ?", "qd": "Le chèvre traversé par une paille ?", "a": [["","Le Crottin de Chavignol"],["","Le Sainte-Maure-de-Touraine"],["","Le Valençay"],["","Le Picodon"]], "ok": 1, "say": "Le Sainte-Maure-de-Touraine !", "level": 2},
+  {"q": "Quel fromage corse est fabriqué avec du petit-lait ?", "qd": "Le fromage corse au petit-lait ?", "a": [["","Le Niolo"],["","Le Banon"],["","L'Ossau-Iraty"],["","Le Brocciu"]], "ok": 3, "say": "Le Brocciu !", "level": 2},
+  {"q": "Quel fromage bourguignon est lavé au marc de Bourgogne ?", "qd": "Le fromage lavé au marc de Bourgogne ?", "a": [["","Le Langres"],["","Le Livarot"],["","L'Époisses"],["","Le Mont d'Or"]], "ok": 2, "say": "L'Époisses !", "level": 3},
+  {"q": "Quel fromage normand est souvent moulé en forme de cœur ?", "qd": "Le fromage normand en forme de cœur ?", "a": [["","Le Neufchâtel"],["","Le Pont-l'Évêque"],["","Le Livarot"],["","Le Petit-Suisse"]], "ok": 0, "say": "Le Neufchâtel !", "level": 3}
+ ]
+}
