@@ -3,6 +3,7 @@
   "LASCAUX"
  ],
  "suites": [
-  "1, 11, 21, 1211, 111221 (suite de Conway)"
+  "1, 11, 21, 1211, 111221 (suite de Conway)",
+  "Q, C, S, S, H, N → D (initiales des nombres en français)"
  ]
 }

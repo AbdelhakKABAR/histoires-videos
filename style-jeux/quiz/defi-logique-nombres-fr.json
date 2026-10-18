@@ -1,0 +1,16 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : IMPOSSIBLE",
+ "suite": ["Q", "C", "S", "S", "H", "N"],
+ "options": ["T", "O", "D", "V"],
+ "ok": 2,
+ "consigne": "Quelle lettre vient ensuite ?",
+ "accroche_dite": "Seulement un pour cent des gens trouvent la lettre suivante.",
+ "question_dite": "Ku, cé, esse, esse, ache, ène… Quelle lettre vient ensuite ?",
+ "explication": "Les initiales des nombres : Quatre, Cinq, Six, Sept, Huit, Neuf… Dix → D.",
+ "explication_dite": "La lettre D ! Ce sont les initiales des nombres : quatre, cinq, six, sept, huit, neuf… et dix !",
+ "fin": "Tu avais trouvé ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🧩 SUITE LOGIQUE niveau impossible : Q, C, S, S, H, N… quelle lettre vient ensuite ? Seuls 1 % trouvent ! Ta réponse en commentaire 👇 #logique #enigme #quiz #suitelogique #cerveau #france #pourtoi"
+}
