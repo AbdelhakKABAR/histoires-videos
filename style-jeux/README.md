@@ -6,7 +6,7 @@ Chaque vidéo doit être DIFFÉRENTE : autre jeu, autre habillage, autre piste, 
 ## Fabriquer
     bash style-jeux/setup.sh                       # une fois par session (paquets, drapeaux, polices)
     python3 style-jeux/faire_jeu.py style-jeux/jeux/<fichier>.json <sortie.mp4>
-Options : --mode course|cercle|arene, --theme <nom>, --seed N. Sans option : tirage au hasard qui évite
+Options : --mode course|cercle|arene|patate, --theme <nom>, --seed N. Sans option : tirage au hasard qui évite
 les 2 derniers jeux et les 5 derniers habillages (historique.json, à committer après chaque vidéo).
 
 ## Jeux (modes)
@@ -14,6 +14,9 @@ les 2 derniers jeux et les 5 derniers habillages (historique.json, à committer 
             bumpers, trampolines, portes (barres mobiles), roue, escalier, puis sprint final. Classement en direct.
 - cercle  : billes dans 1 ou 2 anneaux qui tournent ; l'ouverture s'agrandit ; qui sort est éliminé. Dernier = gagnant.
 - arene   : sans gravité ; scie centrale qui grossit + lames en orbite ; 3 touches = éliminé. Dernier = gagnant.
+- patate  : PATATE CHAUDE (mode_patate.py). Billes sans gravité dans une arène qui rétrécit ; une bille porte la patate
+            (flammes, rougit avec le temps) et la passe à chaque contact ; temps caché écoulé = le porteur est brûlé
+            (fumée) et éliminé, la patate repart au hasard. Manches de plus en plus longues. Idéal 8 à 14 participants.
 
 ## Habillages (themes.py)
 neon, stade, lave, glace, bonbon, desert, espace, or, militaire — couleurs, fond animé, police propres à chacun.

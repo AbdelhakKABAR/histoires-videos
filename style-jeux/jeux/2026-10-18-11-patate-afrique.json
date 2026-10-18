@@ -1,0 +1,22 @@
+{
+ "mode": "patate",
+ "titre1": "PATATE CHAUDE",
+ "titre2": "QUI VA SURVIVRE ?",
+ "sous_titre": "Qui touche reçoit la patate !",
+ "question_fin": "Ton pays a survécu ?",
+ "participants": [
+  {"nom": "Maroc", "drapeau": "ma"},
+  {"nom": "Algérie", "drapeau": "dz"},
+  {"nom": "Tunisie", "drapeau": "tn"},
+  {"nom": "Égypte", "drapeau": "eg"},
+  {"nom": "Sénégal", "drapeau": "sn"},
+  {"nom": "Côte d'Ivoire", "drapeau": "ci"},
+  {"nom": "Cameroun", "drapeau": "cm"},
+  {"nom": "Nigeria", "drapeau": "ng"},
+  {"nom": "Mali", "drapeau": "ml"},
+  {"nom": "Ghana", "drapeau": "gh"},
+  {"nom": "RD Congo", "drapeau": "cd"},
+  {"nom": "Afrique du Sud", "drapeau": "za"}
+ ],
+ "description": "🥔🔥 PATATE CHAUDE ! Celui qui touche reçoit la patate… et quand le temps est écoulé, celui qui l'a est éliminé ! Choisis ton pays AVANT le départ et dis-le en commentaire 👇 #patatechaude #afrique #maroc #algerie #tunisie #senegal #drapeaux #suspense #jeu #pourtoi"
+}

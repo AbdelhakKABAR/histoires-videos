@@ -1,5 +1,5 @@
 """Fabrique une vidéo « jeu » (1080x1920) à partir d'un fichier de jeu.
-   python3 faire_jeu.py <jeu.json> <sortie.mp4> [--mode course|cercle|arene] [--theme nom] [--seed N]
+   python3 faire_jeu.py <jeu.json> <sortie.mp4> [--mode course|cercle|arene|patate] [--theme nom] [--seed N]
    Le mode et le thème viennent du fichier ("mode", "theme") ; absents ou "auto" → tirés au hasard."""
 import argparse, json, os, random, subprocess, sys, time
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
@@ -8,10 +8,12 @@ from common import Painter, Encoder, W, H, FPS, ease
 from themes import THEMES
 from mode_course import Course
 from mode_elim import Cercle, Arene
+from mode_patate import Patate
 
-MODES = {"course": Course, "cercle": Cercle, "arene": Arene}
+MODES = {"course": Course, "cercle": Cercle, "arene": Arene, "patate": Patate}
 SOUS_TITRE = {"course": "Choisis le tien maintenant", "cercle": "Le dernier dans le cercle gagne",
-              "arene": "Le dernier survivant gagne"}
+              "arene": "Le dernier survivant gagne",
+              "patate": "Qui touche reçoit la patate !"}
 INTRO, AFTER, OUTRO = 4.6, 2.0, 5.5
 
 ap = argparse.ArgumentParser()
