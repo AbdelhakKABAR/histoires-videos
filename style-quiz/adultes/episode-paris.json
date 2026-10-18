@@ -1,0 +1,20 @@
+{
+ "title": "Paris", "subject": "Paris", "banner": "Paris",
+ "symbols": ["🗼","🥐","🎨","⛪","🚇","🌉","🇫🇷","☕","🥖","🖼","⭐","🏛","🎭","🍷","✦","🧭"],
+ "description": "🗼 Quiz Paris : 10 questions sur la capitale, du niveau facile à impossible. Tu connais vraiment Paris ? Donne ton score en commentaire 👇 #quiz #quiztime #paris #france #culturegenerale #question #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel fleuve traverse Paris ?", "qd": "Le fleuve qui traverse Paris ?", "a": [["","La Loire"],["","Le Rhône"],["","La Seine"],["","La Garonne"]], "ok": 2, "say": "La Seine !", "level": 0},
+  {"q": "Combien d'arrondissements compte Paris ?", "qd": "Combien d'arrondissements à Paris ?", "a": [["","20"],["","12"],["","16"],["","24"]], "ok": 0, "say": "Vingt arrondissements !", "level": 0},
+  {"q": "Dans quel musée parisien peut-on voir la Joconde ?", "qd": "Le musée de la Joconde ?", "a": [["","Le musée d'Orsay"],["","Le Louvre"],["","Le Centre Pompidou"],["","Le Grand Palais"]], "ok": 1, "say": "Le Louvre !", "level": 0},
+  {"q": "Sur quelle butte se dresse la basilique du Sacré-Cœur ?", "qd": "La butte du Sacré-Cœur ?", "a": [["","Belleville"],["","Chaillot"],["","Ménilmontant"],["","Montmartre"]], "ok": 3, "say": "Montmartre !", "level": 1},
+  {"q": "Quelle avenue relie la place de la Concorde à l'Arc de triomphe ?", "qd": "De la Concorde à l'Arc de triomphe ?", "a": [["","L'avenue Foch"],["","Les Champs-Élysées"],["","L'avenue Montaigne"],["","L'avenue de Wagram"]], "ok": 1, "say": "Les Champs-Élysées !", "level": 1},
+  {"q": "De quelle gare parisienne part l'Eurostar pour Londres ?", "qd": "La gare de l'Eurostar ?", "a": [["","La gare du Nord"],["","La gare de Lyon"],["","La gare de l'Est"],["","Saint-Lazare"]], "ok": 0, "say": "La gare du Nord !", "level": 1},
+  {"q": "Quel est le plus ancien pont de Paris encore debout ?", "qd": "Le plus vieux pont de Paris ?", "a": [["","Le pont Alexandre-III"],["","Le pont des Arts"],["","Le pont Marie"],["","Le Pont-Neuf"]], "ok": 3, "say": "Le Pont-Neuf !", "level": 2},
+  {"q": "De quel temple égyptien vient l'obélisque de la Concorde ?", "qd": "L'origine de l'obélisque de la Concorde ?", "a": [["","Karnak"],["","Gizeh"],["","Louxor"],["","Abou Simbel"]], "ok": 2, "say": "Du temple de Louxor !", "level": 2},
+  {"q": "En quelle année a été inaugurée la première ligne du métro de Paris ?", "qd": "La première ligne de métro ?", "a": [["","1889"],["","1900"],["","1910"],["","1925"]], "ok": 1, "say": "En 1900 !", "level": 3},
+  {"q": "Où se trouve le point zéro des routes de France ?", "qd": "Le point zéro des routes de France ?", "a": [["","Place de la Concorde"],["","Place de l'Hôtel-de-Ville"],["","Place de la Bastille"],["","Parvis de Notre-Dame"]], "ok": 3, "say": "Sur le parvis de Notre-Dame !", "level": 3}
+ ]
+}
