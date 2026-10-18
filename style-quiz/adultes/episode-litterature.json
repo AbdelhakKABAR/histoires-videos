@@ -1,0 +1,20 @@
+{
+ "title": "La littérature française", "subject": "Littérature", "banner": "La littérature française",
+ "symbols": ["📚","📖","✒","🖋","📜","✍","📕","🪶","🎭","📗","⭐","🇫🇷","📘","✦","🏛","✧"],
+ "description": "📚 Quiz Littérature française : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #litterature #livres #culturegenerale #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Qui a écrit Les Misérables ?", "qd": "L'auteur des Misérables ?", "a": [["","Émile Zola"],["","Victor Hugo"],["","Balzac"],["","Flaubert"]], "ok": 1, "say": "Victor Hugo !", "level": 0},
+  {"q": "Qui a écrit la fable Le Corbeau et le Renard ?", "qd": "L'auteur du Corbeau et le Renard ?", "a": [["","La Fontaine"],["","Charles Perrault"],["","Molière"],["","Racine"]], "ok": 0, "say": "Jean de La Fontaine !", "level": 0},
+  {"q": "Qui a écrit Le Petit Prince ?", "qd": "L'auteur du Petit Prince ?", "a": [["","Jules Verne"],["","Albert Camus"],["","Jacques Prévert"],["","Saint-Exupéry"]], "ok": 3, "say": "Antoine de Saint-Exupéry !", "level": 0},
+  {"q": "Qui a écrit Vingt mille lieues sous les mers ?", "qd": "Vingt mille lieues sous les mers ?", "a": [["","Alexandre Dumas"],["","Victor Hugo"],["","Jules Verne"],["","Émile Zola"]], "ok": 2, "say": "Jules Verne !", "level": 1},
+  {"q": "Combien de mousquetaires dans le titre du roman d'Alexandre Dumas ?", "qd": "Combien de mousquetaires chez Dumas ?", "a": [["","Deux"],["","Trois"],["","Quatre"],["","Cinq"]], "ok": 1, "say": "Les Trois Mousquetaires !", "level": 1},
+  {"q": "Qui a écrit Madame Bovary ?", "qd": "L'auteur de Madame Bovary ?", "a": [["","Flaubert"],["","Stendhal"],["","Maupassant"],["","Balzac"]], "ok": 0, "say": "Gustave Flaubert !", "level": 1},
+  {"q": "Quel écrivain a écrit la série des Rougon-Macquart ?", "qd": "L'auteur des Rougon-Macquart ?", "a": [["","Balzac"],["","Victor Hugo"],["","Maupassant"],["","Émile Zola"]], "ok": 3, "say": "Émile Zola !", "level": 2},
+  {"q": "Quel écrivain a refusé le prix Nobel de littérature en 1964 ?", "qd": "Il a refusé le Nobel en 1964 ?", "a": [["","Albert Camus"],["","André Gide"],["","Jean-Paul Sartre"],["","André Malraux"]], "ok": 2, "say": "Jean-Paul Sartre !", "level": 2},
+  {"q": "Quel roman de Georges Perec ne contient jamais la lettre E ?", "qd": "Le roman de Perec sans la lettre E ?", "a": [["","Les Choses"],["","La Disparition"],["","W"],["","La Vie mode d'emploi"]], "ok": 1, "say": "La Disparition !", "level": 3},
+  {"q": "Sous quel nom de plume connaît-on Henri Beyle ?", "qd": "Le nom de plume d'Henri Beyle ?", "a": [["","Voltaire"],["","Nerval"],["","Alain"],["","Stendhal"]], "ok": 3, "say": "Stendhal !", "level": 3}
+ ]
+}
