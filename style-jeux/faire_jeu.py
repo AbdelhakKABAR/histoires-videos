@@ -19,6 +19,7 @@ INTRO, AFTER, OUTRO = 4.6, 2.0, 5.5
 ap = argparse.ArgumentParser()
 ap.add_argument("cfg"); ap.add_argument("out")
 ap.add_argument("--mode"); ap.add_argument("--theme"); ap.add_argument("--seed", type=int)
+ap.add_argument("--gagnant", help="garder seulement une partie (réelle) où ce participant gagne")
 a = ap.parse_args()
 cfg = json.load(open(a.cfg)); out = os.path.abspath(a.out)
 os.chdir(HERE)
@@ -41,16 +42,20 @@ parts = [dict(bm[j], img=f"badges/{j}.png", imgw=f"badges/{j}_w.png") for j in o
 n = len(parts)
 
 # graine qui donne le plus de suspense
-best = None
-for _ in range(30 if mode == "course" else 24):
+best = None; found = 0
+tries = (30 if mode == "course" else 24) if not a.gagnant else 600
+for _ in range(tries):
     s = rnd.randrange(10 ** 7)
     try:
         g = MODES[mode](n, s, big=all(p.get("numero") for p in parts))
     except Exception as e:
         continue
     ok, sc, d = g.score()
+    if a.gagnant:
+        if parts[g.winner]["nom"] != a.gagnant: continue
+        found += 1
     if ok and (best is None or sc > best[0]): best = (sc, s, g)
-    if best and best[0] > 12: break
+    if best and best[0] > 12 and (not a.gagnant or found >= 3): break
 if best is None:
     raise SystemExit("Aucune partie valable trouvée")
 game = best[2]
