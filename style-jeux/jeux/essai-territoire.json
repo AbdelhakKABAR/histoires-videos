@@ -1,0 +1,42 @@
+{
+ "mode": "territoire",
+ "titre1": "QUEL PAYS",
+ "titre2": "VA CONQUÉRIR LA CARTE ?",
+ "sous_titre": "Chaque bille peint son drapeau. Le plus grand territoire gagne !",
+ "question_fin": "Ton pays a conquis la carte ?",
+ "participants": [
+  {
+   "nom": "Brésil",
+   "drapeau": "br"
+  },
+  {
+   "nom": "Argentine",
+   "drapeau": "ar"
+  },
+  {
+   "nom": "Mexique",
+   "drapeau": "mx"
+  },
+  {
+   "nom": "Canada",
+   "drapeau": "ca"
+  },
+  {
+   "nom": "Japon",
+   "drapeau": "jp"
+  },
+  {
+   "nom": "Corée du Sud",
+   "drapeau": "kr"
+  },
+  {
+   "nom": "Inde",
+   "drapeau": "in"
+  },
+  {
+   "nom": "Australie",
+   "drapeau": "au"
+  }
+ ],
+ "description": "🗺️ LA CONQUÊTE : chaque bille peint son drapeau partout où elle passe… et efface celui des autres ! Le plus grand territoire à la fin du chrono gagne. Choisis ton pays AVANT le départ 👇 #conquete #drapeaux #jeu #suspense #bresil #japon #pourtoi"
+}

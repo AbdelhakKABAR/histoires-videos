@@ -10,8 +10,10 @@ from mode_course import Course
 from mode_elim import Cercle, Arene
 from mode_patate import Patate
 
-MODES = {"course": Course, "cercle": Cercle, "arene": Arene, "patate": Patate}
-SOUS_TITRE = {"course": "Choisis le tien maintenant", "cercle": "Le dernier dans le cercle gagne",
+from mode_territoire import Territoire
+MODES = {"course": Course, "cercle": Cercle, "arene": Arene, "patate": Patate, "territoire": Territoire}
+PAS_AUTO = {"territoire"}      # essais : jamais tirés au hasard tant que l'utilisateur ne les a pas validés
+SOUS_TITRE = {"territoire": "Le plus grand territoire gagne", "course": "Choisis le tien maintenant", "cercle": "Le dernier dans le cercle gagne",
               "arene": "Le dernier survivant gagne",
               "patate": "Qui touche reçoit la patate !"}
 INTRO, AFTER, OUTRO = 4.6, 2.0, 5.5
@@ -29,7 +31,8 @@ hist = json.load(open(HIST)) if os.path.exists(HIST) else []
 mode = a.mode or cfg.get("mode", "auto")
 if mode in (None, "auto"):       # jamais le même jeu que les 2 derniers
     recent = [h["mode"] for h in hist[-2:]]
-    mode = rnd.choice([m for m in MODES if m not in recent] or list(MODES))
+    auto = [m for m in MODES if m not in PAS_AUTO]
+    mode = rnd.choice([m for m in auto if m not in recent] or auto)
 theme = a.theme or cfg.get("theme", "auto")
 if theme in (None, "auto"):      # jamais un habillage parmi les 5 derniers
     recent = [h["theme"] for h in hist[-5:]]
