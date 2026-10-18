@@ -1,0 +1,20 @@
+{
+ "title": "Les présidents de la Ve République", "subject": "Présidents de la Ve République", "banner": "Les présidents de la Ve République",
+ "symbols": ["🇫🇷","🏛","🗳","📜","⭐","🎖","🐓","⚖","🏰","✒","📅","🔵","⚪","🔴","🗼","🏅"],
+ "description": "🇫🇷 Quiz Présidents de la Ve République : 10 questions, du niveau facile à impossible. Tu connais bien l'histoire de France ? Donne ton score en commentaire 👇 #quiz #quiztime #france #histoire #histoiredefrance #culturegenerale #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Qui a été le premier président de la Cinquième République ?", "qd": "Le premier président de la Ve République ?", "a": [["","Georges Pompidou"],["","Charles de Gaulle"],["","François Mitterrand"],["","René Coty"]], "ok": 1, "say": "Charles de Gaulle !", "level": 0},
+  {"q": "Où siège le président de la République ?", "qd": "Le palais du président ?", "a": [["","Matignon"],["","Le Louvre"],["","L'Élysée"],["","Le Palais-Bourbon"]], "ok": 2, "say": "Le palais de l'Élysée !", "level": 0},
+  {"q": "Combien d'années dure le mandat du président ?", "qd": "La durée du mandat présidentiel ?", "a": [["","7 ans"],["","4 ans"],["","6 ans"],["","5 ans"]], "ok": 3, "say": "Cinq ans !", "level": 0},
+  {"q": "Quel président est resté quatorze ans à l'Élysée ?", "qd": "Le président resté 14 ans ?", "a": [["","François Mitterrand"],["","Jacques Chirac"],["","Charles de Gaulle"],["","Valéry Giscard d'Estaing"]], "ok": 0, "say": "François Mitterrand !", "level": 1},
+  {"q": "En quelle année la Cinquième République a-t-elle été fondée ?", "qd": "L'année de naissance de la Ve République ?", "a": [["","1945"],["","1958"],["","1962"],["","1968"]], "ok": 1, "say": "En 1958 !", "level": 1},
+  {"q": "Quel président est mort pendant son mandat ?", "qd": "Le président mort en cours de mandat ?", "a": [["","Jacques Chirac"],["","Charles de Gaulle"],["","François Mitterrand"],["","Georges Pompidou"]], "ok": 3, "say": "Georges Pompidou !", "level": 1},
+  {"q": "En quelle année le quinquennat a-t-il été adopté ?", "qd": "L'année du référendum sur le quinquennat ?", "a": [["","1995"],["","1998"],["","2000"],["","2002"]], "ok": 2, "say": "En 2000 !", "level": 2},
+  {"q": "Quel président a abaissé la majorité à dix-huit ans ?", "qd": "Qui a mis la majorité à 18 ans ?", "a": [["","Valéry Giscard d'Estaing"],["","Georges Pompidou"],["","François Mitterrand"],["","Charles de Gaulle"]], "ok": 0, "say": "Giscard d'Estaing !", "level": 2},
+  {"q": "Qui a assuré l'intérim après la démission de De Gaulle ?", "qd": "Le président par intérim en 1969 ?", "a": [["","Michel Debré"],["","Jacques Chaban-Delmas"],["","Georges Pompidou"],["","Alain Poher"]], "ok": 3, "say": "Alain Poher !", "level": 3},
+  {"q": "En quelle année a-t-on adopté l'élection du président au suffrage direct ?", "qd": "Le référendum sur l'élection directe ?", "a": [["","1958"],["","1962"],["","1965"],["","1969"]], "ok": 1, "say": "En 1962 !", "level": 3}
+ ]
+}
