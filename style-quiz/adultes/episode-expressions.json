@@ -1,0 +1,20 @@
+{
+ "title": "Les expressions françaises", "subject": "Expressions françaises", "banner": "Les expressions françaises",
+ "symbols": ["💬","🗨","📖","✒","🐰","🍎","☕","🧂","🥬","🐒","🦒","🫘","🍫","👁","✨","🇫🇷"],
+ "description": "💬 Quiz Expressions françaises : 10 questions, du niveau facile à impossible. Tu connais vraiment ta langue ? Donne ton score en commentaire 👇 #quiz #quiztime #france #expressions #languefrancaise #culturegenerale #defi #francais",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Que veut dire « poser un lapin » à quelqu'un ?", "qd": "« Poser un lapin », ça veut dire ?", "a": [["","Lui faire un cadeau"],["","Ne pas venir au rendez-vous"],["","Lui faire peur"],["","Arriver très tôt"]], "ok": 1, "say": "Ne pas venir au rendez-vous !", "level": 0},
+  {"q": "Que veut dire « coûter les yeux de la tête » ?", "qd": "« Coûter les yeux de la tête » ?", "a": [["","Coûter très cher"],["","Être gratuit"],["","Être en solde"],["","Être introuvable"]], "ok": 0, "say": "Coûter très cher !", "level": 0},
+  {"q": "Que veut dire « avoir le cafard » ?", "qd": "« Avoir le cafard », c'est ?", "a": [["","Avoir faim"],["","Avoir de la chance"],["","Être triste"],["","Être en retard"]], "ok": 2, "say": "Être triste !", "level": 0},
+  {"q": "Que veut dire « tomber dans les pommes » ?", "qd": "« Tomber dans les pommes » ?", "a": [["","Faire les courses"],["","Tomber amoureux"],["","Se tromper"],["","S'évanouir"]], "ok": 3, "say": "S'évanouir !", "level": 1},
+  {"q": "Que veut dire « avoir un poil dans la main » ?", "qd": "« Avoir un poil dans la main » ?", "a": [["","Être très riche"],["","Être paresseux"],["","Être malade"],["","Être bricoleur"]], "ok": 1, "say": "Être paresseux !", "level": 1},
+  {"q": "Que veut dire « mettre son grain de sel » ?", "qd": "« Mettre son grain de sel » ?", "a": [["","Bien cuisiner"],["","Faire des économies"],["","Donner son avis sans qu'on le demande"],["","Gâcher un plat"]], "ok": 2, "say": "Donner son avis sans qu'on le demande !", "level": 1},
+  {"q": "Que veut dire « faire chou blanc » ?", "qd": "« Faire chou blanc » ?", "a": [["","Échouer, ne rien obtenir"],["","Devenir végétarien"],["","Gagner haut la main"],["","Rougir de honte"]], "ok": 0, "say": "Échouer, ne rien obtenir !", "level": 2},
+  {"q": "Que veut dire « avoir maille à partir » avec quelqu'un ?", "qd": "« Avoir maille à partir » ?", "a": [["","Partir en voyage"],["","Lui tricoter un pull"],["","Lui devoir de l'argent"],["","Avoir un différend avec lui"]], "ok": 3, "say": "Avoir un différend avec lui !", "level": 2},
+  {"q": "Que veut dire « courir sur le haricot » de quelqu'un ?", "qd": "« Courir sur le haricot » ?", "a": [["","Le suivre partout"],["","Le faire rire"],["","L'agacer"],["","Le battre à la course"]], "ok": 2, "say": "L'agacer !", "level": 3},
+  {"q": "Que veut dire « faire florès » ?", "qd": "« Faire florès » ?", "a": [["","Cultiver des fleurs"],["","Obtenir un grand succès"],["","Faire faillite"],["","Se maquiller"]], "ok": 1, "say": "Obtenir un grand succès !", "level": 3}
+ ]
+}
