@@ -1,0 +1,285 @@
+{
+ "title": "L'intrus",
+ "subject": "Intrus",
+ "banner": "L'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, du niveau facile à impossible… attention aux pièges ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : Paris, Lyon, Genève ou Marseille ?",
+   "qd": "L'intrus parmi ces villes ?",
+   "a": [
+    [
+     "",
+     "Paris"
+    ],
+    [
+     "",
+     "Lyon"
+    ],
+    [
+     "",
+     "Genève"
+    ],
+    [
+     "",
+     "Marseille"
+    ]
+   ],
+   "ok": 2,
+   "say": "Genève ! Elle est en Suisse.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : la Lune, Mercure, Vénus ou Mars ?",
+   "qd": "L'intrus dans l'espace ?",
+   "a": [
+    [
+     "",
+     "La Lune"
+    ],
+    [
+     "",
+     "Mercure"
+    ],
+    [
+     "",
+     "Vénus"
+    ],
+    [
+     "",
+     "Mars"
+    ]
+   ],
+   "ok": 0,
+   "say": "La Lune ! C'est un satellite, pas une planète.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le dauphin, la baleine, l'orque ou le requin ?",
+   "qd": "L'intrus dans la mer ?",
+   "a": [
+    [
+     "",
+     "Le dauphin"
+    ],
+    [
+     "",
+     "La baleine"
+    ],
+    [
+     "",
+     "L'orque"
+    ],
+    [
+     "",
+     "Le requin"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le requin ! C'est un poisson, les autres sont des mammifères.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : l'espagnol, l'italien, l'allemand ou le portugais ?",
+   "qd": "L'intruse parmi ces langues ?",
+   "a": [
+    [
+     "",
+     "L'espagnol"
+    ],
+    [
+     "",
+     "L'italien"
+    ],
+    [
+     "",
+     "L'allemand"
+    ],
+    [
+     "",
+     "Le portugais"
+    ]
+   ],
+   "ok": 2,
+   "say": "L'allemand ! Ce n'est pas une langue latine.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : Monet, Renoir, Picasso ou Degas ?",
+   "qd": "L'intrus parmi ces peintres ?",
+   "a": [
+    [
+     "",
+     "Monet"
+    ],
+    [
+     "",
+     "Renoir"
+    ],
+    [
+     "",
+     "Picasso"
+    ],
+    [
+     "",
+     "Degas"
+    ]
+   ],
+   "ok": 2,
+   "say": "Picasso ! Les autres sont des impressionnistes.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le kangourou, le manchot, la chauve-souris ou l'ornithorynque ?",
+   "qd": "L'intrus parmi ces animaux ?",
+   "a": [
+    [
+     "",
+     "Le kangourou"
+    ],
+    [
+     "",
+     "Le manchot"
+    ],
+    [
+     "",
+     "La chauve-souris"
+    ],
+    [
+     "",
+     "L'ornithorynque"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le manchot ! C'est un oiseau, les autres sont des mammifères.",
+   "level": 1
+  },
+  {
+   "q": "Quelle est l'intruse : la tomate, la courgette, la carotte ou le concombre ?",
+   "qd": "L'intruse au potager ?",
+   "a": [
+    [
+     "",
+     "La tomate"
+    ],
+    [
+     "",
+     "La courgette"
+    ],
+    [
+     "",
+     "La carotte"
+    ],
+    [
+     "",
+     "Le concombre"
+    ]
+   ],
+   "ok": 2,
+   "say": "La carotte ! C'est une racine. Pour les botanistes, les autres sont des fruits.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : l'araignée, le scorpion, la fourmi ou la tique ?",
+   "qd": "L'intrus parmi ces petites bêtes ?",
+   "a": [
+    [
+     "",
+     "L'araignée"
+    ],
+    [
+     "",
+     "Le scorpion"
+    ],
+    [
+     "",
+     "La fourmi"
+    ],
+    [
+     "",
+     "La tique"
+    ]
+   ],
+   "ok": 2,
+   "say": "La fourmi ! C'est un insecte, les autres sont des arachnides.",
+   "level": 2
+  },
+  {
+   "q": "Quelle est l'intruse : la tomate, la pomme de terre, l'aubergine ou la courgette ?",
+   "qd": "L'intruse : même famille de plantes ?",
+   "a": [
+    [
+     "",
+     "La tomate"
+    ],
+    [
+     "",
+     "La pomme de terre"
+    ],
+    [
+     "",
+     "L'aubergine"
+    ],
+    [
+     "",
+     "La courgette"
+    ]
+   ],
+   "ok": 3,
+   "say": "La courgette ! Les trois autres sont de la famille des solanacées.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : Mozart, Haydn, Schubert ou Beethoven ?",
+   "qd": "L'intrus parmi ces compositeurs ?",
+   "a": [
+    [
+     "",
+     "Mozart"
+    ],
+    [
+     "",
+     "Haydn"
+    ],
+    [
+     "",
+     "Schubert"
+    ],
+    [
+     "",
+     "Beethoven"
+    ]
+   ],
+   "ok": 3,
+   "say": "Beethoven ! Il est né en Allemagne, les trois autres en Autriche.",
+   "level": 3
+  }
+ ]
+}

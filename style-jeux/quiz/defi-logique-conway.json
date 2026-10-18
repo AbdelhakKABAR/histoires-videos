@@ -1,0 +1,27 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : IMPOSSIBLE",
+ "suite": [
+  "1",
+  "11",
+  "21",
+  "1211",
+  "111221"
+ ],
+ "options": [
+  "1112221",
+  "312211",
+  "221121",
+  "122111"
+ ],
+ "ok": 1,
+ "consigne": "Quelle est la suite ?",
+ "accroche_dite": "Seulement un pour cent des gens trouvent la suite.",
+ "question_dite": "Un, onze, vingt et un, mille deux cent onze, cent onze mille deux cent vingt et un… Et ensuite ?",
+ "explication": "Chaque nombre décrit le précédent : 111221 = trois 1, deux 2, un 1 → 312211.",
+ "explication_dite": "Trois cent douze mille deux cent onze ! Chaque nombre décrit le précédent : trois un, deux deux, un un.",
+ "fin": "Tu avais trouvé ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🧩 SUITE LOGIQUE niveau impossible : 3 secondes pour trouver. Seuls 1 % y arrivent ! 👇 #logique #enigme #quiz #suitelogique #cerveau #pourtoi"
+}
