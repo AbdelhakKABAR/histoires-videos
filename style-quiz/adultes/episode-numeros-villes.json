@@ -1,0 +1,20 @@
+{
+ "title": "Le numéro de département de chaque ville", "subject": "Départements", "banner": "Le numéro de chaque ville",
+ "symbols": ["🇫🇷","🗺","📍","🏙","🚗","🔢","🏰","⛪","🥖","🧀","🍷","🗼","⚓","⛰","🌻","🚲"],
+ "description": "🇫🇷 Quiz France : trouve le numéro de département de chaque ville, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #france #departements #villes #geographie #culturegenerale #quiztime #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel est le numéro du département de Lyon ?", "qd": "Le numéro de Lyon ?", "a": [["","38"],["","69"],["","42"],["","01"]], "ok": 1, "say": "Le 69, le Rhône !", "level": 0},
+  {"q": "Quel est le numéro du département de Toulouse ?", "qd": "Le numéro de Toulouse ?", "a": [["","31"],["","32"],["","81"],["","82"]], "ok": 0, "say": "Le 31, la Haute-Garonne !", "level": 0},
+  {"q": "Quel est le numéro du département de Bordeaux ?", "qd": "Le numéro de Bordeaux ?", "a": [["","24"],["","47"],["","40"],["","33"]], "ok": 3, "say": "Le 33, la Gironde !", "level": 0},
+  {"q": "Quel est le numéro du département de Lille ?", "qd": "Le numéro de Lille ?", "a": [["","62"],["","80"],["","59"],["","02"]], "ok": 2, "say": "Le 59, le Nord !", "level": 1},
+  {"q": "Quel est le numéro du département de Nice ?", "qd": "Le numéro de Nice ?", "a": [["","83"],["","06"],["","04"],["","05"]], "ok": 1, "say": "Le 06, les Alpes-Maritimes !", "level": 1},
+  {"q": "Quel est le numéro du département de Strasbourg ?", "qd": "Le numéro de Strasbourg ?", "a": [["","67"],["","68"],["","57"],["","88"]], "ok": 0, "say": "Le 67, le Bas-Rhin !", "level": 1},
+  {"q": "Quel est le numéro du département de Rennes ?", "qd": "Le numéro de Rennes ?", "a": [["","22"],["","56"],["","29"],["","35"]], "ok": 3, "say": "Le 35, l'Ille-et-Vilaine !", "level": 2},
+  {"q": "Quel est le numéro du département de Clermont-Ferrand ?", "qd": "Le numéro de Clermont-Ferrand ?", "a": [["","43"],["","03"],["","63"],["","15"]], "ok": 2, "say": "Le 63, le Puy-de-Dôme !", "level": 2},
+  {"q": "Quel est le numéro du département de Privas ?", "qd": "Le numéro de Privas ?", "a": [["","07"],["","26"],["","48"],["","43"]], "ok": 0, "say": "Le 07, l'Ardèche !", "level": 3},
+  {"q": "Quel est le numéro du département d'Aurillac ?", "qd": "Le numéro d'Aurillac ?", "a": [["","19"],["","15"],["","46"],["","12"]], "ok": 1, "say": "Le 15, le Cantal !", "level": 3}
+ ]
+}

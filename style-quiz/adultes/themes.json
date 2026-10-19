@@ -41,7 +41,8 @@
   "Napoléon",
   "La Révolution française",
   "Les villes de France",
-  "Le plat célèbre de chaque pays"
+  "Le plat célèbre de chaque pays",
+  "Le numéro de département de chaque ville"
  ],
  "a_faire": [
   "Les pays d'Europe",
@@ -71,7 +72,6 @@
   "Les découvertes scientifiques"
  ],
  "a_faire_france": [
-  "Le numéro de département de chaque ville",
   "Le plat célèbre de chaque ville",
   "La spécialité de chaque région",
   "Le nom des habitants de chaque ville",
