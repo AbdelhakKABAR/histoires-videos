@@ -1,0 +1,20 @@
+{
+ "title": "Le plat célèbre de chaque pays", "subject": "Plats du monde", "banner": "Le plat célèbre de chaque pays",
+ "symbols": ["🍜","🍣","🥘","🌮","🍲","🥟","🍛","🌍","🍝","🥙","🧀","🍽","🌶","🫕","🍤","🌐"],
+ "description": "🍜 Quiz Plats du monde : 10 pays, 10 plats célèbres, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #monde #culturegenerale #cuisine #gastronomie #voyage #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "De quel pays vient la paella ?", "qd": "La paella vient de quel pays ?", "a": [["","L'Italie"],["","L'Espagne"],["","Le Portugal"],["","Le Mexique"]], "ok": 1, "say": "L'Espagne !", "level": 0},
+  {"q": "De quel pays viennent les sushis ?", "qd": "Les sushis viennent de quel pays ?", "a": [["","La Chine"],["","La Corée du Sud"],["","Le Japon"],["","La Thaïlande"]], "ok": 2, "say": "Le Japon !", "level": 0},
+  {"q": "Quel pays est célèbre pour ses tacos ?", "qd": "Le pays des tacos ?", "a": [["","Le Mexique"],["","L'Espagne"],["","L'Argentine"],["","Le Pérou"]], "ok": 0, "say": "Le Mexique !", "level": 0},
+  {"q": "Le goulash est le plat national de quel pays ?", "qd": "Le pays du goulash ?", "a": [["","L'Autriche"],["","La Pologne"],["","La Tchéquie"],["","La Hongrie"]], "ok": 3, "say": "La Hongrie !", "level": 1},
+  {"q": "De quel pays vient la soupe phở ?", "qd": "La soupe phở vient d'où ?", "a": [["","La Thaïlande"],["","Le Vietnam"],["","Le Cambodge"],["","Le Laos"]], "ok": 1, "say": "Le Vietnam !", "level": 1},
+  {"q": "Le haggis, panse de mouton farcie, est le plat national de quel pays ?", "qd": "Le pays du haggis ?", "a": [["","L'Irlande"],["","Le pays de Galles"],["","L'Écosse"],["","L'Islande"]], "ok": 2, "say": "L'Écosse !", "level": 1},
+  {"q": "Le khachapouri, pain au fromage et à l'œuf, vient de quel pays ?", "qd": "Le pays du khachapouri ?", "a": [["","La Géorgie"],["","L'Arménie"],["","La Turquie"],["","La Grèce"]], "ok": 0, "say": "La Géorgie !", "level": 2},
+  {"q": "Le bobotie est le plat national de quel pays ?", "qd": "Le pays du bobotie ?", "a": [["","Le Kenya"],["","Le Nigeria"],["","Le Maroc"],["","L'Afrique du Sud"]], "ok": 3, "say": "L'Afrique du Sud !", "level": 2},
+  {"q": "L'ema datshi, piments au fromage, est le plat national de quel pays ?", "qd": "Le pays de l'ema datshi ?", "a": [["","Le Népal"],["","Le Bhoutan"],["","Le Bangladesh"],["","Le Sri Lanka"]], "ok": 1, "say": "Le Bhoutan !", "level": 3},
+  {"q": "Le fårikål, ragoût de mouton au chou, est le plat national de quel pays ?", "qd": "Le pays du fårikål ?", "a": [["","La Suède"],["","Le Danemark"],["","La Norvège"],["","La Finlande"]], "ok": 2, "say": "La Norvège !", "level": 3}
+ ]
+}
