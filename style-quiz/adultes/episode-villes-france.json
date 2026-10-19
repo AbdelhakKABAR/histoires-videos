@@ -1,0 +1,20 @@
+{
+ "title": "Les villes de France", "subject": "Villes", "banner": "Les villes de France",
+ "symbols": ["🏙","🗼","⛪","🏰","🌉","🚉","🏛","⚓","🌹","🇫🇷","⭐","🧭","🗺","🏘","✦","🚲"],
+ "description": "🏙 Quiz Villes de France : 10 questions, du niveau facile à impossible. Tu connais bien la France ? Donne ton score en commentaire 👇 #quiz #quiztime #france #villes #villesdefrance #culturegenerale #geographie #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quelle ville est surnommée la Ville rose ?", "qd": "La « Ville rose » ?", "a": [["","Toulouse"],["","Lyon"],["","Bordeaux"],["","Nice"]], "ok": 0, "say": "Toulouse !", "level": 0},
+  {"q": "Dans quelle ville se trouve la basilique Notre-Dame-de-la-Garde ?", "qd": "Notre-Dame-de-la-Garde est à… ?", "a": [["","Nice"],["","Toulon"],["","Marseille"],["","Montpellier"]], "ok": 2, "say": "Marseille !", "level": 0},
+  {"q": "Dans quelle ville française siège le Parlement européen ?", "qd": "Le siège du Parlement européen ?", "a": [["","Lille"],["","Metz"],["","Nancy"],["","Strasbourg"]], "ok": 3, "say": "Strasbourg !", "level": 0},
+  {"q": "Quelle ville est surnommée la capitale des Gaules ?", "qd": "La « capitale des Gaules » ?", "a": [["","Reims"],["","Lyon"],["","Autun"],["","Paris"]], "ok": 1, "say": "Lyon !", "level": 1},
+  {"q": "Quelle ville est célèbre pour son Palais des Papes ?", "qd": "La ville du Palais des Papes ?", "a": [["","Avignon"],["","Nîmes"],["","Arles"],["","Orange"]], "ok": 0, "say": "Avignon !", "level": 1},
+  {"q": "Dans quelle ville se déroulent les 24 Heures automobiles ?", "qd": "La ville des 24 Heures auto ?", "a": [["","Nevers"],["","Dijon"],["","Le Mans"],["","Reims"]], "ok": 2, "say": "Le Mans !", "level": 1},
+  {"q": "Quelle ville est la préfecture du département du Nord ?", "qd": "La préfecture du Nord ?", "a": [["","Roubaix"],["","Lille"],["","Dunkerque"],["","Valenciennes"]], "ok": 1, "say": "Lille !", "level": 2},
+  {"q": "Quelle ville bretonne est surnommée la cité corsaire ?", "qd": "La « cité corsaire » ?", "a": [["","Brest"],["","Vannes"],["","Quimper"],["","Saint-Malo"]], "ok": 3, "say": "Saint-Malo !", "level": 2},
+  {"q": "Quelle est la commune la plus étendue de France métropolitaine ?", "qd": "La plus grande commune de métropole ?", "a": [["","Marseille"],["","Arles"],["","Paris"],["","Toulouse"]], "ok": 1, "say": "Arles !", "level": 3},
+  {"q": "Quelle ville s'appelait Burdigala dans l'Antiquité ?", "qd": "L'antique Burdigala ?", "a": [["","Narbonne"],["","Nîmes"],["","Toulouse"],["","Bordeaux"]], "ok": 3, "say": "Bordeaux !", "level": 3}
+ ]
+}
