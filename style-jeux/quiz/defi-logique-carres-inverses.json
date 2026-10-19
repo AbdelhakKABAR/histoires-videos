@@ -1,0 +1,28 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : IMPOSSIBLE",
+ "suite": [
+  "1",
+  "4",
+  "9",
+  "61",
+  "52",
+  "63"
+ ],
+ "options": [
+  "49",
+  "94",
+  "64",
+  "76"
+ ],
+ "ok": 1,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche_dite": "Seulement un pour cent des gens trouvent la suite.",
+ "question_dite": "Un, quatre, neuf, soixante et un, cinquante-deux, soixante-trois… Et ensuite ?",
+ "explication": "Les carrés écrits à l'envers : 16 → 61, 25 → 52, 36 → 63, donc 49 → 94.",
+ "explication_dite": "Quatre-vingt-quatorze ! Ce sont les carrés écrits à l'envers : seize devient soixante et un, vingt-cinq devient cinquante-deux, trente-six devient soixante-trois, et quarante-neuf devient quatre-vingt-quatorze.",
+ "fin": "Tu avais trouvé ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🧩 SUITE LOGIQUE niveau impossible : 1, 4, 9, 61, 52, 63… et ensuite ? Seuls 1 % trouvent ! 👇 #logique #enigme #quiz #suitelogique #cerveau #maths #pourtoi"
+}

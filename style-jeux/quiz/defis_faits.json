@@ -5,6 +5,7 @@
  ],
  "suites": [
   "1, 11, 21, 1211, 111221 (suite de Conway)",
-  "Q, C, S, S, H, N → D (initiales des nombres en français)"
+  "Q, C, S, S, H, N → D (initiales des nombres en français)",
+  "1, 4, 9, 61, 52, 63 → 94 (carrés écrits à l'envers)"
  ]
 }
