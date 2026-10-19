@@ -63,3 +63,10 @@ sur la question 1 (pas d'intro, pas d'écran « Niveau facile »), voix siwis, �
 2. `bash style-quiz/faire_quiz_adulte.sh style-quiz/adultes/episode-<nom>.json` -> `style-quiz/_films/livraison/<nom>.mp4` (≈ 10 min).
 3. Publication : `python3 style-quiz/publier_publio.py <clone de publio> <mp4> <episode.json>`, commit + push dans publio, puis lancer
    le workflow « Publier les vidéos » (REST : POST repos/AbdelhakKABAR/publio/actions/workflows/publish.yml/dispatches, ref=main).
+
+## Quiz « TROUVE L'INTRUS » (même design que les quiz adultes) — 19 oct. 2026
+Même commande et même format que les quiz adultes (10 questions, niveaux 3 facile / 3 normal / 2 difficile / 2 impossible).
+Modèle : `adultes/episode-intrus-essai.json`. Pour chaque question : `q` = « Quel est l'intrus : A, B, C ou D ? » (lu),
+`qd` = phrase courte affichée (« L'intrus parmi ces villes ? »), les 4 propositions en réponses, `ok` = l'intrus (varier la position),
+`say` = l'intrus + la raison en une phrase courte. Un seul intrus possible, raison exacte et vérifiable ; des pièges aux niveaux difficiles.
+Ne jamais reprendre un intrus de `adultes/intrus_faits.json` (y ajouter chaque nouvelle série). Durée ≈ 2 min 15.
