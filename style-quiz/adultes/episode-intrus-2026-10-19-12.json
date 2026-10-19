@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 séries, du niveau facile à impossible… attention aux pièges ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : la Seine, le Danube, la Loire ou la Garonne ?",
+   "qd": "L'intrus parmi ces fleuves ?",
+   "a": [
+    [
+     "",
+     "La Seine"
+    ],
+    [
+     "",
+     "Le Danube"
+    ],
+    [
+     "",
+     "La Loire"
+    ],
+    [
+     "",
+     "La Garonne"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le Danube ! Il ne coule pas en France.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : la chauve-souris, l'aigle, le hibou ou le moineau ?",
+   "qd": "L'intrus parmi ces animaux volants ?",
+   "a": [
+    [
+     "",
+     "La chauve-souris"
+    ],
+    [
+     "",
+     "L'aigle"
+    ],
+    [
+     "",
+     "Le hibou"
+    ],
+    [
+     "",
+     "Le moineau"
+    ]
+   ],
+   "ok": 0,
+   "say": "La chauve-souris ! C'est un mammifère, les autres sont des oiseaux.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : la baguette, le croissant, la brioche ou la paella ?",
+   "qd": "L'intrus à la boulangerie ?",
+   "a": [
+    [
+     "",
+     "La baguette"
+    ],
+    [
+     "",
+     "Le croissant"
+    ],
+    [
+     "",
+     "La brioche"
+    ],
+    [
+     "",
+     "La paella"
+    ]
+   ],
+   "ok": 3,
+   "say": "La paella ! C'est un plat espagnol, pas une spécialité de boulangerie.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : l'or, le diamant, l'argent ou le cuivre ?",
+   "qd": "L'intrus parmi ces matières ?",
+   "a": [
+    [
+     "",
+     "L'or"
+    ],
+    [
+     "",
+     "Le diamant"
+    ],
+    [
+     "",
+     "L'argent"
+    ],
+    [
+     "",
+     "Le cuivre"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le diamant ! C'est du carbone, les autres sont des métaux.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus au pluriel : chou, genou, trou ou hibou ?",
+   "qd": "L'intrus au pluriel ?",
+   "a": [
+    [
+     "",
+     "Chou"
+    ],
+    [
+     "",
+     "Genou"
+    ],
+    [
+     "",
+     "Trou"
+    ],
+    [
+     "",
+     "Hibou"
+    ]
+   ],
+   "ok": 2,
+   "say": "Trou ! Il prend un s, les autres prennent un x.",
+   "level": 1
+  },
+  {
+   "q": "Quelle est l'intruse : La Joconde, La Cène, L'Homme de Vitruve ou La Naissance de Vénus ?",
+   "qd": "L'intruse parmi ces œuvres ?",
+   "a": [
+    [
+     "",
+     "La Joconde"
+    ],
+    [
+     "",
+     "La Cène"
+    ],
+    [
+     "",
+     "L'Homme de Vitruve"
+    ],
+    [
+     "",
+     "La Naissance de Vénus"
+    ]
+   ],
+   "ok": 3,
+   "say": "La Naissance de Vénus ! C'est Botticelli, les autres sont de Léonard de Vinci.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le koala, le raton laveur, le kangourou ou le wombat ?",
+   "qd": "L'intrus parmi ces animaux ?",
+   "a": [
+    [
+     "",
+     "Le koala"
+    ],
+    [
+     "",
+     "Le raton laveur"
+    ],
+    [
+     "",
+     "Le kangourou"
+    ],
+    [
+     "",
+     "Le wombat"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le raton laveur ! Les trois autres sont des marsupiaux.",
+   "level": 2
+  },
+  {
+   "q": "Quelle est l'intruse : Mars, Jupiter, Saturne ou Uranus ?",
+   "qd": "L'intruse parmi ces planètes ?",
+   "a": [
+    [
+     "",
+     "Mars"
+    ],
+    [
+     "",
+     "Jupiter"
+    ],
+    [
+     "",
+     "Saturne"
+    ],
+    [
+     "",
+     "Uranus"
+    ]
+   ],
+   "ok": 0,
+   "say": "Mars ! C'est une planète rocheuse, les autres sont des géantes.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : la Suisse, l'Autriche, la Slovénie ou la Hongrie ?",
+   "qd": "L'intrus parmi ces pays ?",
+   "a": [
+    [
+     "",
+     "La Suisse"
+    ],
+    [
+     "",
+     "L'Autriche"
+    ],
+    [
+     "",
+     "La Slovénie"
+    ],
+    [
+     "",
+     "La Hongrie"
+    ]
+   ],
+   "ok": 2,
+   "say": "La Slovénie ! Elle a un accès à la mer, pas les trois autres.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : le calcium, le sodium, le lithium ou le potassium ?",
+   "qd": "L'intrus parmi ces éléments ?",
+   "a": [
+    [
+     "",
+     "Le calcium"
+    ],
+    [
+     "",
+     "Le sodium"
+    ],
+    [
+     "",
+     "Le lithium"
+    ],
+    [
+     "",
+     "Le potassium"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le calcium ! C'est un alcalino-terreux, les autres sont des métaux alcalins.",
+   "level": 3
+  }
+ ]
+}
