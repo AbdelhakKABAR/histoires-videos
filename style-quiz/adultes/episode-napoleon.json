@@ -1,0 +1,20 @@
+{
+ "title": "Napoléon", "subject": "Napoléon", "banner": "Napoléon",
+ "symbols": ["👑","⚔","🎖","🏰","🦅","📜","🗺","🇫🇷","⭐","🐎","🎩","🛡","✦","🏛","⚜","✧"],
+ "description": "👑 Quiz Napoléon : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #napoleon #histoire #histoiredefrance #culturegenerale #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Sur quelle île Napoléon est-il né ?", "qd": "L'île natale de Napoléon ?", "a": [["","La Sardaigne"],["","La Sicile"],["","La Corse"],["","Malte"]], "ok": 2, "say": "La Corse !", "level": 0},
+  {"q": "Quelle bataille de 1815 marque la défaite finale de Napoléon ?", "qd": "Sa défaite finale en 1815 ?", "a": [["","Waterloo"],["","Austerlitz"],["","Iéna"],["","Wagram"]], "ok": 0, "say": "Waterloo !", "level": 0},
+  {"q": "Sur quelle île Napoléon est-il mort en exil ?", "qd": "L'île où il est mort en exil ?", "a": [["","L'île d'Elbe"],["","La Corse"],["","Madagascar"],["","Sainte-Hélène"]], "ok": 3, "say": "Sainte-Hélène !", "level": 0},
+  {"q": "En quelle année Napoléon est-il sacré empereur ?", "qd": "L'année de son sacre ?", "a": [["","1799"],["","1804"],["","1810"],["","1815"]], "ok": 1, "say": "En 1804 !", "level": 1},
+  {"q": "Comment s'appelait la première épouse de Napoléon ?", "qd": "Sa première épouse ?", "a": [["","Marie-Louise"],["","Marie-Antoinette"],["","Hortense"],["","Joséphine"]], "ok": 3, "say": "Joséphine de Beauharnais !", "level": 1},
+  {"q": "Quel grand recueil de lois Napoléon a-t-il fait adopter en 1804 ?", "qd": "Son recueil de lois de 1804 ?", "a": [["","Le Code civil"],["","Le Code pénal"],["","La Constitution"],["","La Charte"]], "ok": 0, "say": "Le Code civil !", "level": 1},
+  {"q": "Sur quelle île Napoléon est-il exilé une première fois en 1814 ?", "qd": "Son premier exil en 1814 ?", "a": [["","Sainte-Hélène"],["","La Corse"],["","L'île d'Elbe"],["","Jersey"]], "ok": 2, "say": "L'île d'Elbe !", "level": 2},
+  {"q": "Quelle victoire de 1805 est surnommée la bataille des Trois Empereurs ?", "qd": "La bataille des Trois Empereurs ?", "a": [["","Marengo"],["","Austerlitz"],["","Eylau"],["","Friedland"]], "ok": 1, "say": "Austerlitz !", "level": 2},
+  {"q": "Quel titre reçoit le fils de Napoléon à sa naissance en 1811 ?", "qd": "Le titre de son fils en 1811 ?", "a": [["","Roi de Rome"],["","Roi d'Italie"],["","Prince de Naples"],["","Duc d'Orléans"]], "ok": 0, "say": "Roi de Rome !", "level": 3},
+  {"q": "Sous quel nom est connu le coup d'État de 1799 qui porte Napoléon au pouvoir ?", "qd": "Son coup d'État de 1799 ?", "a": [["","Le 9 Thermidor"],["","Le 10 Août"],["","Le 2 Décembre"],["","Le 18 Brumaire"]], "ok": 3, "say": "Le 18 Brumaire !", "level": 3}
+ ]
+}
