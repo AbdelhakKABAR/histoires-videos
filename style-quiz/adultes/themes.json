@@ -42,7 +42,8 @@
   "La Révolution française",
   "Les villes de France",
   "Le plat célèbre de chaque pays",
-  "Le numéro de département de chaque ville"
+  "Le numéro de département de chaque ville",
+  "La monnaie de chaque pays"
  ],
  "a_faire": [
   "Les pays d'Europe",
@@ -106,7 +107,6 @@
   "Les records de France"
  ],
  "a_faire_monde": [
-  "La monnaie de chaque pays",
   "La langue de chaque pays",
   "Le monument célèbre de chaque pays",
   "L'indicatif téléphonique de chaque pays",

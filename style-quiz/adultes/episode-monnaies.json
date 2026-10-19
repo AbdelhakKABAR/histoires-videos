@@ -1,0 +1,20 @@
+{
+ "title": "La monnaie de chaque pays", "subject": "Monnaies du monde", "banner": "La monnaie de chaque pays",
+ "symbols": ["💰","💵","💶","💷","💴","🪙","💳","🏦","🌍","💸","📈","🌐","🤑","🧾","💲","🗺"],
+ "description": "💰 Quiz Monnaies du monde : 10 pays, 10 monnaies, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #monde #culturegenerale #monnaie #argent #voyage #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quelle est la monnaie du Japon ?", "qd": "La monnaie du Japon ?", "a": [["","Le yuan"],["","Le won"],["","Le yen"],["","La roupie"]], "ok": 2, "say": "Le yen !", "level": 0},
+  {"q": "Quelle est la monnaie du Royaume-Uni ?", "qd": "La monnaie du Royaume-Uni ?", "a": [["","La livre sterling"],["","L'euro"],["","Le dollar"],["","La couronne"]], "ok": 0, "say": "La livre sterling !", "level": 0},
+  {"q": "Quelle est la monnaie de la Suisse ?", "qd": "La monnaie de la Suisse ?", "a": [["","L'euro"],["","Le mark"],["","La lire"],["","Le franc suisse"]], "ok": 3, "say": "Le franc suisse !", "level": 0},
+  {"q": "Quelle est la monnaie de l'Inde ?", "qd": "La monnaie de l'Inde ?", "a": [["","Le dinar"],["","La roupie"],["","Le taka"],["","Le rial"]], "ok": 1, "say": "La roupie !", "level": 1},
+  {"q": "Quelle est la monnaie du Brésil ?", "qd": "La monnaie du Brésil ?", "a": [["","Le peso"],["","Le sol"],["","Le real"],["","L'escudo"]], "ok": 2, "say": "Le real !", "level": 1},
+  {"q": "Quelle est la monnaie du Mexique ?", "qd": "La monnaie du Mexique ?", "a": [["","Le peso"],["","Le dollar"],["","Le bolivar"],["","Le quetzal"]], "ok": 0, "say": "Le peso !", "level": 1},
+  {"q": "Quelle est la monnaie de la Pologne ?", "qd": "La monnaie de la Pologne ?", "a": [["","L'euro"],["","Le forint"],["","La couronne"],["","Le zloty"]], "ok": 3, "say": "Le zloty !", "level": 2},
+  {"q": "Quelle est la monnaie de la Thaïlande ?", "qd": "La monnaie de la Thaïlande ?", "a": [["","Le ringgit"],["","Le baht"],["","Le dong"],["","Le kip"]], "ok": 1, "say": "Le baht !", "level": 2},
+  {"q": "Quelle est la monnaie du Guatemala ?", "qd": "La monnaie du Guatemala ?", "a": [["","Le colón"],["","La lempira"],["","Le quetzal"],["","Le córdoba"]], "ok": 2, "say": "Le quetzal !", "level": 3},
+  {"q": "Quelle est la monnaie de la Mongolie ?", "qd": "La monnaie de la Mongolie ?", "a": [["","Le tugrik"],["","Le tenge"],["","Le som"],["","Le manat"]], "ok": 0, "say": "Le tugrik !", "level": 3}
+ ]
+}
