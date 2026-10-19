@@ -1,0 +1,20 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : IMPOSSIBLE",
+ "mot": "CHAMBORD",
+ "categorie": "Un château en France",
+ "categorie_dite": "Catégorie : un château en France.",
+ "accroche_dite": "Seulement un pour cent des gens trouvent ce mot mystère.",
+ "indices": [
+  "Il se trouve dans le Loir-et-Cher.",
+  "Sa construction a commencé en 1519 sous François Ier.",
+  "Il est célèbre pour son escalier à double révolution."
+ ],
+ "lettres_donnees": 1,
+ "dire": "Chambord",
+ "explication": "Le château de Chambord, joyau de la Renaissance dans la vallée de la Loire.",
+ "fin": "Tu l'avais trouvé ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu l'avais trouvé ?",
+ "description": "🔤 MOT MYSTÈRE niveau impossible : 3 indices, 20 secondes. Tu l'as trouvé ? 👇 #motmystere #quiz #france #enigme #culturegenerale #chateau #pourtoi"
+}
