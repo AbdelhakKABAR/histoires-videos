@@ -70,3 +70,9 @@ Modèle : `adultes/episode-intrus-essai.json`. Pour chaque question : `q` = « Q
 `qd` = phrase courte affichée (« L'intrus parmi ces villes ? »), les 4 propositions en réponses, `ok` = l'intrus (varier la position),
 `say` = l'intrus + la raison en une phrase courte. Un seul intrus possible, raison exacte et vérifiable ; des pièges aux niveaux difficiles.
 Ne jamais reprendre un intrus de `adultes/intrus_faits.json` (y ajouter chaque nouvelle série). Durée ≈ 2 min 15.
+
+## Thèmes FRANCE (souhait de l'utilisateur, 19 oct. 2026)
+Privilégier les quiz « une ville / une région → sa réponse » : numéro de département de chaque ville, plat célèbre de chaque ville,
+spécialité / fromage / vin de chaque région, nom des habitants, club de foot, monument, surnom, fleuve, préfecture… Chaque question
+porte sur une ville ou une région différente (ex. « Quel est le numéro du département de Marseille ? » → 13). Réponses exactes et non
+discutables (pour un plat, choisir une spécialité vraiment associée à la ville : bouillabaisse → Marseille, cassoulet → Castelnaudary/Toulouse…).
