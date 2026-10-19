@@ -1,0 +1,20 @@
+{
+ "title": "La Révolution française", "subject": "Révolution française", "banner": "La Révolution française",
+ "symbols": ["🇫🇷","⚔","🏰","📜","🥁","🔥","⚖","🕊","🎖","✊","🗡","🏛","⭐","🔔","🪶","🎺"],
+ "description": "🇫🇷 Quiz Révolution française : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #histoire #revolutionfrancaise #culturegenerale #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "En quelle année a eu lieu la prise de la Bastille ?", "qd": "L'année de la prise de la Bastille ?", "a": [["","1769"],["","1792"],["","1789"],["","1815"]], "ok": 2, "say": "En 1789 !", "level": 0},
+  {"q": "Quel roi de France a été guillotiné en 1793 ?", "qd": "Le roi guillotiné en 1793 ?", "a": [["","Louis XVI"],["","Louis XIV"],["","Louis XV"],["","Henri IV"]], "ok": 0, "say": "Louis XVI !", "level": 0},
+  {"q": "Quel chant révolutionnaire est devenu l'hymne national de la France ?", "qd": "Le chant devenu hymne national ?", "a": [["","Le Chant du départ"],["","Ça ira"],["","La Carmagnole"],["","La Marseillaise"]], "ok": 3, "say": "La Marseillaise !", "level": 0},
+  {"q": "Quelle reine a été guillotinée en octobre 1793 ?", "qd": "La reine guillotinée en 1793 ?", "a": [["","Catherine de Médicis"],["","Marie-Antoinette"],["","Anne d'Autriche"],["","Joséphine"]], "ok": 1, "say": "Marie-Antoinette !", "level": 1},
+  {"q": "Dans quelle ville la famille royale a-t-elle été arrêtée lors de sa fuite en 1791 ?", "qd": "Où le roi en fuite est-il arrêté en 1791 ?", "a": [["","Varennes"],["","Versailles"],["","Reims"],["","Metz"]], "ok": 0, "say": "À Varennes !", "level": 1},
+  {"q": "Quel texte célèbre a été adopté en août 1789 ?", "qd": "Le texte adopté en août 1789 ?", "a": [["","Le Code civil"],["","Les cahiers de doléances"],["","Les droits de l'homme"],["","La Constitution"]], "ok": 2, "say": "La Déclaration des droits de l'homme et du citoyen !", "level": 1},
+  {"q": "Quel révolutionnaire a été assassiné dans sa baignoire en 1793 ?", "qd": "Assassiné dans sa baignoire en 1793 ?", "a": [["","Danton"],["","Robespierre"],["","Saint-Just"],["","Marat"]], "ok": 3, "say": "Marat, tué par Charlotte Corday !", "level": 2},
+  {"q": "Quel est le premier mois du calendrier républicain ?", "qd": "Premier mois du calendrier républicain ?", "a": [["","Brumaire"],["","Vendémiaire"],["","Germinal"],["","Nivôse"]], "ok": 1, "say": "Vendémiaire !", "level": 2},
+  {"q": "À quelle date a eu lieu le serment du Jeu de paume ?", "qd": "La date du serment du Jeu de paume ?", "a": [["","20 juin 1789"],["","5 mai 1789"],["","4 août 1789"],["","14 juillet 1789"]], "ok": 0, "say": "Le 20 juin 1789 !", "level": 3},
+  {"q": "Sous quel nom de mois républicain est connue la chute de Robespierre ?", "qd": "Le mois de la chute de Robespierre ?", "a": [["","Brumaire"],["","Prairial"],["","Thermidor"],["","Germinal"]], "ok": 2, "say": "Le 9 Thermidor !", "level": 3}
+ ]
+}
