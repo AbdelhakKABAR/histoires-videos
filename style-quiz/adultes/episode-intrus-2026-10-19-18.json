@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 séries, du niveau facile à impossible… attention aux pièges ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : le Brésil, l'Espagne, l'Argentine ou le Chili ?",
+   "qd": "L'intrus parmi ces pays ?",
+   "a": [
+    [
+     "",
+     "Le Brésil"
+    ],
+    [
+     "",
+     "L'Espagne"
+    ],
+    [
+     "",
+     "L'Argentine"
+    ],
+    [
+     "",
+     "Le Chili"
+    ]
+   ],
+   "ok": 1,
+   "say": "L'Espagne ! Elle n'est pas en Amérique du Sud.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : le violon, le violoncelle, la contrebasse ou la flûte ?",
+   "qd": "L'intrus dans l'orchestre ?",
+   "a": [
+    [
+     "",
+     "Le violon"
+    ],
+    [
+     "",
+     "Le violoncelle"
+    ],
+    [
+     "",
+     "La contrebasse"
+    ],
+    [
+     "",
+     "La flûte"
+    ]
+   ],
+   "ok": 3,
+   "say": "La flûte ! C'est un instrument à vent, les autres sont à cordes.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le lion, le tigre, le loup ou le guépard ?",
+   "qd": "L'intrus parmi ces fauves ?",
+   "a": [
+    [
+     "",
+     "Le lion"
+    ],
+    [
+     "",
+     "Le tigre"
+    ],
+    [
+     "",
+     "Le loup"
+    ],
+    [
+     "",
+     "Le guépard"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le loup ! Ce n'est pas un félin.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le roquefort, le camembert, le brie ou le comté ?",
+   "qd": "L'intrus parmi ces fromages ?",
+   "a": [
+    [
+     "",
+     "Le roquefort"
+    ],
+    [
+     "",
+     "Le camembert"
+    ],
+    [
+     "",
+     "Le brie"
+    ],
+    [
+     "",
+     "Le comté"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le roquefort ! Il est au lait de brebis, les autres au lait de vache.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus au pluriel : cheval, journal, festival ou animal ?",
+   "qd": "L'intrus au pluriel ?",
+   "a": [
+    [
+     "",
+     "Cheval"
+    ],
+    [
+     "",
+     "Journal"
+    ],
+    [
+     "",
+     "Festival"
+    ],
+    [
+     "",
+     "Animal"
+    ]
+   ],
+   "ok": 2,
+   "say": "Festival ! Il prend un s, les autres font aux.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le fer, le cuivre, l'aluminium ou le bronze ?",
+   "qd": "L'intrus parmi ces métaux ?",
+   "a": [
+    [
+     "",
+     "Le fer"
+    ],
+    [
+     "",
+     "Le cuivre"
+    ],
+    [
+     "",
+     "L'aluminium"
+    ],
+    [
+     "",
+     "Le bronze"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le bronze ! C'est un alliage, pas un élément chimique.",
+   "level": 1
+  },
+  {
+   "q": "Quelle est l'intruse : Ottawa, Sydney, Canberra ou Brasilia ?",
+   "qd": "L'intruse parmi ces villes ?",
+   "a": [
+    [
+     "",
+     "Ottawa"
+    ],
+    [
+     "",
+     "Sydney"
+    ],
+    [
+     "",
+     "Canberra"
+    ],
+    [
+     "",
+     "Brasilia"
+    ]
+   ],
+   "ok": 1,
+   "say": "Sydney ! Ce n'est pas la capitale de son pays.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : Molière, Victor Hugo, Zola ou Balzac ?",
+   "qd": "L'intrus parmi ces écrivains ?",
+   "a": [
+    [
+     "",
+     "Molière"
+    ],
+    [
+     "",
+     "Victor Hugo"
+    ],
+    [
+     "",
+     "Zola"
+    ],
+    [
+     "",
+     "Balzac"
+    ]
+   ],
+   "ok": 0,
+   "say": "Molière ! Il a vécu au dix-septième siècle, les autres ont écrit au dix-neuvième.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : 2, 17, 51 ou 29 ?",
+   "qd": "L'intrus parmi ces nombres ?",
+   "a": [
+    [
+     "",
+     "2"
+    ],
+    [
+     "",
+     "17"
+    ],
+    [
+     "",
+     "51"
+    ],
+    [
+     "",
+     "29"
+    ]
+   ],
+   "ok": 2,
+   "say": "51 ! C'est 3 fois 17, les autres sont des nombres premiers.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : l'Espagne, la Belgique, les Pays-Bas ou le Portugal ?",
+   "qd": "L'intrus en Europe ?",
+   "a": [
+    [
+     "",
+     "L'Espagne"
+    ],
+    [
+     "",
+     "La Belgique"
+    ],
+    [
+     "",
+     "Les Pays-Bas"
+    ],
+    [
+     "",
+     "Le Portugal"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le Portugal ! C'est une république, les autres sont des monarchies.",
+   "level": 3
+  }
+ ]
+}
