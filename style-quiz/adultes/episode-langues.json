@@ -1,0 +1,20 @@
+{
+ "title": "La langue de chaque pays", "subject": "Langues", "banner": "La langue de chaque pays",
+ "symbols": ["🗣","💬","🌍","📖","🔤","✍","🌐","🗺","📚","🌎","✦","🔠","🧭","🌏","✧","📜"],
+ "description": "🗣 Quiz Monde : quelle langue parle-t-on dans chaque pays ? 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #monde #culturegenerale #langues #geographie #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quelle est la langue officielle du Brésil ?", "qd": "La langue du Brésil ?", "a": [["","L'espagnol"],["","Le portugais"],["","L'italien"],["","Le français"]], "ok": 1, "say": "Le portugais !", "level": 0},
+  {"q": "Quelle est la langue officielle de l'Autriche ?", "qd": "La langue de l'Autriche ?", "a": [["","L'allemand"],["","Le néerlandais"],["","Le hongrois"],["","L'italien"]], "ok": 0, "say": "L'allemand !", "level": 0},
+  {"q": "Quelle est la langue officielle de l'Égypte ?", "qd": "La langue de l'Égypte ?", "a": [["","Le turc"],["","Le persan"],["","L'arabe"],["","L'hébreu"]], "ok": 2, "say": "L'arabe !", "level": 0},
+  {"q": "Quelle est la langue officielle de l'Iran ?", "qd": "La langue de l'Iran ?", "a": [["","L'arabe"],["","Le turc"],["","L'ourdou"],["","Le persan"]], "ok": 3, "say": "Le persan !", "level": 1},
+  {"q": "Quelle est la langue nationale du Pakistan ?", "qd": "La langue nationale du Pakistan ?", "a": [["","L'hindi"],["","L'ourdou"],["","Le bengali"],["","Le persan"]], "ok": 1, "say": "L'ourdou !", "level": 1},
+  {"q": "Quelle est la langue officielle d'Israël ?", "qd": "La langue officielle d'Israël ?", "a": [["","Le yiddish"],["","L'araméen"],["","L'hébreu"],["","Le grec"]], "ok": 2, "say": "L'hébreu !", "level": 1},
+  {"q": "Quelle est la langue officielle du Suriname, en Amérique du Sud ?", "qd": "La langue du Suriname ?", "a": [["","Le néerlandais"],["","L'anglais"],["","Le portugais"],["","L'espagnol"]], "ok": 0, "say": "Le néerlandais !", "level": 2},
+  {"q": "Quelle est la langue officielle du Belize, en Amérique centrale ?", "qd": "La langue officielle du Belize ?", "a": [["","L'espagnol"],["","L'anglais"],["","Le français"],["","Le portugais"]], "ok": 1, "say": "L'anglais !", "level": 2},
+  {"q": "Quelle est la langue officielle du Bhoutan ?", "qd": "La langue du Bhoutan ?", "a": [["","Le népali"],["","Le tibétain"],["","Le dzongkha"],["","L'hindi"]], "ok": 2, "say": "Le dzongkha !", "level": 3},
+  {"q": "Quelle est la langue nationale de Malte ?", "qd": "La langue nationale de Malte ?", "a": [["","L'italien"],["","L'arabe"],["","Le grec"],["","Le maltais"]], "ok": 3, "say": "Le maltais !", "level": 3}
+ ]
+}

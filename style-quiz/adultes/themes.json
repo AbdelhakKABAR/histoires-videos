@@ -44,7 +44,8 @@
   "Le plat célèbre de chaque pays",
   "Le numéro de département de chaque ville",
   "La monnaie de chaque pays",
-  "Le plat célèbre de chaque ville"
+  "Le plat célèbre de chaque ville",
+  "La langue de chaque pays"
  ],
  "a_faire": [
   "Les pays d'Europe",
@@ -107,7 +108,6 @@
   "Les records de France"
  ],
  "a_faire_monde": [
-  "La langue de chaque pays",
   "Le monument célèbre de chaque pays",
   "L'indicatif téléphonique de chaque pays",
   "Le sport national de chaque pays",
