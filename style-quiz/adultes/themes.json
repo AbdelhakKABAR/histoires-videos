@@ -47,7 +47,8 @@
   "Le plat célèbre de chaque ville",
   "La langue de chaque pays",
   "La spécialité de chaque région",
-  "Le monument célèbre de chaque pays"
+  "Le monument célèbre de chaque pays",
+  "Le nom des habitants de chaque ville"
  ],
  "a_faire": [
   "Les pays d'Europe",
@@ -77,7 +78,6 @@
   "Les découvertes scientifiques"
  ],
  "a_faire_france": [
-  "Le nom des habitants de chaque ville",
   "Le club de foot de chaque ville",
   "Le monument célèbre de chaque ville",
   "Le surnom de chaque ville",

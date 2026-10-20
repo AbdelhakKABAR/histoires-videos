@@ -1,0 +1,20 @@
+{
+ "title": "Le nom des habitants de chaque ville", "subject": "Habitants", "banner": "Le nom des habitants",
+ "symbols": ["🏙","🏘","🏛","⛪","🏰","👥","🗺","📍","🏠","⭐","🌆","🚉","⛲","🗼","🥖","✦"],
+ "description": "🏙 Quiz France : comment s'appellent les habitants de ces villes ? 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #villes #gentile #culturegenerale #question #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Comment s'appellent les habitants de Marseille ?", "qd": "Les habitants de Marseille ?", "a": [["","Les Marsellois"],["","Les Marseillais"],["","Les Marseillots"],["","Les Marseillons"]], "ok": 1, "say": "Les Marseillais !", "level": 0},
+  {"q": "Comment s'appellent les habitants de Lille ?", "qd": "Les habitants de Lille ?", "a": [["","Les Lillois"],["","Les Lilliens"],["","Les Lillais"],["","Les Lillards"]], "ok": 0, "say": "Les Lillois !", "level": 0},
+  {"q": "Comment s'appellent les habitants de Lyon ?", "qd": "Les habitants de Lyon ?", "a": [["","Les Lyonniens"],["","Les Lyonards"],["","Les Lyonnais"],["","Les Lyonins"]], "ok": 2, "say": "Les Lyonnais !", "level": 0},
+  {"q": "Comment s'appellent les habitants de Bordeaux ?", "qd": "Les habitants de Bordeaux ?", "a": [["","Les Bordiens"],["","Les Bordeliens"],["","Les Bordais"],["","Les Bordelais"]], "ok": 3, "say": "Les Bordelais !", "level": 1},
+  {"q": "Comment s'appellent les habitants de Saint-Étienne ?", "qd": "Les habitants de Saint-Étienne ?", "a": [["","Les Stéphanois"],["","Les Étiennais"],["","Les Stéphaniens"],["","Les Saint-Étiennois"]], "ok": 0, "say": "Les Stéphanois !", "level": 1},
+  {"q": "Comment s'appellent les habitants de Nancy ?", "qd": "Les habitants de Nancy ?", "a": [["","Les Nancyais"],["","Les Nancéiens"],["","Les Nanciers"],["","Les Nancéliens"]], "ok": 1, "say": "Les Nancéiens !", "level": 1},
+  {"q": "Comment s'appellent les habitants de Besançon ?", "qd": "Les habitants de Besançon ?", "a": [["","Les Besançais"],["","Les Bisonniers"],["","Les Bisontins"],["","Les Bescontins"]], "ok": 2, "say": "Les Bisontins !", "level": 2},
+  {"q": "Comment s'appellent les habitants de Pau ?", "qd": "Les habitants de Pau ?", "a": [["","Les Pauliens"],["","Les Paulois"],["","Les Pauvins"],["","Les Palois"]], "ok": 3, "say": "Les Palois !", "level": 2},
+  {"q": "Comment s'appellent les habitants de Charleville-Mézières ?", "qd": "Les habitants de Charleville-Mézières ?", "a": [["","Les Carolomacériens"],["","Les Charlemézièrois"],["","Les Carlomacérois"],["","Les Charlevillards"]], "ok": 0, "say": "Les Carolomacériens !", "level": 3},
+  {"q": "Comment s'appellent les habitants du Puy-en-Velay ?", "qd": "Les habitants du Puy-en-Velay ?", "a": [["","Les Puyots"],["","Les Ponots"],["","Les Pontois"],["","Les Puysards"]], "ok": 1, "say": "Les Ponots !", "level": 3}
+ ]
+}
