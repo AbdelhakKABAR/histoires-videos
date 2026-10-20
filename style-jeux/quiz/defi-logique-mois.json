@@ -1,0 +1,27 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : IMPOSSIBLE",
+ "suite": [
+  "31",
+  "28",
+  "31",
+  "30",
+  "31"
+ ],
+ "options": [
+  "29",
+  "33",
+  "30",
+  "27"
+ ],
+ "ok": 2,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche_dite": "Seulement un pour cent des gens trouvent la suite.",
+ "question_dite": "Trente et un, vingt-huit, trente et un, trente, trente et un… Et ensuite ?",
+ "explication": "Ce sont les jours de chaque mois : janvier 31, février 28, mars 31, avril 30, mai 31 → juin 30.",
+ "explication_dite": "Trente ! Ce sont les nombres de jours des mois : janvier, février, mars, avril, mai… et juin a trente jours.",
+ "fin": "Tu avais trouvé ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🧩 SUITE LOGIQUE niveau impossible : 31, 28, 31, 30, 31… et ensuite ? Seuls 1 % trouvent ! 👇 #logique #enigme #quiz #suitelogique #cerveau #culturegenerale #pourtoi"
+}
