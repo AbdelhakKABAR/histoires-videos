@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, du niveau facile à impossible… attention aux pièges ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : l'Afrique, le Groenland, l'Asie ou l'Europe ?",
+   "qd": "L'intrus sur la carte ?",
+   "a": [
+    [
+     "",
+     "L'Afrique"
+    ],
+    [
+     "",
+     "Le Groenland"
+    ],
+    [
+     "",
+     "L'Asie"
+    ],
+    [
+     "",
+     "L'Europe"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le Groenland ! C'est une île, pas un continent.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le football, le rugby, le tennis ou le handball ?",
+   "qd": "L'intrus parmi ces sports ?",
+   "a": [
+    [
+     "",
+     "Le football"
+    ],
+    [
+     "",
+     "Le rugby"
+    ],
+    [
+     "",
+     "Le tennis"
+    ],
+    [
+     "",
+     "Le handball"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le tennis ! Ce n'est pas un sport d'équipe.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le poireau, la pomme, la poire ou la cerise ?",
+   "qd": "L'intrus au marché ?",
+   "a": [
+    [
+     "",
+     "Le poireau"
+    ],
+    [
+     "",
+     "La pomme"
+    ],
+    [
+     "",
+     "La poire"
+    ],
+    [
+     "",
+     "La cerise"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le poireau ! C'est un légume, les autres sont des fruits.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : la vache, la chèvre, le mouton ou le cochon ?",
+   "qd": "L'intrus à la ferme ?",
+   "a": [
+    [
+     "",
+     "La vache"
+    ],
+    [
+     "",
+     "La chèvre"
+    ],
+    [
+     "",
+     "Le mouton"
+    ],
+    [
+     "",
+     "Le cochon"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le cochon ! Ce n'est pas un ruminant.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le Soleil, Jupiter, Sirius ou Bételgeuse ?",
+   "qd": "L'intrus dans le ciel ?",
+   "a": [
+    [
+     "",
+     "Le Soleil"
+    ],
+    [
+     "",
+     "Jupiter"
+    ],
+    [
+     "",
+     "Sirius"
+    ],
+    [
+     "",
+     "Bételgeuse"
+    ]
+   ],
+   "ok": 1,
+   "say": "Jupiter ! C'est une planète, les autres sont des étoiles.",
+   "level": 1
+  },
+  {
+   "q": "Quelle est l'intruse : Austerlitz, Iéna, Waterloo ou Wagram ?",
+   "qd": "L'intruse parmi ces batailles ?",
+   "a": [
+    [
+     "",
+     "Austerlitz"
+    ],
+    [
+     "",
+     "Iéna"
+    ],
+    [
+     "",
+     "Waterloo"
+    ],
+    [
+     "",
+     "Wagram"
+    ]
+   ],
+   "ok": 2,
+   "say": "Waterloo ! C'est une défaite de Napoléon, les autres sont des victoires.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : l'hippocampe, la baleine, le dauphin ou le phoque ?",
+   "qd": "L'intrus dans l'océan ?",
+   "a": [
+    [
+     "",
+     "L'hippocampe"
+    ],
+    [
+     "",
+     "La baleine"
+    ],
+    [
+     "",
+     "Le dauphin"
+    ],
+    [
+     "",
+     "Le phoque"
+    ]
+   ],
+   "ok": 0,
+   "say": "L'hippocampe ! C'est un poisson, les autres sont des mammifères.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : Rodin, Michel-Ange, Camille Claudel ou Vermeer ?",
+   "qd": "L'intrus parmi ces artistes ?",
+   "a": [
+    [
+     "",
+     "Rodin"
+    ],
+    [
+     "",
+     "Michel-Ange"
+    ],
+    [
+     "",
+     "Camille Claudel"
+    ],
+    [
+     "",
+     "Vermeer"
+    ]
+   ],
+   "ok": 3,
+   "say": "Vermeer ! Il était peintre, les autres sont des sculpteurs.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : le diamant, le quartz, le graphite ou le graphène ?",
+   "qd": "L'intrus parmi ces matériaux ?",
+   "a": [
+    [
+     "",
+     "Le diamant"
+    ],
+    [
+     "",
+     "Le quartz"
+    ],
+    [
+     "",
+     "Le graphite"
+    ],
+    [
+     "",
+     "Le graphène"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le quartz ! Il est fait de silice, les autres sont du carbone pur.",
+   "level": 3
+  },
+  {
+   "q": "Quelle est l'intruse : l'Irlande, l'Australie, le Canada ou la Nouvelle-Zélande ?",
+   "qd": "L'intruse parmi ces pays ?",
+   "a": [
+    [
+     "",
+     "L'Irlande"
+    ],
+    [
+     "",
+     "L'Australie"
+    ],
+    [
+     "",
+     "Le Canada"
+    ],
+    [
+     "",
+     "La Nouvelle-Zélande"
+    ]
+   ],
+   "ok": 0,
+   "say": "L'Irlande ! C'est une république, les trois autres ont Charles III pour roi.",
+   "level": 3
+  }
+ ]
+}
