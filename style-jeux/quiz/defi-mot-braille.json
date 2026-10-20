@@ -1,0 +1,20 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : IMPOSSIBLE",
+ "mot": "BRAILLE",
+ "categorie": "Un Français célèbre",
+ "categorie_dite": "Catégorie : un Français célèbre.",
+ "accroche_dite": "Seulement un pour cent des gens trouvent ce mot mystère.",
+ "indices": [
+  "Il est né en 1809 en Seine-et-Marne.",
+  "Il a perdu la vue enfant, après un accident.",
+  "Son invention utilise six points en relief."
+ ],
+ "lettres_donnees": 1,
+ "dire": "Braille",
+ "explication": "Louis Braille, inventeur de l'écriture tactile pour les aveugles.",
+ "fin": "Tu l'avais trouvé ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu l'avais trouvé ?",
+ "description": "🔤 MOT MYSTÈRE niveau impossible : 3 indices pour trouver ce Français célèbre. Tu l'as trouvé ? 👇 #motmystere #quiz #france #enigme #culturegenerale #histoire #pourtoi"
+}
