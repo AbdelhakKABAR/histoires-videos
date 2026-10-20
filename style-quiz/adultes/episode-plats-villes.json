@@ -1,0 +1,20 @@
+{
+ "title": "Le plat célèbre de chaque ville", "subject": "Plats", "banner": "Le plat de chaque ville",
+ "symbols": ["🍲","🥘","🍽","🧄","🐟","🥖","🧀","🍷","🫕","🥩","🍴","🌿","🥔","🍤","🧅","🫒"],
+ "description": "🍲 Quiz France : le plat célèbre de chaque ville ! 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #gastronomie #cuisinefrancaise #villesdefrance #culturegenerale #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel est le plat célèbre de Marseille ?", "qd": "Le plat célèbre de Marseille ?", "a": [["","La quiche"],["","La bouillabaisse"],["","La raclette"],["","Les crêpes"]], "ok": 1, "say": "La bouillabaisse !", "level": 0},
+  {"q": "Quel est le plat célèbre de Strasbourg ?", "qd": "Le plat célèbre de Strasbourg ?", "a": [["","La bouillabaisse"],["","Le cassoulet"],["","La choucroute"],["","L'aligot"]], "ok": 2, "say": "La choucroute !", "level": 0},
+  {"q": "Quelle salade célèbre porte le nom de Nice ?", "qd": "La salade qui porte le nom de Nice ?", "a": [["","La niçoise"],["","La César"],["","La lyonnaise"],["","La landaise"]], "ok": 0, "say": "La salade niçoise !", "level": 0},
+  {"q": "Quel est le plat célèbre de Castelnaudary ?", "qd": "Le plat célèbre de Castelnaudary ?", "a": [["","La choucroute"],["","La tartiflette"],["","La fondue"],["","Le cassoulet"]], "ok": 3, "say": "Le cassoulet !", "level": 1},
+  {"q": "Quelle spécialité est célèbre à Lyon ?", "qd": "La spécialité célèbre de Lyon ?", "a": [["","La galette-saucisse"],["","La quenelle"],["","Le kig ha farz"],["","La piperade"]], "ok": 1, "say": "La quenelle !", "level": 1},
+  {"q": "Quel plat est préparé à la mode de Caen ?", "qd": "Quel plat se fait « à la mode de Caen » ?", "a": [["","Les tripes"],["","L'aligot"],["","La garbure"],["","La potée"]], "ok": 0, "say": "Les tripes à la mode de Caen !", "level": 1},
+  {"q": "Quelle crêpe gratinée est la spécialité d'Amiens ?", "qd": "La crêpe gratinée d'Amiens ?", "a": [["","Le welsh"],["","La flammekueche"],["","La ficelle picarde"],["","La tartiflette"]], "ok": 2, "say": "La ficelle picarde !", "level": 2},
+  {"q": "Quelle tourte au poulpe est la spécialité de Sète ?", "qd": "La tourte au poulpe de Sète ?", "a": [["","La pissaladière"],["","La gardiane"],["","La piperade"],["","La tielle"]], "ok": 3, "say": "La tielle !", "level": 2},
+  {"q": "Quelle spécialité à la morue est célèbre à Nîmes ?", "qd": "La spécialité à la morue de Nîmes ?", "a": [["","L'aïoli"],["","La brandade"],["","La fondue"],["","La potée"]], "ok": 1, "say": "La brandade de morue !", "level": 3},
+  {"q": "Quelle charcuterie fait la réputation de Vire, en Normandie ?", "qd": "La charcuterie célèbre de Vire ?", "a": [["","L'andouille"],["","La rillette"],["","Le boudin blanc"],["","Le cervelas"]], "ok": 0, "say": "L'andouille de Vire !", "level": 3}
+ ]
+}
