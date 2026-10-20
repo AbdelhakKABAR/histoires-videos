@@ -46,7 +46,8 @@
   "La monnaie de chaque pays",
   "Le plat célèbre de chaque ville",
   "La langue de chaque pays",
-  "La spécialité de chaque région"
+  "La spécialité de chaque région",
+  "Le monument célèbre de chaque pays"
  ],
  "a_faire": [
   "Les pays d'Europe",
@@ -108,7 +109,6 @@
   "Les records de France"
  ],
  "a_faire_monde": [
-  "Le monument célèbre de chaque pays",
   "L'indicatif téléphonique de chaque pays",
   "Le sport national de chaque pays",
   "La plus grande ville de chaque pays",

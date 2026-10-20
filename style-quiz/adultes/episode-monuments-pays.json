@@ -1,0 +1,20 @@
+{
+ "title": "Le monument célèbre de chaque pays", "subject": "Monuments du monde", "banner": "Le monument de chaque pays",
+ "symbols": ["🏛","🗿","🕌","⛩","🏰","🗼","🌍","🧭","🗺","✈","🏯","⛰","🌐","📸","🛕","✦"],
+ "description": "🏛 Quiz Monuments du monde : 10 pays, 10 monuments, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #monde #culturegenerale #monuments #voyage #geographie #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel monument célèbre se trouve en Inde ?", "qd": "Le monument célèbre de l'Inde ?", "a": [["","Le Taj Mahal"],["","Angkor Vat"],["","La Grande Muraille"],["","Pétra"]], "ok": 0, "say": "Le Taj Mahal !", "level": 0},
+  {"q": "Quel monument célèbre se trouve en Italie ?", "qd": "Le monument célèbre de l'Italie ?", "a": [["","Big Ben"],["","Le Colisée"],["","Le Parthénon"],["","La Sagrada Família"]], "ok": 1, "say": "Le Colisée !", "level": 0},
+  {"q": "Quel monument célèbre se trouve en Égypte ?", "qd": "Le monument célèbre de l'Égypte ?", "a": [["","Le Machu Picchu"],["","Stonehenge"],["","Les pyramides de Gizeh"],["","Chichén Itzá"]], "ok": 2, "say": "Les pyramides de Gizeh !", "level": 0},
+  {"q": "Quel site célèbre se trouve au Pérou ?", "qd": "Le site célèbre du Pérou ?", "a": [["","Chichén Itzá"],["","Teotihuacan"],["","Tikal"],["","Le Machu Picchu"]], "ok": 3, "say": "Le Machu Picchu !", "level": 1},
+  {"q": "Quel site célèbre se trouve en Jordanie ?", "qd": "Le site célèbre de la Jordanie ?", "a": [["","Persépolis"],["","Pétra"],["","Palmyre"],["","Baalbek"]], "ok": 1, "say": "Pétra !", "level": 1},
+  {"q": "Quel temple célèbre se trouve au Cambodge ?", "qd": "Le temple célèbre du Cambodge ?", "a": [["","Angkor Vat"],["","Borobudur"],["","Bagan"],["","Ayutthaya"]], "ok": 0, "say": "Angkor Vat !", "level": 1},
+  {"q": "Quel site célèbre appartient au Chili ?", "qd": "Le site célèbre du Chili ?", "a": [["","Les têtes olmèques"],["","Les lignes de Nazca"],["","Les moaï de l'île de Pâques"],["","Tiwanaku"]], "ok": 2, "say": "Les moaï de l'île de Pâques !", "level": 2},
+  {"q": "Quel site antique célèbre se trouve en Iran ?", "qd": "Le site antique célèbre de l'Iran ?", "a": [["","Pétra"],["","Carthage"],["","Leptis Magna"],["","Persépolis"]], "ok": 3, "say": "Persépolis !", "level": 2},
+  {"q": "Quel site célèbre se trouve en Éthiopie ?", "qd": "Le site célèbre de l'Éthiopie ?", "a": [["","Le Grand Zimbabwe"],["","Les églises de Lalibela"],["","La mosquée de Djenné"],["","Les pyramides de Méroé"]], "ok": 1, "say": "Les églises de Lalibela !", "level": 3},
+  {"q": "Quel site célèbre se trouve au Sri Lanka ?", "qd": "Le site célèbre du Sri Lanka ?", "a": [["","Le rocher de Sigiriya"],["","Prambanan"],["","Les grottes d'Ellora"],["","Hampi"]], "ok": 0, "say": "Le rocher de Sigiriya !", "level": 3}
+ ]
+}
