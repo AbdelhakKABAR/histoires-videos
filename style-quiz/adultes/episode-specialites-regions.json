@@ -1,0 +1,20 @@
+{
+ "title": "La spécialité de chaque région", "subject": "Spécialités", "banner": "La spécialité de chaque région",
+ "symbols": ["🥞","🧀","🍷","🥖","🍲","🥐","🍰","🥧","🍽","🫕","🍇","🥨","🍳","🧈","🍒","🌾"],
+ "description": "🧀 Quiz Spécialités de France : une région, une spécialité ! 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #gastronomie #regions #culturegenerale #question #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quelle spécialité est le symbole de la Bretagne ?", "qd": "La spécialité de la Bretagne ?", "a": [["","La choucroute"],["","La crêpe"],["","La fondue"],["","La bouillabaisse"]], "ok": 1, "say": "La crêpe !", "level": 0},
+  {"q": "Quel plat est la grande spécialité de l'Alsace ?", "qd": "Le plat star de l'Alsace ?", "a": [["","La choucroute"],["","Le cassoulet"],["","L'aligot"],["","La ratatouille"]], "ok": 0, "say": "La choucroute !", "level": 0},
+  {"q": "Quel plat mijoté au vin rouge vient de Bourgogne ?", "qd": "Le plat au vin rouge de Bourgogne ?", "a": [["","La blanquette"],["","Le pot-au-feu"],["","Le bœuf bourguignon"],["","La garbure"]], "ok": 2, "say": "Le bœuf bourguignon !", "level": 0},
+  {"q": "Quelle tarte salée est une spécialité de la Lorraine ?", "qd": "La tarte salée de Lorraine ?", "a": [["","La pissaladière"],["","La flammekueche"],["","La tarte Tatin"],["","La quiche"]], "ok": 3, "say": "La quiche lorraine !", "level": 1},
+  {"q": "Quel plat au reblochon est une spécialité de la Savoie ?", "qd": "Le plat au reblochon de Savoie ?", "a": [["","L'aligot"],["","La tartiflette"],["","La garbure"],["","Le gratin dauphinois"]], "ok": 1, "say": "La tartiflette !", "level": 1},
+  {"q": "Quel fromage célèbre vient de Normandie ?", "qd": "Le fromage star de Normandie ?", "a": [["","Le camembert"],["","Le munster"],["","Le roquefort"],["","Le comté"]], "ok": 0, "say": "Le camembert !", "level": 1},
+  {"q": "Quelle spécialité de viandes en gelée vient de Flandre, dans le Nord ?", "qd": "Viandes en gelée de Flandre (Nord) ?", "a": [["","Le kouign-amann"],["","La pissaladière"],["","Le potjevleesch"],["","La garbure"]], "ok": 2, "say": "Le potjevleesch !", "level": 2},
+  {"q": "Quel fromage est une spécialité de la Corse ?", "qd": "Le fromage de la Corse ?", "a": [["","Le maroilles"],["","Le reblochon"],["","Le munster"],["","Le brocciu"]], "ok": 3, "say": "Le brocciu !", "level": 2},
+  {"q": "Quel fromage fondu est une spécialité de Franche-Comté ?", "qd": "Le fromage fondu de Franche-Comté ?", "a": [["","La cancoillotte"],["","Le livarot"],["","Le rocamadour"],["","L'ossau-iraty"]], "ok": 0, "say": "La cancoillotte !", "level": 3},
+  {"q": "Quelle crêpe roulée et gratinée est une spécialité de la Picardie ?", "qd": "La crêpe gratinée de Picardie ?", "a": [["","Le far"],["","La galette-saucisse"],["","La ficelle picarde"],["","La socca"]], "ok": 2, "say": "La ficelle picarde !", "level": 3}
+ ]
+}
