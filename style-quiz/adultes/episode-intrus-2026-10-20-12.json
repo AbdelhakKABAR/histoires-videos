@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, du niveau facile à impossible… les derniers sont de vrais pièges ! Ton score en commentaire 👇 #intrus #quiz #piege #quiztime #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : Rome, Madrid, Milan ou Berlin ?",
+   "qd": "L'intrus parmi ces villes ?",
+   "a": [
+    [
+     "",
+     "Rome"
+    ],
+    [
+     "",
+     "Madrid"
+    ],
+    [
+     "",
+     "Milan"
+    ],
+    [
+     "",
+     "Berlin"
+    ]
+   ],
+   "ok": 2,
+   "say": "Milan ! Ce n'est pas une capitale.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le lézard, la grenouille, le crapaud ou la salamandre ?",
+   "qd": "L'intrus parmi ces animaux ?",
+   "a": [
+    [
+     "",
+     "Le lézard"
+    ],
+    [
+     "",
+     "La grenouille"
+    ],
+    [
+     "",
+     "Le crapaud"
+    ],
+    [
+     "",
+     "La salamandre"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le lézard ! C'est un reptile, les autres sont des amphibiens.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : Roland-Garros, Wimbledon, l'Open d'Australie ou le Tour de France ?",
+   "qd": "L'intrus parmi ces compétitions ?",
+   "a": [
+    [
+     "",
+     "Roland-Garros"
+    ],
+    [
+     "",
+     "Wimbledon"
+    ],
+    [
+     "",
+     "Open d'Australie"
+    ],
+    [
+     "",
+     "Tour de France"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le Tour de France ! C'est du cyclisme, les autres sont des tournois de tennis.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : avion, autoroute, hôpital ou orage ?",
+   "qd": "L'intrus : masculin ou féminin ?",
+   "a": [
+    [
+     "",
+     "Avion"
+    ],
+    [
+     "",
+     "Autoroute"
+    ],
+    [
+     "",
+     "Hôpital"
+    ],
+    [
+     "",
+     "Orage"
+    ]
+   ],
+   "ok": 1,
+   "say": "Autoroute ! C'est un nom féminin, les autres sont masculins.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : Néron, Auguste, Jules César ou Caligula ?",
+   "qd": "L'intrus parmi ces Romains ?",
+   "a": [
+    [
+     "",
+     "Néron"
+    ],
+    [
+     "",
+     "Auguste"
+    ],
+    [
+     "",
+     "Jules César"
+    ],
+    [
+     "",
+     "Caligula"
+    ]
+   ],
+   "ok": 2,
+   "say": "Jules César ! Il n'a jamais été empereur, contrairement aux trois autres.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le fer, l'oxygène, l'azote ou l'hélium ?",
+   "qd": "L'intrus parmi ces éléments ?",
+   "a": [
+    [
+     "",
+     "Le fer"
+    ],
+    [
+     "",
+     "L'oxygène"
+    ],
+    [
+     "",
+     "L'azote"
+    ],
+    [
+     "",
+     "L'hélium"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le fer ! Il est solide, les autres sont des gaz à température ambiante.",
+   "level": 1
+  },
+  {
+   "q": "Quelle est l'intruse : la pieuvre, le calmar, la seiche ou la méduse ?",
+   "qd": "L'intruse sous la mer ?",
+   "a": [
+    [
+     "",
+     "La pieuvre"
+    ],
+    [
+     "",
+     "Le calmar"
+    ],
+    [
+     "",
+     "La seiche"
+    ],
+    [
+     "",
+     "La méduse"
+    ]
+   ],
+   "ok": 3,
+   "say": "La méduse ! Ce n'est pas un mollusque, les autres sont des céphalopodes.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : Les Misérables, Germinal, Notre-Dame de Paris ou Les Contemplations ?",
+   "qd": "L'intrus parmi ces œuvres ?",
+   "a": [
+    [
+     "",
+     "Les Misérables"
+    ],
+    [
+     "",
+     "Germinal"
+    ],
+    [
+     "",
+     "Notre-Dame de Paris"
+    ],
+    [
+     "",
+     "Les Contemplations"
+    ]
+   ],
+   "ok": 1,
+   "say": "Germinal ! C'est de Zola, les autres sont de Victor Hugo.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : le cacao, la vanille, le poivre ou la pomme de terre ?",
+   "qd": "L'intrus : d'où viennent-ils ?",
+   "a": [
+    [
+     "",
+     "Le cacao"
+    ],
+    [
+     "",
+     "La vanille"
+    ],
+    [
+     "",
+     "Le poivre"
+    ],
+    [
+     "",
+     "La pomme de terre"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le poivre ! Il vient d'Asie, les autres sont originaires d'Amérique.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : 100, 8, 27 ou 64 ?",
+   "qd": "L'intrus parmi ces nombres ?",
+   "a": [
+    [
+     "",
+     "100"
+    ],
+    [
+     "",
+     "8"
+    ],
+    [
+     "",
+     "27"
+    ],
+    [
+     "",
+     "64"
+    ]
+   ],
+   "ok": 0,
+   "say": "100 ! Les autres sont des cubes : 2, 3 et 4 au cube.",
+   "level": 3
+  }
+ ]
+}
