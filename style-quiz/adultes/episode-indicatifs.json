@@ -1,0 +1,20 @@
+{
+ "title": "L'indicatif téléphonique de chaque pays", "subject": "Indicatifs", "banner": "L'indicatif de chaque pays",
+ "symbols": ["📞","☎️","📱","🌍","🌐","📡","🗺","🌎","✆","📲","🔢","🛰","🌏","☎","📟","✦"],
+ "description": "📞 Quiz : l'indicatif téléphonique de chaque pays ! 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #monde #culturegenerale #geographie #indicatif #telephone #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel est l'indicatif téléphonique de la France ?", "qd": "L'indicatif de la France ?", "a": [["","+32"],["","+33"],["","+41"],["","+34"]], "ok": 1, "say": "Plus 33 !", "level": 0},
+  {"q": "Quel est l'indicatif téléphonique des États-Unis ?", "qd": "L'indicatif des États-Unis ?", "a": [["","+1"],["","+11"],["","+44"],["","+7"]], "ok": 0, "say": "Plus 1 !", "level": 0},
+  {"q": "Quel est l'indicatif téléphonique du Royaume-Uni ?", "qd": "L'indicatif du Royaume-Uni ?", "a": [["","+33"],["","+49"],["","+44"],["","+353"]], "ok": 2, "say": "Plus 44 !", "level": 0},
+  {"q": "Quel est l'indicatif téléphonique de l'Allemagne ?", "qd": "L'indicatif de l'Allemagne ?", "a": [["","+43"],["","+45"],["","+31"],["","+49"]], "ok": 3, "say": "Plus 49 !", "level": 1},
+  {"q": "Quel est l'indicatif téléphonique de l'Espagne ?", "qd": "L'indicatif de l'Espagne ?", "a": [["","+351"],["","+34"],["","+39"],["","+30"]], "ok": 1, "say": "Plus 34 !", "level": 1},
+  {"q": "Quel est l'indicatif téléphonique de l'Italie ?", "qd": "L'indicatif de l'Italie ?", "a": [["","+39"],["","+36"],["","+40"],["","+48"]], "ok": 0, "say": "Plus 39 !", "level": 1},
+  {"q": "Quel est l'indicatif téléphonique du Maroc ?", "qd": "L'indicatif du Maroc ?", "a": [["","+213"],["","+216"],["","+212"],["","+221"]], "ok": 2, "say": "Plus 212 !", "level": 2},
+  {"q": "Quel est l'indicatif téléphonique du Japon ?", "qd": "L'indicatif du Japon ?", "a": [["","+82"],["","+86"],["","+66"],["","+81"]], "ok": 3, "say": "Plus 81 !", "level": 2},
+  {"q": "Quel est l'indicatif téléphonique de l'Islande ?", "qd": "L'indicatif de l'Islande ?", "a": [["","+358"],["","+354"],["","+47"],["","+46"]], "ok": 1, "say": "Plus 354 !", "level": 3},
+  {"q": "Quel est l'indicatif téléphonique de l'Inde ?", "qd": "L'indicatif de l'Inde ?", "a": [["","+92"],["","+94"],["","+880"],["","+91"]], "ok": 3, "say": "Plus 91 !", "level": 3}
+ ]
+}

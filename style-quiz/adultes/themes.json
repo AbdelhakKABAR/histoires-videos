@@ -48,7 +48,8 @@
   "La langue de chaque pays",
   "La spécialité de chaque région",
   "Le monument célèbre de chaque pays",
-  "Le nom des habitants de chaque ville"
+  "Le nom des habitants de chaque ville",
+  "L'indicatif téléphonique de chaque pays"
  ],
  "a_faire": [
   "Les pays d'Europe",
@@ -109,7 +110,6 @@
   "Les records de France"
  ],
  "a_faire_monde": [
-  "L'indicatif téléphonique de chaque pays",
   "Le sport national de chaque pays",
   "La plus grande ville de chaque pays",
   "Le continent de chaque pays",
