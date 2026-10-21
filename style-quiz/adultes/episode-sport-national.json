@@ -1,0 +1,20 @@
+{
+ "title": "Le sport national de chaque pays", "subject": "Sport national", "banner": "Le sport national de chaque pays",
+ "symbols": ["⚽","🏉","🏒","⚾","🥋","🏐","🏏","🏑","🤼","🐎","🏆","🥇","🌍","🏟","⭐","🎯"],
+ "description": "🏆 Quiz Monde : le sport national de chaque pays ! 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #monde #culturegenerale #sport #pays #defi #question",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel sport de lutte est le sport national du Japon ?", "qd": "Le sport national du Japon ?", "a": [["","Le sumo"],["","Le judo"],["","Le karaté"],["","Le kendo"]], "ok": 0, "say": "Le sumo !", "level": 0},
+  {"q": "Quel est le sport national de la Nouvelle-Zélande, pays des All Blacks ?", "qd": "Le sport national de la Nouvelle-Zélande ?", "a": [["","Le cricket"],["","Le football"],["","Le rugby"],["","La voile"]], "ok": 2, "say": "Le rugby !", "level": 0},
+  {"q": "Quel sport d'hiver est le sport national du Canada ?", "qd": "Le sport national d'hiver du Canada ?", "a": [["","Le curling"],["","Le hockey sur glace"],["","Le ski"],["","Le patinage"]], "ok": 1, "say": "Le hockey sur glace !", "level": 0},
+  {"q": "Quel art martial est le sport national de la Corée du Sud ?", "qd": "Le sport national de la Corée du Sud ?", "a": [["","Le judo"],["","Le karaté"],["","Le kung-fu"],["","Le taekwondo"]], "ok": 3, "say": "Le taekwondo !", "level": 1},
+  {"q": "Quel est le sport national de Cuba ?", "qd": "Le sport national de Cuba ?", "a": [["","Le baseball"],["","La boxe"],["","Le football"],["","Le volley-ball"]], "ok": 0, "say": "Le baseball !", "level": 1},
+  {"q": "Quel sport de combat est le sport national de la Thaïlande ?", "qd": "Le sport national de la Thaïlande ?", "a": [["","Le kick-boxing"],["","Le sumo"],["","La boxe thaï"],["","Le judo"]], "ok": 2, "say": "La boxe thaï, le muay-thaï !", "level": 1},
+  {"q": "Quel est le sport national de l'Afghanistan, joué à cheval avec une carcasse de chèvre ?", "qd": "Le sport national de l'Afghanistan ?", "a": [["","Le polo"],["","Le bouzkachi"],["","Le cricket"],["","La lutte"]], "ok": 1, "say": "Le bouzkachi !", "level": 2},
+  {"q": "Quel est le sport national officiel du Bangladesh ?", "qd": "Le sport national du Bangladesh ?", "a": [["","Le cricket"],["","Le football"],["","Le hockey"],["","Le kabaddi"]], "ok": 3, "say": "Le kabaddi !", "level": 2},
+  {"q": "Quel est le sport national officiel du Sri Lanka ?", "qd": "Le sport national officiel du Sri Lanka ?", "a": [["","Le cricket"],["","Le rugby"],["","Le volley-ball"],["","Le hockey"]], "ok": 2, "say": "Le volley-ball !", "level": 3},
+  {"q": "Quel est le sport national officiel de l'Argentine ?", "qd": "Le sport national officiel de l'Argentine ?", "a": [["","Le pato"],["","Le football"],["","Le polo"],["","Le rugby"]], "ok": 0, "say": "Le pato, un jeu à cheval !", "level": 3}
+ ]
+}
