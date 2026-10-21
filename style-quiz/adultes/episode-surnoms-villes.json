@@ -1,0 +1,20 @@
+{
+ "title": "Le surnom de chaque ville", "subject": "Surnoms de villes", "banner": "Le surnom de chaque ville",
+ "symbols": ["🏙","🌹","🗼","⚓","🦁","⛪","🎄","🍷","🏔","🔔","🏛","⭐","🇫🇷","✦","🗺","🌙"],
+ "description": "🏙️ Quiz France : le surnom de chaque ville ! 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #villes #surnoms #culturegenerale #geographie #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel est le surnom de Toulouse ?", "qd": "Le surnom de Toulouse ?", "a": [["","La Cité phocéenne"],["","La Ville rose"],["","La Ville lumière"],["","La Cité des papes"]], "ok": 1, "say": "La Ville rose !", "level": 0},
+  {"q": "Quel est le surnom de Paris ?", "qd": "Le surnom de Paris ?", "a": [["","La Ville lumière"],["","La Ville rose"],["","La Capitale des Gaules"],["","La Cité des sacres"]], "ok": 0, "say": "La Ville lumière !", "level": 0},
+  {"q": "Quel est le surnom de Marseille ?", "qd": "Le surnom de Marseille ?", "a": [["","La Capitale des Alpes"],["","La Ville rose"],["","La Rome française"],["","La Cité phocéenne"]], "ok": 3, "say": "La Cité phocéenne !", "level": 0},
+  {"q": "Quel est le surnom de Lyon ?", "qd": "Le surnom de Lyon ?", "a": [["","La Cité des papes"],["","La Capitale des Gaules"],["","Le Port de la Lune"],["","La Ville lumière"]], "ok": 1, "say": "La Capitale des Gaules !", "level": 1},
+  {"q": "Quel est le surnom de Reims ?", "qd": "Le surnom de Reims ?", "a": [["","La Cité des sacres"],["","La Cité phocéenne"],["","La Capitale de Noël"],["","La Ville rose"]], "ok": 0, "say": "La Cité des sacres !", "level": 1},
+  {"q": "Quel est le surnom de Strasbourg ?", "qd": "Le surnom de Strasbourg ?", "a": [["","La Capitale des Gaules"],["","La Cité des sacres"],["","La Capitale de Noël"],["","Le Port de la Lune"]], "ok": 2, "say": "La Capitale de Noël !", "level": 1},
+  {"q": "Quel est le surnom de Bordeaux ?", "qd": "Le surnom de Bordeaux ?", "a": [["","La Cité des papes"],["","La Capitale des Alpes"],["","La Ville aux cent clochers"],["","Le Port de la Lune"]], "ok": 3, "say": "Le Port de la Lune !", "level": 2},
+  {"q": "Quel est le surnom de Grenoble ?", "qd": "Le surnom de Grenoble ?", "a": [["","La Cité phocéenne"],["","La Capitale des Alpes"],["","La Capitale de Noël"],["","La Rome française"]], "ok": 1, "say": "La Capitale des Alpes !", "level": 2},
+  {"q": "Quel est le surnom de Rouen ?", "qd": "Le surnom de Rouen ?", "a": [["","La Ville aux cent clochers"],["","La Cité des papes"],["","Le Port de la Lune"],["","La Capitale des Gaules"]], "ok": 0, "say": "La Ville aux cent clochers !", "level": 3},
+  {"q": "Quel est le surnom de Nîmes ?", "qd": "Le surnom de Nîmes ?", "a": [["","La Cité des sacres"],["","La Ville aux cent clochers"],["","La Rome française"],["","La Capitale des Alpes"]], "ok": 2, "say": "La Rome française !", "level": 3}
+ ]
+}

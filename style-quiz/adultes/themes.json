@@ -53,7 +53,8 @@
   "Le club de foot de chaque ville",
   "Le sport national de chaque pays",
   "Le monument célèbre de chaque ville",
-  "La plus grande ville de chaque pays"
+  "La plus grande ville de chaque pays",
+  "Le surnom de chaque ville"
  ],
  "a_faire": [
   "Les pays d'Europe",
@@ -83,7 +84,6 @@
   "Les découvertes scientifiques"
  ],
  "a_faire_france": [
-  "Le surnom de chaque ville",
   "Le fleuve qui traverse chaque ville",
   "La région de chaque ville",
   "Le dessert typique de chaque ville",
