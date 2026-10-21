@@ -54,7 +54,8 @@
   "Le sport national de chaque pays",
   "Le monument célèbre de chaque ville",
   "La plus grande ville de chaque pays",
-  "Le surnom de chaque ville"
+  "Le surnom de chaque ville",
+  "Le continent de chaque pays"
  ],
  "a_faire": [
   "Les pays d'Europe",
@@ -112,7 +113,6 @@
   "Les records de France"
  ],
  "a_faire_monde": [
-  "Le continent de chaque pays",
   "Le dessert typique de chaque pays",
   "Le fleuve de chaque pays",
   "L'animal symbole de chaque pays",

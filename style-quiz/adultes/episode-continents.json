@@ -1,0 +1,20 @@
+{
+ "title": "Le continent de chaque pays", "subject": "Continents", "banner": "Le continent de chaque pays",
+ "symbols": ["🌍","🌎","🌏","🗺","🧭","✈","🌐","⛰","🏝","🌋","🏜","🗻","🌊","⭐","✦","🏳"],
+ "description": "🌍 Quiz : sur quel continent se trouve chaque pays ? 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #monde #culturegenerale #continents #geographie #pays #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Sur quel continent se trouve le Brésil ?", "qd": "Le continent du Brésil ?", "a": [["","L'Afrique"],["","L'Amérique du Sud"],["","L'Asie"],["","L'Océanie"]], "ok": 1, "say": "L'Amérique du Sud !", "level": 0},
+  {"q": "Sur quel continent se trouve le Japon ?", "qd": "Le continent du Japon ?", "a": [["","L'Asie"],["","L'Europe"],["","L'Océanie"],["","L'Amérique du Nord"]], "ok": 0, "say": "L'Asie !", "level": 0},
+  {"q": "Sur quel continent se trouve le Kenya ?", "qd": "Le continent du Kenya ?", "a": [["","L'Asie"],["","L'Océanie"],["","L'Afrique"],["","L'Amérique du Sud"]], "ok": 2, "say": "L'Afrique !", "level": 0},
+  {"q": "Sur quel continent se trouve la Nouvelle-Zélande ?", "qd": "Le continent de la Nouvelle-Zélande ?", "a": [["","L'Asie"],["","L'Europe"],["","L'Amérique du Sud"],["","L'Océanie"]], "ok": 3, "say": "L'Océanie !", "level": 1},
+  {"q": "Sur quel continent se trouve l'Islande ?", "qd": "Le continent de l'Islande ?", "a": [["","L'Europe"],["","L'Amérique du Nord"],["","L'Asie"],["","L'Océanie"]], "ok": 0, "say": "L'Europe !", "level": 1},
+  {"q": "Sur quel continent se trouve le Suriname ?", "qd": "Le continent du Suriname ?", "a": [["","L'Afrique"],["","L'Amérique du Sud"],["","L'Asie"],["","L'Océanie"]], "ok": 1, "say": "L'Amérique du Sud !", "level": 1},
+  {"q": "Sur quel continent se trouvent les Fidji ?", "qd": "Le continent des Fidji ?", "a": [["","L'Asie"],["","L'Afrique"],["","L'Océanie"],["","L'Amérique du Sud"]], "ok": 2, "say": "L'Océanie !", "level": 2},
+  {"q": "Sur quel continent se trouve le Malawi ?", "qd": "Le continent du Malawi ?", "a": [["","L'Afrique"],["","L'Asie"],["","L'Océanie"],["","L'Amérique du Sud"]], "ok": 0, "say": "L'Afrique !", "level": 2},
+  {"q": "Sur quel continent se trouvent les Maldives ?", "qd": "Le continent des Maldives ?", "a": [["","L'Afrique"],["","L'Asie"],["","L'Océanie"],["","L'Amérique du Sud"]], "ok": 1, "say": "L'Asie !", "level": 3},
+  {"q": "Sur quel continent se trouvent les Seychelles ?", "qd": "Le continent des Seychelles ?", "a": [["","L'Asie"],["","L'Océanie"],["","L'Amérique du Sud"],["","L'Afrique"]], "ok": 3, "say": "L'Afrique !", "level": 3}
+ ]
+}
