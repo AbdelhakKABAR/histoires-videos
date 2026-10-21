@@ -1,0 +1,20 @@
+{
+ "title": "Le monument célèbre de chaque ville", "subject": "Monuments", "banner": "Le monument de chaque ville",
+ "symbols": ["🏰","⛪","🗼","🏛","🌉","🕍","🗿","⛲","🏯","🧱","🔔","🗺","⭐","🇫🇷","✦","🕰"],
+ "description": "🏰 Quiz France : le monument célèbre de chaque ville ! 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #monuments #villes #patrimoine #culturegenerale #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel monument célèbre se trouve à Marseille ?", "qd": "Le monument célèbre de Marseille ?", "a": [["","La basilique de Fourvière"],["","Notre-Dame-de-la-Garde"],["","Le Capitole"],["","La porte de Mars"]], "ok": 1, "say": "Notre-Dame-de-la-Garde !", "level": 0},
+  {"q": "Quel monument célèbre se trouve à Lyon ?", "qd": "Le monument célèbre de Lyon ?", "a": [["","La tour Pey-Berland"],["","La place Stanislas"],["","La basilique de Fourvière"],["","Le palais des Papes"]], "ok": 2, "say": "La basilique de Fourvière !", "level": 0},
+  {"q": "Quel monument célèbre se trouve à Carcassonne ?", "qd": "Le monument célèbre de Carcassonne ?", "a": [["","La Cité médiévale"],["","Le pont Valentré"],["","Les arènes"],["","Le Gros-Horloge"]], "ok": 0, "say": "La Cité médiévale !", "level": 0},
+  {"q": "Quel monument célèbre se trouve à Nancy ?", "qd": "Le monument célèbre de Nancy ?", "a": [["","La place Ducale"],["","La place Stanislas"],["","La place Bellecour"],["","La place du Capitole"]], "ok": 1, "say": "La place Stanislas !", "level": 1},
+  {"q": "Quel monument célèbre se trouve à Rouen ?", "qd": "Le monument célèbre de Rouen ?", "a": [["","La tour de la Lanterne"],["","La Grosse Cloche"],["","Le pont Valentré"],["","Le Gros-Horloge"]], "ok": 3, "say": "Le Gros-Horloge !", "level": 1},
+  {"q": "Quel monument célèbre se trouve à Bordeaux ?", "qd": "Le monument célèbre de Bordeaux ?", "a": [["","La place de la Bourse"],["","La Maison carrée"],["","La porte Noire"],["","Le Capitole"]], "ok": 0, "say": "La place de la Bourse !", "level": 1},
+  {"q": "Quel monument célèbre se trouve à Cahors ?", "qd": "Le monument célèbre de Cahors ?", "a": [["","Le pont Saint-Bénézet"],["","Le pont Wilson"],["","Le pont Valentré"],["","Le pont Neuf"]], "ok": 2, "say": "Le pont Valentré !", "level": 2},
+  {"q": "Quel monument célèbre se trouve à Orange ?", "qd": "Le monument célèbre d'Orange ?", "a": [["","La Maison carrée"],["","Le pont du Gard"],["","Les Alyscamps"],["","Le théâtre antique"]], "ok": 3, "say": "Le théâtre antique !", "level": 2},
+  {"q": "Quel monument célèbre se trouve à Bourges ?", "qd": "Le monument célèbre de Bourges ?", "a": [["","Le palais Rohan"],["","Le palais Longchamp"],["","Le palais Jacques-Cœur"],["","Le palais du Tau"]], "ok": 2, "say": "Le palais Jacques-Cœur !", "level": 3},
+  {"q": "Quel monument célèbre se trouve à Albi ?", "qd": "Le monument célèbre d'Albi ?", "a": [["","La cathédrale Saint-Front"],["","La cathédrale Sainte-Cécile"],["","La cathédrale Saint-Étienne"],["","La cathédrale Saint-Pierre"]], "ok": 1, "say": "La cathédrale Sainte-Cécile !", "level": 3}
+ ]
+}
