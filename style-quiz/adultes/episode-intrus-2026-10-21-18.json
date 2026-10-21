@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, de facile à impossible… les deux dernières sont des pièges ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : le Nil, l'Amazone, le Mississippi ou le lac Victoria ?",
+   "qd": "L'intrus parmi ces eaux ?",
+   "a": [
+    [
+     "",
+     "Le Nil"
+    ],
+    [
+     "",
+     "L'Amazone"
+    ],
+    [
+     "",
+     "Le Mississippi"
+    ],
+    [
+     "",
+     "Le lac Victoria"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le lac Victoria ! C'est un lac, les autres sont des fleuves.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le saumon, le phoque, la truite ou le thon ?",
+   "qd": "L'intrus dans l'eau ?",
+   "a": [
+    [
+     "",
+     "Le saumon"
+    ],
+    [
+     "",
+     "Le phoque"
+    ],
+    [
+     "",
+     "La truite"
+    ],
+    [
+     "",
+     "Le thon"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le phoque ! C'est un mammifère, les autres sont des poissons.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le cassoulet, la choucroute, les sushis ou la bouillabaisse ?",
+   "qd": "L'intrus à table ?",
+   "a": [
+    [
+     "",
+     "Le cassoulet"
+    ],
+    [
+     "",
+     "La choucroute"
+    ],
+    [
+     "",
+     "Les sushis"
+    ],
+    [
+     "",
+     "La bouillabaisse"
+    ]
+   ],
+   "ok": 2,
+   "say": "Les sushis ! Ils sont japonais, les autres plats sont français.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : lycée, musée, trophée ou idée ?",
+   "qd": "L'intrus parmi ces mots ?",
+   "a": [
+    [
+     "",
+     "Lycée"
+    ],
+    [
+     "",
+     "Musée"
+    ],
+    [
+     "",
+     "Trophée"
+    ],
+    [
+     "",
+     "Idée"
+    ]
+   ],
+   "ok": 3,
+   "say": "Idée ! C'est le seul nom féminin.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : l'or, l'eau, le sel ou le sucre ?",
+   "qd": "L'intrus en chimie ?",
+   "a": [
+    [
+     "",
+     "L'or"
+    ],
+    [
+     "",
+     "L'eau"
+    ],
+    [
+     "",
+     "Le sel"
+    ],
+    [
+     "",
+     "Le sucre"
+    ]
+   ],
+   "ok": 0,
+   "say": "L'or ! C'est un élément chimique, les autres sont des composés.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le judo, le karaté, le taekwondo ou le sumo ?",
+   "qd": "L'intrus parmi ces sports ?",
+   "a": [
+    [
+     "",
+     "Le judo"
+    ],
+    [
+     "",
+     "Le karaté"
+    ],
+    [
+     "",
+     "Le taekwondo"
+    ],
+    [
+     "",
+     "Le sumo"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le taekwondo ! Il est coréen, les autres sont japonais.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : Louis seize, Marat, Marie-Antoinette ou Danton ?",
+   "qd": "L'intrus de la Révolution ?",
+   "a": [
+    [
+     "",
+     "Louis XVI"
+    ],
+    [
+     "",
+     "Marat"
+    ],
+    [
+     "",
+     "Marie-Antoinette"
+    ],
+    [
+     "",
+     "Danton"
+    ]
+   ],
+   "ok": 1,
+   "say": "Marat ! Il a été poignardé, les autres ont été guillotinés.",
+   "level": 2
+  },
+  {
+   "q": "Quelle est l'intruse : la cacahuète, l'amande, la noisette ou la noix ?",
+   "qd": "L'intruse à l'apéro ?",
+   "a": [
+    [
+     "",
+     "La cacahuète"
+    ],
+    [
+     "",
+     "L'amande"
+    ],
+    [
+     "",
+     "La noisette"
+    ],
+    [
+     "",
+     "La noix"
+    ]
+   ],
+   "ok": 0,
+   "say": "La cacahuète ! C'est une légumineuse qui pousse sous terre.",
+   "level": 2
+  },
+  {
+   "q": "Quelle est l'intruse : le Rhône, le Pô, l'Èbre ou la Loire ?",
+   "qd": "L'intruse parmi ces fleuves ?",
+   "a": [
+    [
+     "",
+     "Le Rhône"
+    ],
+    [
+     "",
+     "Le Pô"
+    ],
+    [
+     "",
+     "L'Èbre"
+    ],
+    [
+     "",
+     "La Loire"
+    ]
+   ],
+   "ok": 3,
+   "say": "La Loire ! Elle se jette dans l'Atlantique, les autres en Méditerranée.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : l'hippopotame, la baleine, le cheval ou le cochon ?",
+   "qd": "L'intrus : quelle famille ?",
+   "a": [
+    [
+     "",
+     "L'hippopotame"
+    ],
+    [
+     "",
+     "La baleine"
+    ],
+    [
+     "",
+     "Le cheval"
+    ],
+    [
+     "",
+     "Le cochon"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le cheval ! Les trois autres sont des cétartiodactyles.",
+   "level": 3
+  }
+ ]
+}
