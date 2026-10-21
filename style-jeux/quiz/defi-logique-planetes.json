@@ -1,0 +1,16 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : IMPOSSIBLE",
+ "suite": ["M", "V", "T", "M", "J", "S"],
+ "options": ["N", "P", "U", "L"],
+ "ok": 2,
+ "consigne": "Quelle lettre vient ensuite ?",
+ "accroche_dite": "Seulement un pour cent des gens trouvent la lettre suivante.",
+ "question_dite": "Ème, vé, té, ème, ji, esse… Quelle lettre vient ensuite ?",
+ "explication": "Les planètes depuis le Soleil : Mercure, Vénus, Terre, Mars, Jupiter, Saturne… Uranus → U.",
+ "explication_dite": "La lettre U ! Ce sont les initiales des planètes à partir du Soleil : Mercure, Vénus, Terre, Mars, Jupiter, Saturne… et Uranus !",
+ "fin": "Tu avais trouvé ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🧩 SUITE LOGIQUE niveau impossible : M, V, T, M, J, S… quelle lettre vient ensuite ? Seuls 1 % trouvent ! Ta réponse en commentaire 👇 #logique #enigme #quiz #suitelogique #cerveau #espace #culturegenerale #pourtoi"
+}
