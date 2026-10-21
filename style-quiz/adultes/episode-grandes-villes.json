@@ -1,0 +1,20 @@
+{
+ "title": "La plus grande ville de chaque pays", "subject": "Grandes villes", "banner": "La plus grande ville de chaque pays",
+ "symbols": ["🏙","🌆","🌍","🗺","🏢","🌃","🌐","🧭","🌎","✈","🏛","🌏","★","🚇","✦","🌉"],
+ "description": "🏙 Quiz : la plus grande ville de chaque pays ! 10 questions, du niveau facile à impossible. Attention, ce n'est pas toujours la capitale 😉 Donne ton score en commentaire 👇 #quiz #quiztime #monde #culturegenerale #geographie #villes #defi #question",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quelle est la plus grande ville des États-Unis ?", "qd": "La plus grande ville des États-Unis ?", "a": [["","Los Angeles"],["","Chicago"],["","New York"],["","Washington"]], "ok": 2, "say": "New York !", "level": 0},
+  {"q": "Quelle est la plus grande ville du Royaume-Uni ?", "qd": "La plus grande ville du Royaume-Uni ?", "a": [["","Londres"],["","Manchester"],["","Birmingham"],["","Liverpool"]], "ok": 0, "say": "Londres !", "level": 0},
+  {"q": "Quelle est la plus grande ville du Japon ?", "qd": "La plus grande ville du Japon ?", "a": [["","Osaka"],["","Tokyo"],["","Kyoto"],["","Yokohama"]], "ok": 1, "say": "Tokyo !", "level": 0},
+  {"q": "Quelle est la plus grande ville du Canada ?", "qd": "La plus grande ville du Canada ?", "a": [["","Montréal"],["","Vancouver"],["","Toronto"],["","Ottawa"]], "ok": 2, "say": "Toronto !", "level": 1},
+  {"q": "Quelle est la plus grande ville de Turquie ?", "qd": "La plus grande ville de Turquie ?", "a": [["","Ankara"],["","Izmir"],["","Antalya"],["","Istanbul"]], "ok": 3, "say": "Istanbul !", "level": 1},
+  {"q": "Quelle est la plus grande ville du Brésil ?", "qd": "La plus grande ville du Brésil ?", "a": [["","São Paulo"],["","Rio de Janeiro"],["","Brasília"],["","Salvador"]], "ok": 0, "say": "São Paulo !", "level": 1},
+  {"q": "Quelle est la plus grande ville de Suisse ?", "qd": "La plus grande ville de Suisse ?", "a": [["","Berne"],["","Zurich"],["","Genève"],["","Bâle"]], "ok": 1, "say": "Zurich !", "level": 2},
+  {"q": "Quelle est la plus grande ville du Maroc ?", "qd": "La plus grande ville du Maroc ?", "a": [["","Rabat"],["","Fès"],["","Casablanca"],["","Marrakech"]], "ok": 2, "say": "Casablanca !", "level": 2},
+  {"q": "Quelle est la plus grande ville de Nouvelle-Zélande ?", "qd": "La plus grande ville de Nouvelle-Zélande ?", "a": [["","Wellington"],["","Christchurch"],["","Dunedin"],["","Auckland"]], "ok": 3, "say": "Auckland !", "level": 3},
+  {"q": "Quelle est la plus grande ville du Kazakhstan ?", "qd": "La plus grande ville du Kazakhstan ?", "a": [["","Astana"],["","Almaty"],["","Chymkent"],["","Karaganda"]], "ok": 1, "say": "Almaty !", "level": 3}
+ ]
+}

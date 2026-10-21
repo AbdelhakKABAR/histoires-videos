@@ -52,7 +52,8 @@
   "L'indicatif téléphonique de chaque pays",
   "Le club de foot de chaque ville",
   "Le sport national de chaque pays",
-  "Le monument célèbre de chaque ville"
+  "Le monument célèbre de chaque ville",
+  "La plus grande ville de chaque pays"
  ],
  "a_faire": [
   "Les pays d'Europe",
@@ -111,7 +112,6 @@
   "Les records de France"
  ],
  "a_faire_monde": [
-  "La plus grande ville de chaque pays",
   "Le continent de chaque pays",
   "Le dessert typique de chaque pays",
   "Le fleuve de chaque pays",
