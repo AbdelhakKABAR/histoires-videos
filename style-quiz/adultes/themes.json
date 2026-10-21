@@ -49,7 +49,8 @@
   "La spécialité de chaque région",
   "Le monument célèbre de chaque pays",
   "Le nom des habitants de chaque ville",
-  "L'indicatif téléphonique de chaque pays"
+  "L'indicatif téléphonique de chaque pays",
+  "Le club de foot de chaque ville"
  ],
  "a_faire": [
   "Les pays d'Europe",
@@ -79,7 +80,6 @@
   "Les découvertes scientifiques"
  ],
  "a_faire_france": [
-  "Le club de foot de chaque ville",
   "Le monument célèbre de chaque ville",
   "Le surnom de chaque ville",
   "Le fleuve qui traverse chaque ville",

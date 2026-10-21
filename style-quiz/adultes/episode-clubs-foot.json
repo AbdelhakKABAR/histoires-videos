@@ -1,0 +1,20 @@
+{
+ "title": "Le club de foot de chaque ville", "subject": "Football", "banner": "Le club de foot de chaque ville",
+ "symbols": ["⚽","🏟","🥅","🏆","👟","🇫🇷","⭐","🎽","📣","🥇","🧤","🏅","✦","★","🗺","✧"],
+ "description": "⚽ Quiz France : le club de foot de chaque ville ! 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #football #foot #ligue1 #culturegenerale #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel club de football joue à Marseille ?", "qd": "Le club de foot de Marseille ?", "a": [["","L'OGC Nice"],["","L'Olympique de Marseille"],["","L'AS Monaco"],["","Montpellier HSC"]], "ok": 1, "say": "L'Olympique de Marseille !", "level": 0},
+  {"q": "Comment s'appelle le grand club de football de Lyon ?", "qd": "Le club de foot de Lyon ?", "a": [["","L'Olympique lyonnais"],["","L'AS Lyon"],["","Le Sporting lyonnais"],["","Lyon Football Club"]], "ok": 0, "say": "L'Olympique lyonnais !", "level": 0},
+  {"q": "À Paris, quel club joue au Parc des Princes ?", "qd": "Le club du Parc des Princes ?", "a": [["","Le Racing Paris"],["","Le Red Star"],["","Le Stade français"],["","Le Paris Saint-Germain"]], "ok": 3, "say": "Le Paris Saint-Germain !", "level": 0},
+  {"q": "De quelle couleur est le maillot de l'AS Saint-Étienne ?", "qd": "La couleur du maillot de Saint-Étienne ?", "a": [["","Bleu"],["","Rouge"],["","Vert"],["","Jaune"]], "ok": 2, "say": "Vert ! Ce sont les Verts.", "level": 1},
+  {"q": "Quel est le surnom des joueurs du FC Nantes ?", "qd": "Le surnom des joueurs de Nantes ?", "a": [["","Les Aiglons"],["","Les Canaris"],["","Les Merlus"],["","Les Dogues"]], "ok": 1, "say": "Les Canaris !", "level": 1},
+  {"q": "Quel est le surnom des joueurs du LOSC, le club de Lille ?", "qd": "Le surnom des joueurs de Lille ?", "a": [["","Les Sang et Or"],["","Les Crocos"],["","Les Girondins"],["","Les Dogues"]], "ok": 3, "say": "Les Dogues !", "level": 1},
+  {"q": "Quel entraîneur légendaire a dirigé l'AJ Auxerre pendant plus de quarante ans ?", "qd": "L'entraîneur légendaire d'Auxerre ?", "a": [["","Guy Roux"],["","Aimé Jacquet"],["","Arsène Wenger"],["","Raymond Domenech"]], "ok": 0, "say": "Guy Roux !", "level": 2},
+  {"q": "Comment s'appelle le stade du RC Lens ?", "qd": "Le stade du RC Lens ?", "a": [["","La Beaujoire"],["","Geoffroy-Guichard"],["","Bollaert-Delelis"],["","La Meinau"]], "ok": 2, "say": "Le stade Bollaert-Delelis !", "level": 2},
+  {"q": "Contre quel club le Stade de Reims a-t-il perdu la toute première finale de la Coupe des clubs champions, en 1956 ?", "qd": "Reims a perdu la finale 1956 contre… ?", "a": [["","Le Milan AC"],["","Benfica"],["","Le FC Barcelone"],["","Le Real Madrid"]], "ok": 3, "say": "Le Real Madrid !", "level": 3},
+  {"q": "Combien de fois le FC Sète a-t-il été champion de France de football ?", "qd": "Combien de titres de champion pour Sète ?", "a": [["","Une fois"],["","Deux fois"],["","Trois fois"],["","Jamais"]], "ok": 1, "say": "Deux fois, en 1934 et 1939 !", "level": 3}
+ ]
+}
