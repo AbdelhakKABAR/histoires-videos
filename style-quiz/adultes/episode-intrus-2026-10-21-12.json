@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, du niveau facile à impossible… attention aux pièges ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : Lille, Lyon, Bordeaux ou Bruxelles ?",
+   "qd": "L'intrus parmi ces villes ?",
+   "a": [
+    [
+     "",
+     "Lille"
+    ],
+    [
+     "",
+     "Lyon"
+    ],
+    [
+     "",
+     "Bordeaux"
+    ],
+    [
+     "",
+     "Bruxelles"
+    ]
+   ],
+   "ok": 3,
+   "say": "Bruxelles ! Elle est en Belgique, pas en France.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : l'abeille, l'araignée, la guêpe ou le frelon ?",
+   "qd": "L'intruse parmi ces petites bêtes ?",
+   "a": [
+    [
+     "",
+     "L'abeille"
+    ],
+    [
+     "",
+     "L'araignée"
+    ],
+    [
+     "",
+     "La guêpe"
+    ],
+    [
+     "",
+     "Le frelon"
+    ]
+   ],
+   "ok": 1,
+   "say": "L'araignée ! Ce n'est pas un insecte.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : le marathon, le sprint, la natation ou le saut en longueur ?",
+   "qd": "L'intruse en sport ?",
+   "a": [
+    [
+     "",
+     "Le marathon"
+    ],
+    [
+     "",
+     "Le sprint"
+    ],
+    [
+     "",
+     "La natation"
+    ],
+    [
+     "",
+     "Le saut en longueur"
+    ]
+   ],
+   "ok": 2,
+   "say": "La natation ! Les autres sont des épreuves d'athlétisme.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : rideau, radar, kayak ou ressasser ?",
+   "qd": "L'intrus parmi ces mots ?",
+   "a": [
+    [
+     "",
+     "Rideau"
+    ],
+    [
+     "",
+     "Radar"
+    ],
+    [
+     "",
+     "Kayak"
+    ],
+    [
+     "",
+     "Ressasser"
+    ]
+   ],
+   "ok": 0,
+   "say": "Rideau ! Les autres se lisent pareil dans les deux sens.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : Louis quatorze, François premier, Henri quatre ou Napoléon premier ?",
+   "qd": "L'intrus de l'histoire de France ?",
+   "a": [
+    [
+     "",
+     "Louis XIV"
+    ],
+    [
+     "",
+     "François Ier"
+    ],
+    [
+     "",
+     "Henri IV"
+    ],
+    [
+     "",
+     "Napoléon Ier"
+    ]
+   ],
+   "ok": 3,
+   "say": "Napoléon premier ! Il était empereur, les autres étaient rois de France.",
+   "level": 1
+  },
+  {
+   "q": "Quelle est l'intruse : la raclette, la ratatouille, la fondue ou la tartiflette ?",
+   "qd": "L'intruse parmi ces plats ?",
+   "a": [
+    [
+     "",
+     "La raclette"
+    ],
+    [
+     "",
+     "La ratatouille"
+    ],
+    [
+     "",
+     "La fondue"
+    ],
+    [
+     "",
+     "La tartiflette"
+    ]
+   ],
+   "ok": 1,
+   "say": "La ratatouille ! C'est le seul plat sans fromage.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le manchot, l'autruche, le pingouin ou le kiwi ?",
+   "qd": "L'intrus parmi ces oiseaux ?",
+   "a": [
+    [
+     "",
+     "Le manchot"
+    ],
+    [
+     "",
+     "L'autruche"
+    ],
+    [
+     "",
+     "Le pingouin"
+    ],
+    [
+     "",
+     "Le kiwi"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le pingouin ! Il sait voler, contrairement aux trois autres.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : Van Gogh, Rembrandt, Vermeer ou Rubens ?",
+   "qd": "L'intrus parmi ces peintres ?",
+   "a": [
+    [
+     "",
+     "Van Gogh"
+    ],
+    [
+     "",
+     "Rembrandt"
+    ],
+    [
+     "",
+     "Vermeer"
+    ],
+    [
+     "",
+     "Rubens"
+    ]
+   ],
+   "ok": 0,
+   "say": "Van Gogh ! Les trois autres ont peint au dix-septième siècle.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : le sodium, le potassium, le tungstène ou le carbone ?",
+   "qd": "L'intrus : leur symbole chimique ?",
+   "a": [
+    [
+     "",
+     "Le sodium"
+    ],
+    [
+     "",
+     "Le potassium"
+    ],
+    [
+     "",
+     "Le tungstène"
+    ],
+    [
+     "",
+     "Le carbone"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le carbone ! Son symbole vient de son nom, contrairement aux trois autres.",
+   "level": 3
+  },
+  {
+   "q": "Quelle est l'intruse : le Portugal, la Belgique, le Danemark ou l'Irlande ?",
+   "qd": "L'intruse : leurs pays voisins ?",
+   "a": [
+    [
+     "",
+     "Le Portugal"
+    ],
+    [
+     "",
+     "La Belgique"
+    ],
+    [
+     "",
+     "Le Danemark"
+    ],
+    [
+     "",
+     "L'Irlande"
+    ]
+   ],
+   "ok": 1,
+   "say": "La Belgique ! Les trois autres n'ont qu'un seul pays voisin par la terre.",
+   "level": 3
+  }
+ ]
+}
