@@ -1,0 +1,20 @@
+{
+ "title": "Le dessert typique de chaque pays", "subject": "Desserts du monde", "banner": "Le dessert de chaque pays",
+ "symbols": ["🍰","🧁","🍮","🍩","🍪","🎂","🍫","🍬","🥧","🍨","🍧","🧇","🥮","🍡","🌍","✦"],
+ "description": "🍰 Quiz Desserts du monde : devine le dessert typique de chaque pays, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #monde #culturegenerale #desserts #gastronomie #patisserie #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel dessert est typique de l'Italie ?", "qd": "Le dessert typique de l'Italie ?", "a": [["","La crème brûlée"],["","Le tiramisu"],["","Le strudel"],["","Les churros"]], "ok": 1, "say": "Le tiramisu !", "level": 0},
+  {"q": "Quel dessert est typique du Portugal ?", "qd": "Le dessert typique du Portugal ?", "a": [["","Le pastel de nata"],["","Le baklava"],["","Le brownie"],["","Le tiramisu"]], "ok": 0, "say": "Le pastel de nata !", "level": 0},
+  {"q": "Quel dessert est typique de l'Espagne ?", "qd": "Le dessert typique de l'Espagne ?", "a": [["","Les macarons"],["","La Sachertorte"],["","Le mochi"],["","Les churros"]], "ok": 3, "say": "Les churros !", "level": 0},
+  {"q": "Quel dessert est typique de l'Autriche ?", "qd": "Le dessert typique de l'Autriche ?", "a": [["","La forêt-noire"],["","La Sachertorte"],["","Le cheesecake"],["","Le pastel de nata"]], "ok": 1, "say": "La Sachertorte, créée à Vienne !", "level": 1},
+  {"q": "Quel dessert est typique du Japon ?", "qd": "Le dessert typique du Japon ?", "a": [["","Le baklava"],["","Le brigadeiro"],["","Le mochi"],["","Le strudel"]], "ok": 2, "say": "Le mochi !", "level": 1},
+  {"q": "Quel dessert est typique de la Belgique ?", "qd": "Le dessert typique de la Belgique ?", "a": [["","La gaufre de Liège"],["","Le kouign-amann"],["","Le gulab jamun"],["","Le cannolo"]], "ok": 0, "say": "La gaufre de Liège !", "level": 1},
+  {"q": "Quel dessert est typique du Brésil ?", "qd": "Le dessert typique du Brésil ?", "a": [["","Le cannolo"],["","Le mochi"],["","Le brigadeiro"],["","Le Christmas pudding"]], "ok": 2, "say": "Le brigadeiro !", "level": 2},
+  {"q": "Quel gâteau a été créé à Budapest, en Hongrie ?", "qd": "Le gâteau né à Budapest ?", "a": [["","La Sachertorte"],["","La Dobos torte"],["","La Linzer torte"],["","La forêt-noire"]], "ok": 1, "say": "La Dobos torte !", "level": 2},
+  {"q": "Quel dessert glacé est typique des Philippines ?", "qd": "Le dessert glacé des Philippines ?", "a": [["","Le bingsu"],["","Le kakigori"],["","Le cendol"],["","Le halo-halo"]], "ok": 3, "say": "Le halo-halo !", "level": 3},
+  {"q": "Quel petit gâteau est typique de l'Australie ?", "qd": "Le petit gâteau typique de l'Australie ?", "a": [["","Le pouding chômeur"],["","Le key lime pie"],["","Le lamington"],["","Le Christmas pudding"]], "ok": 2, "say": "Le lamington !", "level": 3}
+ ]
+}
