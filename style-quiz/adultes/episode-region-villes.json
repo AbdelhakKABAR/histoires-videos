@@ -1,0 +1,20 @@
+{
+ "title": "La région de chaque ville", "subject": "Régions", "banner": "La région de chaque ville",
+ "symbols": ["🗺","📍","🏙","🧭","🇫🇷","🏰","⛪","🌉","🏞","⭐","✦","🚆","🍷","🥖","✧","🏛"],
+ "description": "🇫🇷 Quiz France : retrouve la région de chaque ville ! 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #regions #villes #geographie #culturegenerale #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Dans quelle région se trouve la ville de Lille ?", "qd": "La région de Lille ?", "a": [["","Les Hauts-de-France"],["","La Normandie"],["","Le Grand Est"],["","L'Île-de-France"]], "ok": 0, "say": "Les Hauts-de-France !", "level": 0},
+  {"q": "Dans quelle région se trouve la ville de Nice ?", "qd": "La région de Nice ?", "a": [["","L'Occitanie"],["","Auvergne-Rhône-Alpes"],["","La région PACA"],["","La Corse"]], "ok": 2, "say": "Provence-Alpes-Côte d'Azur !", "level": 0},
+  {"q": "Dans quelle région se trouve la ville de Brest ?", "qd": "La région de Brest ?", "a": [["","La Normandie"],["","Les Pays de la Loire"],["","La Nouvelle-Aquitaine"],["","La Bretagne"]], "ok": 3, "say": "La Bretagne !", "level": 0},
+  {"q": "Dans quelle région se trouve la ville de Dijon ?", "qd": "La région de Dijon ?", "a": [["","Le Grand Est"],["","Bourgogne-Franche-Comté"],["","Centre-Val de Loire"],["","Auvergne-Rhône-Alpes"]], "ok": 1, "say": "La Bourgogne-Franche-Comté !", "level": 1},
+  {"q": "Dans quelle région se trouve la ville de Nantes ?", "qd": "La région de Nantes ?", "a": [["","Les Pays de la Loire"],["","La Bretagne"],["","La Normandie"],["","Centre-Val de Loire"]], "ok": 0, "say": "Les Pays de la Loire, et pas la Bretagne !", "level": 1},
+  {"q": "Dans quelle région se trouve la ville de Grenoble ?", "qd": "La région de Grenoble ?", "a": [["","La région PACA"],["","Bourgogne-Franche-Comté"],["","Auvergne-Rhône-Alpes"],["","L'Occitanie"]], "ok": 2, "say": "Auvergne-Rhône-Alpes !", "level": 1},
+  {"q": "Dans quelle région se trouve la ville de Reims ?", "qd": "La région de Reims ?", "a": [["","Les Hauts-de-France"],["","L'Île-de-France"],["","Bourgogne-Franche-Comté"],["","Le Grand Est"]], "ok": 3, "say": "Le Grand Est !", "level": 2},
+  {"q": "Dans quelle région se trouve la ville de Limoges ?", "qd": "La région de Limoges ?", "a": [["","Centre-Val de Loire"],["","La Nouvelle-Aquitaine"],["","Auvergne-Rhône-Alpes"],["","L'Occitanie"]], "ok": 1, "say": "La Nouvelle-Aquitaine !", "level": 2},
+  {"q": "Dans quelle région se trouve la ville de Sens ?", "qd": "La région de Sens ?", "a": [["","L'Île-de-France"],["","Centre-Val de Loire"],["","Le Grand Est"],["","Bourgogne-Franche-Comté"]], "ok": 3, "say": "La Bourgogne-Franche-Comté, dans l'Yonne !", "level": 3},
+  {"q": "Dans quelle région se trouve la ville de Montluçon ?", "qd": "La région de Montluçon ?", "a": [["","Centre-Val de Loire"],["","Bourgogne-Franche-Comté"],["","Auvergne-Rhône-Alpes"],["","La Nouvelle-Aquitaine"]], "ok": 2, "say": "Auvergne-Rhône-Alpes, dans l'Allier !", "level": 3}
+ ]
+}
