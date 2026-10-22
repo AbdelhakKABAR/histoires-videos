@@ -1,0 +1,27 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : IMPOSSIBLE",
+ "suite": [
+  "5",
+  "2",
+  "10",
+  "8",
+  "9"
+ ],
+ "options": [
+  "7",
+  "3",
+  "4",
+  "11"
+ ],
+ "ok": 2,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche_dite": "Seulement un pour cent des gens trouvent la suite.",
+ "question_dite": "Cinq, deux, dix, huit, neuf… Et ensuite ?",
+ "explication": "Les nombres de 1 à 10 par ordre alphabétique : cinq, deux, dix, huit, neuf, quatre.",
+ "explication_dite": "Quatre ! Ce sont les nombres de un à dix rangés dans l'ordre alphabétique : cinq, deux, dix, huit, neuf, puis quatre.",
+ "fin": "Tu avais trouvé ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🧩 SUITE LOGIQUE niveau impossible : 5, 2, 10, 8, 9… et ensuite ? Seuls 1 % trouvent la logique ! 👇 #logique #enigme #quiz #suitelogique #cerveau #defi #pourtoi"
+}
