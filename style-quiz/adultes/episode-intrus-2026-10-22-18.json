@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, du niveau facile à impossible… attention aux pièges ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : Venise, Florence, Séville ou Naples ?",
+   "qd": "L'intrus parmi ces villes ?",
+   "a": [
+    [
+     "",
+     "Venise"
+    ],
+    [
+     "",
+     "Florence"
+    ],
+    [
+     "",
+     "Séville"
+    ],
+    [
+     "",
+     "Naples"
+    ]
+   ],
+   "ok": 2,
+   "say": "Séville ! Elle est en Espagne, les autres en Italie.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : la grenouille, le crocodile, la tortue ou le serpent ?",
+   "qd": "L'intrus parmi ces animaux ?",
+   "a": [
+    [
+     "",
+     "La grenouille"
+    ],
+    [
+     "",
+     "Le crocodile"
+    ],
+    [
+     "",
+     "La tortue"
+    ],
+    [
+     "",
+     "Le serpent"
+    ]
+   ],
+   "ok": 0,
+   "say": "La grenouille ! C'est un amphibien, les autres sont des reptiles.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : le brie, le comté, le camembert ou la mozzarella ?",
+   "qd": "L'intrus parmi ces fromages ?",
+   "a": [
+    [
+     "",
+     "Le brie"
+    ],
+    [
+     "",
+     "Le comté"
+    ],
+    [
+     "",
+     "Le camembert"
+    ],
+    [
+     "",
+     "La mozzarella"
+    ]
+   ],
+   "ok": 3,
+   "say": "La mozzarella ! Elle est italienne, les autres sont français.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : Neptune, Pluton, Uranus ou Saturne ?",
+   "qd": "L'intrus dans le système solaire ?",
+   "a": [
+    [
+     "",
+     "Neptune"
+    ],
+    [
+     "",
+     "Pluton"
+    ],
+    [
+     "",
+     "Uranus"
+    ],
+    [
+     "",
+     "Saturne"
+    ]
+   ],
+   "ok": 1,
+   "say": "Pluton ! C'est une planète naine depuis 2006.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : cheval, journal, animal ou bal ?",
+   "qd": "L'intrus au pluriel ?",
+   "a": [
+    [
+     "",
+     "Cheval"
+    ],
+    [
+     "",
+     "Journal"
+    ],
+    [
+     "",
+     "Animal"
+    ],
+    [
+     "",
+     "Bal"
+    ]
+   ],
+   "ok": 3,
+   "say": "Bal ! On dit des bals, les autres font leur pluriel en aux.",
+   "level": 1
+  },
+  {
+   "q": "Quelle est l'intruse : la guitare, le violon, l'alto ou le violoncelle ?",
+   "qd": "L'intrus parmi ces instruments ?",
+   "a": [
+    [
+     "",
+     "La guitare"
+    ],
+    [
+     "",
+     "Le violon"
+    ],
+    [
+     "",
+     "L'alto"
+    ],
+    [
+     "",
+     "Le violoncelle"
+    ]
+   ],
+   "ok": 0,
+   "say": "La guitare ! Ses cordes sont pincées, les autres se jouent avec un archet.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : l'autruche, l'émeu, le pélican ou le nandou ?",
+   "qd": "L'intrus parmi ces oiseaux ?",
+   "a": [
+    [
+     "",
+     "L'autruche"
+    ],
+    [
+     "",
+     "L'émeu"
+    ],
+    [
+     "",
+     "Le pélican"
+    ],
+    [
+     "",
+     "Le nandou"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le pélican ! Il vole, les trois autres en sont incapables.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : le Kenya, l'Égypte, l'Ouganda ou la Somalie ?",
+   "qd": "L'intrus : l'équateur passe par…",
+   "a": [
+    [
+     "",
+     "Le Kenya"
+    ],
+    [
+     "",
+     "L'Égypte"
+    ],
+    [
+     "",
+     "L'Ouganda"
+    ],
+    [
+     "",
+     "La Somalie"
+    ]
+   ],
+   "ok": 1,
+   "say": "L'Égypte ! L'équateur ne la traverse pas, contrairement aux trois autres.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : le watt, le volt, le mètre ou le newton ?",
+   "qd": "L'intrus parmi ces unités ?",
+   "a": [
+    [
+     "",
+     "Le watt"
+    ],
+    [
+     "",
+     "Le volt"
+    ],
+    [
+     "",
+     "Le mètre"
+    ],
+    [
+     "",
+     "Le newton"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le mètre ! Les trois autres portent le nom d'un savant.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : le pin, le mélèze, le sapin ou l'épicéa ?",
+   "qd": "L'intrus parmi ces conifères ?",
+   "a": [
+    [
+     "",
+     "Le pin"
+    ],
+    [
+     "",
+     "Le mélèze"
+    ],
+    [
+     "",
+     "Le sapin"
+    ],
+    [
+     "",
+     "L'épicéa"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le mélèze ! Il perd ses aiguilles en hiver, pas les autres.",
+   "level": 3
+  }
+ ]
+}
