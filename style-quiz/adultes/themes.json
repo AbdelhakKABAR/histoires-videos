@@ -59,7 +59,8 @@
   "Le fleuve qui traverse chaque ville",
   "Le dessert typique de chaque pays",
   "La région de chaque ville",
-  "Le fleuve de chaque pays"
+  "Le fleuve de chaque pays",
+  "Le dessert typique de chaque ville"
  ],
  "a_faire": [
   "Les pays d'Europe",
@@ -89,7 +90,6 @@
   "Les découvertes scientifiques"
  ],
  "a_faire_france": [
-  "Le dessert typique de chaque ville",
   "La préfecture de chaque département",
   "La ville de chaque célébrité française",
   "L'aéroport et la gare de chaque ville",

@@ -1,0 +1,20 @@
+{
+ "title": "Le dessert typique de chaque ville", "subject": "Desserts", "banner": "Le dessert de chaque ville",
+ "symbols": ["🍰","🧁","🍮","🥧","🍩","🍪","🎂","🍬","🍫","🥐","🍯","🍒","🍓","🥮","✨","🍭"],
+ "description": "🍰 Quiz France : une ville, un dessert ! 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #dessert #patisserie #gastronomie #culturegenerale #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel est le petit gâteau typique de Bordeaux ?", "qd": "Le petit gâteau de Bordeaux ?", "a": [["","Le canelé"],["","Le calisson"],["","La madeleine"],["","Le kouign-amann"]], "ok": 0, "say": "Le canelé !", "level": 0},
+  {"q": "Quelle confiserie en forme de losange est la spécialité d'Aix-en-Provence ?", "qd": "La confiserie d'Aix-en-Provence ?", "a": [["","Le nougat"],["","La bêtise"],["","Le calisson"],["","La praline"]], "ok": 2, "say": "Le calisson !", "level": 0},
+  {"q": "Quelle douceur a rendu célèbre la ville de Montélimar ?", "qd": "La douceur de Montélimar ?", "a": [["","Le canelé"],["","Le nougat"],["","Le macaron"],["","Le calisson"]], "ok": 1, "say": "Le nougat !", "level": 0},
+  {"q": "Quelle tarte à la crème porte le nom de Saint-Tropez ?", "qd": "La tarte de Saint-Tropez ?", "a": [["","La tarte Tatin"],["","La tarte au sucre"],["","La tarte aux pralines"],["","La tropézienne"]], "ok": 3, "say": "La tarte tropézienne !", "level": 1},
+  {"q": "Quel bonbon à la menthe est la spécialité de Cambrai ?", "qd": "Le bonbon de Cambrai ?", "a": [["","Les bêtises"],["","Les berlingots"],["","Les coquelicots"],["","Les violettes"]], "ok": 0, "say": "Les bêtises de Cambrai !", "level": 1},
+  {"q": "Quel biscuit de couleur rose est la spécialité de Reims ?", "qd": "Le biscuit de Reims ?", "a": [["","La gaufrette"],["","Le sablé"],["","Le biscuit rose"],["","Le spéculoos"]], "ok": 2, "say": "Le biscuit rose de Reims !", "level": 1},
+  {"q": "Quel petit gâteau en forme de coquillage vient de Commercy, en Lorraine ?", "qd": "Le gâteau de Commercy ?", "a": [["","Le financier"],["","Le canelé"],["","Le macaron"],["","La madeleine"]], "ok": 3, "say": "La madeleine !", "level": 2},
+  {"q": "Quel gâteau breton au beurre est né à Douarnenez ?", "qd": "Le gâteau né à Douarnenez ?", "a": [["","Le far breton"],["","Le kouign-amann"],["","Le quatre-quarts"],["","La galette"]], "ok": 1, "say": "Le kouign-amann !", "level": 2},
+  {"q": "Quelle confiserie à l'amande a été inventée à Montargis ?", "qd": "La confiserie née à Montargis ?", "a": [["","Le calisson"],["","Le nougat"],["","La dragée"],["","La praline"]], "ok": 3, "say": "La praline !", "level": 3},
+  {"q": "Quel petit gâteau aux amandes est la spécialité de Saint-Émilion ?", "qd": "Le gâteau de Saint-Émilion ?", "a": [["","Le macaron"],["","Le canelé"],["","Le financier"],["","La chouquette"]], "ok": 0, "say": "Le macaron de Saint-Émilion !", "level": 3}
+ ]
+}
