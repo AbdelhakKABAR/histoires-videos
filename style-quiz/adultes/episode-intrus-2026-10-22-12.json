@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, du niveau facile à impossible… les deux dernières sont des vrais pièges ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : lundi, mardi, juillet ou jeudi ?",
+   "qd": "L'intrus dans la semaine ?",
+   "a": [
+    [
+     "",
+     "Lundi"
+    ],
+    [
+     "",
+     "Mardi"
+    ],
+    [
+     "",
+     "Juillet"
+    ],
+    [
+     "",
+     "Jeudi"
+    ]
+   ],
+   "ok": 2,
+   "say": "Juillet ! C'est un mois, les autres sont des jours.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : la poule, le lapin, le canard ou l'oie ?",
+   "qd": "L'intrus à la ferme ?",
+   "a": [
+    [
+     "",
+     "Le lapin"
+    ],
+    [
+     "",
+     "La poule"
+    ],
+    [
+     "",
+     "Le canard"
+    ],
+    [
+     "",
+     "L'oie"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le lapin ! C'est un mammifère, les autres sont des oiseaux.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le Sahara, le Gobi, le Kalahari ou l'Everest ?",
+   "qd": "L'intrus parmi ces lieux ?",
+   "a": [
+    [
+     "",
+     "Le Sahara"
+    ],
+    [
+     "",
+     "Le Gobi"
+    ],
+    [
+     "",
+     "Le Kalahari"
+    ],
+    [
+     "",
+     "L'Everest"
+    ]
+   ],
+   "ok": 3,
+   "say": "L'Everest ! C'est une montagne, les autres sont des déserts.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : le Japon, Madagascar, l'Islande ou la Suisse ?",
+   "qd": "L'intruse parmi ces pays ?",
+   "a": [
+    [
+     "",
+     "Le Japon"
+    ],
+    [
+     "",
+     "La Suisse"
+    ],
+    [
+     "",
+     "Madagascar"
+    ],
+    [
+     "",
+     "L'Islande"
+    ]
+   ],
+   "ok": 1,
+   "say": "La Suisse ! Ce n'est pas une île.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le Vésuve, l'Etna, le mont Blanc ou le Kilimandjaro ?",
+   "qd": "L'intrus parmi ces sommets ?",
+   "a": [
+    [
+     "",
+     "Le Vésuve"
+    ],
+    [
+     "",
+     "L'Etna"
+    ],
+    [
+     "",
+     "Le Kilimandjaro"
+    ],
+    [
+     "",
+     "Le mont Blanc"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le mont Blanc ! Ce n'est pas un volcan.",
+   "level": 1
+  },
+  {
+   "q": "Quelle est l'intruse : Le Petit Prince, Candide, La Joconde ou Les Fables ?",
+   "qd": "L'intruse parmi ces œuvres ?",
+   "a": [
+    [
+     "",
+     "Le Petit Prince"
+    ],
+    [
+     "",
+     "La Joconde"
+    ],
+    [
+     "",
+     "Candide"
+    ],
+    [
+     "",
+     "Les Fables"
+    ]
+   ],
+   "ok": 1,
+   "say": "La Joconde ! C'est un tableau, les autres sont des livres.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le panda, le koala, l'ours brun ou l'ours polaire ?",
+   "qd": "L'intrus parmi ces ours ?",
+   "a": [
+    [
+     "",
+     "Le panda"
+    ],
+    [
+     "",
+     "L'ours brun"
+    ],
+    [
+     "",
+     "Le koala"
+    ],
+    [
+     "",
+     "L'ours polaire"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le koala ! Ce n'est pas un ours, c'est un marsupial.",
+   "level": 2
+  },
+  {
+   "q": "Quelle est l'intruse : l'émeraude, le rubis, la perle ou le saphir ?",
+   "qd": "L'intruse parmi ces bijoux ?",
+   "a": [
+    [
+     "",
+     "L'émeraude"
+    ],
+    [
+     "",
+     "Le rubis"
+    ],
+    [
+     "",
+     "Le saphir"
+    ],
+    [
+     "",
+     "La perle"
+    ]
+   ],
+   "ok": 3,
+   "say": "La perle ! Elle est produite par un mollusque, les autres sont des minéraux.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : le mètre, le litre, le kilogramme ou la seconde ?",
+   "qd": "L'intrus parmi ces unités ?",
+   "a": [
+    [
+     "",
+     "Le mètre"
+    ],
+    [
+     "",
+     "Le litre"
+    ],
+    [
+     "",
+     "Le kilogramme"
+    ],
+    [
+     "",
+     "La seconde"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le litre ! Ce n'est pas une unité de base du Système international.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : Io, Ganymède, Titan ou Callisto ?",
+   "qd": "L'intrus parmi ces lunes ?",
+   "a": [
+    [
+     "",
+     "Titan"
+    ],
+    [
+     "",
+     "Io"
+    ],
+    [
+     "",
+     "Ganymède"
+    ],
+    [
+     "",
+     "Callisto"
+    ]
+   ],
+   "ok": 0,
+   "say": "Titan ! C'est une lune de Saturne, les autres tournent autour de Jupiter.",
+   "level": 3
+  }
+ ]
+}
