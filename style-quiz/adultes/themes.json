@@ -58,7 +58,8 @@
   "Le continent de chaque pays",
   "Le fleuve qui traverse chaque ville",
   "Le dessert typique de chaque pays",
-  "La région de chaque ville"
+  "La région de chaque ville",
+  "Le fleuve de chaque pays"
  ],
  "a_faire": [
   "Les pays d'Europe",
@@ -114,7 +115,6 @@
   "Les records de France"
  ],
  "a_faire_monde": [
-  "Le fleuve de chaque pays",
   "L'animal symbole de chaque pays",
   "La fête nationale de chaque pays",
   "Les pays d'Europe",

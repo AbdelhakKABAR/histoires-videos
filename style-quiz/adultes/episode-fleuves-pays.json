@@ -1,0 +1,20 @@
+{
+ "title": "Le fleuve de chaque pays", "subject": "Fleuves", "banner": "Le fleuve de chaque pays",
+ "symbols": ["🌊","💧","🏞","🛶","🌍","⛵","🐟","🗺","🌉","🌎","🧭","🚣","🌐","🏔","🦛","🐊"],
+ "description": "🌊 Quiz : le fleuve de chaque pays ! 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #monde #culturegenerale #geographie #fleuves #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel grand fleuve traverse l'Égypte ?", "qd": "Le fleuve de l'Égypte ?", "a": [["","Le Gange"],["","Le Nil"],["","L'Amazone"],["","Le Mississippi"]], "ok": 1, "say": "Le Nil !", "level": 0},
+  {"q": "Quel fleuve traverse la forêt du Brésil ?", "qd": "Le grand fleuve du Brésil ?", "a": [["","L'Amazone"],["","Le Danube"],["","La Volga"],["","La Tamise"]], "ok": 0, "say": "L'Amazone !", "level": 0},
+  {"q": "Quel fleuve traverse Londres, au Royaume-Uni ?", "qd": "Le fleuve du Royaume-Uni, à Londres ?", "a": [["","La Seine"],["","Le Tibre"],["","La Tamise"],["","Le Rhin"]], "ok": 2, "say": "La Tamise !", "level": 0},
+  {"q": "Quel est le fleuve sacré de l'Inde ?", "qd": "Le fleuve sacré de l'Inde ?", "a": [["","Le Mékong"],["","Le Yangtsé"],["","Le Niger"],["","Le Gange"]], "ok": 3, "say": "Le Gange !", "level": 1},
+  {"q": "Quel est le plus long fleuve d'Italie ?", "qd": "Le plus long fleuve d'Italie ?", "a": [["","Le Rhône"],["","Le Pô"],["","Le Tage"],["","L'Èbre"]], "ok": 1, "say": "Le Pô !", "level": 1},
+  {"q": "Quel est le plus long fleuve de Chine ?", "qd": "Le plus long fleuve de Chine ?", "a": [["","Le Yangtsé"],["","L'Indus"],["","Le Gange"],["","La Volga"]], "ok": 0, "say": "Le Yangtsé !", "level": 1},
+  {"q": "Quel fleuve se jette dans l'océan à Lisbonne, au Portugal ?", "qd": "Le fleuve de Lisbonne, au Portugal ?", "a": [["","Le Douro"],["","Le Guadalquivir"],["","Le Tage"],["","L'Èbre"]], "ok": 2, "say": "Le Tage !", "level": 2},
+  {"q": "Quel fleuve traverse Bagdad, en Irak ?", "qd": "Le fleuve de Bagdad, en Irak ?", "a": [["","L'Euphrate"],["","Le Jourdain"],["","Le Nil"],["","Le Tigre"]], "ok": 3, "say": "Le Tigre !", "level": 2},
+  {"q": "Quel grand fleuve traverse Bamako, au Mali ?", "qd": "Le fleuve de Bamako, au Mali ?", "a": [["","Le Congo"],["","Le Niger"],["","Le Sénégal"],["","Le Zambèze"]], "ok": 1, "say": "Le Niger !", "level": 3},
+  {"q": "Quel fleuve forme un immense delta au sud du Vietnam ?", "qd": "Le grand delta du sud du Vietnam ?", "a": [["","Le Mékong"],["","Le fleuve Rouge"],["","L'Irrawaddy"],["","Le Chao Phraya"]], "ok": 0, "say": "Le Mékong !", "level": 3}
+ ]
+}
