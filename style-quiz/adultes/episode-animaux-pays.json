@@ -1,0 +1,20 @@
+{
+ "title": "L'animal symbole de chaque pays", "subject": "Animaux symboles", "banner": "L'animal symbole de chaque pays",
+ "symbols": ["🦘","🐯","🥝","🦅","🦄","🦫","🦌","🐦","🐂","🦩","🌍","🐾","🦁","🐼","🗺","✦"],
+ "description": "🦘 Quiz : l'animal symbole de chaque pays ! 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #monde #culturegenerale #animaux #pays #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel animal est le symbole de l'Australie ?", "qd": "Le symbole de l'Australie ?", "a": [["","Le koala"],["","Le kangourou"],["","L'ornithorynque"],["","Le wombat"]], "ok": 1, "say": "Le kangourou !", "level": 0},
+  {"q": "Quel est l'animal national de l'Inde ?", "qd": "L'animal national de l'Inde ?", "a": [["","Le tigre"],["","L'éléphant"],["","Le cobra"],["","Le rhinocéros"]], "ok": 0, "say": "Le tigre !", "level": 0},
+  {"q": "Quel oiseau est le symbole de la Nouvelle-Zélande ?", "qd": "L'oiseau de la Nouvelle-Zélande ?", "a": [["","L'émeu"],["","Le toucan"],["","Le kiwi"],["","L'autruche"]], "ok": 2, "say": "Le kiwi !", "level": 0},
+  {"q": "Quel oiseau est l'emblème des États-Unis ?", "qd": "L'oiseau emblème des États-Unis ?", "a": [["","Le dindon"],["","Le condor"],["","Le faucon"],["","Le pygargue à tête blanche"]], "ok": 3, "say": "Le pygargue à tête blanche !", "level": 1},
+  {"q": "Quel animal imaginaire est le symbole de l'Écosse ?", "qd": "L'animal imaginaire de l'Écosse ?", "a": [["","Le dragon"],["","La licorne"],["","Le griffon"],["","Le phénix"]], "ok": 1, "say": "La licorne !", "level": 1},
+  {"q": "Quel animal est l'emblème officiel du Canada ?", "qd": "L'emblème animal du Canada ?", "a": [["","Le castor"],["","L'orignal"],["","L'ours brun"],["","Le caribou"]], "ok": 0, "say": "Le castor !", "level": 1},
+  {"q": "Quelle antilope est l'animal national de l'Afrique du Sud ?", "qd": "L'antilope de l'Afrique du Sud ?", "a": [["","L'impala"],["","Le gnou"],["","Le springbok"],["","Le koudou"]], "ok": 2, "say": "Le springbok !", "level": 2},
+  {"q": "Quel oiseau est le symbole du Guatemala ?", "qd": "L'oiseau symbole du Guatemala ?", "a": [["","Le toucan"],["","Le condor"],["","L'ara"],["","Le quetzal"]], "ok": 3, "say": "Le quetzal !", "level": 2},
+  {"q": "Quel est l'animal national du Bhoutan ?", "qd": "L'animal national du Bhoutan ?", "a": [["","Le yak"],["","Le takin"],["","Le panda roux"],["","Le léopard des neiges"]], "ok": 1, "say": "Le takin !", "level": 3},
+  {"q": "Quel oiseau figure sur le drapeau de l'Ouganda ?", "qd": "L'oiseau du drapeau ougandais ?", "a": [["","La grue royale"],["","L'aigle"],["","Le flamant rose"],["","Le paon"]], "ok": 0, "say": "La grue royale !", "level": 3}
+ ]
+}

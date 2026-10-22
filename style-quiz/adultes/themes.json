@@ -60,7 +60,8 @@
   "Le dessert typique de chaque pays",
   "La région de chaque ville",
   "Le fleuve de chaque pays",
-  "Le dessert typique de chaque ville"
+  "Le dessert typique de chaque ville",
+  "L'animal symbole de chaque pays"
  ],
  "a_faire": [
   "Les pays d'Europe",
@@ -115,7 +116,6 @@
   "Les records de France"
  ],
  "a_faire_monde": [
-  "L'animal symbole de chaque pays",
   "La fête nationale de chaque pays",
   "Les pays d'Europe",
   "Les monuments du monde",
