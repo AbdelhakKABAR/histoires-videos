@@ -1,0 +1,20 @@
+{
+ "title": "Le fleuve qui traverse chaque ville", "subject": "Fleuves des villes", "banner": "Le fleuve de chaque ville",
+ "symbols": ["🌊","🏞","🌉","⛵","🚣","💧","🐟","🏙","🗺","🇫🇷","✦","⚓","🌿","🦆","⭐","🧭"],
+ "description": "🌊 Quiz France : le fleuve ou la rivière qui traverse chaque ville ! 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #villes #fleuves #geographie #culturegenerale #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel fleuve traverse Paris ?", "qd": "Le fleuve de Paris ?", "a": [["","La Loire"],["","La Seine"],["","Le Rhône"],["","La Garonne"]], "ok": 1, "say": "La Seine !", "level": 0},
+  {"q": "Quel fleuve traverse Lyon ?", "qd": "Le fleuve de Lyon ?", "a": [["","Le Rhône"],["","La Loire"],["","La Seine"],["","Le Rhin"]], "ok": 0, "say": "Le Rhône !", "level": 0},
+  {"q": "Quel fleuve traverse Bordeaux ?", "qd": "Le fleuve de Bordeaux ?", "a": [["","La Dordogne"],["","La Loire"],["","La Garonne"],["","La Charente"]], "ok": 2, "say": "La Garonne !", "level": 0},
+  {"q": "Quel fleuve traverse Nantes ?", "qd": "Le fleuve de Nantes ?", "a": [["","La Vilaine"],["","La Seine"],["","La Vienne"],["","La Loire"]], "ok": 3, "say": "La Loire !", "level": 1},
+  {"q": "Quelle rivière traverse Grenoble ?", "qd": "La rivière de Grenoble ?", "a": [["","La Durance"],["","L'Isère"],["","L'Ardèche"],["","L'Ain"]], "ok": 1, "say": "L'Isère !", "level": 1},
+  {"q": "Quelle rivière traverse le centre de Strasbourg ?", "qd": "La rivière de Strasbourg ?", "a": [["","La Moselle"],["","La Meuse"],["","L'Ill"],["","Le Doubs"]], "ok": 2, "say": "L'Ill !", "level": 1},
+  {"q": "Quelle rivière traverse Lille ?", "qd": "La rivière de Lille ?", "a": [["","La Deûle"],["","La Somme"],["","L'Escaut"],["","L'Oise"]], "ok": 0, "say": "La Deûle !", "level": 2},
+  {"q": "Quel fleuve traverse Amiens ?", "qd": "Le fleuve d'Amiens ?", "a": [["","L'Oise"],["","L'Aisne"],["","La Marne"],["","La Somme"]], "ok": 3, "say": "La Somme !", "level": 2},
+  {"q": "Quelle rivière traverse Limoges ?", "qd": "La rivière de Limoges ?", "a": [["","La Creuse"],["","La Vienne"],["","La Charente"],["","La Corrèze"]], "ok": 1, "say": "La Vienne !", "level": 3},
+  {"q": "Quelle rivière traverse Périgueux ?", "qd": "La rivière de Périgueux ?", "a": [["","La Dordogne"],["","La Vézère"],["","L'Isle"],["","La Dronne"]], "ok": 2, "say": "L'Isle !", "level": 3}
+ ]
+}
