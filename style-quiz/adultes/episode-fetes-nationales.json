@@ -1,0 +1,20 @@
+{
+ "title": "La fête nationale de chaque pays", "subject": "Fêtes nationales", "banner": "La fête nationale de chaque pays",
+ "symbols": ["🎆","🎉","🎇","🌍","🏳","🚩","📅","🥳","🎊","⭐","🗓","🌐","✦","🏁","🎺","🗺"],
+ "description": "🎆 Quiz Fêtes nationales : 10 pays, 10 dates, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #monde #culturegenerale #fetenationale #pays #voyage #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quelle est la date de la fête nationale des États-Unis ?", "qd": "La fête nationale des États-Unis ?", "a": [["","Le 14 juillet"],["","Le 4 juillet"],["","Le 1er mai"],["","Le 25 décembre"]], "ok": 1, "say": "Le 4 juillet !", "level": 0},
+  {"q": "Quelle est la date de la fête nationale de l'Irlande ?", "qd": "La fête nationale de l'Irlande ?", "a": [["","Le 17 mars"],["","Le 1er avril"],["","Le 11 novembre"],["","Le 24 juin"]], "ok": 0, "say": "Le 17 mars, la Saint-Patrick !", "level": 0},
+  {"q": "Quelle est la date de la fête nationale du Canada ?", "qd": "La fête nationale du Canada ?", "a": [["","Le 4 juillet"],["","Le 15 août"],["","Le 1er juillet"],["","Le 11 novembre"]], "ok": 2, "say": "Le 1er juillet !", "level": 0},
+  {"q": "Quelle est la date de la fête nationale de la Belgique ?", "qd": "La fête nationale de la Belgique ?", "a": [["","Le 14 juillet"],["","Le 1er août"],["","Le 15 août"],["","Le 21 juillet"]], "ok": 3, "say": "Le 21 juillet !", "level": 1},
+  {"q": "Quelle est la date de la fête nationale de la Suisse ?", "qd": "La fête nationale de la Suisse ?", "a": [["","Le 21 juillet"],["","Le 1er août"],["","Le 1er mai"],["","Le 3 octobre"]], "ok": 1, "say": "Le 1er août !", "level": 1},
+  {"q": "Quelle est la date de la fête nationale de l'Allemagne ?", "qd": "La fête nationale de l'Allemagne ?", "a": [["","Le 3 octobre"],["","Le 9 novembre"],["","Le 8 mai"],["","Le 1er août"]], "ok": 0, "say": "Le 3 octobre, jour de l'Unité allemande !", "level": 1},
+  {"q": "Quelle est la date de la fête nationale de l'Italie ?", "qd": "La fête nationale de l'Italie ?", "a": [["","Le 25 avril"],["","Le 20 septembre"],["","Le 2 juin"],["","Le 15 août"]], "ok": 2, "say": "Le 2 juin, fête de la République !", "level": 2},
+  {"q": "Quelle est la date de la fête nationale de l'Espagne ?", "qd": "La fête nationale de l'Espagne ?", "a": [["","Le 6 décembre"],["","Le 24 juin"],["","Le 2 mai"],["","Le 12 octobre"]], "ok": 3, "say": "Le 12 octobre !", "level": 2},
+  {"q": "Quelle est la date de la fête nationale de la Norvège ?", "qd": "La fête nationale de la Norvège ?", "a": [["","Le 6 juin"],["","Le 17 mai"],["","Le 24 juin"],["","Le 6 décembre"]], "ok": 1, "say": "Le 17 mai !", "level": 3},
+  {"q": "Quelle est la date de la fête nationale de la Suède ?", "qd": "La fête nationale de la Suède ?", "a": [["","Le 6 juin"],["","Le 17 mai"],["","Le 5 juin"],["","Le 13 décembre"]], "ok": 0, "say": "Le 6 juin !", "level": 3}
+ ]
+}

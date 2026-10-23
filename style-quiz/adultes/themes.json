@@ -62,7 +62,8 @@
   "Le fleuve de chaque pays",
   "Le dessert typique de chaque ville",
   "L'animal symbole de chaque pays",
-  "La préfecture de chaque département"
+  "La préfecture de chaque département",
+  "La fête nationale de chaque pays"
  ],
  "a_faire": [
   "Les pays d'Europe",
@@ -116,7 +117,6 @@
   "Les records de France"
  ],
  "a_faire_monde": [
-  "La fête nationale de chaque pays",
   "Les pays d'Europe",
   "Les monuments du monde",
   "Les jeux vidéo",
