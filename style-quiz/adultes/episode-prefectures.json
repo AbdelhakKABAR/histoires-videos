@@ -1,0 +1,20 @@
+{
+ "title": "La préfecture de chaque département", "subject": "Préfectures", "banner": "La préfecture de chaque département",
+ "symbols": ["🏛","🇫🇷","📍","🗺","⭐","🏙","✦","🧭","⚜","🏰","★","📌","🌍","✧","🗼","🏁"],
+ "description": "🏛 Quiz France : un département, une préfecture ! 10 questions, du niveau facile à impossible. Tu connais vraiment la France ? Donne ton score en commentaire 👇 #quiz #quiztime #france #prefecture #departements #geographie #culturegenerale #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quelle est la préfecture des Bouches-du-Rhône ?", "qd": "La préfecture des Bouches-du-Rhône ?", "a": [["","Aix-en-Provence"],["","Marseille"],["","Arles"],["","Avignon"]], "ok": 1, "say": "Marseille !", "level": 0},
+  {"q": "Quelle est la préfecture de la Haute-Garonne ?", "qd": "La préfecture de la Haute-Garonne ?", "a": [["","Toulouse"],["","Montauban"],["","Albi"],["","Saint-Gaudens"]], "ok": 0, "say": "Toulouse !", "level": 0},
+  {"q": "Quelle est la préfecture du Rhône ?", "qd": "La préfecture du Rhône ?", "a": [["","Villeurbanne"],["","Saint-Étienne"],["","Lyon"],["","Grenoble"]], "ok": 2, "say": "Lyon !", "level": 0},
+  {"q": "Quelle est la préfecture du Nord ?", "qd": "La préfecture du Nord ?", "a": [["","Roubaix"],["","Dunkerque"],["","Valenciennes"],["","Lille"]], "ok": 3, "say": "Lille !", "level": 1},
+  {"q": "Quelle est la préfecture des Alpes-Maritimes ?", "qd": "La préfecture des Alpes-Maritimes ?", "a": [["","Cannes"],["","Nice"],["","Antibes"],["","Grasse"]], "ok": 1, "say": "Nice !", "level": 1},
+  {"q": "Quelle est la préfecture de la Loire-Atlantique ?", "qd": "La préfecture de la Loire-Atlantique ?", "a": [["","Nantes"],["","Saint-Nazaire"],["","Angers"],["","La Baule"]], "ok": 0, "say": "Nantes !", "level": 1},
+  {"q": "Quelle est la préfecture du Var ?", "qd": "La préfecture du Var ?", "a": [["","Draguignan"],["","Fréjus"],["","Toulon"],["","Hyères"]], "ok": 2, "say": "Toulon ! Depuis 1974.", "level": 2},
+  {"q": "Quelle est la préfecture des Pyrénées-Atlantiques ?", "qd": "Préfecture des Pyrénées-Atlantiques ?", "a": [["","Bayonne"],["","Biarritz"],["","Oloron"],["","Pau"]], "ok": 3, "say": "Pau !", "level": 2},
+  {"q": "Quelle est la préfecture de la Haute-Saône ?", "qd": "La préfecture de la Haute-Saône ?", "a": [["","Vesoul"],["","Lure"],["","Gray"],["","Luxeuil"]], "ok": 0, "say": "Vesoul !", "level": 3},
+  {"q": "Quelle est la préfecture de la Meuse ?", "qd": "La préfecture de la Meuse ?", "a": [["","Verdun"],["","Bar-le-Duc"],["","Commercy"],["","Saint-Mihiel"]], "ok": 1, "say": "Bar-le-Duc !", "level": 3}
+ ]
+}
