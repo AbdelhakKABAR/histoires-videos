@@ -1,0 +1,20 @@
+{
+ "title": "La ville de chaque célébrité française", "subject": "Célébrités", "banner": "La ville natale des célébrités",
+ "symbols": ["🇫🇷","⭐","🏙","📍","🎩","🖋","🎨","🗼","👑","✦","🏛","🎭","★","🧭","✧","📜"],
+ "description": "🇫🇷 Quiz : dans quelle ville sont nés ces grands noms de France ? 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #histoire #villes #culturegenerale #question #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Dans quelle ville est né Napoléon Bonaparte ?", "qd": "La ville natale de Napoléon ?", "a": [["","Bastia"],["","Ajaccio"],["","Nice"],["","Marseille"]], "ok": 1, "say": "À Ajaccio !", "level": 0},
+  {"q": "Dans quelle ville est né Charles de Gaulle ?", "qd": "La ville natale de De Gaulle ?", "a": [["","Lille"],["","Paris"],["","Reims"],["","Metz"]], "ok": 0, "say": "À Lille !", "level": 0},
+  {"q": "Dans quel village est née Jeanne d'Arc ?", "qd": "Le village natal de Jeanne d'Arc ?", "a": [["","Orléans"],["","Rouen"],["","Reims"],["","Domrémy"]], "ok": 3, "say": "À Domrémy !", "level": 0},
+  {"q": "Dans quelle ville est né Victor Hugo ?", "qd": "La ville natale de Victor Hugo ?", "a": [["","Paris"],["","Rouen"],["","Besançon"],["","Lyon"]], "ok": 2, "say": "À Besançon !", "level": 1},
+  {"q": "Dans quelle ville est né Antoine de Saint-Exupéry ?", "qd": "La ville natale de Saint-Exupéry ?", "a": [["","Toulouse"],["","Lyon"],["","Bordeaux"],["","Grenoble"]], "ok": 1, "say": "À Lyon !", "level": 1},
+  {"q": "Dans quelle ville est né Jules Verne ?", "qd": "La ville natale de Jules Verne ?", "a": [["","Nantes"],["","Amiens"],["","Brest"],["","Le Havre"]], "ok": 0, "say": "À Nantes !", "level": 1},
+  {"q": "Dans quelle ville est né Louis Pasteur ?", "qd": "La ville natale de Louis Pasteur ?", "a": [["","Arbois"],["","Strasbourg"],["","Lille"],["","Dole"]], "ok": 3, "say": "À Dole, dans le Jura !", "level": 2},
+  {"q": "Dans quelle ville est né le peintre Paul Cézanne ?", "qd": "La ville natale de Cézanne ?", "a": [["","Arles"],["","Avignon"],["","Aix-en-Provence"],["","Marseille"]], "ok": 2, "say": "À Aix-en-Provence !", "level": 2},
+  {"q": "Dans quel village est né Louis Braille ?", "qd": "Le village natal de Louis Braille ?", "a": [["","Coupvray"],["","Giverny"],["","Barbizon"],["","Auvers"]], "ok": 0, "say": "À Coupvray !", "level": 3},
+  {"q": "Dans quelle ville est né Gustave Eiffel ?", "qd": "La ville natale de Gustave Eiffel ?", "a": [["","Paris"],["","Dijon"],["","Nancy"],["","Lyon"]], "ok": 1, "say": "À Dijon !", "level": 3}
+ ]
+}

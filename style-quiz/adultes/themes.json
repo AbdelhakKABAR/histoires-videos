@@ -63,7 +63,8 @@
   "Le dessert typique de chaque ville",
   "L'animal symbole de chaque pays",
   "La préfecture de chaque département",
-  "La fête nationale de chaque pays"
+  "La fête nationale de chaque pays",
+  "La ville de chaque célébrité française"
  ],
  "a_faire": [
   "Les pays d'Europe",
@@ -93,7 +94,6 @@
   "Les découvertes scientifiques"
  ],
  "a_faire_france": [
-  "La ville de chaque célébrité française",
   "L'aéroport et la gare de chaque ville",
   "Le marché de Noël et la fête de chaque ville",
   "La plaque d'immatriculation : quel département ?",
