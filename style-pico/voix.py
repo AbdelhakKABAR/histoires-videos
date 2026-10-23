@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.10"
-# dependencies = ["sherpa-onnx", "numpy", "soundfile", "scipy"]
+# dependencies = ["sherpa-onnx<2", "numpy", "soundfile", "scipy"]
 # ///
 """Voix d'une partie du film : uv run voix.py <partie> <dossier des voix> [3|7]
 story.json = [{"t": texte, "voice": "conteur" | "garcon" | "fille" | "homme" | "femme", "who": "" ou nom du personnage, "at": seconde de départ}, ...]

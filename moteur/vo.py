@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.10"
-# dependencies = ["sherpa-onnx", "numpy", "soundfile", "scipy"]
+# dependencies = ["sherpa-onnx<2", "numpy", "soundfile", "scipy"]
 # ///
 """Narration: one take per sentence, laid out scene by scene on the beat grid.
 -> audio/vo.wav, timeline.js (scene + phrase beats for film.js), timeline.json"""

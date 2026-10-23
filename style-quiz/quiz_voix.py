@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.10"
-# dependencies = ["sherpa-onnx", "numpy", "soundfile", "scipy"]
+# dependencies = ["sherpa-onnx<2", "numpy", "soundfile", "scipy"]
 # ///
 """Voix d'un épisode de quiz : uv run quiz_voix.py <dossier> <quiz.json> <dossier des voix> [3|7]
 Le conteur lit l'intro, chaque question, les 4 réponses, puis la bonne réponse après 5 s de réflexion. Les phrases sont

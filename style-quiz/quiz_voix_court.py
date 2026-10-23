@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.10"
-# dependencies = ["sherpa-onnx", "numpy", "soundfile", "scipy"]
+# dependencies = ["sherpa-onnx<2", "numpy", "soundfile", "scipy"]
 # ///
 """Voix d'un épisode de quiz court (30 s) : uv run quiz_voix.py <dossier> <quiz.json> <dossier des voix>
 Voix : Piper fr_FR siwis medium, choisie par l'utilisateur le 13 oct. 2026 (« voix 2 »).

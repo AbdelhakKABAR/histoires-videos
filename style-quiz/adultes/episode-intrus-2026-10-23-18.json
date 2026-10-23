@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, du niveau facile à impossible… les pièges arrivent à la fin ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : le Canada, le Mexique, le Brésil ou les États-Unis ?",
+   "qd": "L'intrus parmi ces pays ?",
+   "a": [
+    [
+     "",
+     "Le Canada"
+    ],
+    [
+     "",
+     "Le Mexique"
+    ],
+    [
+     "",
+     "Le Brésil"
+    ],
+    [
+     "",
+     "Les États-Unis"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le Brésil ! Il est en Amérique du Sud, les autres en Amérique du Nord.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : le lion, l'hyène, le tigre ou le léopard ?",
+   "qd": "L'intrus dans la savane ?",
+   "a": [
+    [
+     "",
+     "Le lion"
+    ],
+    [
+     "",
+     "L'hyène"
+    ],
+    [
+     "",
+     "Le tigre"
+    ],
+    [
+     "",
+     "Le léopard"
+    ]
+   ],
+   "ok": 1,
+   "say": "L'hyène ! Ce n'est pas un félin.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le piano, la trompette, le saxophone ou la clarinette ?",
+   "qd": "L'intrus parmi ces instruments ?",
+   "a": [
+    [
+     "",
+     "Le piano"
+    ],
+    [
+     "",
+     "La trompette"
+    ],
+    [
+     "",
+     "Le saxophone"
+    ],
+    [
+     "",
+     "La clarinette"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le piano ! Ce n'est pas un instrument à vent.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : chou, hibou, pou ou clou ?",
+   "qd": "L'intrus au pluriel ?",
+   "a": [
+    [
+     "",
+     "Chou"
+    ],
+    [
+     "",
+     "Hibou"
+    ],
+    [
+     "",
+     "Pou"
+    ],
+    [
+     "",
+     "Clou"
+    ]
+   ],
+   "ok": 3,
+   "say": "Clou ! Il prend un S au pluriel, les autres un X.",
+   "level": 1
+  },
+  {
+   "q": "Quelle est l'intruse : les pyramides de Gizeh, le phare d'Alexandrie, le colosse de Rhodes ou la Grande Muraille ?",
+   "qd": "L'intruse parmi ces merveilles ?",
+   "a": [
+    [
+     "",
+     "Les pyramides de Gizeh"
+    ],
+    [
+     "",
+     "Le phare d'Alexandrie"
+    ],
+    [
+     "",
+     "Le colosse de Rhodes"
+    ],
+    [
+     "",
+     "La Grande Muraille"
+    ]
+   ],
+   "ok": 3,
+   "say": "La Grande Muraille ! Elle ne fait pas partie des sept merveilles du monde antique.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le néon, l'hydrogène, l'argon ou l'hélium ?",
+   "qd": "L'intrus parmi ces gaz ?",
+   "a": [
+    [
+     "",
+     "Le néon"
+    ],
+    [
+     "",
+     "L'hydrogène"
+    ],
+    [
+     "",
+     "L'argon"
+    ],
+    [
+     "",
+     "L'hélium"
+    ]
+   ],
+   "ok": 1,
+   "say": "L'hydrogène ! Les trois autres sont des gaz nobles.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : La Bohème, Tosca, Carmen ou Madame Butterfly ?",
+   "qd": "L'intrus parmi ces opéras ?",
+   "a": [
+    [
+     "",
+     "La Bohème"
+    ],
+    [
+     "",
+     "Tosca"
+    ],
+    [
+     "",
+     "Carmen"
+    ],
+    [
+     "",
+     "Madame Butterfly"
+    ]
+   ],
+   "ok": 2,
+   "say": "Carmen ! C'est un opéra de Bizet, les autres sont de Puccini.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : le ver de terre, l'escargot, la limace ou la pieuvre ?",
+   "qd": "L'intrus parmi ces animaux mous ?",
+   "a": [
+    [
+     "",
+     "Le ver de terre"
+    ],
+    [
+     "",
+     "L'escargot"
+    ],
+    [
+     "",
+     "La limace"
+    ],
+    [
+     "",
+     "La pieuvre"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le ver de terre ! Les trois autres sont des mollusques.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : l'Australie, le Canada, la Turquie ou le Japon ?",
+   "qd": "L'intrus : la capitale ?",
+   "a": [
+    [
+     "",
+     "L'Australie"
+    ],
+    [
+     "",
+     "Le Canada"
+    ],
+    [
+     "",
+     "La Turquie"
+    ],
+    [
+     "",
+     "Le Japon"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le Japon ! Sa capitale est sa plus grande ville, pas chez les trois autres.",
+   "level": 3
+  },
+  {
+   "q": "Quelle est l'intruse : le marteau, la rotule, l'enclume ou l'étrier ?",
+   "qd": "L'intruse dans le corps humain ?",
+   "a": [
+    [
+     "",
+     "Le marteau"
+    ],
+    [
+     "",
+     "La rotule"
+    ],
+    [
+     "",
+     "L'enclume"
+    ],
+    [
+     "",
+     "L'étrier"
+    ]
+   ],
+   "ok": 1,
+   "say": "La rotule ! Les trois autres sont des os de l'oreille.",
+   "level": 3
+  }
+ ]
+}
