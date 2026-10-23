@@ -1,0 +1,20 @@
+{
+ "title": "Les monuments du monde", "subject": "Monuments", "banner": "Les monuments du monde",
+ "symbols": ["🗽","🗼","🏛","🕌","⛩","🏰","🌍","🗿","🕍","⛪","🏯","🌐","✦","🧭","🌎","✧"],
+ "description": "🗽 Quiz Monuments du monde : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #monuments #monde #culturegenerale #voyage #geographie #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Dans quelle ville se trouve Big Ben ?", "qd": "Big Ben se trouve à… ?", "a": [["","Dublin"],["","Édimbourg"],["","Londres"],["","Manchester"]], "ok": 2, "say": "À Londres !", "level": 0},
+  {"q": "Dans quelle ville se trouve la statue de la Liberté ?", "qd": "La statue de la Liberté est à… ?", "a": [["","New York"],["","Washington"],["","Boston"],["","Chicago"]], "ok": 0, "say": "À New York !", "level": 0},
+  {"q": "Dans quelle ville se trouve la Sagrada Família ?", "qd": "La Sagrada Família est à… ?", "a": [["","Madrid"],["","Séville"],["","Valence"],["","Barcelone"]], "ok": 3, "say": "À Barcelone !", "level": 0},
+  {"q": "Dans quelle ville se trouve la porte de Brandebourg ?", "qd": "La porte de Brandebourg est à… ?", "a": [["","Munich"],["","Berlin"],["","Vienne"],["","Hambourg"]], "ok": 1, "say": "À Berlin !", "level": 1},
+  {"q": "Dans quelle ville se trouve la statue du Christ Rédempteur ?", "qd": "Le Christ Rédempteur est à… ?", "a": [["","São Paulo"],["","Brasília"],["","Rio de Janeiro"],["","Salvador"]], "ok": 2, "say": "À Rio de Janeiro !", "level": 1},
+  {"q": "Dans quelle ville se trouve la célèbre tour penchée ?", "qd": "La tour penchée est à… ?", "a": [["","Pise"],["","Florence"],["","Sienne"],["","Bologne"]], "ok": 0, "say": "À Pise !", "level": 1},
+  {"q": "Dans quelle ville se trouve la basilique Sainte-Sophie ?", "qd": "Sainte-Sophie se trouve à… ?", "a": [["","Ankara"],["","Istanbul"],["","Athènes"],["","Izmir"]], "ok": 1, "say": "À Istanbul !", "level": 2},
+  {"q": "Dans quelle ville se trouve le palais de l'Alhambra ?", "qd": "L'Alhambra se trouve à… ?", "a": [["","Cordoue"],["","Séville"],["","Tolède"],["","Grenade"]], "ok": 3, "say": "À Grenade !", "level": 2},
+  {"q": "Dans quel pays se trouve le temple de Borobudur ?", "qd": "Le temple de Borobudur est en… ?", "a": [["","Indonésie"],["","Thaïlande"],["","Cambodge"],["","Malaisie"]], "ok": 0, "say": "En Indonésie !", "level": 3},
+  {"q": "Dans quelle ville se trouve la place du Registan ?", "qd": "La place du Registan est à… ?", "a": [["","Boukhara"],["","Tachkent"],["","Samarcande"],["","Khiva"]], "ok": 2, "say": "À Samarcande !", "level": 3}
+ ]
+}

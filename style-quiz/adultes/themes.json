@@ -66,11 +66,11 @@
   "La fête nationale de chaque pays",
   "La ville de chaque célébrité française",
   "Les pays d'Europe",
-  "L'aéroport et la gare de chaque ville"
+  "L'aéroport et la gare de chaque ville",
+  "Les monuments du monde"
  ],
  "a_faire": [
   "Les pays d'Europe",
-  "Les monuments du monde",
   "Les jeux vidéo",
   "Le football",
   "La Rome antique",
@@ -118,7 +118,6 @@
   "Les records de France"
  ],
  "a_faire_monde": [
-  "Les monuments du monde",
   "Les jeux vidéo",
   "Le football",
   "La Rome antique",
