@@ -64,7 +64,8 @@
   "L'animal symbole de chaque pays",
   "La préfecture de chaque département",
   "La fête nationale de chaque pays",
-  "La ville de chaque célébrité française"
+  "La ville de chaque célébrité française",
+  "Les pays d'Europe"
  ],
  "a_faire": [
   "Les pays d'Europe",
@@ -117,7 +118,6 @@
   "Les records de France"
  ],
  "a_faire_monde": [
-  "Les pays d'Europe",
   "Les monuments du monde",
   "Les jeux vidéo",
   "Le football",

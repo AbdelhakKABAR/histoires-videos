@@ -1,0 +1,20 @@
+{
+ "title": "Les pays d'Europe", "subject": "Europe", "banner": "Les pays d'Europe",
+ "symbols": ["🇪🇺","🌍","🏰","⭐","🗺","🧭","🏛","⛰","🌐","✦","🚆","★","⚑","🏔","✧","🌉"],
+ "description": "🇪🇺 Quiz Les pays d'Europe : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #europe #monde #culturegenerale #geographie #defi #question",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quelle est la capitale du Portugal ?", "qd": "La capitale du Portugal ?", "a": [["","Porto"],["","Lisbonne"],["","Madrid"],["","Séville"]], "ok": 1, "say": "Lisbonne !", "level": 0},
+  {"q": "Quel pays européen a la forme d'une botte ?", "qd": "Le pays en forme de botte ?", "a": [["","L'Italie"],["","La Grèce"],["","L'Espagne"],["","La Croatie"]], "ok": 0, "say": "L'Italie !", "level": 0},
+  {"q": "Dans quel pays se trouve la ville d'Amsterdam ?", "qd": "Amsterdam se trouve dans quel pays ?", "a": [["","La Belgique"],["","Le Danemark"],["","Les Pays-Bas"],["","L'Allemagne"]], "ok": 2, "say": "Les Pays-Bas !", "level": 0},
+  {"q": "Quelle est la monnaie de la Suisse ?", "qd": "La monnaie de la Suisse ?", "a": [["","L'euro"],["","La couronne"],["","La livre"],["","Le franc suisse"]], "ok": 3, "say": "Le franc suisse !", "level": 1},
+  {"q": "Quelle est la capitale de la Hongrie ?", "qd": "La capitale de la Hongrie ?", "a": [["","Bucarest"],["","Budapest"],["","Prague"],["","Vienne"]], "ok": 1, "say": "Budapest !", "level": 1},
+  {"q": "Quel est le plus petit pays d'Europe ?", "qd": "Le plus petit pays d'Europe ?", "a": [["","Le Vatican"],["","Monaco"],["","Saint-Marin"],["","Le Liechtenstein"]], "ok": 0, "say": "Le Vatican !", "level": 1},
+  {"q": "Quel est le plus grand pays situé entièrement en Europe ?", "qd": "Le plus grand pays 100 % européen ?", "a": [["","La France"],["","L'Espagne"],["","L'Ukraine"],["","La Pologne"]], "ok": 2, "say": "L'Ukraine !", "level": 2},
+  {"q": "Quel pays a pour capitale Vaduz ?", "qd": "Vaduz est la capitale de quel pays ?", "a": [["","Le Luxembourg"],["","Andorre"],["","Monaco"],["","Le Liechtenstein"]], "ok": 3, "say": "Le Liechtenstein !", "level": 2},
+  {"q": "Quelle est la capitale de la Moldavie ?", "qd": "La capitale de la Moldavie ?", "a": [["","Chișinău"],["","Minsk"],["","Tiraspol"],["","Riga"]], "ok": 0, "say": "Chișinău !", "level": 3},
+  {"q": "Quelle est la capitale de la Macédoine du Nord ?", "qd": "La capitale de la Macédoine du Nord ?", "a": [["","Tirana"],["","Podgorica"],["","Skopje"],["","Sofia"]], "ok": 2, "say": "Skopje !", "level": 3}
+ ]
+}
