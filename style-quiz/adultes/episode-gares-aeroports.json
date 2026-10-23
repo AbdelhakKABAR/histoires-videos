@@ -1,0 +1,20 @@
+{
+ "title": "Gares et aéroports de France", "subject": "Gares et aéroports", "banner": "Gares et aéroports de France",
+ "symbols": ["✈","🚄","🚉","🛫","🛬","🎫","🧳","🗺","🚆","🕒","🛄","🚅","🧭","🏙","✦","★"],
+ "description": "🚄✈️ Quiz France : la gare et l'aéroport de chaque ville ! 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #gare #aeroport #sncf #voyage #culturegenerale #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel aéroport de Paris porte le nom d'un général ?", "qd": "L'aéroport de Paris au nom d'un général ?", "a": [["","Orly"],["","Charles-de-Gaulle"],["","Beauvais"],["","Le Bourget"]], "ok": 1, "say": "Charles-de-Gaulle !", "level": 0},
+  {"q": "Comment s'appelle l'aéroport de Nice ?", "qd": "Le nom de l'aéroport de Nice ?", "a": [["","Nice-Riviera"],["","Nice-Provence"],["","Nice-Méditerranée"],["","Nice-Côte d'Azur"]], "ok": 3, "say": "Nice-Côte d'Azur !", "level": 0},
+  {"q": "Comment s'appelle la grande gare de Marseille ?", "qd": "La grande gare de Marseille ?", "a": [["","Saint-Charles"],["","Saint-Jean"],["","Part-Dieu"],["","Matabiau"]], "ok": 0, "say": "Marseille Saint-Charles !", "level": 0},
+  {"q": "L'aéroport de Lyon porte le nom de quel écrivain aviateur ?", "qd": "L'aéroport de Lyon porte le nom de… ?", "a": [["","Jules Verne"],["","Louis Blériot"],["","Saint-Exupéry"],["","Victor Hugo"]], "ok": 2, "say": "Lyon Saint-Exupéry !", "level": 1},
+  {"q": "Comment s'appelle la gare principale de Toulouse ?", "qd": "La gare principale de Toulouse ?", "a": [["","Saint-Roch"],["","Matabiau"],["","Perrache"],["","Saint-Laud"]], "ok": 1, "say": "Toulouse Matabiau !", "level": 1},
+  {"q": "Comment s'appelle la gare principale de Bordeaux ?", "qd": "La gare principale de Bordeaux ?", "a": [["","Saint-Charles"],["","Saint-Laud"],["","Saint-Roch"],["","Saint-Jean"]], "ok": 3, "say": "Bordeaux Saint-Jean !", "level": 1},
+  {"q": "À Lille, quelle gare accueille l'Eurostar ?", "qd": "La gare de l'Eurostar à Lille ?", "a": [["","Lille-Europe"],["","Lille-Nord"],["","Lille-Wazemmes"],["","Lille-Centre"]], "ok": 0, "say": "Lille-Europe !", "level": 2},
+  {"q": "Comment s'appelle l'aéroport de Nantes ?", "qd": "Le nom de l'aéroport de Nantes ?", "a": [["","Notre-Dame-des-Landes"],["","Nantes-Loire"],["","Nantes-Atlantique"],["","Nantes-Bretagne"]], "ok": 2, "say": "Nantes-Atlantique !", "level": 2},
+  {"q": "L'aéroport d'Ajaccio porte le nom de qui ?", "qd": "L'aéroport d'Ajaccio porte le nom de… ?", "a": [["","Pascal Paoli"],["","Sainte-Catherine"],["","Poretta"],["","Napoléon Bonaparte"]], "ok": 3, "say": "Ajaccio Napoléon-Bonaparte !", "level": 3},
+  {"q": "Comment s'appelle l'aéroport de Rennes ?", "qd": "Le nom de l'aéroport de Rennes ?", "a": [["","Rennes-Bretagne"],["","Saint-Jacques"],["","Saint-Malo"],["","Saint-Brieuc"]], "ok": 1, "say": "Rennes Saint-Jacques !", "level": 3}
+ ]
+}

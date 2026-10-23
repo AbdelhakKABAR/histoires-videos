@@ -65,7 +65,8 @@
   "La préfecture de chaque département",
   "La fête nationale de chaque pays",
   "La ville de chaque célébrité française",
-  "Les pays d'Europe"
+  "Les pays d'Europe",
+  "L'aéroport et la gare de chaque ville"
  ],
  "a_faire": [
   "Les pays d'Europe",
@@ -95,7 +96,6 @@
   "Les découvertes scientifiques"
  ],
  "a_faire_france": [
-  "L'aéroport et la gare de chaque ville",
   "Le marché de Noël et la fête de chaque ville",
   "La plaque d'immatriculation : quel département ?",
   "Les châteaux de France",
