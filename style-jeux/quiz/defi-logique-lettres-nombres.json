@@ -1,0 +1,28 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : IMPOSSIBLE",
+ "suite": [
+  "2",
+  "4",
+  "5",
+  "6",
+  "4",
+  "3"
+ ],
+ "options": [
+  "2",
+  "5",
+  "4",
+  "7"
+ ],
+ "ok": 2,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche_dite": "Seulement un pour cent des gens trouvent la suite.",
+ "question_dite": "Deux, quatre, cinq, six, quatre, trois… Et ensuite ?",
+ "explication": "Nombre de lettres de UN (2), DEUX (4), TROIS (5), QUATRE (6), CINQ (4), SIX (3) → SEPT (4).",
+ "explication_dite": "Quatre ! C'est le nombre de lettres de un, deux, trois, quatre, cinq, six… et sept a quatre lettres.",
+ "fin": "Tu avais trouvé ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🧩 SUITE LOGIQUE niveau impossible : 2, 4, 5, 6, 4, 3… et ensuite ? Seuls 1 % trouvent ! 👇 #logique #enigme #quiz #suitelogique #cerveau #pourtoi"
+}
