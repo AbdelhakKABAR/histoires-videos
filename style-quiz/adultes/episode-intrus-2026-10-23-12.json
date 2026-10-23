@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, du niveau facile à impossible… attention aux pièges ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : Tokyo, Kyoto, Osaka ou Shanghai ?",
+   "qd": "L'intrus parmi ces villes ?",
+   "a": [
+    [
+     "",
+     "Tokyo"
+    ],
+    [
+     "",
+     "Kyoto"
+    ],
+    [
+     "",
+     "Osaka"
+    ],
+    [
+     "",
+     "Shanghai"
+    ]
+   ],
+   "ok": 3,
+   "say": "Shanghai ! Elle est en Chine, les autres au Japon.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le pigeon, le papillon, le merle ou le moineau ?",
+   "qd": "L'intrus parmi ces animaux ?",
+   "a": [
+    [
+     "",
+     "Le pigeon"
+    ],
+    [
+     "",
+     "Le papillon"
+    ],
+    [
+     "",
+     "Le merle"
+    ],
+    [
+     "",
+     "Le moineau"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le papillon ! C'est un insecte, les autres sont des oiseaux.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le basket, le volley, le golf ou le handball ?",
+   "qd": "L'intrus parmi ces sports ?",
+   "a": [
+    [
+     "",
+     "Le basket"
+    ],
+    [
+     "",
+     "Le volley"
+    ],
+    [
+     "",
+     "Le golf"
+    ],
+    [
+     "",
+     "Le handball"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le golf ! Les trois autres sont des sports d'équipe.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : lent, rapide, vite ou prompt ?",
+   "qd": "L'intrus parmi ces mots ?",
+   "a": [
+    [
+     "",
+     "Lent"
+    ],
+    [
+     "",
+     "Rapide"
+    ],
+    [
+     "",
+     "Vite"
+    ],
+    [
+     "",
+     "Prompt"
+    ]
+   ],
+   "ok": 0,
+   "say": "Lent ! C'est le contraire, les autres veulent dire rapide.",
+   "level": 1
+  },
+  {
+   "q": "Qui est l'intrus : Voltaire, Victor Hugo, Marie Curie ou Charles de Gaulle ?",
+   "qd": "L'intrus parmi ces Français ?",
+   "a": [
+    [
+     "",
+     "Voltaire"
+    ],
+    [
+     "",
+     "Victor Hugo"
+    ],
+    [
+     "",
+     "Marie Curie"
+    ],
+    [
+     "",
+     "Charles de Gaulle"
+    ]
+   ],
+   "ok": 3,
+   "say": "De Gaulle ! Il n'est pas au Panthéon, les trois autres oui.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le cœur, le fémur, le foie ou les poumons ?",
+   "qd": "L'intrus dans le corps humain ?",
+   "a": [
+    [
+     "",
+     "Le cœur"
+    ],
+    [
+     "",
+     "Le fémur"
+    ],
+    [
+     "",
+     "Le foie"
+    ],
+    [
+     "",
+     "Les poumons"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le fémur ! C'est un os, les autres sont des organes.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : la Bolivie, le Paraguay, le Pérou ou la Mongolie ?",
+   "qd": "L'intrus parmi ces pays ?",
+   "a": [
+    [
+     "",
+     "La Bolivie"
+    ],
+    [
+     "",
+     "Le Paraguay"
+    ],
+    [
+     "",
+     "Le Pérou"
+    ],
+    [
+     "",
+     "La Mongolie"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le Pérou ! Il a une côte, les autres n'ont pas accès à la mer.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : le cloporte, la fourmi, la coccinelle ou le criquet ?",
+   "qd": "L'intrus parmi ces petites bêtes ?",
+   "a": [
+    [
+     "",
+     "Le cloporte"
+    ],
+    [
+     "",
+     "La fourmi"
+    ],
+    [
+     "",
+     "La coccinelle"
+    ],
+    [
+     "",
+     "Le criquet"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le cloporte ! C'est un crustacé, les autres sont des insectes.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : Le Radeau de la Méduse, Le Déjeuner sur l'herbe, La Liberté guidant le peuple ou Le Sacre de Napoléon ?",
+   "qd": "L'intrus : quel tableau n'est pas au Louvre ?",
+   "a": [
+    [
+     "",
+     "Le Radeau de la Méduse"
+    ],
+    [
+     "",
+     "Le Déjeuner sur l'herbe"
+    ],
+    [
+     "",
+     "La Liberté guidant le peuple"
+    ],
+    [
+     "",
+     "Le Sacre de Napoléon"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le Déjeuner sur l'herbe ! Il est au musée d'Orsay, les autres au Louvre.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : 37, 53, 91 ou 71 ?",
+   "qd": "L'intrus parmi ces nombres ?",
+   "a": [
+    [
+     "",
+     "37"
+    ],
+    [
+     "",
+     "53"
+    ],
+    [
+     "",
+     "91"
+    ],
+    [
+     "",
+     "71"
+    ]
+   ],
+   "ok": 2,
+   "say": "91 ! C'est 7 fois 13, les autres sont des nombres premiers.",
+   "level": 3
+  }
+ ]
+}
