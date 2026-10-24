@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, du niveau facile à impossible… les pièges arrivent à la fin ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : le hockey sur glace, le curling, le surf ou le ski ?",
+   "qd": "L'intrus parmi ces sports ?",
+   "a": [
+    [
+     "",
+     "Le hockey sur glace"
+    ],
+    [
+     "",
+     "Le curling"
+    ],
+    [
+     "",
+     "Le surf"
+    ],
+    [
+     "",
+     "Le ski"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le surf ! Ce n'est pas un sport d'hiver.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : l'ours polaire, le phoque, le morse ou le chameau ?",
+   "qd": "L'intrus sur la banquise ?",
+   "a": [
+    [
+     "",
+     "L'ours polaire"
+    ],
+    [
+     "",
+     "Le phoque"
+    ],
+    [
+     "",
+     "Le morse"
+    ],
+    [
+     "",
+     "Le chameau"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le chameau ! Il ne vit pas dans les régions polaires.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : l'océan Atlantique, la mer Méditerranée, l'océan Pacifique ou l'océan Indien ?",
+   "qd": "L'intrus parmi ces océans ?",
+   "a": [
+    [
+     "",
+     "L'Atlantique"
+    ],
+    [
+     "",
+     "La Méditerranée"
+    ],
+    [
+     "",
+     "Le Pacifique"
+    ],
+    [
+     "",
+     "L'océan Indien"
+    ]
+   ],
+   "ok": 1,
+   "say": "La Méditerranée ! C'est une mer, pas un océan.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : la sardine, la carpe, le brochet ou la perche ?",
+   "qd": "L'intrus parmi ces poissons ?",
+   "a": [
+    [
+     "",
+     "La sardine"
+    ],
+    [
+     "",
+     "La carpe"
+    ],
+    [
+     "",
+     "Le brochet"
+    ],
+    [
+     "",
+     "La perche"
+    ]
+   ],
+   "ok": 0,
+   "say": "La sardine ! C'est un poisson de mer, les autres vivent en eau douce.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : finir, choisir, grandir ou courir ?",
+   "qd": "L'intrus parmi ces verbes ?",
+   "a": [
+    [
+     "",
+     "Finir"
+    ],
+    [
+     "",
+     "Choisir"
+    ],
+    [
+     "",
+     "Grandir"
+    ],
+    [
+     "",
+     "Courir"
+    ]
+   ],
+   "ok": 3,
+   "say": "Courir ! Il est du troisième groupe, les autres du deuxième.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le Louvre, le château de Versailles, le musée d'Orsay ou le centre Pompidou ?",
+   "qd": "L'intrus parmi ces monuments ?",
+   "a": [
+    [
+     "",
+     "Le Louvre"
+    ],
+    [
+     "",
+     "Versailles"
+    ],
+    [
+     "",
+     "Le musée d'Orsay"
+    ],
+    [
+     "",
+     "Le centre Pompidou"
+    ]
+   ],
+   "ok": 1,
+   "say": "Versailles ! Il n'est pas à Paris, contrairement aux trois autres.",
+   "level": 1
+  },
+  {
+   "q": "Quelle est l'intruse : la Suisse, la Norvège, l'Autriche ou l'Islande ?",
+   "qd": "L'intrus parmi ces pays ?",
+   "a": [
+    [
+     "",
+     "La Suisse"
+    ],
+    [
+     "",
+     "La Norvège"
+    ],
+    [
+     "",
+     "L'Autriche"
+    ],
+    [
+     "",
+     "L'Islande"
+    ]
+   ],
+   "ok": 2,
+   "say": "L'Autriche ! Elle est dans l'Union européenne, pas les trois autres.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : l'humérus, le radius, le tibia ou le cubitus ?",
+   "qd": "L'intrus parmi ces os ?",
+   "a": [
+    [
+     "",
+     "L'humérus"
+    ],
+    [
+     "",
+     "Le radius"
+    ],
+    [
+     "",
+     "Le tibia"
+    ],
+    [
+     "",
+     "Le cubitus"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le tibia ! C'est un os de la jambe, les autres sont dans le bras.",
+   "level": 2
+  },
+  {
+   "q": "Quelle est l'intruse : Mercure, Vénus, la Terre ou Mars ?",
+   "qd": "L'intruse : la rotation ?",
+   "a": [
+    [
+     "",
+     "Mercure"
+    ],
+    [
+     "",
+     "Vénus"
+    ],
+    [
+     "",
+     "La Terre"
+    ],
+    [
+     "",
+     "Mars"
+    ]
+   ],
+   "ok": 1,
+   "say": "Vénus ! Elle tourne sur elle-même dans le sens inverse des trois autres.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : le Danemark, la Finlande, la Suède ou la Norvège ?",
+   "qd": "L'intrus : la langue ?",
+   "a": [
+    [
+     "",
+     "Le Danemark"
+    ],
+    [
+     "",
+     "La Finlande"
+    ],
+    [
+     "",
+     "La Suède"
+    ],
+    [
+     "",
+     "La Norvège"
+    ]
+   ],
+   "ok": 1,
+   "say": "La Finlande ! Le finnois n'est pas une langue germanique, contrairement aux trois autres.",
+   "level": 3
+  }
+ ]
+}
