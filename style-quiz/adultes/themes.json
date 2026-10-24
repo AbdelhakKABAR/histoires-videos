@@ -72,12 +72,12 @@
   "Les jeux vidéo",
   "La plaque d'immatriculation : quel département ?",
   "Le football",
-  "Les châteaux de France"
+  "Les châteaux de France",
+  "La Rome antique"
  ],
  "a_faire": [
   "Les pays d'Europe",
   "Le football",
-  "La Rome antique",
   "Les plantes",
   "L'informatique",
   "Les insectes",
@@ -119,7 +119,6 @@
   "Les records de France"
  ],
  "a_faire_monde": [
-  "La Rome antique",
   "Les plantes",
   "L'informatique",
   "Les insectes",

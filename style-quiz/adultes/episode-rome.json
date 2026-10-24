@@ -1,0 +1,20 @@
+{
+ "title": "La Rome antique", "subject": "Rome antique", "banner": "La Rome antique",
+ "symbols": ["🏛","⚔","🛡","🏺","👑","🐺","🌋","⚱","🗡","🏟","📜","🌿","⚖","🐘","⛵","✦"],
+ "description": "🏛 Quiz Rome antique : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #rome #histoire #antiquite #monde #culturegenerale #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Qui fut le premier empereur romain ?", "qd": "Le premier empereur romain ?", "a": [["","Jules César"],["","Néron"],["","Auguste"],["","Trajan"]], "ok": 2, "say": "Auguste !", "level": 0},
+  {"q": "Selon la légende, quel animal a nourri Romulus et Rémus ?", "qd": "L'animal qui a nourri Romulus et Rémus ?", "a": [["","Une louve"],["","Une ourse"],["","Une chèvre"],["","Une lionne"]], "ok": 0, "say": "Une louve !", "level": 0},
+  {"q": "Quel volcan a détruit Pompéi en l'an 79 ?", "qd": "Le volcan qui a détruit Pompéi ?", "a": [["","L'Etna"],["","Le Vésuve"],["","Le Stromboli"],["","Le Vulcano"]], "ok": 1, "say": "Le Vésuve !", "level": 0},
+  {"q": "En quelle année Jules César a-t-il été assassiné ?", "qd": "L'année de l'assassinat de César ?", "a": [["","27 av. J.-C."],["","14 apr. J.-C."],["","79 apr. J.-C."],["","44 av. J.-C."]], "ok": 3, "say": "44 avant Jésus-Christ !", "level": 1},
+  {"q": "Quel fleuve traverse la ville de Rome ?", "qd": "Le fleuve qui traverse Rome ?", "a": [["","Le Pô"],["","L'Arno"],["","Le Tibre"],["","L'Adige"]], "ok": 2, "say": "Le Tibre !", "level": 1},
+  {"q": "Quel général de Carthage a traversé les Alpes avec des éléphants ?", "qd": "Il a franchi les Alpes avec des éléphants ?", "a": [["","Scipion"],["","Hannibal"],["","Hamilcar"],["","Spartacus"]], "ok": 1, "say": "Hannibal !", "level": 1},
+  {"q": "Quel empereur a fait construire un grand mur en Grande-Bretagne ?", "qd": "L'empereur du mur en Grande-Bretagne ?", "a": [["","Trajan"],["","Marc Aurèle"],["","Caligula"],["","Hadrien"]], "ok": 3, "say": "Hadrien !", "level": 2},
+  {"q": "Quelle bataille navale, en 31 avant Jésus-Christ, voit Octave battre Antoine et Cléopâtre ?", "qd": "Octave bat Antoine et Cléopâtre en 31 av. J.-C. ?", "a": [["","Actium"],["","Pharsale"],["","Zama"],["","Alésia"]], "ok": 0, "say": "Actium !", "level": 2},
+  {"q": "Quel empereur d'Occident a été déposé par Odoacre en 476 ?", "qd": "L'empereur déposé par Odoacre en 476 ?", "a": [["","Constantin"],["","Théodose"],["","Romulus Augustule"],["","Justinien"]], "ok": 2, "say": "Romulus Augustule !", "level": 3},
+  {"q": "Quel était le port de Rome, à l'embouchure du Tibre ?", "qd": "Le port de Rome sur l'embouchure du Tibre ?", "a": [["","Ostie"],["","Brindisi"],["","Ravenne"],["","Misène"]], "ok": 0, "say": "Ostie !", "level": 3}
+ ]
+}
