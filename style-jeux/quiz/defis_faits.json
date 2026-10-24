@@ -5,7 +5,8 @@
   "BRAILLE",
   "PÉTRA",
   "MONTGOLFIÈRE",
-  "CARCASSONNE"
+  "CARCASSONNE",
+  "ROQUEFORT"
  ],
  "suites": [
   "1, 11, 21, 1211, 111221 (suite de Conway)",

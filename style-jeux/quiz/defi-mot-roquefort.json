@@ -1,0 +1,20 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : IMPOSSIBLE",
+ "mot": "ROQUEFORT",
+ "categorie": "Un trésor de la cuisine française",
+ "categorie_dite": "Catégorie : un trésor de la cuisine française.",
+ "accroche_dite": "Seulement un pour cent des gens trouvent ce mot mystère.",
+ "indices": [
+  "On le fabrique dans l'Aveyron.",
+  "Il mûrit dans les caves du mont Combalou.",
+  "En 1925, il est le premier fromage AOC."
+ ],
+ "lettres_donnees": 2,
+ "dire": "Roquefort",
+ "explication": "Le roquefort, fromage de brebis affiné dans les caves de Roquefort-sur-Soulzon.",
+ "fin": "Tu l'avais trouvé ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu l'avais trouvé ?",
+ "description": "🔤 MOT MYSTÈRE niveau impossible : 3 indices pour trouver ce trésor français. Tu l'as trouvé ? 👇 #motmystere #quiz #france #enigme #culturegenerale #fromage #pourtoi"
+}
