@@ -69,7 +69,8 @@
   "L'aéroport et la gare de chaque ville",
   "Les monuments du monde",
   "Le marché de Noël et la fête de chaque ville",
-  "Les jeux vidéo"
+  "Les jeux vidéo",
+  "La plaque d'immatriculation : quel département ?"
  ],
  "a_faire": [
   "Les pays d'Europe",
@@ -97,7 +98,6 @@
   "Les découvertes scientifiques"
  ],
  "a_faire_france": [
-  "La plaque d'immatriculation : quel département ?",
   "Les châteaux de France",
   "Les inventions françaises",
   "Le sport français",

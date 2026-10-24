@@ -1,0 +1,285 @@
+{
+ "title": "La plaque d'immatriculation : quel département ?",
+ "subject": "Plaques",
+ "banner": "Plaque : quel département ?",
+ "symbols": [
+  "🚗",
+  "🚙",
+  "🇫🇷",
+  "🗺",
+  "📍",
+  "🔢",
+  "🛣",
+  "🚘",
+  "🏁",
+  "⛽",
+  "🚦",
+  "🏙",
+  "⛰",
+  "⚓",
+  "🌻",
+  "🧭"
+ ],
+ "description": "🚗 Quiz France : le numéro sur la plaque d'immatriculation, c'est quel département ? Du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #france #departements #plaque #immatriculation #geographie #culturegenerale #quiztime #defi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Plaque 44 : quel département ?",
+   "qd": "Plaque 44 : quel département ?",
+   "a": [
+    [
+     "",
+     "Maine-et-Loire"
+    ],
+    [
+     "",
+     "Vendée"
+    ],
+    [
+     "",
+     "Loire-Atlantique"
+    ],
+    [
+     "",
+     "Loire"
+    ]
+   ],
+   "ok": 2,
+   "say": "La Loire-Atlantique !",
+   "level": 0
+  },
+  {
+   "q": "Plaque 34 : quel département ?",
+   "qd": "Plaque 34 : quel département ?",
+   "a": [
+    [
+     "",
+     "Hérault"
+    ],
+    [
+     "",
+     "Gard"
+    ],
+    [
+     "",
+     "Aude"
+    ],
+    [
+     "",
+     "Var"
+    ]
+   ],
+   "ok": 0,
+   "say": "L'Hérault !",
+   "level": 0
+  },
+  {
+   "q": "Plaque 74 : quel département ?",
+   "qd": "Plaque 74 : quel département ?",
+   "a": [
+    [
+     "",
+     "Savoie"
+    ],
+    [
+     "",
+     "Haute-Savoie"
+    ],
+    [
+     "",
+     "Isère"
+    ],
+    [
+     "",
+     "Ain"
+    ]
+   ],
+   "ok": 1,
+   "say": "La Haute-Savoie !",
+   "level": 0
+  },
+  {
+   "q": "Plaque 29 : quel département ?",
+   "qd": "Plaque 29 : quel département ?",
+   "a": [
+    [
+     "",
+     "Morbihan"
+    ],
+    [
+     "",
+     "Côtes-d'Armor"
+    ],
+    [
+     "",
+     "Manche"
+    ],
+    [
+     "",
+     "Finistère"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le Finistère !",
+   "level": 1
+  },
+  {
+   "q": "Plaque 57 : quel département ?",
+   "qd": "Plaque 57 : quel département ?",
+   "a": [
+    [
+     "",
+     "Meuse"
+    ],
+    [
+     "",
+     "Moselle"
+    ],
+    [
+     "",
+     "Meurthe-et-Moselle"
+    ],
+    [
+     "",
+     "Vosges"
+    ]
+   ],
+   "ok": 1,
+   "say": "La Moselle !",
+   "level": 1
+  },
+  {
+   "q": "Plaque 64 : quel département ?",
+   "qd": "Plaque 64 : quel département ?",
+   "a": [
+    [
+     "",
+     "Landes"
+    ],
+    [
+     "",
+     "Hautes-Pyrénées"
+    ],
+    [
+     "",
+     "Pyrénées-Atlantiques"
+    ],
+    [
+     "",
+     "Gers"
+    ]
+   ],
+   "ok": 2,
+   "say": "Les Pyrénées-Atlantiques !",
+   "level": 1
+  },
+  {
+   "q": "Plaque 23 : quel département ?",
+   "qd": "Plaque 23 : quel département ?",
+   "a": [
+    [
+     "",
+     "Creuse"
+    ],
+    [
+     "",
+     "Corrèze"
+    ],
+    [
+     "",
+     "Cher"
+    ],
+    [
+     "",
+     "Haute-Vienne"
+    ]
+   ],
+   "ok": 0,
+   "say": "La Creuse !",
+   "level": 2
+  },
+  {
+   "q": "Plaque 52 : quel département ?",
+   "qd": "Plaque 52 : quel département ?",
+   "a": [
+    [
+     "",
+     "Marne"
+    ],
+    [
+     "",
+     "Aube"
+    ],
+    [
+     "",
+     "Haute-Saône"
+    ],
+    [
+     "",
+     "Haute-Marne"
+    ]
+   ],
+   "ok": 3,
+   "say": "La Haute-Marne !",
+   "level": 2
+  },
+  {
+   "q": "Plaque 90 : quel département ?",
+   "qd": "Plaque 90 : quel département ?",
+   "a": [
+    [
+     "",
+     "Doubs"
+    ],
+    [
+     "",
+     "Territoire de Belfort"
+    ],
+    [
+     "",
+     "Haut-Rhin"
+    ],
+    [
+     "",
+     "Haute-Saône"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le Territoire de Belfort !",
+   "level": 3
+  },
+  {
+   "q": "Plaque 973 : quel département ?",
+   "qd": "Plaque 973 : quel département ?",
+   "a": [
+    [
+     "",
+     "Martinique"
+    ],
+    [
+     "",
+     "La Réunion"
+    ],
+    [
+     "",
+     "Guadeloupe"
+    ],
+    [
+     "",
+     "Guyane"
+    ]
+   ],
+   "ok": 3,
+   "say": "La Guyane !",
+   "level": 3
+  }
+ ]
+}
