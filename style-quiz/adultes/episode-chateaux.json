@@ -1,0 +1,20 @@
+{
+ "title": "Les châteaux de France", "subject": "Châteaux", "banner": "Les châteaux de France",
+ "symbols": ["🏰","👑","⚜","🗝","🛡","⚔","🌹","🕯","🏯","✦","🦢","🌳","⛲","🐎","✧","🇫🇷"],
+ "description": "🏰 Quiz Châteaux de France : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #chateaux #histoire #patrimoine #culturegenerale #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel château possède la célèbre galerie des Glaces ?", "qd": "Le château de la galerie des Glaces ?", "a": [["","Chambord"],["","Fontainebleau"],["","Versailles"],["","Chenonceau"]], "ok": 2, "say": "Versailles !", "level": 0},
+  {"q": "Quel château est construit au-dessus de la rivière du Cher ?", "qd": "Le château qui enjambe le Cher ?", "a": [["","Chenonceau"],["","Amboise"],["","Blois"],["","Chambord"]], "ok": 0, "say": "Chenonceau !", "level": 0},
+  {"q": "Quel roi installe la cour à Versailles en 1682 ?", "qd": "Qui installe la cour à Versailles ?", "a": [["","Louis XIII"],["","Louis XIV"],["","Henri IV"],["","Louis XV"]], "ok": 1, "say": "Louis XIV !", "level": 0},
+  {"q": "Quel est le plus grand château de la Loire ?", "qd": "Le plus grand château de la Loire ?", "a": [["","Amboise"],["","Cheverny"],["","Chenonceau"],["","Chambord"]], "ok": 3, "say": "Chambord !", "level": 1},
+  {"q": "Quel roi a fait construire le château de Chambord ?", "qd": "Qui a fait bâtir Chambord ?", "a": [["","Louis XII"],["","François Ier"],["","Henri II"],["","Charles VIII"]], "ok": 1, "say": "François Premier !", "level": 1},
+  {"q": "Dans quelle région se trouve le château du Haut-Kœnigsbourg ?", "qd": "Où est le Haut-Kœnigsbourg ?", "a": [["","En Alsace"],["","En Lorraine"],["","En Bourgogne"],["","En Savoie"]], "ok": 0, "say": "En Alsace !", "level": 1},
+  {"q": "Quel château Napoléon appelait-il « la maison des siècles » ?", "qd": "« La maison des siècles » selon Napoléon ?", "a": [["","Versailles"],["","Malmaison"],["","Fontainebleau"],["","Compiègne"]], "ok": 2, "say": "Fontainebleau !", "level": 2},
+  {"q": "Pour quel ministre le château de Vaux-le-Vicomte a-t-il été construit ?", "qd": "Vaux-le-Vicomte, bâti pour quel ministre ?", "a": [["","Colbert"],["","Mazarin"],["","Louvois"],["","Fouquet"]], "ok": 3, "say": "Nicolas Fouquet !", "level": 2},
+  {"q": "Dans quel château est né le roi Henri IV ?", "qd": "Le château natal d'Henri IV ?", "a": [["","Château de Nérac"],["","Château de Pau"],["","Château de Blois"],["","Château d'Amboise"]], "ok": 1, "say": "Au château de Pau !", "level": 3},
+  {"q": "Dans quel château François Ier a-t-il signé l'ordonnance imposant le français en 1539 ?", "qd": "L'ordonnance de 1539 signée où ?", "a": [["","Fontainebleau"],["","Blois"],["","Villers-Cotterêts"],["","Amboise"]], "ok": 2, "say": "Villers-Cotterêts !", "level": 3}
+ ]
+}
