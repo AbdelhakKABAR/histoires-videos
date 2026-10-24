@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, du niveau facile à impossible… les pièges arrivent à la fin ! Combien en as-tu trouvé ? 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : le football, le basket-ball, le handball ou le judo ?",
+   "qd": "L'intrus parmi ces sports ?",
+   "a": [
+    [
+     "",
+     "Le football"
+    ],
+    [
+     "",
+     "Le basket-ball"
+    ],
+    [
+     "",
+     "Le handball"
+    ],
+    [
+     "",
+     "Le judo"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le judo ! C'est le seul qui se pratique sans ballon.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : la pomme, le brocoli, la banane ou la fraise ?",
+   "qd": "L'intrus parmi ces aliments ?",
+   "a": [
+    [
+     "",
+     "La pomme"
+    ],
+    [
+     "",
+     "Le brocoli"
+    ],
+    [
+     "",
+     "La banane"
+    ],
+    [
+     "",
+     "La fraise"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le brocoli ! C'est un légume, les autres sont des fruits.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le bleu, le blanc, le vert ou le rouge ?",
+   "qd": "L'intrus du drapeau français ?",
+   "a": [
+    [
+     "",
+     "Le bleu"
+    ],
+    [
+     "",
+     "Le blanc"
+    ],
+    [
+     "",
+     "Le vert"
+    ],
+    [
+     "",
+     "Le rouge"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le vert ! Il n'est pas sur le drapeau français.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : Göteborg, Oslo, Stockholm ou Copenhague ?",
+   "qd": "L'intruse parmi ces villes ?",
+   "a": [
+    [
+     "",
+     "Göteborg"
+    ],
+    [
+     "",
+     "Oslo"
+    ],
+    [
+     "",
+     "Stockholm"
+    ],
+    [
+     "",
+     "Copenhague"
+    ]
+   ],
+   "ok": 0,
+   "say": "Göteborg ! Ce n'est pas une capitale.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : manger, chanter, aller ou danser ?",
+   "qd": "L'intrus parmi ces verbes ?",
+   "a": [
+    [
+     "",
+     "Manger"
+    ],
+    [
+     "",
+     "Chanter"
+    ],
+    [
+     "",
+     "Aller"
+    ],
+    [
+     "",
+     "Danser"
+    ]
+   ],
+   "ok": 2,
+   "say": "Aller ! Il est du troisième groupe, les autres du premier.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le crocodile, l'alligator, le caïman ou l'iguane ?",
+   "qd": "L'intrus parmi ces reptiles ?",
+   "a": [
+    [
+     "",
+     "Le crocodile"
+    ],
+    [
+     "",
+     "L'alligator"
+    ],
+    [
+     "",
+     "Le caïman"
+    ],
+    [
+     "",
+     "L'iguane"
+    ]
+   ],
+   "ok": 3,
+   "say": "L'iguane ! C'est un lézard, pas un crocodilien.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : l'hélium, le néon, l'argon ou l'azote ?",
+   "qd": "L'intrus parmi ces gaz ?",
+   "a": [
+    [
+     "",
+     "L'hélium"
+    ],
+    [
+     "",
+     "Le néon"
+    ],
+    [
+     "",
+     "L'argon"
+    ],
+    [
+     "",
+     "L'azote"
+    ]
+   ],
+   "ok": 3,
+   "say": "L'azote ! Ce n'est pas un gaz noble.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : le Penseur, la Vénus de Milo, le Discobole ou la Victoire de Samothrace ?",
+   "qd": "L'intrus parmi ces sculptures ?",
+   "a": [
+    [
+     "",
+     "Le Penseur"
+    ],
+    [
+     "",
+     "La Vénus de Milo"
+    ],
+    [
+     "",
+     "Le Discobole"
+    ],
+    [
+     "",
+     "La Victoire de Samothrace"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le Penseur ! C'est une œuvre de Rodin, les autres sont des sculptures grecques antiques.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : le Brésil, le Kenya, le Nigeria ou l'Indonésie ?",
+   "qd": "L'intrus : la géographie ?",
+   "a": [
+    [
+     "",
+     "Le Brésil"
+    ],
+    [
+     "",
+     "Le Kenya"
+    ],
+    [
+     "",
+     "Le Nigeria"
+    ],
+    [
+     "",
+     "L'Indonésie"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le Nigeria ! L'équateur ne le traverse pas, contrairement aux trois autres.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : le cheval, l'hippopotame, le rhinocéros ou le tapir ?",
+   "qd": "L'intrus : la famille ?",
+   "a": [
+    [
+     "",
+     "Le cheval"
+    ],
+    [
+     "",
+     "L'hippopotame"
+    ],
+    [
+     "",
+     "Le rhinocéros"
+    ],
+    [
+     "",
+     "Le tapir"
+    ]
+   ],
+   "ok": 1,
+   "say": "L'hippopotame ! Les trois autres sont des périssodactyles, des ongulés à doigts impairs.",
+   "level": 3
+  }
+ ]
+}
