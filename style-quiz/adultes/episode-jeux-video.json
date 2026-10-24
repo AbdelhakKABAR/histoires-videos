@@ -1,0 +1,20 @@
+{
+ "title": "Les jeux vidéo", "subject": "Jeux vidéo", "banner": "Les jeux vidéo",
+ "symbols": ["🎮","🕹","👾","⭐","🍄","💎","🏆","❤","⚔","🛡","🪙","👑","🎯","⚡","🌀","🏁"],
+ "description": "🎮 Quiz Jeux vidéo : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #jeuxvideo #gaming #retrogaming #monde #culturegenerale #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Comment s'appelle le célèbre plombier moustachu de Nintendo ?", "qd": "Le plombier moustachu de Nintendo ?", "a": [["","Luigi"],["","Mario"],["","Wario"],["","Link"]], "ok": 1, "say": "Mario !", "level": 0},
+  {"q": "Dans quel jeu faut-il empiler des pièces qui tombent pour compléter des lignes ?", "qd": "Le jeu où on empile des pièces qui tombent ?", "a": [["","Tetris"],["","Pac-Man"],["","Minecraft"],["","Pong"]], "ok": 0, "say": "Tetris !", "level": 0},
+  {"q": "Comment s'appelle le hérisson bleu de Sega ?", "qd": "Le hérisson bleu de Sega ?", "a": [["","Crash"],["","Spyro"],["","Sonic"],["","Rayman"]], "ok": 2, "say": "Sonic !", "level": 0},
+  {"q": "Quelle entreprise fabrique la PlayStation ?", "qd": "Qui fabrique la PlayStation ?", "a": [["","Nintendo"],["","Microsoft"],["","Sega"],["","Sony"]], "ok": 3, "say": "Sony !", "level": 1},
+  {"q": "Comment s'appelle le héros de la série The Legend of Zelda ?", "qd": "Le héros de The Legend of Zelda ?", "a": [["","Zelda"],["","Link"],["","Ganon"],["","Navi"]], "ok": 1, "say": "Link !", "level": 1},
+  {"q": "Quel jeu d'Atari de 1972 imite le tennis de table ?", "qd": "Le jeu Atari de 1972 façon ping-pong ?", "a": [["","Pong"],["","Breakout"],["","Asteroids"],["","Space Invaders"]], "ok": 0, "say": "Pong !", "level": 1},
+  {"q": "Dans quel pays le jeu Tetris a-t-il été créé ?", "qd": "Le pays où Tetris a été créé ?", "a": [["","Le Japon"],["","Les États-Unis"],["","L'URSS"],["","La Corée du Sud"]], "ok": 2, "say": "En URSS, à Moscou !", "level": 2},
+  {"q": "Quelle entreprise française a créé Rayman ?", "qd": "L'entreprise française qui a créé Rayman ?", "a": [["","Infogrames"],["","Ubisoft"],["","Quantic Dream"],["","Dotemu"]], "ok": 1, "say": "Ubisoft !", "level": 2},
+  {"q": "Comment s'appelait Mario dans le jeu Donkey Kong de 1981 ?", "qd": "Le nom de Mario dans Donkey Kong (1981) ?", "a": [["","Mister Video"],["","Super Man"],["","Plumber"],["","Jumpman"]], "ok": 3, "say": "Jumpman !", "level": 3},
+  {"q": "Quel était le nom d'origine de Pac-Man au Japon ?", "qd": "Le nom d'origine de Pac-Man au Japon ?", "a": [["","Pac-Kun"],["","Puck-Man"],["","Paku-Paku"],["","Munch-Man"]], "ok": 1, "say": "Puck-Man !", "level": 3}
+ ]
+}

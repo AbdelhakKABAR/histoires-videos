@@ -68,11 +68,11 @@
   "Les pays d'Europe",
   "L'aéroport et la gare de chaque ville",
   "Les monuments du monde",
-  "Le marché de Noël et la fête de chaque ville"
+  "Le marché de Noël et la fête de chaque ville",
+  "Les jeux vidéo"
  ],
  "a_faire": [
   "Les pays d'Europe",
-  "Les jeux vidéo",
   "Le football",
   "La Rome antique",
   "Les plantes",
@@ -118,7 +118,6 @@
   "Les records de France"
  ],
  "a_faire_monde": [
-  "Les jeux vidéo",
   "Le football",
   "La Rome antique",
   "Les plantes",
