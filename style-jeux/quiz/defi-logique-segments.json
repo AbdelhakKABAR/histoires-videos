@@ -1,0 +1,27 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : IMPOSSIBLE",
+ "suite": [
+  "6",
+  "2",
+  "5",
+  "5",
+  "4"
+ ],
+ "options": [
+  "6",
+  "3",
+  "5",
+  "7"
+ ],
+ "ok": 2,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche_dite": "Seulement un pour cent des gens trouvent la suite.",
+ "question_dite": "Six, deux, cinq, cinq, quatre… Et ensuite ?",
+ "explication": "Segments allumés pour écrire 0 (6), 1 (2), 2 (5), 3 (5), 4 (4) sur un écran digital → 5 (5).",
+ "explication_dite": "Cinq ! C'est le nombre de traits allumés pour afficher zéro, un, deux, trois, quatre sur un écran digital… et le cinq en utilise cinq.",
+ "fin": "Tu avais trouvé ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🧩 SUITE LOGIQUE niveau impossible : 6, 2, 5, 5, 4… et ensuite ? Seuls 1 % trouvent ! 👇 #logique #enigme #quiz #suitelogique #cerveau #pourtoi"
+}
