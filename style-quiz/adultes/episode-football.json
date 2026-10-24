@@ -1,0 +1,20 @@
+{
+ "title": "Le football", "subject": "Football", "banner": "Le football",
+ "symbols": ["⚽","🥅","🏆","🏟","👟","🧤","🟨","🟥","⏱","🎽","🥇","📣","⭐","🏁","🌍","✦"],
+ "description": "⚽ Quiz Football : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #football #foot #monde #culturegenerale #question #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Combien de joueurs compte une équipe sur le terrain ?", "qd": "Joueurs par équipe sur le terrain ?", "a": [["","9"],["","10"],["","11"],["","12"]], "ok": 2, "say": "Onze joueurs !", "level": 0},
+  {"q": "Quel pays a remporté la Coupe du monde 2018 ?", "qd": "Le champion du monde 2018 ?", "a": [["","La Croatie"],["","La France"],["","La Belgique"],["","Le Brésil"]], "ok": 1, "say": "La France !", "level": 0},
+  {"q": "Combien de temps dure un match, sans les prolongations ?", "qd": "Durée d'un match, sans prolongations ?", "a": [["","90 minutes"],["","80 minutes"],["","100 minutes"],["","120 minutes"]], "ok": 0, "say": "Quatre-vingt-dix minutes !", "level": 0},
+  {"q": "Dans quel pays s'est jouée la toute première Coupe du monde, en 1930 ?", "qd": "Le pays de la 1re Coupe du monde (1930) ?", "a": [["","Le Brésil"],["","L'Italie"],["","La France"],["","L'Uruguay"]], "ok": 3, "say": "L'Uruguay !", "level": 1},
+  {"q": "Quel club français a gagné la Ligue des champions en 1993 ?", "qd": "Vainqueur français de la C1 en 1993 ?", "a": [["","Marseille"],["","Paris SG"],["","Lyon"],["","Monaco"]], "ok": 0, "say": "L'Olympique de Marseille !", "level": 1},
+  {"q": "À quelle distance du but se trouve le point de penalty ?", "qd": "Distance du point de penalty ?", "a": [["","9 mètres"],["","11 mètres"],["","16,5 mètres"],["","20 mètres"]], "ok": 1, "say": "Onze mètres !", "level": 1},
+  {"q": "En quelle année les cartons jaune et rouge sont-ils apparus en Coupe du monde ?", "qd": "1re Coupe du monde avec cartons ?", "a": [["","1954"],["","1966"],["","1970"],["","1982"]], "ok": 2, "say": "En 1970, au Mexique !", "level": 2},
+  {"q": "Quel pays a gagné le tout premier Championnat d'Europe, en 1960 ?", "qd": "Le 1er champion d'Europe (1960) ?", "a": [["","L'Espagne"],["","La Yougoslavie"],["","La France"],["","L'URSS"]], "ok": 3, "say": "L'URSS !", "level": 2},
+  {"q": "Quel est le plus vieux club de football du monde, reconnu par la FIFA ?", "qd": "Le plus vieux club du monde ?", "a": [["","Notts County"],["","Sheffield FC"],["","Hallam FC"],["","Queen's Park"]], "ok": 1, "say": "Sheffield FC, fondé en 1857 !", "level": 3},
+  {"q": "Quelle est la circonférence officielle d'un ballon de match ?", "qd": "Circonférence officielle du ballon ?", "a": [["","68 à 70 cm"],["","60 à 62 cm"],["","74 à 76 cm"],["","64 à 66 cm"]], "ok": 0, "say": "Entre soixante-huit et soixante-dix centimètres !", "level": 3}
+ ]
+}
