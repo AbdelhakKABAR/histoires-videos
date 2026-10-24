@@ -67,7 +67,8 @@
   "La ville de chaque célébrité française",
   "Les pays d'Europe",
   "L'aéroport et la gare de chaque ville",
-  "Les monuments du monde"
+  "Les monuments du monde",
+  "Le marché de Noël et la fête de chaque ville"
  ],
  "a_faire": [
   "Les pays d'Europe",
@@ -96,7 +97,6 @@
   "Les découvertes scientifiques"
  ],
  "a_faire_france": [
-  "Le marché de Noël et la fête de chaque ville",
   "La plaque d'immatriculation : quel département ?",
   "Les châteaux de France",
   "Les inventions françaises",

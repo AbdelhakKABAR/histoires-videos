@@ -1,0 +1,20 @@
+{
+ "title": "Le marché de Noël et la fête de chaque ville", "subject": "Fêtes de France", "banner": "La fête de chaque ville",
+ "symbols": ["🎄","🎆","🎉","🎭","🕯","⭐","🎪","🍋","🎬","🥁","✨","🎠","❄","🎊","🔔","🏮"],
+ "description": "🎄 Quiz France : à quelle ville appartient chaque fête ? Marché de Noël, carnaval, festivals… 10 questions du niveau facile à impossible. Donne ton score en commentaire 👇 #quiz #quiztime #france #fetes #marchedenoel #villesdefrance #culturegenerale #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Dans quelle ville a lieu la Fête des Lumières, chaque 8 décembre ?", "qd": "La Fête des Lumières du 8 décembre ?", "a": [["","Marseille"],["","Lyon"],["","Lille"],["","Bordeaux"]], "ok": 1, "say": "Lyon !", "level": 0},
+  {"q": "Quelle ville accueille le célèbre festival du film, chaque mois de mai ?", "qd": "Le festival du film de mai ?", "a": [["","Cannes"],["","Nice"],["","Deauville"],["","Antibes"]], "ok": 0, "say": "Cannes !", "level": 0},
+  {"q": "Quelle ville se surnomme la capitale de Noël, grâce à son marché de Noël ?", "qd": "La « capitale de Noël » ?", "a": [["","Colmar"],["","Metz"],["","Strasbourg"],["","Mulhouse"]], "ok": 2, "say": "Strasbourg !", "level": 0},
+  {"q": "Quelle ville organise la Grande Braderie, début septembre ?", "qd": "La Grande Braderie de septembre ?", "a": [["","Amiens"],["","Rouen"],["","Reims"],["","Lille"]], "ok": 3, "say": "Lille !", "level": 1},
+  {"q": "Quelle ville organise un carnaval célèbre pour sa bataille de fleurs ?", "qd": "Le carnaval et sa bataille de fleurs ?", "a": [["","Toulon"],["","Nice"],["","Montpellier"],["","Perpignan"]], "ok": 1, "say": "Nice !", "level": 1},
+  {"q": "Dans quelle ville fait-on la fête tout en blanc et rouge, fin juillet ?", "qd": "Les fêtes en blanc et rouge de juillet ?", "a": [["","Bayonne"],["","Pau"],["","Biarritz"],["","Dax"]], "ok": 0, "say": "Bayonne !", "level": 1},
+  {"q": "Dans quelle ville a lieu la Fête du Citron ?", "qd": "La Fête du Citron ?", "a": [["","Hyères"],["","Antibes"],["","Menton"],["","Grasse"]], "ok": 2, "say": "Menton !", "level": 2},
+  {"q": "Quelle ville accueille le Festival interceltique, chaque mois d'août ?", "qd": "Le Festival interceltique d'août ?", "a": [["","Brest"],["","Quimper"],["","Vannes"],["","Lorient"]], "ok": 3, "say": "Lorient !", "level": 2},
+  {"q": "Quelle ville accueille la Foire aux santons, créée en 1803 ?", "qd": "La Foire aux santons de 1803 ?", "a": [["","Marseille"],["","Avignon"],["","Aix-en-Provence"],["","Arles"]], "ok": 0, "say": "Marseille !", "level": 3},
+  {"q": "Quelle ville accueille le plus grand festival du court métrage au monde ?", "qd": "Le plus grand festival du court métrage ?", "a": [["","Annecy"],["","Clermont-Ferrand"],["","Angoulême"],["","Limoges"]], "ok": 1, "say": "Clermont-Ferrand !", "level": 3}
+ ]
+}
