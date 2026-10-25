@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, du niveau facile à impossible… attention aux pièges ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : Londres, Madrid, Barcelone ou Rome ?",
+   "qd": "L'intrus parmi ces villes ?",
+   "a": [
+    [
+     "",
+     "Londres"
+    ],
+    [
+     "",
+     "Barcelone"
+    ],
+    [
+     "",
+     "Madrid"
+    ],
+    [
+     "",
+     "Rome"
+    ]
+   ],
+   "ok": 1,
+   "say": "Barcelone ! Ce n'est pas une capitale.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le chat, le tigre, le chien ou le lion ?",
+   "qd": "L'intrus parmi ces animaux ?",
+   "a": [
+    [
+     "",
+     "Le chat"
+    ],
+    [
+     "",
+     "Le tigre"
+    ],
+    [
+     "",
+     "Le lion"
+    ],
+    [
+     "",
+     "Le chien"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le chien ! Les autres sont des félins.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : l'Asie, le Pacifique, l'Afrique ou l'Europe ?",
+   "qd": "L'intrus sur la carte ?",
+   "a": [
+    [
+     "",
+     "Le Pacifique"
+    ],
+    [
+     "",
+     "L'Asie"
+    ],
+    [
+     "",
+     "L'Afrique"
+    ],
+    [
+     "",
+     "L'Europe"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le Pacifique ! C'est un océan, pas un continent.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : jeu, cheveu, pneu ou feu ?",
+   "qd": "L'intrus au pluriel ?",
+   "a": [
+    [
+     "",
+     "Jeu"
+    ],
+    [
+     "",
+     "Cheveu"
+    ],
+    [
+     "",
+     "Pneu"
+    ],
+    [
+     "",
+     "Feu"
+    ]
+   ],
+   "ok": 2,
+   "say": "Pneu ! Il prend un S au pluriel, les autres un X.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le fer, le cuivre, l'argent ou le mercure ?",
+   "qd": "L'intrus parmi ces métaux ?",
+   "a": [
+    [
+     "",
+     "Le fer"
+    ],
+    [
+     "",
+     "Le mercure"
+    ],
+    [
+     "",
+     "Le cuivre"
+    ],
+    [
+     "",
+     "L'argent"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le mercure ! Il est liquide à température ambiante.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le camembert, le brie, le gorgonzola ou le comté ?",
+   "qd": "L'intrus au plateau de fromages ?",
+   "a": [
+    [
+     "",
+     "Le camembert"
+    ],
+    [
+     "",
+     "Le brie"
+    ],
+    [
+     "",
+     "Le comté"
+    ],
+    [
+     "",
+     "Le gorgonzola"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le gorgonzola ! Il est italien, les autres sont français.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : la baleine, le dauphin, le lamantin ou le cachalot ?",
+   "qd": "L'intrus parmi ces géants des mers ?",
+   "a": [
+    [
+     "",
+     "La baleine"
+    ],
+    [
+     "",
+     "Le dauphin"
+    ],
+    [
+     "",
+     "Le lamantin"
+    ],
+    [
+     "",
+     "Le cachalot"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le lamantin ! Ce n'est pas un cétacé, c'est un sirénien.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : le maïs, le soja, la lentille ou le haricot ?",
+   "qd": "L'intrus au potager ?",
+   "a": [
+    [
+     "",
+     "Le maïs"
+    ],
+    [
+     "",
+     "Le soja"
+    ],
+    [
+     "",
+     "La lentille"
+    ],
+    [
+     "",
+     "Le haricot"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le maïs ! C'est une céréale, les autres sont des légumineuses.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : le fer, le nickel, le cuivre ou le cobalt ?",
+   "qd": "L'intrus face à l'aimant ?",
+   "a": [
+    [
+     "",
+     "Le fer"
+    ],
+    [
+     "",
+     "Le nickel"
+    ],
+    [
+     "",
+     "Le cobalt"
+    ],
+    [
+     "",
+     "Le cuivre"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le cuivre ! Il n'est pas attiré par un aimant, contrairement aux trois autres.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : Le Radeau de la Méduse, Les Ménines, La Liberté guidant le peuple ou Le Sacre de Napoléon ?",
+   "qd": "L'intrus parmi ces tableaux ?",
+   "a": [
+    [
+     "",
+     "Le Radeau de la Méduse"
+    ],
+    [
+     "",
+     "La Liberté guidant le peuple"
+    ],
+    [
+     "",
+     "Les Ménines"
+    ],
+    [
+     "",
+     "Le Sacre de Napoléon"
+    ]
+   ],
+   "ok": 2,
+   "say": "Les Ménines ! C'est un tableau espagnol de Vélasquez, les autres sont de peintres français.",
+   "level": 3
+  }
+ ]
+}
