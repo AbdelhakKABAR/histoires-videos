@@ -1,0 +1,20 @@
+{
+ "title": "Les plantes", "subject": "Plantes", "banner": "Les plantes",
+ "symbols": ["🌱","🌿","🍀","🌵","🌻","🌷","🌹","🌳","🌲","🍃","🌸","🌾","🌼","🪴","🍁","🌴"],
+ "description": "🌿 Quiz Les plantes : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #plantes #nature #monde #culturegenerale #question #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel gaz les plantes absorbent-elles pour faire la photosynthèse ?", "qd": "Le gaz absorbé pour la photosynthèse ?", "a": [["","L'oxygène"],["","Le dioxyde de carbone"],["","L'azote"],["","L'hélium"]], "ok": 1, "say": "Le dioxyde de carbone !", "level": 0},
+  {"q": "Quel pigment donne leur couleur verte aux feuilles ?", "qd": "Le pigment vert des feuilles ?", "a": [["","La chlorophylle"],["","La mélanine"],["","L'hémoglobine"],["","Le carotène"]], "ok": 0, "say": "La chlorophylle !", "level": 0},
+  {"q": "De quelle plante vient le chocolat ?", "qd": "La plante du chocolat ?", "a": [["","Le caféier"],["","Le théier"],["","Le cacaoyer"],["","Le vanillier"]], "ok": 2, "say": "Le cacaoyer !", "level": 0},
+  {"q": "À quelle famille de plantes appartient le bambou ?", "qd": "La famille du bambou ?", "a": [["","Les fougères"],["","Les graminées"],["","Les cactus"],["","Les conifères"]], "ok": 1, "say": "Les graminées, comme le blé !", "level": 1},
+  {"q": "De quelle plante tire-t-on la tequila ?", "qd": "La plante de la tequila ?", "a": [["","Le cactus"],["","Le maïs"],["","La canne à sucre"],["","L'agave"]], "ok": 3, "say": "L'agave !", "level": 1},
+  {"q": "Quelle partie de la fleur produit le pollen ?", "qd": "La partie qui produit le pollen ?", "a": [["","L'étamine"],["","Le pistil"],["","Le sépale"],["","La corolle"]], "ok": 0, "say": "L'étamine !", "level": 1},
+  {"q": "Quelle plante a la plus grande fleur du monde ?", "qd": "La plus grande fleur du monde ?", "a": [["","Le lotus"],["","Le tournesol"],["","La rafflésie"],["","Le magnolia"]], "ok": 2, "say": "La rafflésie !", "level": 2},
+  {"q": "De quelle fleur provient le safran ?", "qd": "La fleur du safran ?", "a": [["","Le pavot"],["","La tulipe"],["","Le souci"],["","Le crocus"]], "ok": 3, "say": "Le crocus !", "level": 2},
+  {"q": "Quel arbre détient le record du plus vieil arbre vivant daté ?", "qd": "Le plus vieil arbre vivant daté ?", "a": [["","Le pin Bristlecone"],["","Le baobab"],["","L'olivier"],["","Le séquoia géant"]], "ok": 0, "say": "Le pin Bristlecone, près de 5000 ans !", "level": 3},
+  {"q": "Lequel de ces fruits est une baie pour les botanistes ?", "qd": "Lequel est une vraie baie ?", "a": [["","La fraise"],["","La framboise"],["","La banane"],["","La mûre"]], "ok": 2, "say": "La banane !", "level": 3}
+ ]
+}
