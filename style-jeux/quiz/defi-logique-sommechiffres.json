@@ -1,0 +1,28 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : IMPOSSIBLE",
+ "suite": [
+  "1",
+  "2",
+  "4",
+  "8",
+  "16",
+  "23"
+ ],
+ "options": [
+  "30",
+  "46",
+  "28",
+  "32"
+ ],
+ "ok": 2,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche_dite": "Seulement un pour cent des gens trouvent le nombre suivant.",
+ "question_dite": "Un, deux, quatre, huit, seize, vingt-trois… Et ensuite ?",
+ "explication": "On ajoute à chaque nombre la somme de ses chiffres : 16 + 1 + 6 = 23, puis 23 + 2 + 3 = 28.",
+ "explication_dite": "Vingt-huit ! À chaque nombre, on ajoute la somme de ses chiffres : seize plus un plus six, vingt-trois. Vingt-trois plus deux plus trois, vingt-huit.",
+ "fin": "Tu avais trouvé ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🧩 SUITE LOGIQUE niveau impossible : 1, 2, 4, 8, 16, 23… et ensuite ? Seuls 1 % trouvent ! 👇 #logique #enigme #quiz #suitelogique #cerveau #pourtoi"
+}
