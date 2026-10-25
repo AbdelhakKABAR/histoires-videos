@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, du facile à l'impossible… les pièges arrivent à la fin ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : Rome, New York, Madrid ou Berlin ?",
+   "qd": "L'intrus parmi ces villes ?",
+   "a": [
+    [
+     "",
+     "Rome"
+    ],
+    [
+     "",
+     "New York"
+    ],
+    [
+     "",
+     "Madrid"
+    ],
+    [
+     "",
+     "Berlin"
+    ]
+   ],
+   "ok": 1,
+   "say": "New York ! Ce n'est pas une capitale.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le lion, le tigre, l'éléphant ou le guépard ?",
+   "qd": "L'intrus parmi ces animaux ?",
+   "a": [
+    [
+     "",
+     "Le lion"
+    ],
+    [
+     "",
+     "Le tigre"
+    ],
+    [
+     "",
+     "L'éléphant"
+    ],
+    [
+     "",
+     "Le guépard"
+    ]
+   ],
+   "ok": 2,
+   "say": "L'éléphant ! C'est un herbivore, les autres sont des félins carnivores.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le cyclisme, le football, le basket ou le rugby ?",
+   "qd": "L'intrus parmi ces sports ?",
+   "a": [
+    [
+     "",
+     "Le cyclisme"
+    ],
+    [
+     "",
+     "Le football"
+    ],
+    [
+     "",
+     "Le basket"
+    ],
+    [
+     "",
+     "Le rugby"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le cyclisme ! On n'y joue pas avec un ballon.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : bal, carnaval, chacal ou journal ?",
+   "qd": "L'intrus au pluriel ?",
+   "a": [
+    [
+     "",
+     "Bal"
+    ],
+    [
+     "",
+     "Carnaval"
+    ],
+    [
+     "",
+     "Chacal"
+    ],
+    [
+     "",
+     "Journal"
+    ]
+   ],
+   "ok": 3,
+   "say": "Journal ! Au pluriel on dit journaux, les autres prennent un s.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le Nil, le Gange, le Congo ou le Niger ?",
+   "qd": "L'intrus parmi ces fleuves ?",
+   "a": [
+    [
+     "",
+     "Le Nil"
+    ],
+    [
+     "",
+     "Le Gange"
+    ],
+    [
+     "",
+     "Le Congo"
+    ],
+    [
+     "",
+     "Le Niger"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le Gange ! Il coule en Asie, les autres en Afrique.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : Robespierre, Henri IV, Louis XIV ou Louis XVI ?",
+   "qd": "L'intrus de l'histoire de France ?",
+   "a": [
+    [
+     "",
+     "Robespierre"
+    ],
+    [
+     "",
+     "Henri IV"
+    ],
+    [
+     "",
+     "Louis XIV"
+    ],
+    [
+     "",
+     "Louis XVI"
+    ]
+   ],
+   "ok": 0,
+   "say": "Robespierre ! Il n'a jamais été roi de France.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le sodium, le potassium, le chlore ou le lithium ?",
+   "qd": "L'intrus en chimie ?",
+   "a": [
+    [
+     "",
+     "Le sodium"
+    ],
+    [
+     "",
+     "Le potassium"
+    ],
+    [
+     "",
+     "Le chlore"
+    ],
+    [
+     "",
+     "Le lithium"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le chlore ! Ce n'est pas un métal, les autres sont des métaux alcalins.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : le valençay, le comté, le sainte-maure ou le crottin de Chavignol ?",
+   "qd": "L'intrus parmi ces fromages ?",
+   "a": [
+    [
+     "",
+     "Le valençay"
+    ],
+    [
+     "",
+     "Le comté"
+    ],
+    [
+     "",
+     "Le sainte-maure"
+    ],
+    [
+     "",
+     "Le crottin"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le comté ! Il est au lait de vache, les autres au lait de chèvre.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : la Bolivie, le Paraguay, l'Éthiopie ou l'Équateur ?",
+   "qd": "L'intrus : accès à la mer ?",
+   "a": [
+    [
+     "",
+     "La Bolivie"
+    ],
+    [
+     "",
+     "Le Paraguay"
+    ],
+    [
+     "",
+     "L'Éthiopie"
+    ],
+    [
+     "",
+     "L'Équateur"
+    ]
+   ],
+   "ok": 3,
+   "say": "L'Équateur ! Il a une côte, les autres n'ont aucun accès à la mer.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : Triton, Io, Ganymède ou Callisto ?",
+   "qd": "L'intrus parmi ces lunes ?",
+   "a": [
+    [
+     "",
+     "Triton"
+    ],
+    [
+     "",
+     "Io"
+    ],
+    [
+     "",
+     "Ganymède"
+    ],
+    [
+     "",
+     "Callisto"
+    ]
+   ],
+   "ok": 0,
+   "say": "Triton ! C'est une lune de Neptune, les autres tournent autour de Jupiter.",
+   "level": 3
+  }
+ ]
+}
