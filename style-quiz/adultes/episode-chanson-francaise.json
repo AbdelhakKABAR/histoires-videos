@@ -1,0 +1,20 @@
+{
+ "title": "La chanson française", "subject": "Chanson française", "banner": "La chanson française",
+ "symbols": ["🎤","🎵","🎶","🎙","🎸","🎹","🎼","♪","♫","🥖","🗼","🎧","♬","🌹","🎷","✦"],
+ "description": "🎤 Quiz Chanson française : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #chansonfrancaise #musique #culturegenerale #question #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quelle chanteuse a rendu célèbre « La Vie en rose » ?", "qd": "Qui chantait « La Vie en rose » ?", "a": [["","Dalida"],["","Édith Piaf"],["","Barbara"],["","Juliette Gréco"]], "ok": 1, "say": "Édith Piaf !", "level": 0},
+  {"q": "Quel chanteur était surnommé « l'idole des jeunes » ?", "qd": "Surnommé « l'idole des jeunes » ?", "a": [["","Eddy Mitchell"],["","Claude François"],["","Johnny Hallyday"],["","Michel Sardou"]], "ok": 2, "say": "Johnny Hallyday !", "level": 0},
+  {"q": "Qui a créé la chanson « Comme d'habitude » ?", "qd": "Qui a créé « Comme d'habitude » ?", "a": [["","Claude François"],["","Joe Dassin"],["","Mike Brant"],["","Sacha Distel"]], "ok": 0, "say": "Claude François !", "level": 0},
+  {"q": "Qui chantait « Les Champs-Élysées » ?", "qd": "Qui chantait « Les Champs-Élysées » ?", "a": [["","Yves Montand"],["","Serge Gainsbourg"],["","Charles Aznavour"],["","Joe Dassin"]], "ok": 3, "say": "Joe Dassin !", "level": 1},
+  {"q": "De quel pays était originaire Jacques Brel ?", "qd": "Le pays natal de Jacques Brel ?", "a": [["","La Suisse"],["","La Belgique"],["","Le Canada"],["","Le Luxembourg"]], "ok": 1, "say": "La Belgique !", "level": 1},
+  {"q": "Qui a chanté « La Bohème » en 1965 ?", "qd": "Qui a chanté « La Bohème » ?", "a": [["","Charles Aznavour"],["","Gilbert Bécaud"],["","Léo Ferré"],["","Georges Brassens"]], "ok": 0, "say": "Charles Aznavour !", "level": 1},
+  {"q": "Quel était le vrai nom de famille d'Édith Piaf ?", "qd": "Le vrai nom d'Édith Piaf ?", "a": [["","Garnier"],["","Gallois"],["","Gassion"],["","Giraud"]], "ok": 2, "say": "Gassion !", "level": 2},
+  {"q": "Dans quelle ville est née Dalida ?", "qd": "La ville natale de Dalida ?", "a": [["","Rome"],["","Alexandrie"],["","Tunis"],["","Le Caire"]], "ok": 3, "say": "Au Caire !", "level": 2},
+  {"q": "Quel était le vrai prénom de Serge Gainsbourg ?", "qd": "Le vrai prénom de Gainsbourg ?", "a": [["","Samuel"],["","Lucien"],["","Joseph"],["","Marcel"]], "ok": 1, "say": "Lucien !", "level": 3},
+  {"q": "Quel était le vrai nom de la chanteuse Barbara ?", "qd": "Le vrai nom de Barbara ?", "a": [["","Monique Serf"],["","Jacqueline Serre"],["","Madeleine Brun"],["","Simone Kahn"]], "ok": 0, "say": "Monique Serf !", "level": 3}
+ ]
+}
