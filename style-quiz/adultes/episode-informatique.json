@@ -1,0 +1,20 @@
+{
+ "title": "L'informatique", "subject": "Informatique", "banner": "L'informatique",
+ "symbols": ["💻","🖥","⌨","🖱","💾","📱","🌐","🤖","⚙","🔌","📡","🧠","🔢","💿","🛰","🔋"],
+ "description": "💻 Quiz Informatique : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #informatique #tech #monde #culturegenerale #question #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Combien de bits y a-t-il dans un octet ?", "qd": "Combien de bits dans un octet ?", "a": [["","4"],["","8"],["","16"],["","10"]], "ok": 1, "say": "Huit bits !", "level": 0},
+  {"q": "Quelle entreprise a créé le système Windows ?", "qd": "Qui a créé Windows ?", "a": [["","Apple"],["","IBM"],["","Microsoft"],["","Google"]], "ok": 2, "say": "Microsoft !", "level": 0},
+  {"q": "Sur un PC Windows, quel raccourci clavier sert à copier ?", "qd": "Le raccourci pour copier ?", "a": [["","Ctrl + C"],["","Ctrl + V"],["","Ctrl + X"],["","Ctrl + Z"]], "ok": 0, "say": "Contrôle C !", "level": 0},
+  {"q": "Qui a fondé Apple avec Steve Wozniak ?", "qd": "Le cofondateur d'Apple avec Wozniak ?", "a": [["","Bill Gates"],["","Elon Musk"],["","Mark Zuckerberg"],["","Steve Jobs"]], "ok": 3, "say": "Steve Jobs !", "level": 1},
+  {"q": "Quel système de numération utilise seulement 0 et 1 ?", "qd": "Le système qui n'utilise que 0 et 1 ?", "a": [["","Le décimal"],["","Le binaire"],["","L'hexadécimal"],["","Le romain"]], "ok": 1, "say": "Le binaire !", "level": 1},
+  {"q": "Qui a inventé le World Wide Web ?", "qd": "L'inventeur du Web ?", "a": [["","Tim Berners-Lee"],["","Alan Turing"],["","Bill Gates"],["","Linus Torvalds"]], "ok": 0, "say": "Tim Berners-Lee !", "level": 1},
+  {"q": "Qui a créé le noyau Linux ?", "qd": "Le créateur de Linux ?", "a": [["","Richard Stallman"],["","Dennis Ritchie"],["","Linus Torvalds"],["","Ken Thompson"]], "ok": 2, "say": "Linus Torvalds !", "level": 2},
+  {"q": "Quel langage de programmation a été créé par Guido van Rossum ?", "qd": "Le langage de Guido van Rossum ?", "a": [["","Java"],["","Python"],["","Ruby"],["","Perl"]], "ok": 1, "say": "Python !", "level": 2},
+  {"q": "Comment s'appelait le tout premier navigateur web ?", "qd": "Le tout premier navigateur web ?", "a": [["","WorldWideWeb"],["","Mosaic"],["","Netscape"],["","Lynx"]], "ok": 0, "say": "WorldWideWeb, créé par Tim Berners-Lee !", "level": 3},
+  {"q": "Quel insecte a-t-on retrouvé en 1947 dans l'ordinateur Harvard Mark II, le célèbre bug ?", "qd": "L'insecte du célèbre bug de 1947 ?", "a": [["","Une mouche"],["","Un cafard"],["","Une fourmi"],["","Un papillon de nuit"]], "ok": 3, "say": "Un papillon de nuit !", "level": 3}
+ ]
+}

@@ -76,12 +76,12 @@
   "La Rome antique",
   "Les inventions françaises",
   "Les plantes",
-  "Le sport français"
+  "Le sport français",
+  "L'informatique"
  ],
  "a_faire": [
   "Les pays d'Europe",
   "Le football",
-  "L'informatique",
   "Les insectes",
   "Les océans et les mers",
   "Les fleuves et montagnes",
@@ -119,7 +119,6 @@
   "Les records de France"
  ],
  "a_faire_monde": [
-  "L'informatique",
   "Les insectes",
   "Les océans et les mers",
   "Les fleuves et montagnes",
