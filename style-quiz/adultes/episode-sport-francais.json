@@ -1,0 +1,20 @@
+{
+ "title": "Le sport français", "subject": "Sport français", "banner": "Le sport français",
+ "symbols": ["⚽","🚴","🎾","🏉","🏆","🥇","🏊","🏎","⛷","🤺","🏅","🇫🇷","⛳","🏀","🥊","🏁"],
+ "description": "🇫🇷 Quiz Sport français : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #sport #sportfrancais #culturegenerale #question #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Sur quelle surface se joue le tournoi de Roland-Garros ?", "qd": "La surface de Roland-Garros ?", "a": [["","Le gazon"],["","La terre battue"],["","Le dur"],["","La moquette"]], "ok": 1, "say": "La terre battue !", "level": 0},
+  {"q": "En quelle année la France a-t-elle gagné sa première Coupe du monde de football ?", "qd": "1re Coupe du monde de foot des Bleus ?", "a": [["","1998"],["","1986"],["","2006"],["","2002"]], "ok": 0, "say": "En 1998 !", "level": 0},
+  {"q": "De quelle couleur est le maillot du leader du Tour de France ?", "qd": "Le maillot du leader du Tour ?", "a": [["","Vert"],["","À pois"],["","Blanc"],["","Jaune"]], "ok": 3, "say": "Le maillot jaune !", "level": 0},
+  {"q": "Combien de fois Paris a-t-elle accueilli les Jeux olympiques d'été ?", "qd": "Paris a accueilli les JO d'été combien de fois ?", "a": [["","Deux fois"],["","Une fois"],["","Trois fois"],["","Quatre fois"]], "ok": 2, "say": "Trois fois : 1900, 1924 et 2024 !", "level": 1},
+  {"q": "Quel nageur français a remporté quatre médailles d'or individuelles aux Jeux de Paris 2024 ?", "qd": "4 médailles d'or individuelles à Paris 2024 ?", "a": [["","Florent Manaudou"],["","Léon Marchand"],["","Maxime Grousset"],["","Yannick Agnel"]], "ok": 1, "say": "Léon Marchand !", "level": 1},
+  {"q": "Quelle célèbre course automobile d'endurance se déroule dans la Sarthe ?", "qd": "La course d'endurance de la Sarthe ?", "a": [["","Le Bol d'or"],["","Le rallye de Monte-Carlo"],["","Les 24 Heures du Mans"],["","Le Grand Prix de Pau"]], "ok": 2, "say": "Les 24 Heures du Mans !", "level": 1},
+  {"q": "Quel club a été le premier club français à gagner la Ligue des champions, en 1993 ?", "qd": "1er club français vainqueur de la C1, en 1993 ?", "a": [["","Monaco"],["","Le PSG"],["","Lyon"],["","Marseille"]], "ok": 3, "say": "L'Olympique de Marseille !", "level": 2},
+  {"q": "Combien de fois Bernard Hinault a-t-il remporté le Tour de France ?", "qd": "Tours de France gagnés par Bernard Hinault ?", "a": [["","Cinq fois"],["","Trois fois"],["","Quatre fois"],["","Six fois"]], "ok": 0, "say": "Cinq fois !", "level": 2},
+  {"q": "En quelle année a eu lieu le tout premier Tour de France ?", "qd": "L'année du tout premier Tour de France ?", "a": [["","1896"],["","1910"],["","1903"],["","1921"]], "ok": 2, "say": "En 1903 !", "level": 3},
+  {"q": "Dans quelle ville française ont eu lieu les premiers Jeux olympiques d'hiver, en 1924 ?", "qd": "Les premiers JO d'hiver, en 1924 ?", "a": [["","Chamonix"],["","Grenoble"],["","Albertville"],["","Megève"]], "ok": 0, "say": "À Chamonix !", "level": 3}
+ ]
+}
