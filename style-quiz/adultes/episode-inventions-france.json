@@ -1,0 +1,20 @@
+{
+ "title": "Les inventions françaises", "subject": "Inventions", "banner": "Les inventions françaises",
+ "symbols": ["💡","⚙","🔧","🎈","🧪","🔬","📷","🎞","⚛","🧲","🔭","✦","🛠","⏱","🇫🇷","✧"],
+ "description": "💡 Quiz Inventions françaises : 10 questions, du niveau facile à impossible. Tu connais nos inventeurs ? Donne ton score en commentaire 👇 #quiz #quiztime #france #inventions #histoire #culturegenerale #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quels frères ont fait voler la première montgolfière ?", "qd": "Les frères de la montgolfière ?", "a": [["","Les frères Lumière"],["","Les frères Montgolfier"],["","Les frères Renault"],["","Les frères Wright"]], "ok": 1, "say": "Les frères Montgolfier !", "level": 0},
+  {"q": "Qui a inventé la Pascaline, une des premières calculatrices ?", "qd": "L'inventeur de la Pascaline ?", "a": [["","Blaise Pascal"],["","René Descartes"],["","Pierre de Fermat"],["","Louis Pasteur"]], "ok": 0, "say": "Blaise Pascal !", "level": 0},
+  {"q": "Quel procédé de Pasteur permet de conserver le lait ?", "qd": "Le procédé de Pasteur pour le lait ?", "a": [["","La lyophilisation"],["","La congélation"],["","La pasteurisation"],["","La fermentation"]], "ok": 2, "say": "La pasteurisation !", "level": 0},
+  {"q": "Quel Français a inventé la conserve ?", "qd": "L'inventeur de la conserve ?", "a": [["","Antoine Parmentier"],["","Denis Papin"],["","Louis Pasteur"],["","Nicolas Appert"]], "ok": 3, "say": "Nicolas Appert !", "level": 1},
+  {"q": "Qui a inventé le scaphandre autonome avec Émile Gagnan ?", "qd": "Le scaphandre autonome, avec Gagnan ?", "a": [["","Auguste Piccard"],["","Jacques-Yves Cousteau"],["","Éric Tabarly"],["","Jules Verne"]], "ok": 1, "say": "Jacques-Yves Cousteau !", "level": 1},
+  {"q": "Qui a inventé la marmite à vapeur, ancêtre de l'autocuiseur ?", "qd": "L'ancêtre de l'autocuiseur ?", "a": [["","Denis Papin"],["","Sadi Carnot"],["","André-Marie Ampère"],["","Blaise Pascal"]], "ok": 0, "say": "Denis Papin !", "level": 1},
+  {"q": "Quel Français a inventé la machine à coudre ?", "qd": "L'inventeur de la machine à coudre ?", "a": [["","Isaac Singer"],["","Coco Chanel"],["","Barthélemy Thimonnier"],["","Joseph-Marie Jacquard"]], "ok": 2, "say": "Barthélemy Thimonnier !", "level": 2},
+  {"q": "Quel ingénieur français a inventé l'éclairage au néon ?", "qd": "L'inventeur du tube au néon ?", "a": [["","Thomas Edison"],["","Gustave Eiffel"],["","Pierre Curie"],["","Georges Claude"]], "ok": 3, "say": "Georges Claude !", "level": 2},
+  {"q": "Qui a inventé le phonautographe, premier enregistreur de voix ?", "qd": "L'inventeur du phonautographe ?", "a": [["","Édouard-Léon Scott de Martinville"],["","Charles Cros"],["","Émile Berliner"],["","Thomas Edison"]], "ok": 0, "say": "Édouard-Léon Scott de Martinville !", "level": 3},
+  {"q": "Qui a fait voler le premier dirigeable à vapeur ?", "qd": "Le premier dirigeable à vapeur ?", "a": [["","Clément Ader"],["","Louis Blériot"],["","Henri Giffard"],["","Alberto Santos-Dumont"]], "ok": 2, "say": "Henri Giffard !", "level": 3}
+ ]
+}
