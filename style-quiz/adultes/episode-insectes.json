@@ -1,0 +1,20 @@
+{
+ "title": "Les insectes", "subject": "Insectes", "banner": "Les insectes",
+ "symbols": ["🐝","🦋","🐞","🐜","🦗","🪲","🪳","🦟","🪰","🐛","🌸","🍯","🌿","✦","🌍","🔬"],
+ "description": "🐝 Quiz Les insectes : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #insectes #nature #monde #culturegenerale #question #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Combien de pattes a un insecte ?", "qd": "Combien de pattes a un insecte ?", "a": [["","Quatre"],["","Huit"],["","Six"],["","Dix"]], "ok": 2, "say": "Six pattes !", "level": 0},
+  {"q": "Quel insecte fabrique le miel ?", "qd": "Quel insecte fabrique le miel ?", "a": [["","L'abeille"],["","La guêpe"],["","Le frelon"],["","La fourmi"]], "ok": 0, "say": "L'abeille !", "level": 0},
+  {"q": "Comment s'appelle la larve du papillon ?", "qd": "La larve du papillon ?", "a": [["","L'asticot"],["","La nymphe"],["","Le têtard"],["","La chenille"]], "ok": 3, "say": "La chenille !", "level": 0},
+  {"q": "Combien d'ailes possède une abeille ?", "qd": "Combien d'ailes a une abeille ?", "a": [["","Deux"],["","Quatre"],["","Six"],["","Huit"]], "ok": 1, "say": "Quatre ailes !", "level": 1},
+  {"q": "Quel insecte est surnommé la bête à bon Dieu ?", "qd": "La « bête à bon Dieu » ?", "a": [["","Le grillon"],["","La libellule"],["","La coccinelle"],["","Le hanneton"]], "ok": 2, "say": "La coccinelle !", "level": 1},
+  {"q": "Quel insecte transmet le paludisme ?", "qd": "Qui transmet le paludisme ?", "a": [["","Le moustique"],["","La mouche"],["","La puce"],["","La punaise"]], "ok": 0, "say": "Le moustique !", "level": 1},
+  {"q": "Sur quelle partie du corps d'un insecte sont attachées les pattes ?", "qd": "Où sont attachées les pattes ?", "a": [["","La tête"],["","Le thorax"],["","L'abdomen"],["","Les antennes"]], "ok": 1, "say": "Le thorax !", "level": 2},
+  {"q": "Quel papillon migre chaque année du Canada jusqu'au Mexique ?", "qd": "Le papillon qui migre jusqu'au Mexique ?", "a": [["","Le machaon"],["","Le citron"],["","Le monarque"],["","L'apollon"]], "ok": 2, "say": "Le monarque !", "level": 2},
+  {"q": "Quel ordre d'insectes compte le plus d'espèces connues ?", "qd": "L'ordre qui compte le plus d'espèces ?", "a": [["","Les diptères"],["","Les hyménoptères"],["","Les lépidoptères"],["","Les coléoptères"]], "ok": 3, "say": "Les coléoptères !", "level": 3},
+  {"q": "Quelle nourriture permet à une larve d'abeille de devenir reine ?", "qd": "Ce qui fait d'une larve une reine ?", "a": [["","La gelée royale"],["","La propolis"],["","Le pollen"],["","Le nectar"]], "ok": 0, "say": "La gelée royale !", "level": 3}
+ ]
+}
