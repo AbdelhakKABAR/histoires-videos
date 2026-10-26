@@ -83,13 +83,13 @@
   "Les insectes",
   "Les peintres français",
   "Les océans et les mers",
-  "Les îles et territoires d'outre-mer"
+  "Les îles et territoires d'outre-mer",
+  "Les fleuves et montagnes du monde"
  ],
  "a_faire": [
   "Les pays d'Europe",
   "Le football",
   "Les insectes",
-  "Les fleuves et montagnes",
   "Les dinosaures",
   "Les métiers",
   "La météo et le climat",
@@ -120,7 +120,6 @@
   "Les records de France"
  ],
  "a_faire_monde": [
-  "Les fleuves et montagnes",
   "Les dinosaures",
   "Les métiers",
   "La météo et le climat",

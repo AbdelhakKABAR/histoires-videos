@@ -1,0 +1,20 @@
+{
+ "title": "Les fleuves et montagnes du monde", "subject": "Fleuves et montagnes", "banner": "Fleuves et montagnes du monde",
+ "symbols": ["🏔","⛰","🌊","💧","🗻","🏞","🧗","🌋","🚣","🌍","❄","🧭","🗺","🌐","🌉","⛵"],
+ "description": "🏔 Quiz Fleuves et montagnes du monde : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #monde #culturegenerale #geographie #montagne #fleuve #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel est le plus haut sommet du monde ?", "qd": "Le plus haut sommet du monde ?", "a": [["","Le K2"],["","L'Everest"],["","Le mont Blanc"],["","Le Kilimandjaro"]], "ok": 1, "say": "L'Everest !", "level": 0},
+  {"q": "Dans quelle chaîne de montagnes se trouve l'Everest ?", "qd": "La chaîne de l'Everest ?", "a": [["","Les Andes"],["","Les Alpes"],["","L'Himalaya"],["","Les Rocheuses"]], "ok": 2, "say": "L'Himalaya !", "level": 0},
+  {"q": "Quel est le plus haut sommet d'Afrique ?", "qd": "Le plus haut sommet d'Afrique ?", "a": [["","Le Kilimandjaro"],["","Le mont Kenya"],["","Le Toubkal"],["","Le mont Cameroun"]], "ok": 0, "say": "Le Kilimandjaro !", "level": 0},
+  {"q": "Quelle est la plus longue chaîne de montagnes sur la terre ferme ?", "qd": "La plus longue chaîne de montagnes ?", "a": [["","L'Himalaya"],["","Les Rocheuses"],["","L'Oural"],["","Les Andes"]], "ok": 3, "say": "Les Andes !", "level": 1},
+  {"q": "Quel fleuve traverse Vienne, Budapest et Belgrade ?", "qd": "Vienne, Budapest et Belgrade ?", "a": [["","Le Danube"],["","Le Rhin"],["","L'Elbe"],["","La Volga"]], "ok": 0, "say": "Le Danube !", "level": 1},
+  {"q": "Quel est le deuxième plus haut sommet du monde ?", "qd": "Le 2e plus haut sommet du monde ?", "a": [["","Le Kangchenjunga"],["","Le Lhotse"],["","Le K2"],["","Le Makalu"]], "ok": 2, "say": "Le K2 !", "level": 1},
+  {"q": "Quel est le plus haut sommet d'Amérique du Sud ?", "qd": "Le toit de l'Amérique du Sud ?", "a": [["","Le Chimborazo"],["","L'Aconcagua"],["","Le Huascarán"],["","Le Cotopaxi"]], "ok": 1, "say": "L'Aconcagua !", "level": 2},
+  {"q": "Quel est le plus long fleuve d'Europe ?", "qd": "Le plus long fleuve d'Europe ?", "a": [["","Le Danube"],["","Le Rhin"],["","Le Dniepr"],["","La Volga"]], "ok": 3, "say": "La Volga !", "level": 2},
+  {"q": "Quel est le plus haut sommet d'Amérique du Nord ?", "qd": "Le toit de l'Amérique du Nord ?", "a": [["","Le mont Logan"],["","Le mont Whitney"],["","Le Denali"],["","Le pic d'Orizaba"]], "ok": 2, "say": "Le Denali, en Alaska !", "level": 3},
+  {"q": "Quel fleuve forme les chutes Victoria ?", "qd": "Le fleuve des chutes Victoria ?", "a": [["","Le Zambèze"],["","Le Limpopo"],["","Le Congo"],["","L'Okavango"]], "ok": 0, "say": "Le Zambèze !", "level": 3}
+ ]
+}
