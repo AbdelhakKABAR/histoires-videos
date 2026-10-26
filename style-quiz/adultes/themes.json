@@ -78,7 +78,8 @@
   "Les plantes",
   "Le sport français",
   "L'informatique",
-  "La chanson française"
+  "La chanson française",
+  "Le cinéma français"
  ],
  "a_faire": [
   "Les pays d'Europe",
@@ -103,7 +104,6 @@
   "Les découvertes scientifiques"
  ],
  "a_faire_france": [
-  "Le cinéma français",
   "Les peintres français",
   "Les îles et territoires d'outre-mer",
   "Les symboles de la République",

@@ -1,0 +1,20 @@
+{
+ "title": "Le cinéma français", "subject": "Cinéma français", "banner": "Le cinéma français",
+ "symbols": ["🎬","🎥","🎞","🍿","⭐","🏆","🎭","📽","🇫🇷","✦","🎟","🌟","✧","🎦","★","🎙"],
+ "description": "🎬 Quiz Cinéma français : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #cinema #cinemafrancais #film #culturegenerale #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Dans quelle ville se tient le célèbre festival de cinéma chaque mois de mai ?", "qd": "La ville du grand festival de mai ?", "a": [["","Deauville"],["","Cannes"],["","Nice"],["","Biarritz"]], "ok": 1, "say": "Cannes !", "level": 0},
+  {"q": "Quel acteur joue le célèbre gendarme de Saint-Tropez ?", "qd": "Qui joue le gendarme de Saint-Tropez ?", "a": [["","Bourvil"],["","Jean Gabin"],["","Louis de Funès"],["","Fernandel"]], "ok": 2, "say": "Louis de Funès !", "level": 0},
+  {"q": "Dans La Grande Vadrouille, quel acteur partage l'affiche avec Louis de Funès ?", "qd": "Le partenaire de De Funès dans La Grande Vadrouille ?", "a": [["","Bourvil"],["","Jean Marais"],["","Lino Ventura"],["","Belmondo"]], "ok": 0, "say": "Bourvil !", "level": 0},
+  {"q": "Quel film de Luc Besson raconte une histoire de plongée en apnée et de dauphins ?", "qd": "Le film de Besson sur la plongée en apnée ?", "a": [["","Nikita"],["","Léon"],["","Subway"],["","Le Grand Bleu"]], "ok": 3, "say": "Le Grand Bleu !", "level": 1},
+  {"q": "Qui a réalisé le film Les Visiteurs, sorti en 1993 ?", "qd": "Le réalisateur des Visiteurs ?", "a": [["","Claude Zidi"],["","Jean-Marie Poiré"],["","Francis Veber"],["","Gérard Oury"]], "ok": 1, "say": "Jean-Marie Poiré !", "level": 1},
+  {"q": "Dans Le Dîner de cons, quel acteur joue François Pignon ?", "qd": "Qui joue François Pignon dans Le Dîner de cons ?", "a": [["","Thierry Lhermitte"],["","Daniel Prévost"],["","Jacques Villeret"],["","Francis Huster"]], "ok": 2, "say": "Jacques Villeret !", "level": 1},
+  {"q": "Quel film français a reçu l'Oscar du meilleur film en 2012 ?", "qd": "Le film français Oscar du meilleur film en 2012 ?", "a": [["","The Artist"],["","Intouchables"],["","Amour"],["","La Môme"]], "ok": 0, "say": "The Artist !", "level": 2},
+  {"q": "Quelle actrice française a gagné l'Oscar pour son rôle dans La Môme ?", "qd": "L'actrice oscarisée pour La Môme ?", "a": [["","Juliette Binoche"],["","Audrey Tautou"],["","Isabelle Huppert"],["","Marion Cotillard"]], "ok": 3, "say": "Marion Cotillard !", "level": 2},
+  {"q": "Quel film a reçu le tout premier César du meilleur film, en 1976 ?", "qd": "Le tout premier César du meilleur film ?", "a": [["","Les Valseuses"],["","Cousin cousine"],["","Le Vieux Fusil"],["","La Grande Bouffe"]], "ok": 2, "say": "Le Vieux Fusil !", "level": 3},
+  {"q": "Quel film de Jean Renoir, sorti en 1937, se déroule dans un camp de prisonniers ?", "qd": "Le film de Renoir de 1937 chez les prisonniers ?", "a": [["","La Règle du jeu"],["","La Grande Illusion"],["","La Bête humaine"],["","Toni"]], "ok": 1, "say": "La Grande Illusion !", "level": 3}
+ ]
+}
