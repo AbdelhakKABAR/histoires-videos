@@ -1,0 +1,20 @@
+{
+ "title": "Les îles et territoires d'outre-mer", "subject": "Outre-mer", "banner": "La France d'outre-mer",
+ "symbols": ["🏝","🌴","🌊","🐢","🌺","🥥","⛵","🐠","🌋","🦜","🐚","☀","🗺","🧭","🍍","🇫🇷"],
+ "description": "🏝 Quiz France d'outre-mer : 10 questions, du niveau facile à impossible. Tu connais vraiment la Réunion, les Antilles et le Pacifique ? Donne ton score en commentaire 👇 #quiz #france #outremer #dom #culturegenerale #quiztime #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel est le chef-lieu de l'île de la Réunion ?", "qd": "Le chef-lieu de la Réunion ?", "a": [["","Saint-Pierre"],["","Saint-Denis"],["","Saint-Paul"],["","Le Port"]], "ok": 1, "say": "Saint-Denis !", "level": 0},
+  {"q": "Dans quel océan se trouve l'île de la Réunion ?", "qd": "La Réunion est dans quel océan ?", "a": [["","L'Atlantique"],["","Le Pacifique"],["","L'océan Indien"],["","L'Arctique"]], "ok": 2, "say": "L'océan Indien !", "level": 0},
+  {"q": "Quelle île des Antilles a pour chef-lieu Fort-de-France ?", "qd": "Fort-de-France est le chef-lieu de… ?", "a": [["","La Martinique"],["","La Guadeloupe"],["","Saint-Martin"],["","Saint-Barthélemy"]], "ok": 0, "say": "La Martinique !", "level": 0},
+  {"q": "Quel est le chef-lieu de la Guyane ?", "qd": "Le chef-lieu de la Guyane ?", "a": [["","Kourou"],["","Saint-Laurent"],["","Rémire-Montjoly"],["","Cayenne"]], "ok": 3, "say": "Cayenne !", "level": 1},
+  {"q": "Quel est le chef-lieu de la Nouvelle-Calédonie ?", "qd": "Le chef-lieu de la Nouvelle-Calédonie ?", "a": [["","Papeete"],["","Nouméa"],["","Mata-Utu"],["","Mamoudzou"]], "ok": 1, "say": "Nouméa !", "level": 1},
+  {"q": "Quelle est la plus grande île de la Polynésie française ?", "qd": "La plus grande île de Polynésie française ?", "a": [["","Tahiti"],["","Bora-Bora"],["","Moorea"],["","Raiatea"]], "ok": 0, "say": "Tahiti !", "level": 1},
+  {"q": "Quel archipel français se trouve au large du Canada ?", "qd": "L'archipel français près du Canada ?", "a": [["","Wallis-et-Futuna"],["","Les Kerguelen"],["","Saint-Pierre-et-Miquelon"],["","Les Marquises"]], "ok": 2, "say": "Saint-Pierre-et-Miquelon !", "level": 2},
+  {"q": "Quel est le département d'outre-mer le plus récent ?", "qd": "Le département d'outre-mer le plus récent ?", "a": [["","La Guyane"],["","La Réunion"],["","La Martinique"],["","Mayotte"]], "ok": 3, "say": "Mayotte, depuis 2011 !", "level": 2},
+  {"q": "Quel est le point culminant de l'île de la Réunion ?", "qd": "Le point culminant de la Réunion ?", "a": [["","Piton de la Fournaise"],["","Piton des Neiges"],["","Mont Orohena"],["","La Soufrière"]], "ok": 1, "say": "Le Piton des Neiges !", "level": 3},
+  {"q": "Quel est le chef-lieu de Wallis-et-Futuna ?", "qd": "Le chef-lieu de Wallis-et-Futuna ?", "a": [["","Mata-Utu"],["","Papeete"],["","Nouméa"],["","Mamoudzou"]], "ok": 0, "say": "Mata-Utu !", "level": 3}
+ ]
+}
