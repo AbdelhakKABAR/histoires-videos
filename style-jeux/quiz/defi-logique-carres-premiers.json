@@ -1,0 +1,27 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : IMPOSSIBLE",
+ "suite": [
+  "4",
+  "9",
+  "25",
+  "49",
+  "121"
+ ],
+ "options": [
+  "169",
+  "144",
+  "225",
+  "196"
+ ],
+ "ok": 0,
+ "consigne": "Quel est le nombre suivant ?",
+ "accroche_dite": "Seulement un pour cent des gens trouvent la suite.",
+ "question_dite": "Quatre, neuf, vingt-cinq, quarante-neuf, cent vingt et un… Et ensuite ?",
+ "explication": "Ce sont les carrés des nombres premiers : 2², 3², 5², 7², 11² → 13² = 169.",
+ "explication_dite": "Cent soixante-neuf ! Ce sont les carrés des nombres premiers : deux, trois, cinq, sept, onze, puis treize au carré.",
+ "fin": "Tu avais trouvé ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🧩 SUITE LOGIQUE niveau impossible : 4, 9, 25, 49, 121… et ensuite ? Seuls 1 % trouvent ! 👇 #logique #enigme #quiz #suitelogique #maths #cerveau #pourtoi"
+}
