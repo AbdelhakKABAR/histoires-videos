@@ -1,0 +1,20 @@
+{
+ "title": "Les océans et les mers", "subject": "Mers", "banner": "Les océans et les mers",
+ "symbols": ["🌊","🐋","⚓","🐬","🧭","🐚","⛵","🐙","🦈","🗺","🐠","🌍","🚢","🦀","✦","🏝"],
+ "description": "🌊 Quiz Océans et mers : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #monde #culturegenerale #mers #oceans #geographie #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quelle mer borde la ville de Nice ?", "qd": "La mer qui borde Nice ?", "a": [["","La mer du Nord"],["","La Méditerranée"],["","La Manche"],["","La mer Noire"]], "ok": 1, "say": "La Méditerranée !", "level": 0},
+  {"q": "Dans quelle mer, entre Israël et la Jordanie, flotte-t-on sans effort tant elle est salée ?", "qd": "La mer si salée qu'on y flotte ?", "a": [["","La mer Rouge"],["","La mer Égée"],["","La mer Caspienne"],["","La mer Morte"]], "ok": 3, "say": "La mer Morte !", "level": 0},
+  {"q": "Quel océan borde la ville de Los Angeles ?", "qd": "L'océan qui borde Los Angeles ?", "a": [["","Le Pacifique"],["","L'Atlantique"],["","L'Indien"],["","L'Arctique"]], "ok": 0, "say": "L'océan Pacifique !", "level": 0},
+  {"q": "Quel détroit relie la mer Méditerranée à l'océan Atlantique ?", "qd": "Méditerranée et Atlantique : quel détroit ?", "a": [["","Le Bosphore"],["","Le détroit d'Ormuz"],["","Le détroit de Gibraltar"],["","Le pas de Calais"]], "ok": 2, "say": "Le détroit de Gibraltar !", "level": 1},
+  {"q": "Quelle mer sépare l'Italie de la Croatie ?", "qd": "La mer entre l'Italie et la Croatie ?", "a": [["","L'Adriatique"],["","La mer Égée"],["","La mer Baltique"],["","La mer Tyrrhénienne"]], "ok": 0, "say": "La mer Adriatique !", "level": 1},
+  {"q": "Quelle mer borde la ville de Varna, en Bulgarie ?", "qd": "La mer qui borde Varna en Bulgarie ?", "a": [["","La mer Baltique"],["","La mer Adriatique"],["","La mer Égée"],["","La mer Noire"]], "ok": 3, "say": "La mer Noire !", "level": 1},
+  {"q": "Quelle est la plus grande étendue d'eau fermée du monde ?", "qd": "La plus grande étendue d'eau fermée ?", "a": [["","La mer Noire"],["","Le lac Supérieur"],["","La mer Caspienne"],["","La mer Morte"]], "ok": 2, "say": "La mer Caspienne !", "level": 2},
+  {"q": "Quelle mer sépare la Grèce de la Turquie ?", "qd": "La mer entre la Grèce et la Turquie ?", "a": [["","L'Adriatique"],["","La mer Égée"],["","La mer Ionienne"],["","La mer Tyrrhénienne"]], "ok": 1, "say": "La mer Égée !", "level": 2},
+  {"q": "Quelle mer d'Asie centrale a presque disparu à cause de l'irrigation ?", "qd": "La mer d'Asie presque disparue ?", "a": [["","La mer d'Aral"],["","La mer Caspienne"],["","La mer Jaune"],["","Le lac Baïkal"]], "ok": 0, "say": "La mer d'Aral !", "level": 3},
+  {"q": "Quel détroit relie la mer Noire à la mer de Marmara ?", "qd": "Mer Noire et mer de Marmara : quel détroit ?", "a": [["","Les Dardanelles"],["","Le détroit de Messine"],["","Le détroit de Kertch"],["","Le Bosphore"]], "ok": 3, "say": "Le Bosphore !", "level": 3}
+ ]
+}
