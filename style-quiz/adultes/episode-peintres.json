@@ -1,0 +1,20 @@
+{
+ "title": "Les peintres français", "subject": "Peintres", "banner": "Les peintres français",
+ "symbols": ["🎨","🖌","🖼","🇫🇷","✦","🌻","🌊","⭐","🏛","🌅","✧","💧","🪷","★","🎭","🖍"],
+ "description": "🎨 Quiz Peintres français : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #peinture #art #culturegenerale #question #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Qui a peint « Impression, soleil levant » ?", "qd": "Le peintre d'« Impression, soleil levant » ?", "a": [["","Renoir"],["","Claude Monet"],["","Manet"],["","Degas"]], "ok": 1, "say": "Claude Monet !", "level": 0},
+  {"q": "Quel peintre est célèbre pour ses tableaux de danseuses ?", "qd": "Le peintre des danseuses ?", "a": [["","Cézanne"],["","Gauguin"],["","Monet"],["","Edgar Degas"]], "ok": 3, "say": "Edgar Degas !", "level": 0},
+  {"q": "Qui a peint « La Liberté guidant le peuple » ?", "qd": "Qui a peint « La Liberté guidant le peuple » ?", "a": [["","Eugène Delacroix"],["","Jacques-Louis David"],["","Courbet"],["","Ingres"]], "ok": 0, "say": "Eugène Delacroix !", "level": 0},
+  {"q": "Dans quelle ville Paul Cézanne est-il né ?", "qd": "La ville natale de Cézanne ?", "a": [["","Marseille"],["","Nice"],["","Aix-en-Provence"],["","Arles"]], "ok": 2, "say": "Aix-en-Provence !", "level": 1},
+  {"q": "Quel peintre français est parti vivre à Tahiti ?", "qd": "Le peintre parti vivre à Tahiti ?", "a": [["","Paul Gauguin"],["","Matisse"],["","Cézanne"],["","Toulouse-Lautrec"]], "ok": 0, "say": "Paul Gauguin !", "level": 1},
+  {"q": "Qui a peint « Le Radeau de La Méduse » ?", "qd": "Qui a peint « Le Radeau de La Méduse » ?", "a": [["","Delacroix"],["","Courbet"],["","Ingres"],["","Théodore Géricault"]], "ok": 3, "say": "Théodore Géricault !", "level": 1},
+  {"q": "Dans quel village de Normandie Monet a-t-il peint ses Nymphéas ?", "qd": "Le village des Nymphéas de Monet ?", "a": [["","Étretat"],["","Giverny"],["","Honfleur"],["","Barbizon"]], "ok": 1, "say": "Giverny !", "level": 2},
+  {"q": "Qui a peint « Un dimanche après-midi à l'île de la Grande Jatte » ?", "qd": "Le peintre de « La Grande Jatte » ?", "a": [["","Signac"],["","Pissarro"],["","Georges Seurat"],["","Sisley"]], "ok": 2, "say": "Georges Seurat !", "level": 2},
+  {"q": "Qui a peint « Les Glaneuses » ?", "qd": "Qui a peint « Les Glaneuses » ?", "a": [["","Corot"],["","Jean-François Millet"],["","Courbet"],["","Daumier"]], "ok": 1, "say": "Jean-François Millet !", "level": 3},
+  {"q": "Quel était le surnom du peintre Henri Rousseau ?", "qd": "Le surnom du peintre Henri Rousseau ?", "a": [["","Le Facteur"],["","Le Gendarme"],["","Le Notaire"],["","Le Douanier"]], "ok": 3, "say": "Le Douanier !", "level": 3}
+ ]
+}
