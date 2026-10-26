@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, du niveau facile à impossible… les derniers sont de vrais pièges ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : l'orange, le citron, la pêche ou le pamplemousse ?",
+   "qd": "L'intrus parmi ces fruits ?",
+   "a": [
+    [
+     "",
+     "L'orange"
+    ],
+    [
+     "",
+     "Le citron"
+    ],
+    [
+     "",
+     "La pêche"
+    ],
+    [
+     "",
+     "Le pamplemousse"
+    ]
+   ],
+   "ok": 2,
+   "say": "La pêche ! Ce n'est pas un agrume.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le carré, le cube, le triangle ou le rectangle ?",
+   "qd": "L'intrus parmi ces formes ?",
+   "a": [
+    [
+     "",
+     "Le carré"
+    ],
+    [
+     "",
+     "Le cube"
+    ],
+    [
+     "",
+     "Le triangle"
+    ],
+    [
+     "",
+     "Le rectangle"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le cube ! C'est un volume, les autres sont des figures planes.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le canari, le perroquet, la perruche ou le hamster ?",
+   "qd": "L'intrus parmi ces animaux ?",
+   "a": [
+    [
+     "",
+     "Le canari"
+    ],
+    [
+     "",
+     "Le perroquet"
+    ],
+    [
+     "",
+     "La perruche"
+    ],
+    [
+     "",
+     "Le hamster"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le hamster ! C'est un rongeur, les autres sont des oiseaux.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : l'Italie, la Pologne, la Grèce ou la Croatie ?",
+   "qd": "L'intruse : bord de quelle mer ?",
+   "a": [
+    [
+     "",
+     "L'Italie"
+    ],
+    [
+     "",
+     "La Pologne"
+    ],
+    [
+     "",
+     "La Grèce"
+    ],
+    [
+     "",
+     "La Croatie"
+    ]
+   ],
+   "ok": 1,
+   "say": "La Pologne ! Elle n'est pas bordée par la Méditerranée.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : Lascaux, Pompéi, Chauvet ou Altamira ?",
+   "qd": "L'intrus parmi ces sites ?",
+   "a": [
+    [
+     "",
+     "Pompéi"
+    ],
+    [
+     "",
+     "Lascaux"
+    ],
+    [
+     "",
+     "Chauvet"
+    ],
+    [
+     "",
+     "Altamira"
+    ]
+   ],
+   "ok": 0,
+   "say": "Pompéi ! C'est une ville romaine, les autres sont des grottes préhistoriques.",
+   "level": 1
+  },
+  {
+   "q": "Qui est l'intrus : Zidane, Thierry Henry, Tony Parker ou Mbappé ?",
+   "qd": "L'intrus parmi ces sportifs ?",
+   "a": [
+    [
+     "",
+     "Zidane"
+    ],
+    [
+     "",
+     "Thierry Henry"
+    ],
+    [
+     "",
+     "Mbappé"
+    ],
+    [
+     "",
+     "Tony Parker"
+    ]
+   ],
+   "ok": 3,
+   "say": "Tony Parker ! C'est un basketteur, les autres sont footballeurs.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus au pluriel : bijou, caillou, bisou ou joujou ?",
+   "qd": "L'intrus au pluriel ?",
+   "a": [
+    [
+     "",
+     "Bijou"
+    ],
+    [
+     "",
+     "Caillou"
+    ],
+    [
+     "",
+     "Bisou"
+    ],
+    [
+     "",
+     "Joujou"
+    ]
+   ],
+   "ok": 2,
+   "say": "Bisou ! Il prend un S au pluriel, les autres un X.",
+   "level": 2
+  },
+  {
+   "q": "Quelle est l'intruse : la carotte, le céleri, le persil ou la betterave ?",
+   "qd": "L'intruse : même famille de plantes ?",
+   "a": [
+    [
+     "",
+     "La carotte"
+    ],
+    [
+     "",
+     "La betterave"
+    ],
+    [
+     "",
+     "Le céleri"
+    ],
+    [
+     "",
+     "Le persil"
+    ]
+   ],
+   "ok": 1,
+   "say": "La betterave ! Les trois autres sont de la famille des apiacées.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : le Japon, le Maroc, l'Inde ou la Thaïlande ?",
+   "qd": "L'intrus parmi ces pays ?",
+   "a": [
+    [
+     "",
+     "Le Japon"
+    ],
+    [
+     "",
+     "Le Maroc"
+    ],
+    [
+     "",
+     "La Thaïlande"
+    ],
+    [
+     "",
+     "L'Inde"
+    ]
+   ],
+   "ok": 3,
+   "say": "L'Inde ! C'est une république, les autres ont un roi ou un empereur.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : la fourmi, le mille-pattes, le scarabée ou la sauterelle ?",
+   "qd": "L'intrus parmi ces petites bêtes ?",
+   "a": [
+    [
+     "",
+     "La fourmi"
+    ],
+    [
+     "",
+     "Le mille-pattes"
+    ],
+    [
+     "",
+     "Le scarabée"
+    ],
+    [
+     "",
+     "La sauterelle"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le mille-pattes ! Ce n'est pas un insecte, c'est un myriapode.",
+   "level": 3
+  }
+ ]
+}
