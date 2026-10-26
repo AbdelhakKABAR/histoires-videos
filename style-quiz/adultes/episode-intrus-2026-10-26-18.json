@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, du facile à l'impossible… les deux dernières sont de vrais pièges ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : Nice, Toulon, Cannes ou Strasbourg ?",
+   "qd": "L'intrus parmi ces villes ?",
+   "a": [
+    [
+     "",
+     "Nice"
+    ],
+    [
+     "",
+     "Toulon"
+    ],
+    [
+     "",
+     "Cannes"
+    ],
+    [
+     "",
+     "Strasbourg"
+    ]
+   ],
+   "ok": 3,
+   "say": "Strasbourg ! Elle n'est pas au bord de la Méditerranée.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le zèbre, la girafe, le bison ou le gnou ?",
+   "qd": "L'intrus dans la savane ?",
+   "a": [
+    [
+     "",
+     "Le zèbre"
+    ],
+    [
+     "",
+     "La girafe"
+    ],
+    [
+     "",
+     "Le bison"
+    ],
+    [
+     "",
+     "Le gnou"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le bison ! Il ne vit pas en Afrique.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le croissant, le macaron, le pain au chocolat ou la brioche ?",
+   "qd": "L'intrus à la boulangerie ?",
+   "a": [
+    [
+     "",
+     "Le croissant"
+    ],
+    [
+     "",
+     "Le macaron"
+    ],
+    [
+     "",
+     "Le pain au chocolat"
+    ],
+    [
+     "",
+     "La brioche"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le macaron ! Ce n'est pas une viennoiserie.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : souvent, beau, grand ou gentil ?",
+   "qd": "L'intrus en grammaire ?",
+   "a": [
+    [
+     "",
+     "Souvent"
+    ],
+    [
+     "",
+     "Beau"
+    ],
+    [
+     "",
+     "Grand"
+    ],
+    [
+     "",
+     "Gentil"
+    ]
+   ],
+   "ok": 0,
+   "say": "Souvent ! C'est un adverbe, les autres sont des adjectifs.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le triangle, le carré, le cercle ou le pentagone ?",
+   "qd": "L'intrus en géométrie ?",
+   "a": [
+    [
+     "",
+     "Le triangle"
+    ],
+    [
+     "",
+     "Le carré"
+    ],
+    [
+     "",
+     "Le cercle"
+    ],
+    [
+     "",
+     "Le pentagone"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le cercle ! Ce n'est pas un polygone.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : Debussy, Chopin, Ravel ou Bizet ?",
+   "qd": "L'intrus parmi ces compositeurs ?",
+   "a": [
+    [
+     "",
+     "Debussy"
+    ],
+    [
+     "",
+     "Chopin"
+    ],
+    [
+     "",
+     "Ravel"
+    ],
+    [
+     "",
+     "Bizet"
+    ]
+   ],
+   "ok": 1,
+   "say": "Chopin ! Il est né en Pologne, les autres en France.",
+   "level": 1
+  },
+  {
+   "q": "Quelle est l'intruse : Rome, Madrid, Paris ou Berne ?",
+   "qd": "L'intruse parmi ces capitales ?",
+   "a": [
+    [
+     "",
+     "Rome"
+    ],
+    [
+     "",
+     "Madrid"
+    ],
+    [
+     "",
+     "Paris"
+    ],
+    [
+     "",
+     "Berne"
+    ]
+   ],
+   "ok": 3,
+   "say": "Berne ! Ce n'est pas la plus grande ville de son pays.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : le crabe, l'escargot, la moule ou l'huître ?",
+   "qd": "L'intrus parmi ces animaux ?",
+   "a": [
+    [
+     "",
+     "Le crabe"
+    ],
+    [
+     "",
+     "L'escargot"
+    ],
+    [
+     "",
+     "La moule"
+    ],
+    [
+     "",
+     "L'huître"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le crabe ! C'est un crustacé, les autres sont des mollusques.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : le fer, le plomb, le zinc ou l'étain ?",
+   "qd": "L'intrus : symboles chimiques ?",
+   "a": [
+    [
+     "",
+     "Le fer"
+    ],
+    [
+     "",
+     "Le plomb"
+    ],
+    [
+     "",
+     "Le zinc"
+    ],
+    [
+     "",
+     "L'étain"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le zinc ! Son symbole ne vient pas du latin : Fe, Pb et Sn, si.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : algèbre, tomate, chiffre ou alcool ?",
+   "qd": "L'intrus : origine des mots ?",
+   "a": [
+    [
+     "",
+     "Algèbre"
+    ],
+    [
+     "",
+     "Tomate"
+    ],
+    [
+     "",
+     "Chiffre"
+    ],
+    [
+     "",
+     "Alcool"
+    ]
+   ],
+   "ok": 1,
+   "say": "Tomate ! Ce mot vient de l'aztèque, les autres de l'arabe.",
+   "level": 3
+  }
+ ]
+}
