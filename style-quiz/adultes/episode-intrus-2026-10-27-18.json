@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, du niveau facile à impossible… le dernier piège est redoutable ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : le moustique, l'abeille, l'escargot ou la mouche ?",
+   "qd": "L'intrus parmi ces petites bêtes ?",
+   "a": [
+    [
+     "",
+     "Le moustique"
+    ],
+    [
+     "",
+     "L'abeille"
+    ],
+    [
+     "",
+     "L'escargot"
+    ],
+    [
+     "",
+     "La mouche"
+    ]
+   ],
+   "ok": 2,
+   "say": "L'escargot ! Ce n'est pas un insecte.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : le tennis, le badminton, le squash ou la pétanque ?",
+   "qd": "L'intrus parmi ces sports ?",
+   "a": [
+    [
+     "",
+     "Le tennis"
+    ],
+    [
+     "",
+     "Le badminton"
+    ],
+    [
+     "",
+     "Le squash"
+    ],
+    [
+     "",
+     "La pétanque"
+    ]
+   ],
+   "ok": 3,
+   "say": "La pétanque ! On y joue sans raquette.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : Paris, Montréal, Marseille ou Lyon ?",
+   "qd": "L'intruse parmi ces villes ?",
+   "a": [
+    [
+     "",
+     "Paris"
+    ],
+    [
+     "",
+     "Montréal"
+    ],
+    [
+     "",
+     "Marseille"
+    ],
+    [
+     "",
+     "Lyon"
+    ]
+   ],
+   "ok": 1,
+   "say": "Montréal ! Elle est au Canada, pas en France.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : janvier, mars, juin ou mai ?",
+   "qd": "L'intrus parmi ces mois ?",
+   "a": [
+    [
+     "",
+     "Janvier"
+    ],
+    [
+     "",
+     "Mars"
+    ],
+    [
+     "",
+     "Juin"
+    ],
+    [
+     "",
+     "Mai"
+    ]
+   ],
+   "ok": 2,
+   "say": "Juin ! Il a trente jours, les autres en ont trente et un.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : Picasso, Matisse, Dali ou Miró ?",
+   "qd": "L'intrus parmi ces peintres ?",
+   "a": [
+    [
+     "",
+     "Picasso"
+    ],
+    [
+     "",
+     "Matisse"
+    ],
+    [
+     "",
+     "Dalí"
+    ],
+    [
+     "",
+     "Miró"
+    ]
+   ],
+   "ok": 1,
+   "say": "Matisse ! Il est français, les trois autres sont espagnols.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le requin, la baleine, la chauve-souris ou le dauphin ?",
+   "qd": "L'intrus parmi ces animaux ?",
+   "a": [
+    [
+     "",
+     "Le requin"
+    ],
+    [
+     "",
+     "La baleine"
+    ],
+    [
+     "",
+     "La chauve-souris"
+    ],
+    [
+     "",
+     "Le dauphin"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le requin ! C'est un poisson, les autres sont des mammifères.",
+   "level": 1
+  },
+  {
+   "q": "Quelle est l'intruse : l'Allemagne, l'Italie, la Croatie ou la Suède ?",
+   "qd": "L'intrus parmi ces pays ?",
+   "a": [
+    [
+     "",
+     "L'Allemagne"
+    ],
+    [
+     "",
+     "L'Italie"
+    ],
+    [
+     "",
+     "La Croatie"
+    ],
+    [
+     "",
+     "La Suède"
+    ]
+   ],
+   "ok": 3,
+   "say": "La Suède ! Elle n'utilise pas l'euro.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus, côté masculin ou féminin : oasis, pétale, tentacule ou astérisque ?",
+   "qd": "Le mot de genre différent ?",
+   "a": [
+    [
+     "",
+     "Oasis"
+    ],
+    [
+     "",
+     "Pétale"
+    ],
+    [
+     "",
+     "Tentacule"
+    ],
+    [
+     "",
+     "Astérisque"
+    ]
+   ],
+   "ok": 0,
+   "say": "Oasis ! C'est le seul mot féminin des quatre.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : l'Égypte, la Turquie, le Kazakhstan ou le Mexique ?",
+   "qd": "L'intrus parmi ces pays ?",
+   "a": [
+    [
+     "",
+     "L'Égypte"
+    ],
+    [
+     "",
+     "La Turquie"
+    ],
+    [
+     "",
+     "Le Kazakhstan"
+    ],
+    [
+     "",
+     "Le Mexique"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le Mexique ! Les trois autres sont à cheval sur deux continents.",
+   "level": 3
+  },
+  {
+   "q": "Quelle est l'intruse : la pomme de terre, la carotte, la tomate ou le maïs ?",
+   "qd": "L'intruse parmi ces légumes ?",
+   "a": [
+    [
+     "",
+     "La pomme de terre"
+    ],
+    [
+     "",
+     "La carotte"
+    ],
+    [
+     "",
+     "La tomate"
+    ],
+    [
+     "",
+     "Le maïs"
+    ]
+   ],
+   "ok": 1,
+   "say": "La carotte ! Les trois autres viennent d'Amérique.",
+   "level": 3
+  }
+ ]
+}
