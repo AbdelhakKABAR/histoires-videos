@@ -1,0 +1,20 @@
+{
+ "title": "Les symboles de la République", "subject": "Symboles", "banner": "Les symboles de la République",
+ "symbols": ["🇫🇷","🐓","🎶","⚖","🏛","★","✦","🗽","🎖","📜","🔵","⚪","🔴","🎆","✧","🗳"],
+ "description": "🇫🇷 Quiz Symboles de la République : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #republique #histoire #culturegenerale #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quelle est la devise de la République française ?", "qd": "La devise de la République ?", "a": [["","Paix, Justice, Liberté"],["","Unité, Travail, Progrès"],["","Liberté, Égalité, Fraternité"],["","Honneur et Patrie"]], "ok": 2, "say": "Liberté, Égalité, Fraternité !", "level": 0},
+  {"q": "Quel est l'hymne national de la France ?", "qd": "L'hymne national français ?", "a": [["","La Marseillaise"],["","Le Chant du départ"],["","La Carmagnole"],["","L'Internationale"]], "ok": 0, "say": "La Marseillaise !", "level": 0},
+  {"q": "Quel animal est un symbole de la France ?", "qd": "L'animal symbole de la France ?", "a": [["","L'aigle"],["","Le coq"],["","Le lion"],["","L'ours"]], "ok": 1, "say": "Le coq !", "level": 0},
+  {"q": "Comment s'appelle la figure féminine qui incarne la République ?", "qd": "La femme qui incarne la République ?", "a": [["","Jeanne"],["","Victoire"],["","Gabrielle"],["","Marianne"]], "ok": 3, "say": "Marianne !", "level": 1},
+  {"q": "Quelle est la date de la fête nationale française ?", "qd": "La date de la fête nationale ?", "a": [["","Le 14 juillet"],["","Le 11 novembre"],["","Le 8 mai"],["","Le 1er mai"]], "ok": 0, "say": "Le 14 juillet !", "level": 1},
+  {"q": "Qui a composé La Marseillaise ?", "qd": "Le compositeur de La Marseillaise ?", "a": [["","Hector Berlioz"],["","Jean-Philippe Rameau"],["","Rouget de Lisle"],["","Jean-Baptiste Lully"]], "ok": 2, "say": "Rouget de Lisle !", "level": 1},
+  {"q": "En quelle année le 14 juillet est-il devenu la fête nationale ?", "qd": "Le 14 juillet, fête nationale depuis ?", "a": [["","1789"],["","1880"],["","1848"],["","1919"]], "ok": 1, "say": "En 1880 !", "level": 2},
+  {"q": "Comment s'appelle le bonnet que porte Marianne ?", "qd": "Le bonnet de Marianne ?", "a": [["","Le bicorne"],["","Le béret"],["","La toque"],["","Le bonnet phrygien"]], "ok": 3, "say": "Le bonnet phrygien !", "level": 2},
+  {"q": "Dans quelle ville La Marseillaise a-t-elle été composée ?", "qd": "La ville où est née La Marseillaise ?", "a": [["","Marseille"],["","Paris"],["","Strasbourg"],["","Lyon"]], "ok": 2, "say": "À Strasbourg, en 1792 !", "level": 3},
+  {"q": "Quel article de la Constitution de 1958 fixe la devise et l'hymne ?", "qd": "L'article de la Constitution sur la devise ?", "a": [["","L'article 2"],["","L'article 1"],["","L'article 16"],["","L'article 49"]], "ok": 0, "say": "L'article 2 !", "level": 3}
+ ]
+}
