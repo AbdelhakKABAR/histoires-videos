@@ -1,0 +1,20 @@
+{
+ "title": "Les desserts et pâtisseries françaises", "subject": "Pâtisserie", "banner": "Les desserts de France",
+ "symbols": ["🥐","🍰","🎂","🧁","🍮","🥧","🍪","🍩","🍫","🍯","🥖","🍓","🍋","🥚","🧈","🍒"],
+ "description": "🥐 Quiz Desserts et pâtisseries de France : 10 questions, du niveau facile à impossible. Tu es vraiment gourmand ? Donne ton score en commentaire 👇 #quiz #quiztime #france #patisserie #dessert #gastronomie #culturegenerale #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel gâteau en forme de roue a été créé pour une course de vélo ?", "qd": "Le gâteau créé pour une course de vélo ?", "a": [["","Le saint-honoré"],["","L'opéra"],["","Le Paris-Brest"],["","Le mille-feuille"]], "ok": 2, "say": "Le Paris-Brest !", "level": 0},
+  {"q": "Quel est le flan aux pruneaux typique de la Bretagne ?", "qd": "Le flan aux pruneaux de Bretagne ?", "a": [["","Le far breton"],["","Le kouign-amann"],["","La galette"],["","Le clafoutis"]], "ok": 0, "say": "Le far breton !", "level": 0},
+  {"q": "Quelle brioche en forme de couronne est typique de l'Alsace ?", "qd": "La brioche en couronne d'Alsace ?", "a": [["","Le bretzel"],["","Le kouglof"],["","La fouace"],["","Le panettone"]], "ok": 1, "say": "Le kouglof !", "level": 0},
+  {"q": "Comment appelle-t-on les beignets de carnaval de Lyon ?", "qd": "Les beignets de carnaval de Lyon ?", "a": [["","Les chichis"],["","Les oreillettes"],["","Les merveilles"],["","Les bugnes"]], "ok": 3, "say": "Les bugnes !", "level": 1},
+  {"q": "Quel bonbon carré et doré est la spécialité de Nancy ?", "qd": "Le bonbon doré de Nancy ?", "a": [["","La bergamote"],["","La bêtise"],["","Le berlingot"],["","La violette"]], "ok": 0, "say": "La bergamote de Nancy !", "level": 1},
+  {"q": "Quel gâteau feuilleté à la crème d'amande porte le nom d'une ville du Loiret ?", "qd": "Le feuilleté qui porte le nom d'une ville du Loiret ?", "a": [["","Le chausson"],["","Le pithiviers"],["","Le jésuite"],["","Le conversation"]], "ok": 1, "say": "Le pithiviers !", "level": 1},
+  {"q": "Quel gâteau porte le nom du saint patron des boulangers ?", "qd": "Le gâteau au nom du patron des boulangers ?", "a": [["","Le saint-honoré"],["","Le saint-marcellin"],["","Le saint-nectaire"],["","Le saint-michel"]], "ok": 0, "say": "Le saint-honoré !", "level": 2},
+  {"q": "Quel célèbre biscuit a été créé à Nantes en 1886 ?", "qd": "Le biscuit créé à Nantes en 1886 ?", "a": [["","Le Pim's"],["","La Paille d'or"],["","Le Prince"],["","Le Petit-Beurre"]], "ok": 3, "say": "Le Petit-Beurre LU !", "level": 2},
+  {"q": "Quelle petite tarte à la crème est la spécialité de Provins ?", "qd": "La petite tarte à la crème de Provins ?", "a": [["","Le craquelin"],["","La galopiane"],["","La niflette"],["","La tartouillat"]], "ok": 2, "say": "La niflette !", "level": 3},
+  {"q": "Quel gâteau corse est fait avec du brocciu ?", "qd": "Le gâteau corse au brocciu ?", "a": [["","Le canistrello"],["","Le fiadone"],["","Le colombier"],["","La pompe"]], "ok": 1, "say": "Le fiadone !", "level": 3}
+ ]
+}
