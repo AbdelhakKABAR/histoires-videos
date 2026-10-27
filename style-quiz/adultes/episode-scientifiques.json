@@ -1,0 +1,285 @@
+{
+ "title": "Les scientifiques français",
+ "subject": "Scientifiques",
+ "banner": "Les scientifiques français",
+ "symbols": [
+  "🔬",
+  "⚗",
+  "🧪",
+  "🧬",
+  "⚛",
+  "🔭",
+  "💡",
+  "📐",
+  "🧲",
+  "∑",
+  "π",
+  "⚡",
+  "🧫",
+  "☢",
+  "✦",
+  "🇫🇷"
+ ],
+ "description": "🔬 Quiz Scientifiques français : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #science #scientifiques #histoire #culturegenerale #defi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Qui a mis au point le premier vaccin contre la rage ?",
+   "qd": "Le vaccin contre la rage ?",
+   "a": [
+    [
+     "",
+     "Marie Curie"
+    ],
+    [
+     "",
+     "Lavoisier"
+    ],
+    [
+     "",
+     "Louis Pasteur"
+    ],
+    [
+     "",
+     "Ampère"
+    ]
+   ],
+   "ok": 2,
+   "say": "Louis Pasteur !",
+   "level": 0
+  },
+  {
+   "q": "Quelle scientifique a reçu deux prix Nobel, en physique et en chimie ?",
+   "qd": "Deux prix Nobel, physique et chimie ?",
+   "a": [
+    [
+     "",
+     "Marie Curie"
+    ],
+    [
+     "",
+     "Irène Joliot-Curie"
+    ],
+    [
+     "",
+     "Simone Veil"
+    ],
+    [
+     "",
+     "Sophie Germain"
+    ]
+   ],
+   "ok": 0,
+   "say": "Marie Curie !",
+   "level": 0
+  },
+  {
+   "q": "Quelle unité électrique porte le nom d'un savant français ?",
+   "qd": "L'unité au nom d'un savant français ?",
+   "a": [
+    [
+     "",
+     "Le volt"
+    ],
+    [
+     "",
+     "Le watt"
+    ],
+    [
+     "",
+     "L'ohm"
+    ],
+    [
+     "",
+     "L'ampère"
+    ]
+   ],
+   "ok": 3,
+   "say": "L'ampère !",
+   "level": 0
+  },
+  {
+   "q": "Quel médecin français a inventé le stéthoscope ?",
+   "qd": "L'inventeur du stéthoscope ?",
+   "a": [
+    [
+     "",
+     "Claude Bernard"
+    ],
+    [
+     "",
+     "René Laennec"
+    ],
+    [
+     "",
+     "Xavier Bichat"
+    ],
+    [
+     "",
+     "Louis Pasteur"
+    ]
+   ],
+   "ok": 1,
+   "say": "René Laennec !",
+   "level": 1
+  },
+  {
+   "q": "Quel grand chimiste français a été guillotiné en 1794 ?",
+   "qd": "Le chimiste guillotiné en 1794 ?",
+   "a": [
+    [
+     "",
+     "Gay-Lussac"
+    ],
+    [
+     "",
+     "Berthollet"
+    ],
+    [
+     "",
+     "Lavoisier"
+    ],
+    [
+     "",
+     "Chaptal"
+    ]
+   ],
+   "ok": 2,
+   "say": "Lavoisier !",
+   "level": 1
+  },
+  {
+   "q": "Qui a découvert la radioactivité en 1896 ?",
+   "qd": "La radioactivité, en 1896 ?",
+   "a": [
+    [
+     "",
+     "Henri Becquerel"
+    ],
+    [
+     "",
+     "Pierre Curie"
+    ],
+    [
+     "",
+     "Paul Langevin"
+    ],
+    [
+     "",
+     "Louis de Broglie"
+    ]
+   ],
+   "ok": 0,
+   "say": "Henri Becquerel !",
+   "level": 1
+  },
+  {
+   "q": "Qui a prouvé la rotation de la Terre avec un pendule au Panthéon ?",
+   "qd": "Le pendule du Panthéon ?",
+   "a": [
+    [
+     "",
+     "Fizeau"
+    ],
+    [
+     "",
+     "Arago"
+    ],
+    [
+     "",
+     "Fresnel"
+    ],
+    [
+     "",
+     "Léon Foucault"
+    ]
+   ],
+   "ok": 3,
+   "say": "Léon Foucault !",
+   "level": 2
+  },
+  {
+   "q": "Quel mathématicien, mort en duel à vingt ans, a fondé la théorie des groupes ?",
+   "qd": "Mort en duel à 20 ans ?",
+   "a": [
+    [
+     "",
+     "Cauchy"
+    ],
+    [
+     "",
+     "Évariste Galois"
+    ],
+    [
+     "",
+     "Fermat"
+    ],
+    [
+     "",
+     "Poincaré"
+    ]
+   ],
+   "ok": 1,
+   "say": "Évariste Galois !",
+   "level": 2
+  },
+  {
+   "q": "Quel savant a donné son nom à la décomposition d'un signal en sinusoïdes ?",
+   "qd": "Signal décomposé en sinusoïdes ?",
+   "a": [
+    [
+     "",
+     "Laplace"
+    ],
+    [
+     "",
+     "Legendre"
+    ],
+    [
+     "",
+     "Joseph Fourier"
+    ],
+    [
+     "",
+     "Lagrange"
+    ]
+   ],
+   "ok": 2,
+   "say": "Joseph Fourier !",
+   "level": 3
+  },
+  {
+   "q": "Quelle physicienne française a découvert le francium en 1939 ?",
+   "qd": "Qui a découvert le francium ?",
+   "a": [
+    [
+     "",
+     "Marguerite Perey"
+    ],
+    [
+     "",
+     "Irène Joliot-Curie"
+    ],
+    [
+     "",
+     "Ève Curie"
+    ],
+    [
+     "",
+     "Marie Curie"
+    ]
+   ],
+   "ok": 0,
+   "say": "Marguerite Perey !",
+   "level": 3
+  }
+ ]
+}
