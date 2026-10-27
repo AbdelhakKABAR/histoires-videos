@@ -8,7 +8,8 @@
   "CARCASSONNE",
   "ROQUEFORT",
   "STÉTHOSCOPE",
-  "ÉTRETAT"
+  "ÉTRETAT",
+  "MARSEILLAISE"
  ],
  "suites": [
   "1, 11, 21, 1211, 111221 (suite de Conway)",
