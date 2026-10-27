@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, du niveau facile à impossible… le dernier piège est redoutable ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : l'Italie, l'Espagne, le Canada ou la Grèce ?",
+   "qd": "L'intrus parmi ces pays ?",
+   "a": [
+    [
+     "",
+     "L'Italie"
+    ],
+    [
+     "",
+     "L'Espagne"
+    ],
+    [
+     "",
+     "Le Canada"
+    ],
+    [
+     "",
+     "La Grèce"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le Canada ! Il n'est pas en Europe.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : la trompette, le violon, le violoncelle ou la contrebasse ?",
+   "qd": "L'intruse dans l'orchestre ?",
+   "a": [
+    [
+     "",
+     "La trompette"
+    ],
+    [
+     "",
+     "Le violon"
+    ],
+    [
+     "",
+     "Le violoncelle"
+    ],
+    [
+     "",
+     "La contrebasse"
+    ]
+   ],
+   "ok": 0,
+   "say": "La trompette ! C'est un cuivre, les autres sont des cordes.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le football, le basket, le handball ou le ski ?",
+   "qd": "L'intrus parmi ces sports ?",
+   "a": [
+    [
+     "",
+     "Le football"
+    ],
+    [
+     "",
+     "Le basket"
+    ],
+    [
+     "",
+     "Le handball"
+    ],
+    [
+     "",
+     "Le ski"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le ski ! Il se pratique sans ballon.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : Madrid, Munich, Rome ou Lisbonne ?",
+   "qd": "L'intrus parmi ces villes ?",
+   "a": [
+    [
+     "",
+     "Madrid"
+    ],
+    [
+     "",
+     "Munich"
+    ],
+    [
+     "",
+     "Rome"
+    ],
+    [
+     "",
+     "Lisbonne"
+    ]
+   ],
+   "ok": 1,
+   "say": "Munich ! Ce n'est pas une capitale.",
+   "level": 1
+  },
+  {
+   "q": "Quelle est l'intruse : le crocodile, la tortue, le serpent ou la salamandre ?",
+   "qd": "L'intruse parmi ces animaux ?",
+   "a": [
+    [
+     "",
+     "Le crocodile"
+    ],
+    [
+     "",
+     "La tortue"
+    ],
+    [
+     "",
+     "Le serpent"
+    ],
+    [
+     "",
+     "La salamandre"
+    ]
+   ],
+   "ok": 3,
+   "say": "La salamandre ! C'est un amphibien, les autres sont des reptiles.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : manger, plaisir, partir ou finir ?",
+   "qd": "L'intrus parmi ces mots ?",
+   "a": [
+    [
+     "",
+     "Manger"
+    ],
+    [
+     "",
+     "Plaisir"
+    ],
+    [
+     "",
+     "Partir"
+    ],
+    [
+     "",
+     "Finir"
+    ]
+   ],
+   "ok": 1,
+   "say": "Plaisir ! C'est un nom, les autres sont des verbes.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le Rhin, le Rhône, la Seine ou la Garonne ?",
+   "qd": "L'intrus parmi ces fleuves ?",
+   "a": [
+    [
+     "",
+     "Le Rhin"
+    ],
+    [
+     "",
+     "Le Rhône"
+    ],
+    [
+     "",
+     "La Seine"
+    ],
+    [
+     "",
+     "La Garonne"
+    ]
+   ],
+   "ok": 2,
+   "say": "La Seine ! Seul fleuve des quatre qui prend sa source en France.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : l'oxygène, l'hélium, le néon ou l'argon ?",
+   "qd": "L'intrus parmi ces gaz ?",
+   "a": [
+    [
+     "",
+     "L'oxygène"
+    ],
+    [
+     "",
+     "L'hélium"
+    ],
+    [
+     "",
+     "Le néon"
+    ],
+    [
+     "",
+     "L'argon"
+    ]
+   ],
+   "ok": 0,
+   "say": "L'oxygène ! Les trois autres sont des gaz nobles.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : la Bolivie, la Mongolie, l'Uruguay ou le Paraguay ?",
+   "qd": "L'intrus parmi ces pays ?",
+   "a": [
+    [
+     "",
+     "La Bolivie"
+    ],
+    [
+     "",
+     "La Mongolie"
+    ],
+    [
+     "",
+     "L'Uruguay"
+    ],
+    [
+     "",
+     "Le Paraguay"
+    ]
+   ],
+   "ok": 2,
+   "say": "L'Uruguay ! Il a un accès à la mer, pas les trois autres.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : Balzac, Victor Hugo, Zola ou Flaubert ?",
+   "qd": "L'intrus parmi ces écrivains ?",
+   "a": [
+    [
+     "",
+     "Balzac"
+    ],
+    [
+     "",
+     "Victor Hugo"
+    ],
+    [
+     "",
+     "Zola"
+    ],
+    [
+     "",
+     "Flaubert"
+    ]
+   ],
+   "ok": 0,
+   "say": "Balzac ! Né en 1799, le seul né au dix-huitième siècle.",
+   "level": 3
+  }
+ ]
+}
