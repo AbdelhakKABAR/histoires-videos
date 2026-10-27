@@ -1,0 +1,20 @@
+{
+ "title": "Les métiers", "subject": "Métiers", "banner": "Les métiers",
+ "symbols": ["👩‍⚕️","👨‍🍳","👷","🧑‍✈️","👩‍🔬","🧑‍🌾","👨‍🔧","🧑‍🏫","⚒","🔬","🍞","🍷","✂","🎨","🛠","💼"],
+ "description": "💼 Quiz Métiers du monde : 10 questions, du niveau facile à impossible. Tu connais tous ces métiers ? Donne ton score en commentaire 👇 #quiz #quiztime #metiers #monde #culturegenerale #question #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel métier consiste à soigner les animaux ?", "qd": "Qui soigne les animaux ?", "a": [["","Le pharmacien"],["","Le vétérinaire"],["","Le dentiste"],["","Le boucher"]], "ok": 1, "say": "Le vétérinaire !", "level": 0},
+  {"q": "Quel artisan fabrique le pain ?", "qd": "Qui fabrique le pain ?", "a": [["","Le boulanger"],["","Le boucher"],["","Le fromager"],["","Le traiteur"]], "ok": 0, "say": "Le boulanger !", "level": 0},
+  {"q": "Comment appelle-t-on la personne qui conduit un avion ?", "qd": "Qui conduit un avion ?", "a": [["","Le steward"],["","Le contrôleur"],["","Le pilote"],["","Le mécanicien"]], "ok": 2, "say": "Le pilote !", "level": 0},
+  {"q": "Quel scientifique étudie les volcans ?", "qd": "Qui étudie les volcans ?", "a": [["","Le sismologue"],["","Le météorologue"],["","Le géographe"],["","Le volcanologue"]], "ok": 3, "say": "Le volcanologue !", "level": 1},
+  {"q": "Au restaurant, qui conseille les clients sur le choix du vin ?", "qd": "Qui conseille le vin au restaurant ?", "a": [["","Le sommelier"],["","Le maître d'hôtel"],["","Le barman"],["","Le chef de rang"]], "ok": 0, "say": "Le sommelier !", "level": 1},
+  {"q": "Quel scientifique étudie les fossiles ?", "qd": "Qui étudie les fossiles ?", "a": [["","L'archéologue"],["","Le paléontologue"],["","Le géologue"],["","L'historien"]], "ok": 1, "say": "Le paléontologue !", "level": 1},
+  {"q": "Dans la parfumerie, comment surnomme-t-on le créateur de parfums ?", "qd": "Le surnom du créateur de parfums ?", "a": [["","Un œil"],["","Une plume"],["","Un nez"],["","Une main"]], "ok": 2, "say": "Un nez !", "level": 2},
+  {"q": "Quel scientifique est spécialiste des insectes ?", "qd": "Le spécialiste des insectes ?", "a": [["","L'ornithologue"],["","L'ichtyologue"],["","L'herpétologue"],["","L'entomologiste"]], "ok": 3, "say": "L'entomologiste !", "level": 2},
+  {"q": "Quel artisan fabrique les tonneaux ?", "qd": "Qui fabrique les tonneaux ?", "a": [["","Le charron"],["","Le tonnelier"],["","Le bourrelier"],["","Le maréchal-ferrant"]], "ok": 1, "say": "Le tonnelier !", "level": 3},
+  {"q": "Quel scientifique est spécialiste des arbres ?", "qd": "Le spécialiste des arbres ?", "a": [["","Le dendrologue"],["","Le mycologue"],["","Le bryologue"],["","Le phycologue"]], "ok": 0, "say": "Le dendrologue !", "level": 3}
+ ]
+}
