@@ -108,8 +108,15 @@ function question(ctx, i, s, tr) {
   ctx.save(); ctx.globalAlpha = clamp(Math.min(k * 1.4, out * 1.5)); ctx.translate(0, slide);
   glass(ctx, ROW.x, 380, ROW.w, 300, 34);
   TXT(ctx, `Q${String(i + 1).padStart(2, '0')}`, ROW.x + 44, 430, 32, ACC, 800, 'left');
-  const qt = (q.qd || q.q).replace(/ ([?!:;])/g, ' $1'), size = qt.length > 40 ? 52 : 60, lines = wrapWords(ctx, qt, size, ROW.w - 90);
+  const qt = (q.qd || q.q).replace(/ ([?!:;])/g, ' $1');
+  if (q.show) { // grand emoji (drapeau…) au centre de la carte, question courte à côté du numéro
+    TXT(ctx, qt, ROW.x + 130, 430, 44, '#FFFFFF', 800, 'left');
+    const sk = spring(tr - (s.q0 - 0.2), SPRING.bouncy); ctx.save(); ctx.translate(ROW.x + ROW.w / 2, 568); ctx.scale(sk, sk);
+    ctx.shadowColor = 'rgba(0,0,0,0.45)'; ctx.shadowBlur = 30; ctx.shadowOffsetY = 10; ctx.font = '180px "Noto Color Emoji"'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillStyle = '#000'; ctx.fillText(q.show, 0, 0); ctx.restore();
+  } else {
+  const size = qt.length > 40 ? 52 : 60, lines = wrapWords(ctx, qt, size, ROW.w - 90);
   lines.forEach((ln, li) => TXT(ctx, ln, ROW.x + 44, 545 + (li - (lines.length - 1) / 2) * (size * 1.22), size, '#FFFFFF', 800, 'left'));
+  }
   ctx.restore();
   ctx.save(); ctx.globalAlpha = clamp(out * 1.5); ctx.translate(0, -(1 - out) * 200);
   for (let c = 0; c < 4; c++) row(ctx, c, q, s, tr);

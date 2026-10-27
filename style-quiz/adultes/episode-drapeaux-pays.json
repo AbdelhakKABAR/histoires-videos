@@ -1,0 +1,20 @@
+{
+ "title": "Quel pays ?", "subject": "Drapeaux", "banner": "Trouve le pays du drapeau",
+ "symbols": ["🏳", "🚩", "🌍", "⭐", "☾", "✚", "🗺", "🏴", "✦", "🌐", "★", "⚑", "🧭", "🌎", "✧", "🏁"],
+ "description": "🚩 Tu reconnais ces 10 drapeaux ? 5 secondes pour trouver le pays, du plus facile au plus dur. Ton score en commentaire 👇 Le dernier, presque personne ne le trouve 😏\n\n#quiz #quiztime #drapeaux #geographie #culturegenerale #question #defi #connaissance #monde #apprendresurtiktok",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Ce drapeau, c'est quel pays ?", "qd": "Quel pays ?", "show": "🇮🇹", "a": [["","Irlande"],["","Italie"],["","Mexique"],["","Hongrie"]], "ok": 1, "say": "L'Italie !", "level": 0},
+  {"q": "Et celui-là, quel pays ?", "qd": "Quel pays ?", "show": "🇯🇵", "a": [["","Japon"],["","Corée du Sud"],["","Chine"],["","Bangladesh"]], "ok": 0, "say": "Le Japon !", "level": 0},
+  {"q": "Ce drapeau, c'est quel pays ?", "qd": "Quel pays ?", "show": "🇧🇷", "a": [["","Portugal"],["","Argentine"],["","Brésil"],["","Jamaïque"]], "ok": 2, "say": "Le Brésil !", "level": 0},
+  {"q": "Et celui-là ?", "qd": "Quel pays ?", "show": "🇨🇭", "a": [["","Danemark"],["","Autriche"],["","Tonga"],["","Suisse"]], "ok": 3, "say": "La Suisse !", "level": 1},
+  {"q": "Ce drapeau, c'est quel pays ?", "qd": "Quel pays ?", "show": "🇹🇷", "a": [["","Tunisie"],["","Turquie"],["","Pakistan"],["","Algérie"]], "ok": 1, "say": "La Turquie !", "level": 1},
+  {"q": "Et celui-là ?", "qd": "Quel pays ?", "show": "🇦🇷", "a": [["","Argentine"],["","Uruguay"],["","Grèce"],["","Honduras"]], "ok": 0, "say": "L'Argentine !", "level": 1},
+  {"q": "Ce drapeau, c'est quel pays ?", "qd": "Quel pays ?", "show": "🇮🇩", "a": [["","Pologne"],["","Monaco"],["","Indonésie"],["","Singapour"]], "ok": 2, "say": "L'Indonésie ! Pas la Pologne, qui a le blanc en haut !", "level": 2},
+  {"q": "Et celui-là ?", "qd": "Quel pays ?", "show": "🇳🇿", "a": [["","Australie"],["","Fidji"],["","Tuvalu"],["","Nouvelle-Zélande"]], "ok": 3, "say": "La Nouvelle-Zélande ! Quatre étoiles rouges !", "level": 2},
+  {"q": "Ce drapeau, c'est quel pays ?", "qd": "Quel pays ?", "show": "🇸🇮", "a": [["","Slovaquie"],["","Slovénie"],["","Russie"],["","Serbie"]], "ok": 1, "say": "La Slovénie ! Avec le mont Triglav sur le blason !", "level": 3},
+  {"q": "Et le dernier, quel pays ?", "qd": "Quel pays ?", "show": "🇹🇩", "a": [["","Tchad"],["","Roumanie"],["","Moldavie"],["","Andorre"]], "ok": 0, "say": "Le Tchad ! Presque le même que la Roumanie, mais avec un bleu plus foncé !", "level": 3}
+ ]
+}
