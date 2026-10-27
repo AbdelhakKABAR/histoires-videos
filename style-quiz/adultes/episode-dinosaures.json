@@ -1,0 +1,20 @@
+{
+ "title": "Les dinosaures", "subject": "Dinosaures", "banner": "Les dinosaures",
+ "symbols": ["🦖","🦕","🦴","🌋","🥚","☄","🌿","🐊","🪨","🦎","🌴","🔍","⏳","🌍","🐾","✦"],
+ "description": "🦖 Quiz Dinosaures : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #dinosaures #monde #culturegenerale #question #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel dinosaure avait trois cornes sur la tête ?", "qd": "Le dinosaure aux trois cornes ?", "a": [["","Le Stégosaure"],["","Le Tricératops"],["","Le Diplodocus"],["","Le Vélociraptor"]], "ok": 1, "say": "Le Tricératops !", "level": 0},
+  {"q": "Il y a environ combien d'années les dinosaures ont-ils disparu ?", "qd": "Leur disparition, il y a environ… ?", "a": [["","6 000 ans"],["","6 millions d'années"],["","66 millions d'années"],["","660 millions d'années"]], "ok": 2, "say": "Il y a environ 66 millions d'années !", "level": 0},
+  {"q": "Quel film de 1993 montre des dinosaures recréés dans un parc ?", "qd": "Le film de 1993 aux dinosaures ?", "a": [["","Jurassic Park"],["","King Kong"],["","Godzilla"],["","Avatar"]], "ok": 0, "say": "Jurassic Park !", "level": 0},
+  {"q": "Quel dinosaure portait de grandes plaques osseuses sur le dos ?", "qd": "Le dinosaure aux plaques sur le dos ?", "a": [["","Le Tyrannosaure"],["","L'Iguanodon"],["","Le Brachiosaure"],["","Le Stégosaure"]], "ok": 3, "say": "Le Stégosaure !", "level": 1},
+  {"q": "Que signifie le mot dinosaure en grec ?", "qd": "« Dinosaure » veut dire… ?", "a": [["","Lézard terrible"],["","Géant ancien"],["","Dent de pierre"],["","Roi des reptiles"]], "ok": 0, "say": "Lézard terrible !", "level": 1},
+  {"q": "Quels animaux actuels descendent directement des dinosaures ?", "qd": "Les descendants actuels des dinosaures ?", "a": [["","Les crocodiles"],["","Les lézards"],["","Les oiseaux"],["","Les tortues"]], "ok": 2, "say": "Les oiseaux !", "level": 1},
+  {"q": "À la fin de quelle période les dinosaures ont-ils disparu ?", "qd": "Disparus à la fin de quelle période ?", "a": [["","Le Jurassique"],["","Le Crétacé"],["","Le Trias"],["","Le Permien"]], "ok": 1, "say": "À la fin du Crétacé !", "level": 2},
+  {"q": "Dans quel pays se trouve le cratère de Chicxulub, lié à leur extinction ?", "qd": "Le cratère de Chicxulub est dans quel pays ?", "a": [["","Les États-Unis"],["","Le Brésil"],["","L'Australie"],["","Le Mexique"]], "ok": 3, "say": "Le Mexique !", "level": 2},
+  {"q": "Quel est le tout premier dinosaure à avoir reçu un nom scientifique ?", "qd": "Le premier dinosaure nommé par la science ?", "a": [["","Le Mégalosaure"],["","L'Iguanodon"],["","Le Tyrannosaure"],["","Le Brachiosaure"]], "ok": 0, "say": "Le Mégalosaure, en 1824 !", "level": 3},
+  {"q": "Combien de doigts le Tyrannosaure avait-il à chaque main ?", "qd": "Combien de doigts par main pour le T. rex ?", "a": [["","Un"],["","Trois"],["","Deux"],["","Quatre"]], "ok": 2, "say": "Deux doigts seulement !", "level": 3}
+ ]
+}
