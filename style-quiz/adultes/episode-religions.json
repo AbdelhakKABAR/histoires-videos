@@ -1,0 +1,20 @@
+{
+ "title": "Les religions du monde", "subject": "Religions", "banner": "Les religions du monde",
+ "symbols": ["☪","✝","✡","☸","🕉","☯","⛩","🕌","⛪","🕍","🛕","📿","🕯","✦","🙏","☬"],
+ "description": "🌍 Quiz Religions du monde : 10 questions d'histoire et de culture, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #monde #culturegenerale #histoire #religions #question #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Dans quelle ville se trouve le Vatican ?", "qd": "Le Vatican est dans quelle ville ?", "a": [["","Rome"],["","Milan"],["","Florence"],["","Venise"]], "ok": 0, "say": "Rome !", "level": 0},
+  {"q": "Dans quel pays se trouve la ville de La Mecque ?", "qd": "La Mecque est dans quel pays ?", "a": [["","L'Égypte"],["","L'Iran"],["","L'Arabie saoudite"],["","La Jordanie"]], "ok": 2, "say": "L'Arabie saoudite !", "level": 0},
+  {"q": "Dans quel pays est né le bouddhisme ?", "qd": "Le pays où est né le bouddhisme ?", "a": [["","La Chine"],["","L'Inde"],["","Le Japon"],["","La Thaïlande"]], "ok": 1, "say": "L'Inde !", "level": 0},
+  {"q": "Dans quel fleuve les hindous se baignent-ils à Varanasi pour se purifier ?", "qd": "Le fleuve sacré de Varanasi ?", "a": [["","L'Indus"],["","Le Mékong"],["","Le Brahmapoutre"],["","Le Gange"]], "ok": 3, "say": "Le Gange !", "level": 1},
+  {"q": "Quelle religion traditionnelle est propre au Japon ?", "qd": "La religion propre au Japon ?", "a": [["","Le taoïsme"],["","Le jaïnisme"],["","Le shintoïsme"],["","Le sikhisme"]], "ok": 2, "say": "Le shintoïsme !", "level": 1},
+  {"q": "Dans quelle langue a été écrit l'essentiel de la Bible hébraïque ?", "qd": "La langue de la Bible hébraïque ?", "a": [["","Le latin"],["","L'hébreu"],["","Le grec"],["","L'arabe"]], "ok": 1, "say": "L'hébreu !", "level": 1},
+  {"q": "Dans quelle ville indienne se trouve le Temple d'or des sikhs ?", "qd": "La ville du Temple d'or des sikhs ?", "a": [["","Amritsar"],["","Delhi"],["","Bombay"],["","Jaipur"]], "ok": 0, "say": "Amritsar !", "level": 2},
+  {"q": "Quel temple du Cambodge est le plus grand monument religieux du monde ?", "qd": "Le plus grand monument religieux du monde ?", "a": [["","Borobudur"],["","Angkor Vat"],["","Bagan"],["","Prambanan"]], "ok": 1, "say": "Angkor Vat !", "level": 2},
+  {"q": "En quelle année Martin Luther a-t-il publié ses 95 thèses ?", "qd": "L'année des 95 thèses de Luther ?", "a": [["","1517"],["","1492"],["","1534"],["","1598"]], "ok": 0, "say": "En 1517 !", "level": 3},
+  {"q": "Dans quelle ville l'empereur Constantin a-t-il réuni le premier concile œcuménique, en 325 ?", "qd": "Le premier concile, en 325, à… ?", "a": [["","Éphèse"],["","Chalcédoine"],["","Constantinople"],["","Nicée"]], "ok": 3, "say": "À Nicée !", "level": 3}
+ ]
+}
