@@ -90,13 +90,13 @@
   "Les scientifiques français",
   "Les métiers",
   "Les desserts et pâtisseries françaises",
-  "Le Tour de France"
+  "Le Tour de France",
+  "La météo et le climat"
  ],
  "a_faire": [
   "Les pays d'Europe",
   "Le football",
   "Les insectes",
-  "La météo et le climat",
   "Les religions du monde (faits historiques neutres)",
   "Le Moyen Âge",
   "Les Jeux olympiques",
@@ -120,7 +120,6 @@
   "Les records de France"
  ],
  "a_faire_monde": [
-  "La météo et le climat",
   "Les religions du monde (faits historiques neutres)",
   "Le Moyen Âge",
   "Les Jeux olympiques",

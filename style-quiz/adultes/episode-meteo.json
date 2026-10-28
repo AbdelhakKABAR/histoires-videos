@@ -1,0 +1,20 @@
+{
+ "title": "La météo et le climat", "subject": "Météo", "banner": "La météo et le climat",
+ "symbols": ["☀","🌧","⛈","🌪","❄","🌈","☁","🌡","💨","🌊","⚡","🌤","🌫","☔","🌍","🧭"],
+ "description": "⛈ Quiz Météo et climat : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #meteo #climat #monde #culturegenerale #question #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel instrument mesure la pression atmosphérique ?", "qd": "Il mesure la pression de l'air ?", "a": [["","Le thermomètre"],["","Le baromètre"],["","L'anémomètre"],["","L'hygromètre"]], "ok": 1, "say": "Le baromètre !", "level": 0},
+  {"q": "Comment appelle-t-on un nuage qui touche le sol ?", "qd": "Un nuage qui touche le sol ?", "a": [["","Le brouillard"],["","La rosée"],["","Le givre"],["","La grêle"]], "ok": 0, "say": "Le brouillard !", "level": 0},
+  {"q": "Quelle couleur est tout à l'extérieur de l'arc-en-ciel ?", "qd": "La couleur extérieure de l'arc-en-ciel ?", "a": [["","Le violet"],["","Le bleu"],["","Le vert"],["","Le rouge"]], "ok": 3, "say": "Le rouge !", "level": 0},
+  {"q": "Comment appelle-t-on un ouragan en Asie de l'Est ?", "qd": "Un ouragan en Asie de l'Est ?", "a": [["","Une mousson"],["","Un typhon"],["","Une tornade"],["","Un blizzard"]], "ok": 1, "say": "Un typhon !", "level": 1},
+  {"q": "Quelle échelle mesure la force du vent de 0 à 12 ?", "qd": "L'échelle du vent, de 0 à 12 ?", "a": [["","Beaufort"],["","Richter"],["","Celsius"],["","Mercalli"]], "ok": 0, "say": "L'échelle de Beaufort !", "level": 1},
+  {"q": "Quel nuage géant provoque les orages ?", "qd": "Le nuage géant des orages ?", "a": [["","Le cirrus"],["","Le stratus"],["","Le cumulonimbus"],["","L'altocumulus"]], "ok": 2, "say": "Le cumulonimbus !", "level": 1},
+  {"q": "Quelle est la température la plus basse jamais mesurée sur Terre ?", "qd": "Le record de froid sur Terre ?", "a": [["","-69,2 °C"],["","-89,2 °C"],["","-109,2 °C"],["","-79,2 °C"]], "ok": 1, "say": "Moins 89,2 degrés, en Antarctique !", "level": 2},
+  {"q": "Comment s'appelle le réchauffement anormal des eaux du Pacifique ?", "qd": "Le réchauffement du Pacifique ?", "a": [["","El Niño"],["","La Niña"],["","Le Gulf Stream"],["","La mousson"]], "ok": 0, "say": "El Niño !", "level": 2},
+  {"q": "Combien de genres de nuages compte la classification internationale ?", "qd": "Combien de genres de nuages ?", "a": [["","6"],["","8"],["","10"],["","12"]], "ok": 2, "say": "Dix genres !", "level": 3},
+  {"q": "À partir de quelle vitesse de vent parle-t-on d'ouragan ?", "qd": "Vent minimum d'un ouragan ?", "a": [["","88 km/h"],["","150 km/h"],["","200 km/h"],["","118 km/h"]], "ok": 3, "say": "118 kilomètres heure !", "level": 3}
+ ]
+}
