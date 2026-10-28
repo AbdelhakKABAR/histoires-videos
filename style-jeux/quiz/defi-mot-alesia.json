@@ -1,0 +1,20 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : IMPOSSIBLE",
+ "mot": "ALÉSIA",
+ "categorie": "L'histoire de France",
+ "categorie_dite": "Catégorie : l'histoire de France.",
+ "accroche_dite": "Seulement un pour cent des gens trouvent ce mot mystère.",
+ "indices": [
+  "C'est le nom d'une ville fortifiée gauloise.",
+  "Jules César l'a assiégée en 52 avant J.-C.",
+  "Vercingétorix y a dû se rendre aux Romains."
+ ],
+ "lettres_donnees": 1,
+ "dire": "Alésia",
+ "explication": "Le siège d'Alésia, défaite de Vercingétorix face à César.",
+ "fin": "Tu l'avais trouvé ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu l'avais trouvé ?",
+ "description": "🔤 MOT MYSTÈRE niveau impossible : 3 indices, 20 secondes. Tu l'as trouvé ? 👇 #motmystere #quiz #france #histoire #enigme #culturegenerale #pourtoi"
+}
