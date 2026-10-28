@@ -1,0 +1,16 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : IMPOSSIBLE",
+ "suite": ["L", "M", "M", "J", "V", "S"],
+ "options": ["L", "S", "M", "D"],
+ "ok": 3,
+ "consigne": "Quelle lettre vient ensuite ?",
+ "accroche_dite": "Seulement un pour cent des gens trouvent la lettre suivante.",
+ "question_dite": "Èle, ème, ème, ji, vé, esse… Quelle lettre vient ensuite ?",
+ "explication": "Les initiales des jours : Lundi, Mardi, Mercredi, Jeudi, Vendredi, Samedi… Dimanche → D.",
+ "explication_dite": "La lettre D ! Ce sont les initiales des jours de la semaine : lundi, mardi, mercredi, jeudi, vendredi, samedi… et dimanche.",
+ "fin": "Tu avais trouvé ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🧩 SUITE LOGIQUE niveau impossible : L, M, M, J, V, S… quelle lettre vient ensuite ? Seuls 1 % trouvent ! 👇 #logique #enigme #quiz #suitelogique #cerveau #pourtoi"
+}
