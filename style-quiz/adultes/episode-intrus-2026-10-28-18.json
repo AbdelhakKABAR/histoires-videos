@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, du niveau facile à impossible… les derniers sont de vrais pièges ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quelle est l'intruse : Le Caire, Nairobi, Dakar ou Lima ?",
+   "qd": "L'intruse parmi ces capitales ?",
+   "a": [
+    [
+     "",
+     "Le Caire"
+    ],
+    [
+     "",
+     "Nairobi"
+    ],
+    [
+     "",
+     "Dakar"
+    ],
+    [
+     "",
+     "Lima"
+    ]
+   ],
+   "ok": 3,
+   "say": "Lima ! Elle est en Amérique du Sud, les autres en Afrique.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : la poule, la tortue, le canard ou l'autruche ?",
+   "qd": "L'intrus parmi ces animaux ?",
+   "a": [
+    [
+     "",
+     "La poule"
+    ],
+    [
+     "",
+     "La tortue"
+    ],
+    [
+     "",
+     "Le canard"
+    ],
+    [
+     "",
+     "L'autruche"
+    ]
+   ],
+   "ok": 1,
+   "say": "La tortue ! C'est un reptile, les autres sont des oiseaux.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le football, le badminton, le rugby ou le handball ?",
+   "qd": "L'intrus parmi ces sports ?",
+   "a": [
+    [
+     "",
+     "Le football"
+    ],
+    [
+     "",
+     "Le badminton"
+    ],
+    [
+     "",
+     "Le rugby"
+    ],
+    [
+     "",
+     "Le handball"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le badminton ! On y joue avec un volant, pas avec un ballon.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : bijou, caillou, fou ou genou ?",
+   "qd": "L'intrus : le pluriel ?",
+   "a": [
+    [
+     "",
+     "Bijou"
+    ],
+    [
+     "",
+     "Caillou"
+    ],
+    [
+     "",
+     "Fou"
+    ],
+    [
+     "",
+     "Genou"
+    ]
+   ],
+   "ok": 2,
+   "say": "Fou ! Il prend un S au pluriel, les autres un X.",
+   "level": 1
+  },
+  {
+   "q": "Quelle est l'intruse : Saturne, la Terre, Uranus ou Neptune ?",
+   "qd": "L'intruse parmi ces planètes ?",
+   "a": [
+    [
+     "",
+     "Saturne"
+    ],
+    [
+     "",
+     "La Terre"
+    ],
+    [
+     "",
+     "Uranus"
+    ],
+    [
+     "",
+     "Neptune"
+    ]
+   ],
+   "ok": 1,
+   "say": "La Terre ! C'est une planète rocheuse, les autres sont des géantes.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le violon, l'alto, le violoncelle ou la harpe ?",
+   "qd": "L'intrus parmi ces instruments ?",
+   "a": [
+    [
+     "",
+     "Le violon"
+    ],
+    [
+     "",
+     "L'alto"
+    ],
+    [
+     "",
+     "Le violoncelle"
+    ],
+    [
+     "",
+     "La harpe"
+    ]
+   ],
+   "ok": 3,
+   "say": "La harpe ! On pince ses cordes, les autres se jouent avec un archet.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : Victor Hugo, Émile Zola, Gustave Flaubert ou Alexandre Dumas ?",
+   "qd": "L'intrus parmi ces écrivains ?",
+   "a": [
+    [
+     "",
+     "Victor Hugo"
+    ],
+    [
+     "",
+     "Émile Zola"
+    ],
+    [
+     "",
+     "Flaubert"
+    ],
+    [
+     "",
+     "Alexandre Dumas"
+    ]
+   ],
+   "ok": 2,
+   "say": "Flaubert ! C'est le seul qui ne repose pas au Panthéon.",
+   "level": 2
+  },
+  {
+   "q": "Quelle est l'intruse : la Bolivie, la Colombie, le Paraguay ou l'Autriche ?",
+   "qd": "L'intrus parmi ces pays ?",
+   "a": [
+    [
+     "",
+     "La Bolivie"
+    ],
+    [
+     "",
+     "La Colombie"
+    ],
+    [
+     "",
+     "Le Paraguay"
+    ],
+    [
+     "",
+     "L'Autriche"
+    ]
+   ],
+   "ok": 1,
+   "say": "La Colombie ! Elle a un accès à la mer, pas les autres.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : l'hélium, le néon, le fluor ou le krypton ?",
+   "qd": "L'intrus parmi ces éléments ?",
+   "a": [
+    [
+     "",
+     "L'hélium"
+    ],
+    [
+     "",
+     "Le néon"
+    ],
+    [
+     "",
+     "Le fluor"
+    ],
+    [
+     "",
+     "Le krypton"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le fluor ! Les autres sont des gaz nobles.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : le polonais, le hongrois, le tchèque ou le slovaque ?",
+   "qd": "L'intruse parmi ces langues ?",
+   "a": [
+    [
+     "",
+     "Le polonais"
+    ],
+    [
+     "",
+     "Le hongrois"
+    ],
+    [
+     "",
+     "Le tchèque"
+    ],
+    [
+     "",
+     "Le slovaque"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le hongrois ! Ce n'est pas une langue slave.",
+   "level": 3
+  }
+ ]
+}
