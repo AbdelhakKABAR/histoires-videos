@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, du niveau facile à impossible… les deux dernières sont de vrais pièges ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quelle est l'intruse : Vienne, Madrid, Oslo ou Istanbul ?",
+   "qd": "L'intruse parmi ces villes ?",
+   "a": [
+    [
+     "",
+     "Vienne"
+    ],
+    [
+     "",
+     "Madrid"
+    ],
+    [
+     "",
+     "Oslo"
+    ],
+    [
+     "",
+     "Istanbul"
+    ]
+   ],
+   "ok": 3,
+   "say": "Istanbul ! Ce n'est pas une capitale : celle de la Turquie, c'est Ankara.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le tigre, l'ours, le lion ou le léopard ?",
+   "qd": "L'intrus parmi ces animaux ?",
+   "a": [
+    [
+     "",
+     "Le tigre"
+    ],
+    [
+     "",
+     "L'ours"
+    ],
+    [
+     "",
+     "Le lion"
+    ],
+    [
+     "",
+     "Le léopard"
+    ]
+   ],
+   "ok": 1,
+   "say": "L'ours ! Les trois autres sont des félins.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : le violon, l'alto, la clarinette ou le violoncelle ?",
+   "qd": "L'intruse dans l'orchestre ?",
+   "a": [
+    [
+     "",
+     "Le violon"
+    ],
+    [
+     "",
+     "L'alto"
+    ],
+    [
+     "",
+     "La clarinette"
+    ],
+    [
+     "",
+     "Le violoncelle"
+    ]
+   ],
+   "ok": 2,
+   "say": "La clarinette ! C'est un instrument à vent, les autres sont à cordes.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le Chili, le Kenya, le Maroc ou le Sénégal ?",
+   "qd": "L'intrus parmi ces pays ?",
+   "a": [
+    [
+     "",
+     "Le Chili"
+    ],
+    [
+     "",
+     "Le Kenya"
+    ],
+    [
+     "",
+     "Le Maroc"
+    ],
+    [
+     "",
+     "Le Sénégal"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le Chili ! Il est en Amérique du Sud, les autres en Afrique.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : 2, 3, 5 ou 9 ?",
+   "qd": "L'intrus parmi ces nombres ?",
+   "a": [
+    [
+     "",
+     "2"
+    ],
+    [
+     "",
+     "3"
+    ],
+    [
+     "",
+     "5"
+    ],
+    [
+     "",
+     "9"
+    ]
+   ],
+   "ok": 3,
+   "say": "9 ! Ce n'est pas un nombre premier : 9 égale 3 fois 3.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : Henri IV, Jules Ferry, Louis XIV ou François Ier ?",
+   "qd": "L'intrus dans l'histoire de France ?",
+   "a": [
+    [
+     "",
+     "Henri IV"
+    ],
+    [
+     "",
+     "Jules Ferry"
+    ],
+    [
+     "",
+     "Louis XIV"
+    ],
+    [
+     "",
+     "François Ier"
+    ]
+   ],
+   "ok": 1,
+   "say": "Jules Ferry ! Il n'a jamais été roi de France.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le koala, le kangourou, le panda ou le wombat ?",
+   "qd": "L'intrus : piège chez les animaux !",
+   "a": [
+    [
+     "",
+     "Le koala"
+    ],
+    [
+     "",
+     "Le kangourou"
+    ],
+    [
+     "",
+     "Le panda"
+    ],
+    [
+     "",
+     "Le wombat"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le panda ! C'est un ours. Les autres sont des marsupiaux.",
+   "level": 2
+  },
+  {
+   "q": "Quelle est l'intruse : la Meuse, le Rhône, le Rhin ou la Garonne ?",
+   "qd": "L'intruse parmi ces fleuves ?",
+   "a": [
+    [
+     "",
+     "La Meuse"
+    ],
+    [
+     "",
+     "Le Rhône"
+    ],
+    [
+     "",
+     "Le Rhin"
+    ],
+    [
+     "",
+     "La Garonne"
+    ]
+   ],
+   "ok": 0,
+   "say": "La Meuse ! C'est la seule qui prend sa source en France.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : le sodium, l'étain, le magnésium ou le plomb ?",
+   "qd": "L'intrus : pense aux symboles chimiques !",
+   "a": [
+    [
+     "",
+     "Le sodium"
+    ],
+    [
+     "",
+     "L'étain"
+    ],
+    [
+     "",
+     "Le magnésium"
+    ],
+    [
+     "",
+     "Le plomb"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le magnésium ! Symbole Mg. Les autres viennent du latin : Na, Sn et Pb.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : pétale, astérisque, échappatoire ou tentacule ?",
+   "qd": "L'intrus : pense au genre des mots !",
+   "a": [
+    [
+     "",
+     "Pétale"
+    ],
+    [
+     "",
+     "Astérisque"
+    ],
+    [
+     "",
+     "Échappatoire"
+    ],
+    [
+     "",
+     "Tentacule"
+    ]
+   ],
+   "ok": 2,
+   "say": "Échappatoire ! C'est le seul nom féminin : une échappatoire.",
+   "level": 3
+  }
+ ]
+}
