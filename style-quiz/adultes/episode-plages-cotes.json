@@ -1,0 +1,20 @@
+{
+ "title": "Les plages et côtes de France", "subject": "Côtes de France", "banner": "Les plages et côtes de France",
+ "symbols": ["🏖","🌊","⛱","🐚","⚓","🌅","🦀","⛵","🏝","🐟","🧭","☀","🪸","🦭","🗼","🌴"],
+ "description": "🏖 Quiz Plages et côtes de France : 10 questions, du niveau facile à impossible. Tu connais bien le littoral français ? Donne ton score en commentaire 👇 #quiz #quiztime #france #plage #mer #geographie #culturegenerale #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Sur quelle côte se trouve la ville de Biarritz ?", "qd": "La côte de Biarritz ?", "a": [["","La Côte basque"],["","La Côte d'Azur"],["","La Côte d'Opale"],["","La Côte d'Émeraude"]], "ok": 0, "say": "La Côte basque !", "level": 0},
+  {"q": "Quelle mer borde la Côte d'Azur ?", "qd": "La mer de la Côte d'Azur ?", "a": [["","La Manche"],["","La Méditerranée"],["","La mer du Nord"],["","La mer Baltique"]], "ok": 1, "say": "La Méditerranée !", "level": 0},
+  {"q": "Dans quelle région se trouvent les plages du Débarquement de 1944 ?", "qd": "Les plages du Débarquement ?", "a": [["","La Bretagne"],["","Les Hauts-de-France"],["","La Normandie"],["","La Nouvelle-Aquitaine"]], "ok": 2, "say": "La Normandie !", "level": 0},
+  {"q": "Près de quelle ville se trouve la dune du Pilat, la plus haute d'Europe ?", "qd": "La dune du Pilat est près de…", "a": [["","Biarritz"],["","La Baule"],["","Le Touquet"],["","Arcachon"]], "ok": 3, "say": "Arcachon !", "level": 1},
+  {"q": "Sur quelle côte se trouve la station du Touquet ?", "qd": "La côte du Touquet ?", "a": [["","La Côte d'Opale"],["","La Côte Fleurie"],["","La Côte d'Argent"],["","La Côte de Nacre"]], "ok": 0, "say": "La Côte d'Opale !", "level": 1},
+  {"q": "Dans quel département se trouve La Baule ?", "qd": "Le département de La Baule ?", "a": [["","Le Morbihan"],["","La Loire-Atlantique"],["","La Vendée"],["","Le Finistère"]], "ok": 1, "say": "La Loire-Atlantique !", "level": 1},
+  {"q": "Dans quel département se trouve la Côte de Granit rose ?", "qd": "Le département du Granit rose ?", "a": [["","Le Finistère"],["","La Manche"],["","Le Morbihan"],["","Les Côtes-d'Armor"]], "ok": 3, "say": "Les Côtes-d'Armor !", "level": 2},
+  {"q": "Sur quelle côte se trouvent les falaises d'Étretat ?", "qd": "La côte des falaises d'Étretat ?", "a": [["","La Côte Fleurie"],["","La Côte de Nacre"],["","La Côte d'Albâtre"],["","La Côte d'Opale"]], "ok": 2, "say": "La Côte d'Albâtre !", "level": 2},
+  {"q": "Quelle île est reliée au continent par le passage du Gois, une route submersible ?", "qd": "L'île du passage du Gois ?", "a": [["","Noirmoutier"],["","L'île d'Yeu"],["","L'île de Ré"],["","Belle-Île"]], "ok": 0, "say": "Noirmoutier !", "level": 3},
+  {"q": "Dans quel département se trouve la Côte Vermeille, avec Collioure ?", "qd": "Le département de la Côte Vermeille ?", "a": [["","L'Aude"],["","Les Pyrénées-Orientales"],["","L'Hérault"],["","Le Var"]], "ok": 1, "say": "Les Pyrénées-Orientales !", "level": 3}
+ ]
+}
