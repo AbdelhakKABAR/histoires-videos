@@ -1,0 +1,20 @@
+{
+ "title": "Le Moyen Âge", "subject": "Moyen Âge", "banner": "Le Moyen Âge",
+ "symbols": ["🏰","⚔","🛡","👑","🐎","📜","🏹","⛪","🗡","🕯","🪓","⚜","🔔","🧭","⛵","✦"],
+ "description": "🏰 Quiz Moyen Âge : 10 questions sur l'histoire du monde médiéval, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #moyenage #histoire #monde #culturegenerale #question #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quelle terrible épidémie a ravagé l'Europe au quatorzième siècle ?", "qd": "L'épidémie du XIVe siècle ?", "a": [["","Le choléra"],["","La variole"],["","La peste noire"],["","La grippe"]], "ok": 2, "say": "La peste noire !", "level": 0},
+  {"q": "Comment appelle-t-on les guerriers nobles qui combattaient à cheval au Moyen Âge ?", "qd": "Les guerriers nobles à cheval ?", "a": [["","Les chevaliers"],["","Les gladiateurs"],["","Les samouraïs"],["","Les mousquetaires"]], "ok": 0, "say": "Les chevaliers !", "level": 0},
+  {"q": "En quelle année Christophe Colomb atteint-il l'Amérique ?", "qd": "Colomb atteint l'Amérique en… ?", "a": [["","1515"],["","1453"],["","1789"],["","1492"]], "ok": 3, "say": "En 1492 !", "level": 0},
+  {"q": "Quel explorateur viking aurait atteint l'Amérique vers l'an mille ?", "qd": "Le Viking arrivé en Amérique vers l'an 1000 ?", "a": [["","Ragnar Lodbrok"],["","Leif Erikson"],["","Harald à la Dent bleue"],["","Rollon"]], "ok": 1, "say": "Leif Erikson !", "level": 1},
+  {"q": "En quelle année Constantinople tombe-t-elle aux mains des Ottomans ?", "qd": "La chute de Constantinople ?", "a": [["","1204"],["","1099"],["","1453"],["","1492"]], "ok": 2, "say": "En 1453 !", "level": 1},
+  {"q": "Qui a fondé l'Empire mongol ?", "qd": "Le fondateur de l'Empire mongol ?", "a": [["","Kubilai Khan"],["","Tamerlan"],["","Attila"],["","Gengis Khan"]], "ok": 3, "say": "Gengis Khan !", "level": 1},
+  {"q": "Quelle charte anglaise, signée en 1215, limite les pouvoirs du roi ?", "qd": "La charte anglaise de 1215 ?", "a": [["","L'Habeas Corpus"],["","La Magna Carta"],["","Le Bill of Rights"],["","Le Domesday Book"]], "ok": 1, "say": "La Magna Carta !", "level": 2},
+  {"q": "Combien d'années a réellement duré la guerre de Cent Ans ?", "qd": "La vraie durée de la guerre de Cent Ans ?", "a": [["","116 ans"],["","100 ans"],["","99 ans"],["","124 ans"]], "ok": 0, "say": "116 ans, de 1337 à 1453 !", "level": 2},
+  {"q": "Quel grand voyageur né à Tanger a parcouru le monde musulman au quatorzième siècle ?", "qd": "Le grand voyageur né à Tanger ?", "a": [["","Marco Polo"],["","Ibn Khaldoun"],["","Ibn Battuta"],["","Zheng He"]], "ok": 2, "say": "Ibn Battuta !", "level": 3},
+  {"q": "Quel souverain du Mali, réputé pour sa richesse, fit un pèlerinage à La Mecque en 1324 ?", "qd": "Le roi du Mali parti à La Mecque en 1324 ?", "a": [["","Soundiata Keïta"],["","Mansa Moussa"],["","Askia Mohammed"],["","Sonni Ali"]], "ok": 1, "say": "Mansa Moussa !", "level": 3}
+ ]
+}

@@ -94,14 +94,14 @@
   "La météo et le climat",
   "Les grandes dates de l'histoire de France",
   "Les religions du monde (faits historiques neutres)",
-  "Les plages et côtes de France"
+  "Les plages et côtes de France",
+  "Le Moyen Âge"
  ],
  "a_faire": [
   "Les pays d'Europe",
   "Le football",
   "Les insectes",
   "Les religions du monde (faits historiques neutres)",
-  "Le Moyen Âge",
   "Les Jeux olympiques",
   "L'Afrique",
   "L'Asie",
@@ -121,7 +121,6 @@
   "Les records de France"
  ],
  "a_faire_monde": [
-  "Le Moyen Âge",
   "Les Jeux olympiques",
   "L'Afrique",
   "L'Asie",
