@@ -1,0 +1,20 @@
+{
+ "title": "Les grandes dates de l'histoire de France", "subject": "Dates", "banner": "Les grandes dates de France",
+ "symbols": ["📜","⚔","👑","🏰","🗓","⏳","⚜","🕊","🔔","🏛","✒","🎖","🛡","⭐","🕰","🪶"],
+ "description": "📜 Quiz Grandes dates de l'histoire de France : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #histoire #histoiredefrance #culturegenerale #question #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "En quelle année a été signé l'armistice de la Première Guerre mondiale ?", "qd": "L'armistice de la Grande Guerre ?", "a": [["","1914"],["","1916"],["","1918"],["","1919"]], "ok": 2, "say": "En 1918 !", "level": 0},
+  {"q": "En quelle année a eu lieu le débarquement en Normandie ?", "qd": "Le débarquement en Normandie ?", "a": [["","1944"],["","1940"],["","1942"],["","1945"]], "ok": 0, "say": "En 1944 !", "level": 0},
+  {"q": "Quel jour fête-t-on la fête nationale française ?", "qd": "Le jour de la fête nationale ?", "a": [["","Le 11 novembre"],["","Le 14 juillet"],["","Le 8 mai"],["","Le 1er mai"]], "ok": 1, "say": "Le 14 juillet !", "level": 0},
+  {"q": "En quelle année les pièces et billets en euros sont-ils arrivés en France ?", "qd": "Les pièces et billets en euros ?", "a": [["","1999"],["","2000"],["","2005"],["","2002"]], "ok": 3, "say": "En 2002 !", "level": 1},
+  {"q": "En quelle année Charlemagne a-t-il été couronné empereur ?", "qd": "Le couronnement de Charlemagne ?", "a": [["","800"],["","732"],["","987"],["","1066"]], "ok": 0, "say": "En l'an 800 !", "level": 1},
+  {"q": "En quelle année la peine de mort a-t-elle été abolie en France ?", "qd": "L'abolition de la peine de mort ?", "a": [["","1968"],["","1975"],["","1981"],["","1995"]], "ok": 2, "say": "En 1981 !", "level": 1},
+  {"q": "En quelle année Hugues Capet est-il devenu roi des Francs ?", "qd": "Hugues Capet devient roi ?", "a": [["","843"],["","987"],["","911"],["","1066"]], "ok": 1, "say": "En 987 !", "level": 2},
+  {"q": "En quelle année les Françaises ont-elles voté pour la première fois ?", "qd": "Le premier vote des Françaises ?", "a": [["","1918"],["","1936"],["","1958"],["","1945"]], "ok": 3, "say": "En 1945 !", "level": 2},
+  {"q": "En quelle année l'édit de Villers-Cotterêts impose-t-il le français dans les actes officiels ?", "qd": "L'édit de Villers-Cotterêts ?", "a": [["","1539"],["","1515"],["","1598"],["","1635"]], "ok": 0, "say": "En 1539 !", "level": 3},
+  {"q": "En quelle année a eu lieu la bataille de Bouvines ?", "qd": "La bataille de Bouvines ?", "a": [["","1346"],["","1415"],["","1214"],["","1453"]], "ok": 2, "say": "En 1214 !", "level": 3}
+ ]
+}
