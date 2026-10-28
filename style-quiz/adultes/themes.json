@@ -89,7 +89,8 @@
   "Les dinosaures",
   "Les scientifiques français",
   "Les métiers",
-  "Les desserts et pâtisseries françaises"
+  "Les desserts et pâtisseries françaises",
+  "Le Tour de France"
  ],
  "a_faire": [
   "Les pays d'Europe",
@@ -110,7 +111,6 @@
   "Les découvertes scientifiques"
  ],
  "a_faire_france": [
-  "Le Tour de France",
   "Les grandes dates de l'histoire de France",
   "Les plages et côtes de France",
   "La langue française : orthographe",

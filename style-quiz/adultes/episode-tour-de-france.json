@@ -1,0 +1,20 @@
+{
+ "title": "Le Tour de France", "subject": "Tour de France", "banner": "Le Tour de France",
+ "symbols": ["🚴","🚲","🏁","🟡","🏆","⛰","🇫🇷","⏱","🥇","🗼","🔴","⚪","🟢","🛣","☀","🎽"],
+ "description": "🚴 Quiz Tour de France : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #tourdefrance #velo #cyclisme #france #culturegenerale #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "De quelle couleur est le maillot du leader du classement général ?", "qd": "La couleur du maillot du leader ?", "a": [["","Vert"],["","Jaune"],["","Rouge"],["","Blanc"]], "ok": 1, "say": "Jaune !", "level": 0},
+  {"q": "Dans quelle ville le Tour de France se termine-t-il traditionnellement ?", "qd": "La ville d'arrivée traditionnelle ?", "a": [["","Lyon"],["","Marseille"],["","Paris"],["","Bordeaux"]], "ok": 2, "say": "Paris, sur les Champs-Élysées !", "level": 0},
+  {"q": "Quel maillot porte le meilleur grimpeur du Tour ?", "qd": "Le maillot du meilleur grimpeur ?", "a": [["","Le maillot vert"],["","Le maillot blanc"],["","Le maillot jaune"],["","Le maillot à pois"]], "ok": 3, "say": "Le maillot à pois !", "level": 0},
+  {"q": "En quelle année a eu lieu le tout premier Tour de France ?", "qd": "L'année du premier Tour ?", "a": [["","1903"],["","1889"],["","1919"],["","1936"]], "ok": 0, "say": "En 1903 !", "level": 1},
+  {"q": "Quelle est la couleur du maillot du meilleur jeune ?", "qd": "Le maillot du meilleur jeune ?", "a": [["","Vert"],["","Rose"],["","Blanc"],["","Bleu"]], "ok": 2, "say": "Blanc !", "level": 1},
+  {"q": "Quel quintuple vainqueur du Tour est surnommé le Cannibale ?", "qd": "Qui est surnommé « le Cannibale » ?", "a": [["","Bernard Hinault"],["","Eddy Merckx"],["","Jacques Anquetil"],["","Miguel Indurain"]], "ok": 1, "say": "Eddy Merckx !", "level": 1},
+  {"q": "Quel journal a créé le Tour de France en 1903 ?", "qd": "Le journal qui a créé le Tour ?", "a": [["","L'Équipe"],["","Le Figaro"],["","Le Petit Journal"],["","L'Auto"]], "ok": 3, "say": "L'Auto !", "level": 2},
+  {"q": "Qui est le dernier Français à avoir gagné le Tour de France ?", "qd": "Le dernier Français vainqueur ?", "a": [["","Bernard Hinault"],["","Laurent Fignon"],["","Richard Virenque"],["","Thibaut Pinot"]], "ok": 0, "say": "Bernard Hinault, en 1985 !", "level": 2},
+  {"q": "Qui a remporté le premier Tour de France, en 1903 ?", "qd": "Le vainqueur du premier Tour ?", "a": [["","Henri Cornet"],["","Lucien Petit-Breton"],["","Maurice Garin"],["","Hippolyte Aucouturier"]], "ok": 2, "say": "Maurice Garin !", "level": 3},
+  {"q": "Quel est le plus petit écart de l'histoire entre le premier et le deuxième du Tour ?", "qd": "Le plus petit écart entre le 1er et le 2e ?", "a": [["","23 secondes"],["","8 secondes"],["","1 seconde"],["","40 secondes"]], "ok": 1, "say": "8 secondes, en 1989 !", "level": 3}
+ ]
+}
