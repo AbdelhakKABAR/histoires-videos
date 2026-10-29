@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, du niveau facile à impossible… attention aux pièges ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : la vache, la chèvre, la poule ou la brebis ?",
+   "qd": "L'intrus à la ferme ?",
+   "a": [
+    [
+     "",
+     "La vache"
+    ],
+    [
+     "",
+     "La chèvre"
+    ],
+    [
+     "",
+     "La poule"
+    ],
+    [
+     "",
+     "La brebis"
+    ]
+   ],
+   "ok": 2,
+   "say": "La poule ! C'est un oiseau, les autres sont des mammifères.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le violon, le saxophone, le violoncelle ou la contrebasse ?",
+   "qd": "L'intrus parmi ces instruments ?",
+   "a": [
+    [
+     "",
+     "Le violon"
+    ],
+    [
+     "",
+     "Le saxophone"
+    ],
+    [
+     "",
+     "Le violoncelle"
+    ],
+    [
+     "",
+     "La contrebasse"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le saxophone ! Il n'a pas de cordes.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : avril, lundi, mardi ou jeudi ?",
+   "qd": "L'intrus dans le calendrier ?",
+   "a": [
+    [
+     "",
+     "Avril"
+    ],
+    [
+     "",
+     "Lundi"
+    ],
+    [
+     "",
+     "Mardi"
+    ],
+    [
+     "",
+     "Jeudi"
+    ]
+   ],
+   "ok": 0,
+   "say": "Avril ! C'est un mois, pas un jour.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : Ottawa, Canberra, Brasilia ou Toronto ?",
+   "qd": "L'intruse parmi ces villes ?",
+   "a": [
+    [
+     "",
+     "Ottawa"
+    ],
+    [
+     "",
+     "Canberra"
+    ],
+    [
+     "",
+     "Brasilia"
+    ],
+    [
+     "",
+     "Toronto"
+    ]
+   ],
+   "ok": 3,
+   "say": "Toronto ! Ce n'est pas une capitale de pays.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : Molière, Victor Hugo, Racine ou Corneille ?",
+   "qd": "L'intrus parmi ces écrivains ?",
+   "a": [
+    [
+     "",
+     "Molière"
+    ],
+    [
+     "",
+     "Victor Hugo"
+    ],
+    [
+     "",
+     "Racine"
+    ],
+    [
+     "",
+     "Corneille"
+    ]
+   ],
+   "ok": 1,
+   "say": "Victor Hugo ! Les autres sont du dix-septième siècle.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le néon, l'hélium, l'argon ou le sodium ?",
+   "qd": "L'intrus en chimie ?",
+   "a": [
+    [
+     "",
+     "Le néon"
+    ],
+    [
+     "",
+     "L'hélium"
+    ],
+    [
+     "",
+     "L'argon"
+    ],
+    [
+     "",
+     "Le sodium"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le sodium ! Ce n'est pas un gaz noble.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le gecko, l'axolotl, le caméléon ou l'iguane ?",
+   "qd": "L'intrus parmi ces animaux ?",
+   "a": [
+    [
+     "",
+     "Le gecko"
+    ],
+    [
+     "",
+     "L'axolotl"
+    ],
+    [
+     "",
+     "Le caméléon"
+    ],
+    [
+     "",
+     "L'iguane"
+    ]
+   ],
+   "ok": 1,
+   "say": "L'axolotl ! C'est un amphibien, les autres sont des reptiles.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : Henri IV, Louis XIV, Napoléon III ou Louis XVI ?",
+   "qd": "L'intrus parmi ces souverains ?",
+   "a": [
+    [
+     "",
+     "Henri IV"
+    ],
+    [
+     "",
+     "Louis XIV"
+    ],
+    [
+     "",
+     "Napoléon III"
+    ],
+    [
+     "",
+     "Louis XVI"
+    ]
+   ],
+   "ok": 2,
+   "say": "Napoléon III ! Les trois autres sont des rois Bourbons.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : le Népal, le Cambodge, le Laos ou la Mongolie ?",
+   "qd": "L'intrus parmi ces pays ?",
+   "a": [
+    [
+     "",
+     "Le Népal"
+    ],
+    [
+     "",
+     "Le Cambodge"
+    ],
+    [
+     "",
+     "Le Laos"
+    ],
+    [
+     "",
+     "La Mongolie"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le Cambodge ! C'est le seul qui a accès à la mer.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : le finnois, l'estonien, le letton ou le hongrois ?",
+   "qd": "L'intrus parmi ces langues ?",
+   "a": [
+    [
+     "",
+     "Le finnois"
+    ],
+    [
+     "",
+     "L'estonien"
+    ],
+    [
+     "",
+     "Le letton"
+    ],
+    [
+     "",
+     "Le hongrois"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le letton ! Les autres sont des langues finno-ougriennes.",
+   "level": 3
+  }
+ ]
+}
