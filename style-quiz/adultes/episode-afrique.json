@@ -1,0 +1,20 @@
+{
+ "title": "L'Afrique", "subject": "Afrique", "banner": "L'Afrique",
+ "symbols": ["🌍","🦁","🐘","🦒","🏜","🐪","🌴","⛰","🦓","🌅","🥁","🐊","🦏","☀","🗺","✦"],
+ "description": "🌍 Quiz Afrique : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #afrique #monde #culturegenerale #geographie #question #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel est le plus long fleuve d'Afrique ?", "qd": "Le plus long fleuve d'Afrique ?", "a": [["","Le Congo"],["","Le Nil"],["","Le Niger"],["","Le Zambèze"]], "ok": 1, "say": "Le Nil !", "level": 0},
+  {"q": "Quelle est la capitale du Maroc ?", "qd": "La capitale du Maroc ?", "a": [["","Rabat"],["","Casablanca"],["","Marrakech"],["","Fès"]], "ok": 0, "say": "Rabat !", "level": 0},
+  {"q": "Quel est le plus grand désert d'Afrique ?", "qd": "Le plus grand désert d'Afrique ?", "a": [["","Le Kalahari"],["","Le Namib"],["","Le Sahara"],["","Le Ténéré"]], "ok": 2, "say": "Le Sahara !", "level": 0},
+  {"q": "Quel est le plus haut sommet d'Afrique ?", "qd": "Le plus haut sommet d'Afrique ?", "a": [["","Le mont Kenya"],["","Le Toubkal"],["","Le Ruwenzori"],["","Le Kilimandjaro"]], "ok": 3, "say": "Le Kilimandjaro !", "level": 1},
+  {"q": "Quel est le plus grand pays d'Afrique par la superficie ?", "qd": "Le plus grand pays d'Afrique ?", "a": [["","Le Soudan"],["","L'Algérie"],["","La RD Congo"],["","La Libye"]], "ok": 1, "say": "L'Algérie !", "level": 1},
+  {"q": "Dans quel pays se trouve la ville de Tombouctou ?", "qd": "Tombouctou est dans quel pays ?", "a": [["","Le Mali"],["","Le Niger"],["","Le Sénégal"],["","La Mauritanie"]], "ok": 0, "say": "Au Mali !", "level": 1},
+  {"q": "Quel est le plus grand lac d'Afrique ?", "qd": "Le plus grand lac d'Afrique ?", "a": [["","Le lac Tanganyika"],["","Le lac Malawi"],["","Le lac Victoria"],["","Le lac Tchad"]], "ok": 2, "say": "Le lac Victoria !", "level": 2},
+  {"q": "Quelle est la capitale du Nigeria ?", "qd": "La capitale du Nigeria ?", "a": [["","Lagos"],["","Kano"],["","Ibadan"],["","Abuja"]], "ok": 3, "say": "Abuja !", "level": 2},
+  {"q": "Quel pays d'Afrique a trois capitales ?", "qd": "Le pays africain aux trois capitales ?", "a": [["","Le Nigeria"],["","L'Afrique du Sud"],["","L'Égypte"],["","La Tanzanie"]], "ok": 1, "say": "L'Afrique du Sud !", "level": 3},
+  {"q": "Quel pays est entièrement entouré par l'Afrique du Sud ?", "qd": "Le pays enclavé dans l'Afrique du Sud ?", "a": [["","Le Lesotho"],["","Le Botswana"],["","L'Eswatini"],["","Le Malawi"]], "ok": 0, "say": "Le Lesotho !", "level": 3}
+ ]
+}
