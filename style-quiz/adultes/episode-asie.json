@@ -1,0 +1,20 @@
+{
+ "title": "L'Asie", "subject": "Asie", "banner": "L'Asie",
+ "symbols": ["🏯","🐼","🗻","🍜","🏮","🐘","🌏","🍣","🛕","🐉","🌸","🍵","⛩","🥢","🐯","🎎"],
+ "description": "🌏 Quiz L'Asie : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #asie #monde #culturegenerale #geographie #question #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quelle est la capitale du Japon ?", "qd": "La capitale du Japon ?", "a": [["","Kyoto"],["","Osaka"],["","Tokyo"],["","Séoul"]], "ok": 2, "say": "Tokyo !", "level": 0},
+  {"q": "Quel est le plus haut sommet du monde, situé en Asie ?", "qd": "Le plus haut sommet du monde ?", "a": [["","L'Everest"],["","Le K2"],["","Le mont Fuji"],["","Le Kilimandjaro"]], "ok": 0, "say": "L'Everest !", "level": 0},
+  {"q": "Dans quel pays se trouve la Grande Muraille ?", "qd": "Le pays de la Grande Muraille ?", "a": [["","Le Japon"],["","La Mongolie"],["","La Corée"],["","La Chine"]], "ok": 3, "say": "La Chine !", "level": 0},
+  {"q": "Quelle est la capitale de la Thaïlande ?", "qd": "La capitale de la Thaïlande ?", "a": [["","Hanoï"],["","Bangkok"],["","Manille"],["","Phnom Penh"]], "ok": 1, "say": "Bangkok !", "level": 1},
+  {"q": "Dans quel pays se trouve le Taj Mahal ?", "qd": "Le pays du Taj Mahal ?", "a": [["","Le Pakistan"],["","Le Népal"],["","L'Inde"],["","L'Iran"]], "ok": 2, "say": "L'Inde !", "level": 1},
+  {"q": "Quel est le plus long fleuve d'Asie ?", "qd": "Le plus long fleuve d'Asie ?", "a": [["","Le Yangtsé"],["","Le Mékong"],["","Le Gange"],["","L'Indus"]], "ok": 0, "say": "Le Yangtsé !", "level": 1},
+  {"q": "Quelle est la capitale du Kazakhstan ?", "qd": "La capitale du Kazakhstan ?", "a": [["","Almaty"],["","Bichkek"],["","Tachkent"],["","Astana"]], "ok": 3, "say": "Astana !", "level": 2},
+  {"q": "Quel est le lac le plus profond du monde, situé en Sibérie ?", "qd": "Le lac le plus profond du monde ?", "a": [["","La mer Caspienne"],["","Le lac Baïkal"],["","La mer d'Aral"],["","Le lac Titicaca"]], "ok": 1, "say": "Le lac Baïkal !", "level": 2},
+  {"q": "Quelle est la capitale de la Birmanie ?", "qd": "La capitale de la Birmanie ?", "a": [["","Rangoun"],["","Mandalay"],["","Naypyidaw"],["","Vientiane"]], "ok": 2, "say": "Naypyidaw !", "level": 3},
+  {"q": "Quel est le plus petit pays d'Asie par sa superficie ?", "qd": "Le plus petit pays d'Asie ?", "a": [["","Singapour"],["","Bahreïn"],["","Brunei"],["","Les Maldives"]], "ok": 3, "say": "Les Maldives !", "level": 3}
+ ]
+}

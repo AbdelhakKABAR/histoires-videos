@@ -100,14 +100,14 @@
   "Les Jeux olympiques",
   "Les traditions et fêtes françaises",
   "L'Afrique",
-  "Les écrivains français"
+  "Les écrivains français",
+  "L'Asie"
  ],
  "a_faire": [
   "Les pays d'Europe",
   "Le football",
   "Les insectes",
   "Les religions du monde (faits historiques neutres)",
-  "L'Asie",
   "Les Amériques",
   "La santé et la nutrition",
   "Les avions et l'aviation",
@@ -121,7 +121,6 @@
   "Les records de France"
  ],
  "a_faire_monde": [
-  "L'Asie",
   "Les Amériques",
   "La santé et la nutrition",
   "Les avions et l'aviation",
