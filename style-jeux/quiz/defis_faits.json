@@ -24,6 +24,7 @@
   "6, 2, 5, 5, 4 → 5 (segments des chiffres 0 à 5 sur un écran digital)",
   "1, 2, 4, 8, 16, 23 → 28 (on ajoute la somme des chiffres)",
   "4, 9, 25, 49, 121 → 169 (carrés des nombres premiers)",
-  "L, M, M, J, V, S → D (initiales des jours de la semaine)"
+  "L, M, M, J, V, S → D (initiales des jours de la semaine)",
+  "D, R, M, F, S, L → S (initiales des notes de musique)"
  ]
 }

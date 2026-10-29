@@ -1,0 +1,16 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : IMPOSSIBLE",
+ "suite": ["D", "R", "M", "F", "S", "L"],
+ "options": ["D", "T", "S", "O"],
+ "ok": 2,
+ "consigne": "Quelle est la lettre suivante ?",
+ "accroche_dite": "Seulement un pour cent des gens trouvent la lettre suivante.",
+ "question_dite": "D, R, M, F, S, L… Et ensuite ?",
+ "explication": "Ce sont les initiales des notes de musique : do, ré, mi, fa, sol, la → si.",
+ "explication_dite": "S, comme si ! Ce sont les initiales des notes de musique : do, ré, mi, fa, sol, la, si.",
+ "fin": "Tu avais trouvé ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🎵 SUITE LOGIQUE niveau impossible : D, R, M, F, S, L… quelle lettre vient ensuite ? Seuls 1 % trouvent ! 👇 #logique #enigme #quiz #suitelogique #cerveau #musique #pourtoi"
+}
