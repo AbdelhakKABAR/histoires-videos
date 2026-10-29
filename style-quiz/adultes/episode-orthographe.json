@@ -1,0 +1,20 @@
+{
+ "title": "La langue française : orthographe", "subject": "Orthographe", "banner": "L'orthographe française",
+ "symbols": ["✎","✏️","📖","📚","🖋","Aa","é","ç","â","ë","✒️","📝","«»","À","œ","✦"],
+ "description": "✏️ Quiz Orthographe : 10 questions, du niveau facile à impossible. Tu fais combien sans faute ? Donne ton score en commentaire 👇 #quiz #quiztime #orthographe #languefrancaise #france #culturegenerale #dictee #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Lequel de ces mots est bien écrit ?", "qd": "Quel mot est bien écrit ?", "a": [["","Dévelopement"],["","Dévellopement"],["","Développement"],["","Développemment"]], "ok": 2, "say": "Développement, avec deux p !", "level": 0},
+  {"q": "Quel est le pluriel du mot bijou ?", "qd": "Le pluriel de « bijou » ?", "a": [["","Des bijous"],["","Des bijoux"],["","Des bijoues"],["","Des bijou"]], "ok": 1, "say": "Des bijoux, avec un x !", "level": 0},
+  {"q": "Comment écrit-on le nom de ce gros animal à corne ?", "qd": "Le gros animal à corne ?", "a": [["","Rhinocéros"],["","Rinocéros"],["","Rhinoséros"],["","Rhinocérosse"]], "ok": 0, "say": "Rhinocéros !", "level": 0},
+  {"q": "Lequel de ces mots s'écrit avec un seul t ?", "qd": "Quel mot n'a qu'un seul « t » ?", "a": [["","Attraper"],["","Atterrir"],["","Attention"],["","Atelier"]], "ok": 3, "say": "Atelier !", "level": 1},
+  {"q": "Quel est le pluriel du mot festival ?", "qd": "Le pluriel de « festival » ?", "a": [["","Des festivaux"],["","Des festivals"],["","Des festivales"],["","Des festivails"]], "ok": 1, "say": "Des festivals !", "level": 1},
+  {"q": "Lequel de ces mots est masculin ?", "qd": "Quel mot est masculin ?", "a": [["","Autoroute"],["","Oasis"],["","Pétale"],["","Espèce"]], "ok": 2, "say": "Un pétale !", "level": 1},
+  {"q": "Quelle est la bonne orthographe ?", "qd": "La bonne orthographe ?", "a": [["","Acceuil"],["","Acueil"],["","Accueuil"],["","Accueil"]], "ok": 3, "say": "Accueil !", "level": 2},
+  {"q": "Lequel de ces mots est bien écrit ?", "qd": "Quel mot est bien écrit ?", "a": [["","Occurrence"],["","Occurence"],["","Ocurrence"],["","Occurrance"]], "ok": 0, "say": "Occurrence, deux c et deux r !", "level": 2},
+  {"q": "En français, comment écrit-on correctement ce mot ?", "qd": "En français, on écrit…", "a": [["","Connection"],["","Conexion"],["","Connexion"],["","Connéxion"]], "ok": 2, "say": "Connexion, avec un x !", "level": 3},
+  {"q": "Quelle est la seule bonne orthographe ?", "qd": "La seule bonne orthographe ?", "a": [["","Dilemne"],["","Dilemme"],["","Dilème"],["","Dillemme"]], "ok": 1, "say": "Dilemme, avec deux m !", "level": 3}
+ ]
+}
