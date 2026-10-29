@@ -1,0 +1,20 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : IMPOSSIBLE",
+ "mot": "PANTHÉON",
+ "categorie": "Un monument de Paris",
+ "categorie_dite": "Catégorie : un monument de Paris.",
+ "accroche_dite": "Seulement un pour cent des gens trouvent ce mot mystère.",
+ "indices": [
+  "À l'origine, il devait être une église.",
+  "Foucault y a prouvé la rotation de la Terre en 1851.",
+  "Victor Hugo et Marie Curie y reposent."
+ ],
+ "lettres_donnees": 1,
+ "dire": "Panthéon",
+ "explication": "Le Panthéon, où la patrie honore ses grands hommes et femmes.",
+ "fin": "Tu l'avais trouvé ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu l'avais trouvé ?",
+ "description": "🔤 MOT MYSTÈRE niveau impossible : 3 indices, 20 secondes. Tu l'as trouvé ? 👇 #motmystere #quiz #france #paris #enigme #culturegenerale #pourtoi"
+}
