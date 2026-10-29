@@ -1,0 +1,20 @@
+{
+ "title": "Les traditions et fêtes françaises", "subject": "Traditions", "banner": "Les traditions et fêtes françaises",
+ "symbols": ["🎆","👑","🥞","🐟","💐","🎶","🎄","🎭","🇫🇷","🥂","🕯","🎉","⭐","🌸","🍾","✨"],
+ "description": "🎉 Quiz Traditions et fêtes françaises : 10 questions, du niveau facile à impossible. Tu connais vraiment la France ? Donne ton score en commentaire 👇 #quiz #quiztime #france #traditions #fetes #culturegenerale #question #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel jour est célébrée la fête nationale française ?", "qd": "La date de la fête nationale ?", "a": [["","Le 8 mai"],["","Le 1er mai"],["","Le 14 juillet"],["","Le 11 novembre"]], "ok": 2, "say": "Le 14 juillet !", "level": 0},
+  {"q": "Que mange-t-on traditionnellement pour l'Épiphanie ?", "qd": "On mange quoi à l'Épiphanie ?", "a": [["","La galette des rois"],["","La bûche"],["","Des crêpes"],["","Des marrons"]], "ok": 0, "say": "La galette des rois !", "level": 0},
+  {"q": "Quelle farce fait-on traditionnellement le premier avril ?", "qd": "La farce du 1er avril ?", "a": [["","Le lapin d'avril"],["","Le chat d'avril"],["","La grenouille d'avril"],["","Le poisson d'avril"]], "ok": 3, "say": "Le poisson d'avril !", "level": 0},
+  {"q": "Quelle fleur offre-t-on traditionnellement le premier mai ?", "qd": "La fleur du 1er mai ?", "a": [["","La rose"],["","Le muguet"],["","La tulipe"],["","Le lilas"]], "ok": 1, "say": "Le muguet !", "level": 1},
+  {"q": "Que mange-t-on traditionnellement à la Chandeleur ?", "qd": "On mange quoi à la Chandeleur ?", "a": [["","Des gaufres"],["","Des beignets"],["","Du chocolat"],["","Des crêpes"]], "ok": 3, "say": "Des crêpes !", "level": 1},
+  {"q": "Quelle fête a lieu chaque année le 21 juin en France ?", "qd": "La fête du 21 juin ?", "a": [["","La Fête de la musique"],["","La Fête des voisins"],["","La Fête du cinéma"],["","La Fête des mères"]], "ok": 0, "say": "La Fête de la musique !", "level": 1},
+  {"q": "En quelle année la Fête de la musique a-t-elle été créée ?", "qd": "L'année de la 1re Fête de la musique ?", "a": [["","1975"],["","1968"],["","1982"],["","1995"]], "ok": 2, "say": "En 1982 !", "level": 2},
+  {"q": "Quelle ville est célèbre pour son carnaval et sa bataille de fleurs ?", "qd": "Carnaval et bataille de fleurs ?", "a": [["","Dunkerque"],["","Nice"],["","Strasbourg"],["","Bordeaux"]], "ok": 1, "say": "Nice !", "level": 2},
+  {"q": "Depuis quelle année le 14 juillet est-il la fête nationale ?", "qd": "Le 14 juillet, fête nationale depuis ?", "a": [["","1789"],["","1848"],["","1945"],["","1880"]], "ok": 3, "say": "Depuis 1880 !", "level": 3},
+  {"q": "Quel jour fête-t-on la Sainte-Catherine et ses catherinettes ?", "qd": "Le jour de la Sainte-Catherine ?", "a": [["","Le 25 novembre"],["","Le 6 décembre"],["","Le 2 février"],["","Le 1er novembre"]], "ok": 0, "say": "Le 25 novembre !", "level": 3}
+ ]
+}
