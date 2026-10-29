@@ -1,0 +1,20 @@
+{
+ "title": "Les écrivains français", "subject": "Écrivains", "banner": "Les écrivains français",
+ "symbols": ["📚","✒","📖","🖋","📜","✍","🎭","📝","🕯","🏛","✦","📕","🪶","★","📗","✧"],
+ "description": "📚 Quiz Les écrivains français : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #litterature #ecrivains #culturegenerale #livres #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Qui a écrit Notre-Dame de Paris ?", "qd": "L'auteur de Notre-Dame de Paris ?", "a": [["","Émile Zola"],["","Victor Hugo"],["","Honoré de Balzac"],["","Gustave Flaubert"]], "ok": 1, "say": "Victor Hugo !", "level": 0},
+  {"q": "Qui a écrit Le Comte de Monte-Cristo ?", "qd": "L'auteur du Comte de Monte-Cristo ?", "a": [["","Jules Verne"],["","Stendhal"],["","Victor Hugo"],["","Alexandre Dumas"]], "ok": 3, "say": "Alexandre Dumas !", "level": 0},
+  {"q": "Qui a écrit le recueil de poèmes Les Fleurs du mal ?", "qd": "L'auteur des Fleurs du mal ?", "a": [["","Charles Baudelaire"],["","Arthur Rimbaud"],["","Paul Verlaine"],["","Alfred de Musset"]], "ok": 0, "say": "Charles Baudelaire !", "level": 0},
+  {"q": "Qui a écrit le roman L'Étranger ?", "qd": "L'auteur de L'Étranger ?", "a": [["","Jean-Paul Sartre"],["","André Gide"],["","Albert Camus"],["","Boris Vian"]], "ok": 2, "say": "Albert Camus !", "level": 1},
+  {"q": "Quel écrivain a réuni ses romans sous le titre La Comédie humaine ?", "qd": "L'auteur de La Comédie humaine ?", "a": [["","Émile Zola"],["","Honoré de Balzac"],["","Guy de Maupassant"],["","Gustave Flaubert"]], "ok": 1, "say": "Honoré de Balzac !", "level": 1},
+  {"q": "Qui a écrit la pièce Cyrano de Bergerac ?", "qd": "L'auteur de Cyrano de Bergerac ?", "a": [["","Molière"],["","Jean Racine"],["","Pierre Corneille"],["","Edmond Rostand"]], "ok": 3, "say": "Edmond Rostand !", "level": 1},
+  {"q": "Quel est le vrai nom de la romancière George Sand ?", "qd": "Le vrai nom de George Sand ?", "a": [["","Aurore Dupin"],["","Louise Colet"],["","Marie d'Agoult"],["","Juliette Drouet"]], "ok": 0, "say": "Aurore Dupin !", "level": 2},
+  {"q": "Quel est le vrai nom de Voltaire ?", "qd": "Le vrai nom de Voltaire ?", "a": [["","Jean-Baptiste Poquelin"],["","Henri Beyle"],["","François-Marie Arouet"],["","Jean-Jacques Rousseau"]], "ok": 2, "say": "François-Marie Arouet !", "level": 2},
+  {"q": "Quelle est la première femme élue à l'Académie française ?", "qd": "La 1re femme à l'Académie française ?", "a": [["","Simone de Beauvoir"],["","Colette"],["","Marguerite Duras"],["","Marguerite Yourcenar"]], "ok": 3, "say": "Marguerite Yourcenar, en 1980 !", "level": 3},
+  {"q": "Quel écrivain a reçu deux fois le prix Goncourt, sous deux noms différents ?", "qd": "Deux fois Goncourt, sous deux noms ?", "a": [["","Marcel Proust"],["","Romain Gary"],["","André Malraux"],["","Louis Aragon"]], "ok": 1, "say": "Romain Gary, alias Émile Ajar !", "level": 3}
+ ]
+}
