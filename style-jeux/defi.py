@@ -86,12 +86,13 @@ def pill(cr, txt, y, col, a=1.0):
     T(cr, txt, W / 2, y + 12, 34, col=(1, 1, 1), a=a)
 
 
-def countdown(cr, t, c0, y=1330):
-    if not (c0 <= t < c0 + THINK): return
-    left = THINK - (t - c0); n = int(math.ceil(left)); frac = left / THINK
+def countdown(cr, t, c0, y=1330, think=None):
+    think = think or THINK
+    if not (c0 <= t < c0 + think): return
+    left = think - (t - c0); n = int(math.ceil(left)); frac = left / think
     pulse = 1 + 0.08 * (1 - (left % 1))
     cr.save(); cr.translate(W / 2, y); cr.scale(pulse, pulse)
-    col = BAD if n <= 5 else ACC
+    col = BAD if n <= min(5, think / 2) else ACC
     for k, al in ((26, 0.12), (16, 0.25)):
         cr.new_path(); cr.set_source_rgba(*col, al); cr.set_line_width(k); cr.arc(0, 0, 110, -math.pi / 2, -math.pi / 2 + 2 * math.pi * frac); cr.stroke()
     cr.new_path(); cr.set_source_rgba(1, 1, 1, 0.12); cr.set_line_width(10); cr.arc(0, 0, 110, 0, 6.29); cr.stroke()
@@ -119,19 +120,25 @@ def check(cr, x, y, k, col=GOOD):
 
 # ---------------- mot mystère ----------------
 def build_mot(D, tl):
-    s = {}
-    tl.wait(0.2); s["hook"] = tl.say(D.get("accroche_dite", "Seulement un pour cent des gens trouvent ce mot."), 0.95, 0.3)[0]
+    """Indices un par un : chaque indice est lu puis le joueur a PER secondes (5 par défaut) avant le suivant.
+       À la fin : « Combien d'indices as-tu utilisés ? »"""
+    s = {}; per = float(D.get("secondes_par_indice", 5)); s["per"] = per
+    tl.wait(0.2); s["hook"] = tl.say(D.get("accroche_dite", "Seulement un pour cent des gens trouvent ce mot avec un seul indice."), 0.95, 0.3)[0]
     s["cat"] = tl.say(D["categorie_dite"] if "categorie_dite" in D else D["categorie"] + ".", 0.95, 0.35)[0]
-    s["ind"] = [tl.say(i, 0.97, 0.45)[0] for i in D["indices"]]
-    s["c0"] = tl.t; tl.wait(THINK)
-    for k in range(int(THINK)): tl.fx("tic", s["c0"] + k)
+    s["ind"], s["c0s"] = [], []
+    for j, i in enumerate(D["indices"]):
+        s["ind"].append(tl.say(f"Indice {j + 1} : {i}", 0.97, 0.3)[0])
+        c0 = tl.t; s["c0s"].append(c0); tl.wait(per)
+        for k in range(int(per)): tl.fx("tic", c0 + k)
+    s["c0"] = s["c0s"][-1]
     s["rev"] = tl.t; tl.fx("bon", tl.t)
     tl.say(f"C'était : {D.get('dire', D['mot'].capitalize())} !", 0.95, 0.4)
-    s["fin"] = tl.t; tl.say(D.get("fin", "Tu l'avais trouvé ? Dis-le en commentaire !"), 0.95, 0.8)
+    s["fin"] = tl.t; tl.say(D.get("fin_indices", "Combien d'indices as-tu utilisés ? Un, deux ou trois ? Dis-le en commentaire !"), 0.95, 0.8)
     mot = D["mot"].upper(); letters = [i for i, c in enumerate(mot) if c.isalpha()]
     rng = random.Random(mot); rng.shuffle(letters)
-    k = D.get("lettres_donnees", 2)
-    times = np.linspace(s["ind"][0] + 0.6, s["c0"] - 0.3, k + 1)[:-1] if k else []
+    k = D.get("lettres_donnees", 1)
+    # les lettres données arrivent avec le dernier indice (aide finale)
+    times = np.linspace(s["ind"][-1] + 0.6, s["c0"] + 1.0, k + 1)[:-1] if k else []
     s["reveal"] = list(zip(letters[:k], times))
     for _, tt in s["reveal"]: tl.fx("lettre", tt)
     return s
@@ -169,7 +176,11 @@ def draw_mot(cr, D, s, t):
         ls = wrap(cr, ind, 38, 780)
         for q, ln in enumerate(ls[:2]):
             T(cr, ln, 200, y + 64 + (q - (len(ls[:2]) - 1) / 2) * 46 + 13, 38, a=a, align="l")
-    countdown(cr, t, s["c0"])
+    for j, c0 in enumerate(s["c0s"]):
+        if c0 - 0.4 <= t < c0 + s["per"]:
+            al = ease((t - c0 + 0.4) / 0.3)
+            T(cr, f"INDICE {j + 1} / {len(s['c0s'])}", W / 2, 1250, 36, col=ACC, a=al, spacing=3)
+        countdown(cr, t, c0, y=1400, think=s["per"])
     if full:
         e = t - s["rev"]
         if D.get("explication"):
@@ -252,8 +263,13 @@ def main():
             e = t - s["fin"] - 0.2
             draw(cr, D, s, t)
             cr.set_source_rgba(0.02, 0.03, 0.07, 0.75 * ease(e / 0.3)); cr.paint()
-            T(cr, D.get("fin_ecrite", "Tu avais trouvé ?"), W / 2, 860, 76, col=ACC, a=ease(e / 0.3), glow=ACC)
-            T(cr, "Dis-le en commentaire", W / 2, 960, 52, a=ease((e - 0.2) / 0.3))
+            if D["format"] == "mot":
+                T(cr, "Combien d'indices", W / 2, 800, 76, col=ACC, a=ease(e / 0.3), glow=ACC)
+                T(cr, "as-tu utilisés ?", W / 2, 890, 76, col=ACC, a=ease(e / 0.3), glow=ACC)
+                T(cr, "1, 2 ou 3 ? Dis-le en commentaire", W / 2, 985, 46, a=ease((e - 0.2) / 0.3))
+            else:
+                T(cr, D.get("fin_ecrite", "Tu avais trouvé ?"), W / 2, 860, 76, col=ACC, a=ease(e / 0.3), glow=ACC)
+                T(cr, "Dis-le en commentaire", W / 2, 960, 52, a=ease((e - 0.2) / 0.3))
             sc = back((e - 0.4) / 0.4)
             if sc > 0:
                 cr.save(); cr.translate(W / 2, 1110); cr.scale(sc, sc)

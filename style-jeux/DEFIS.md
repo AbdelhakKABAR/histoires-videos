@@ -9,7 +9,11 @@ puis la réponse en vert et l'explication lue. Validé par l'utilisateur le 18 o
 Modèles : quiz/defi-mot-lascaux.json et quiz/defi-logique-conway.json. Ne jamais refaire un mot ou une suite de
 quiz/defis_faits.json (l'y ajouter après chaque vidéo).
 
-## Mot mystère ("format": "mot")
+## Mot mystère ("format": "mot") — indices un par un (demande de l'utilisateur, 29 oct. 2026)
+- Déroulé : catégorie, puis indice 1 lu + chrono de 5 s, indice 2 + 5 s, indice 3 + 5 s (les lettres données
+  arrivent avec le 3e indice), révélation, puis « Combien d'indices as-tu utilisés ? 1, 2 ou 3 ? » (≈ 38 s).
+  Champ optionnel "secondes_par_indice" (5 par défaut). Accroche conseillée : « Seulement un pour cent des gens
+  trouvent ce mot avec un seul indice. » Le champ "fin" n'est plus utilisé pour les mots (texte de fin fixe).
 - mot : 5 à 12 lettres, sans espace (accents permis), un vrai mot connu mais dur à trouver ; souvent lié à la France
   (lieu, personnage, invention, plat, mot de la langue…), parfois culture générale.
 - categorie (affichée) + categorie_dite (lue), 3 indices du plus vague au plus précis (courts, ≤ 70 caractères, EXACTS),
