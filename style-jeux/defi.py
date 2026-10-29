@@ -133,7 +133,8 @@ def build_mot(D, tl):
     s["c0"] = s["c0s"][-1]
     s["rev"] = tl.t; tl.fx("bon", tl.t)
     tl.say(f"C'était : {D.get('dire', D['mot'].capitalize())} !", 0.95, 0.4)
-    s["fin"] = tl.t; tl.say(D.get("fin_indices", "Combien d'indices as-tu utilisés ? Un, deux ou trois ? Dis-le en commentaire !"), 0.95, 0.8)
+    nb = len(D["indices"]); mots_n = ["un", "deux", "trois", "quatre", "cinq", "six"][:nb]
+    s["fin"] = tl.t; tl.say(D.get("fin_indices", "Combien d'indices as-tu utilisés ? " + (", ".join(mots_n[:-1]) + " ou " + mots_n[-1]).capitalize() + " ? Dis-le en commentaire !"), 0.95, 0.8)
     mot = D["mot"].upper(); letters = [i for i, c in enumerate(mot) if c.isalpha()]
     rng = random.Random(mot); rng.shuffle(letters)
     k = D.get("lettres_donnees", 1)
@@ -168,27 +169,29 @@ def draw_mot(cr, D, s, t):
         cr.restore()
     for j, (ind, ta) in enumerate(zip(D["indices"], s["ind"])):
         if t < ta: continue
-        a = ease((t - ta) / 0.35); y = 760 + j * 150 + (1 - a) * 30
-        glass(cr, 70, y, 940, 128, 28, a)
-        cr.new_path(); cr.arc(140, y + 64, 32, 0, 6.29); cr.set_source_rgba(*ACC, 0.18 * a); cr.fill()
-        cr.new_path(); cr.arc(140, y + 64, 32, 0, 6.29); cr.set_source_rgba(*ACC, 0.8 * a); cr.set_line_width(2); cr.stroke()
-        T(cr, str(j + 1), 140, y + 80, 40, col=ACC, a=a)
-        ls = wrap(cr, ind, 38, 780)
+        nb = len(D["indices"]); bh = 128 if nb <= 3 else 104; st = 150 if nb <= 3 else 116; fs = 38 if nb <= 3 else 34
+        a = ease((t - ta) / 0.35); y = (760 if nb <= 3 else 720) + j * st + (1 - a) * 30
+        glass(cr, 70, y, 940, bh, 26, a)
+        cr.new_path(); cr.arc(140, y + bh / 2, 30, 0, 6.29); cr.set_source_rgba(*ACC, 0.18 * a); cr.fill()
+        cr.new_path(); cr.arc(140, y + bh / 2, 30, 0, 6.29); cr.set_source_rgba(*ACC, 0.8 * a); cr.set_line_width(2); cr.stroke()
+        T(cr, str(j + 1), 140, y + bh / 2 + 14, 38, col=ACC, a=a)
+        ls = wrap(cr, ind, fs, 780)
         for q, ln in enumerate(ls[:2]):
-            T(cr, ln, 200, y + 64 + (q - (len(ls[:2]) - 1) / 2) * 46 + 13, 38, a=a, align="l")
+            T(cr, ln, 200, y + bh / 2 + (q - (len(ls[:2]) - 1) / 2) * (fs + 6) + 12, fs, a=a, align="l")
     for j, c0 in enumerate(s["c0s"]):
         if c0 - 0.4 <= t < c0 + s["per"]:
             al = ease((t - c0 + 0.4) / 0.3)
-            T(cr, f"INDICE {j + 1} / {len(s['c0s'])}", W / 2, 1250, 36, col=ACC, a=al, spacing=3)
-        countdown(cr, t, c0, y=1400, think=s["per"])
+            T(cr, f"INDICE {j + 1} / {len(s['c0s'])}", W / 2, 1250 if len(s["c0s"]) <= 3 else 1360, 36, col=ACC, a=al, spacing=3)
+        countdown(cr, t, c0, y=1400 if len(s["c0s"]) <= 3 else 1510, think=s["per"])
     if full:
         e = t - s["rev"]
         if D.get("explication"):
             a = ease((e - 0.3) / 0.4)
-            glass(cr, 70, 1240, 940, 150, 28, a, glow=GOOD)
+            ey = 1240 if len(D["indices"]) <= 3 else 1340
+            glass(cr, 70, ey, 940, 150, 28, a, glow=GOOD)
             ls = wrap(cr, D["explication"], 38, 860)
             for q, ln in enumerate(ls[:3]):
-                T(cr, ln, W / 2, 1315 + (q - (len(ls[:3]) - 1) / 2) * 46 + 13, 38, a=a)
+                T(cr, ln, W / 2, ey + 75 + (q - (len(ls[:3]) - 1) / 2) * 46 + 13, 38, a=a)
 
 
 # ---------------- suite logique ----------------
@@ -266,7 +269,8 @@ def main():
             if D["format"] == "mot":
                 T(cr, "Combien d'indices", W / 2, 800, 76, col=ACC, a=ease(e / 0.3), glow=ACC)
                 T(cr, "as-tu utilisés ?", W / 2, 890, 76, col=ACC, a=ease(e / 0.3), glow=ACC)
-                T(cr, "1, 2 ou 3 ? Dis-le en commentaire", W / 2, 985, 46, a=ease((e - 0.2) / 0.3))
+                nb = len(D["indices"]); lst = ", ".join(str(i + 1) for i in range(nb - 1)) + f" ou {nb}"
+                T(cr, f"{lst} ? Dis-le en commentaire", W / 2, 985, 44, a=ease((e - 0.2) / 0.3))
             else:
                 T(cr, D.get("fin_ecrite", "Tu avais trouvé ?"), W / 2, 860, 76, col=ACC, a=ease(e / 0.3), glow=ACC)
                 T(cr, "Dis-le en commentaire", W / 2, 960, 52, a=ease((e - 0.2) / 0.3))
