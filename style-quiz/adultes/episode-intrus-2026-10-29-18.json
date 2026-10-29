@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, du niveau facile à impossible… attention aux pièges ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : la fraise, la banane, la cerise ou la framboise ?",
+   "qd": "L'intrus parmi ces fruits ?",
+   "a": [
+    [
+     "",
+     "La fraise"
+    ],
+    [
+     "",
+     "La banane"
+    ],
+    [
+     "",
+     "La cerise"
+    ],
+    [
+     "",
+     "La framboise"
+    ]
+   ],
+   "ok": 1,
+   "say": "La banane ! Elle est jaune, les autres sont rouges.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le dauphin, la baleine, l'orque ou le thon ?",
+   "qd": "L'intrus dans l'océan ?",
+   "a": [
+    [
+     "",
+     "Le dauphin"
+    ],
+    [
+     "",
+     "La baleine"
+    ],
+    [
+     "",
+     "L'orque"
+    ],
+    [
+     "",
+     "Le thon"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le thon ! C'est un poisson, les autres sont des mammifères.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : l'escrime, le football, le rugby ou le handball ?",
+   "qd": "L'intrus parmi ces sports ?",
+   "a": [
+    [
+     "",
+     "L'escrime"
+    ],
+    [
+     "",
+     "Le football"
+    ],
+    [
+     "",
+     "Le rugby"
+    ],
+    [
+     "",
+     "Le handball"
+    ]
+   ],
+   "ok": 0,
+   "say": "L'escrime ! On la pratique sans ballon.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : le Portugal, le Brésil, l'Argentine ou l'Angola ?",
+   "qd": "L'intruse : la langue ?",
+   "a": [
+    [
+     "",
+     "Le Portugal"
+    ],
+    [
+     "",
+     "Le Brésil"
+    ],
+    [
+     "",
+     "L'Argentine"
+    ],
+    [
+     "",
+     "L'Angola"
+    ]
+   ],
+   "ok": 2,
+   "say": "L'Argentine ! On y parle espagnol, les autres parlent portugais.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : l'aigle, le faucon, la chouette ou le vautour ?",
+   "qd": "L'intrus parmi ces rapaces ?",
+   "a": [
+    [
+     "",
+     "L'aigle"
+    ],
+    [
+     "",
+     "Le faucon"
+    ],
+    [
+     "",
+     "La chouette"
+    ],
+    [
+     "",
+     "Le vautour"
+    ]
+   ],
+   "ok": 2,
+   "say": "La chouette ! C'est un rapace nocturne, les autres chassent le jour.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le kilomètre, le centimètre, le millimètre ou le kilogramme ?",
+   "qd": "L'intrus parmi ces unités ?",
+   "a": [
+    [
+     "",
+     "Le kilomètre"
+    ],
+    [
+     "",
+     "Le centimètre"
+    ],
+    [
+     "",
+     "Le millimètre"
+    ],
+    [
+     "",
+     "Le kilogramme"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le kilogramme ! Il mesure une masse, les autres une longueur.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : Monet, Delacroix, Renoir ou Degas ?",
+   "qd": "L'intrus parmi ces peintres ?",
+   "a": [
+    [
+     "",
+     "Monet"
+    ],
+    [
+     "",
+     "Delacroix"
+    ],
+    [
+     "",
+     "Renoir"
+    ],
+    [
+     "",
+     "Degas"
+    ]
+   ],
+   "ok": 1,
+   "say": "Delacroix ! C'est un romantique, les autres sont impressionnistes.",
+   "level": 2
+  },
+  {
+   "q": "Quelle est l'intruse : le catalan, l'occitan, le galicien ou le basque ?",
+   "qd": "L'intruse parmi ces langues ?",
+   "a": [
+    [
+     "",
+     "Le catalan"
+    ],
+    [
+     "",
+     "L'occitan"
+    ],
+    [
+     "",
+     "Le galicien"
+    ],
+    [
+     "",
+     "Le basque"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le basque ! Ce n'est pas une langue issue du latin.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : la musaraigne, le mulot, la taupe ou le hérisson ?",
+   "qd": "L'intrus : piège chez les petits mammifères !",
+   "a": [
+    [
+     "",
+     "La musaraigne"
+    ],
+    [
+     "",
+     "Le mulot"
+    ],
+    [
+     "",
+     "La taupe"
+    ],
+    [
+     "",
+     "Le hérisson"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le mulot ! C'est un rongeur, les autres n'en sont pas.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : 21, 34, 55 ou 60 ?",
+   "qd": "L'intrus parmi ces nombres ?",
+   "a": [
+    [
+     "",
+     "21"
+    ],
+    [
+     "",
+     "34"
+    ],
+    [
+     "",
+     "55"
+    ],
+    [
+     "",
+     "60"
+    ]
+   ],
+   "ok": 3,
+   "say": "60 ! Les autres font partie de la suite de Fibonacci.",
+   "level": 3
+  }
+ ]
+}
