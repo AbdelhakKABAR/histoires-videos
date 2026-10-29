@@ -1,0 +1,20 @@
+{
+ "title": "Les Jeux olympiques", "subject": "Jeux olympiques", "banner": "Les Jeux olympiques",
+ "symbols": ["🏅","🥇","🥈","🥉","🏆","🔥","🏃","🏊","🚴","⛷","🤸","🏋","⭐","✦","🌍","🎽"],
+ "description": "🏅 Quiz Jeux olympiques : 10 questions, du niveau facile à impossible. Tu montes sur le podium ? Donne ton score en commentaire 👇 #quiz #quiztime #jeuxolympiques #sport #monde #culturegenerale #question #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Combien d'anneaux y a-t-il sur le drapeau olympique ?", "qd": "Combien d'anneaux olympiques ?", "a": [["","Quatre"],["","Cinq"],["","Six"],["","Sept"]], "ok": 1, "say": "Cinq anneaux !", "level": 0},
+  {"q": "Quelle ville a accueilli les Jeux olympiques d'été de 2024 ?", "qd": "La ville des JO d'été 2024 ?", "a": [["","Londres"],["","Tokyo"],["","Paris"],["","Los Angeles"]], "ok": 2, "say": "Paris !", "level": 0},
+  {"q": "Dans quel pays sont nés les Jeux olympiques antiques ?", "qd": "Le pays des JO antiques ?", "a": [["","La Grèce"],["","L'Italie"],["","L'Égypte"],["","La Turquie"]], "ok": 0, "say": "La Grèce !", "level": 0},
+  {"q": "Quel Français a relancé les Jeux olympiques modernes ?", "qd": "Qui a relancé les JO modernes ?", "a": [["","Jules Ferry"],["","Gustave Eiffel"],["","Louis Pasteur"],["","Pierre de Coubertin"]], "ok": 3, "say": "Pierre de Coubertin !", "level": 1},
+  {"q": "Quelle est la distance officielle du marathon olympique ?", "qd": "La distance du marathon ?", "a": [["","40 km"],["","42,195 km"],["","45 km"],["","41,5 km"]], "ok": 1, "say": "42,195 kilomètres !", "level": 1},
+  {"q": "Quelle ville accueillera les Jeux olympiques d'été de 2028 ?", "qd": "La ville des JO d'été 2028 ?", "a": [["","Los Angeles"],["","Brisbane"],["","Madrid"],["","Rome"]], "ok": 0, "say": "Los Angeles !", "level": 1},
+  {"q": "Combien de médailles d'or olympiques le nageur Michael Phelps a-t-il remportées ?", "qd": "Les médailles d'or de Phelps ?", "a": [["","18"],["","21"],["","23"],["","28"]], "ok": 2, "say": "Vingt-trois médailles d'or !", "level": 2},
+  {"q": "Dans quelle ville française ont eu lieu les premiers Jeux olympiques d'hiver, en 1924 ?", "qd": "Les premiers JO d'hiver en 1924 ?", "a": [["","Grenoble"],["","Albertville"],["","Annecy"],["","Chamonix"]], "ok": 3, "say": "Chamonix !", "level": 2},
+  {"q": "Quelle est la seule ville à avoir accueilli les Jeux olympiques d'été et d'hiver ?", "qd": "La seule ville des JO d'été et d'hiver ?", "a": [["","Pékin"],["","Tokyo"],["","Londres"],["","Sapporo"]], "ok": 0, "say": "Pékin, en 2008 et 2022 !", "level": 3},
+  {"q": "En quelle année les femmes ont-elles participé pour la première fois aux Jeux olympiques modernes ?", "qd": "Les premières femmes aux JO ?", "a": [["","1896"],["","1900"],["","1920"],["","1928"]], "ok": 1, "say": "En 1900, à Paris !", "level": 3}
+ ]
+}

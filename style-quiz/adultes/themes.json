@@ -96,14 +96,14 @@
   "Les religions du monde (faits historiques neutres)",
   "Les plages et côtes de France",
   "Le Moyen Âge",
-  "La langue française : orthographe"
+  "La langue française : orthographe",
+  "Les Jeux olympiques"
  ],
  "a_faire": [
   "Les pays d'Europe",
   "Le football",
   "Les insectes",
   "Les religions du monde (faits historiques neutres)",
-  "Les Jeux olympiques",
   "L'Afrique",
   "L'Asie",
   "Les Amériques",
@@ -121,7 +121,6 @@
   "Les records de France"
  ],
  "a_faire_monde": [
-  "Les Jeux olympiques",
   "L'Afrique",
   "L'Asie",
   "Les Amériques",
