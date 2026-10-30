@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, du niveau facile à impossible… attention aux pièges ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : le Nil, l'Amazone, le Sahara ou le Mississippi ?",
+   "qd": "L'intrus parmi ces noms ?",
+   "a": [
+    [
+     "",
+     "Le Nil"
+    ],
+    [
+     "",
+     "L'Amazone"
+    ],
+    [
+     "",
+     "Le Sahara"
+    ],
+    [
+     "",
+     "Le Mississippi"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le Sahara ! C'est un désert, les autres sont des fleuves.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : la fraise, le citron, la cerise ou la framboise ?",
+   "qd": "L'intrus parmi ces fruits ?",
+   "a": [
+    [
+     "",
+     "La fraise"
+    ],
+    [
+     "",
+     "Le citron"
+    ],
+    [
+     "",
+     "La cerise"
+    ],
+    [
+     "",
+     "La framboise"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le citron ! Il est jaune, les autres sont rouges.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : le violon, le violoncelle, la contrebasse ou la batterie ?",
+   "qd": "L'intrus dans l'orchestre ?",
+   "a": [
+    [
+     "",
+     "Le violon"
+    ],
+    [
+     "",
+     "Le violoncelle"
+    ],
+    [
+     "",
+     "La contrebasse"
+    ],
+    [
+     "",
+     "La batterie"
+    ]
+   ],
+   "ok": 3,
+   "say": "La batterie ! Les autres sont des instruments à cordes.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : le Rhin, la Tamise, le Rhône ou la Garonne ?",
+   "qd": "L'intrus parmi ces fleuves ?",
+   "a": [
+    [
+     "",
+     "Le Rhin"
+    ],
+    [
+     "",
+     "La Tamise"
+    ],
+    [
+     "",
+     "Le Rhône"
+    ],
+    [
+     "",
+     "La Garonne"
+    ]
+   ],
+   "ok": 1,
+   "say": "La Tamise ! Elle coule en Angleterre, pas en France.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le crapaud, le crocodile, le serpent ou la tortue ?",
+   "qd": "L'intrus parmi ces animaux ?",
+   "a": [
+    [
+     "",
+     "Le crapaud"
+    ],
+    [
+     "",
+     "Le crocodile"
+    ],
+    [
+     "",
+     "Le serpent"
+    ],
+    [
+     "",
+     "La tortue"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le crapaud ! C'est un amphibien, les autres sont des reptiles.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : courageux, heureux, cheveux ou joyeux ?",
+   "qd": "L'intrus parmi ces mots ?",
+   "a": [
+    [
+     "",
+     "Courageux"
+    ],
+    [
+     "",
+     "Heureux"
+    ],
+    [
+     "",
+     "Cheveux"
+    ],
+    [
+     "",
+     "Joyeux"
+    ]
+   ],
+   "ok": 2,
+   "say": "Cheveux ! C'est un nom, les autres sont des adjectifs.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le diamant, le sel, le graphite ou le graphène ?",
+   "qd": "L'intrus en chimie ?",
+   "a": [
+    [
+     "",
+     "Le diamant"
+    ],
+    [
+     "",
+     "Le sel"
+    ],
+    [
+     "",
+     "Le graphite"
+    ],
+    [
+     "",
+     "Le graphène"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le sel ! Les trois autres sont faits uniquement de carbone.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : Henri IV, Louis XIII, Louis XIV ou François Ier ?",
+   "qd": "L'intrus parmi ces rois ?",
+   "a": [
+    [
+     "",
+     "Henri IV"
+    ],
+    [
+     "",
+     "Louis XIII"
+    ],
+    [
+     "",
+     "Louis XIV"
+    ],
+    [
+     "",
+     "François Ier"
+    ]
+   ],
+   "ok": 3,
+   "say": "François Ier ! C'est un Valois, les autres sont des Bourbons.",
+   "level": 2
+  },
+  {
+   "q": "Quelle est l'intruse : Canberra, Ottawa, Tokyo ou Brasilia ?",
+   "qd": "L'intruse parmi ces capitales ?",
+   "a": [
+    [
+     "",
+     "Canberra"
+    ],
+    [
+     "",
+     "Ottawa"
+    ],
+    [
+     "",
+     "Tokyo"
+    ],
+    [
+     "",
+     "Brasilia"
+    ]
+   ],
+   "ok": 2,
+   "say": "Tokyo ! C'est la plus grande ville de son pays, pas les autres.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : la Traviata, Tosca, Rigoletto ou Aïda ?",
+   "qd": "L'intrus parmi ces opéras ?",
+   "a": [
+    [
+     "",
+     "La Traviata"
+    ],
+    [
+     "",
+     "Tosca"
+    ],
+    [
+     "",
+     "Rigoletto"
+    ],
+    [
+     "",
+     "Aïda"
+    ]
+   ],
+   "ok": 1,
+   "say": "Tosca ! C'est un opéra de Puccini, les autres sont de Verdi.",
+   "level": 3
+  }
+ ]
+}
