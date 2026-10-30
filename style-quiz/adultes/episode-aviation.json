@@ -1,0 +1,285 @@
+{
+ "title": "Les avions et l'aviation",
+ "subject": "Aviation",
+ "banner": "Les avions et l'aviation",
+ "symbols": [
+  "✈",
+  "🛩",
+  "🛫",
+  "🛬",
+  "🌍",
+  "☁",
+  "🧭",
+  "🚀",
+  "🪂",
+  "⭐",
+  "🛰",
+  "🗺",
+  "🎈",
+  "🌐",
+  "✦",
+  "🏁"
+ ],
+ "description": "✈️ Quiz Aviation : 10 questions sur les avions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #monde #culturegenerale #aviation #avion #defi #connaissance",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quels frères ont réalisé le premier vol motorisé contrôlé, en 1903 ?",
+   "qd": "Le premier vol motorisé en 1903 ?",
+   "a": [
+    [
+     "",
+     "Les Montgolfier"
+    ],
+    [
+     "",
+     "Les Lumière"
+    ],
+    [
+     "",
+     "Les Wright"
+    ],
+    [
+     "",
+     "Les Renault"
+    ]
+   ],
+   "ok": 2,
+   "say": "Les frères Wright !",
+   "level": 0
+  },
+  {
+   "q": "Quel avion supersonique franco-britannique a volé de 1976 à 2003 ?",
+   "qd": "Le supersonique franco-britannique ?",
+   "a": [
+    [
+     "",
+     "Le Concorde"
+    ],
+    [
+     "",
+     "L'Airbus A380"
+    ],
+    [
+     "",
+     "La Caravelle"
+    ],
+    [
+     "",
+     "Le Boeing 747"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le Concorde !",
+   "level": 0
+  },
+  {
+   "q": "Quel aviateur a traversé la Manche en avion en 1909 ?",
+   "qd": "Le premier à traverser la Manche en 1909 ?",
+   "a": [
+    [
+     "",
+     "Roland Garros"
+    ],
+    [
+     "",
+     "Louis Blériot"
+    ],
+    [
+     "",
+     "Clément Ader"
+    ],
+    [
+     "",
+     "Jean Mermoz"
+    ]
+   ],
+   "ok": 1,
+   "say": "Louis Blériot !",
+   "level": 0
+  },
+  {
+   "q": "Quel est le plus grand avion de ligne de passagers au monde ?",
+   "qd": "Le plus grand avion de ligne ?",
+   "a": [
+    [
+     "",
+     "Le Boeing 747"
+    ],
+    [
+     "",
+     "Le Boeing 777"
+    ],
+    [
+     "",
+     "L'Airbus A350"
+    ],
+    [
+     "",
+     "L'Airbus A380"
+    ]
+   ],
+   "ok": 3,
+   "say": "L'Airbus A380 !",
+   "level": 1
+  },
+  {
+   "q": "Qui a traversé l'Atlantique seul et sans escale en 1927 ?",
+   "qd": "L'Atlantique en solitaire en 1927 ?",
+   "a": [
+    [
+     "",
+     "Amelia Earhart"
+    ],
+    [
+     "",
+     "Jean Mermoz"
+    ],
+    [
+     "",
+     "Charles Lindbergh"
+    ],
+    [
+     "",
+     "Charles Nungesser"
+    ]
+   ],
+   "ok": 2,
+   "say": "Charles Lindbergh !",
+   "level": 1
+  },
+  {
+   "q": "Quel est le code de l'aéroport Paris-Charles-de-Gaulle ?",
+   "qd": "Le code de Roissy-Charles-de-Gaulle ?",
+   "a": [
+    [
+     "",
+     "ORY"
+    ],
+    [
+     "",
+     "CDG"
+    ],
+    [
+     "",
+     "PAR"
+    ],
+    [
+     "",
+     "CGD"
+    ]
+   ],
+   "ok": 1,
+   "say": "CDG !",
+   "level": 1
+  },
+  {
+   "q": "Quelle aviatrice américaine a disparu au-dessus du Pacifique en 1937 ?",
+   "qd": "L'aviatrice disparue en 1937 ?",
+   "a": [
+    [
+     "",
+     "Amelia Earhart"
+    ],
+    [
+     "",
+     "Bessie Coleman"
+    ],
+    [
+     "",
+     "Hélène Boucher"
+    ],
+    [
+     "",
+     "Jacqueline Cochran"
+    ]
+   ],
+   "ok": 0,
+   "say": "Amelia Earhart !",
+   "level": 2
+  },
+  {
+   "q": "Quelle est la plus ancienne compagnie aérienne encore active sous son nom d'origine ?",
+   "qd": "La plus vieille compagnie sous son nom d'origine ?",
+   "a": [
+    [
+     "",
+     "Lufthansa"
+    ],
+    [
+     "",
+     "Iberia"
+    ],
+    [
+     "",
+     "Air France"
+    ],
+    [
+     "",
+     "KLM"
+    ]
+   ],
+   "ok": 3,
+   "say": "KLM, fondée en 1919 !",
+   "level": 2
+  },
+  {
+   "q": "Quel avion à réaction détient le record de vitesse depuis 1976 ?",
+   "qd": "Le record de vitesse depuis 1976 ?",
+   "a": [
+    [
+     "",
+     "Le MiG-25"
+    ],
+    [
+     "",
+     "Le Concorde"
+    ],
+    [
+     "",
+     "Le SR-71 Blackbird"
+    ],
+    [
+     "",
+     "Le F-22 Raptor"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le SR-71 Blackbird !",
+   "level": 3
+  },
+  {
+   "q": "Qui a inventé le mot avion ?",
+   "qd": "Qui a inventé le mot « avion » ?",
+   "a": [
+    [
+     "",
+     "Louis Blériot"
+    ],
+    [
+     "",
+     "Clément Ader"
+    ],
+    [
+     "",
+     "Henri Farman"
+    ],
+    [
+     "",
+     "Gustave Eiffel"
+    ]
+   ],
+   "ok": 1,
+   "say": "Clément Ader !",
+   "level": 3
+  }
+ ]
+}
