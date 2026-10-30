@@ -1,0 +1,20 @@
+{
+ "title": "Les Amériques", "subject": "Amériques", "banner": "Les Amériques",
+ "symbols": ["🌎","🗽","🦅","🌵","🏔","🌴","🦙","⛰","🍁","🌋","🧭","🗺","🦜","☀","🌊","🏜"],
+ "description": "🌎 Quiz Les Amériques : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #monde #culturegenerale #ameriques #geographie #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quelle est la capitale du Canada ?", "qd": "La capitale du Canada ?", "a": [["","Toronto"],["","Montréal"],["","Ottawa"],["","Vancouver"]], "ok": 2, "say": "Ottawa !", "level": 0},
+  {"q": "Quelle est la langue officielle du Brésil ?", "qd": "La langue officielle du Brésil ?", "a": [["","Le portugais"],["","L'espagnol"],["","Le brésilien"],["","L'anglais"]], "ok": 0, "say": "Le portugais !", "level": 0},
+  {"q": "Dans quel pays se trouve le Machu Picchu ?", "qd": "Le pays du Machu Picchu ?", "a": [["","Le Mexique"],["","La Bolivie"],["","Le Chili"],["","Le Pérou"]], "ok": 3, "say": "Le Pérou !", "level": 0},
+  {"q": "Quel canal relie l'océan Atlantique et l'océan Pacifique en Amérique centrale ?", "qd": "Le canal entre Atlantique et Pacifique ?", "a": [["","Le canal de Suez"],["","Le canal de Panama"],["","Le canal du Mexique"],["","Le canal de Corinthe"]], "ok": 1, "say": "Le canal de Panama !", "level": 1},
+  {"q": "Quelle est la plus haute montagne des Amériques ?", "qd": "Le plus haut sommet des Amériques ?", "a": [["","L'Aconcagua"],["","Le Denali"],["","Le Chimborazo"],["","Le Popocatépetl"]], "ok": 0, "say": "L'Aconcagua !", "level": 1},
+  {"q": "Quel pays d'Amérique du Sud a pour capitale Quito ?", "qd": "Le pays dont la capitale est Quito ?", "a": [["","La Colombie"],["","Le Venezuela"],["","L'Équateur"],["","Le Paraguay"]], "ok": 2, "say": "L'Équateur !", "level": 1},
+  {"q": "Après le Brésil, quel est le plus grand pays d'Amérique du Sud ?", "qd": "Le 2e plus grand pays d'Amérique du Sud ?", "a": [["","Le Pérou"],["","La Colombie"],["","La Bolivie"],["","L'Argentine"]], "ok": 3, "say": "L'Argentine !", "level": 2},
+  {"q": "Quel désert du Chili est le désert non polaire le plus aride du monde ?", "qd": "Le désert le plus aride, au Chili ?", "a": [["","Le désert de Sonora"],["","Le désert d'Atacama"],["","La Patagonie"],["","Le désert de Chihuahua"]], "ok": 1, "say": "Le désert d'Atacama !", "level": 2},
+  {"q": "Quelle est la capitale du Belize ?", "qd": "La capitale du Belize ?", "a": [["","Belize City"],["","San Ignacio"],["","Belmopan"],["","Orange Walk"]], "ok": 2, "say": "Belmopan !", "level": 3},
+  {"q": "Quel est le seul pays d'Amérique du Sud dont la langue officielle est le néerlandais ?", "qd": "Le pays sud-américain néerlandophone ?", "a": [["","Le Suriname"],["","Le Guyana"],["","L'Uruguay"],["","Le Paraguay"]], "ok": 0, "say": "Le Suriname !", "level": 3}
+ ]
+}

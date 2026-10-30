@@ -102,14 +102,14 @@
   "L'Afrique",
   "Les écrivains français",
   "L'Asie",
-  "Les entreprises françaises"
+  "Les entreprises françaises",
+  "Les Amériques"
  ],
  "a_faire": [
   "Les pays d'Europe",
   "Le football",
   "Les insectes",
   "Les religions du monde (faits historiques neutres)",
-  "Les Amériques",
   "La santé et la nutrition",
   "Les avions et l'aviation",
   "Les chiffres et la logique",
@@ -121,7 +121,6 @@
   "Les records de France"
  ],
  "a_faire_monde": [
-  "Les Amériques",
   "La santé et la nutrition",
   "Les avions et l'aviation",
   "Les chiffres et la logique",
