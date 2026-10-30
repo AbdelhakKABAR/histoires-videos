@@ -1,0 +1,20 @@
+{
+ "title": "Le club de rugby de chaque ville", "subject": "Rugby", "banner": "Le club de rugby de chaque ville",
+ "symbols": ["🏉","🏟","🇫🇷","🏆","⭐","🐓","🥅","📣","✦","🎽","★","⚑","🧭","🗺","✧","🏁"],
+ "description": "🏉 Quiz Rugby : retrouve le club de chaque ville de France ! 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #rugby #top14 #culturegenerale #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel est le club de rugby de Toulouse ?", "qd": "Le club de rugby de Toulouse ?", "a": [["","Le Racing 92"],["","Le Stade toulousain"],["","Le Stade français"],["","Le RC Toulon"]], "ok": 1, "say": "Le Stade toulousain !", "level": 0},
+  {"q": "Quel est le club de rugby de Clermont-Ferrand ?", "qd": "Le club de rugby de Clermont ?", "a": [["","L'ASM Clermont"],["","La Section paloise"],["","Le Castres olympique"],["","L'Aviron bayonnais"]], "ok": 0, "say": "L'ASM Clermont Auvergne !", "level": 0},
+  {"q": "Quel club de rugby joue au stade Mayol ?", "qd": "Le club qui joue au stade Mayol ?", "a": [["","Le Stade toulousain"],["","Le Racing 92"],["","Le Stade rochelais"],["","Le RC Toulon"]], "ok": 3, "say": "Le RC Toulon !", "level": 0},
+  {"q": "Quel est le club de rugby de La Rochelle ?", "qd": "Le club de rugby de La Rochelle ?", "a": [["","Le Stade français"],["","L'Aviron bayonnais"],["","Le Stade rochelais"],["","Le CA Brive"]], "ok": 2, "say": "Le Stade rochelais !", "level": 1},
+  {"q": "Quel club de rugby de Paris joue au stade Jean-Bouin ?", "qd": "Le club parisien du stade Jean-Bouin ?", "a": [["","Le Racing 92"],["","Le Stade français"],["","Le Paris FC"],["","L'US Montauban"]], "ok": 1, "say": "Le Stade français !", "level": 1},
+  {"q": "Dans quelle ville joue l'Union Bordeaux-Bègles ?", "qd": "La ville de l'UBB ?", "a": [["","Toulouse"],["","Pau"],["","Agen"],["","Bordeaux"]], "ok": 3, "say": "Bordeaux !", "level": 1},
+  {"q": "Quel est le club de rugby de Bayonne ?", "qd": "Le club de rugby de Bayonne ?", "a": [["","L'Aviron bayonnais"],["","Le Biarritz olympique"],["","La Section paloise"],["","Le Stade montois"]], "ok": 0, "say": "L'Aviron bayonnais !", "level": 2},
+  {"q": "Quel est le club de rugby de Pau ?", "qd": "Le club de rugby de Pau ?", "a": [["","Le Castres olympique"],["","Le SU Agen"],["","La Section paloise"],["","Le Stade montois"]], "ok": 2, "say": "La Section paloise !", "level": 2},
+  {"q": "Dans quelle ville se trouve la salle où joue le Racing 92 ?", "qd": "La ville du Racing 92 ?", "a": [["","Paris"],["","Nanterre"],["","Colombes"],["","Boulogne"]], "ok": 1, "say": "Nanterre, à la Paris La Défense Arena !", "level": 3},
+  {"q": "Quelle ville a pour club de rugby l'USAP ?", "qd": "La ville de l'USAP ?", "a": [["","Narbonne"],["","Béziers"],["","Carcassonne"],["","Perpignan"]], "ok": 3, "say": "Perpignan !", "level": 3}
+ ]
+}
