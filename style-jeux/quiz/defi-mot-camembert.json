@@ -1,0 +1,21 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : IMPOSSIBLE",
+ "mot": "CAMEMBERT",
+ "categorie": "Une spécialité française",
+ "categorie_dite": "Catégorie : une spécialité française.",
+ "accroche_dite": "Seulement un pour cent des gens trouvent ce mot avec un seul indice.",
+ "indices": [
+  "On le trouve sur beaucoup de tables en France.",
+  "Il porte le nom d'un petit village de l'Orne.",
+  "Une légende l'attribue à une fermière : Marie Harel.",
+  "On le vend dans une boîte ronde en bois.",
+  "C'est un fromage normand à pâte molle."
+ ],
+ "secondes_par_indice": 5,
+ "lettres_donnees": 1,
+ "dire": "Camembert",
+ "explication": "Le camembert, fromage de Normandie au lait de vache.",
+ "description": "🔤 MOT MYSTÈRE niveau impossible : 5 indices, 5 secondes chacun. Combien t'en a-t-il fallu ? 👇 #motmystere #quiz #france #enigme #culturegenerale #fromage #pourtoi"
+}
