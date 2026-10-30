@@ -26,6 +26,7 @@
   "1, 2, 4, 8, 16, 23 → 28 (on ajoute la somme des chiffres)",
   "4, 9, 25, 49, 121 → 169 (carrés des nombres premiers)",
   "L, M, M, J, V, S → D (initiales des jours de la semaine)",
-  "D, R, M, F, S, L → S (initiales des notes de musique)"
+  "D, R, M, F, S, L → S (initiales des notes de musique)",
+  "B, C, E, G, K → M (lettres au rang premier dans l'alphabet)"
  ]
 }

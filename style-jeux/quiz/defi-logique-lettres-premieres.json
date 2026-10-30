@@ -1,0 +1,16 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : IMPOSSIBLE",
+ "suite": ["B", "C", "E", "G", "K"],
+ "options": ["L", "O", "N", "M"],
+ "ok": 3,
+ "consigne": "Quelle lettre vient ensuite ?",
+ "accroche_dite": "Seulement un pour cent des gens trouvent la lettre suivante.",
+ "question_dite": "Bé, cé, eu, gé, ka… Quelle lettre vient ensuite ?",
+ "explication": "Leur rang dans l'alphabet est un nombre premier : B=2, C=3, E=5, G=7, K=11… M=13.",
+ "explication_dite": "La lettre M ! Leur place dans l'alphabet est un nombre premier : deux, trois, cinq, sept, onze… et treize, c'est M !",
+ "fin": "Tu avais trouvé ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🧩 SUITE LOGIQUE niveau impossible : B, C, E, G, K… quelle lettre vient ensuite ? Seuls 1 % trouvent ! Ta réponse en commentaire 👇 #logique #enigme #quiz #suitelogique #cerveau #maths #pourtoi"
+}
