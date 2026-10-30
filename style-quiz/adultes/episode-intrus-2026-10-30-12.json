@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, du niveau facile à impossible… attention aux pièges ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : le lait, le yaourt, le pain ou le beurre ?",
+   "qd": "L'intrus au petit-déjeuner ?",
+   "a": [
+    [
+     "",
+     "Le lait"
+    ],
+    [
+     "",
+     "Le yaourt"
+    ],
+    [
+     "",
+     "Le pain"
+    ],
+    [
+     "",
+     "Le beurre"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le pain ! Ce n'est pas un produit laitier.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le lion, la vache, le cheval ou le mouton ?",
+   "qd": "L'intrus parmi ces animaux ?",
+   "a": [
+    [
+     "",
+     "Le lion"
+    ],
+    [
+     "",
+     "La vache"
+    ],
+    [
+     "",
+     "Le cheval"
+    ],
+    [
+     "",
+     "Le mouton"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le lion ! C'est un carnivore, les autres sont herbivores.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : Rome, Lisbonne, Athènes ou Bordeaux ?",
+   "qd": "L'intrus parmi ces villes ?",
+   "a": [
+    [
+     "",
+     "Rome"
+    ],
+    [
+     "",
+     "Lisbonne"
+    ],
+    [
+     "",
+     "Athènes"
+    ],
+    [
+     "",
+     "Bordeaux"
+    ]
+   ],
+   "ok": 3,
+   "say": "Bordeaux ! Ce n'est pas une capitale.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : Le Mans, Roland-Garros, Monaco ou Spa-Francorchamps ?",
+   "qd": "L'intrus parmi ces lieux de sport ?",
+   "a": [
+    [
+     "",
+     "Le Mans"
+    ],
+    [
+     "",
+     "Roland-Garros"
+    ],
+    [
+     "",
+     "Monaco"
+    ],
+    [
+     "",
+     "Spa"
+    ]
+   ],
+   "ok": 1,
+   "say": "Roland-Garros ! C'est du tennis, les autres accueillent des courses auto.",
+   "level": 1
+  },
+  {
+   "q": "Quelle est l'intruse : la choucroute, la quiche lorraine, la bouillabaisse ou la flammekueche ?",
+   "qd": "L'intruse parmi ces plats ?",
+   "a": [
+    [
+     "",
+     "La choucroute"
+    ],
+    [
+     "",
+     "La quiche lorraine"
+    ],
+    [
+     "",
+     "La bouillabaisse"
+    ],
+    [
+     "",
+     "La flammekueche"
+    ]
+   ],
+   "ok": 2,
+   "say": "La bouillabaisse ! Elle vient de Marseille, les autres de l'Est.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : bonheur, chanteur, danseur ou nageur ?",
+   "qd": "L'intrus parmi ces mots ?",
+   "a": [
+    [
+     "",
+     "Bonheur"
+    ],
+    [
+     "",
+     "Chanteur"
+    ],
+    [
+     "",
+     "Danseur"
+    ],
+    [
+     "",
+     "Nageur"
+    ]
+   ],
+   "ok": 0,
+   "say": "Bonheur ! Les autres désignent une personne.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le corbeau, la pie, le geai ou le merle ?",
+   "qd": "L'intrus parmi ces oiseaux ?",
+   "a": [
+    [
+     "",
+     "Le corbeau"
+    ],
+    [
+     "",
+     "La pie"
+    ],
+    [
+     "",
+     "Le geai"
+    ],
+    [
+     "",
+     "Le merle"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le merle ! Les autres sont de la famille des corvidés.",
+   "level": 2
+  },
+  {
+   "q": "Quelle est l'intruse : Vienne, Prague, Budapest ou Belgrade ?",
+   "qd": "L'intruse : piège en Europe !",
+   "a": [
+    [
+     "",
+     "Vienne"
+    ],
+    [
+     "",
+     "Prague"
+    ],
+    [
+     "",
+     "Budapest"
+    ],
+    [
+     "",
+     "Belgrade"
+    ]
+   ],
+   "ok": 1,
+   "say": "Prague ! Elle n'est pas traversée par le Danube.",
+   "level": 2
+  },
+  {
+   "q": "Quelle est l'intruse : la noix, l'amande, la fraise ou la poire ?",
+   "qd": "L'intruse : piège botanique !",
+   "a": [
+    [
+     "",
+     "La noix"
+    ],
+    [
+     "",
+     "L'amande"
+    ],
+    [
+     "",
+     "La fraise"
+    ],
+    [
+     "",
+     "La poire"
+    ]
+   ],
+   "ok": 0,
+   "say": "La noix ! Les autres viennent de la famille des rosacées.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : le mercure, le gallium, le silicium ou le césium ?",
+   "qd": "L'intrus parmi ces éléments ?",
+   "a": [
+    [
+     "",
+     "Le mercure"
+    ],
+    [
+     "",
+     "Le gallium"
+    ],
+    [
+     "",
+     "Le silicium"
+    ],
+    [
+     "",
+     "Le césium"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le silicium ! Ce n'est pas un métal, les autres en sont.",
+   "level": 3
+  }
+ ]
+}
