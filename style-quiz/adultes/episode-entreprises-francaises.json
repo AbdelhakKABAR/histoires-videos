@@ -1,0 +1,20 @@
+{
+ "title": "Les entreprises françaises", "subject": "Entreprises", "banner": "Les entreprises françaises",
+ "symbols": ["🏭","🚗","✈️","🐊","🖊","🛒","🛞","🇫🇷","💼","📈","🏢","⚙️","🧴","🚲","📖","⭐"],
+ "description": "🏭 Quiz Entreprises françaises : 10 questions, du niveau facile à impossible. Tu connais les grandes marques françaises ? Donne ton score en commentaire 👇 #quiz #quiztime #france #entreprises #marques #culturegenerale #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Dans quelle ville se trouve le siège de Michelin ?", "qd": "La ville du siège de Michelin ?", "a": [["","Lyon"],["","Clermont-Ferrand"],["","Bordeaux"],["","Lille"]], "ok": 1, "say": "Clermont-Ferrand !", "level": 0},
+  {"q": "Quelle marque française fabrique la 208 ?", "qd": "La marque de la 208 ?", "a": [["","Peugeot"],["","Renault"],["","Citroën"],["","Bugatti"]], "ok": 0, "say": "Peugeot !", "level": 0},
+  {"q": "Quel animal est le logo de la marque Lacoste ?", "qd": "L'animal du logo Lacoste ?", "a": [["","Un tigre"],["","Un cheval"],["","Un crocodile"],["","Un coq"]], "ok": 2, "say": "Un crocodile !", "level": 0},
+  {"q": "Dans quelle ville française est assemblé l'Airbus A350 ?", "qd": "La ville où est assemblé l'A350 ?", "a": [["","Marseille"],["","Bordeaux"],["","Nantes"],["","Toulouse"]], "ok": 3, "say": "Toulouse !", "level": 1},
+  {"q": "Quel objet a lancé le succès de Bic en 1950 ?", "qd": "Le premier grand succès de Bic ?", "a": [["","Le briquet"],["","Le stylo à bille"],["","Le rasoir"],["","Le crayon"]], "ok": 1, "say": "Le stylo à bille, le Bic Cristal !", "level": 1},
+  {"q": "Dans quelle ville a été fondée la moutarde Amora ?", "qd": "La ville natale de la moutarde Amora ?", "a": [["","Dijon"],["","Reims"],["","Metz"],["","Besançon"]], "ok": 0, "say": "Dijon !", "level": 1},
+  {"q": "Quel est le prénom du fondateur de Citroën ?", "qd": "Le prénom de Monsieur Citroën ?", "a": [["","Louis"],["","Armand"],["","André"],["","Ettore"]], "ok": 2, "say": "André Citroën !", "level": 2},
+  {"q": "Dans quelle ville se trouve le siège de Decathlon ?", "qd": "La ville du siège de Decathlon ?", "a": [["","Roubaix"],["","Lyon"],["","Annecy"],["","Villeneuve-d'Ascq"]], "ok": 3, "say": "Villeneuve-d'Ascq, près de Lille !", "level": 2},
+  {"q": "En quelle année est paru le premier Guide Michelin ?", "qd": "L'année du premier Guide Michelin ?", "a": [["","1889"],["","1900"],["","1920"],["","1936"]], "ok": 1, "say": "En mille neuf cent !", "level": 3},
+  {"q": "Où Carrefour a-t-il ouvert le premier hypermarché de France, en 1963 ?", "qd": "Le premier hypermarché Carrefour, en 1963 ?", "a": [["","Sainte-Geneviève-des-Bois"],["","Annecy"],["","Rungis"],["","Lyon"]], "ok": 0, "say": "Sainte-Geneviève-des-Bois, dans l'Essonne !", "level": 3}
+ ]
+}
