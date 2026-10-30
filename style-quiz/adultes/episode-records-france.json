@@ -1,0 +1,20 @@
+{
+ "title": "Les records de France", "subject": "Records de France", "banner": "Les records de France",
+ "symbols": ["🏔","🌊","🏝","🏆","🥇","⛰","🌉","📏","🗼","⭐","💧","🏰","🗺","✦","🌲","🏅"],
+ "description": "🏆 Quiz Records de France : 10 questions, du niveau facile à impossible. Le plus haut, le plus long, le plus petit… Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #records #culturegenerale #question #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel est le plus haut sommet de France ?", "qd": "Le plus haut sommet de France ?", "a": [["","Le mont Blanc"],["","Le mont Ventoux"],["","Le puy de Dôme"],["","Le Vignemale"]], "ok": 0, "say": "Le mont Blanc !", "level": 0},
+  {"q": "Quel est le plus long fleuve de France ?", "qd": "Le plus long fleuve de France ?", "a": [["","La Seine"],["","La Loire"],["","La Garonne"],["","La Dordogne"]], "ok": 1, "say": "La Loire !", "level": 0},
+  {"q": "Quelle est la plus grande île de France métropolitaine ?", "qd": "La plus grande île de métropole ?", "a": [["","Oléron"],["","L'île de Ré"],["","La Corse"],["","Belle-Île"]], "ok": 2, "say": "La Corse !", "level": 0},
+  {"q": "Où se trouve la plus haute dune d'Europe ?", "qd": "La plus haute dune d'Europe ?", "a": [["","En Camargue"],["","En baie de Somme"],["","En Vendée"],["","La dune du Pilat"]], "ok": 3, "say": "La dune du Pilat !", "level": 1},
+  {"q": "Quel est le plus grand département de France métropolitaine ?", "qd": "Le plus grand département de métropole ?", "a": [["","La Gironde"],["","Les Landes"],["","La Dordogne"],["","La Côte-d'Or"]], "ok": 0, "say": "La Gironde !", "level": 1},
+  {"q": "Quel est le plus grand lac naturel entièrement français ?", "qd": "Le plus grand lac naturel 100 % français ?", "a": [["","Le lac d'Annecy"],["","Le lac de Paladru"],["","Le lac du Bourget"],["","Le lac de Gérardmer"]], "ok": 2, "say": "Le lac du Bourget !", "level": 1},
+  {"q": "Quel est le plus haut pont de France ?", "qd": "Le plus haut pont de France ?", "a": [["","Le pont de Normandie"],["","Le viaduc de Millau"],["","Le viaduc de Garabit"],["","Le pont de Tancarville"]], "ok": 1, "say": "Le viaduc de Millau !", "level": 2},
+  {"q": "Quelle est la plus petite commune de France par sa superficie ?", "qd": "La plus petite commune de France ?", "a": [["","Saint-Véran"],["","Eguisheim"],["","Rocamadour"],["","Castelmoron-d'Albret"]], "ok": 3, "say": "Castelmoron-d'Albret, en Gironde !", "level": 2},
+  {"q": "Quelle est la plus haute cascade de France métropolitaine ?", "qd": "La plus haute cascade de métropole ?", "a": [["","La cascade de Gavarnie"],["","Les cascades du Hérisson"],["","La cascade d'Ars"],["","Le saut du Doubs"]], "ok": 0, "say": "La grande cascade de Gavarnie !", "level": 3},
+  {"q": "Quel est le plus haut barrage de France ?", "qd": "Le plus haut barrage de France ?", "a": [["","Serre-Ponçon"],["","Vouglans"],["","Tignes"],["","Grand'Maison"]], "ok": 2, "say": "Le barrage de Tignes !", "level": 3}
+ ]
+}
