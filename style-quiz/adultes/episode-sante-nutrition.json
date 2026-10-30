@@ -1,0 +1,20 @@
+{
+ "title": "La santé et la nutrition", "subject": "Santé", "banner": "La santé et la nutrition",
+ "symbols": ["🍎","🥦","💊","🫀","🥕","💧","🧬","🥛","🍋","🩺","🥑","🐟","🌞","🍇","🧪","🫁"],
+ "description": "🍎 Quiz Santé et nutrition : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #sante #nutrition #monde #culturegenerale #question #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quelle vitamine notre peau fabrique-t-elle grâce au soleil ?", "qd": "La vitamine fabriquée grâce au soleil ?", "a": [["","La vitamine C"],["","La vitamine B12"],["","La vitamine D"],["","La vitamine A"]], "ok": 2, "say": "La vitamine D !", "level": 0},
+  {"q": "Quel minéral, très présent dans le lait, renforce les os ?", "qd": "Le minéral du lait qui renforce les os ?", "a": [["","Le calcium"],["","Le sodium"],["","Le potassium"],["","Le fer"]], "ok": 0, "say": "Le calcium !", "level": 0},
+  {"q": "Quel organe pompe le sang dans tout le corps ?", "qd": "L'organe qui pompe le sang ?", "a": [["","Les poumons"],["","Le cœur"],["","Le foie"],["","Les reins"]], "ok": 1, "say": "Le cœur !", "level": 0},
+  {"q": "Quelle maladie est causée par un manque de vitamine C ?", "qd": "La maladie du manque de vitamine C ?", "a": [["","Le rachitisme"],["","La pellagre"],["","Le scorbut"],["","La goutte"]], "ok": 2, "say": "Le scorbut !", "level": 1},
+  {"q": "Quel minéral se trouve au cœur de l'hémoglobine ?", "qd": "Le minéral de l'hémoglobine ?", "a": [["","Le magnésium"],["","Le fer"],["","Le zinc"],["","Le cuivre"]], "ok": 1, "say": "Le fer !", "level": 1},
+  {"q": "Quelle hormone fait baisser le taux de sucre dans le sang ?", "qd": "L'hormone qui fait baisser le sucre ?", "a": [["","L'insuline"],["","L'adrénaline"],["","Le cortisol"],["","Le glucagon"]], "ok": 0, "say": "L'insuline !", "level": 1},
+  {"q": "Combien de kilocalories apporte un gramme de lipides ?", "qd": "Kilocalories dans 1 g de lipides ?", "a": [["","4"],["","7"],["","9"],["","12"]], "ok": 2, "say": "9 kilocalories !", "level": 2},
+  {"q": "Quelle maladie est causée par un manque de vitamine B1 ?", "qd": "La maladie du manque de vitamine B1 ?", "a": [["","La pellagre"],["","Le scorbut"],["","Le rachitisme"],["","Le béribéri"]], "ok": 3, "say": "Le béribéri !", "level": 2},
+  {"q": "Quelle vitamine porte aussi le nom de rétinol ?", "qd": "La vitamine appelée rétinol ?", "a": [["","La vitamine E"],["","La vitamine A"],["","La vitamine K"],["","La vitamine B6"]], "ok": 1, "say": "La vitamine A !", "level": 3},
+  {"q": "Quel élément chimique se trouve au centre de la vitamine B12 ?", "qd": "L'élément au centre de la vitamine B12 ?", "a": [["","Le cobalt"],["","Le fer"],["","Le zinc"],["","L'iode"]], "ok": 0, "say": "Le cobalt !", "level": 3}
+ ]
+}
