@@ -1,0 +1,20 @@
+{
+ "title": "Le département de chaque ville touristique", "subject": "Départements", "banner": "Dans quel département ?",
+ "symbols": ["🗺","📍","🏖","⛰","🏰","🍷","⛪","🇫🇷","🧭","🏞","⚓","🌊","🥂","🚲","✦","★"],
+ "description": "📍 Quiz France : dans quel département se trouve chaque ville touristique ? 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #departements #geographie #culturegenerale #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Dans quel département se trouve Saint-Tropez ?", "qd": "Le département de Saint-Tropez ?", "a": [["","Le Var"],["","Les Alpes-Maritimes"],["","Les Bouches-du-Rhône"],["","L'Hérault"]], "ok": 0, "say": "Le Var !", "level": 0},
+  {"q": "Dans quel département se trouve Chamonix ?", "qd": "Le département de Chamonix ?", "a": [["","La Savoie"],["","La Haute-Savoie"],["","L'Isère"],["","Les Hautes-Alpes"]], "ok": 1, "say": "La Haute-Savoie !", "level": 0},
+  {"q": "Dans quel département se trouve Arcachon ?", "qd": "Le département d'Arcachon ?", "a": [["","Les Landes"],["","La Charente-Maritime"],["","La Gironde"],["","Les Pyrénées-Atlantiques"]], "ok": 2, "say": "La Gironde !", "level": 0},
+  {"q": "Dans quel département se trouve Lourdes ?", "qd": "Le département de Lourdes ?", "a": [["","Les Pyrénées-Atlantiques"],["","L'Ariège"],["","La Haute-Garonne"],["","Les Hautes-Pyrénées"]], "ok": 3, "say": "Les Hautes-Pyrénées !", "level": 1},
+  {"q": "Dans quel département se trouve Deauville ?", "qd": "Le département de Deauville ?", "a": [["","Le Calvados"],["","La Manche"],["","La Seine-Maritime"],["","L'Eure"]], "ok": 0, "say": "Le Calvados !", "level": 1},
+  {"q": "Dans quel département se trouve Épernay, la capitale du champagne ?", "qd": "Le département d'Épernay ?", "a": [["","L'Aube"],["","La Marne"],["","Les Ardennes"],["","L'Aisne"]], "ok": 1, "say": "La Marne !", "level": 1},
+  {"q": "Dans quel département se trouve Vichy ?", "qd": "Le département de Vichy ?", "a": [["","Le Puy-de-Dôme"],["","Le Cantal"],["","L'Allier"],["","La Loire"]], "ok": 2, "say": "L'Allier !", "level": 2},
+  {"q": "Dans quel département se trouve Sarlat-la-Canéda ?", "qd": "Le département de Sarlat ?", "a": [["","Le Lot"],["","La Corrèze"],["","Le Lot-et-Garonne"],["","La Dordogne"]], "ok": 3, "say": "La Dordogne !", "level": 2},
+  {"q": "Dans quel département se trouve la ville de Cognac ?", "qd": "Le département de Cognac ?", "a": [["","La Charente-Maritime"],["","La Charente"],["","Les Deux-Sèvres"],["","La Vienne"]], "ok": 1, "say": "La Charente !", "level": 3},
+  {"q": "Dans quel département se trouve Collioure ?", "qd": "Le département de Collioure ?", "a": [["","L'Aude"],["","L'Hérault"],["","Les Pyrénées-Orientales"],["","L'Ariège"]], "ok": 2, "say": "Les Pyrénées-Orientales !", "level": 3}
+ ]
+}
