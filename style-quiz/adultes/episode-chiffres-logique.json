@@ -1,0 +1,20 @@
+{
+ "title": "Les chiffres et la logique", "subject": "Chiffres", "banner": "Les chiffres et la logique",
+ "symbols": ["➕","➖","✖","➗","🔢","π","∞","√","%","Σ","🧮","📐","🎲","🧠","=","#"],
+ "description": "🧮 Quiz Chiffres et logique : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #monde #culturegenerale #maths #chiffres #logique #quiztime #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Combien de côtés a un hexagone ?", "qd": "Combien de côtés a un hexagone ?", "a": [["","5"],["","6"],["","7"],["","8"]], "ok": 1, "say": "Six côtés !", "level": 0},
+  {"q": "Combien font sept fois huit ?", "qd": "Combien font 7 × 8 ?", "a": [["","54"],["","63"],["","56"],["","48"]], "ok": 2, "say": "Cinquante-six !", "level": 0},
+  {"q": "Quel chiffre romain vaut cinquante ?", "qd": "Le chiffre romain qui vaut 50 ?", "a": [["","L"],["","C"],["","D"],["","X"]], "ok": 0, "say": "Le L !", "level": 0},
+  {"q": "Combien y a-t-il de minutes dans une journée ?", "qd": "Combien de minutes dans une journée ?", "a": [["","1 200"],["","1 240"],["","2 400"],["","1 440"]], "ok": 3, "say": "Mille quatre cent quarante !", "level": 1},
+  {"q": "Quel est le plus petit nombre premier ?", "qd": "Le plus petit nombre premier ?", "a": [["","0"],["","1"],["","2"],["","3"]], "ok": 2, "say": "Le deux !", "level": 1},
+  {"q": "Combien d'arêtes possède un cube ?", "qd": "Combien d'arêtes a un cube ?", "a": [["","12"],["","8"],["","6"],["","16"]], "ok": 0, "say": "Douze arêtes !", "level": 1},
+  {"q": "Combien font deux puissance dix ?", "qd": "Combien font 2 puissance 10 ?", "a": [["","1 000"],["","1 024"],["","2 048"],["","512"]], "ok": 1, "say": "Mille vingt-quatre !", "level": 2},
+  {"q": "Combien de diagonales possède un hexagone ?", "qd": "Combien de diagonales a un hexagone ?", "a": [["","6"],["","8"],["","12"],["","9"]], "ok": 3, "say": "Neuf diagonales !", "level": 2},
+  {"q": "Combien vaut factorielle de zéro ?", "qd": "Combien vaut 0! (factorielle de 0) ?", "a": [["","0"],["","1"],["","L'infini"],["","Indéfini"]], "ok": 1, "say": "Un ! Par convention, factorielle de zéro vaut un.", "level": 3},
+  {"q": "Combien y a-t-il de nombres premiers entre un et cent ?", "qd": "Combien de nombres premiers de 1 à 100 ?", "a": [["","20"],["","30"],["","25"],["","33"]], "ok": 2, "say": "Vingt-cinq !", "level": 3}
+ ]
+}
