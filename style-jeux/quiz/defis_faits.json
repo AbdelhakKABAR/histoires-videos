@@ -28,6 +28,7 @@
   "4, 9, 25, 49, 121 → 169 (carrés des nombres premiers)",
   "L, M, M, J, V, S → D (initiales des jours de la semaine)",
   "D, R, M, F, S, L → S (initiales des notes de musique)",
-  "B, C, E, G, K → M (lettres au rang premier dans l'alphabet)"
+  "B, C, E, G, K → M (lettres au rang premier dans l'alphabet)",
+  "1, 2, 6, 24, 120 → 720 (factorielles : ×2, ×3, ×4, ×5, ×6)"
  ]
 }

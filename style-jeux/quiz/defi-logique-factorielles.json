@@ -1,0 +1,27 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : IMPOSSIBLE",
+ "suite": [
+  "1",
+  "2",
+  "6",
+  "24",
+  "120"
+ ],
+ "options": [
+  "240",
+  "600",
+  "720",
+  "360"
+ ],
+ "ok": 2,
+ "consigne": "Quelle est la suite ?",
+ "accroche_dite": "Seulement un pour cent des gens trouvent la suite.",
+ "question_dite": "Un, deux, six, vingt-quatre, cent vingt… Et ensuite ?",
+ "explication": "On multiplie par 2, puis 3, 4, 5… donc 120 × 6 = 720 (les factorielles).",
+ "explication_dite": "Sept cent vingt ! On multiplie par deux, puis par trois, par quatre, par cinq… donc cent vingt fois six, sept cent vingt.",
+ "fin": "Tu avais trouvé ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🧩 SUITE LOGIQUE niveau impossible : 1, 2, 6, 24, 120… et ensuite ? Seuls 1 % trouvent ! 👇 #logique #enigme #quiz #suitelogique #maths #cerveau #pourtoi"
+}
