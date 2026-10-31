@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, du niveau facile à impossible… attention aux pièges ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : l'abeille, la guêpe, le frelon ou la mouche ?",
+   "qd": "L'intrus parmi ces insectes ?",
+   "a": [
+    [
+     "",
+     "L'abeille"
+    ],
+    [
+     "",
+     "La guêpe"
+    ],
+    [
+     "",
+     "Le frelon"
+    ],
+    [
+     "",
+     "La mouche"
+    ]
+   ],
+   "ok": 3,
+   "say": "La mouche ! Elle n'a pas de dard, contrairement aux trois autres.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : Rome, Zurich, Madrid ou Berlin ?",
+   "qd": "L'intrus parmi ces villes ?",
+   "a": [
+    [
+     "",
+     "Rome"
+    ],
+    [
+     "",
+     "Zurich"
+    ],
+    [
+     "",
+     "Madrid"
+    ],
+    [
+     "",
+     "Berlin"
+    ]
+   ],
+   "ok": 1,
+   "say": "Zurich ! Ce n'est pas une capitale : celle de la Suisse est Berne.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : le basket, le handball, la boxe ou le water-polo ?",
+   "qd": "L'intrus parmi ces sports ?",
+   "a": [
+    [
+     "",
+     "Le basket"
+    ],
+    [
+     "",
+     "Le handball"
+    ],
+    [
+     "",
+     "La boxe"
+    ],
+    [
+     "",
+     "Le water-polo"
+    ]
+   ],
+   "ok": 2,
+   "say": "La boxe ! C'est un sport individuel, les autres se jouent en équipe.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le Dragon, le Lion, le Taureau ou le Bélier ?",
+   "qd": "L'intrus parmi ces signes ?",
+   "a": [
+    [
+     "",
+     "Le Dragon"
+    ],
+    [
+     "",
+     "Le Lion"
+    ],
+    [
+     "",
+     "Le Taureau"
+    ],
+    [
+     "",
+     "Le Bélier"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le Dragon ! C'est un signe chinois, pas du zodiaque occidental.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le hautbois, le basson, la clarinette ou le cor ?",
+   "qd": "L'intrus parmi ces instruments ?",
+   "a": [
+    [
+     "",
+     "Le hautbois"
+    ],
+    [
+     "",
+     "Le basson"
+    ],
+    [
+     "",
+     "La clarinette"
+    ],
+    [
+     "",
+     "Le cor"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le cor ! C'est un cuivre, les trois autres sont des bois.",
+   "level": 1
+  },
+  {
+   "q": "Quelle est l'intruse : l'Espagne, la Norvège, l'Italie ou le Portugal ?",
+   "qd": "L'intrus parmi ces pays ?",
+   "a": [
+    [
+     "",
+     "L'Espagne"
+    ],
+    [
+     "",
+     "La Norvège"
+    ],
+    [
+     "",
+     "L'Italie"
+    ],
+    [
+     "",
+     "Le Portugal"
+    ]
+   ],
+   "ok": 1,
+   "say": "La Norvège ! Elle ne fait pas partie de l'Union européenne.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : l'Amazone, le Nil, la Volga ou le Mississippi ?",
+   "qd": "L'intrus parmi ces fleuves ?",
+   "a": [
+    [
+     "",
+     "L'Amazone"
+    ],
+    [
+     "",
+     "Le Nil"
+    ],
+    [
+     "",
+     "La Volga"
+    ],
+    [
+     "",
+     "Le Mississippi"
+    ]
+   ],
+   "ok": 2,
+   "say": "La Volga ! Elle finit dans la mer Caspienne, une mer fermée.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : Les Misérables, Madame Bovary, Notre-Dame de Paris ou Les Contemplations ?",
+   "qd": "L'intrus parmi ces œuvres ?",
+   "a": [
+    [
+     "",
+     "Les Misérables"
+    ],
+    [
+     "",
+     "Madame Bovary"
+    ],
+    [
+     "",
+     "Notre-Dame de Paris"
+    ],
+    [
+     "",
+     "Les Contemplations"
+    ]
+   ],
+   "ok": 1,
+   "say": "Madame Bovary ! C'est Flaubert, les trois autres sont de Victor Hugo.",
+   "level": 2
+  },
+  {
+   "q": "Quelle est l'intruse : la tomate, le kiwi, la myrtille ou la fraise ?",
+   "qd": "L'intrus pour un botaniste ?",
+   "a": [
+    [
+     "",
+     "La tomate"
+    ],
+    [
+     "",
+     "Le kiwi"
+    ],
+    [
+     "",
+     "La myrtille"
+    ],
+    [
+     "",
+     "La fraise"
+    ]
+   ],
+   "ok": 3,
+   "say": "La fraise ! Pour un botaniste, ce n'est pas une baie, les trois autres oui.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : le Brésil, le Danemark, l'Espagne ou les Pays-Bas ?",
+   "qd": "L'intrus parmi ces pays ?",
+   "a": [
+    [
+     "",
+     "Le Brésil"
+    ],
+    [
+     "",
+     "Le Danemark"
+    ],
+    [
+     "",
+     "L'Espagne"
+    ],
+    [
+     "",
+     "Les Pays-Bas"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le Danemark ! Les autres touchent la France : Guyane et Saint-Martin.",
+   "level": 3
+  }
+ ]
+}
