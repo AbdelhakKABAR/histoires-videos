@@ -12,6 +12,27 @@ from common import Encoder, W, H, FPS, ease, back, rrect
 ACC, ACC2, GOOD, BAD = (0.22, 0.74, 0.97), (0.65, 0.55, 0.98), (0.13, 0.77, 0.37), (0.94, 0.27, 0.27)
 FONT = "Inter Display"
 THINK = 20.0
+DY = 80  # tout est décalé vers le bas : le haut de l'écran est caché par la barre de recherche TikTok
+# Palettes (même liste que les quiz) : "palette" dans le JSON pour forcer, sinon choix selon le mot / la suite.
+PALETTES = {
+    "nuit": (["0A0F1F", "0E1530", "090D1C"], "38BDF8", "A78BFA", ["1D4ED8", "F8FAFC", "DC2626"], (0.055, 0.08, 0.16)),
+    "emeraude": (["03140F", "062A20", "020F0B"], "34D399", "FBBF24", ["059669", "ECFDF5", "F59E0B"], (0.024, 0.11, 0.086)),
+    "pourpre": (["110718", "1F0B2E", "0A0510"], "F472B6", "818CF8", ["DB2777", "FCE7F3", "6366F1"], (0.11, 0.047, 0.16)),
+    "ocean": (["021318", "05262E", "020D11"], "22D3EE", "2DD4BF", ["0891B2", "F0FDFA", "0D9488"], (0.024, 0.10, 0.125)),
+    "or": (["120E07", "231A0B", "0B0805"], "FBBF24", "F87171", ["B45309", "FEF3C7", "DC2626"], (0.12, 0.086, 0.04)),
+    "corail": (["160807", "2B0F10", "0E0505"], "FB7185", "FDBA74", ["E11D48", "FFE4E6", "EA580C"], (0.14, 0.047, 0.055)),
+    "glace": (["0B1220", "16213A", "070C16"], "93C5FD", "C4B5FD", ["60A5FA", "FFFFFF", "A78BFA"], (0.07, 0.10, 0.18)),
+    "halloween": (["150A04", "24100A", "0B0603"], "FB923C", "A855F7", ["F97316", "FDE68A", "7C3AED"], (0.125, 0.055, 0.03)),
+}
+BG, BAN, CARD = PALETTES["nuit"][0], PALETTES["nuit"][3], PALETTES["nuit"][4]
+
+
+def set_palette(D):
+    global ACC, ACC2, BG, BAN, CARD
+    import zlib
+    keys = [k for k in PALETTES if k != "halloween"]
+    nom = D.get("palette") or keys[zlib.crc32(json.dumps(D, ensure_ascii=False).encode()) % len(keys)]
+    BG, a1, a2, BAN, CARD = PALETTES[nom]; ACC, ACC2 = hexc(a1), hexc(a2)
 
 
 def hexc(h): h = h.lstrip("#"); return tuple(int(h[i:i + 2], 16) / 255 for i in (0, 2, 4))
@@ -37,7 +58,7 @@ def T(cr, s, x, y, size, col=(1, 1, 1), a=1.0, align="c", w=cairo.FONT_WEIGHT_BO
 
 def background(cr, t):
     g = cairo.LinearGradient(0, 0, 0, H)
-    g.add_color_stop_rgb(0, *hexc("0A0F1F")); g.add_color_stop_rgb(0.5, *hexc("0E1530")); g.add_color_stop_rgb(1, *hexc("090D1C"))
+    g.add_color_stop_rgb(0, *hexc(BG[0])); g.add_color_stop_rgb(0.5, *hexc(BG[1])); g.add_color_stop_rgb(1, *hexc(BG[2]))
     cr.set_source(g); cr.paint()
     for (cx, cy, r, col, al) in ((120 + 40 * math.sin(t * 0.4), 260, 900, ACC, 0.22), (980, 1600 + 40 * math.cos(t * 0.3), 1000, ACC2, 0.2)):
         rg = cairo.RadialGradient(cx, cy, 0, cx, cy, r); rg.add_color_stop_rgba(0, *col, al); rg.add_color_stop_rgba(1, *col, 0)
@@ -60,7 +81,7 @@ def glass(cr, x, y, w, h, r, a=1.0, fill=None, edge=(1, 1, 1, 0.14), glow=None):
     if glow:
         for k in (18, 10):
             rrect(cr, x - k, y - k, w + 2 * k, h + 2 * k, r + k); cr.set_source_rgba(*glow, 0.10 * a); cr.fill()
-    rrect(cr, x, y, w, h, r); cr.set_source_rgba(*(fill or (0.055, 0.08, 0.16)), 0.78 * a); cr.fill()
+    rrect(cr, x, y, w, h, r); cr.set_source_rgba(*(fill or CARD), 0.78 * a); cr.fill()
     rrect(cr, x, y, w, h, r)
     hg = cairo.LinearGradient(0, y, 0, y + h); hg.add_color_stop_rgba(0, 1, 1, 1, 0.08 * a); hg.add_color_stop_rgba(0.5, 1, 1, 1, 0)
     cr.set_source(hg); cr.fill()
@@ -71,10 +92,10 @@ def banner(cr, txt, a=1.0):
     bw, bh, bx, by = 760, 96, (W - 760) / 2, 150
     rrect(cr, bx, by, bw, bh, 48)
     g = cairo.LinearGradient(bx, 0, bx + bw, 0)
-    g.add_color_stop_rgb(0, *hexc("1D4ED8")); g.add_color_stop_rgb(0.5, *hexc("F8FAFC")); g.add_color_stop_rgb(1, *hexc("DC2626"))
+    g.add_color_stop_rgb(0, *hexc(BAN[0])); g.add_color_stop_rgb(0.5, *hexc(BAN[1])); g.add_color_stop_rgb(1, *hexc(BAN[2]))
     cr.set_source(g); cr.paint_with_alpha(0) if a <= 0 else None
     cr.save(); cr.clip(); cr.set_source(g); cr.paint_with_alpha(a); cr.restore()
-    rrect(cr, bx + 4, by + 4, bw - 8, bh - 8, 44); cr.set_source_rgba(0.04, 0.06, 0.12, 0.9 * a); cr.fill()
+    rrect(cr, bx + 4, by + 4, bw - 8, bh - 8, 44); cr.set_source_rgba(*CARD, 0.92 * a); cr.fill()
     T(cr, txt, W / 2, by + 64, 46, a=a, spacing=5, w=cairo.FONT_WEIGHT_BOLD)
 
 
@@ -253,13 +274,14 @@ def draw_logique(cr, D, s, t):
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("fichier"); ap.add_argument("out"); a = ap.parse_args()
-    D = json.load(open(a.fichier)); out = os.path.abspath(a.out); os.chdir(HERE)
+    D = json.load(open(a.fichier)); set_palette(D); out = os.path.abspath(a.out); os.chdir(HERE)
     build, draw = {"mot": (build_mot, draw_mot), "logique": (build_logique, draw_logique)}[D["format"]]
     tl = Timeline(); s = build(D, tl); dur = tl.t + 0.6
     enc = Encoder(os.path.join(HERE, "video_muet.mp4")); cr = enc.cr
     for g in range(int(dur * FPS)):
         t = g / FPS
         background(cr, t)
+        cr.save(); cr.translate(0, DY)
         if t < s["fin"] + 0.2:
             draw(cr, D, s, t)
         else:
@@ -280,6 +302,7 @@ def main():
                 rrect(cr, -250, -54, 500, 108, 54)
                 gg = cairo.LinearGradient(0, -54, 0, 54); gg.add_color_stop_rgb(0, *hexc("F43F5E")); gg.add_color_stop_rgb(1, *hexc("DC2626"))
                 cr.set_source(gg); cr.fill(); T(cr, "S'abonner", 0, 18, 50); cr.restore()
+        cr.restore()
         enc.push()
     enc.close()
     mix("son.wav", dur, tl.clips, tl.sfx, random.randrange(10 ** 6))

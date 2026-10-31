@@ -2,7 +2,26 @@
 // Même minutage que le format enfants (timeline.js, TL.quiz) ; seule l'image change.
 const QD = TL.data, QZ = TL.quiz, NQ = QZ.length;
 const SUBJ = (QD.subject || 'Quiz').toUpperCase();
-const ACC = '#38BDF8', ACC2 = '#A78BFA', GOOD = '#22C55E', BAD = '#EF4444';
+// Palettes : chaque vidéo change de couleurs et de décor (QD.palette / QD.pattern pour forcer, sinon choix selon le titre).
+const PALETTES = {
+  nuit:      { bg: ['#0A0F1F', '#0E1530', '#090D1C'], acc: '#38BDF8', acc2: '#A78BFA', ban: ['#1D4ED8', '#F8FAFC', '#DC2626'], card: 'rgba(14,20,40,0.72)', fl: '200,220,255' },
+  halloween: { bg: ['#150A04', '#24100A', '#0B0603'], acc: '#FB923C', acc2: '#A855F7', ban: ['#F97316', '#FDE68A', '#7C3AED'], card: 'rgba(32,14,8,0.74)', fl: '255,190,140' },
+  emeraude:  { bg: ['#03140F', '#062A20', '#020F0B'], acc: '#34D399', acc2: '#FBBF24', ban: ['#059669', '#ECFDF5', '#F59E0B'], card: 'rgba(6,28,22,0.74)', fl: '190,255,225' },
+  pourpre:   { bg: ['#110718', '#1F0B2E', '#0A0510'], acc: '#F472B6', acc2: '#818CF8', ban: ['#DB2777', '#FCE7F3', '#6366F1'], card: 'rgba(28,12,40,0.74)', fl: '255,200,240' },
+  ocean:     { bg: ['#021318', '#05262E', '#020D11'], acc: '#22D3EE', acc2: '#2DD4BF', ban: ['#0891B2', '#F0FDFA', '#0D9488'], card: 'rgba(6,26,32,0.74)', fl: '180,240,255' },
+  or:        { bg: ['#120E07', '#231A0B', '#0B0805'], acc: '#FBBF24', acc2: '#F87171', ban: ['#B45309', '#FEF3C7', '#DC2626'], card: 'rgba(30,22,10,0.74)', fl: '255,230,170' },
+  corail:    { bg: ['#160807', '#2B0F10', '#0E0505'], acc: '#FB7185', acc2: '#FDBA74', ban: ['#E11D48', '#FFE4E6', '#EA580C'], card: 'rgba(36,12,14,0.74)', fl: '255,200,200' },
+  glace:     { bg: ['#0B1220', '#16213A', '#070C16'], acc: '#93C5FD', acc2: '#C4B5FD', ban: ['#60A5FA', '#FFFFFF', '#A78BFA'], card: 'rgba(18,26,46,0.74)', fl: '220,235,255' },
+};
+const PATTERNS = ['grille', 'points', 'diagonales', 'losanges', 'cercles'];
+const HKEY = (str) => { let h = 2166136261; for (const ch of str) { h ^= ch.codePointAt(0); h = Math.imul(h, 16777619); } return h >>> 0; };
+const PK = Object.keys(PALETTES).filter((k) => k !== 'halloween'), // halloween seulement si demandé
+      HK = HKEY(QD.title || QD.banner || QD.subject || 'quiz');
+const PAL = PALETTES[QD.palette] || PALETTES[PK[HK % PK.length]];
+const PAT = PATTERNS.includes(QD.pattern) ? QD.pattern : PATTERNS[(HK >>> 8) % PATTERNS.length];
+const RGBA = (hex, a) => { const n = parseInt(hex.slice(1), 16); return `rgba(${n >> 16},${(n >> 8) & 255},${n & 255},${a})`; };
+const DY = 120; // tout est décalé vers le bas : le haut de l'écran est caché par la barre de recherche TikTok
+const ACC = PAL.acc, ACC2 = PAL.acc2, GOOD = '#22C55E', BAD = '#EF4444';
 const LVC = ['#22C55E', '#38BDF8', '#F59E0B', '#EF4444'];
 const LVNAME = (k) => ((QD.levels || [])[k] || '').toUpperCase();
 const ROW = { x: 80, w: 840, h: 140, y0: 800, gap: 26 };
@@ -19,7 +38,7 @@ function wrapWords(ctx, str, size, maxW, w = 800) {
 }
 function glass(ctx, x, y, w, h, r, fill = 'rgba(255,255,255,0.055)', edge = 'rgba(255,255,255,0.13)') {
   ctx.save(); ctx.shadowColor = 'rgba(0,0,0,0.45)'; ctx.shadowBlur = 40; ctx.shadowOffsetY = 18;
-  ctx.beginPath(); ctx.roundRect(x, y, w, h, r); ctx.fillStyle = 'rgba(14,20,40,0.72)'; ctx.fill(); ctx.restore();
+  ctx.beginPath(); ctx.roundRect(x, y, w, h, r); ctx.fillStyle = PAL.card; ctx.fill(); ctx.restore();
   ctx.beginPath(); ctx.roundRect(x, y, w, h, r); ctx.fillStyle = fill; ctx.fill();
   ctx.fillStyle = lgrad(ctx, 0, y, 0, y + h, [[0, 'rgba(255,255,255,0.07)'], [0.5, 'rgba(255,255,255,0)']]); ctx.fill();
   ctx.lineWidth = 2; ctx.strokeStyle = edge; ctx.stroke();
@@ -42,12 +61,22 @@ const BG = {};
 const SYMS = QD.symbols || ['π', '√', '∑', '∞', '÷', '×', '=', '%', '+', '−', 'x²', '∫', 'Δ', '7', '3', '0', '9'];
 function buildBG() {
   const [cv, c] = mk(W, H);
-  c.fillStyle = lgrad(c, 0, 0, 0, H, [[0, '#0A0F1F'], [0.5, '#0E1530'], [1, '#090D1C']]); c.fillRect(0, 0, W, H);
-  c.fillStyle = rgrad(c, 120, 260, 900, [[0, 'rgba(56,189,248,0.22)'], [1, 'rgba(56,189,248,0)']]); c.fillRect(0, 0, W, H);
-  c.fillStyle = rgrad(c, 980, 1600, 1000, [[0, 'rgba(167,139,250,0.2)'], [1, 'rgba(167,139,250,0)']]); c.fillRect(0, 0, W, H);
+  c.fillStyle = lgrad(c, 0, 0, 0, H, [[0, PAL.bg[0]], [0.5, PAL.bg[1]], [1, PAL.bg[2]]]); c.fillRect(0, 0, W, H);
+  c.fillStyle = rgrad(c, 120, 260, 900, [[0, RGBA(ACC, 0.22)], [1, RGBA(ACC, 0)]]); c.fillRect(0, 0, W, H);
+  c.fillStyle = rgrad(c, 980, 1600, 1000, [[0, RGBA(ACC2, 0.2)], [1, RGBA(ACC2, 0)]]); c.fillRect(0, 0, W, H);
   c.strokeStyle = 'rgba(255,255,255,0.045)'; c.lineWidth = 1;
-  for (let x = 0; x <= W; x += 60) { c.beginPath(); c.moveTo(x + 0.5, 0); c.lineTo(x + 0.5, H); c.stroke(); }
-  for (let y = 0; y <= H; y += 60) { c.beginPath(); c.moveTo(0, y + 0.5); c.lineTo(W, y + 0.5); c.stroke(); }
+  if (PAT === 'grille') {
+    for (let x = 0; x <= W; x += 60) { c.beginPath(); c.moveTo(x + 0.5, 0); c.lineTo(x + 0.5, H); c.stroke(); }
+    for (let y = 0; y <= H; y += 60) { c.beginPath(); c.moveTo(0, y + 0.5); c.lineTo(W, y + 0.5); c.stroke(); }
+  } else if (PAT === 'points') {
+    c.fillStyle = 'rgba(255,255,255,0.07)'; for (let x = 30; x < W; x += 54) for (let y = 30; y < H; y += 54) { c.beginPath(); c.arc(x, y, 2.2, 0, TAU); c.fill(); }
+  } else if (PAT === 'diagonales') {
+    c.lineWidth = 2; for (let k = -H; k < W; k += 70) { c.beginPath(); c.moveTo(k, H); c.lineTo(k + H, 0); c.stroke(); }
+  } else if (PAT === 'losanges') {
+    for (let k = -H; k < W + H; k += 90) { c.beginPath(); c.moveTo(k, 0); c.lineTo(k + H, H); c.stroke(); c.beginPath(); c.moveTo(k, H); c.lineTo(k + H, 0); c.stroke(); }
+  } else { // cercles concentriques
+    c.lineWidth = 1.5; for (let r = 80; r < 1700; r += 80) { c.beginPath(); c.arc(W * 0.85, H * 0.18, r, 0, TAU); c.stroke(); }
+  }
   c.fillStyle = rgrad(c, W / 2, H / 2, H * 0.75, [[0, 'rgba(0,0,0,0)'], [0.7, 'rgba(0,0,0,0.15)'], [1, 'rgba(0,0,0,0.55)']]); c.fillRect(0, 0, W, H);
   BG.base = cv;
 }
@@ -55,7 +84,7 @@ function floaters(ctx, tr) {
   for (let i = 0; i < 22; i++) {
     const life = (tr * (0.012 + 0.012 * hash01(i, 3)) + hash01(i, 4)) % 1, x = 60 + 960 * hash01(i, 5) + 40 * Math.sin(tr * 0.3 + i), y = H + 100 - (H + 300) * life;
     const a = 0.09 * Math.sin(life * PI); ctx.save(); ctx.translate(x, y); ctx.rotate(0.3 * Math.sin(tr * 0.2 + i));
-    TXT(ctx, SYMS[i % SYMS.length], 0, 0, 60 + 70 * hash01(i, 6), `rgba(200,220,255,${A(a)})`, 300); ctx.restore();
+    TXT(ctx, SYMS[i % SYMS.length], 0, 0, 60 + 70 * hash01(i, 6), `rgba(${PAL.fl},${A(a)})`, 300); ctx.restore();
   }
 }
 
@@ -81,8 +110,8 @@ function row(ctx, idx, q, s, tr) {
   if (reveal && ok) { ctx.save(); ctx.shadowColor = 'rgba(34,197,94,0.75)'; ctx.shadowBlur = 50 * rk; ctx.beginPath(); ctx.roundRect(x, y, w, h, 28); ctx.fillStyle = `rgba(34,197,94,${A(0.9 * rk)})`; ctx.fill(); ctx.restore(); }
   glass(ctx, x, y, w, h, 28, reveal && ok ? `rgba(34,197,94,${A(0.75 * rk)})` : 'rgba(255,255,255,0.055)', reveal && ok ? 'rgba(180,255,200,0.9)' : 'rgba(255,255,255,0.14)');
   // lettre
-  ctx.beginPath(); ctx.roundRect(x + 26, y + 30, 80, 80, 20); ctx.fillStyle = reveal && ok ? 'rgba(255,255,255,0.95)' : 'rgba(56,189,248,0.14)'; ctx.fill();
-  ctx.lineWidth = 2; ctx.strokeStyle = reveal && ok ? '#FFFFFF' : 'rgba(56,189,248,0.6)'; ctx.stroke();
+  ctx.beginPath(); ctx.roundRect(x + 26, y + 30, 80, 80, 20); ctx.fillStyle = reveal && ok ? 'rgba(255,255,255,0.95)' : RGBA(ACC, 0.14); ctx.fill();
+  ctx.lineWidth = 2; ctx.strokeStyle = reveal && ok ? '#FFFFFF' : RGBA(ACC, 0.6); ctx.stroke();
   TXT(ctx, LET[idx], x + 66, y + 72, 44, reveal && ok ? '#15803D' : ACC, 800);
   { const lab = q.a[idx][1]; let fs = 66; ctx.font = font(fs, 800, DISPLAY); const mw = w - 140 - 110; const tw0 = ctx.measureText(lab).width; if (tw0 > mw) fs = Math.max(40, Math.floor(fs * mw / tw0)); TXT(ctx, lab, x + 140, y + h / 2 + 3, fs, '#FFFFFF', 800, 'left'); }
   if (reveal && ok) { const k = rk; ctx.save(); ctx.translate(x + w - 70, y + h / 2); ctx.scale(k, k); ctx.beginPath(); ctx.arc(0, 0, 36, 0, TAU); ctx.fillStyle = '#FFFFFF'; ctx.fill();
@@ -126,7 +155,7 @@ function question(ctx, i, s, tr) {
 function levelCard(ctx, tr) {
   for (const s of QZ) { if (!s.lv) continue; const [a, , k] = s.lv, p = spring(tr - (a - 0.25), SPRING.snappy), out = 1 - sm((tr - (s.q0 - 0.55)) / 0.3);
     if (tr < a - 0.3 || out <= 0.01 || p <= 0.01) continue;
-    ctx.save(); ctx.globalAlpha = clamp(out) * clamp(p * 1.3); ctx.fillStyle = 'rgba(5,8,18,0.72)'; ctx.fillRect(0, 0, W, H);
+    ctx.save(); ctx.globalAlpha = clamp(out) * clamp(p * 1.3); ctx.fillStyle = 'rgba(5,8,18,0.72)'; ctx.fillRect(0, -DY, W, H + DY);
     const c = LVC[k]; SPACED(ctx, `NIVEAU ${k + 1} / 4`, W / 2, 790, 36, 'rgba(255,255,255,0.65)', 10, 700);
     ctx.save(); ctx.translate(W / 2, 900); ctx.scale(0.85 + 0.15 * p, 0.85 + 0.15 * p); ctx.shadowColor = c; ctx.shadowBlur = 40; TXT(ctx, LVNAME(k), 0, 0, 130, c, 900); ctx.restore();
     const lw = 420 * clamp(p); ctx.fillStyle = c; ctx.fillRect(W / 2 - lw / 2, 1000, lw, 6);
@@ -137,12 +166,13 @@ function levelCard(ctx, tr) {
 function draw(ctx, u, tr) {
   const st = STAGE(tr);
   ctx.drawImage(BG.base, 0, 0); floaters(ctx, tr);
+  ctx.save(); ctx.translate(0, DY);
   if (tr < QZ[0].q0) {
     const out = 1 - sm((tr - (QZ[0].lv ? QZ[0].lv[0] - 0.5 : QZ[0].q0 - 0.9)) / 0.4);
     if (out > 0.01) { ctx.save(); ctx.globalAlpha = out;
       const p0 = spring(tr - 0.15, SPRING.snappy), p1 = spring(tr - 0.35, SPRING.snappy), p2 = spring(tr - 0.8, SPRING.snappy);
       ctx.save(); ctx.globalAlpha = out * clamp(p0); SPACED(ctx, 'QUIZ', W / 2, 640 - (1 - p0) * 30, 64, 'rgba(255,255,255,0.8)', 26, 700); ctx.restore();
-      ctx.save(); ctx.globalAlpha = out * clamp(p1); ctx.translate(W / 2, 800); ctx.scale(0.9 + 0.1 * p1, 0.9 + 0.1 * p1); ctx.shadowColor = 'rgba(56,189,248,0.6)'; ctx.shadowBlur = 50;
+      ctx.save(); ctx.globalAlpha = out * clamp(p1); ctx.translate(W / 2, 800); ctx.scale(0.9 + 0.1 * p1, 0.9 + 0.1 * p1); ctx.shadowColor = RGBA(ACC, 0.6); ctx.shadowBlur = 50;
         ctx.font = font(200, 900, DISPLAY); ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillStyle = lgrad(ctx, -380, 0, 380, 0, [[0, ACC], [1, ACC2]]); ctx.fillText(SUBJ, 0, 0); ctx.restore();
       const lw = 520 * clamp(p2); ctx.fillStyle = 'rgba(255,255,255,0.35)'; ctx.fillRect(W / 2 - lw / 2, 930, lw, 3);
       ctx.save(); ctx.globalAlpha = out * clamp(p2); TXT(ctx, QD.tagline || `${NQ} questions · de facile à impossible`, W / 2, 1000, 44, 'rgba(255,255,255,0.85)', 600);
@@ -153,7 +183,7 @@ function draw(ctx, u, tr) {
   if (st.k === 'outro') {
     const t0 = QZ[NQ - 1].end, p = spring(tr - (t0 + 0.05), SPRING.snappy), p2 = spring(tr - (t0 + 0.5), SPRING.snappy), p3 = spring(tr - (t0 + 1.0), SPRING.snappy);
     ctx.save(); ctx.globalAlpha = clamp(p); SPACED(ctx, 'ALORS, TON SCORE ?', W / 2, 640, 44, 'rgba(255,255,255,0.75)', 8, 700);
-    ctx.translate(W / 2, 800); ctx.scale(0.9 + 0.1 * p, 0.9 + 0.1 * p); ctx.shadowColor = 'rgba(56,189,248,0.6)'; ctx.shadowBlur = 50;
+    ctx.translate(W / 2, 800); ctx.scale(0.9 + 0.1 * p, 0.9 + 0.1 * p); ctx.shadowColor = RGBA(ACC, 0.6); ctx.shadowBlur = 50;
     ctx.font = font(220, 900, DISPLAY); ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillStyle = lgrad(ctx, -260, 0, 260, 0, [[0, ACC], [1, ACC2]]); ctx.fillText(`?/${NQ}`, 0, 0); ctx.restore();
     ctx.save(); ctx.globalAlpha = clamp(p2); TXT(ctx, 'Écris-le en commentaire', W / 2, 990, 50, '#FFFFFF', 700); ctx.restore();
     if (p3 > 0.01) { ctx.save(); ctx.globalAlpha = clamp(p3 * 1.3); ctx.translate(W / 2, 1130); const pulse = 1 + 0.025 * Math.sin(tr * 6); ctx.scale(pulse * (0.9 + 0.1 * p3), pulse * (0.9 + 0.1 * p3));
@@ -164,9 +194,10 @@ function draw(ctx, u, tr) {
   if (QD.banner) { // titre fixe, visible toute la vidéo
     ctx.save(); const t = QD.banner.toUpperCase(); let bf = 50; ctx.font = font(bf, 900, DISPLAY); ctx.letterSpacing = '4px'; let tw = ctx.measureText(t).width; if (tw > W - 260) { bf = Math.floor(bf * (W - 260) / tw); ctx.font = font(bf, 900, DISPLAY); tw = ctx.measureText(t).width; } ctx.letterSpacing = '0px';
     const bw = tw + 120, bx = W / 2 - bw / 2, by = 92;
-    ctx.shadowColor = 'rgba(56,189,248,0.45)'; ctx.shadowBlur = 30; ctx.beginPath(); ctx.roundRect(bx, by, bw, 96, 48); ctx.fillStyle = lgrad(ctx, bx, 0, bx + bw, 0, [[0, '#1D4ED8'], [0.5, '#F8FAFC'], [1, '#DC2626']]); ctx.fill(); ctx.shadowBlur = 0;
-    ctx.beginPath(); ctx.roundRect(bx + 4, by + 4, bw - 8, 88, 44); ctx.fillStyle = 'rgba(10,15,31,0.86)'; ctx.fill();
+    ctx.shadowColor = RGBA(ACC, 0.45); ctx.shadowBlur = 30; ctx.beginPath(); ctx.roundRect(bx, by, bw, 96, 48); ctx.fillStyle = lgrad(ctx, bx, 0, bx + bw, 0, [[0, PAL.ban[0]], [0.5, PAL.ban[1]], [1, PAL.ban[2]]]); ctx.fill(); ctx.shadowBlur = 0;
+    ctx.beginPath(); ctx.roundRect(bx + 4, by + 4, bw - 8, 88, 44); ctx.fillStyle = PAL.card.replace(/[\d.]+\)$/, '0.9)'); ctx.fill();
     SPACED(ctx, t, W / 2, by + 50, bf, '#FFFFFF', 4, 900); ctx.restore(); }
+  ctx.restore();
 }
 
 M.film({ fonts: [font(60, 800, DISPLAY)], hits: HITS, samples: 1, init() { buildBG(); }, draw });

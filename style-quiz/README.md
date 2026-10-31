@@ -76,3 +76,9 @@ Privilégier les quiz « une ville / une région → sa réponse » : numéro de
 spécialité / fromage / vin de chaque région, nom des habitants, club de foot, monument, surnom, fleuve, préfecture… Chaque question
 porte sur une ville ou une région différente (ex. « Quel est le numéro du département de Marseille ? » → 13). Réponses exactes et non
 discutables (pour un plat, choisir une spécialité vraiment associée à la ville : bouillabaisse → Marseille, cassoulet → Castelnaudary/Toulouse…).
+
+## Titre plus bas + couleurs qui changent (31 oct. 2026, demande de l'utilisateur)
+Tout le contenu (titre en haut compris) est décalé vers le bas (`DY` dans `quiz-pro-body.js` et `style-jeux/defi.py`) : la barre
+de recherche TikTok cachait le titre. Les couleurs et le motif du fond changent d'une vidéo à l'autre (palettes nuit, émeraude,
+pourpre, océan, or, corail, glace ; motifs grille, points, diagonales, losanges, cercles), choisis automatiquement selon le titre.
+Pour forcer : `"palette": "<nom>"` et `"pattern": "<motif>"` dans le JSON (palette `halloween` seulement sur demande).

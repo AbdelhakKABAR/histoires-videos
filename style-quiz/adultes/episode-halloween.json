@@ -1,0 +1,20 @@
+{
+ "title": "Spécial Halloween", "subject": "Halloween", "banner": "Spécial Halloween",
+ "symbols": ["🎃","👻","🦇","🕷","🕸","💀","🧛","🧟","🧙","🌕","🍬","⚰","🕯","🐈‍⬛","🪦","🍭"],
+ "description": "🎃 Quiz spécial Halloween : 10 questions, du niveau facile à impossible. Qui ose aller jusqu'au bout ? 👻 Donne ton score en commentaire 👇 #halloween #quiz #quiztime #culturegenerale #dracula #frankenstein #monde #defi",
+ "palette": "halloween", "pattern": "cercles", "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Joyeux Halloween ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel légume creuse-t-on pour Halloween ?", "qd": "Le légume creusé pour Halloween ?", "a": [["","Le melon"],["","La citrouille"],["","La courgette"],["","L'aubergine"]], "ok": 1, "say": "La citrouille !", "level": 0},
+  {"q": "Quelle est la date d'Halloween ?", "qd": "La date d'Halloween ?", "a": [["","Le 1er novembre"],["","Le 30 octobre"],["","Le 2 novembre"],["","Le 31 octobre"]], "ok": 3, "say": "Le 31 octobre !", "level": 0},
+  {"q": "Quel monstre boit le sang de ses victimes ?", "qd": "Le monstre qui boit le sang ?", "a": [["","Le vampire"],["","Le loup-garou"],["","La momie"],["","Le zombie"]], "ok": 0, "say": "Le vampire !", "level": 0},
+  {"q": "Qui a écrit le roman Dracula ?", "qd": "L'auteur de Dracula ?", "a": [["","Mary Shelley"],["","Edgar Allan Poe"],["","Bram Stoker"],["","Stephen King"]], "ok": 2, "say": "Bram Stoker !", "level": 1},
+  {"q": "Qui a écrit le roman Frankenstein ?", "qd": "L'auteur de Frankenstein ?", "a": [["","Mary Shelley"],["","Bram Stoker"],["","Jules Verne"],["","Victor Hugo"]], "ok": 0, "say": "Mary Shelley !", "level": 1},
+  {"q": "Dans le roman, dans quelle région vit le comte Dracula ?", "qd": "La région du comte Dracula ?", "a": [["","La Bavière"],["","L'Écosse"],["","La Sibérie"],["","La Transylvanie"]], "ok": 3, "say": "La Transylvanie !", "level": 1},
+  {"q": "De quelle fête celte Halloween tire-t-il son origine ?", "qd": "La fête celte à l'origine d'Halloween ?", "a": [["","Beltaine"],["","Samain"],["","Imbolc"],["","Lugnasad"]], "ok": 1, "say": "Samain !", "level": 2},
+  {"q": "Dans le roman, quel est le prénom du docteur Frankenstein ?", "qd": "Le prénom du docteur Frankenstein ?", "a": [["","Henri"],["","Igor"],["","Victor"],["","Albert"]], "ok": 2, "say": "Victor !", "level": 2},
+  {"q": "Dans quel pays est né Bram Stoker, l'auteur de Dracula ?", "qd": "Le pays natal de Bram Stoker ?", "a": [["","L'Angleterre"],["","L'Écosse"],["","La Roumanie"],["","L'Irlande"]], "ok": 3, "say": "L'Irlande !", "level": 3},
+  {"q": "Avant la citrouille, quel légume les Irlandais creusaient-ils ?", "qd": "Le légume creusé avant la citrouille ?", "a": [["","Le radis"],["","Le navet"],["","La pomme de terre"],["","Le chou"]], "ok": 1, "say": "Le navet !", "level": 3}
+ ]
+}
