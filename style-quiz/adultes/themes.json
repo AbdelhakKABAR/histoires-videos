@@ -113,7 +113,8 @@
   "Le savoir-faire de chaque ville",
   "Les séries TV",
   "Halloween",
-  "Le département de chaque ville touristique"
+  "Le département de chaque ville touristique",
+  "La peinture"
  ],
  "a_faire": [
   "Les pays d'Europe",
@@ -129,7 +130,6 @@
  ],
  "a_faire_france": [],
  "a_faire_monde": [
-  "La peinture",
   "Les découvertes scientifiques"
  ]
 }

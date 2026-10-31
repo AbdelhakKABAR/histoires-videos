@@ -1,0 +1,20 @@
+{
+ "title": "La peinture", "subject": "Peinture", "banner": "La peinture",
+ "symbols": ["🎨","🖌","🖼","✎","◐","✦","★","◆","❖","✧","🏛","◉","✺","▲","●","✿"],
+ "description": "🎨 Quiz Peinture : 10 questions sur les grands tableaux du monde, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #peinture #art #monde #culturegenerale #question #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Qui a peint La Joconde ?", "qd": "Qui a peint La Joconde ?", "a": [["","Michel-Ange"],["","Raphaël"],["","Léonard de Vinci"],["","Botticelli"]], "ok": 2, "say": "Léonard de Vinci !", "level": 0},
+  {"q": "Quel peintre s'est coupé une partie de l'oreille ?", "qd": "Le peintre à l'oreille coupée ?", "a": [["","Van Gogh"],["","Monet"],["","Picasso"],["","Gauguin"]], "ok": 0, "say": "Van Gogh !", "level": 0},
+  {"q": "Dans quel musée est exposée La Joconde ?", "qd": "Le musée de La Joconde ?", "a": [["","Le Prado"],["","Le Louvre"],["","Le musée d'Orsay"],["","La National Gallery"]], "ok": 1, "say": "Le Louvre !", "level": 0},
+  {"q": "Qui a peint le tableau Guernica ?", "qd": "Qui a peint Guernica ?", "a": [["","Dalí"],["","Miró"],["","Goya"],["","Picasso"]], "ok": 3, "say": "Picasso !", "level": 1},
+  {"q": "Qui a peint le tableau Le Cri ?", "qd": "Qui a peint Le Cri ?", "a": [["","Klimt"],["","Van Gogh"],["","Edvard Munch"],["","Egon Schiele"]], "ok": 2, "say": "Edvard Munch !", "level": 1},
+  {"q": "Qui a peint La Jeune Fille à la perle ?", "qd": "La Jeune Fille à la perle ?", "a": [["","Vermeer"],["","Rembrandt"],["","Rubens"],["","Van Eyck"]], "ok": 0, "say": "Vermeer !", "level": 1},
+  {"q": "Quel tableau a donné son nom à l'impressionnisme ?", "qd": "Le tableau qui a nommé l'impressionnisme ?", "a": [["","Les Nymphéas"],["","Impression, soleil levant"],["","Le Déjeuner sur l'herbe"],["","Bal du moulin de la Galette"]], "ok": 1, "say": "Impression, soleil levant, de Monet !", "level": 2},
+  {"q": "Dans quelle ville peut-on voir La Naissance de Vénus de Botticelli ?", "qd": "Où voir La Naissance de Vénus ?", "a": [["","Rome"],["","Venise"],["","Paris"],["","Florence"]], "ok": 3, "say": "Florence, au musée des Offices !", "level": 2},
+  {"q": "Qui a peint Les Ménines ?", "qd": "Qui a peint Les Ménines ?", "a": [["","Goya"],["","Le Greco"],["","Velázquez"],["","Murillo"]], "ok": 2, "say": "Velázquez !", "level": 3},
+  {"q": "Qui a peint Le Radeau de la Méduse ?", "qd": "Qui a peint Le Radeau de la Méduse ?", "a": [["","Delacroix"],["","Géricault"],["","David"],["","Ingres"]], "ok": 1, "say": "Géricault !", "level": 3}
+ ]
+}
