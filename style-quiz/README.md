@@ -82,3 +82,9 @@ Tout le contenu (titre en haut compris) est décalé vers le bas (`DY` dans `qui
 de recherche TikTok cachait le titre. Les couleurs et le motif du fond changent d'une vidéo à l'autre (palettes nuit, émeraude,
 pourpre, océan, or, corail, glace ; motifs grille, points, diagonales, losanges, cercles), choisis automatiquement selon le titre.
 Pour forcer : `"palette": "<nom>"` et `"pattern": "<motif>"` dans le JSON (palette `halloween` seulement sur demande).
+
+## Décor selon le thème + icône devant le titre (1er nov. 2026, validé par l'utilisateur)
+Le décor est choisi tout seul (`DECOR` dans `quiz-pro-body.js`) : `#france` dans la description → France (titre bordé bleu-blanc-rouge,
+tour Eiffel qui scintille, rubans tricolores) ; `#monde` → Monde (globe qui tourne, étoiles, étoile filante) ; peinture / art / musée →
+musée doré (spots, poussière dorée, cadre doré) ; intrus → néon violet-rose (hexagones qui s'allument). Pour forcer : `"decor": "france|monde|musee|intrus|aucun"`.
+Icône devant le titre : `"icon"` dans le JSON, sinon le premier émoji de `symbols`, sinon celle du décor. `"palette"` désactive le décor (ancien style).
