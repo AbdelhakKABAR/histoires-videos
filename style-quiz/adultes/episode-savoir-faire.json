@@ -1,0 +1,20 @@
+{
+ "title": "Le savoir-faire de chaque ville", "subject": "Savoir-faire", "banner": "Le savoir-faire de chaque ville",
+ "symbols": ["🏺","🔪","🧼","🌸","⌚","💎","🧵","🧤","🎨","🏛","⚜","✦","🇫🇷","🪡","🍶","✧"],
+ "description": "⚜️ Quiz France : le savoir-faire de chaque ville ! Porcelaine, parfum, couteaux, cristal… 10 questions du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #france #villesdefrance #artisanat #madeinfrance #culturegenerale #quiztime #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel savoir-faire a rendu Limoges célèbre ?", "qd": "Limoges est célèbre pour… ?", "a": [["","Le cristal"],["","La porcelaine"],["","Le parfum"],["","La dentelle"]], "ok": 1, "say": "La porcelaine !", "level": 0},
+  {"q": "Grasse est la capitale mondiale de quoi ?", "qd": "Grasse, capitale mondiale de… ?", "a": [["","Le parfum"],["","Le savon"],["","La soie"],["","Le chocolat"]], "ok": 0, "say": "Le parfum !", "level": 0},
+  {"q": "Quel produit célèbre porte le nom de Marseille ?", "qd": "Le célèbre produit de Marseille ?", "a": [["","La faïence"],["","Le verre"],["","Le savon"],["","Les couteaux"]], "ok": 2, "say": "Le savon de Marseille !", "level": 0},
+  {"q": "Thiers est la capitale française de quoi ?", "qd": "Thiers, capitale française de… ?", "a": [["","La porcelaine"],["","L'horlogerie"],["","La tapisserie"],["","La coutellerie"]], "ok": 3, "say": "La coutellerie !", "level": 1},
+  {"q": "Quel savoir-faire a rendu Quimper célèbre ?", "qd": "Quimper est célèbre pour… ?", "a": [["","Le cristal"],["","La faïence"],["","Les gants"],["","Le parfum"]], "ok": 1, "say": "La faïence !", "level": 1},
+  {"q": "Quel savoir-faire a rendu Aubusson célèbre ?", "qd": "Aubusson est célèbre pour… ?", "a": [["","La tapisserie"],["","Le savon"],["","La porcelaine"],["","Les montres"]], "ok": 0, "say": "La tapisserie !", "level": 1},
+  {"q": "Quel savoir-faire a rendu Baccarat célèbre ?", "qd": "Baccarat est célèbre pour… ?", "a": [["","La faïence"],["","Le parfum"],["","Le cristal"],["","Les couteaux"]], "ok": 2, "say": "Le cristal !", "level": 2},
+  {"q": "Besançon est la capitale historique française de quoi ?", "qd": "Besançon, capitale historique de… ?", "a": [["","La soie"],["","La dentelle"],["","La faïence"],["","L'horlogerie"]], "ok": 3, "say": "L'horlogerie !", "level": 2},
+  {"q": "Quel savoir-faire a rendu Calais célèbre ?", "qd": "Calais est célèbre pour… ?", "a": [["","La soie"],["","La dentelle"],["","La porcelaine"],["","Le cristal"]], "ok": 1, "say": "La dentelle de Calais !", "level": 3},
+  {"q": "Millau est la capitale française de quoi ?", "qd": "Millau, capitale française de… ?", "a": [["","La porcelaine"],["","Le verre"],["","Les gants"],["","Les montres"]], "ok": 2, "say": "Les gants !", "level": 3}
+ ]
+}
