@@ -1,0 +1,20 @@
+{
+ "title": "Le vin de chaque région", "subject": "Vins", "banner": "Le vin de chaque région",
+ "symbols": ["🍷","🍇","🥂","🍾","🇫🇷","🏰","🗺","⛰","☀","🌿","🧀","🥖","✦","★","🍃","🏞"],
+ "description": "🍷 Quiz France : de quelle région vient ce vin ? 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 (À consommer avec modération) #quiz #quiztime #france #vin #regions #culturegenerale #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Dans quel vignoble se trouve Saint-Émilion ?", "qd": "Saint-Émilion, c'est quel vignoble ?", "a": [["","Bourgogne"],["","Bordeaux"],["","Alsace"],["","Provence"]], "ok": 1, "say": "Bordeaux !", "level": 0},
+  {"q": "Le Chablis est un vin blanc de quelle région ?", "qd": "Le Chablis vient de quelle région ?", "a": [["","La Bourgogne"],["","La Loire"],["","Le Jura"],["","La Champagne"]], "ok": 0, "say": "La Bourgogne !", "level": 0},
+  {"q": "Le Riesling français est surtout produit dans quelle région ?", "qd": "Le Riesling français vient d'où ?", "a": [["","La Provence"],["","Le Bordelais"],["","Le Languedoc"],["","L'Alsace"]], "ok": 3, "say": "L'Alsace !", "level": 0},
+  {"q": "Le Châteauneuf-du-Pape est un vin de quelle vallée ?", "qd": "Châteauneuf-du-Pape, quelle vallée ?", "a": [["","Vallée de la Loire"],["","Vallée de la Garonne"],["","Vallée du Rhône"],["","Vallée de la Marne"]], "ok": 2, "say": "La vallée du Rhône !", "level": 1},
+  {"q": "Le Sancerre est un vin de quelle vallée ?", "qd": "Le Sancerre, quelle vallée ?", "a": [["","Vallée du Rhône"],["","Vallée de la Loire"],["","Vallée de la Dordogne"],["","Vallée de la Moselle"]], "ok": 1, "say": "La vallée de la Loire !", "level": 1},
+  {"q": "Le Muscadet est produit près de quelle grande ville ?", "qd": "Le Muscadet, près de quelle ville ?", "a": [["","Nantes"],["","Lyon"],["","Bordeaux"],["","Dijon"]], "ok": 0, "say": "Nantes !", "level": 1},
+  {"q": "Le vin jaune est la spécialité de quelle région ?", "qd": "Le vin jaune vient d'où ?", "a": [["","L'Alsace"],["","La Savoie"],["","La Provence"],["","Le Jura"]], "ok": 3, "say": "Le Jura !", "level": 2},
+  {"q": "Le Jurançon est un vin de quelle région viticole ?", "qd": "Le Jurançon, quelle région ?", "a": [["","Le Jura"],["","La Provence"],["","Le Sud-Ouest"],["","L'Alsace"]], "ok": 2, "say": "Le Sud-Ouest, dans le Béarn !", "level": 2},
+  {"q": "Le Banyuls vient de quel département ?", "qd": "Le Banyuls, quel département ?", "a": [["","Pyrénées-Orientales"],["","Hérault"],["","Var"],["","Gironde"]], "ok": 0, "say": "Les Pyrénées-Orientales !", "level": 3},
+  {"q": "Château-Grillet est une appellation de quelle vallée ?", "qd": "Château-Grillet, quelle vallée ?", "a": [["","Vallée de la Loire"],["","Vallée du Rhône"],["","Vallée du Lot"],["","Vallée de la Saône"]], "ok": 1, "say": "La vallée du Rhône !", "level": 3}
+ ]
+}
