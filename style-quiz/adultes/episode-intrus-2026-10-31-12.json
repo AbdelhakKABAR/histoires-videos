@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, du niveau facile à impossible… attention aux pièges ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : le violon, le violoncelle, le hautbois ou la contrebasse ?",
+   "qd": "L'intrus parmi ces instruments ?",
+   "a": [
+    [
+     "",
+     "Le violon"
+    ],
+    [
+     "",
+     "Le violoncelle"
+    ],
+    [
+     "",
+     "Le hautbois"
+    ],
+    [
+     "",
+     "La contrebasse"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le hautbois ! C'est un instrument à vent, les autres sont à cordes.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : Clovis, Jeanne d'Arc, Charlemagne ou Louis XIV ?",
+   "qd": "L'intrus dans l'histoire de France ?",
+   "a": [
+    [
+     "",
+     "Clovis"
+    ],
+    [
+     "",
+     "Jeanne d'Arc"
+    ],
+    [
+     "",
+     "Charlemagne"
+    ],
+    [
+     "",
+     "Louis XIV"
+    ]
+   ],
+   "ok": 1,
+   "say": "Jeanne d'Arc ! Les trois autres ont régné sur le royaume.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le pommier, le cerisier, le poirier ou le sapin ?",
+   "qd": "L'intrus parmi ces arbres ?",
+   "a": [
+    [
+     "",
+     "Le pommier"
+    ],
+    [
+     "",
+     "Le cerisier"
+    ],
+    [
+     "",
+     "Le poirier"
+    ],
+    [
+     "",
+     "Le sapin"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le sapin ! C'est un conifère, les autres sont des arbres fruitiers.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : Mercure, Saturne, Uranus ou Neptune ?",
+   "qd": "L'intrus parmi ces planètes ?",
+   "a": [
+    [
+     "",
+     "Mercure"
+    ],
+    [
+     "",
+     "Saturne"
+    ],
+    [
+     "",
+     "Uranus"
+    ],
+    [
+     "",
+     "Neptune"
+    ]
+   ],
+   "ok": 0,
+   "say": "Mercure ! C'est une petite planète rocheuse, les autres sont des géantes.",
+   "level": 1
+  },
+  {
+   "q": "Quel pluriel est l'intrus : bijou, hibou, verrou ou genou ?",
+   "qd": "Quel pluriel ne prend pas de x ?",
+   "a": [
+    [
+     "",
+     "Bijou"
+    ],
+    [
+     "",
+     "Hibou"
+    ],
+    [
+     "",
+     "Verrou"
+    ],
+    [
+     "",
+     "Genou"
+    ]
+   ],
+   "ok": 2,
+   "say": "Verrou ! On écrit des verrous avec un s, les autres prennent un x.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le biathlon, le curling, le bobsleigh ou l'aviron ?",
+   "qd": "L'intrus parmi ces sports ?",
+   "a": [
+    [
+     "",
+     "Le biathlon"
+    ],
+    [
+     "",
+     "Le curling"
+    ],
+    [
+     "",
+     "Le bobsleigh"
+    ],
+    [
+     "",
+     "L'aviron"
+    ]
+   ],
+   "ok": 3,
+   "say": "L'aviron ! C'est un sport des Jeux d'été, les autres sont des Jeux d'hiver.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le Rhône, la Garonne, la Seine ou la Loire ?",
+   "qd": "L'intrus parmi ces fleuves ?",
+   "a": [
+    [
+     "",
+     "Le Rhône"
+    ],
+    [
+     "",
+     "La Garonne"
+    ],
+    [
+     "",
+     "La Seine"
+    ],
+    [
+     "",
+     "La Loire"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le Rhône ! C'est le seul qui se jette dans la Méditerranée.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : Lyon, Grenoble, Valence ou Avignon ?",
+   "qd": "L'intrus : même région ?",
+   "a": [
+    [
+     "",
+     "Lyon"
+    ],
+    [
+     "",
+     "Grenoble"
+    ],
+    [
+     "",
+     "Valence"
+    ],
+    [
+     "",
+     "Avignon"
+    ]
+   ],
+   "ok": 3,
+   "say": "Avignon ! Elle est en Provence-Alpes-Côte d'Azur, les autres en Auvergne-Rhône-Alpes.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : apogée, orbite, armistice ou astérisque ?",
+   "qd": "Quel mot est féminin ?",
+   "a": [
+    [
+     "",
+     "Apogée"
+    ],
+    [
+     "",
+     "Orbite"
+    ],
+    [
+     "",
+     "Armistice"
+    ],
+    [
+     "",
+     "Astérisque"
+    ]
+   ],
+   "ok": 1,
+   "say": "Orbite ! On dit une orbite, mais un apogée, un armistice et un astérisque.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : le cachalot, le narval, la baleine bleue ou l'orque ?",
+   "qd": "L'intrus parmi ces cétacés ?",
+   "a": [
+    [
+     "",
+     "Le cachalot"
+    ],
+    [
+     "",
+     "Le narval"
+    ],
+    [
+     "",
+     "La baleine bleue"
+    ],
+    [
+     "",
+     "L'orque"
+    ]
+   ],
+   "ok": 2,
+   "say": "La baleine bleue ! Elle a des fanons, les autres ont des dents.",
+   "level": 3
+  }
+ ]
+}
