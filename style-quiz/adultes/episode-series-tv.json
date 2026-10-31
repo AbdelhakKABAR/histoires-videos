@@ -1,0 +1,20 @@
+{
+ "title": "Les séries TV", "subject": "Séries TV", "banner": "Les séries TV",
+ "symbols": ["📺","🎬","🍿","🎞","⭐","🎥","📼","🛋","✦","🏆","🎭","🕵","🐉","👑","✧","📡"],
+ "description": "📺 Quiz Séries TV : 10 questions, du niveau facile à impossible. Vrai sériephile ou pas ? Donne ton score en commentaire 👇 #quiz #quiztime #series #seriestv #monde #culturegenerale #netflix #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Dans quelle ville se déroule la série Friends ?", "qd": "La ville de la série Friends ?", "a": [["","Los Angeles"],["","New York"],["","Chicago"],["","Boston"]], "ok": 1, "say": "New York !", "level": 0},
+  {"q": "Quelle série suit le professeur de chimie Walter White ?", "qd": "La série de Walter White ?", "a": [["","Breaking Bad"],["","Dexter"],["","Ozark"],["","The Wire"]], "ok": 0, "say": "Breaking Bad !", "level": 0},
+  {"q": "Dans Game of Thrones, comment s'appelle le trône convoité ?", "qd": "Le trône de Game of Thrones ?", "a": [["","Le Trône d'argent"],["","Le Trône de glace"],["","Le Trône de sang"],["","Le Trône de fer"]], "ok": 3, "say": "Le Trône de fer !", "level": 0},
+  {"q": "De quel pays vient la série La casa de papel ?", "qd": "Le pays de La casa de papel ?", "a": [["","Le Mexique"],["","L'Italie"],["","L'Espagne"],["","L'Argentine"]], "ok": 2, "say": "L'Espagne !", "level": 1},
+  {"q": "De quel pays vient la série Squid Game ?", "qd": "Le pays de Squid Game ?", "a": [["","La Corée du Sud"],["","Le Japon"],["","La Chine"],["","La Thaïlande"]], "ok": 0, "say": "La Corée du Sud !", "level": 1},
+  {"q": "Comment s'appelle la ville fictive de Stranger Things ?", "qd": "La ville de Stranger Things ?", "a": [["","Derry"],["","Hawkins"],["","Twin Peaks"],["","Springfield"]], "ok": 1, "say": "Hawkins !", "level": 1},
+  {"q": "Combien de saisons compte la série Friends ?", "qd": "Le nombre de saisons de Friends ?", "a": [["","8"],["","9"],["","12"],["","10"]], "ok": 3, "say": "Dix saisons !", "level": 2},
+  {"q": "Dans quelle ville se déroule Breaking Bad ?", "qd": "La ville de Breaking Bad ?", "a": [["","Phoenix"],["","El Paso"],["","Albuquerque"],["","Las Vegas"]], "ok": 2, "say": "Albuquerque !", "level": 2},
+  {"q": "Dans quelle ville se déroule la série The Wire ?", "qd": "La ville de The Wire ?", "a": [["","Baltimore"],["","Philadelphie"],["","Détroit"],["","Chicago"]], "ok": 0, "say": "Baltimore !", "level": 3},
+  {"q": "Dans Les Soprano, quel est le prénom de la fille de Tony ?", "qd": "La fille de Tony Soprano ?", "a": [["","Adriana"],["","Janice"],["","Meadow"],["","Carmela"]], "ok": 2, "say": "Meadow !", "level": 3}
+ ]
+}

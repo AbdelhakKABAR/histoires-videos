@@ -110,7 +110,8 @@
   "Les avions et l'aviation",
   "Le vin de chaque région",
   "Les chiffres et la logique",
-  "Le savoir-faire de chaque ville"
+  "Le savoir-faire de chaque ville",
+  "Les séries TV"
  ],
  "a_faire": [
   "Les pays d'Europe",
@@ -126,7 +127,6 @@
  ],
  "a_faire_france": [],
  "a_faire_monde": [
-  "Les séries TV",
   "La peinture",
   "Les découvertes scientifiques"
  ]
