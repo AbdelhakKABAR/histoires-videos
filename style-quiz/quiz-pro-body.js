@@ -17,7 +17,18 @@ const PATTERNS = ['grille', 'points', 'diagonales', 'losanges', 'cercles'];
 const HKEY = (str) => { let h = 2166136261; for (const ch of str) { h ^= ch.codePointAt(0); h = Math.imul(h, 16777619); } return h >>> 0; };
 const PK = Object.keys(PALETTES).filter((k) => k !== 'halloween'), // halloween seulement si demandé
       HK = HKEY(QD.title || QD.banner || QD.subject || 'quiz');
-const PAL = PALETTES[QD.palette] || PALETTES[PK[HK % PK.length]];
+const PAL = { ...(PALETTES[QD.palette] || PALETTES[PK[HK % PK.length]]) };
+// Décor selon le thème (1er nov. 2026) : France = tricolore, Monde = globe, Art = musée doré, Intrus = néon. QD.decor pour forcer.
+const _TT = ((QD.title || '') + ' ' + (QD.banner || '') + ' ' + (QD.subject || '')).toLowerCase(), _DS = (QD.description || '').toLowerCase();
+const DECOR = QD.decor || (QD.palette ? 'aucun' : /intrus/.test(_TT) ? 'intrus' : /(peinture|peintre|tableau|musée|\bart\b)/.test(_TT) ? 'musee'
+  : /#france\b/.test(_DS) ? 'france' : /#monde\b/.test(_DS) ? 'monde' : 'aucun');
+const DECOR_PAL = {
+  france: { bg: ['#040A1C', '#0A1636', '#030714'], acc: '#60A5FA', acc2: '#F87171', ban: ['#0055A4', '#FFFFFF', '#EF4135'], card: 'rgba(9,17,42,0.80)', fl: '215,228,255' },
+  monde:  { bg: ['#02111A', '#052433', '#020A10'], acc: '#2DD4BF', acc2: '#38BDF8', ban: ['#0EA5E9', '#5EEAD4', '#2563EB'], card: 'rgba(5,24,34,0.80)', fl: '180,240,255' },
+  musee:  { bg: ['#0D0806', '#1D130C', '#070403'], acc: '#E8C37A', acc2: '#C0883A', ban: ['#8A6A2F', '#F5E1A4', '#B8862B'], card: 'rgba(24,16,10,0.82)', fl: '255,226,170' },
+  intrus: { bg: ['#07060E', '#130F22', '#050409'], acc: '#A78BFA', acc2: '#F472B6', ban: ['#7C3AED', '#F472B6', '#6366F1'], card: 'rgba(16,12,30,0.80)', fl: '225,210,255' },
+};
+if (DECOR_PAL[DECOR] && !QD.palette) Object.assign(PAL, DECOR_PAL[DECOR]);
 const PAT = PATTERNS.includes(QD.pattern) ? QD.pattern : PATTERNS[(HK >>> 8) % PATTERNS.length];
 const RGBA = (hex, a) => { const n = parseInt(hex.slice(1), 16); return `rgba(${n >> 16},${(n >> 8) & 255},${n & 255},${a})`; };
 const DY = 120; // tout est décalé vers le bas : le haut de l'écran est caché par la barre de recherche TikTok
@@ -36,7 +47,8 @@ function wrapWords(ctx, str, size, maxW, w = 800) {
   for (const wd of str.split(' ')) { const t = cur ? cur + ' ' + wd : wd; if (ctx.measureText(t).width > maxW && cur) { out.push(cur); cur = wd; } else cur = t; }
   out.push(cur); return out;
 }
-function glass(ctx, x, y, w, h, r, fill = 'rgba(255,255,255,0.055)', edge = 'rgba(255,255,255,0.13)') {
+function glass(ctx, x, y, w, h, r, fill = 'rgba(255,255,255,0.055)', edge = null) {
+  if (!edge) edge = DECOR === 'aucun' ? 'rgba(255,255,255,0.13)' : lgrad(ctx, x, y, x + w, y + h, [[0, RGBA(PAL.acc, 0.55)], [0.45, 'rgba(255,255,255,0.10)'], [1, RGBA(PAL.acc2, 0.45)]]);
   ctx.save(); ctx.shadowColor = 'rgba(0,0,0,0.45)'; ctx.shadowBlur = 40; ctx.shadowOffsetY = 18;
   ctx.beginPath(); ctx.roundRect(x, y, w, h, r); ctx.fillStyle = PAL.card; ctx.fill(); ctx.restore();
   ctx.beginPath(); ctx.roundRect(x, y, w, h, r); ctx.fillStyle = fill; ctx.fill();
@@ -65,7 +77,8 @@ function buildBG() {
   c.fillStyle = rgrad(c, 120, 260, 900, [[0, RGBA(ACC, 0.22)], [1, RGBA(ACC, 0)]]); c.fillRect(0, 0, W, H);
   c.fillStyle = rgrad(c, 980, 1600, 1000, [[0, RGBA(ACC2, 0.2)], [1, RGBA(ACC2, 0)]]); c.fillRect(0, 0, W, H);
   c.strokeStyle = 'rgba(255,255,255,0.045)'; c.lineWidth = 1;
-  if (PAT === 'grille') {
+  if (DECOR !== 'aucun') decorBG(c);
+  else if (PAT === 'grille') {
     for (let x = 0; x <= W; x += 60) { c.beginPath(); c.moveTo(x + 0.5, 0); c.lineTo(x + 0.5, H); c.stroke(); }
     for (let y = 0; y <= H; y += 60) { c.beginPath(); c.moveTo(0, y + 0.5); c.lineTo(W, y + 0.5); c.stroke(); }
   } else if (PAT === 'points') {
@@ -78,10 +91,75 @@ function buildBG() {
     c.lineWidth = 1.5; for (let r = 80; r < 1700; r += 80) { c.beginPath(); c.arc(W * 0.85, H * 0.18, r, 0, TAU); c.stroke(); }
   }
   c.fillStyle = rgrad(c, W / 2, H / 2, H * 0.75, [[0, 'rgba(0,0,0,0)'], [0.7, 'rgba(0,0,0,0.15)'], [1, 'rgba(0,0,0,0.55)']]); c.fillRect(0, 0, W, H);
+  // grain fixe (rendu « papier photo », compresse bien car il ne bouge pas)
+  if (DECOR !== 'aucun') { const id = c.getImageData(0, 0, W, H), d = id.data, rnd = mulberry32(7);
+    for (let k = 0; k < d.length; k += 4) { const n = (rnd() - 0.5) * 9; d[k] += n; d[k + 1] += n; d[k + 2] += n; } c.putImageData(id, 0, 0); }
   BG.base = cv;
 }
+function eiffel(c, x0, y0, h) { // tour Eiffel en traits fins
+  const L = (pts) => { c.beginPath(); pts.forEach(([x, y], k) => (k ? c.lineTo : c.moveTo).call(c, x0 + x * h, y0 - y * h)); c.stroke(); };
+  for (const sg of [-1, 1]) {
+    c.beginPath(); c.moveTo(x0 + sg * 0.34 * h, y0); c.quadraticCurveTo(x0 + sg * 0.17 * h, y0 - 0.12 * h, x0 + sg * 0.12 * h, y0 - 0.27 * h); c.stroke();
+    L([[sg * 0.24, 0], [sg * 0.10, 0.27]]);
+    L([[sg * 0.115, 0.30], [sg * 0.055, 0.55]]); L([[sg * 0.075, 0.30], [sg * 0.035, 0.55]]);
+    L([[sg * 0.05, 0.57], [sg * 0.014, 0.88]]);
+    for (let k = 0; k < 4; k++) { const a = 0.30 + k * 0.0625, b = a + 0.0625, wa = 0.115 - 0.06 * (a - 0.30) / 0.25 * 1, wb = 0.115 - 0.06 * (b - 0.30) / 0.25;
+      L([[sg * wa, a], [sg * (wb - 0.035), b]]); L([[sg * (wa - 0.04), a], [sg * wb, b]]); }
+    for (let k = 0; k < 5; k++) { const a = 0.57 + k * 0.062, b = a + 0.062, wa = 0.05 - 0.036 * (a - 0.57) / 0.31, wb = 0.05 - 0.036 * (b - 0.57) / 0.31;
+      L([[sg * wa, a], [-sg * wb * 0.2, b]]); }
+  }
+  c.beginPath(); c.moveTo(x0 - 0.24 * h, y0); c.quadraticCurveTo(x0, y0 - 0.25 * h, x0 + 0.24 * h, y0); c.stroke();
+  c.strokeRect(x0 - 0.16 * h, y0 - 0.30 * h, 0.32 * h, 0.03 * h); c.strokeRect(x0 - 0.085 * h, y0 - 0.57 * h, 0.17 * h, 0.02 * h);
+  c.strokeRect(x0 - 0.025 * h, y0 - 0.92 * h, 0.05 * h, 0.04 * h); L([[0, 0.92], [0, 1.0]]);
+}
+function decorBG(c) {
+  if (DECOR === 'france') {
+    c.fillStyle = rgrad(c, 0, 0, 1100, [[0, 'rgba(0,85,164,0.38)'], [1, 'rgba(0,85,164,0)']]); c.fillRect(0, 0, W, H);
+    c.fillStyle = rgrad(c, W, H, 1100, [[0, 'rgba(239,65,53,0.26)'], [1, 'rgba(239,65,53,0)']]); c.fillRect(0, 0, W, H);
+    c.fillStyle = 'rgba(255,255,255,0.05)'; for (let x = 30; x < W; x += 54) for (let y = 30; y < H; y += 54) { c.beginPath(); c.arc(x, y, 1.6, 0, TAU); c.fill(); }
+    c.save(); c.strokeStyle = 'rgba(255,255,255,0.13)'; c.lineWidth = 3; c.lineCap = 'round'; eiffel(c, W * 0.80, H - 30, 1250); c.restore();
+    // liseré tricolore sur le bord gauche
+    [['#0055A4', 0], ['#FFFFFF', 1], ['#EF4135', 2]].forEach(([col, k]) => { c.fillStyle = col; c.globalAlpha = 0.85; c.fillRect(0, H * k / 3, 10, H / 3); }); c.globalAlpha = 1;
+  } else if (DECOR === 'musee') {
+    c.save(); c.filter = 'blur(40px)';
+    for (const [x, a] of [[W * 0.18, 0.10], [W * 0.5, 0.13], [W * 0.82, 0.10]]) { c.beginPath(); c.moveTo(x - 40, -40); c.lineTo(x + 40, -40); c.lineTo(x + 330, H * 0.85); c.lineTo(x - 330, H * 0.85); c.closePath();
+      c.fillStyle = lgrad(c, 0, 0, 0, H * 0.85, [[0, `rgba(255,228,170,${a})`], [1, 'rgba(255,228,170,0)']]); c.fill(); }
+    c.restore();
+    c.strokeStyle = 'rgba(255,230,190,0.018)'; c.lineWidth = 1; for (let k = 0; k < H; k += 6) { c.beginPath(); c.moveTo(0, k); c.lineTo(W, k + 3); c.stroke(); }
+    // cadre doré de l'écran
+    c.lineWidth = 3; c.strokeStyle = lgrad(c, 0, 0, W, H, [[0, '#8A6A2F'], [0.3, '#F5E1A4'], [0.6, '#B8862B'], [1, '#F5E1A4']]); c.strokeRect(26, 26, W - 52, H - 52);
+    c.lineWidth = 1; c.strokeStyle = 'rgba(232,195,122,0.35)'; c.strokeRect(40, 40, W - 80, H - 80);
+  } else if (DECOR === 'monde') {
+    const rnd = mulberry32(3); for (let k = 0; k < 160; k++) { c.fillStyle = `rgba(255,255,255,${(0.08 + 0.3 * rnd()).toFixed(2)})`; c.beginPath(); c.arc(W * rnd(), H * 0.7 * rnd(), 0.8 + 1.6 * rnd(), 0, TAU); c.fill(); }
+  } else if (DECOR === 'intrus') {
+    c.strokeStyle = 'rgba(255,255,255,0.04)'; const r = 46, hx = r * Math.sqrt(3);
+    for (let y = 0, j = 0; y < H + r; y += r * 1.5, j++) for (let x = (j % 2) * hx / 2; x < W + hx; x += hx) { c.beginPath(); for (let k = 0; k < 6; k++) { const a = PI / 6 + k * PI / 3; c.lineTo(x + r * Math.cos(a), y + r * Math.sin(a)); } c.closePath(); c.stroke(); }
+  }
+}
+function decorAnim(ctx, tr) {
+  if (DECOR === 'monde') { // globe qui tourne, en bas de l'écran
+    const cx = W / 2, cy = H + 330, R = 900, tilt = 0.38, ct = Math.cos(tilt), st = Math.sin(tilt), rot = tr * 0.08;
+    ctx.save(); ctx.fillStyle = rgrad(ctx, cx, cy, R * 1.12, [[0.80, 'rgba(45,212,191,0)'], [0.89, 'rgba(45,212,191,0.20)'], [0.9, 'rgba(56,189,248,0.10)'], [1, 'rgba(56,189,248,0)']]); ctx.fillRect(0, 0, W, H);
+    ctx.beginPath(); ctx.arc(cx, cy, R, 0, TAU); ctx.fillStyle = rgrad(ctx, cx, cy - R, R * 1.4, [[0, 'rgba(14,90,110,0.55)'], [1, 'rgba(2,12,18,0.9)']]); ctx.fill();
+    ctx.lineWidth = 2; ctx.strokeStyle = 'rgba(45,212,191,0.6)'; ctx.stroke();
+    const P = (la, lo) => { const x = Math.cos(la) * Math.sin(lo), y = Math.sin(la), z = Math.cos(la) * Math.cos(lo); return [cx + R * x, cy - R * (y * ct - z * st), y * st + z * ct]; };
+    ctx.lineWidth = 1.5; ctx.strokeStyle = 'rgba(94,234,212,0.16)';
+    const seg = (f) => { ctx.beginPath(); let on = false; for (let k = 0; k <= 48; k++) { const [x, y, z] = f(k / 48); if (z > 0) { on ? ctx.lineTo(x, y) : ctx.moveTo(x, y); on = true; } else on = false; } ctx.stroke(); };
+    for (let m = 0; m < 16; m++) { const lo = rot + m * TAU / 16; seg((u) => P(-PI / 2 + u * PI, lo)); }
+    for (let p = -3; p <= 3; p++) { const la = p * PI / 8; seg((u) => P(la, u * TAU)); }
+    ctx.restore();
+  } else if (DECOR === 'intrus') { // aurores qui dérivent
+    [[0.2, 0.25, '#7C3AED'], [0.85, 0.55, '#DB2777'], [0.4, 0.9, '#4F46E5']].forEach(([x, y, col], k) => {
+      const px = W * x + 120 * Math.sin(tr * 0.25 + k * 2), py = H * y + 90 * Math.cos(tr * 0.2 + k);
+      ctx.fillStyle = rgrad(ctx, px, py, 620, [[0, RGBA(col, 0.20)], [1, RGBA(col, 0)]]); ctx.fillRect(0, 0, W, H); });
+  } else if (DECOR === 'france') { // reflet lent qui passe sur le fond
+    const x = ((tr * 0.06) % 1.6 - 0.3) * W; ctx.save(); ctx.globalCompositeOperation = 'lighter';
+    ctx.fillStyle = lgrad(ctx, x - 300, 0, x + 300, H * 0.3, [[0, 'rgba(255,255,255,0)'], [0.5, 'rgba(255,255,255,0.025)'], [1, 'rgba(255,255,255,0)']]); ctx.fillRect(0, 0, W, H); ctx.restore();
+  }
+}
 function floaters(ctx, tr) {
-  for (let i = 0; i < 22; i++) {
+  decorAnim(ctx, tr);
+  for (let i = 0; i < (DECOR === 'aucun' ? 22 : 12); i++) {
     const life = (tr * (0.012 + 0.012 * hash01(i, 3)) + hash01(i, 4)) % 1, x = 60 + 960 * hash01(i, 5) + 40 * Math.sin(tr * 0.3 + i), y = H + 100 - (H + 300) * life;
     const a = 0.09 * Math.sin(life * PI); ctx.save(); ctx.translate(x, y); ctx.rotate(0.3 * Math.sin(tr * 0.2 + i));
     TXT(ctx, SYMS[i % SYMS.length], 0, 0, 60 + 70 * hash01(i, 6), `rgba(${PAL.fl},${A(a)})`, 300); ctx.restore();
@@ -108,7 +186,7 @@ function row(ctx, idx, q, s, tr) {
   const reveal = tr > s.c1, ok = idx === q.ok, rk = clamp(spring(tr - s.c1, SPRING.snappy));
   ctx.save(); ctx.globalAlpha = clamp(ap * 1.4) * (reveal && !ok ? 1 - 0.6 * rk : 1); ctx.translate((1 - ap) * 80, 0);
   if (reveal && ok) { ctx.save(); ctx.shadowColor = 'rgba(34,197,94,0.75)'; ctx.shadowBlur = 50 * rk; ctx.beginPath(); ctx.roundRect(x, y, w, h, 28); ctx.fillStyle = `rgba(34,197,94,${A(0.9 * rk)})`; ctx.fill(); ctx.restore(); }
-  glass(ctx, x, y, w, h, 28, reveal && ok ? `rgba(34,197,94,${A(0.75 * rk)})` : 'rgba(255,255,255,0.055)', reveal && ok ? 'rgba(180,255,200,0.9)' : 'rgba(255,255,255,0.14)');
+  glass(ctx, x, y, w, h, 28, reveal && ok ? `rgba(34,197,94,${A(0.75 * rk)})` : 'rgba(255,255,255,0.055)', reveal && ok ? 'rgba(180,255,200,0.9)' : null);
   // lettre
   ctx.beginPath(); ctx.roundRect(x + 26, y + 30, 80, 80, 20); ctx.fillStyle = reveal && ok ? 'rgba(255,255,255,0.95)' : RGBA(ACC, 0.14); ctx.fill();
   ctx.lineWidth = 2; ctx.strokeStyle = reveal && ok ? '#FFFFFF' : RGBA(ACC, 0.6); ctx.stroke();
@@ -162,6 +240,25 @@ function levelCard(ctx, tr) {
     ctx.restore(); }
 }
 
+function banner(ctx, t, bf, bx, by, bw, tr) {
+  const bh = 104, r = bh / 2; by -= 4;
+  ctx.save(); ctx.shadowColor = DECOR === 'france' ? 'rgba(0,0,0,0.6)' : RGBA(ACC, 0.45); ctx.shadowBlur = 36; ctx.shadowOffsetY = 10;
+  ctx.beginPath(); ctx.roundRect(bx, by, bw, bh, r);
+  if (DECOR === 'france') { ctx.fillStyle = '#000'; ctx.fill(); ctx.shadowColor = 'transparent'; ctx.clip(); // trois bandes nettes, comme le drapeau
+    ctx.fillStyle = '#0055A4'; ctx.fillRect(bx, by, bw / 3 + 1, bh); ctx.fillStyle = '#FFFFFF'; ctx.fillRect(bx + bw / 3, by, bw / 3 + 1, bh); ctx.fillStyle = '#EF4135'; ctx.fillRect(bx + 2 * bw / 3, by, bw / 3, bh);
+  } else { ctx.fillStyle = lgrad(ctx, bx, 0, bx + bw, 0, [[0, PAL.ban[0]], [0.25, PAL.ban[1]], [0.5, PAL.ban[2]], [0.75, PAL.ban[1]], [1, PAL.ban[0]]]); ctx.fill(); }
+  ctx.restore();
+  const ins = DECOR === 'france' ? 10 : 4;
+  ctx.save(); ctx.beginPath(); ctx.roundRect(bx + ins, by + ins, bw - 2 * ins, bh - 2 * ins, r - ins); ctx.fillStyle = lgrad(ctx, 0, by, 0, by + bh, [[0, PAL.bg[1]], [1, PAL.bg[2]]]); ctx.fill(); ctx.clip();
+  ctx.fillStyle = lgrad(ctx, 0, by, 0, by + bh, [[0, 'rgba(255,255,255,0.10)'], [0.5, 'rgba(255,255,255,0)']]); ctx.fillRect(bx, by, bw, bh);
+  const sx = bx - 200 + ((tr % 5) / 5) * (bw + 600); // reflet qui traverse le bandeau toutes les 5 s
+  ctx.fillStyle = lgrad(ctx, sx - 90, 0, sx + 90, 0, [[0, 'rgba(255,255,255,0)'], [0.5, 'rgba(255,255,255,0.13)'], [1, 'rgba(255,255,255,0)']]); ctx.fillRect(bx, by, bw, bh);
+  ctx.restore();
+  if (DECOR === 'musee') { ctx.save(); ctx.font = font(bf, 900, DISPLAY); ctx.letterSpacing = '4px'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+    ctx.fillStyle = lgrad(ctx, bx, 0, bx + bw, 0, [[0, '#C9A25A'], [0.5, '#FFF1C9'], [1, '#C9A25A']]); ctx.fillText(t, W / 2, by + bh / 2 + 2); ctx.restore(); }
+  else SPACED(ctx, t, W / 2, by + bh / 2 + 2, bf, '#FFFFFF', 4, 900);
+}
+
 // ---------------------------------------------------------------- image
 function draw(ctx, u, tr) {
   const st = STAGE(tr);
@@ -194,9 +291,11 @@ function draw(ctx, u, tr) {
   if (QD.banner) { // titre fixe, visible toute la vidéo
     ctx.save(); const t = QD.banner.toUpperCase(); let bf = 50; ctx.font = font(bf, 900, DISPLAY); ctx.letterSpacing = '4px'; let tw = ctx.measureText(t).width; if (tw > W - 260) { bf = Math.floor(bf * (W - 260) / tw); ctx.font = font(bf, 900, DISPLAY); tw = ctx.measureText(t).width; } ctx.letterSpacing = '0px';
     const bw = tw + 120, bx = W / 2 - bw / 2, by = 92;
+    if (DECOR === 'aucun') {
     ctx.shadowColor = RGBA(ACC, 0.45); ctx.shadowBlur = 30; ctx.beginPath(); ctx.roundRect(bx, by, bw, 96, 48); ctx.fillStyle = lgrad(ctx, bx, 0, bx + bw, 0, [[0, PAL.ban[0]], [0.5, PAL.ban[1]], [1, PAL.ban[2]]]); ctx.fill(); ctx.shadowBlur = 0;
     ctx.beginPath(); ctx.roundRect(bx + 4, by + 4, bw - 8, 88, 44); ctx.fillStyle = PAL.card.replace(/[\d.]+\)$/, '0.9)'); ctx.fill();
-    SPACED(ctx, t, W / 2, by + 50, bf, '#FFFFFF', 4, 900); ctx.restore(); }
+    SPACED(ctx, t, W / 2, by + 50, bf, '#FFFFFF', 4, 900); } else banner(ctx, t, bf, bx, by, bw, tr);
+    ctx.restore(); }
   ctx.restore();
 }
 
