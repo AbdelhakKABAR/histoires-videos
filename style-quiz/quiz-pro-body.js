@@ -29,6 +29,9 @@ const DECOR_PAL = {
   intrus: { bg: ['#07060E', '#130F22', '#050409'], acc: '#A78BFA', acc2: '#F472B6', ban: ['#7C3AED', '#F472B6', '#6366F1'], card: 'rgba(16,12,30,0.80)', fl: '225,210,255' },
 };
 if (DECOR_PAL[DECOR] && !QD.palette) Object.assign(PAL, DECOR_PAL[DECOR]);
+// Icône du thème devant le titre : QD.icon, sinon le premier émoji de « symbols », sinon celle du décor.
+const _isEmo = (x) => [...x].some((ch) => ch.codePointAt(0) >= 0x1F000 || ch.codePointAt(0) === 0x2708);
+const ICON = DECOR === 'aucun' ? null : (QD.icon || (QD.symbols || []).find(_isEmo) || { france: '🇫🇷', monde: '🌍', musee: '🎨', intrus: '🔍' }[DECOR]);
 const PAT = PATTERNS.includes(QD.pattern) ? QD.pattern : PATTERNS[(HK >>> 8) % PATTERNS.length];
 const RGBA = (hex, a) => { const n = parseInt(hex.slice(1), 16); return `rgba(${n >> 16},${(n >> 8) & 255},${n & 255},${a})`; };
 const DY = 120; // tout est décalé vers le bas : le haut de l'écran est caché par la barre de recherche TikTok
@@ -136,7 +139,49 @@ function decorBG(c) {
     for (let y = 0, j = 0; y < H + r; y += r * 1.5, j++) for (let x = (j % 2) * hx / 2; x < W + hx; x += hx) { c.beginPath(); for (let k = 0; k < 6; k++) { const a = PI / 6 + k * PI / 3; c.lineTo(x + r * Math.cos(a), y + r * Math.sin(a)); } c.closePath(); c.stroke(); }
   }
 }
+const twinkle = (ctx, x, y, r, a, col) => { if (a <= 0.01) return; ctx.save(); ctx.translate(x, y); ctx.globalCompositeOperation = 'lighter';
+  ctx.fillStyle = rgrad(ctx, 0, 0, r * 3, [[0, `rgba(${col},${A(a * 0.6)})`], [1, `rgba(${col},0)`]]); ctx.fillRect(-r * 3, -r * 3, r * 6, r * 6);
+  ctx.fillStyle = `rgba(${col},${A(a)})`; ctx.beginPath(); ctx.moveTo(0, -r * 2.2); ctx.lineTo(r * 0.3, -r * 0.3); ctx.lineTo(r * 2.2, 0); ctx.lineTo(r * 0.3, r * 0.3); ctx.lineTo(0, r * 2.2); ctx.lineTo(-r * 0.3, r * 0.3); ctx.lineTo(-r * 2.2, 0); ctx.lineTo(-r * 0.3, -r * 0.3); ctx.closePath(); ctx.fill(); ctx.restore(); };
+function bokeh(ctx, tr, n, col, amax) { // halos flous qui montent lentement
+  for (let i = 0; i < n; i++) { const life = (tr * (0.015 + 0.02 * hash01(i, 21)) + hash01(i, 22)) % 1, x = W * hash01(i, 23) + 60 * Math.sin(tr * 0.4 + i), y = H * (1.05 - 1.1 * life), r = 18 + 50 * hash01(i, 24);
+    ctx.fillStyle = rgrad(ctx, x, y, r, [[0, `rgba(${col},${A(amax * Math.sin(life * PI))})`], [0.6, `rgba(${col},${A(amax * 0.4 * Math.sin(life * PI))})`], [1, `rgba(${col},0)`]]); ctx.fillRect(x - r, y - r, 2 * r, 2 * r); }
+}
 function decorAnim(ctx, tr) {
+  decorAnim2(ctx, tr);
+  if (DECOR === 'france') {
+    // rubans bleu-blanc-rouge qui ondulent en bas
+    [['0,85,164', 0], ['255,255,255', 1], ['239,65,53', 2]].forEach(([col, k]) => { ctx.beginPath();
+      for (let x = -20; x <= W + 20; x += 20) { const y = H - 330 + k * 34 + 40 * Math.sin(x / 260 + tr * 0.9 + k * 0.5) + 18 * Math.sin(x / 120 - tr * 1.3); x < 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y); }
+      ctx.lineWidth = 22; ctx.strokeStyle = `rgba(${col},${k === 1 ? 0.07 : 0.13})`; ctx.stroke(); });
+    // scintillement de la tour Eiffel (comme chaque soir à Paris)
+    const x0 = W * 0.80, y0 = H - 30, h = 1250;
+    for (let i = 0; i < 26; i++) { const yy = 0.04 + 0.86 * hash01(i, 31), hw = yy < 0.27 ? 0.34 - 0.81 * yy : yy < 0.55 ? 0.12 - 0.23 * (yy - 0.27) : 0.05 - 0.1 * (yy - 0.55);
+      const ph = (tr * (0.7 + 0.8 * hash01(i, 32)) + hash01(i, 33)) % 1; twinkle(ctx, x0 + (2 * hash01(i, 34) - 1) * hw * h * 0.8, y0 - yy * h, 3 + 3 * hash01(i, 35), Math.max(0, Math.sin(ph * TAU)) * 0.7, '255,236,190'); }
+    bokeh(ctx, tr, 10, '255,255,255', 0.06);
+  } else if (DECOR === 'monde') {
+    // étoiles qui scintillent + étoile filante
+    for (let i = 0; i < 30; i++) { const ph = (tr * (0.3 + 0.5 * hash01(i, 41)) + hash01(i, 42)) % 1; twinkle(ctx, W * hash01(i, 43), H * 0.6 * hash01(i, 44), 1.6 + 2 * hash01(i, 45), 0.55 * Math.max(0, Math.sin(ph * TAU)), '200,245,255'); }
+    { const per = 7, u = (tr % per) / per * 4, n = Math.floor(tr / per); if (u < 1) { const sx = W * (0.15 + 0.6 * hash01(n, 46)), sy = 120 + 300 * hash01(n, 47), x = sx + 700 * u, y = sy + 300 * u;
+      ctx.save(); ctx.lineCap = 'round'; ctx.lineWidth = 3; ctx.strokeStyle = lgrad(ctx, x - 220, y - 95, x, y, [[0, 'rgba(255,255,255,0)'], [1, `rgba(255,255,255,${A(0.75 * Math.sin(u * PI))})`]]);
+      ctx.beginPath(); ctx.moveTo(x - 220, y - 95); ctx.lineTo(x, y); ctx.stroke(); ctx.restore(); } }
+  } else if (DECOR === 'musee') {
+    // poussière dorée dans les faisceaux + spots qui respirent
+    for (const [x, k] of [[W * 0.18, 0], [W * 0.5, 1], [W * 0.82, 2]]) { const a = 0.05 + 0.04 * Math.sin(tr * 0.7 + k * 2.1);
+      ctx.fillStyle = rgrad(ctx, x, 0, 700, [[0, `rgba(255,228,170,${A(a)})`], [1, 'rgba(255,228,170,0)']]); ctx.fillRect(0, 0, W, 900); }
+    for (let i = 0; i < 70; i++) { const life = (tr * (0.01 + 0.015 * hash01(i, 51)) + hash01(i, 52)) % 1, lane = [0.18, 0.5, 0.82][i % 3];
+      const y = H * 0.85 * (1 - life), x = W * lane + (2 * hash01(i, 53) - 1) * (40 + 300 * (y / (H * 0.85))) + 20 * Math.sin(tr * 0.8 + i), r = 1.2 + 2.4 * hash01(i, 54);
+      ctx.fillStyle = `rgba(255,226,160,${A(0.55 * Math.sin(life * PI) * (0.4 + 0.6 * Math.abs(Math.sin(tr * 2 + i))))})`; ctx.beginPath(); ctx.arc(x, y, r, 0, TAU); ctx.fill(); }
+  } else if (DECOR === 'intrus') {
+    // alvéoles qui s'allument au hasard + points d'interrogation
+    const r = 46, hx = r * Math.sqrt(3);
+    for (let i = 0; i < 9; i++) { const n = Math.floor(tr / 2.2 + hash01(i, 61)), ph = (tr / 2.2 + hash01(i, 61)) % 1, j = Math.floor(hash01(n * 13 + i, 62) * 28), col = Math.floor(hash01(n * 13 + i, 63) * 13);
+      const cx = col * hx + (j % 2) * hx / 2, cy = j * r * 1.5, a = 0.35 * Math.sin(ph * PI);
+      ctx.beginPath(); for (let k = 0; k < 6; k++) { const an = PI / 6 + k * PI / 3; ctx.lineTo(cx + r * Math.cos(an), cy + r * Math.sin(an)); } ctx.closePath();
+      ctx.fillStyle = RGBA(i % 2 ? '#F472B6' : '#A78BFA', a * 0.35); ctx.fill(); ctx.lineWidth = 2; ctx.strokeStyle = RGBA(i % 2 ? '#F472B6' : '#A78BFA', a); ctx.stroke(); }
+    bokeh(ctx, tr, 12, '200,170,255', 0.08);
+  }
+}
+function decorAnim2(ctx, tr) {
   if (DECOR === 'monde') { // globe qui tourne, en bas de l'écran
     const cx = W / 2, cy = H + 330, R = 900, tilt = 0.38, ct = Math.cos(tilt), st = Math.sin(tilt), rot = tr * 0.08;
     ctx.save(); ctx.fillStyle = rgrad(ctx, cx, cy, R * 1.12, [[0.80, 'rgba(45,212,191,0)'], [0.89, 'rgba(45,212,191,0.20)'], [0.9, 'rgba(56,189,248,0.10)'], [1, 'rgba(56,189,248,0)']]); ctx.fillRect(0, 0, W, H);
@@ -254,9 +299,18 @@ function banner(ctx, t, bf, bx, by, bw, tr) {
   const sx = bx - 200 + ((tr % 5) / 5) * (bw + 600); // reflet qui traverse le bandeau toutes les 5 s
   ctx.fillStyle = lgrad(ctx, sx - 90, 0, sx + 90, 0, [[0, 'rgba(255,255,255,0)'], [0.5, 'rgba(255,255,255,0.13)'], [1, 'rgba(255,255,255,0)']]); ctx.fillRect(bx, by, bw, bh);
   ctx.restore();
+  const tx = W / 2 + (ICON ? 45 : 0);
   if (DECOR === 'musee') { ctx.save(); ctx.font = font(bf, 900, DISPLAY); ctx.letterSpacing = '4px'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
-    ctx.fillStyle = lgrad(ctx, bx, 0, bx + bw, 0, [[0, '#C9A25A'], [0.5, '#FFF1C9'], [1, '#C9A25A']]); ctx.fillText(t, W / 2, by + bh / 2 + 2); ctx.restore(); }
-  else SPACED(ctx, t, W / 2, by + bh / 2 + 2, bf, '#FFFFFF', 4, 900);
+    ctx.fillStyle = lgrad(ctx, bx, 0, bx + bw, 0, [[0, '#C9A25A'], [0.5, '#FFF1C9'], [1, '#C9A25A']]); ctx.fillText(t, tx, by + bh / 2 + 2); ctx.restore(); }
+  else SPACED(ctx, t, tx, by + bh / 2 + 2, bf, '#FFFFFF', 4, 900);
+  if (ICON) { // pastille ronde + émoji qui respire doucement
+    const ix = bx + 62, iy = by + bh / 2, ph = (tr % 4) / 4, k = 1 + 0.07 * Math.sin(tr * 2.4) + 0.12 * Math.exp(-ph * 12) * (tr > 0.5 ? 1 : 0);
+    ctx.save(); ctx.translate(ix, iy);
+    ctx.beginPath(); ctx.arc(0, 0, 38, 0, TAU); ctx.fillStyle = rgrad(ctx, 0, -10, 46, [[0, RGBA(PAL.acc, 0.38)], [1, RGBA(PAL.acc, 0.08)]]); ctx.fill();
+    ctx.lineWidth = 2; ctx.strokeStyle = RGBA(PAL.acc, 0.7); ctx.stroke();
+    ctx.beginPath(); ctx.arc(0, 0, 38 + 16 * ph, 0, TAU); ctx.strokeStyle = RGBA(PAL.acc, 0.5 * (1 - ph)); ctx.stroke(); // onde qui s'élargit
+    ctx.scale(k, k); ctx.rotate(0.06 * Math.sin(tr * 1.7)); ctx.font = '46px "Noto Color Emoji"'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillStyle = '#000';
+    ctx.shadowColor = 'rgba(0,0,0,0.5)'; ctx.shadowBlur = 10; ctx.fillText(ICON, 0, 3); ctx.restore(); }
 }
 
 // ---------------------------------------------------------------- image
@@ -289,8 +343,8 @@ function draw(ctx, u, tr) {
   }
   levelCard(ctx, tr);
   if (QD.banner) { // titre fixe, visible toute la vidéo
-    ctx.save(); const t = QD.banner.toUpperCase(); let bf = 50; ctx.font = font(bf, 900, DISPLAY); ctx.letterSpacing = '4px'; let tw = ctx.measureText(t).width; if (tw > W - 260) { bf = Math.floor(bf * (W - 260) / tw); ctx.font = font(bf, 900, DISPLAY); tw = ctx.measureText(t).width; } ctx.letterSpacing = '0px';
-    const bw = tw + 120, bx = W / 2 - bw / 2, by = 92;
+    ctx.save(); const t = QD.banner.toUpperCase(); let bf = 50; ctx.font = font(bf, 900, DISPLAY); ctx.letterSpacing = '4px'; let tw = ctx.measureText(t).width; const MW = W - 260 - (ICON ? 90 : 0); if (tw > MW) { bf = Math.floor(bf * MW / tw); ctx.font = font(bf, 900, DISPLAY); tw = ctx.measureText(t).width; } ctx.letterSpacing = '0px';
+    const bw = tw + 120 + (ICON ? 90 : 0), bx = W / 2 - bw / 2, by = 92;
     if (DECOR === 'aucun') {
     ctx.shadowColor = RGBA(ACC, 0.45); ctx.shadowBlur = 30; ctx.beginPath(); ctx.roundRect(bx, by, bw, 96, 48); ctx.fillStyle = lgrad(ctx, bx, 0, bx + bw, 0, [[0, PAL.ban[0]], [0.5, PAL.ban[1]], [1, PAL.ban[2]]]); ctx.fill(); ctx.shadowBlur = 0;
     ctx.beginPath(); ctx.roundRect(bx + 4, by + 4, bw - 8, 88, 44); ctx.fillStyle = PAL.card.replace(/[\d.]+\)$/, '0.9)'); ctx.fill();
