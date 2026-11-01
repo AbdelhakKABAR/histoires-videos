@@ -1,0 +1,20 @@
+{
+ "title": "Le département de chaque île", "subject": "Îles", "banner": "Le département de chaque île",
+ "symbols": ["🏝","🌊","⛵","🐚","⚓","🏖","🗺","🧭","☀","🐬","🦀","🌴","⛱","🛥","🐟","🗼"],
+ "description": "🏝 Quiz Îles de France : dans quel département se trouve chaque île ? 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #iles #geographie #departement #culturegenerale #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Dans quel département se trouve l'île de Ré ?", "qd": "L'île de Ré est en… ?", "a": [["","Charente-Maritime"],["","Vendée"],["","Gironde"],["","Finistère"]], "ok": 0, "say": "En Charente-Maritime !", "level": 0},
+  {"q": "Dans quel département se trouve Belle-Île-en-Mer ?", "qd": "Belle-Île-en-Mer est en… ?", "a": [["","Finistère"],["","Morbihan"],["","Loire-Atlantique"],["","Manche"]], "ok": 1, "say": "Dans le Morbihan !", "level": 0},
+  {"q": "Dans quel département se trouve l'île de Porquerolles ?", "qd": "Porquerolles est dans… ?", "a": [["","Alpes-Maritimes"],["","Bouches-du-Rhône"],["","Var"],["","Hérault"]], "ok": 2, "say": "Dans le Var !", "level": 0},
+  {"q": "Dans quel département se trouve l'île de Noirmoutier ?", "qd": "Noirmoutier est en… ?", "a": [["","Loire-Atlantique"],["","Charente-Maritime"],["","Morbihan"],["","Vendée"]], "ok": 3, "say": "En Vendée !", "level": 1},
+  {"q": "Dans quel département se trouve l'île d'Ouessant ?", "qd": "Ouessant est dans… ?", "a": [["","Finistère"],["","Côtes-d'Armor"],["","Manche"],["","Morbihan"]], "ok": 0, "say": "Dans le Finistère !", "level": 1},
+  {"q": "Dans quel département se trouve l'île de Bréhat ?", "qd": "L'île de Bréhat est dans… ?", "a": [["","Ille-et-Vilaine"],["","Côtes-d'Armor"],["","Finistère"],["","Manche"]], "ok": 1, "say": "Dans les Côtes-d'Armor !", "level": 1},
+  {"q": "Dans quel département se trouvent les îles Chausey ?", "qd": "Les îles Chausey sont dans… ?", "a": [["","Calvados"],["","Ille-et-Vilaine"],["","Manche"],["","Côtes-d'Armor"]], "ok": 2, "say": "Dans la Manche !", "level": 2},
+  {"q": "Dans quel département se trouve l'île Sainte-Marguerite ?", "qd": "L'île Sainte-Marguerite est dans… ?", "a": [["","Alpes-Maritimes"],["","Var"],["","Corse-du-Sud"],["","Bouches-du-Rhône"]], "ok": 0, "say": "Dans les Alpes-Maritimes, au large de Cannes !", "level": 2},
+  {"q": "Dans quel département se trouvent les îles du Frioul ?", "qd": "Les îles du Frioul sont dans… ?", "a": [["","Var"],["","Hérault"],["","Gard"],["","Bouches-du-Rhône"]], "ok": 3, "say": "Dans les Bouches-du-Rhône, au large de Marseille !", "level": 3},
+  {"q": "Dans quel département se trouvent les îles Lavezzi ?", "qd": "Les îles Lavezzi sont en… ?", "a": [["","Haute-Corse"],["","Var"],["","Corse-du-Sud"],["","Alpes-Maritimes"]], "ok": 2, "say": "En Corse-du-Sud, près de Bonifacio !", "level": 3}
+ ]
+}
