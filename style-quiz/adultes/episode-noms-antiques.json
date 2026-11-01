@@ -1,0 +1,20 @@
+{
+ "title": "Le nom antique de chaque ville", "subject": "Noms antiques", "banner": "Le nom antique de chaque ville",
+ "symbols": ["🏛","📜","🛡","⚔","🏺","🗿","🦅","👑","🏰","🗺","🇫🇷","✦","🔱","⚱","🪙","✧"],
+ "description": "🏛 Quiz France : retrouve la ville cachée derrière son nom antique ! 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #histoire #villesdefrance #antiquite #culturegenerale #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quelle ville s'appelait Lutèce dans l'Antiquité ?", "qd": "Quelle ville s'appelait Lutèce ?", "a": [["","Lille"],["","Paris"],["","Orléans"],["","Chartres"]], "ok": 1, "say": "Paris !", "level": 0},
+  {"q": "Quelle ville s'appelait Massalia dans l'Antiquité ?", "qd": "Quelle ville s'appelait Massalia ?", "a": [["","Marseille"],["","Montpellier"],["","Toulon"],["","Nice"]], "ok": 0, "say": "Marseille !", "level": 0},
+  {"q": "Quelle ville s'appelait Lugdunum dans l'Antiquité ?", "qd": "Quelle ville s'appelait Lugdunum ?", "a": [["","Lille"],["","Limoges"],["","Grenoble"],["","Lyon"]], "ok": 3, "say": "Lyon !", "level": 0},
+  {"q": "Quelle ville s'appelait Burdigala dans l'Antiquité ?", "qd": "Quelle ville s'appelait Burdigala ?", "a": [["","Bourges"],["","Bayonne"],["","Bordeaux"],["","Brest"]], "ok": 2, "say": "Bordeaux !", "level": 1},
+  {"q": "Quelle ville s'appelait Nemausus dans l'Antiquité ?", "qd": "Quelle ville s'appelait Nemausus ?", "a": [["","Nîmes"],["","Nantes"],["","Narbonne"],["","Nevers"]], "ok": 0, "say": "Nîmes !", "level": 1},
+  {"q": "Quelle ville s'appelait Argentoratum dans l'Antiquité ?", "qd": "Quelle ville s'appelait Argentoratum ?", "a": [["","Metz"],["","Strasbourg"],["","Colmar"],["","Argenteuil"]], "ok": 1, "say": "Strasbourg !", "level": 1},
+  {"q": "Quelle ville s'appelait Durocortorum dans l'Antiquité ?", "qd": "Quelle ville s'appelait Durocortorum ?", "a": [["","Dijon"],["","Troyes"],["","Douai"],["","Reims"]], "ok": 3, "say": "Reims !", "level": 2},
+  {"q": "Quelle ville s'appelait Aquae Sextiae dans l'Antiquité ?", "qd": "Quelle ville s'appelait Aquae Sextiae ?", "a": [["","Vichy"],["","Aix-en-Provence"],["","Dax"],["","Arles"]], "ok": 1, "say": "Aix-en-Provence !", "level": 2},
+  {"q": "Quelle ville s'appelait Samarobriva dans l'Antiquité ?", "qd": "Quelle ville s'appelait Samarobriva ?", "a": [["","Saint-Quentin"],["","Soissons"],["","Amiens"],["","Beauvais"]], "ok": 2, "say": "Amiens !", "level": 3},
+  {"q": "Quelle ville s'appelait Caesarodunum dans l'Antiquité ?", "qd": "Quelle ville s'appelait Caesarodunum ?", "a": [["","Tours"],["","Chartres"],["","Le Mans"],["","Poitiers"]], "ok": 0, "say": "Tours !", "level": 3}
+ ]
+}
