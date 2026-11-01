@@ -1,0 +1,20 @@
+{
+ "title": "L'ancien nom de chaque pays", "subject": "Anciens noms", "banner": "L'ancien nom de chaque pays",
+ "symbols": ["🌍","🗺","📜","🧭","🌎","⏳","🏛","⚓","🌐","✦","🏺","📖","🌏","✧","🕰","⭐"],
+ "description": "📜 Quiz : l'ancien nom de chaque pays ! 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #monde #culturegenerale #geographie #histoire #pays #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel était l'ancien nom de l'Iran ?", "qd": "L'ancien nom de l'Iran ?", "a": [["","La Perse"],["","La Mésopotamie"],["","L'Assyrie"],["","La Babylonie"]], "ok": 0, "say": "La Perse !", "level": 0},
+  {"q": "Quel était l'ancien nom de la Thaïlande ?", "qd": "L'ancien nom de la Thaïlande ?", "a": [["","L'Annam"],["","Le Siam"],["","Le Tonkin"],["","La Cochinchine"]], "ok": 1, "say": "Le Siam !", "level": 0},
+  {"q": "Quel était l'ancien nom du Sri Lanka ?", "qd": "L'ancien nom du Sri Lanka ?", "a": [["","Malabar"],["","Goa"],["","Ceylan"],["","Coromandel"]], "ok": 2, "say": "Ceylan !", "level": 0},
+  {"q": "Quel nom a porté la République démocratique du Congo de 1971 à 1997 ?", "qd": "L'ancien nom de la RD Congo ?", "a": [["","Le Biafra"],["","Le Katanga"],["","Le Dahomey"],["","Le Zaïre"]], "ok": 3, "say": "Le Zaïre !", "level": 1},
+  {"q": "Quel était l'ancien nom du Myanmar ?", "qd": "L'ancien nom du Myanmar ?", "a": [["","Le Bengale"],["","La Birmanie"],["","Le Tonkin"],["","L'Annam"]], "ok": 1, "say": "La Birmanie !", "level": 1},
+  {"q": "Sous quel ancien nom l'Éthiopie était-elle connue ?", "qd": "L'ancien nom de l'Éthiopie ?", "a": [["","La Nubie"],["","La Numidie"],["","L'Abyssinie"],["","Le Maghreb"]], "ok": 2, "say": "L'Abyssinie !", "level": 1},
+  {"q": "Quel était le nom du Burkina Faso avant 1984 ?", "qd": "L'ancien nom du Burkina Faso ?", "a": [["","Le Dahomey"],["","Le Soudan français"],["","L'Oubangui-Chari"],["","La Haute-Volta"]], "ok": 3, "say": "La Haute-Volta !", "level": 2},
+  {"q": "Quel était le nom du Bénin avant 1975 ?", "qd": "L'ancien nom du Bénin ?", "a": [["","La Côte-de-l'Or"],["","Le Dahomey"],["","Le Tanganyika"],["","Le Nyassaland"]], "ok": 1, "say": "Le Dahomey !", "level": 2},
+  {"q": "Quel était le nom du Belize avant 1973 ?", "qd": "L'ancien nom du Belize ?", "a": [["","Le Honduras britannique"],["","La Guyane britannique"],["","La Nouvelle-Grenade"],["","La Côte des Mosquitos"]], "ok": 0, "say": "Le Honduras britannique !", "level": 3},
+  {"q": "Quel était le nom du Botswana avant son indépendance ?", "qd": "L'ancien nom du Botswana ?", "a": [["","Le Basutoland"],["","Le Nyassaland"],["","Le Swaziland"],["","Le Bechuanaland"]], "ok": 3, "say": "Le Bechuanaland !", "level": 3}
+ ]
+}
