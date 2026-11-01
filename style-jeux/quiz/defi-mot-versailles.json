@@ -1,0 +1,21 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : IMPOSSIBLE",
+ "mot": "VERSAILLES",
+ "categorie": "Un lieu en France",
+ "categorie_dite": "Catégorie : un lieu en France.",
+ "accroche_dite": "Seulement un pour cent des gens trouvent ce mot avec un seul indice.",
+ "indices": [
+  "Il est inscrit au patrimoine mondial de l'UNESCO.",
+  "Il se trouve dans les Yvelines.",
+  "Un célèbre traité de paix y a été signé en 1919.",
+  "Louis XIV y installe la cour en 1682.",
+  "On y visite la galerie des Glaces."
+ ],
+ "secondes_par_indice": 5,
+ "lettres_donnees": 1,
+ "dire": "Versailles",
+ "explication": "Le château de Versailles, résidence du Roi-Soleil.",
+ "description": "🔤 MOT MYSTÈRE niveau impossible : 5 indices, 5 secondes chacun. Combien t'en a-t-il fallu ? 👇 #motmystere #quiz #france #enigme #culturegenerale #histoire #pourtoi"
+}
