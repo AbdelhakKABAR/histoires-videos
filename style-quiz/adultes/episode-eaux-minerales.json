@@ -1,0 +1,20 @@
+{
+ "title": "L'eau minérale de chaque ville", "subject": "Eaux minérales", "banner": "L'eau minérale de chaque ville",
+ "symbols": ["💧","🫧","🏔","🌋","⛲","🌊","💦","🧊","⛰","🌿","🫗","✦","★","🗺","✧","🇫🇷"],
+ "description": "💧 Quiz France : l'eau minérale de chaque ville ! 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #eauminerale #villes #culturegenerale #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Évian-les-Bains se trouve au bord de quel lac ?", "qd": "Évian, au bord de quel lac ?", "a": [["","Le lac d'Annecy"],["","Le lac du Bourget"],["","Le lac Léman"],["","Le lac du Der"]], "ok": 2, "say": "Le lac Léman !", "level": 0},
+  {"q": "Quelle eau gazeuse célèbre vient de Vergèze, dans le Gard ?", "qd": "L'eau gazeuse de Vergèze ?", "a": [["","Perrier"],["","Évian"],["","Volvic"],["","Vittel"]], "ok": 0, "say": "Perrier !", "level": 0},
+  {"q": "Volvic se trouve dans quelle région de volcans ?", "qd": "Volvic, dans quelle région ?", "a": [["","La Bretagne"],["","L'Auvergne"],["","L'Alsace"],["","La Normandie"]], "ok": 1, "say": "L'Auvergne !", "level": 0},
+  {"q": "Quelle eau gazeuse vient de Saint-Galmier, dans la Loire ?", "qd": "L'eau gazeuse de Saint-Galmier ?", "a": [["","San Pellegrino"],["","Perrier"],["","La Salvetat"],["","Badoit"]], "ok": 3, "say": "Badoit !", "level": 1},
+  {"q": "L'eau Contrex vient de quelle ville des Vosges ?", "qd": "Contrex vient de quelle ville ?", "a": [["","Vittel"],["","Plombières"],["","Contrexéville"],["","Gérardmer"]], "ok": 2, "say": "Contrexéville !", "level": 1},
+  {"q": "Quelle ville thermale a donné son nom à une célèbre pastille ?", "qd": "La ville des célèbres pastilles ?", "a": [["","Vichy"],["","Évian"],["","Vittel"],["","Aix-les-Bains"]], "ok": 0, "say": "Vichy !", "level": 1},
+  {"q": "Quelle eau minérale vient, elle aussi, de la ville de Vittel ?", "qd": "L'autre eau de la ville de Vittel ?", "a": [["","Contrex"],["","Hépar"],["","Quézac"],["","Rozana"]], "ok": 1, "say": "Hépar !", "level": 2},
+  {"q": "Dans quel département se trouve Saint-Yorre ?", "qd": "Saint-Yorre, quel département ?", "a": [["","Le Puy-de-Dôme"],["","Le Cantal"],["","La Loire"],["","L'Allier"]], "ok": 3, "say": "L'Allier !", "level": 2},
+  {"q": "L'eau gazeuse Quézac vient de quel département ?", "qd": "Quézac, quel département ?", "a": [["","La Lozère"],["","L'Aveyron"],["","L'Ardèche"],["","Le Gard"]], "ok": 0, "say": "La Lozère !", "level": 3},
+  {"q": "La Salvetat-sur-Agout se trouve dans quel département ?", "qd": "La Salvetat, quel département ?", "a": [["","Le Tarn"],["","L'Aude"],["","L'Hérault"],["","L'Aveyron"]], "ok": 2, "say": "L'Hérault !", "level": 3}
+ ]
+}
