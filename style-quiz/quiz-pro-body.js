@@ -20,18 +20,20 @@ const PK = Object.keys(PALETTES).filter((k) => k !== 'halloween'), // halloween 
 const PAL = { ...(PALETTES[QD.palette] || PALETTES[PK[HK % PK.length]]) };
 // Décor selon le thème (1er nov. 2026) : France = tricolore, Monde = globe, Art = musée doré, Intrus = néon. QD.decor pour forcer.
 const _TT = ((QD.title || '') + ' ' + (QD.banner || '') + ' ' + (QD.subject || '')).toLowerCase(), _DS = (QD.description || '').toLowerCase();
-const DECOR = QD.decor || (QD.palette ? 'aucun' : /intrus/.test(_TT) ? 'intrus' : /(peinture|peintre|tableau|musée|\bart\b)/.test(_TT) ? 'musee'
+const LETTRE = QD.mode === 'lettre', LTR = (QD.letter || 'A').toUpperCase();
+const DECOR = QD.decor || (QD.palette ? 'aucun' : LETTRE ? 'lettre' : /intrus/.test(_TT) ? 'intrus' : /(peinture|peintre|tableau|musée|\bart\b)/.test(_TT) ? 'musee'
   : /#france\b/.test(_DS) ? 'france' : /#monde\b/.test(_DS) ? 'monde' : 'aucun');
 const DECOR_PAL = {
   france: { bg: ['#040A1C', '#0A1636', '#030714'], acc: '#60A5FA', acc2: '#F87171', ban: ['#0055A4', '#FFFFFF', '#EF4135'], card: 'rgba(9,17,42,0.80)', fl: '215,228,255' },
   monde:  { bg: ['#02111A', '#052433', '#020A10'], acc: '#2DD4BF', acc2: '#38BDF8', ban: ['#0EA5E9', '#5EEAD4', '#2563EB'], card: 'rgba(5,24,34,0.80)', fl: '180,240,255' },
   musee:  { bg: ['#0D0806', '#1D130C', '#070403'], acc: '#E8C37A', acc2: '#C0883A', ban: ['#8A6A2F', '#F5E1A4', '#B8862B'], card: 'rgba(24,16,10,0.82)', fl: '255,226,170' },
+  lettre: { bg: ['#06091A', '#0F1633', '#04060F'], acc: '#FACC15', acc2: '#FB923C', ban: ['#F59E0B', '#FDE68A', '#F97316'], card: 'rgba(12,16,38,0.82)', fl: '255,235,170' },
   intrus: { bg: ['#07060E', '#130F22', '#050409'], acc: '#A78BFA', acc2: '#F472B6', ban: ['#7C3AED', '#F472B6', '#6366F1'], card: 'rgba(16,12,30,0.80)', fl: '225,210,255' },
 };
 if (DECOR_PAL[DECOR] && !QD.palette) Object.assign(PAL, DECOR_PAL[DECOR]);
 // Icône du thème devant le titre : QD.icon, sinon le premier émoji de « symbols », sinon celle du décor.
 const _isEmo = (x) => [...x].some((ch) => ch.codePointAt(0) >= 0x1F000 || ch.codePointAt(0) === 0x2708);
-const ICON = DECOR === 'aucun' ? null : (QD.icon || (QD.symbols || []).find(_isEmo) || { france: '🇫🇷', monde: '🌍', musee: '🎨', intrus: '🔍' }[DECOR]);
+const ICON = DECOR === 'aucun' ? null : (QD.icon || (QD.symbols || []).find(_isEmo) || { france: '🇫🇷', monde: '🌍', musee: '🎨', intrus: '🔍', lettre: '🔤' }[DECOR]);
 const PAT = PATTERNS.includes(QD.pattern) ? QD.pattern : PATTERNS[(HK >>> 8) % PATTERNS.length];
 const RGBA = (hex, a) => { const n = parseInt(hex.slice(1), 16); return `rgba(${n >> 16},${(n >> 8) & 255},${n & 255},${a})`; };
 const DY = 120; // tout est décalé vers le bas : le haut de l'écran est caché par la barre de recherche TikTok
@@ -65,7 +67,7 @@ HITS.push([2 * 0.3, 'title', 'swell', { gain: 0.1 }]);
 QZ.forEach((s) => { if (s.lv) HITS.push([2 * (s.lv[0] - 0.2), 'level', 'whoosh', { len: 0.5, gain: 0.12, from: 400, to: 1800 }]); });
 QZ.forEach((s) => {
   HITS.push([2 * (s.q0 - 0.4), 'slide in', 'whoosh', { len: 0.35, gain: 0.08, from: 600, to: 2000 }]);
-  for (let k = 0; k < 4; k++) HITS.push([2 * sayFrac(s, k), 'row ' + k, 'tick', { gain: 0.12 }]);
+  if (!LETTRE) for (let k = 0; k < 4; k++) HITS.push([2 * sayFrac(s, k), 'row ' + k, 'tick', { gain: 0.12 }]);
   const nw = Math.round(WAITOF(s)); for (let k = 0; k < nw; k++) HITS.push([2 * (s.c0 + k), 'tick', 'tick', { gain: k === nw - 1 ? 0.3 : 0.22 }]);
   HITS.push([2 * s.c1, 'reveal', 'bell', { pitch: 'E6', gain: 0.16 }], [2 * (s.c1 + 0.08), 'reveal', 'bell', { pitch: 'B6', gain: 0.1 }]);
 });
@@ -134,6 +136,8 @@ function decorBG(c) {
     c.lineWidth = 1; c.strokeStyle = 'rgba(232,195,122,0.35)'; c.strokeRect(40, 40, W - 80, H - 80);
   } else if (DECOR === 'monde') {
     const rnd = mulberry32(3); for (let k = 0; k < 160; k++) { c.fillStyle = `rgba(255,255,255,${(0.08 + 0.3 * rnd()).toFixed(2)})`; c.beginPath(); c.arc(W * rnd(), H * 0.7 * rnd(), 0.8 + 1.6 * rnd(), 0, TAU); c.fill(); }
+  } else if (DECOR === 'lettre') {
+    c.fillStyle = 'rgba(255,255,255,0.05)'; for (let x = 30; x < W; x += 54) for (let y = 30; y < H; y += 54) { c.beginPath(); c.arc(x, y, 1.6, 0, TAU); c.fill(); }
   } else if (DECOR === 'intrus') {
     c.strokeStyle = 'rgba(255,255,255,0.04)'; const r = 46, hx = r * Math.sqrt(3);
     for (let y = 0, j = 0; y < H + r; y += r * 1.5, j++) for (let x = (j % 2) * hx / 2; x < W + hx; x += hx) { c.beginPath(); for (let k = 0; k < 6; k++) { const a = PI / 6 + k * PI / 3; c.lineTo(x + r * Math.cos(a), y + r * Math.sin(a)); } c.closePath(); c.stroke(); }
@@ -182,6 +186,14 @@ function decorAnim(ctx, tr) {
   }
 }
 function decorAnim2(ctx, tr) {
+  if (DECOR === 'lettre') { // lettre géante en contour qui respire derrière la liste + halos dorés
+    [[0.15, 0.2, '#F59E0B'], [0.9, 0.7, '#F97316']].forEach(([x, y, col], k) => { const px = W * x + 100 * Math.sin(tr * 0.25 + k * 2), py = H * y + 80 * Math.cos(tr * 0.2 + k);
+      ctx.fillStyle = rgrad(ctx, px, py, 650, [[0, RGBA(col, 0.16)], [1, RGBA(col, 0)]]); ctx.fillRect(0, 0, W, H); });
+    ctx.save(); ctx.translate(W * 0.72, H * 0.52); ctx.rotate(-0.08 + 0.03 * Math.sin(tr * 0.3)); const k = 1 + 0.02 * Math.sin(tr * 0.8); ctx.scale(k, k);
+    ctx.font = font(1250, 900, DISPLAY); ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.lineWidth = 4; ctx.strokeStyle = 'rgba(250,204,21,0.10)'; ctx.strokeText(LTR, 0, 0);
+    ctx.fillStyle = 'rgba(250,204,21,0.025)'; ctx.fillText(LTR, 0, 0); ctx.restore();
+    bokeh(ctx, tr, 12, '255,220,140', 0.07); return;
+  }
   if (DECOR === 'monde') { // globe qui tourne, en bas de l'écran
     const cx = W / 2, cy = H + 330, R = 900, tilt = 0.38, ct = Math.cos(tilt), st = Math.sin(tilt), rot = tr * 0.08;
     ctx.save(); ctx.fillStyle = rgrad(ctx, cx, cy, R * 1.12, [[0.80, 'rgba(45,212,191,0)'], [0.89, 'rgba(45,212,191,0.20)'], [0.9, 'rgba(56,189,248,0.10)'], [1, 'rgba(56,189,248,0)']]); ctx.fillRect(0, 0, W, H);
@@ -275,6 +287,67 @@ function question(ctx, i, s, tr) {
   timer(ctx, s, tr);
   ctx.restore();
 }
+// ---------------------------------------------------------------- mode « LETTRE » : toutes les réponses commencent par la même lettre
+const LROW = { x: 80, w: 840, y0: 352, h: 60, gap: 9 };
+function lettreList(ctx, i, tr) {
+  const pill = `TOUTES LES RÉPONSES COMMENCENT PAR ${LTR}`; ctx.font = font(27, 800, DISPLAY); ctx.letterSpacing = '2px'; const pw = ctx.measureText(pill).width; ctx.letterSpacing = '0px';
+  ctx.beginPath(); ctx.roundRect(W / 2 - pw / 2 - 30, 238, pw + 60, 58, 29); ctx.fillStyle = RGBA(ACC, 0.13); ctx.fill(); ctx.lineWidth = 2.5; ctx.strokeStyle = ACC; ctx.stroke();
+  SPACED(ctx, pill, W / 2, 268, 27, ACC, 2, 800);
+  for (let d = 0; d < NQ; d++) {
+    const s = QZ[d], y = LROW.y0 + d * (LROW.h + LROW.gap), cur = d === i && tr < s.end, done = tr > s.c1, rk = clamp(spring(tr - s.c1, SPRING.snappy));
+    const ap = spring(tr - (0.1 + d * 0.06), SPRING.snappy); if (ap <= 0.01) continue;
+    ctx.save(); ctx.globalAlpha *= clamp(ap * 1.3) * (done || cur ? 1 : 0.55); ctx.translate((1 - ap) * -60, 0);
+    if (cur) { ctx.save(); ctx.shadowColor = RGBA(ACC, 0.7); ctx.shadowBlur = 30; ctx.beginPath(); ctx.roundRect(LROW.x, y, LROW.w, LROW.h, 18); ctx.fillStyle = RGBA(ACC, 0.10); ctx.fill(); ctx.restore(); }
+    ctx.beginPath(); ctx.roundRect(LROW.x, y, LROW.w, LROW.h, 18);
+    ctx.fillStyle = done ? `rgba(34,197,94,${A(0.10 + 0.12 * rk)})` : 'rgba(255,255,255,0.045)'; ctx.fill();
+    ctx.lineWidth = cur ? 3 : 1.5; ctx.strokeStyle = cur ? ACC : done ? 'rgba(134,239,172,0.55)' : 'rgba(255,255,255,0.10)'; ctx.stroke();
+    // numéro
+    ctx.beginPath(); ctx.arc(LROW.x + 38, y + LROW.h / 2, 22, 0, TAU); ctx.fillStyle = done ? GOOD : cur ? ACC : 'rgba(255,255,255,0.12)'; ctx.fill();
+    TXT(ctx, String(d + 1), LROW.x + 38, y + LROW.h / 2 + 1, 26, done || cur ? '#0B1020' : 'rgba(255,255,255,0.7)', 900);
+    const ans = (QD.questions[d].answer || '').toUpperCase(), tx = LROW.x + 82, fs = 40;
+    ctx.font = font(fs, 900, DISPLAY); ctx.letterSpacing = '2px';
+    if (done) { // la réponse s'écrit lettre par lettre
+      const n = Math.max(1, Math.ceil(ans.length * clamp((tr - s.c1) / 0.45))), shown = ans.slice(0, n);
+      let f = fs; const mw = LROW.w - 110; if (ctx.measureText(ans).width > mw) { f = Math.floor(fs * mw / ctx.measureText(ans).width); ctx.font = font(f, 900, DISPLAY); }
+      ctx.textAlign = 'left'; ctx.textBaseline = 'middle'; ctx.fillStyle = ACC; ctx.fillText(shown[0], tx, y + LROW.h / 2 + 2);
+      const lw = ctx.measureText(shown[0]).width; ctx.fillStyle = '#FFFFFF'; ctx.fillText(shown.slice(1), tx + lw, y + LROW.h / 2 + 2);
+    } else {
+      ctx.textAlign = 'left'; ctx.textBaseline = 'middle'; ctx.fillStyle = ACC; ctx.fillText(LTR, tx, y + LROW.h / 2 + 2);
+      if (cur && tr > s.c0 - 0.2) { // indice : une case par lettre
+        const lw = ctx.measureText(LTR).width + 14, nl = ans.replace(/[^A-ZÀ-Ÿ]/g, '').length - 1, step = Math.min(30, (LROW.w - 140 - lw) / Math.max(1, nl));
+        let k = 0; for (const ch of ans.slice(1)) { if (/[A-ZÀ-Ÿ]/.test(ch)) { ctx.fillStyle = 'rgba(255,255,255,0.55)'; ctx.fillRect(tx + lw + k * step, y + LROW.h / 2 + 14, step - 8, 4); } k++; }
+      }
+    }
+    ctx.letterSpacing = '0px'; ctx.restore();
+  }
+}
+function lettreCard(ctx, i, s, tr) {
+  const q = QD.questions[i], k = spring(tr - (s.q0 - 0.35), SPRING.snappy), out = 1 - sm((tr - (s.end - 0.3)) / 0.3), y0 = 1080, h = 330;
+  ctx.save(); ctx.globalAlpha = clamp(Math.min(k * 1.4, out * 1.5)); ctx.translate(0, (1 - k) * 100 + (1 - out) * 60);
+  glass(ctx, ROW.x, y0, ROW.w, h, 34);
+  const lc = s.level != null ? LVC[s.level] : ACC;
+  TXT(ctx, `Q${String(i + 1).padStart(2, '0')}`, ROW.x + 44, y0 + 48, 32, ACC, 800, 'left');
+  if (s.level != null) { ctx.font = font(26, 800, DISPLAY); ctx.letterSpacing = '3px'; ctx.textAlign = 'right'; ctx.textBaseline = 'middle'; ctx.fillStyle = lc; ctx.fillText(LVNAME(s.level), ROW.x + ROW.w - 44, y0 + 48); ctx.letterSpacing = '0px'; }
+  const qt = (q.qd || q.q).replace(/ ([?!:;])/g, ' $1'), size = qt.length > 44 ? 46 : 52, lines = wrapWords(ctx, qt, size, ROW.w - 90);
+  lines.forEach((ln, li) => TXT(ctx, ln, ROW.x + 44, y0 + 150 + (li - (lines.length - 1) / 2) * (size * 1.22), size, '#FFFFFF', 800, 'left'));
+  // minuteur puis réponse
+  const WT = Math.round(WAITOF(s)), p = clamp((tr - s.c0) / WT), rk = clamp(spring(tr - s.c1, SPRING.snappy));
+  if (tr > s.c0 - 0.2 && tr < s.c1 + 0.15) {
+    const n = Math.max(1, WT - Math.floor(clamp(p, 0, 0.999) * WT)), last = p > 1 - 1 / WT, col = last ? BAD : ACC, bx = ROW.x + 44, bw = ROW.w - 190, by = y0 + h - 58;
+    ctx.save(); ctx.globalAlpha *= clamp(spring(tr - s.c0 + 0.15, SPRING.snappy)) * (1 - sm((tr - s.c1) / 0.15));
+    ctx.beginPath(); ctx.roundRect(bx, by - 7, bw, 14, 7); ctx.fillStyle = 'rgba(255,255,255,0.1)'; ctx.fill();
+    ctx.shadowColor = col; ctx.shadowBlur = 18; ctx.beginPath(); ctx.roundRect(bx, by - 7, Math.max(14, bw * (1 - p)), 14, 7); ctx.fillStyle = lgrad(ctx, bx, 0, bx + bw, 0, [[0, last ? '#F87171' : ACC2], [1, col]]); ctx.fill(); ctx.shadowBlur = 0;
+    const pop = 1 + 0.18 * Math.exp(-((p * WT) % 1) * 8); ctx.translate(ROW.x + ROW.w - 80, by); ctx.scale(pop, pop); TXT(ctx, `${n}s`, 0, 2, 48, col, 800); ctx.restore();
+  }
+  if (rk > 0.01) { const ans = (q.answer || '').toUpperCase(); ctx.save(); ctx.translate(W / 2, y0 + h - 60); ctx.scale(0.8 + 0.2 * rk, 0.8 + 0.2 * rk); ctx.globalAlpha *= clamp(rk * 1.3);
+    let f = 54; ctx.font = font(f, 900, DISPLAY); const tw = ctx.measureText(ans).width; if (tw > ROW.w - 200) f = Math.floor(f * (ROW.w - 200) / tw);
+    ctx.font = font(f, 900, DISPLAY); const bw = Math.min(ROW.w - 80, ctx.measureText(ans).width + 140);
+    ctx.shadowColor = 'rgba(34,197,94,0.7)'; ctx.shadowBlur = 30; ctx.beginPath(); ctx.roundRect(-bw / 2, -38, bw, 76, 38); ctx.fillStyle = GOOD; ctx.fill(); ctx.shadowBlur = 0;
+    TXT(ctx, '✓ ' + ans, 0, 3, f, '#FFFFFF', 900); ctx.restore(); }
+  ctx.restore();
+}
+function lettreQuestion(ctx, i, s, tr) { lettreList(ctx, i, tr); lettreCard(ctx, i, s, tr); }
+
 function levelCard(ctx, tr) {
   for (const s of QZ) { if (!s.lv) continue; const [a, , k] = s.lv, p = spring(tr - (a - 0.25), SPRING.snappy), out = 1 - sm((tr - (s.q0 - 0.55)) / 0.3);
     if (tr < a - 0.3 || out <= 0.01 || p <= 0.01) continue;
@@ -330,8 +403,18 @@ function draw(ctx, u, tr) {
         TXT(ctx, QD.hook || 'Tu iras jusqu’au bout ?', W / 2, 1080, 52, '#FFFFFF', 800); ctx.restore();
       ctx.restore(); }
   }
-  if (st.k === 'q' || (tr > QZ[0].q0 - 0.6 && tr < QZ[NQ - 1].end)) { const s2 = st.k === 'q' ? st : { i: 0, s: QZ[0] }; question(ctx, s2.i, s2.s, tr); }
-  if (st.k === 'outro') {
+  if (st.k === 'q' || (tr > QZ[0].q0 - 0.6 && tr < QZ[NQ - 1].end)) { const s2 = st.k === 'q' ? st : { i: 0, s: QZ[0] }; (LETTRE ? lettreQuestion : question)(ctx, s2.i, s2.s, tr); }
+  else if (LETTRE && st.k === 'outro') { // récap de la liste complète + score et abonnement en dessous
+    lettreList(ctx, NQ, tr); const t0 = QZ[NQ - 1].end, p = spring(tr - (t0 + 0.05), SPRING.snappy), p3 = spring(tr - (t0 + 0.7), SPRING.snappy);
+    ctx.save(); ctx.globalAlpha = clamp(p * 1.3); ctx.translate(0, (1 - p) * 80); glass(ctx, ROW.x, 1080, ROW.w, 330, 34);
+    SPACED(ctx, 'ALORS, TON SCORE ?', W / 2, 1130, 34, 'rgba(255,255,255,0.75)', 6, 700);
+    ctx.save(); ctx.translate(W / 2, 1215); ctx.shadowColor = RGBA(ACC, 0.6); ctx.shadowBlur = 40; ctx.font = font(120, 900, DISPLAY); ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+    ctx.fillStyle = lgrad(ctx, -200, 0, 200, 0, [[0, ACC], [1, ACC2]]); ctx.fillText(`?/${NQ}`, 0, 0); ctx.restore();
+    if (p3 > 0.01) { ctx.save(); ctx.globalAlpha *= clamp(p3 * 1.3); ctx.translate(W / 2, 1335); const pulse = 1 + 0.025 * Math.sin(tr * 6); ctx.scale(pulse, pulse);
+      ctx.shadowColor = 'rgba(239,68,68,0.6)'; ctx.shadowBlur = 30; ctx.beginPath(); ctx.roundRect(-230, -44, 460, 88, 44); ctx.fillStyle = lgrad(ctx, 0, -44, 0, 44, [[0, '#F43F5E'], [1, '#DC2626']]); ctx.fill(); ctx.shadowBlur = 0;
+      TXT(ctx, "S'abonner", 0, 3, 44, '#FFFFFF', 800); ctx.restore(); }
+    ctx.restore(); }
+  if (st.k === 'outro' && !LETTRE) {
     const t0 = QZ[NQ - 1].end, p = spring(tr - (t0 + 0.05), SPRING.snappy), p2 = spring(tr - (t0 + 0.5), SPRING.snappy), p3 = spring(tr - (t0 + 1.0), SPRING.snappy);
     ctx.save(); ctx.globalAlpha = clamp(p); SPACED(ctx, 'ALORS, TON SCORE ?', W / 2, 640, 44, 'rgba(255,255,255,0.75)', 8, 700);
     ctx.translate(W / 2, 800); ctx.scale(0.9 + 0.1 * p, 0.9 + 0.1 * p); ctx.shadowColor = RGBA(ACC, 0.6); ctx.shadowBlur = 50;

@@ -1,0 +1,108 @@
+{
+ "title": "Quiz lettre P",
+ "subject": "Lettre P",
+ "banner": "Quiz lettre P",
+ "mode": "lettre",
+ "letter": "P",
+ "icon": "🧠",
+ "symbols": [
+  "P",
+  "A",
+  "B",
+  "C",
+  "?",
+  "!",
+  "★",
+  "✦",
+  "P",
+  "Z",
+  "M",
+  "?",
+  "●",
+  "◆",
+  "P",
+  "✧"
+ ],
+ "description": "🔤 QUIZ LETTRE P : toutes les réponses commencent par P ! 10 questions, du facile à l'impossible. Écris ton score sur 10 en commentaire 👇 #quiz #quizlettre #culturegenerale #quiztime #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quelle est la capitale de la France ?",
+   "qd": "Capitale de la France ?",
+   "answer": "Paris",
+   "say": "Paris !",
+   "level": 0
+  },
+  {
+   "q": "Quel animal noir et blanc mange du bambou ?",
+   "qd": "Animal noir et blanc qui mange du bambou ?",
+   "answer": "Panda",
+   "say": "Le panda !",
+   "level": 0
+  },
+  {
+   "q": "Quel jeu se joue avec des boules en métal et un cochonnet ?",
+   "qd": "Jeu de boules avec un cochonnet ?",
+   "answer": "Pétanque",
+   "say": "La pétanque !",
+   "level": 0
+  },
+  {
+   "q": "Quel pays a pour capitale Lisbonne ?",
+   "qd": "Pays dont la capitale est Lisbonne ?",
+   "answer": "Portugal",
+   "say": "Le Portugal !",
+   "level": 1
+  },
+  {
+   "q": "Quel peintre espagnol a peint Guernica ?",
+   "qd": "Peintre espagnol de Guernica ?",
+   "answer": "Picasso",
+   "say": "Picasso !",
+   "level": 1
+  },
+  {
+   "q": "Quelle planète naine a été découverte en 1930 ?",
+   "qd": "Planète naine découverte en 1930 ?",
+   "answer": "Pluton",
+   "say": "Pluton !",
+   "level": 1
+  },
+  {
+   "q": "Quelle est la capitale du Cambodge ?",
+   "qd": "Capitale du Cambodge ?",
+   "answer": "Phnom Penh",
+   "say": "Phnom Penh !",
+   "level": 2
+  },
+  {
+   "q": "Quel savant français a inventé la Pascaline, une machine à calculer ?",
+   "qd": "Savant qui a inventé la Pascaline ?",
+   "answer": "Pascal",
+   "say": "Blaise Pascal !",
+   "level": 2
+  },
+  {
+   "q": "Quelle cité antique de Jordanie est taillée dans la roche rose ?",
+   "qd": "Cité antique taillée dans la roche, en Jordanie ?",
+   "answer": "Pétra",
+   "say": "Pétra !",
+   "level": 3
+  },
+  {
+   "q": "Quel élément chimique a pour symbole P B ?",
+   "qd": "Élément chimique de symbole Pb ?",
+   "answer": "Plomb",
+   "say": "Le plomb !",
+   "level": 3
+  }
+ ]
+}
