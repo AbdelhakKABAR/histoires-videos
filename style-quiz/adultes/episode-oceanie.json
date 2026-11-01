@@ -1,0 +1,20 @@
+{
+ "title": "L'Océanie", "subject": "Océanie", "banner": "L'Océanie",
+ "symbols": ["🌏","🦘","🐨","🏝","🌊","🐠","🪸","🌺","🥥","🏄","🌴","🐚","🗺","⭐","🐢","🌋"],
+ "description": "🌏 Quiz Océanie : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #monde #culturegenerale #oceanie #geographie #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quelle est la capitale de l'Australie ?", "qd": "La capitale de l'Australie ?", "a": [["","Sydney"],["","Melbourne"],["","Canberra"],["","Perth"]], "ok": 2, "say": "Canberra !", "level": 0},
+  {"q": "Comment s'appelle l'immense rocher rouge sacré au centre de l'Australie ?", "qd": "Le grand rocher rouge australien ?", "a": [["","Uluru"],["","Le Kilimandjaro"],["","Le mont Fuji"],["","Le Machu Picchu"]], "ok": 0, "say": "Uluru !", "level": 0},
+  {"q": "Quelle est la capitale de la Nouvelle-Zélande ?", "qd": "La capitale de la Nouvelle-Zélande ?", "a": [["","Auckland"],["","Wellington"],["","Christchurch"],["","Sydney"]], "ok": 1, "say": "Wellington !", "level": 0},
+  {"q": "Quel territoire français d'Océanie a pour chef-lieu Nouméa ?", "qd": "Le territoire dont Nouméa est le chef-lieu ?", "a": [["","La Polynésie française"],["","Wallis-et-Futuna"],["","La Nouvelle-Calédonie"],["","La Réunion"]], "ok": 2, "say": "La Nouvelle-Calédonie !", "level": 1},
+  {"q": "Quel est le chef-lieu de la Polynésie française ?", "qd": "Le chef-lieu de la Polynésie française ?", "a": [["","Nouméa"],["","Suva"],["","Mata-Utu"],["","Papeete"]], "ok": 3, "say": "Papeete !", "level": 1},
+  {"q": "Au large de quel pays se trouve la Grande Barrière de corail ?", "qd": "Le pays de la Grande Barrière de corail ?", "a": [["","La Nouvelle-Zélande"],["","L'Australie"],["","Les Fidji"],["","Les Philippines"]], "ok": 1, "say": "L'Australie !", "level": 1},
+  {"q": "Quelle est la capitale des îles Fidji ?", "qd": "La capitale des Fidji ?", "a": [["","Nadi"],["","Apia"],["","Suva"],["","Port-Vila"]], "ok": 2, "say": "Suva !", "level": 2},
+  {"q": "Après l'Australie, quel est le plus grand pays d'Océanie ?", "qd": "Le plus grand pays d'Océanie après l'Australie ?", "a": [["","La Nouvelle-Zélande"],["","La Papouasie-Nouvelle-Guinée"],["","Les Fidji"],["","Les îles Salomon"]], "ok": 1, "say": "La Papouasie-Nouvelle-Guinée !", "level": 2},
+  {"q": "Quelle est la capitale du Vanuatu ?", "qd": "La capitale du Vanuatu ?", "a": [["","Honiara"],["","Port Moresby"],["","Nuku'alofa"],["","Port-Vila"]], "ok": 3, "say": "Port-Vila !", "level": 3},
+  {"q": "Quelle est la capitale des Tuvalu ?", "qd": "La capitale des Tuvalu ?", "a": [["","Funafuti"],["","Tarawa"],["","Majuro"],["","Apia"]], "ok": 0, "say": "Funafuti !", "level": 3}
+ ]
+}
