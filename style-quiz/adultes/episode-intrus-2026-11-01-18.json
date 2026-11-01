@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, du facile à l'impossible… les derniers pièges vont te piquer ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus parmi les couleurs du drapeau italien : vert, blanc, rouge ou bleu ?",
+   "qd": "L'intrus : drapeau italien ?",
+   "a": [
+    [
+     "",
+     "Le vert"
+    ],
+    [
+     "",
+     "Le blanc"
+    ],
+    [
+     "",
+     "Le rouge"
+    ],
+    [
+     "",
+     "Le bleu"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le bleu ! Le drapeau italien est vert, blanc et rouge.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : l'aigle, le moineau, l'autruche ou l'hirondelle ?",
+   "qd": "L'intrus parmi ces oiseaux ?",
+   "a": [
+    [
+     "",
+     "L'aigle"
+    ],
+    [
+     "",
+     "Le moineau"
+    ],
+    [
+     "",
+     "L'autruche"
+    ],
+    [
+     "",
+     "L'hirondelle"
+    ]
+   ],
+   "ok": 2,
+   "say": "L'autruche ! C'est la seule qui ne vole pas.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le tambour, le violon, la guitare ou la harpe ?",
+   "qd": "L'intrus parmi ces instruments ?",
+   "a": [
+    [
+     "",
+     "Le tambour"
+    ],
+    [
+     "",
+     "Le violon"
+    ],
+    [
+     "",
+     "La guitare"
+    ],
+    [
+     "",
+     "La harpe"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le tambour ! Les autres sont des instruments à cordes.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : la Suisse, la Croatie, l'Autriche ou la Hongrie ?",
+   "qd": "L'intruse parmi ces pays ?",
+   "a": [
+    [
+     "",
+     "La Suisse"
+    ],
+    [
+     "",
+     "La Croatie"
+    ],
+    [
+     "",
+     "L'Autriche"
+    ],
+    [
+     "",
+     "La Hongrie"
+    ]
+   ],
+   "ok": 1,
+   "say": "La Croatie ! Les autres n'ont aucun accès à la mer.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : 2, 7, 11 ou 15 ?",
+   "qd": "L'intrus parmi ces nombres ?",
+   "a": [
+    [
+     "",
+     "2"
+    ],
+    [
+     "",
+     "7"
+    ],
+    [
+     "",
+     "11"
+    ],
+    [
+     "",
+     "15"
+    ]
+   ],
+   "ok": 3,
+   "say": "15 ! Les autres sont des nombres premiers.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le crottin de Chavignol, le camembert, le brie ou le reblochon ?",
+   "qd": "L'intrus parmi ces fromages ?",
+   "a": [
+    [
+     "",
+     "Le crottin de Chavignol"
+    ],
+    [
+     "",
+     "Le camembert"
+    ],
+    [
+     "",
+     "Le brie"
+    ],
+    [
+     "",
+     "Le reblochon"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le crottin de Chavignol ! C'est un fromage de chèvre, les autres sont au lait de vache.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : l'humérus, le radius, le péroné ou le cubitus ?",
+   "qd": "L'intrus parmi ces os ?",
+   "a": [
+    [
+     "",
+     "L'humérus"
+    ],
+    [
+     "",
+     "Le radius"
+    ],
+    [
+     "",
+     "Le péroné"
+    ],
+    [
+     "",
+     "Le cubitus"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le péroné ! Il est dans la jambe, les autres sont dans le bras.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : Henri IV, Charles IX, Louis XIII ou Louis XIV ?",
+   "qd": "L'intrus parmi ces rois ?",
+   "a": [
+    [
+     "",
+     "Henri IV"
+    ],
+    [
+     "",
+     "Charles IX"
+    ],
+    [
+     "",
+     "Louis XIII"
+    ],
+    [
+     "",
+     "Louis XIV"
+    ]
+   ],
+   "ok": 1,
+   "say": "Charles IX ! C'est un Valois, les autres sont des Bourbons.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : le Brésil, le Kenya, l'Indonésie ou l'Éthiopie ?",
+   "qd": "L'intrus : la ligne de l'équateur ?",
+   "a": [
+    [
+     "",
+     "Le Brésil"
+    ],
+    [
+     "",
+     "Le Kenya"
+    ],
+    [
+     "",
+     "L'Indonésie"
+    ],
+    [
+     "",
+     "L'Éthiopie"
+    ]
+   ],
+   "ok": 3,
+   "say": "L'Éthiopie ! L'équateur ne la traverse pas.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : Lorenzaccio, Ruy Blas, Hernani ou Les Châtiments ?",
+   "qd": "L'intrus parmi ces œuvres ?",
+   "a": [
+    [
+     "",
+     "Lorenzaccio"
+    ],
+    [
+     "",
+     "Ruy Blas"
+    ],
+    [
+     "",
+     "Hernani"
+    ],
+    [
+     "",
+     "Les Châtiments"
+    ]
+   ],
+   "ok": 0,
+   "say": "Lorenzaccio ! C'est de Musset, les autres sont de Victor Hugo.",
+   "level": 3
+  }
+ ]
+}
