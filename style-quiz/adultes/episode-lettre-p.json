@@ -104,5 +104,7 @@
    "say": "Le plomb !",
    "level": 3
   }
- ]
+ ],
+ "intro": "Toutes les réponses commencent par la lettre P !",
+ "intro_speed": 0.9
 }

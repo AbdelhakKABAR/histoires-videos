@@ -391,7 +391,17 @@ function draw(ctx, u, tr) {
   const st = STAGE(tr);
   ctx.drawImage(BG.base, 0, 0); floaters(ctx, tr);
   ctx.save(); ctx.translate(0, DY);
-  if (tr < QZ[0].q0) {
+  if (LETTRE && tr < QZ[0].q0) { // intro lettre : la liste vide + carte « Toutes les réponses commencent par … »
+    lettreList(ctx, -1, tr);
+    const k = spring(tr - 0.1, SPRING.snappy), out = 1 - sm((tr - (QZ[0].q0 - 0.6)) / 0.35), pk = spring(tr - 0.45, SPRING.bouncy);
+    ctx.save(); ctx.globalAlpha = clamp(Math.min(k * 1.4, out)); ctx.translate(0, (1 - k) * 100);
+    glass(ctx, ROW.x, 1080, ROW.w, 330, 34);
+    SPACED(ctx, 'TOUTES LES RÉPONSES', W / 2, 1140, 36, 'rgba(255,255,255,0.85)', 5, 800);
+    SPACED(ctx, 'COMMENCENT PAR', W / 2, 1190, 36, 'rgba(255,255,255,0.85)', 5, 800);
+    ctx.save(); ctx.translate(W / 2, 1310); ctx.scale(pk, pk); ctx.shadowColor = RGBA(ACC, 0.8); ctx.shadowBlur = 50; ctx.font = font(170, 900, DISPLAY); ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+    ctx.fillStyle = lgrad(ctx, -80, 0, 80, 0, [[0, ACC], [1, ACC2]]); ctx.fillText(LTR, 0, 6); ctx.restore();
+    ctx.restore();
+  } else if (tr < QZ[0].q0) {
     const out = 1 - sm((tr - (QZ[0].lv ? QZ[0].lv[0] - 0.5 : QZ[0].q0 - 0.9)) / 0.4);
     if (out > 0.01) { ctx.save(); ctx.globalAlpha = out;
       const p0 = spring(tr - 0.15, SPRING.snappy), p1 = spring(tr - 0.35, SPRING.snappy), p2 = spring(tr - 0.8, SPRING.snappy);

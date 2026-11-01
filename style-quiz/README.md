@@ -95,7 +95,8 @@ qui se remplit (la réponse s'écrit en vert), des tirets d'indice (une case par
 dans la carte du bas avec le minuteur de 5 s, puis la liste complète + « ?/10 » + S'abonner à la fin. ≈ 1 min 40.
 Modèle : `adultes/episode-lettre-p.json` — `"mode": "lettre"`, `"letter"`, `"banner": "Quiz lettre X"`, `"icon": "🧠"`, et pour chaque
 question : `q` (lue), `qd` (affichée), `answer` (mot affiché, commence par la lettre ; court : 1 ou 2 mots), `say`, `level` (3/3/2/2).
-Pas de `a` ni de `ok`. Dans `q` lu à voix haute, écrire les sigles/symboles en lettres séparées (« P B »).
+Pas de `a` ni de `ok`. Au début, la voix annonce la lettre : `"intro": "Toutes les réponses commencent par la lettre X !"`, `"intro_speed": 0.9`
+(à l'écran : la liste vide + la grande lettre). Dans `q` lu à voix haute, écrire les sigles/symboles en lettres séparées (« P B »).
 Lettre : prendre dans `adultes/lettres_faites.json` la lettre du `pool` utilisée le moins récemment (jamais deux fois la même lettre
 le même jour) ; ne jamais reprendre une réponse déjà utilisée pour cette lettre ; ajouter l'épisode à `faites`.
 Fichier : `adultes/episode-lettre-<x>-<AAAA-MM-JJ-HH>.json` ; même commande `faire_quiz_adulte.sh`.
