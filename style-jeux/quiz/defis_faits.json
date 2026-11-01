@@ -30,6 +30,7 @@
   "L, M, M, J, V, S → D (initiales des jours de la semaine)",
   "D, R, M, F, S, L → S (initiales des notes de musique)",
   "B, C, E, G, K → M (lettres au rang premier dans l'alphabet)",
-  "1, 2, 6, 24, 120 → 720 (factorielles : ×2, ×3, ×4, ×5, ×6)"
+  "1, 2, 6, 24, 120 → 720 (factorielles : ×2, ×3, ×4, ×5, ×6)",
+  "7, 7, 4, 5, 3, 4 → 7 (nombre de lettres des mois : janvier… juillet)"
  ]
 }

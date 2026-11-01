@@ -1,0 +1,28 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : IMPOSSIBLE",
+ "suite": [
+  "7",
+  "7",
+  "4",
+  "5",
+  "3",
+  "4"
+ ],
+ "options": [
+  "5",
+  "6",
+  "3",
+  "7"
+ ],
+ "ok": 3,
+ "consigne": "Quelle est la suite ?",
+ "accroche_dite": "Seulement un pour cent des gens trouvent la suite.",
+ "question_dite": "Sept, sept, quatre, cinq, trois, quatre… Et ensuite ?",
+ "explication": "Lettres des mois : janvier 7, février 7, mars 4, avril 5, mai 3, juin 4 → juillet 7.",
+ "explication_dite": "Sept ! C'est le nombre de lettres des mois : janvier, février, mars, avril, mai, juin… et juillet, sept lettres.",
+ "fin": "Tu avais trouvé ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🧩 SUITE LOGIQUE niveau impossible : 7, 7, 4, 5, 3, 4… et ensuite ? Seuls 1 % trouvent ! 👇 #logique #enigme #quiz #suitelogique #cerveau #pourtoi"
+}
