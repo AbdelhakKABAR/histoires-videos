@@ -1,0 +1,42 @@
+{
+ "pool": [
+  "A",
+  "B",
+  "C",
+  "D",
+  "E",
+  "F",
+  "G",
+  "H",
+  "I",
+  "J",
+  "L",
+  "M",
+  "N",
+  "O",
+  "P",
+  "R",
+  "S",
+  "T",
+  "V"
+ ],
+ "faites": [
+  {
+   "lettre": "P",
+   "date": "2026-11-01",
+   "fichier": "episode-lettre-p.json",
+   "reponses": [
+    "Paris",
+    "Panda",
+    "Pétanque",
+    "Portugal",
+    "Picasso",
+    "Pluton",
+    "Phnom Penh",
+    "Pascal",
+    "Pétra",
+    "Plomb"
+   ]
+  }
+ ]
+}

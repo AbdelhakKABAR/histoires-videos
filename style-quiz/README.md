@@ -88,3 +88,14 @@ Le décor est choisi tout seul (`DECOR` dans `quiz-pro-body.js`) : `#france` dan
 tour Eiffel qui scintille, rubans tricolores) ; `#monde` → Monde (globe qui tourne, étoiles, étoile filante) ; peinture / art / musée →
 musée doré (spots, poussière dorée, cadre doré) ; intrus → néon violet-rose (hexagones qui s'allument). Pour forcer : `"decor": "france|monde|musee|intrus|aucun"`.
 Icône devant le titre : `"icon"` dans le JSON, sinon le premier émoji de `symbols`, sinon celle du décor. `"palette"` désactive le décor (ancien style).
+
+## Quiz LETTRE (1er nov. 2026, demande de l'utilisateur) — même design, 2 par jour (13 h et 19 h)
+Inspiré des vidéos « Quiz lettre J » : toutes les réponses commencent par la même lettre. À l'écran : la liste « 1. P … 10. P »
+qui se remplit (la réponse s'écrit en vert), des tirets d'indice (une case par lettre) sur la question en cours, la question
+dans la carte du bas avec le minuteur de 5 s, puis la liste complète + « ?/10 » + S'abonner à la fin. ≈ 1 min 40.
+Modèle : `adultes/episode-lettre-p.json` — `"mode": "lettre"`, `"letter"`, `"banner": "Quiz lettre X"`, `"icon": "🧠"`, et pour chaque
+question : `q` (lue), `qd` (affichée), `answer` (mot affiché, commence par la lettre ; court : 1 ou 2 mots), `say`, `level` (3/3/2/2).
+Pas de `a` ni de `ok`. Dans `q` lu à voix haute, écrire les sigles/symboles en lettres séparées (« P B »).
+Lettre : prendre dans `adultes/lettres_faites.json` la lettre du `pool` utilisée le moins récemment (jamais deux fois la même lettre
+le même jour) ; ne jamais reprendre une réponse déjà utilisée pour cette lettre ; ajouter l'épisode à `faites`.
+Fichier : `adultes/episode-lettre-<x>-<AAAA-MM-JJ-HH>.json` ; même commande `faire_quiz_adulte.sh`.
