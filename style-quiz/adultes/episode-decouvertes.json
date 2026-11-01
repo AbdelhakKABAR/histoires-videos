@@ -1,0 +1,20 @@
+{
+ "title": "Les découvertes scientifiques", "subject": "Découvertes", "banner": "Les découvertes scientifiques",
+ "symbols": ["🔬","🧪","⚛","🧬","🔭","💡","🧲","☢","🌌","📐","🧫","⚗","🪐","✦","🌍","★"],
+ "description": "🔬 Quiz Découvertes scientifiques : 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #monde #culturegenerale #sciences #decouvertes #question #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Qui a découvert la pénicilline ?", "qd": "Qui a découvert la pénicilline ?", "a": [["","Louis Pasteur"],["","Alexander Fleming"],["","Robert Koch"],["","Marie Curie"]], "ok": 1, "say": "Alexander Fleming !", "level": 0},
+  {"q": "Quel savant a formulé la théorie de la relativité ?", "qd": "Le père de la relativité ?", "a": [["","Isaac Newton"],["","Galilée"],["","Niels Bohr"],["","Albert Einstein"]], "ok": 3, "say": "Albert Einstein !", "level": 0},
+  {"q": "Qui a énoncé la loi de la gravitation universelle ?", "qd": "La loi de la gravitation universelle ?", "a": [["","Isaac Newton"],["","Copernic"],["","Kepler"],["","Archimède"]], "ok": 0, "say": "Isaac Newton !", "level": 0},
+  {"q": "Quel élément Marie Curie a-t-elle nommé en hommage à son pays natal ?", "qd": "L'élément nommé d'après la Pologne ?", "a": [["","Le radium"],["","L'uranium"],["","Le polonium"],["","Le francium"]], "ok": 2, "say": "Le polonium !", "level": 1},
+  {"q": "Qui a découvert les rayons X en 1895 ?", "qd": "La découverte des rayons X ?", "a": [["","Wilhelm Röntgen"],["","Thomas Edison"],["","Nikola Tesla"],["","Henri Becquerel"]], "ok": 0, "say": "Wilhelm Röntgen !", "level": 1},
+  {"q": "Qui a décrit la structure en double hélice de l'ADN en 1953 ?", "qd": "La double hélice de l'ADN, en 1953 ?", "a": [["","Pasteur et Koch"],["","Watson et Crick"],["","Mendel et Darwin"],["","Pierre et Marie Curie"]], "ok": 1, "say": "Watson et Crick !", "level": 1},
+  {"q": "Qui a découvert la radioactivité en 1896 ?", "qd": "La radioactivité, en 1896 ?", "a": [["","Marie Curie"],["","Ernest Rutherford"],["","Wilhelm Röntgen"],["","Henri Becquerel"]], "ok": 3, "say": "Henri Becquerel !", "level": 2},
+  {"q": "Quelle planète William Herschel a-t-il découverte en 1781 ?", "qd": "La planète découverte en 1781 ?", "a": [["","Uranus"],["","Neptune"],["","Saturne"],["","Pluton"]], "ok": 0, "say": "Uranus !", "level": 2},
+  {"q": "Qui a découvert l'électron en 1897 ?", "qd": "La découverte de l'électron ?", "a": [["","Ernest Rutherford"],["","Niels Bohr"],["","J. J. Thomson"],["","Robert Millikan"]], "ok": 2, "say": "Joseph John Thomson !", "level": 3},
+  {"q": "Qui a découvert le neutron en 1932 ?", "qd": "La découverte du neutron ?", "a": [["","Enrico Fermi"],["","James Chadwick"],["","Ernest Rutherford"],["","Wolfgang Pauli"]], "ok": 1, "say": "James Chadwick !", "level": 3}
+ ]
+}

@@ -115,7 +115,8 @@
   "Halloween",
   "Le département de chaque ville touristique",
   "La peinture",
-  "Le nom antique de chaque ville"
+  "Le nom antique de chaque ville",
+  "Les découvertes scientifiques"
  ],
  "a_faire": [
   "Les pays d'Europe",
@@ -130,7 +131,5 @@
   "Les découvertes scientifiques"
  ],
  "a_faire_france": [],
- "a_faire_monde": [
-  "Les découvertes scientifiques"
- ]
+ "a_faire_monde": []
 }
