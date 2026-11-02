@@ -1,0 +1,16 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : IMPOSSIBLE",
+ "suite": ["3", "1", "4", "1", "5", "9"],
+ "options": ["6", "3", "2", "7"],
+ "ok": 2,
+ "consigne": "Quel chiffre vient ensuite ?",
+ "accroche_dite": "Seulement un pour cent des gens trouvent la suite.",
+ "question_dite": "Trois, un, quatre, un, cinq, neuf… Et ensuite ?",
+ "explication": "Ce sont les chiffres de pi : 3,1415926… → le suivant est 2.",
+ "explication_dite": "Deux ! Ce sont les chiffres du nombre pi : trois virgule un, quatre, un, cinq, neuf, deux, six.",
+ "fin": "Tu avais trouvé ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🧩 SUITE LOGIQUE niveau impossible : 3, 1, 4, 1, 5, 9… et ensuite ? Seuls 1 % trouvent ! 👇 #logique #enigme #quiz #suitelogique #maths #cerveau #pourtoi"
+}
