@@ -1,0 +1,20 @@
+{
+ "title": "Le musée célèbre de chaque ville", "subject": "Musées", "banner": "Le musée de chaque ville",
+ "symbols": ["🏛","🖼","🎨","🗿","🏺","🖌","🎭","🗺","🇫🇷","⭐","✦","🔍","📜","🏰","✧","🎟"],
+ "description": "🏛 Quiz France : le musée célèbre de chaque ville ! 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #musee #villes #culturegenerale #art #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Dans quelle ville se trouve le musée du Louvre ?", "qd": "La ville du musée du Louvre ?", "a": [["","Lyon"],["","Paris"],["","Marseille"],["","Bordeaux"]], "ok": 1, "say": "Paris !", "level": 0},
+  {"q": "Dans quelle ville se trouve la Cité du Vin ?", "qd": "La ville de la Cité du Vin ?", "a": [["","Bordeaux"],["","Dijon"],["","Reims"],["","Beaune"]], "ok": 0, "say": "Bordeaux !", "level": 0},
+  {"q": "Dans quelle ville se trouve la Cité de l'espace ?", "qd": "La ville de la Cité de l'espace ?", "a": [["","Nantes"],["","Paris"],["","Toulouse"],["","Marseille"]], "ok": 2, "say": "Toulouse !", "level": 0},
+  {"q": "Dans quelle ville se trouve le MuCEM ?", "qd": "La ville du MuCEM ?", "a": [["","Nice"],["","Montpellier"],["","Toulon"],["","Marseille"]], "ok": 3, "say": "Marseille !", "level": 1},
+  {"q": "Dans quelle ville se trouve le musée des Confluences ?", "qd": "La ville du musée des Confluences ?", "a": [["","Lyon"],["","Grenoble"],["","Strasbourg"],["","Nantes"]], "ok": 0, "say": "Lyon !", "level": 1},
+  {"q": "Dans quelle ville se trouve le musée Unterlinden ?", "qd": "La ville du musée Unterlinden ?", "a": [["","Strasbourg"],["","Colmar"],["","Mulhouse"],["","Nancy"]], "ok": 1, "say": "Colmar !", "level": 1},
+  {"q": "Dans quelle ville se trouve le musée Toulouse-Lautrec ?", "qd": "La ville du musée Toulouse-Lautrec ?", "a": [["","Toulouse"],["","Montauban"],["","Albi"],["","Carcassonne"]], "ok": 2, "say": "Albi !", "level": 2},
+  {"q": "Dans quelle ville se trouve le musée Soulages ?", "qd": "La ville du musée Soulages ?", "a": [["","Sète"],["","Albi"],["","Montpellier"],["","Rodez"]], "ok": 3, "say": "Rodez !", "level": 2},
+  {"q": "Dans quelle ville se trouve le musée La Piscine ?", "qd": "La ville du musée La Piscine ?", "a": [["","Roubaix"],["","Lille"],["","Tourcoing"],["","Amiens"]], "ok": 0, "say": "Roubaix !", "level": 3},
+  {"q": "Dans quelle ville se trouve le musée Fabre ?", "qd": "La ville du musée Fabre ?", "a": [["","Nîmes"],["","Avignon"],["","Montpellier"],["","Perpignan"]], "ok": 2, "say": "Montpellier !", "level": 3}
+ ]
+}
