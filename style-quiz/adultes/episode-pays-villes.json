@@ -1,0 +1,20 @@
+{
+ "title": "Le pays de chaque ville", "subject": "Pays des villes", "banner": "Le pays de chaque ville",
+ "symbols": ["🌍","🏙","🗺","🧭","🌎","✈","🏛","🌐","📍","✦","🌏","🕌","⛩","✧","🗼","⭐"],
+ "description": "🌍 Quiz : dans quel pays se trouve chaque ville ? 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #monde #culturegenerale #geographie #villes #pays #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Dans quel pays se trouve la ville de Marrakech ?", "qd": "Le pays de Marrakech ?", "a": [["","L'Algérie"],["","La Tunisie"],["","Le Maroc"],["","L'Égypte"]], "ok": 2, "say": "Le Maroc !", "level": 0},
+  {"q": "Dans quel pays se trouve la ville de Sydney ?", "qd": "Le pays de Sydney ?", "a": [["","La Nouvelle-Zélande"],["","L'Australie"],["","L'Afrique du Sud"],["","Le Canada"]], "ok": 1, "say": "L'Australie !", "level": 0},
+  {"q": "Dans quel pays se trouve la ville de Rio de Janeiro ?", "qd": "Le pays de Rio de Janeiro ?", "a": [["","Le Brésil"],["","L'Argentine"],["","Le Portugal"],["","Le Mexique"]], "ok": 0, "say": "Le Brésil !", "level": 0},
+  {"q": "Dans quel pays se trouve la ville de Tombouctou ?", "qd": "Le pays de Tombouctou ?", "a": [["","Le Niger"],["","Le Mali"],["","Le Tchad"],["","Le Sénégal"]], "ok": 1, "say": "Le Mali !", "level": 1},
+  {"q": "Dans quel pays se trouve la ville de Cracovie ?", "qd": "Le pays de Cracovie ?", "a": [["","La Tchéquie"],["","La Hongrie"],["","La Slovaquie"],["","La Pologne"]], "ok": 3, "say": "La Pologne !", "level": 1},
+  {"q": "Dans quel pays se trouve la ville de Valparaíso ?", "qd": "Le pays de Valparaíso ?", "a": [["","Le Pérou"],["","L'Argentine"],["","Le Chili"],["","La Colombie"]], "ok": 2, "say": "Le Chili !", "level": 1},
+  {"q": "Dans quel pays se trouve la ville de Samarcande ?", "qd": "Le pays de Samarcande ?", "a": [["","L'Ouzbékistan"],["","Le Turkménistan"],["","Le Kazakhstan"],["","L'Afghanistan"]], "ok": 0, "say": "L'Ouzbékistan !", "level": 2},
+  {"q": "Dans quel pays se trouve la ville de Bergen ?", "qd": "Le pays de Bergen ?", "a": [["","La Suède"],["","Le Danemark"],["","La Finlande"],["","La Norvège"]], "ok": 3, "say": "La Norvège !", "level": 2},
+  {"q": "Dans quel pays se trouve la ville d'Ushuaïa, au bout du monde ?", "qd": "Le pays d'Ushuaïa ?", "a": [["","Le Chili"],["","L'Argentine"],["","L'Uruguay"],["","Le Paraguay"]], "ok": 1, "say": "L'Argentine !", "level": 3},
+  {"q": "Dans quel pays se trouve la ville de Mostar et son vieux pont ?", "qd": "Le pays de Mostar ?", "a": [["","La Croatie"],["","La Serbie"],["","La Bosnie-Herzégovine"],["","Le Monténégro"]], "ok": 2, "say": "La Bosnie-Herzégovine !", "level": 3}
+ ]
+}
