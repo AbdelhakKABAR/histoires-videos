@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, du facile à l'impossible… la dernière piège presque tout le monde ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quelle est l'intruse : le carré, le triangle, la sphère ou le losange ?",
+   "qd": "L'intruse parmi ces formes ?",
+   "a": [
+    [
+     "",
+     "Le carré"
+    ],
+    [
+     "",
+     "Le triangle"
+    ],
+    [
+     "",
+     "La sphère"
+    ],
+    [
+     "",
+     "Le losange"
+    ]
+   ],
+   "ok": 2,
+   "say": "La sphère ! C'est un volume, les autres sont des figures planes.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le chat, le loup, le renard ou le chacal ?",
+   "qd": "L'intrus parmi ces animaux ?",
+   "a": [
+    [
+     "",
+     "Le chat"
+    ],
+    [
+     "",
+     "Le loup"
+    ],
+    [
+     "",
+     "Le renard"
+    ],
+    [
+     "",
+     "Le chacal"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le chat ! C'est un félin, les autres sont des canidés.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le marathon, le saut en longueur, le slalom ou le cent mètres ?",
+   "qd": "L'intrus parmi ces épreuves ?",
+   "a": [
+    [
+     "",
+     "Le marathon"
+    ],
+    [
+     "",
+     "Le saut en longueur"
+    ],
+    [
+     "",
+     "Le 100 m"
+    ],
+    [
+     "",
+     "Le slalom"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le slalom ! C'est du ski, les autres sont de l'athlétisme.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : clou, cou, chou ou sou ?",
+   "qd": "L'intrus au pluriel ?",
+   "a": [
+    [
+     "",
+     "Clou"
+    ],
+    [
+     "",
+     "Cou"
+    ],
+    [
+     "",
+     "Sou"
+    ],
+    [
+     "",
+     "Chou"
+    ]
+   ],
+   "ok": 3,
+   "say": "Chou ! Au pluriel il prend un x : des choux.",
+   "level": 1
+  },
+  {
+   "q": "Quelle est l'intruse : Rabat, Alger, Casablanca ou Tunis ?",
+   "qd": "L'intruse parmi ces villes ?",
+   "a": [
+    [
+     "",
+     "Rabat"
+    ],
+    [
+     "",
+     "Casablanca"
+    ],
+    [
+     "",
+     "Alger"
+    ],
+    [
+     "",
+     "Tunis"
+    ]
+   ],
+   "ok": 1,
+   "say": "Casablanca ! Ce n'est pas une capitale.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : Jules César, Hannibal, Néron ou Auguste ?",
+   "qd": "L'intrus de l'Antiquité ?",
+   "a": [
+    [
+     "",
+     "Jules César"
+    ],
+    [
+     "",
+     "Néron"
+    ],
+    [
+     "",
+     "Hannibal"
+    ],
+    [
+     "",
+     "Auguste"
+    ]
+   ],
+   "ok": 2,
+   "say": "Hannibal ! Il était carthaginois, les autres étaient romains.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : l'acier, le laiton, l'étain ou le bronze ?",
+   "qd": "L'intrus parmi ces métaux ?",
+   "a": [
+    [
+     "",
+     "L'acier"
+    ],
+    [
+     "",
+     "L'étain"
+    ],
+    [
+     "",
+     "Le laiton"
+    ],
+    [
+     "",
+     "Le bronze"
+    ]
+   ],
+   "ok": 1,
+   "say": "L'étain ! C'est un élément pur, les autres sont des alliages.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : le koala, le wombat, l'opossum ou le hérisson ?",
+   "qd": "L'intrus parmi ces animaux ?",
+   "a": [
+    [
+     "",
+     "Le koala"
+    ],
+    [
+     "",
+     "Le wombat"
+    ],
+    [
+     "",
+     "Le hérisson"
+    ],
+    [
+     "",
+     "L'opossum"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le hérisson ! Les trois autres sont des marsupiaux.",
+   "level": 2
+  },
+  {
+   "q": "Quelle est l'intruse : Canberra, Ottawa, Brasilia ou Moscou ?",
+   "qd": "L'intruse parmi ces capitales ?",
+   "a": [
+    [
+     "",
+     "Moscou"
+    ],
+    [
+     "",
+     "Canberra"
+    ],
+    [
+     "",
+     "Ottawa"
+    ],
+    [
+     "",
+     "Brasilia"
+    ]
+   ],
+   "ok": 0,
+   "say": "Moscou ! C'est la plus grande ville de son pays, pas les autres.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : la Turquie, la Russie, l'Iran ou le Kazakhstan ?",
+   "qd": "L'intrus parmi ces pays ?",
+   "a": [
+    [
+     "",
+     "La Turquie"
+    ],
+    [
+     "",
+     "La Russie"
+    ],
+    [
+     "",
+     "Le Kazakhstan"
+    ],
+    [
+     "",
+     "L'Iran"
+    ]
+   ],
+   "ok": 3,
+   "say": "L'Iran ! Les autres sont à la fois en Europe et en Asie.",
+   "level": 3
+  }
+ ]
+}
