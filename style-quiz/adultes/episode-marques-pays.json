@@ -1,0 +1,20 @@
+{
+ "title": "Le pays de chaque marque", "subject": "Marques", "banner": "Le pays de chaque marque",
+ "symbols": ["🏷","🌍","🚗","📱","🧱","🏎","🛋","🍺","👗","🧴","🌐","⭐","✦","🗺","✧","🛍"],
+ "description": "🏷 Quiz Monde : de quel pays vient chaque marque ? 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #monde #culturegenerale #marques #pays #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "De quel pays vient la marque Toyota ?", "qd": "Le pays de Toyota ?", "a": [["","La Chine"],["","Le Japon"],["","La Corée du Sud"],["","L'Allemagne"]], "ok": 1, "say": "Le Japon !", "level": 0},
+  {"q": "De quel pays vient la marque Ikea ?", "qd": "Le pays d'Ikea ?", "a": [["","La Suède"],["","La Norvège"],["","Le Danemark"],["","La Finlande"]], "ok": 0, "say": "La Suède !", "level": 0},
+  {"q": "De quel pays vient la marque Ferrari ?", "qd": "Le pays de Ferrari ?", "a": [["","L'Espagne"],["","La France"],["","L'Italie"],["","L'Allemagne"]], "ok": 2, "say": "L'Italie !", "level": 0},
+  {"q": "De quel pays vient la marque Lego ?", "qd": "Le pays de Lego ?", "a": [["","La Suède"],["","L'Allemagne"],["","Les Pays-Bas"],["","Le Danemark"]], "ok": 3, "say": "Le Danemark !", "level": 1},
+  {"q": "De quel pays vient la marque Nokia ?", "qd": "Le pays de Nokia ?", "a": [["","La Finlande"],["","La Suède"],["","La Norvège"],["","Le Japon"]], "ok": 0, "say": "La Finlande !", "level": 1},
+  {"q": "De quel pays vient la marque Samsung ?", "qd": "Le pays de Samsung ?", "a": [["","Le Japon"],["","La Corée du Sud"],["","La Chine"],["","Taïwan"]], "ok": 1, "say": "La Corée du Sud !", "level": 1},
+  {"q": "De quel pays vient la marque de bière Heineken ?", "qd": "Le pays de Heineken ?", "a": [["","La Belgique"],["","L'Allemagne"],["","Les Pays-Bas"],["","Le Danemark"]], "ok": 2, "say": "Les Pays-Bas !", "level": 2},
+  {"q": "De quel pays vient la marque de vêtements Zara ?", "qd": "Le pays de Zara ?", "a": [["","L'Italie"],["","Le Portugal"],["","La France"],["","L'Espagne"]], "ok": 3, "say": "L'Espagne !", "level": 2},
+  {"q": "De quel pays vient la marque Nivea ?", "qd": "Le pays de Nivea ?", "a": [["","L'Allemagne"],["","La France"],["","La Suisse"],["","L'Autriche"]], "ok": 0, "say": "L'Allemagne !", "level": 3},
+  {"q": "De quel pays vient la marque automobile Skoda ?", "qd": "Le pays de Skoda ?", "a": [["","La Pologne"],["","La Hongrie"],["","La Tchéquie"],["","La Slovaquie"]], "ok": 2, "say": "La Tchéquie !", "level": 3}
+ ]
+}
