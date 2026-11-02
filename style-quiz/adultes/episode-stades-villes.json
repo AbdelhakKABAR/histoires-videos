@@ -1,0 +1,20 @@
+{
+ "title": "Le stade de chaque ville", "subject": "Stades", "banner": "Le stade de chaque ville",
+ "symbols": ["🏟️","⚽","🥅","🏆","⭐","🎫","📣","🧤","👟","🏁","🔥","🎉","🇫🇷","⚡","🥇","📯"],
+ "description": "🏟️ Quiz France : le stade de chaque ville ! 10 questions, du niveau facile à impossible. Tu connais tes stades ? Donne ton score en commentaire 👇 #france #quiz #quiztime #football #stade #ligue1 #culturegenerale #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel est le stade de l'Olympique de Marseille ?", "qd": "Le stade de Marseille ?", "a": [["","Le Parc des Princes"],["","Le Vélodrome"],["","Geoffroy-Guichard"],["","La Beaujoire"]], "ok": 1, "say": "Le Vélodrome !", "level": 0},
+  {"q": "Dans quel stade joue le Paris Saint-Germain ?", "qd": "Le stade du PSG à Paris ?", "a": [["","Le Parc des Princes"],["","Le Stade de France"],["","Le stade Charléty"],["","Le Vélodrome"]], "ok": 0, "say": "Le Parc des Princes !", "level": 0},
+  {"q": "Quel stade surnommé le Chaudron se trouve à Saint-Étienne ?", "qd": "Le « Chaudron » de Saint-Étienne ?", "a": [["","La Meinau"],["","Bollaert-Delelis"],["","Geoffroy-Guichard"],["","Le Moustoir"]], "ok": 2, "say": "Le stade Geoffroy-Guichard !", "level": 0},
+  {"q": "Quel est le stade du Racing Club de Lens ?", "qd": "Le stade de Lens ?", "a": [["","Pierre-Mauroy"],["","Auguste-Delaune"],["","La Mosson"],["","Bollaert-Delelis"]], "ok": 3, "say": "Le stade Bollaert-Delelis !", "level": 1},
+  {"q": "Quel est le stade du Racing Club de Strasbourg ?", "qd": "Le stade de Strasbourg ?", "a": [["","La Meinau"],["","Marcel-Picot"],["","Saint-Symphorien"],["","Le Roudourou"]], "ok": 0, "say": "Le stade de la Meinau !", "level": 1},
+  {"q": "Quel est le stade du FC Nantes ?", "qd": "Le stade de Nantes ?", "a": [["","Le Moustoir"],["","La Beaujoire"],["","Raymond-Kopa"],["","Francis-Le Blé"]], "ok": 1, "say": "Le stade de la Beaujoire !", "level": 1},
+  {"q": "Quel est le grand stade du LOSC, le club de Lille ?", "qd": "Le grand stade de Lille ?", "a": [["","Bollaert-Delelis"],["","Le Hainaut"],["","Pierre-Mauroy"],["","Auguste-Delaune"]], "ok": 2, "say": "Le stade Pierre-Mauroy !", "level": 2},
+  {"q": "Quel est le stade du Stade de Reims ?", "qd": "Le stade de Reims ?", "a": [["","Gaston-Gérard"],["","L'Abbé-Deschamps"],["","Marcel-Picot"],["","Auguste-Delaune"]], "ok": 3, "say": "Le stade Auguste-Delaune !", "level": 2},
+  {"q": "Quel est le stade du Stade brestois ?", "qd": "Le stade de Brest ?", "a": [["","Francis-Le Blé"],["","Le Moustoir"],["","Le Roudourou"],["","Raymond-Kopa"]], "ok": 0, "say": "Le stade Francis-Le Blé !", "level": 3},
+  {"q": "Quel est le stade de l'AJ Auxerre ?", "qd": "Le stade d'Auxerre ?", "a": [["","Gaston-Gérard"],["","Bonal"],["","L'Abbé-Deschamps"],["","Gabriel-Montpied"]], "ok": 2, "say": "Le stade de l'Abbé-Deschamps !", "level": 3}
+ ]
+}
