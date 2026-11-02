@@ -1,0 +1,20 @@
+{
+ "title": "Le pays de chaque compositeur", "subject": "Compositeurs", "banner": "Le pays de chaque compositeur",
+ "symbols": ["🎼","🎻","🎹","🌍","🎺","🎵","🎶","🥁","🌐","🎷","✦","🎤","🗺","★","🪕","✧"],
+ "description": "🎼 Quiz Monde : de quel pays vient chaque grand compositeur ? 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #monde #culturegenerale #musique #musiqueclassique #compositeur #quiztime #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "De quel pays était originaire le compositeur Vivaldi ?", "qd": "Vivaldi venait de quel pays ?", "a": [["","L'Espagne"],["","L'Italie"],["","L'Autriche"],["","La Grèce"]], "ok": 1, "say": "L'Italie !", "level": 0},
+  {"q": "De quel pays était originaire le compositeur Chopin ?", "qd": "Chopin venait de quel pays ?", "a": [["","La Pologne"],["","L'Autriche"],["","La Hongrie"],["","L'Allemagne"]], "ok": 0, "say": "La Pologne !", "level": 0},
+  {"q": "De quel pays était originaire le compositeur Tchaïkovski ?", "qd": "Tchaïkovski venait de quel pays ?", "a": [["","La Bulgarie"],["","La Pologne"],["","La Russie"],["","La Serbie"]], "ok": 2, "say": "La Russie !", "level": 0},
+  {"q": "De quel pays était originaire le compositeur Beethoven ?", "qd": "Beethoven venait de quel pays ?", "a": [["","La Suisse"],["","Les Pays-Bas"],["","La Belgique"],["","L'Allemagne"]], "ok": 3, "say": "L'Allemagne !", "level": 1},
+  {"q": "De quel pays était originaire le compositeur Edvard Grieg ?", "qd": "Edvard Grieg venait de quel pays ?", "a": [["","La Suède"],["","La Norvège"],["","Le Danemark"],["","L'Islande"]], "ok": 1, "say": "La Norvège !", "level": 1},
+  {"q": "De quel pays était originaire Astor Piazzolla, le maître du tango ?", "qd": "Astor Piazzolla venait de quel pays ?", "a": [["","L'Argentine"],["","L'Uruguay"],["","Le Chili"],["","L'Espagne"]], "ok": 0, "say": "L'Argentine !", "level": 1},
+  {"q": "De quel pays était originaire le compositeur Jean Sibelius ?", "qd": "Jean Sibelius venait de quel pays ?", "a": [["","L'Estonie"],["","La Suède"],["","La Finlande"],["","La Lettonie"]], "ok": 2, "say": "La Finlande !", "level": 2},
+  {"q": "De quel pays était originaire le compositeur Antonín Dvořák ?", "qd": "Antonín Dvořák venait de quel pays ?", "a": [["","La Croatie"],["","La Slovénie"],["","La Pologne"],["","La Tchéquie"]], "ok": 3, "say": "La Tchéquie !", "level": 2},
+  {"q": "De quel pays était originaire le compositeur Heitor Villa-Lobos ?", "qd": "Heitor Villa-Lobos venait de quel pays ?", "a": [["","Le Portugal"],["","Le Brésil"],["","Le Mexique"],["","Cuba"]], "ok": 1, "say": "Le Brésil !", "level": 3},
+  {"q": "De quel pays était originaire le compositeur Isaac Albéniz ?", "qd": "Isaac Albéniz venait de quel pays ?", "a": [["","L'Espagne"],["","Le Portugal"],["","L'Argentine"],["","Le Mexique"]], "ok": 0, "say": "L'Espagne !", "level": 3}
+ ]
+}
