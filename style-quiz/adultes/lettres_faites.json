@@ -37,6 +37,23 @@
     "Pétra",
     "Plomb"
    ]
+  },
+  {
+   "lettre": "A",
+   "date": "2026-11-02",
+   "fichier": "episode-lettre-a-2026-11-02-13.json",
+   "reponses": [
+    "Abeille",
+    "Abricot",
+    "Athènes",
+    "Argentine",
+    "Avatar",
+    "Azote",
+    "Addis-Abeba",
+    "Archimède",
+    "Aconcagua",
+    "Ampère"
+   ]
   }
  ]
 }

@@ -1,0 +1,110 @@
+{
+ "title": "Quiz lettre A",
+ "subject": "Lettre A",
+ "banner": "Quiz lettre A",
+ "mode": "lettre",
+ "letter": "A",
+ "icon": "🧠",
+ "symbols": [
+  "A",
+  "E",
+  "B",
+  "C",
+  "?",
+  "!",
+  "★",
+  "✦",
+  "A",
+  "Z",
+  "M",
+  "?",
+  "●",
+  "◆",
+  "A",
+  "✧"
+ ],
+ "description": "🔤 QUIZ LETTRE A : toutes les réponses commencent par A ! 10 questions, du facile à l'impossible. Écris ton score sur 10 en commentaire 👇 #quiz #quizlettre #culturegenerale #quiztime #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel insecte fabrique le miel ?",
+   "qd": "Insecte qui fabrique le miel ?",
+   "answer": "Abeille",
+   "say": "L'abeille !",
+   "level": 0
+  },
+  {
+   "q": "Quel fruit orange pousse sur l'abricotier ?",
+   "qd": "Fruit de l'abricotier ?",
+   "answer": "Abricot",
+   "say": "L'abricot !",
+   "level": 0
+  },
+  {
+   "q": "Quelle est la capitale de la Grèce ?",
+   "qd": "Capitale de la Grèce ?",
+   "answer": "Athènes",
+   "say": "Athènes !",
+   "level": 0
+  },
+  {
+   "q": "Quel pays a pour capitale Buenos Aires ?",
+   "qd": "Pays dont la capitale est Buenos Aires ?",
+   "answer": "Argentine",
+   "say": "L'Argentine !",
+   "level": 1
+  },
+  {
+   "q": "Quel film de James Cameron se déroule sur la planète Pandora ?",
+   "qd": "Film de James Cameron sur la planète Pandora ?",
+   "answer": "Avatar",
+   "say": "Avatar !",
+   "level": 1
+  },
+  {
+   "q": "Quel gaz représente environ 78 % de l'air que nous respirons ?",
+   "qd": "Gaz qui forme 78 % de l'air ?",
+   "answer": "Azote",
+   "say": "L'azote !",
+   "level": 1
+  },
+  {
+   "q": "Quelle est la capitale de l'Éthiopie ?",
+   "qd": "Capitale de l'Éthiopie ?",
+   "answer": "Addis-Abeba",
+   "say": "Addis-Abeba !",
+   "level": 2
+  },
+  {
+   "q": "Quel savant grec se serait écrié « Eurêka » dans son bain ?",
+   "qd": "Savant grec du « Eurêka » ?",
+   "answer": "Archimède",
+   "say": "Archimède !",
+   "level": 2
+  },
+  {
+   "q": "Quel est le plus haut sommet d'Amérique du Sud ?",
+   "qd": "Plus haut sommet d'Amérique du Sud ?",
+   "answer": "Aconcagua",
+   "say": "L'Aconcagua !",
+   "level": 3
+  },
+  {
+   "q": "Quelle unité mesure l'intensité du courant électrique ?",
+   "qd": "Unité d'intensité du courant électrique ?",
+   "answer": "Ampère",
+   "say": "L'ampère !",
+   "level": 3
+  }
+ ],
+ "intro": "Toutes les réponses commencent par la lettre A !",
+ "intro_speed": 0.9
+}
