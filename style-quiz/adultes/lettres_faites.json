@@ -54,6 +54,23 @@
     "Aconcagua",
     "Ampère"
    ]
+  },
+  {
+   "lettre": "B",
+   "date": "2026-11-02",
+   "fichier": "episode-lettre-b-2026-11-02-19.json",
+   "reponses": [
+    "Bruxelles",
+    "Banane",
+    "Baguette",
+    "Brésil",
+    "Beethoven",
+    "Badminton",
+    "Bouillabaisse",
+    "Botticelli",
+    "Bore",
+    "Belgrade"
+   ]
   }
  ]
 }

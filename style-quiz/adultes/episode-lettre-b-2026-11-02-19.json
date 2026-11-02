@@ -1,0 +1,110 @@
+{
+ "title": "Quiz lettre B",
+ "subject": "Lettre B",
+ "banner": "Quiz lettre B",
+ "mode": "lettre",
+ "letter": "B",
+ "icon": "🧠",
+ "symbols": [
+  "B",
+  "A",
+  "B",
+  "C",
+  "?",
+  "!",
+  "★",
+  "✦",
+  "B",
+  "Z",
+  "M",
+  "?",
+  "●",
+  "◆",
+  "B",
+  "✧"
+ ],
+ "description": "🔤 QUIZ LETTRE B : toutes les réponses commencent par B ! 10 questions, du facile à l'impossible. Écris ton score sur 10 en commentaire 👇 #quiz #quizlettre #culturegenerale #quiztime #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quelle est la capitale de la Belgique ?",
+   "qd": "Capitale de la Belgique ?",
+   "answer": "Bruxelles",
+   "say": "Bruxelles !",
+   "level": 0
+  },
+  {
+   "q": "Quel fruit jaune et allongé pousse en régime ?",
+   "qd": "Fruit jaune qui pousse en régime ?",
+   "answer": "Banane",
+   "say": "La banane !",
+   "level": 0
+  },
+  {
+   "q": "Quel pain long et fin est le symbole de la boulangerie française ?",
+   "qd": "Pain long et fin, symbole français ?",
+   "answer": "Baguette",
+   "say": "La baguette !",
+   "level": 0
+  },
+  {
+   "q": "Quel pays a pour capitale Brasilia ?",
+   "qd": "Pays dont la capitale est Brasilia ?",
+   "answer": "Brésil",
+   "say": "Le Brésil !",
+   "level": 1
+  },
+  {
+   "q": "Quel compositeur allemand a écrit l'Hymne à la joie, dans sa neuvième symphonie ?",
+   "qd": "Compositeur de l'Hymne à la joie ?",
+   "answer": "Beethoven",
+   "say": "Beethoven !",
+   "level": 1
+  },
+  {
+   "q": "Quel sport se joue avec des raquettes et un volant ?",
+   "qd": "Sport avec raquettes et volant ?",
+   "answer": "Badminton",
+   "say": "Le badminton !",
+   "level": 1
+  },
+  {
+   "q": "Quelle soupe de poissons est la grande spécialité de Marseille ?",
+   "qd": "Soupe de poissons de Marseille ?",
+   "answer": "Bouillabaisse",
+   "say": "La bouillabaisse !",
+   "level": 2
+  },
+  {
+   "q": "Quel peintre italien a peint La Naissance de Vénus ?",
+   "qd": "Peintre de La Naissance de Vénus ?",
+   "answer": "Botticelli",
+   "say": "Botticelli !",
+   "level": 2
+  },
+  {
+   "q": "Quel élément chimique porte le numéro atomique 5 ?",
+   "qd": "Élément chimique numéro 5 ?",
+   "answer": "Bore",
+   "say": "Le bore !",
+   "level": 3
+  },
+  {
+   "q": "Quelle est la capitale de la Serbie ?",
+   "qd": "Capitale de la Serbie ?",
+   "answer": "Belgrade",
+   "say": "Belgrade !",
+   "level": 3
+  }
+ ],
+ "intro": "Toutes les réponses commencent par la lettre B !",
+ "intro_speed": 0.9
+}
