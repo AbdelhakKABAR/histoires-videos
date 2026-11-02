@@ -1,0 +1,20 @@
+{
+ "title": "Le nom des habitants de chaque département", "subject": "Habitants", "banner": "Les habitants du département",
+ "symbols": ["🗺","📍","🏘","👥","🇫🇷","🧭","⛰","🌊","🏰","🌾","⚓","🍷","🚲","✦","★","🏞"],
+ "description": "👥 Quiz France : comment s'appellent les habitants de chaque département ? 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #quiztime #france #departements #gentiles #culturegenerale #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Comment appelle-t-on les habitants de la Savoie ?", "qd": "Les habitants de la Savoie ?", "a": [["","Les Auvergnats"],["","Les Savoyards"],["","Les Dauphinois"],["","Les Jurassiens"]], "ok": 1, "say": "Les Savoyards !", "level": 0},
+  {"q": "Comment appelle-t-on les habitants de la Vendée ?", "qd": "Les habitants de la Vendée ?", "a": [["","Les Vendéens"],["","Les Vosgiens"],["","Les Vauclusiens"],["","Les Charentais"]], "ok": 0, "say": "Les Vendéens !", "level": 0},
+  {"q": "Comment appelle-t-on les habitants de l'Ardèche ?", "qd": "Les habitants de l'Ardèche ?", "a": [["","Les Ardennais"],["","Les Drômois"],["","Les Cévenols"],["","Les Ardéchois"]], "ok": 3, "say": "Les Ardéchois !", "level": 0},
+  {"q": "Comment appelle-t-on les habitants de l'Aveyron ?", "qd": "Les habitants de l'Aveyron ?", "a": [["","Les Avignonnais"],["","Les Ariégeois"],["","Les Aveyronnais"],["","Les Auxerrois"]], "ok": 2, "say": "Les Aveyronnais !", "level": 1},
+  {"q": "Comment appelle-t-on les habitants du Finistère ?", "qd": "Les habitants du Finistère ?", "a": [["","Les Morbihannais"],["","Les Finistériens"],["","Les Mayennais"],["","Les Manchois"]], "ok": 1, "say": "Les Finistériens !", "level": 1},
+  {"q": "Comment appelle-t-on les habitants des Landes ?", "qd": "Les habitants des Landes ?", "a": [["","Les Girondins"],["","Les Gersois"],["","Les Béarnais"],["","Les Landais"]], "ok": 3, "say": "Les Landais !", "level": 1},
+  {"q": "Comment appelle-t-on les habitants des Hauts-de-Seine ?", "qd": "Les habitants des Hauts-de-Seine ?", "a": [["","Les Altoséquanais"],["","Les Yvelinois"],["","Les Essonniens"],["","Les Valdoisiens"]], "ok": 0, "say": "Les Altoséquanais !", "level": 2},
+  {"q": "Comment appelle-t-on les habitants des Côtes-d'Armor ?", "qd": "Les habitants des Côtes-d'Armor ?", "a": [["","Les Brestois"],["","Les Malouins"],["","Les Costarmoricains"],["","Les Morbihannais"]], "ok": 2, "say": "Les Costarmoricains !", "level": 2},
+  {"q": "Comment appelle-t-on les habitants de la Seine-Saint-Denis ?", "qd": "Les habitants de la Seine-Saint-Denis ?", "a": [["","Les Val-de-Marnais"],["","Les Séquano-Dionysiens"],["","Les Seine-et-Marnais"],["","Les Valdoisiens"]], "ok": 1, "say": "Les Séquano-Dionysiens !", "level": 3},
+  {"q": "Comment appelle-t-on les habitants de l'Eure-et-Loir ?", "qd": "Les habitants de l'Eure-et-Loir ?", "a": [["","Les Eurois"],["","Les Loirétains"],["","Les Loir-et-Chériens"],["","Les Euréliens"]], "ok": 3, "say": "Les Euréliens !", "level": 3}
+ ]
+}
