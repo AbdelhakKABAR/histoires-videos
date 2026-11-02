@@ -1,0 +1,21 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : IMPOSSIBLE",
+ "mot": "MARIANNE",
+ "categorie": "Un symbole français",
+ "categorie_dite": "Catégorie : un symbole français.",
+ "accroche_dite": "Seulement un pour cent des gens trouvent ce mot avec un seul indice.",
+ "indices": [
+  "C'est une figure féminine.",
+  "Elle apparaît pendant la Révolution.",
+  "Elle porte souvent un bonnet phrygien.",
+  "Son buste trône dans les mairies.",
+  "Elle incarne la République française."
+ ],
+ "secondes_par_indice": 5,
+ "lettres_donnees": 1,
+ "dire": "Marianne",
+ "explication": "Marianne, figure symbole de la République française.",
+ "description": "🔤 MOT MYSTÈRE niveau impossible : 5 indices, 5 secondes chacun. Combien t'en a-t-il fallu ? 👇 #motmystere #quiz #france #enigme #culturegenerale #histoire #pourtoi"
+}
