@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, du facile à l'impossible… les deux dernières vont te piéger ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quelle est l'intruse : Berlin, Vienne, Lisbonne ou Porto ?",
+   "qd": "L'intruse parmi ces villes ?",
+   "a": [
+    [
+     "",
+     "Berlin"
+    ],
+    [
+     "",
+     "Vienne"
+    ],
+    [
+     "",
+     "Lisbonne"
+    ],
+    [
+     "",
+     "Porto"
+    ]
+   ],
+   "ok": 3,
+   "say": "Porto ! Ce n'est pas une capitale.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le zèbre, le kangourou, la girafe ou l'éléphant ?",
+   "qd": "L'intrus : la savane africaine ?",
+   "a": [
+    [
+     "",
+     "Le zèbre"
+    ],
+    [
+     "",
+     "Le kangourou"
+    ],
+    [
+     "",
+     "La girafe"
+    ],
+    [
+     "",
+     "L'éléphant"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le kangourou ! Il vit en Australie, pas en Afrique.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : février, janvier, mars ou mai ?",
+   "qd": "L'intrus parmi ces mois ?",
+   "a": [
+    [
+     "",
+     "Février"
+    ],
+    [
+     "",
+     "Janvier"
+    ],
+    [
+     "",
+     "Mars"
+    ],
+    [
+     "",
+     "Mai"
+    ]
+   ],
+   "ok": 0,
+   "say": "Février ! C'est le seul qui n'a pas 31 jours.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : Paris, Rouen, Orléans ou Le Havre ?",
+   "qd": "L'intruse : villes de la Seine ?",
+   "a": [
+    [
+     "",
+     "Paris"
+    ],
+    [
+     "",
+     "Rouen"
+    ],
+    [
+     "",
+     "Orléans"
+    ],
+    [
+     "",
+     "Le Havre"
+    ]
+   ],
+   "ok": 2,
+   "say": "Orléans ! Elle est sur la Loire, les autres sur la Seine.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : 16, 25, 36 ou 48 ?",
+   "qd": "L'intrus parmi ces nombres ?",
+   "a": [
+    [
+     "",
+     "16"
+    ],
+    [
+     "",
+     "25"
+    ],
+    [
+     "",
+     "36"
+    ],
+    [
+     "",
+     "48"
+    ]
+   ],
+   "ok": 3,
+   "say": "48 ! Les autres sont des carrés parfaits.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : la raclette, le cassoulet, la fondue ou la tartiflette ?",
+   "qd": "L'intrus parmi ces plats ?",
+   "a": [
+    [
+     "",
+     "La raclette"
+    ],
+    [
+     "",
+     "Le cassoulet"
+    ],
+    [
+     "",
+     "La fondue"
+    ],
+    [
+     "",
+     "La tartiflette"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le cassoulet ! Les autres sont des plats au fromage des Alpes.",
+   "level": 1
+  },
+  {
+   "q": "Quelle est l'intruse : le Japon, la Thaïlande, l'Afrique du Sud ou la Chine ?",
+   "qd": "L'intruse : sur la route ?",
+   "a": [
+    [
+     "",
+     "Le Japon"
+    ],
+    [
+     "",
+     "La Thaïlande"
+    ],
+    [
+     "",
+     "L'Afrique du Sud"
+    ],
+    [
+     "",
+     "La Chine"
+    ]
+   ],
+   "ok": 3,
+   "say": "La Chine ! On y roule à droite, les autres roulent à gauche.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : Monet, Courbet, Renoir ou Sisley ?",
+   "qd": "L'intrus parmi ces peintres ?",
+   "a": [
+    [
+     "",
+     "Monet"
+    ],
+    [
+     "",
+     "Courbet"
+    ],
+    [
+     "",
+     "Renoir"
+    ],
+    [
+     "",
+     "Sisley"
+    ]
+   ],
+   "ok": 1,
+   "say": "Courbet ! C'est un réaliste, les autres sont impressionnistes.",
+   "level": 2
+  },
+  {
+   "q": "Quelle est l'intruse : le roumain, l'albanais, l'italien ou le portugais ?",
+   "qd": "L'intruse parmi ces langues ?",
+   "a": [
+    [
+     "",
+     "Le roumain"
+    ],
+    [
+     "",
+     "L'albanais"
+    ],
+    [
+     "",
+     "L'italien"
+    ],
+    [
+     "",
+     "Le portugais"
+    ]
+   ],
+   "ok": 1,
+   "say": "L'albanais ! Les autres sont des langues latines.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : Hermès, Arès, Vulcain ou Poséidon ?",
+   "qd": "L'intrus parmi ces dieux ?",
+   "a": [
+    [
+     "",
+     "Hermès"
+    ],
+    [
+     "",
+     "Arès"
+    ],
+    [
+     "",
+     "Vulcain"
+    ],
+    [
+     "",
+     "Poséidon"
+    ]
+   ],
+   "ok": 2,
+   "say": "Vulcain ! C'est un dieu romain, les autres sont grecs.",
+   "level": 3
+  }
+ ]
+}
