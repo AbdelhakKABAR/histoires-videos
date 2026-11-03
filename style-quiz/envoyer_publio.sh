@@ -13,7 +13,9 @@ else cp "$V" "partage/$N"; fi
 find partage -name '*.mp4' -mtime +2 -exec git rm -q --cached {} \; -delete 2>/dev/null || true
 git add partage
 git -c user.name="Claude" -c user.email="noreply@anthropic.com" commit -qm "Partage Publio : $N" || true
-for i in 1 2 3; do git fetch -q origin main && git rebase -q origin/main && git push -q origin HEAD:main && break; sleep 5; done
-U="https://raw.githubusercontent.com/AbdelhakKABAR/histoires-videos/main/partage/$N"
+for i in 1 2 3; do git fetch -q origin main && git rebase -q --autostash origin/main && git push -q origin HEAD:main && break; sleep 5; done
+# lien figé sur le commit : évite le cache 404 de raw.githubusercontent.com juste après le push
+U="https://raw.githubusercontent.com/AbdelhakKABAR/histoires-videos/$(git rev-parse HEAD)/partage/$N"
 for i in $(seq 1 12); do curl -sfIL "$U" -o /dev/null && break; sleep 5; done
+curl -sfIL "$U" -o /dev/null || { echo "ERREUR : lien non joignable (push raté ?)" >&2; exit 1; }
 ls -la "partage/$N"; echo "$U"
