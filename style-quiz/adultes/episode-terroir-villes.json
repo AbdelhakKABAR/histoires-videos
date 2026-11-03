@@ -1,0 +1,20 @@
+{
+ "title": "Le produit du terroir de chaque ville", "subject": "Terroir", "banner": "Le terroir de chaque ville",
+ "symbols": ["🧀","🥖","🍷","🌶","🧂","🫘","🥓","🌰","🧄","🦪","🇫🇷","📍","🏡","🌾","🍯","🥩"],
+ "description": "🧀 Quiz France : trouve le produit du terroir de chaque ville, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #france #terroir #gastronomie #villes #culturegenerale #quiztime #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Quel produit célèbre porte le nom de Dijon ?", "qd": "Le produit célèbre de Dijon ?", "a": [["","La moutarde"],["","Le pesto"],["","Le safran"],["","Le sel"]], "ok": 0, "say": "La moutarde de Dijon !", "level": 0},
+  {"q": "Quelle charcuterie célèbre porte le nom de Bayonne ?", "qd": "La charcuterie de Bayonne ?", "a": [["","Le boudin"],["","Le saucisson"],["","Le jambon"],["","Le pâté"]], "ok": 2, "say": "Le jambon de Bayonne !", "level": 0},
+  {"q": "Quelle spécialité célèbre porte le nom du Mans ?", "qd": "La spécialité du Mans ?", "a": [["","Les crêpes"],["","Les rillettes"],["","Les tripes"],["","Les huîtres"]], "ok": 1, "say": "Les rillettes du Mans !", "level": 0},
+  {"q": "Quel légume sec célèbre vient du Puy-en-Velay ?", "qd": "Le légume sec du Puy-en-Velay ?", "a": [["","Les pois chiches"],["","Les haricots"],["","Les fèves"],["","Les lentilles vertes"]], "ok": 3, "say": "Les lentilles vertes du Puy !", "level": 1},
+  {"q": "Quelle épice célèbre porte le nom d'Espelette ?", "qd": "L'épice d'Espelette ?", "a": [["","Le piment"],["","Le poivre"],["","Le safran"],["","Le paprika"]], "ok": 0, "say": "Le piment d'Espelette !", "level": 1},
+  {"q": "Quel produit est récolté dans les marais de Guérande ?", "qd": "Le produit des marais de Guérande ?", "a": [["","Le riz"],["","Le miel"],["","Le sel"],["","Le sucre"]], "ok": 2, "say": "Le sel de Guérande !", "level": 1},
+  {"q": "Quelle charcuterie célèbre porte le nom de Troyes ?", "qd": "La charcuterie de Troyes ?", "a": [["","Le boudin blanc"],["","L'andouillette"],["","La rosette"],["","Les rillettes"]], "ok": 1, "say": "L'andouillette de Troyes !", "level": 2},
+  {"q": "Quelle charcuterie célèbre porte le nom de Morteau ?", "qd": "La charcuterie de Morteau ?", "a": [["","Le jambon"],["","La terrine"],["","Le pâté"],["","La saucisse"]], "ok": 3, "say": "La saucisse de Morteau !", "level": 2},
+  {"q": "Quel fruit à coque célèbre porte le nom de Grenoble ?", "qd": "Le fruit à coque de Grenoble ?", "a": [["","Les noisettes"],["","Les amandes"],["","Les noix"],["","Les châtaignes"]], "ok": 2, "say": "Les noix de Grenoble !", "level": 3},
+  {"q": "Quel produit célèbre porte le nom de Lautrec, dans le Tarn ?", "qd": "Le produit célèbre de Lautrec ?", "a": [["","L'ail rose"],["","L'oignon doux"],["","L'échalote"],["","Le poireau"]], "ok": 0, "say": "L'ail rose de Lautrec !", "level": 3}
+ ]
+}
