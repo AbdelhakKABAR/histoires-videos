@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-03",
+ "videos": [
+  {
+   "heure": "11:25",
+   "type": "lettre",
+   "fait": null
+  },
+  {
+   "heure": "12:13",
+   "type": "monde",
+   "fait": null
+  },
+  {
+   "heure": "13:44",
+   "type": "france",
+   "fait": null
+  },
+  {
+   "heure": "14:34",
+   "type": "monde",
+   "fait": null
+  },
+  {
+   "heure": "17:40",
+   "type": "intrus",
+   "fait": null
+  },
+  {
+   "heure": "18:25",
+   "type": "france",
+   "fait": null
+  },
+  {
+   "heure": "19:16",
+   "type": "lettre",
+   "fait": null
+  },
+  {
+   "heure": "20:55",
+   "type": "intrus",
+   "fait": null
+  }
+ ]
+}
