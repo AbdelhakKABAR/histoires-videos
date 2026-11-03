@@ -15,7 +15,8 @@
   "CAMEMBERT",
   "MINITEL",
   "VERSAILLES",
-  "MARIANNE"
+  "MARIANNE",
+  "CASSOULET"
  ],
  "suites": [
   "1, 11, 21, 1211, 111221 (suite de Conway)",
