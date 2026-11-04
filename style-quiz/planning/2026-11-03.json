@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-03",
+ "videos": [
+  {
+   "heure": "11:25",
+   "type": "lettre",
+   "fait": null
+  },
+  {
+   "heure": "12:13",
+   "type": "monde",
+   "fait": null
+  },
+  {
+   "heure": "13:44",
+   "type": "france",
+   "fait": null
+  },
+  {
+   "heure": "14:36",
+   "type": "monde",
+   "fait": "iles-pays.mp4"
+  },
+  {
+   "heure": "17:40",
+   "type": "intrus",
+   "fait": "intrus-2026-11-03-17.mp4"
+  },
+  {
+   "heure": "18:25",
+   "type": "france",
+   "fait": "terroir-villes.mp4"
+  },
+  {
+   "heure": "19:16",
+   "type": "lettre",
+   "fait": "lettre-c-2026-11-03-19.mp4"
+  },
+  {
+   "heure": "20:55",
+   "type": "intrus",
+   "fait": "intrus-2026-11-03-20.mp4"
+  }
+ ]
+}

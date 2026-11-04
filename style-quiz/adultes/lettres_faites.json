@@ -71,6 +71,23 @@
     "Bore",
     "Belgrade"
    ]
+  },
+  {
+   "lettre": "C",
+   "date": "2026-11-03",
+   "fichier": "episode-lettre-c-2026-11-03-19.json",
+   "reponses": [
+    "Chameau",
+    "Carotte",
+    "Canada",
+    "Corse",
+    "Cannes",
+    "Cuivre",
+    "Caracas",
+    "Copernic",
+    "Chisinau",
+    "Cadmium"
+   ]
   }
  ]
 }

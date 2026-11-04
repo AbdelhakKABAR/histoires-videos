@@ -1,0 +1,285 @@
+{
+ "title": "Le pays de chaque île",
+ "subject": "Îles",
+ "banner": "Le pays de chaque île",
+ "symbols": [
+  "🏝",
+  "🌊",
+  "🌍",
+  "⛵",
+  "🐚",
+  "🌴",
+  "🧭",
+  "🗺",
+  "☀",
+  "🐠",
+  "⚓",
+  "🌎",
+  "✦",
+  "🏖",
+  "🌐",
+  "★"
+ ],
+ "description": "🏝️ Quiz Monde : dans quel pays se trouve chaque île ? 10 questions, du facile à l'impossible. Ton score en commentaire 👇 #monde #culturegenerale #quiz #quiztime #geographie #iles #voyage #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Dans quel pays se trouve l'île de Sicile ?",
+   "qd": "La Sicile ?",
+   "a": [
+    [
+     "",
+     "La Grèce"
+    ],
+    [
+     "",
+     "L'Italie"
+    ],
+    [
+     "",
+     "L'Espagne"
+    ],
+    [
+     "",
+     "Malte"
+    ]
+   ],
+   "ok": 1,
+   "say": "L'Italie !",
+   "level": 0
+  },
+  {
+   "q": "Dans quel pays se trouve l'île de Bali ?",
+   "qd": "Bali ?",
+   "a": [
+    [
+     "",
+     "La Thaïlande"
+    ],
+    [
+     "",
+     "Les Philippines"
+    ],
+    [
+     "",
+     "La Malaisie"
+    ],
+    [
+     "",
+     "L'Indonésie"
+    ]
+   ],
+   "ok": 3,
+   "say": "L'Indonésie !",
+   "level": 0
+  },
+  {
+   "q": "Dans quel pays se trouve l'île de Crète ?",
+   "qd": "La Crète ?",
+   "a": [
+    [
+     "",
+     "La Grèce"
+    ],
+    [
+     "",
+     "Chypre"
+    ],
+    [
+     "",
+     "La Turquie"
+    ],
+    [
+     "",
+     "L'Italie"
+    ]
+   ],
+   "ok": 0,
+   "say": "La Grèce !",
+   "level": 0
+  },
+  {
+   "q": "Dans quel pays se trouve l'île de Majorque ?",
+   "qd": "Majorque ?",
+   "a": [
+    [
+     "",
+     "L'Italie"
+    ],
+    [
+     "",
+     "Le Portugal"
+    ],
+    [
+     "",
+     "L'Espagne"
+    ],
+    [
+     "",
+     "La France"
+    ]
+   ],
+   "ok": 2,
+   "say": "L'Espagne !",
+   "level": 1
+  },
+  {
+   "q": "Dans quel pays se trouve l'île de Tasmanie ?",
+   "qd": "La Tasmanie ?",
+   "a": [
+    [
+     "",
+     "L'Australie"
+    ],
+    [
+     "",
+     "La Nouvelle-Zélande"
+    ],
+    [
+     "",
+     "Le Canada"
+    ],
+    [
+     "",
+     "Le Chili"
+    ]
+   ],
+   "ok": 0,
+   "say": "L'Australie !",
+   "level": 1
+  },
+  {
+   "q": "Dans quel pays se trouve l'île d'Hokkaido ?",
+   "qd": "Hokkaido ?",
+   "a": [
+    [
+     "",
+     "La Corée du Sud"
+    ],
+    [
+     "",
+     "Le Japon"
+    ],
+    [
+     "",
+     "La Chine"
+    ],
+    [
+     "",
+     "La Russie"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le Japon !",
+   "level": 1
+  },
+  {
+   "q": "Dans quel pays se trouve l'île de Zanzibar ?",
+   "qd": "Zanzibar ?",
+   "a": [
+    [
+     "",
+     "Le Kenya"
+    ],
+    [
+     "",
+     "Le Mozambique"
+    ],
+    [
+     "",
+     "Madagascar"
+    ],
+    [
+     "",
+     "La Tanzanie"
+    ]
+   ],
+   "ok": 3,
+   "say": "La Tanzanie !",
+   "level": 2
+  },
+  {
+   "q": "Dans quel pays se trouve l'île de Gotland ?",
+   "qd": "Gotland ?",
+   "a": [
+    [
+     "",
+     "Le Danemark"
+    ],
+    [
+     "",
+     "La Suède"
+    ],
+    [
+     "",
+     "La Finlande"
+    ],
+    [
+     "",
+     "La Norvège"
+    ]
+   ],
+   "ok": 1,
+   "say": "La Suède !",
+   "level": 2
+  },
+  {
+   "q": "Dans quel pays se trouve l'île de Socotra ?",
+   "qd": "Socotra ?",
+   "a": [
+    [
+     "",
+     "Oman"
+    ],
+    [
+     "",
+     "La Somalie"
+    ],
+    [
+     "",
+     "Le Yémen"
+    ],
+    [
+     "",
+     "L'Érythrée"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le Yémen !",
+   "level": 3
+  },
+  {
+   "q": "Dans quel pays se trouve l'île de Bornholm ?",
+   "qd": "Bornholm ?",
+   "a": [
+    [
+     "",
+     "Le Danemark"
+    ],
+    [
+     "",
+     "La Suède"
+    ],
+    [
+     "",
+     "La Pologne"
+    ],
+    [
+     "",
+     "L'Allemagne"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le Danemark !",
+   "level": 3
+  }
+ ]
+}
