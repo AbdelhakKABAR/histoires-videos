@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : 10 questions, de facile à impossible… la dernière piège presque tout le monde ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : Amsterdam, Berlin, Rotterdam ou Vienne ?",
+   "qd": "L'intrus parmi ces villes ?",
+   "a": [
+    [
+     "",
+     "Amsterdam"
+    ],
+    [
+     "",
+     "Berlin"
+    ],
+    [
+     "",
+     "Rotterdam"
+    ],
+    [
+     "",
+     "Vienne"
+    ]
+   ],
+   "ok": 2,
+   "say": "Rotterdam ! Ce n'est pas une capitale.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : la truite, la loutre, le saumon ou la carpe ?",
+   "qd": "L'intruse dans la rivière ?",
+   "a": [
+    [
+     "",
+     "La truite"
+    ],
+    [
+     "",
+     "La loutre"
+    ],
+    [
+     "",
+     "Le saumon"
+    ],
+    [
+     "",
+     "La carpe"
+    ]
+   ],
+   "ok": 1,
+   "say": "La loutre ! C'est un mammifère, les autres sont des poissons.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : la casserole, le couteau, la fourchette ou la cuillère ?",
+   "qd": "L'intruse sur la table ?",
+   "a": [
+    [
+     "",
+     "La casserole"
+    ],
+    [
+     "",
+     "Le couteau"
+    ],
+    [
+     "",
+     "La fourchette"
+    ],
+    [
+     "",
+     "La cuillère"
+    ]
+   ],
+   "ok": 0,
+   "say": "La casserole ! Ce n'est pas un couvert.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : la Seine, la Loire, la Garonne ou le Tage ?",
+   "qd": "L'intrus parmi ces fleuves ?",
+   "a": [
+    [
+     "",
+     "La Seine"
+    ],
+    [
+     "",
+     "La Loire"
+    ],
+    [
+     "",
+     "La Garonne"
+    ],
+    [
+     "",
+     "Le Tage"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le Tage ! Il coule en Espagne et au Portugal.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le violon, l'alto, le basson ou le violoncelle ?",
+   "qd": "L'intrus à l'orchestre ?",
+   "a": [
+    [
+     "",
+     "Le violon"
+    ],
+    [
+     "",
+     "L'alto"
+    ],
+    [
+     "",
+     "Le basson"
+    ],
+    [
+     "",
+     "Le violoncelle"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le basson ! C'est un bois, les autres sont des cordes.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : chanter, finir, manger ou danser ?",
+   "qd": "L'intrus parmi ces verbes ?",
+   "a": [
+    [
+     "",
+     "Chanter"
+    ],
+    [
+     "",
+     "Finir"
+    ],
+    [
+     "",
+     "Manger"
+    ],
+    [
+     "",
+     "Danser"
+    ]
+   ],
+   "ok": 1,
+   "say": "Finir ! Il est du deuxième groupe, les autres du premier.",
+   "level": 1
+  },
+  {
+   "q": "Quelle est l'intruse : la Hongrie, l'Autriche, la Roumanie ou la Slovaquie ?",
+   "qd": "L'intruse en Europe centrale ?",
+   "a": [
+    [
+     "",
+     "La Hongrie"
+    ],
+    [
+     "",
+     "L'Autriche"
+    ],
+    [
+     "",
+     "La Roumanie"
+    ],
+    [
+     "",
+     "La Slovaquie"
+    ]
+   ],
+   "ok": 2,
+   "say": "La Roumanie ! Elle a un accès à la mer Noire.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : le fer, l'aluminium, le nickel ou le cobalt ?",
+   "qd": "L'intrus face à un aimant ?",
+   "a": [
+    [
+     "",
+     "Le fer"
+    ],
+    [
+     "",
+     "L'aluminium"
+    ],
+    [
+     "",
+     "Le nickel"
+    ],
+    [
+     "",
+     "Le cobalt"
+    ]
+   ],
+   "ok": 1,
+   "say": "L'aluminium ! Il n'est pas attiré par un aimant.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : Ankara, Canberra, Ottawa ou Oslo ?",
+   "qd": "L'intrus parmi ces capitales ?",
+   "a": [
+    [
+     "",
+     "Ankara"
+    ],
+    [
+     "",
+     "Canberra"
+    ],
+    [
+     "",
+     "Ottawa"
+    ],
+    [
+     "",
+     "Oslo"
+    ]
+   ],
+   "ok": 3,
+   "say": "Oslo ! C'est la plus grande ville de son pays, pas les autres.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : pou, hibou, chou ou sou ?",
+   "qd": "L'intrus au pluriel ?",
+   "a": [
+    [
+     "",
+     "Pou"
+    ],
+    [
+     "",
+     "Hibou"
+    ],
+    [
+     "",
+     "Chou"
+    ],
+    [
+     "",
+     "Sou"
+    ]
+   ],
+   "ok": 3,
+   "say": "Sou ! Au pluriel il prend un S, les autres un X.",
+   "level": 3
+  }
+ ]
+}
