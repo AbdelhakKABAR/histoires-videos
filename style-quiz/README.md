@@ -100,3 +100,10 @@ Pas de `a` ni de `ok`. Au début, la voix annonce la lettre : `"intro": "Toutes 
 Lettre : prendre dans `adultes/lettres_faites.json` la lettre du `pool` utilisée le moins récemment (jamais deux fois la même lettre
 le même jour) ; ne jamais reprendre une réponse déjà utilisée pour cette lettre ; ajouter l'épisode à `faites`.
 Fichier : `adultes/episode-lettre-<x>-<AAAA-MM-JJ-HH>.json` ; même commande `faire_quiz_adulte.sh`.
+
+## DURÉE MAXIMALE : 90 s, viser 85 s (4 nov. 2026, demande de l'utilisateur) — PRIORITAIRE sur les durées ci-dessus
+Toutes les vidéos doivent durer 85 s au plus (jamais plus de 90 s). `quiz_voix_court.py` s'en charge tout seul : si l'épisode est
+trop long, il retire des questions (dans le niveau qui en a le plus, chaque niveau reste représenté) jusqu'à tenir en 85 s
+(`"max_duration"` dans le JSON pour changer). En pratique : ≈ 7 questions pour un quiz France / Monde / Lettre, ≈ 5-6 pour un intrus.
+On peut donc écrire directement 8 questions (2 / 2 / 2 / 2) ; les questions retirées ne sont pas publiées.
+Vérification après rendu : durée entre 70 et 88 s. Les défis (30 à 45 s) ne changent pas.

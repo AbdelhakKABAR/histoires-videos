@@ -26,34 +26,52 @@ def narrate(text, speed):
     return a
 NUM = {"1": "un", "2": "deux", "3": "trois", "4": "quatre", "5": "cinq", "6": "six", "7": "sept", "8": "huit", "9": "neuf", "10": "dix"}
 NTH = ["un", "deux", "trois", "quatre", "cinq", "six", "sept", "huit", "neuf", "dix"]
+_CACHE = {}
 def say(text, speed=0.95):
+    if (text, speed) in _CACHE: return _CACHE[(text, speed)]
     a = narrate(text, speed); x = resample_poly(np.asarray(a.samples, dtype=np.float64), SR, a.sample_rate)
     idx = np.where(np.abs(x) > 0.02 * np.max(np.abs(x)))[0]; x = x[max(idx[0] - 480, 0): idx[-1] + 3600]; x[-2400:] *= np.linspace(1, 0, 2400)
-    return x / np.sqrt(np.mean(x[np.abs(x) > 0.02] ** 2))
+    x = x / np.sqrt(np.mean(x[np.abs(x) > 0.02] ** 2)); _CACHE[(text, speed)] = x; return x
 clips = []; quiz = []; t = 0.5
 def put(text, kind, at, speed=0.95):
     x = say(text, speed); clips.append((at, x)); ph = {"t0": round(at, 3), "t1": round(at + len(x) / SR, 3), "text": text, "who": kind}; phrases.append(ph); print(ph); return ph
-phrases = []
-WAIT = float(Q.get("wait", 3)); t = 0.4
-# intro : une ou plusieurs phrases, lues plus lentement (demande de l'utilisateur : « trop rapide »), avec un silence entre elles
-if Q.get("intro"):
-    for k, line in enumerate(Q["intro"] if isinstance(Q["intro"], list) else [Q["intro"]]):
-        it = put(line, "intro", t, Q.get("intro_speed", 0.75)); t = it["t1"] + 0.6
-    t += 0.2
-LEVELS = Q.get("levels", []); prev = None
-# "skip_first_level": pas d'annonce « Niveau facile » au début : la vidéo démarre directement sur la 1re question
-if Q.get("skip_first_level") and Q["questions"] and "level" in Q["questions"][0]: prev = Q["questions"][0]["level"]; t = t if Q.get("intro") else 0.25
-for n, q in enumerate(Q["questions"]):
-    lv = None
-    # niveaux (facile, normal, difficile, impossible) : une annonce parlée avant la première question de chaque niveau
-    if "level" in q and q["level"] != prev:
-        lp = put(f"Niveau {LEVELS[q['level']]} !", "level", t, 0.85); lv = [lp["t0"], lp["t1"], q["level"]]; t = lp["t1"] + 1.2; prev = q["level"]
-    qp = put(q["q"], "q", t)
-    c0 = qp["t1"] + 0.15; c1 = c0 + WAIT
-    rp = put(q["say"], "r", c1 + 0.15)
-    quiz.append({"q0": qp["t0"], "q1": qp["t1"], "a0": qp["t0"], "a1": qp["t1"], "c0": round(c0, 3), "c1": round(c1, 3), "r0": rp["t0"], "r1": rp["t1"], "end": round(rp["t1"] + 0.3, 3), "lv": lv, "level": q.get("level")})
-    t = rp["t1"] + 0.3
-op = put(Q["outro"], "outro", t, Q.get("outro_speed", 0.85)); dur = round(op["t1"] + (1.5 if len(Q["outro"].split()) > 3 else 0.4), 2)
+# Durée maximale (demande de l'utilisateur, 4 nov. 2026) : 90 s au plus, viser 85 s -> "max_duration" (85 par défaut).
+# Si l'épisode est trop long, on retire des questions (dans le niveau qui en a le plus, en gardant chaque niveau) jusqu'à tenir.
+MAXD = float(Q.get("max_duration", 85)); ALLQ = list(Q["questions"])
+def layout(QS):
+    global clips, quiz, phrases
+    clips = []; quiz = []
+    phrases = []
+    WAIT = float(Q.get("wait", 3)); t = 0.4
+    # intro : une ou plusieurs phrases, lues plus lentement (demande de l'utilisateur : « trop rapide »), avec un silence entre elles
+    if Q.get("intro"):
+        for k, line in enumerate(Q["intro"] if isinstance(Q["intro"], list) else [Q["intro"]]):
+            it = put(line, "intro", t, Q.get("intro_speed", 0.75)); t = it["t1"] + 0.6
+        t += 0.2
+    LEVELS = Q.get("levels", []); prev = None
+    # "skip_first_level": pas d'annonce « Niveau facile » au début : la vidéo démarre directement sur la 1re question
+    if Q.get("skip_first_level") and QS and "level" in QS[0]: prev = QS[0]["level"]; t = t if Q.get("intro") else 0.25
+    for n, q in enumerate(QS):
+        lv = None
+        # niveaux (facile, normal, difficile, impossible) : une annonce parlée avant la première question de chaque niveau
+        if "level" in q and q["level"] != prev:
+            lp = put(f"Niveau {LEVELS[q['level']]} !", "level", t, 0.85); lv = [lp["t0"], lp["t1"], q["level"]]; t = lp["t1"] + 1.2; prev = q["level"]
+        qp = put(q["q"], "q", t)
+        c0 = qp["t1"] + 0.15; c1 = c0 + WAIT
+        rp = put(q["say"], "r", c1 + 0.15)
+        quiz.append({"q0": qp["t0"], "q1": qp["t1"], "a0": qp["t0"], "a1": qp["t1"], "c0": round(c0, 3), "c1": round(c1, 3), "r0": rp["t0"], "r1": rp["t1"], "end": round(rp["t1"] + 0.3, 3), "lv": lv, "level": q.get("level")})
+        t = rp["t1"] + 0.3
+    op = put(Q["outro"], "outro", t, Q.get("outro_speed", 0.85)); dur = round(op["t1"] + (1.5 if len(Q["outro"].split()) > 3 else 0.4), 2)
+    return dur
+QS = list(ALLQ); dur = layout(QS)
+while dur > MAXD and len(QS) > 4:
+    cnt = {}
+    for q in QS: cnt[q.get("level", 0)] = cnt.get(q.get("level", 0), 0) + 1
+    big = max(cnt, key=lambda k: (cnt[k], -k))
+    if cnt[big] < 2 and len(cnt) > 1: break
+    QS.remove([q for q in QS if q.get("level", 0) == big][-1]); dur = layout(QS)
+if len(QS) < len(ALLQ): print(f"trop long : {len(ALLQ)} -> {len(QS)} questions pour tenir en {MAXD:.0f} s")
+Q = dict(Q, questions=QS)
 N = int(dur * SR); vo = np.zeros(N)
 for at, x in clips: k = int(at * SR); vo[k:k + len(x)] += x[: N - k]
 vo *= 0.7 / np.max(np.abs(vo)); (FILM / "audio").mkdir(parents=True, exist_ok=True); sf.write(FILM / "audio" / "vo.wav", np.stack([vo, vo], 1), SR)

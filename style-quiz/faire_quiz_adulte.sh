@@ -14,7 +14,7 @@ if [ ! -f "$F/montserrat.woff2" ]; then (cd /tmp && npm i -s @fontsource-variabl
 cp "$D/../moteur/rendu.mjs" "$F/rendu.mjs"
 cd "$F"; rm -rf "$SLUG"; node "$SK/scripts/scaffold.mjs" "$SLUG" --duration 120 --formats 9x16 | tail -1
 cp montserrat.woff2 "$SLUG/fonts/display.woff2"; cp montserrat.woff2 "$SLUG/fonts/ui.woff2"
-cd "$D"; uv run quiz_voix_court.py "_films/$SLUG" "$EP" "$HOME/voix" 2>&1 | grep -E "durée|Error" || true
+cd "$D"; uv run quiz_voix_court.py "_films/$SLUG" "$EP" "$HOME/voix" 2>&1 | grep -E "durée|trop long|Error" || true
 python3 - "$F/$SLUG/film.json" <<'PY'
 import json,sys; p=sys.argv[1]; f=json.load(open(p)); f['poster']=1; json.dump(f,open(p,'w'),indent=1)
 PY
