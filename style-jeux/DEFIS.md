@@ -23,4 +23,4 @@ quiz/defis_faits.json (l'y ajouter après chaque vidéo).
 - suite : 4 à 6 éléments (nombres, lettres, mots courts), 4 options dont une seule juste (ok = index, varier la position),
   question_dite (la suite lue en toutes lettres), explication (affichée) et explication_dite (lue, nombres en lettres).
 - Vraiment difficile mais avec UNE seule logique évidente une fois expliquée (vérifier qu'aucune autre option ne marche aussi).
-- Toujours une description TikTok avec hashtags.
+- Toujours une description TikTok avec hashtags, selon style-quiz/HASHTAGS.md (prioritaire).
