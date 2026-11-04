@@ -1,0 +1,16 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : IMPOSSIBLE",
+ "suite": ["1", "4", "27", "256"],
+ "options": ["1024", "625", "3125", "4096"],
+ "ok": 2,
+ "consigne": "Quelle est la suite ?",
+ "accroche_dite": "Seulement un pour cent des gens trouvent la suite.",
+ "question_dite": "Un, quatre, vingt-sept, deux cent cinquante-six… Et ensuite ?",
+ "explication": "Chaque nombre est élevé à sa propre puissance : 1¹, 2², 3³, 4⁴ → 5⁵ = 3125.",
+ "explication_dite": "Trois mille cent vingt-cinq ! Un puissance un, deux puissance deux, trois puissance trois, quatre puissance quatre, donc cinq puissance cinq.",
+ "fin": "Tu avais trouvé ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🧩 SUITE LOGIQUE niveau impossible : 1, 4, 27, 256… et ensuite ? Seuls 1 % trouvent ! Écris ta réponse en commentaire 👇 #logique #enigme #quiz #suitelogique #maths #cerveau #pourtoi"
+}

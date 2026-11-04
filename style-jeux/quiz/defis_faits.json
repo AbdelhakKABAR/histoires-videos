@@ -35,6 +35,7 @@
   "1, 2, 6, 24, 120 → 720 (factorielles : ×2, ×3, ×4, ×5, ×6)",
   "7, 7, 4, 5, 3, 4 → 7 (nombre de lettres des mois : janvier… juillet)",
   "3, 1, 4, 1, 5, 9 → 2 (chiffres de pi)",
-  "2, 3, 5, 9, 17 → 33 (on double et on retire 1)"
+  "2, 3, 5, 9, 17 → 33 (on double et on retire 1)",
+  "1, 4, 27, 256 → 3125 (n puissance n)"
  ]
 }
