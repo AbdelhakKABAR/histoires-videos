@@ -1,0 +1,18 @@
+{
+ "title": "Le pays de chaque merveille naturelle", "subject": "Merveilles naturelles", "banner": "Le pays de chaque merveille",
+ "symbols": ["🏞","🌍","⛰","🏜","🌊","🌋","🏔","🌲","🦅","🧭","🌐","✨","🌅","🗺","💧","🪨"],
+ "description": "🏞 Quiz Monde : le pays de chaque merveille naturelle ! Du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #monde #culturegenerale #quiz #quiztime #nature #voyage #geographie #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Dans quel pays se trouve le Grand Canyon ?", "qd": "Le pays du Grand Canyon ?", "a": [["","Le Canada"],["","Le Mexique"],["","Les États-Unis"],["","L'Australie"]], "ok": 2, "say": "Les États-Unis !", "level": 0},
+  {"q": "Dans quel pays se trouve la baie d'Along ?", "qd": "Le pays de la baie d'Halong ?", "a": [["","Le Vietnam"],["","La Thaïlande"],["","Les Philippines"],["","Le Cambodge"]], "ok": 0, "say": "Le Vietnam !", "level": 0},
+  {"q": "Dans quel pays se trouve le fjord de Geiranger ?", "qd": "Le pays du fjord de Geiranger ?", "a": [["","La Suède"],["","La Norvège"],["","L'Islande"],["","La Finlande"]], "ok": 1, "say": "La Norvège !", "level": 1},
+  {"q": "Dans quel pays survole-t-on la Cappadoce en montgolfière ?", "qd": "Le pays de la Cappadoce ?", "a": [["","La Grèce"],["","L'Iran"],["","L'Égypte"],["","La Turquie"]], "ok": 3, "say": "La Turquie !", "level": 1},
+  {"q": "Dans quel pays se trouve le salar d'Uyuni, le plus grand désert de sel du monde ?", "qd": "Le pays du salar d'Uyuni ?", "a": [["","Le Chili"],["","La Bolivie"],["","Le Pérou"],["","L'Argentine"]], "ok": 1, "say": "La Bolivie !", "level": 2},
+  {"q": "Dans quel pays se trouvent les lacs de Plitvice et leurs cascades ?", "qd": "Le pays des lacs de Plitvice ?", "a": [["","La Croatie"],["","La Slovénie"],["","La Serbie"],["","Le Monténégro"]], "ok": 0, "say": "La Croatie !", "level": 2},
+  {"q": "Dans quel pays se trouvent les montagnes de Zhangjiajie, qui ont inspiré le film Avatar ?", "qd": "Le pays de Zhangjiajie ?", "a": [["","Le Vietnam"],["","Le Japon"],["","La Chine"],["","La Corée du Sud"]], "ok": 2, "say": "La Chine !", "level": 3},
+  {"q": "Dans quel pays se trouve la Chaussée des Géants ?", "qd": "Le pays de la Chaussée des Géants ?", "a": [["","L'Islande"],["","L'Irlande"],["","La Norvège"],["","Le Royaume-Uni"]], "ok": 3, "say": "Le Royaume-Uni, en Irlande du Nord !", "level": 3}
+ ]
+}
