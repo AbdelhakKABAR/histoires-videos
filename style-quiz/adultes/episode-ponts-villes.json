@@ -1,0 +1,20 @@
+{
+ "title": "Le pont célèbre de chaque ville", "subject": "Ponts", "banner": "Le pont célèbre de chaque ville",
+ "symbols": ["🌉","🏞","🌊","⛵","🚤","🏰","🇫🇷","🗼","⚓","🧭","🚲","🛶","⛪","✦","🌅","🗺"],
+ "description": "🌉 Quiz France : le pont célèbre de chaque ville ! 10 questions, du niveau facile à impossible. Tu en connais combien ? Donne ton score en commentaire 👇 #france #quiz #quiztime #ponts #villesdefrance #patrimoine #culturegenerale #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Dans quelle ville se trouve le pont Alexandre-Trois ?", "qd": "La ville du pont Alexandre-III ?", "a": [["","Lyon"],["","Paris"],["","Marseille"],["","Lille"]], "ok": 1, "say": "Paris !", "level": 0},
+  {"q": "Sur le pont, on y danse... Dans quelle ville se trouve ce pont de la chanson ?", "qd": "« Sur le pont d'… on y danse » ?", "a": [["","Avignon"],["","Arles"],["","Nîmes"],["","Lyon"]], "ok": 0, "say": "Avignon !", "level": 0},
+  {"q": "Le pont de Normandie franchit l'estuaire de quel fleuve ?", "qd": "Le pont de Normandie franchit… ?", "a": [["","La Loire"],["","La Somme"],["","L'Orne"],["","La Seine"]], "ok": 3, "say": "La Seine !", "level": 0},
+  {"q": "Le pont de l'île de Ré part de quelle ville ?", "qd": "Le pont de l'île de Ré part de… ?", "a": [["","Rochefort"],["","Royan"],["","La Rochelle"],["","Les Sables-d'Olonne"]], "ok": 2, "say": "La Rochelle !", "level": 1},
+  {"q": "Le pont Wilson traverse la Loire dans quelle ville ?", "qd": "La ville du pont Wilson ?", "a": [["","Tours"],["","Blois"],["","Orléans"],["","Nantes"]], "ok": 0, "say": "Tours !", "level": 1},
+  {"q": "Le pont de Saint-Nazaire franchit l'estuaire de quel fleuve ?", "qd": "Le pont de Saint-Nazaire franchit… ?", "a": [["","La Vilaine"],["","La Loire"],["","La Garonne"],["","La Charente"]], "ok": 1, "say": "La Loire !", "level": 1},
+  {"q": "Dans quelle ville le pont de pierre, voulu par Napoléon, traverse-t-il la Garonne ?", "qd": "La ville du pont de pierre sur la Garonne ?", "a": [["","Toulouse"],["","Agen"],["","Bordeaux"],["","Montauban"]], "ok": 2, "say": "Bordeaux !", "level": 2},
+  {"q": "Quelle ville du Loiret possède un célèbre pont-canal au-dessus de la Loire ?", "qd": "Le pont-canal du Loiret ?", "a": [["","Gien"],["","Montargis"],["","Orléans"],["","Briare"]], "ok": 3, "say": "Briare !", "level": 2},
+  {"q": "Le dernier pont transbordeur de France se trouve près de quelle ville ?", "qd": "Le dernier pont transbordeur de France ?", "a": [["","Rochefort"],["","Nantes"],["","Marseille"],["","Brest"]], "ok": 0, "say": "Rochefort !", "level": 3},
+  {"q": "Le pont Gustave-Flaubert, géant pont levant, se trouve dans quelle ville ?", "qd": "La ville du pont Gustave-Flaubert ?", "a": [["","Le Havre"],["","Rouen"],["","Caen"],["","Dieppe"]], "ok": 1, "say": "Rouen !", "level": 3}
+ ]
+}
