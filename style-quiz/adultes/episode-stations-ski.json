@@ -1,0 +1,20 @@
+{
+ "title": "Les stations de ski de France", "subject": "Stations de ski", "banner": "Les stations de ski de France",
+ "symbols": ["⛷","🏔","❄","🎿","🚡","⛄","🏂","☃","🌨","⛰","🧣","🧤","✦","🗻","🫕","🇫🇷"],
+ "description": "⛷️ Quiz Stations de ski de France : chaque station, sa montagne ! 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #france #quiz #quiztime #ski #montagne #geographie #culturegenerale #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Dans quel massif se trouve la station de Courchevel ?", "qd": "Courchevel, dans quel massif ?", "a": [["","Les Pyrénées"],["","Les Alpes"],["","Les Vosges"],["","Le Jura"]], "ok": 1, "say": "Les Alpes !", "level": 0},
+  {"q": "Dans quel massif se trouve la station de Font-Romeu ?", "qd": "Font-Romeu, dans quel massif ?", "a": [["","Les Pyrénées"],["","Les Alpes"],["","Le Massif central"],["","Le Jura"]], "ok": 0, "say": "Les Pyrénées !", "level": 0},
+  {"q": "Dans quel massif se trouve la station de Gérardmer ?", "qd": "Gérardmer, dans quel massif ?", "a": [["","Le Jura"],["","Les Alpes"],["","Le Massif central"],["","Les Vosges"]], "ok": 3, "say": "Les Vosges !", "level": 0},
+  {"q": "Dans quel massif se trouve la station des Rousses ?", "qd": "Les Rousses, dans quel massif ?", "a": [["","Les Vosges"],["","Les Pyrénées"],["","Le Jura"],["","Les Alpes"]], "ok": 2, "say": "Le Jura !", "level": 1},
+  {"q": "Dans quel massif se trouve la station du Mont-Dore ?", "qd": "Le Mont-Dore, dans quel massif ?", "a": [["","Les Alpes"],["","Le Massif central"],["","Le Jura"],["","Les Pyrénées"]], "ok": 1, "say": "Le Massif central !", "level": 1},
+  {"q": "Dans quel département se trouve la station de Val Thorens ?", "qd": "Le département de Val Thorens ?", "a": [["","La Haute-Savoie"],["","L'Isère"],["","Les Hautes-Alpes"],["","La Savoie"]], "ok": 3, "say": "La Savoie !", "level": 1},
+  {"q": "Dans quel département se trouve la station de l'Alpe d'Huez ?", "qd": "Le département de l'Alpe d'Huez ?", "a": [["","L'Isère"],["","La Savoie"],["","La Drôme"],["","Les Hautes-Alpes"]], "ok": 0, "say": "L'Isère !", "level": 2},
+  {"q": "Dans quel département se trouve la station du Lioran ?", "qd": "Le département du Lioran ?", "a": [["","Le Puy-de-Dôme"],["","La Haute-Loire"],["","Le Cantal"],["","La Corrèze"]], "ok": 2, "say": "Le Cantal !", "level": 2},
+  {"q": "Dans quel département se trouve la station de Superbagnères ?", "qd": "Le département de Superbagnères ?", "a": [["","Les Hautes-Pyrénées"],["","La Haute-Garonne"],["","L'Ariège"],["","Les Pyrénées-Orientales"]], "ok": 1, "say": "La Haute-Garonne !", "level": 3},
+  {"q": "La station des Arcs domine quelle ville de Savoie ?", "qd": "Les Arcs dominent quelle ville ?", "a": [["","Moûtiers"],["","Albertville"],["","Chambéry"],["","Bourg-Saint-Maurice"]], "ok": 3, "say": "Bourg-Saint-Maurice !", "level": 3}
+ ]
+}
