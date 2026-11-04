@@ -1,0 +1,235 @@
+{
+ "title": "Le pays de chaque instrument",
+ "subject": "Instruments",
+ "banner": "Le pays de chaque instrument",
+ "symbols": [
+  "🎻",
+  "🎸",
+  "🥁",
+  "🎺",
+  "🎷",
+  "🪕",
+  "🎹",
+  "🎶",
+  "🌍",
+  "🪘",
+  "🎵",
+  "🪈",
+  "✦",
+  "🌎",
+  "🎼",
+  "★"
+ ],
+ "description": "🎻 Quiz culture générale : le pays de chaque instrument de musique, du niveau facile à impossible. Ton score en commentaire 👇 #quiz #culturegenerale #musique #monde #lesaviezvous",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "De quel pays vient le didgeridoo ?",
+   "qd": "Le pays du didgeridoo ?",
+   "a": [
+    [
+     "",
+     "Le Brésil"
+    ],
+    [
+     "",
+     "L'Inde"
+    ],
+    [
+     "",
+     "L'Australie"
+    ],
+    [
+     "",
+     "Le Mexique"
+    ]
+   ],
+   "ok": 2,
+   "say": "L'Australie !",
+   "level": 0
+  },
+  {
+   "q": "De quel pays vient la balalaïka ?",
+   "qd": "Le pays de la balalaïka ?",
+   "a": [
+    [
+     "",
+     "La Russie"
+    ],
+    [
+     "",
+     "L'Espagne"
+    ],
+    [
+     "",
+     "L'Irlande"
+    ],
+    [
+     "",
+     "Le Japon"
+    ]
+   ],
+   "ok": 0,
+   "say": "La Russie !",
+   "level": 0
+  },
+  {
+   "q": "De quel pays vient le sitar ?",
+   "qd": "Le pays du sitar ?",
+   "a": [
+    [
+     "",
+     "La Chine"
+    ],
+    [
+     "",
+     "L'Inde"
+    ],
+    [
+     "",
+     "La Turquie"
+    ],
+    [
+     "",
+     "L'Égypte"
+    ]
+   ],
+   "ok": 1,
+   "say": "L'Inde !",
+   "level": 1
+  },
+  {
+   "q": "De quel pays vient le bouzouki ?",
+   "qd": "Le pays du bouzouki ?",
+   "a": [
+    [
+     "",
+     "L'Italie"
+    ],
+    [
+     "",
+     "Le Portugal"
+    ],
+    [
+     "",
+     "L'Argentine"
+    ],
+    [
+     "",
+     "La Grèce"
+    ]
+   ],
+   "ok": 3,
+   "say": "La Grèce !",
+   "level": 1
+  },
+  {
+   "q": "De quel pays vient le koto, une cithare à treize cordes ?",
+   "qd": "Le pays du koto ?",
+   "a": [
+    [
+     "",
+     "La Chine"
+    ],
+    [
+     "",
+     "Le Japon"
+    ],
+    [
+     "",
+     "Le Vietnam"
+    ],
+    [
+     "",
+     "La Thaïlande"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le Japon !",
+   "level": 2
+  },
+  {
+   "q": "Quel pays a inventé le steelpan, le tambour en acier ?",
+   "qd": "Le pays du steelpan ?",
+   "a": [
+    [
+     "",
+     "Trinité-et-Tobago"
+    ],
+    [
+     "",
+     "La Jamaïque"
+    ],
+    [
+     "",
+     "Cuba"
+    ],
+    [
+     "",
+     "Le Brésil"
+    ]
+   ],
+   "ok": 0,
+   "say": "Trinité-et-Tobago !",
+   "level": 2
+  },
+  {
+   "q": "Le kantele est l'instrument national de quel pays ?",
+   "qd": "Le pays du kantele ?",
+   "a": [
+    [
+     "",
+     "La Norvège"
+    ],
+    [
+     "",
+     "L'Islande"
+    ],
+    [
+     "",
+     "La Finlande"
+    ],
+    [
+     "",
+     "Le Danemark"
+    ]
+   ],
+   "ok": 2,
+   "say": "La Finlande !",
+   "level": 3
+  },
+  {
+   "q": "De quel pays vient le violon de Hardanger ?",
+   "qd": "Le pays du violon de Hardanger ?",
+   "a": [
+    [
+     "",
+     "La Suède"
+    ],
+    [
+     "",
+     "L'Écosse"
+    ],
+    [
+     "",
+     "L'Irlande"
+    ],
+    [
+     "",
+     "La Norvège"
+    ]
+   ],
+   "ok": 3,
+   "say": "La Norvège !",
+   "level": 3
+  }
+ ]
+}
