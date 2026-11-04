@@ -88,6 +88,23 @@
     "Chisinau",
     "Cadmium"
    ]
+  },
+  {
+   "lettre": "D",
+   "date": "2026-11-04",
+   "fichier": "episode-lettre-d-2026-11-04-08.json",
+   "reponses": [
+    "Dauphin",
+    "Danemark",
+    "Dentiste",
+    "Dublin",
+    "Danube",
+    "Diamant",
+    "Dakar",
+    "Darwin",
+    "Dodoma",
+    "Deutérium"
+   ]
   }
  ]
 }

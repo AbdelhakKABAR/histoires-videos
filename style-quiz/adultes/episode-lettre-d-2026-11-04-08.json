@@ -1,0 +1,110 @@
+{
+ "title": "Quiz lettre D",
+ "subject": "Lettre D",
+ "banner": "Quiz lettre D",
+ "mode": "lettre",
+ "letter": "D",
+ "icon": "🧠",
+ "symbols": [
+  "D",
+  "A",
+  "B",
+  "C",
+  "?",
+  "!",
+  "★",
+  "✦",
+  "D",
+  "Z",
+  "M",
+  "?",
+  "●",
+  "◆",
+  "D",
+  "✧"
+ ],
+ "description": "🔤 QUIZ LETTRE D : toutes les réponses commencent par D ! 10 questions, du facile à l'impossible. Écris ton score sur 10 en commentaire 👇 #quiz #quizlettre #culturegenerale #quiztime #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel mammifère marin très intelligent est célèbre pour ses sauts hors de l'eau, comme Flipper ?",
+   "qd": "Mammifère marin sauteur, comme Flipper ?",
+   "answer": "Dauphin",
+   "say": "Le dauphin !",
+   "level": 0
+  },
+  {
+   "q": "Quel pays a pour capitale Copenhague ?",
+   "qd": "Pays dont la capitale est Copenhague ?",
+   "answer": "Danemark",
+   "say": "Le Danemark !",
+   "level": 0
+  },
+  {
+   "q": "Quel professionnel de santé soigne les dents ?",
+   "qd": "Il soigne les dents ?",
+   "answer": "Dentiste",
+   "say": "Le dentiste !",
+   "level": 0
+  },
+  {
+   "q": "Quelle est la capitale de l'Irlande ?",
+   "qd": "Capitale de l'Irlande ?",
+   "answer": "Dublin",
+   "say": "Dublin !",
+   "level": 1
+  },
+  {
+   "q": "Quel grand fleuve européen traverse Vienne et Budapest ?",
+   "qd": "Fleuve qui traverse Vienne et Budapest ?",
+   "answer": "Danube",
+   "say": "Le Danube !",
+   "level": 1
+  },
+  {
+   "q": "Quelle pierre précieuse est le minéral naturel le plus dur ?",
+   "qd": "Minéral naturel le plus dur ?",
+   "answer": "Diamant",
+   "say": "Le diamant !",
+   "level": 1
+  },
+  {
+   "q": "Quelle est la capitale du Sénégal ?",
+   "qd": "Capitale du Sénégal ?",
+   "answer": "Dakar",
+   "say": "Dakar !",
+   "level": 2
+  },
+  {
+   "q": "Quel naturaliste anglais a écrit De l'origine des espèces ?",
+   "qd": "Auteur de De l'origine des espèces ?",
+   "answer": "Darwin",
+   "say": "Darwin !",
+   "level": 2
+  },
+  {
+   "q": "Quelle est la capitale officielle de la Tanzanie ?",
+   "qd": "Capitale officielle de la Tanzanie ?",
+   "answer": "Dodoma",
+   "say": "Dodoma !",
+   "level": 3
+  },
+  {
+   "q": "Comment appelle-t-on l'isotope de l'hydrogène dont le noyau contient un proton et un neutron ?",
+   "qd": "Isotope de l'hydrogène : 1 proton + 1 neutron ?",
+   "answer": "Deutérium",
+   "say": "Le deutérium !",
+   "level": 3
+  }
+ ],
+ "intro": "Toutes les réponses commencent par la lettre D !",
+ "intro_speed": 0.9
+}
