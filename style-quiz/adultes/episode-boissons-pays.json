@@ -1,0 +1,18 @@
+{
+ "title": "Le pays de chaque boisson", "subject": "Boissons du monde", "banner": "Le pays de chaque boisson",
+ "symbols": ["🥤","🍵","🌍","☕","🧋","🥛","🍹","🧃","🫖","🌐","🗺","🧊","🍋","🌿","✨","🧭"],
+ "description": "🥤 Quiz Monde : le pays de chaque boisson ! Du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #monde #culturegenerale #quiz #quiztime #boisson #voyage #geographie #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Dans quel pays a été inventé le Coca-Cola ?", "qd": "Le pays du Coca-Cola ?", "a": [["","Le Royaume-Uni"],["","Les États-Unis"],["","Le Canada"],["","L'Australie"]], "ok": 1, "say": "Les États-Unis, à Atlanta !", "level": 0},
+  {"q": "De quel pays le thé à la menthe est-il la boisson emblématique ?", "qd": "Le pays du thé à la menthe ?", "a": [["","L'Égypte"],["","La Turquie"],["","L'Inde"],["","Le Maroc"]], "ok": 3, "say": "Le Maroc !", "level": 0},
+  {"q": "De quel pays vient le lassi, une boisson au yaourt ?", "qd": "Le pays du lassi ?", "a": [["","L'Inde"],["","L'Iran"],["","La Thaïlande"],["","L'Indonésie"]], "ok": 0, "say": "L'Inde !", "level": 1},
+  {"q": "Dans quel pays a été créée l'Ovomaltine ?", "qd": "Le pays de l'Ovomaltine ?", "a": [["","L'Allemagne"],["","La Belgique"],["","La Suisse"],["","L'Autriche"]], "ok": 2, "say": "La Suisse, à Berne !", "level": 1},
+  {"q": "De quel pays vient le rooibos, ce thé rouge sans théine ?", "qd": "Le pays du rooibos ?", "a": [["","Le Kenya"],["","L'Afrique du Sud"],["","L'Éthiopie"],["","Madagascar"]], "ok": 1, "say": "L'Afrique du Sud !", "level": 2},
+  {"q": "De quel pays vient le soda Guaraná Antarctica ?", "qd": "Le pays du Guaraná Antarctica ?", "a": [["","Le Brésil"],["","L'Argentine"],["","Le Venezuela"],["","La Colombie"]], "ok": 0, "say": "Le Brésil !", "level": 2},
+  {"q": "De quel pays vient l'Inca Kola, le soda jaune ?", "qd": "Le pays de l'Inca Kola ?", "a": [["","La Bolivie"],["","Le Chili"],["","L'Équateur"],["","Le Pérou"]], "ok": 3, "say": "Le Pérou !", "level": 3},
+  {"q": "De quelle nation du Royaume-Uni vient le soda orange Irn-Bru ?", "qd": "La nation de l'Irn-Bru ?", "a": [["","L'Irlande du Nord"],["","Le pays de Galles"],["","L'Écosse"],["","L'Angleterre"]], "ok": 2, "say": "L'Écosse !", "level": 3}
+ ]
+}
