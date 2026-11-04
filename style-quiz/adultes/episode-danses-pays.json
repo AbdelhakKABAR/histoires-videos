@@ -1,0 +1,20 @@
+{
+ "title": "Le pays de chaque danse", "subject": "Danses", "banner": "Le pays de chaque danse",
+ "symbols": ["💃","🕺","🎶","🌍","🎵","🥁","🪇","🎻","✨","🌎","👠","🎼","🪗","⭐","🌐","🎺"],
+ "description": "💃 Quiz : de quel pays vient chaque danse ? 10 questions, du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #monde #culturegenerale #danse #quiztime #geographie #defi #question",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "De quel pays vient le flamenco ?", "qd": "Le flamenco vient de… ?", "a": [["","Le Mexique"],["","L'Espagne"],["","Le Portugal"],["","L'Italie"]], "ok": 1, "say": "L'Espagne !", "level": 0},
+  {"q": "De quel pays vient la samba ?", "qd": "La samba vient de… ?", "a": [["","Le Brésil"],["","Cuba"],["","L'Argentine"],["","La Colombie"]], "ok": 0, "say": "Le Brésil !", "level": 0},
+  {"q": "Dans quel pays est né le tango ?", "qd": "Le tango est né en… ?", "a": [["","L'Espagne"],["","Le Brésil"],["","Le Chili"],["","L'Argentine"]], "ok": 3, "say": "L'Argentine !", "level": 0},
+  {"q": "De quel pays vient le sirtaki ?", "qd": "Le sirtaki vient de… ?", "a": [["","La Turquie"],["","Chypre"],["","La Grèce"],["","L'Italie"]], "ok": 2, "say": "La Grèce !", "level": 1},
+  {"q": "Le haka est une danse traditionnelle de quel pays ?", "qd": "Le haka vient de… ?", "a": [["","La Nouvelle-Zélande"],["","L'Australie"],["","Les Fidji"],["","Hawaï"]], "ok": 0, "say": "La Nouvelle-Zélande !", "level": 1},
+  {"q": "La valse viennoise vient de quel pays ?", "qd": "La valse viennoise vient de… ?", "a": [["","L'Allemagne"],["","L'Autriche"],["","La Suisse"],["","La Hongrie"]], "ok": 1, "say": "L'Autriche !", "level": 1},
+  {"q": "De quel pays vient la tarentelle ?", "qd": "La tarentelle vient de… ?", "a": [["","L'Espagne"],["","La Grèce"],["","Le Portugal"],["","L'Italie"]], "ok": 3, "say": "L'Italie !", "level": 2},
+  {"q": "De quel pays vient le bharata natyam ?", "qd": "Le bharata natyam vient de… ?", "a": [["","Le Népal"],["","L'Inde"],["","La Thaïlande"],["","L'Indonésie"]], "ok": 1, "say": "L'Inde !", "level": 2},
+  {"q": "Dans quel pays actuel est née la polka ?", "qd": "La polka est née en… ?", "a": [["","La Pologne"],["","L'Autriche"],["","La Tchéquie"],["","La Hongrie"]], "ok": 2, "say": "La Tchéquie, en Bohême !", "level": 3},
+  {"q": "De quel pays vient la csárdás ?", "qd": "La csárdás vient de… ?", "a": [["","La Hongrie"],["","La Roumanie"],["","La Pologne"],["","La Slovaquie"]], "ok": 0, "say": "La Hongrie !", "level": 3}
+ ]
+}
