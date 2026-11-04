@@ -1,0 +1,16 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : IMPOSSIBLE",
+ "suite": ["2", "3", "5", "9", "17"],
+ "options": ["31", "25", "33", "34"],
+ "ok": 2,
+ "consigne": "Quelle est la suite ?",
+ "accroche_dite": "Seulement un pour cent des gens trouvent la suite.",
+ "question_dite": "Deux, trois, cinq, neuf, dix-sept… Et ensuite ?",
+ "explication": "On double et on retire 1 : 17 × 2 − 1 = 33 (les écarts doublent : +1, +2, +4, +8, +16).",
+ "explication_dite": "Trente-trois ! À chaque fois, on double le nombre et on retire un : dix-sept fois deux, moins un, trente-trois.",
+ "fin": "Tu avais trouvé ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🧩 SUITE LOGIQUE niveau impossible : 2, 3, 5, 9, 17… et après ? Seuls 1 % trouvent ! 👇 #logique #enigme #quiz #suitelogique #cerveau #mathematiques #pourtoi"
+}
