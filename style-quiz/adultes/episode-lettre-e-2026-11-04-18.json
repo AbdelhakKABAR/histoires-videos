@@ -1,0 +1,96 @@
+{
+ "title": "Quiz lettre E",
+ "subject": "Lettre E",
+ "banner": "Quiz lettre E",
+ "mode": "lettre",
+ "letter": "E",
+ "icon": "🧠",
+ "symbols": [
+  "E",
+  "A",
+  "B",
+  "C",
+  "?",
+  "!",
+  "★",
+  "✦",
+  "E",
+  "Z",
+  "M",
+  "?",
+  "●",
+  "◆",
+  "E",
+  "✧"
+ ],
+ "description": "🔤 QUIZ LETTRE E : toutes les réponses commencent par E ! Du facile à l'impossible. Écris ton score en commentaire 👇 #quiz #quizlettre #culturegenerale #quiztime #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel pays a pour capitale Madrid ?",
+   "qd": "Pays dont la capitale est Madrid ?",
+   "answer": "Espagne",
+   "say": "L'Espagne !",
+   "level": 0
+  },
+  {
+   "q": "Quel grand animal a une trompe et des défenses ?",
+   "qd": "Animal avec une trompe et des défenses ?",
+   "answer": "Éléphant",
+   "say": "L'éléphant !",
+   "level": 0
+  },
+  {
+   "q": "Quel est le plus haut sommet du monde ?",
+   "qd": "Plus haut sommet du monde ?",
+   "answer": "Everest",
+   "say": "L'Everest !",
+   "level": 1
+  },
+  {
+   "q": "Quel physicien est célèbre pour la théorie de la relativité ?",
+   "qd": "Physicien de la relativité ?",
+   "answer": "Einstein",
+   "say": "Albert Einstein !",
+   "level": 1
+  },
+  {
+   "q": "Quelle est la capitale de l'Écosse ?",
+   "qd": "Capitale de l'Écosse ?",
+   "answer": "Édimbourg",
+   "say": "Édimbourg !",
+   "level": 2
+  },
+  {
+   "q": "Quelle est la capitale de l'Arménie ?",
+   "qd": "Capitale de l'Arménie ?",
+   "answer": "Erevan",
+   "say": "Erevan !",
+   "level": 2
+  },
+  {
+   "q": "Quel mathématicien grec a écrit les Éléments ?",
+   "qd": "Mathématicien grec auteur des Éléments ?",
+   "answer": "Euclide",
+   "say": "Euclide !",
+   "level": 3
+  },
+  {
+   "q": "Quel élément chimique a pour symbole S N ?",
+   "qd": "Élément chimique de symbole Sn ?",
+   "answer": "Étain",
+   "say": "L'étain !",
+   "level": 3
+  }
+ ],
+ "intro": "Toutes les réponses commencent par la lettre E !",
+ "intro_speed": 0.9
+}

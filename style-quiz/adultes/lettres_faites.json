@@ -105,6 +105,21 @@
     "Dodoma",
     "Deutérium"
    ]
+  },
+  {
+   "lettre": "E",
+   "date": "2026-11-04",
+   "fichier": "episode-lettre-e-2026-11-04-18.json",
+   "reponses": [
+    "Espagne",
+    "Éléphant",
+    "Everest",
+    "Einstein",
+    "Édimbourg",
+    "Erevan",
+    "Euclide",
+    "Étain"
+   ]
   }
  ]
 }
