@@ -1,0 +1,238 @@
+{
+ "title": "Le pays de chaque peintre",
+ "subject": "Peintres",
+ "banner": "Le pays de chaque peintre",
+ "symbols": [
+  "🎨",
+  "🖌",
+  "🖼",
+  "🌍",
+  "✦",
+  "🗺",
+  "🌻",
+  "🌊",
+  "⭐",
+  "✧",
+  "🏛",
+  "📍",
+  "🌐",
+  "🎭",
+  "🖍",
+  "🧭"
+ ],
+ "description": "🎨 Quiz culture générale : de quel pays vient chaque peintre ? Van Gogh, Munch, Hokusai… Le dernier te piège ? 👇 #quiz #testculturegenerale #peinture #art #lesaviezvous",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est le pays natal de Vincent Van Gogh ?",
+   "qd": "Van Gogh : quel pays ?",
+   "a": [
+    [
+     "",
+     "La Belgique"
+    ],
+    [
+     "",
+     "Les Pays-Bas"
+    ],
+    [
+     "",
+     "La France"
+    ],
+    [
+     "",
+     "L'Allemagne"
+    ]
+   ],
+   "ok": 1,
+   "say": "Les Pays-Bas !",
+   "level": 0
+  },
+  {
+   "q": "Quel est le pays natal de Frida Kahlo ?",
+   "qd": "Frida Kahlo : quel pays ?",
+   "a": [
+    [
+     "",
+     "Le Mexique"
+    ],
+    [
+     "",
+     "L'Espagne"
+    ],
+    [
+     "",
+     "L'Argentine"
+    ],
+    [
+     "",
+     "Cuba"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le Mexique !",
+   "level": 0
+  },
+  {
+   "q": "Quel est le pays natal d'Edvard Munch, peintre du Cri ?",
+   "qd": "Edvard Munch : quel pays ?",
+   "a": [
+    [
+     "",
+     "La Suède"
+    ],
+    [
+     "",
+     "Le Danemark"
+    ],
+    [
+     "",
+     "La Norvège"
+    ],
+    [
+     "",
+     "La Finlande"
+    ]
+   ],
+   "ok": 2,
+   "say": "La Norvège !",
+   "level": 1
+  },
+  {
+   "q": "Quel est le pays natal de Gustav Klimt, peintre du Baiser ?",
+   "qd": "Gustav Klimt : quel pays ?",
+   "a": [
+    [
+     "",
+     "L'Allemagne"
+    ],
+    [
+     "",
+     "La Suisse"
+    ],
+    [
+     "",
+     "La Hongrie"
+    ],
+    [
+     "",
+     "L'Autriche"
+    ]
+   ],
+   "ok": 3,
+   "say": "L'Autriche !",
+   "level": 1
+  },
+  {
+   "q": "Quel est le pays natal d'Hokusai, auteur de La Grande Vague ?",
+   "qd": "Hokusai : quel pays ?",
+   "a": [
+    [
+     "",
+     "La Chine"
+    ],
+    [
+     "",
+     "Le Japon"
+    ],
+    [
+     "",
+     "La Corée du Sud"
+    ],
+    [
+     "",
+     "Le Vietnam"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le Japon !",
+   "level": 2
+  },
+  {
+   "q": "Quel est le pays natal de René Magritte ?",
+   "qd": "René Magritte : quel pays ?",
+   "a": [
+    [
+     "",
+     "La Belgique"
+    ],
+    [
+     "",
+     "La France"
+    ],
+    [
+     "",
+     "Les Pays-Bas"
+    ],
+    [
+     "",
+     "La Suisse"
+    ]
+   ],
+   "ok": 0,
+   "say": "La Belgique !",
+   "level": 2
+  },
+  {
+   "q": "Quel est le pays natal d'Albrecht Dürer ?",
+   "qd": "Albrecht Dürer : quel pays ?",
+   "a": [
+    [
+     "",
+     "L'Autriche"
+    ],
+    [
+     "",
+     "Les Pays-Bas"
+    ],
+    [
+     "",
+     "L'Allemagne"
+    ],
+    [
+     "",
+     "La Suisse"
+    ]
+   ],
+   "ok": 2,
+   "say": "L'Allemagne !",
+   "level": 3
+  },
+  {
+   "q": "Quel est le pays natal d'Akseli Gallen-Kallela ?",
+   "qd": "Gallen-Kallela : quel pays ?",
+   "a": [
+    [
+     "",
+     "La Suède"
+    ],
+    [
+     "",
+     "La Norvège"
+    ],
+    [
+     "",
+     "L'Estonie"
+    ],
+    [
+     "",
+     "La Finlande"
+    ]
+   ],
+   "ok": 3,
+   "say": "La Finlande !",
+   "level": 3
+  }
+ ],
+ "accroche": "90 % ratent le dernier peintre",
+ "accroche_dite": "Quatre-vingt-dix pour cent des gens ratent le dernier peintre !",
+ "accroche_pill": "SPÉCIAL ART"
+}
