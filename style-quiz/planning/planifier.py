@@ -1,6 +1,6 @@
 # Programme du jour (demande de l'utilisateur, 5 nov. 2026 — remplace celle du 3 nov.) :
-# 12 vidéos par jour, une toutes les 2 heures à heure pile, à partir de 6 h (6 h, 8 h, … 22 h, puis 0 h, 2 h, 4 h),
-# ordre des types tiré au hasard chaque jour. Le fichier d'une date contient les 12 créneaux pairs de cette date (00:00 … 22:00).
+# 10 vidéos par jour, une toutes les 2 heures à heure pile, à partir de 6 h (6 h, 8 h, … 22 h, puis 0 h) — 2 h et 4 h retirées
+# (demande du 5 nov. au soir). Ordre des types tiré au hasard chaque jour. Le fichier d'une date contient 00:00, 06:00, 08:00 … 22:00.
 #   python3 planifier.py                -> crée (si absent) et affiche le programme du jour : planning/AAAA-MM-JJ.json
 #   python3 planifier.py a-faire        -> les vidéos en retard du jour (retard: true), puis celle de l heure suivante (ex. lancé à 16 h 20 -> créneau jusqu à 17 h 59), pas encore faites
 #   python3 planifier.py fait <heure HH:MM> <fichier>   -> marque la vidéo comme faite
@@ -16,7 +16,7 @@ POOL = ["france"] * 3 + ["monde"] * 3 + ["intrus"] * 2 + ["lettre"] * 2 + ["mot"
 
 def creer():
     r = random.SystemRandom()
-    hs = list(range(0, 24, 2)); n = len(hs)       # 12 créneaux à heure pile, toutes les 2 h
+    hs = [0] + list(range(6, 24, 2)); n = len(hs)   # 10 créneaux à heure pile : 0 h, puis 6 h … 22 h
     for _ in range(10000):
         types = r.sample(POOL, n)
         if all(a != b for a, b in zip(types, types[1:])): break
