@@ -1,0 +1,238 @@
+{
+ "title": "La ville de chaque confiserie",
+ "subject": "Confiseries",
+ "banner": "La ville de chaque confiserie",
+ "symbols": [
+  "🍬",
+  "🍭",
+  "🍫",
+  "🍯",
+  "🇫🇷",
+  "📍",
+  "🗺",
+  "🍡",
+  "🧁",
+  "✦",
+  "🍓",
+  "🌰",
+  "🍋",
+  "✧",
+  "🥜",
+  "🍮"
+ ],
+ "description": "🍬 Quiz France : de quelle ville vient chaque confiserie ? Nougat, bêtises, berlingots… Tu as trouvé la dernière ? 👇 #quiz #culturegenerale #confiserie #france",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "De quelle ville vient le célèbre nougat ?",
+   "qd": "Le nougat : quelle ville ?",
+   "a": [
+    [
+     "",
+     "Nice"
+    ],
+    [
+     "",
+     "Montélimar"
+    ],
+    [
+     "",
+     "Grenoble"
+    ],
+    [
+     "",
+     "Dijon"
+    ]
+   ],
+   "ok": 1,
+   "say": "Montélimar !",
+   "level": 0
+  },
+  {
+   "q": "De quelle ville viennent les calissons ?",
+   "qd": "Les calissons : quelle ville ?",
+   "a": [
+    [
+     "",
+     "Aix-en-Provence"
+    ],
+    [
+     "",
+     "Marseille"
+    ],
+    [
+     "",
+     "Avignon"
+    ],
+    [
+     "",
+     "Nîmes"
+    ]
+   ],
+   "ok": 0,
+   "say": "Aix-en-Provence !",
+   "level": 0
+  },
+  {
+   "q": "De quelle ville viennent les bêtises, ces bonbons à la menthe ?",
+   "qd": "Les bêtises : quelle ville ?",
+   "a": [
+    [
+     "",
+     "Lille"
+    ],
+    [
+     "",
+     "Amiens"
+    ],
+    [
+     "",
+     "Arras"
+    ],
+    [
+     "",
+     "Cambrai"
+    ]
+   ],
+   "ok": 3,
+   "say": "Cambrai !",
+   "level": 1
+  },
+  {
+   "q": "De quelle ville viennent les pastilles blanches octogonales ?",
+   "qd": "Les pastilles : quelle ville ?",
+   "a": [
+    [
+     "",
+     "Évian"
+    ],
+    [
+     "",
+     "Vittel"
+    ],
+    [
+     "",
+     "Vichy"
+    ],
+    [
+     "",
+     "Royat"
+    ]
+   ],
+   "ok": 2,
+   "say": "Vichy !",
+   "level": 1
+  },
+  {
+   "q": "De quelle ville viennent les berlingots ?",
+   "qd": "Les berlingots : quelle ville ?",
+   "a": [
+    [
+     "",
+     "Carpentras"
+    ],
+    [
+     "",
+     "Orange"
+    ],
+    [
+     "",
+     "Montpellier"
+    ],
+    [
+     "",
+     "Toulon"
+    ]
+   ],
+   "ok": 0,
+   "say": "Carpentras !",
+   "level": 2
+  },
+  {
+   "q": "Quelle ville a donné son nom au coussin, un bonbon vert au chocolat ?",
+   "qd": "Le coussin : quelle ville ?",
+   "a": [
+    [
+     "",
+     "Saint-Étienne"
+    ],
+    [
+     "",
+     "Lyon"
+    ],
+    [
+     "",
+     "Clermont-Ferrand"
+    ],
+    [
+     "",
+     "Annecy"
+    ]
+   ],
+   "ok": 1,
+   "say": "Lyon !",
+   "level": 2
+  },
+  {
+   "q": "De quelle ville vient le négus, un caramel enrobé de sucre cuit ?",
+   "qd": "Le négus : quelle ville ?",
+   "a": [
+    [
+     "",
+     "Bourges"
+    ],
+    [
+     "",
+     "Orléans"
+    ],
+    [
+     "",
+     "Nevers"
+    ],
+    [
+     "",
+     "Tours"
+    ]
+   ],
+   "ok": 2,
+   "say": "Nevers !",
+   "level": 3
+  },
+  {
+   "q": "De quelle ville viennent les quernons d'ardoise ?",
+   "qd": "Les quernons d'ardoise : quelle ville ?",
+   "a": [
+    [
+     "",
+     "Rennes"
+    ],
+    [
+     "",
+     "Nantes"
+    ],
+    [
+     "",
+     "Le Mans"
+    ],
+    [
+     "",
+     "Angers"
+    ]
+   ],
+   "ok": 3,
+   "say": "Angers !",
+   "level": 3
+  }
+ ],
+ "accroche": "La dernière question piège tout le monde",
+ "accroche_dite": "La dernière question piège tout le monde !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
