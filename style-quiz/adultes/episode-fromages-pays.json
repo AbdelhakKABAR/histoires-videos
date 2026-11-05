@@ -1,0 +1,20 @@
+{
+ "title": "Le pays de chaque fromage", "subject": "Fromages", "banner": "Le pays de chaque fromage",
+ "symbols": ["🧀","🌍","🐄","🐐","🐑","🥖","🍷","🗺","🌐","🧭","✦","🌎","🍇","🥛","✧","⭐"],
+ "description": "🧀 Quiz : de quel pays vient chaque fromage ? Du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #quiz #monde #culturegenerale #fromage #gastronomie #quiztime #defi #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "De quel pays vient le parmesan ?", "qd": "Le pays du parmesan ?", "a": [["","L'Espagne"],["","L'Italie"],["","La Grèce"],["","La Suisse"]], "ok": 1, "say": "L'Italie !", "level": 0},
+  {"q": "De quel pays vient la feta ?", "qd": "Le pays de la feta ?", "a": [["","La Turquie"],["","Chypre"],["","La Grèce"],["","L'Italie"]], "ok": 2, "say": "La Grèce !", "level": 0},
+  {"q": "De quel pays vient le gouda ?", "qd": "Le pays du gouda ?", "a": [["","Les Pays-Bas"],["","La Belgique"],["","L'Allemagne"],["","Le Danemark"]], "ok": 0, "say": "Les Pays-Bas !", "level": 0},
+  {"q": "De quel pays vient le manchego ?", "qd": "Le pays du manchego ?", "a": [["","Le Mexique"],["","Le Portugal"],["","L'Argentine"],["","L'Espagne"]], "ok": 3, "say": "L'Espagne !", "level": 1},
+  {"q": "De quel pays vient le cheddar ?", "qd": "Le pays du cheddar ?", "a": [["","L'Irlande"],["","L'Angleterre"],["","Les États-Unis"],["","Le Canada"]], "ok": 1, "say": "L'Angleterre !", "level": 1},
+  {"q": "De quel pays vient le gorgonzola ?", "qd": "Le pays du gorgonzola ?", "a": [["","L'Italie"],["","La France"],["","L'Autriche"],["","La Suisse"]], "ok": 0, "say": "L'Italie !", "level": 1},
+  {"q": "De quelle île-pays vient le halloumi ?", "qd": "Le pays du halloumi ?", "a": [["","Malte"],["","La Crète"],["","Chypre"],["","L'Islande"]], "ok": 2, "say": "Chypre !", "level": 2},
+  {"q": "De quel pays vient le jarlsberg ?", "qd": "Le pays du jarlsberg ?", "a": [["","La Suède"],["","La Finlande"],["","Le Danemark"],["","La Norvège"]], "ok": 3, "say": "La Norvège !", "level": 2},
+  {"q": "De quel pays vient le fromage Serra da Estrela ?", "qd": "Le pays du Serra da Estrela ?", "a": [["","Le Brésil"],["","Le Portugal"],["","L'Espagne"],["","L'Italie"]], "ok": 1, "say": "Le Portugal !", "level": 3},
+  {"q": "De quel pays vient la Tête de Moine ?", "qd": "Le pays de la Tête de Moine ?", "a": [["","La Suisse"],["","La Belgique"],["","Le Luxembourg"],["","L'Autriche"]], "ok": 0, "say": "La Suisse !", "level": 3}
+ ]
+}
