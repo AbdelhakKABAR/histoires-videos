@@ -1,0 +1,16 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : IMPOSSIBLE",
+ "suite": ["679", "378", "168", "48", "32"],
+ "options": ["16", "24", "8", "6"],
+ "ok": 3,
+ "consigne": "Quelle est la suite ?",
+ "accroche_dite": "Test de QI : seulement un pour cent des gens trouvent cette suite logique.",
+ "question_dite": "Six cent soixante-dix-neuf, trois cent soixante-dix-huit, cent soixante-huit, quarante-huit, trente-deux… Et ensuite ?",
+ "explication": "On multiplie les chiffres du nombre : 6×7×9 = 378, 3×7×8 = 168, 1×6×8 = 48, 4×8 = 32, 3×2 = 6.",
+ "explication_dite": "Six ! On multiplie les chiffres du nombre précédent : six fois sept fois neuf, trois cent soixante-dix-huit… et trois fois deux, six.",
+ "fin": "Tu avais trouvé ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🧩 Suite logique niveau impossible, test de QI : 679, 378, 168, 48, 32… et après ? Ta réponse en commentaire 👇 #suitelogique #testculturegenerale #mathematiques #enigme"
+}
