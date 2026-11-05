@@ -1,0 +1,22 @@
+{
+ "title": "Le pays de chaque écrivain", "subject": "Écrivains", "banner": "Le pays de chaque écrivain",
+ "symbols": ["📚","✒","🌍","📖","🖋","🌎","🌏","🗺","✦","📜","★","🪶","🌐","✧","🧭","📝"],
+ "description": "📚 Quiz culture générale : de quel pays vient chaque grand écrivain ? Les deux derniers piègent presque tout le monde. Ton score ? 👇 #quiz #testculturegenerale #litterature #lesaviezvous",
+ "accroche": "Seul 1 lecteur sur 20 trouve tout",
+ "accroche_dite": "Seul un lecteur sur vingt trouve tout !",
+ "accroche_pill": "SPÉCIAL LITTÉRATURE",
+ "decor": "monde",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "De quel pays venait William Shakespeare ?", "qd": "William Shakespeare ?", "a": [["","L'Irlande"],["","L'Angleterre"],["","L'Écosse"],["","Les États-Unis"]], "ok": 1, "say": "D'Angleterre !", "level": 0},
+  {"q": "De quel pays venait Miguel de Cervantes, l'auteur de Don Quichotte ?", "qd": "Cervantes, l'auteur de Don Quichotte ?", "a": [["","Le Portugal"],["","Le Mexique"],["","L'Espagne"],["","L'Italie"]], "ok": 2, "say": "D'Espagne !", "level": 0},
+  {"q": "De quel pays venait Léon Tolstoï, l'auteur de Guerre et Paix ?", "qd": "Tolstoï, auteur de Guerre et Paix ?", "a": [["","La Russie"],["","La Pologne"],["","L'Ukraine"],["","La Hongrie"]], "ok": 0, "say": "De Russie !", "level": 1},
+  {"q": "De quel pays venait Goethe, l'auteur de Faust ?", "qd": "Goethe, l'auteur de Faust ?", "a": [["","L'Autriche"],["","La Suisse"],["","Les Pays-Bas"],["","L'Allemagne"]], "ok": 3, "say": "D'Allemagne !", "level": 1},
+  {"q": "De quel pays venait Gabriel García Márquez, l'auteur de Cent ans de solitude ?", "qd": "García Márquez, Cent ans de solitude ?", "a": [["","L'Argentine"],["","La Colombie"],["","Le Mexique"],["","Le Chili"]], "ok": 1, "say": "De Colombie !", "level": 2},
+  {"q": "De quel pays venait le poète Fernando Pessoa ?", "qd": "Le poète Fernando Pessoa ?", "a": [["","Le Brésil"],["","L'Espagne"],["","Le Portugal"],["","L'Angola"]], "ok": 2, "say": "Du Portugal !", "level": 2},
+  {"q": "De quel pays venait Naguib Mahfouz, prix Nobel de littérature ?", "qd": "Naguib Mahfouz, prix Nobel ?", "a": [["","Le Maroc"],["","Le Liban"],["","La Tunisie"],["","L'Égypte"]], "ok": 3, "say": "D'Égypte !", "level": 3},
+  {"q": "De quel pays venait Selma Lagerlöf, première femme prix Nobel de littérature ?", "qd": "Selma Lagerlöf, prix Nobel ?", "a": [["","La Suède"],["","La Norvège"],["","Le Danemark"],["","La Finlande"]], "ok": 0, "say": "De Suède !", "level": 3}
+ ]
+}
