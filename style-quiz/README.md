@@ -1,6 +1,7 @@
 # Format « Le grand quiz de Prune » (essai du 13 oct. 2026)
 
 > **Hashtags et description : suivre style-quiz/HASHTAGS.md (prioritaire, 4 nov. 2026).**
+> **ACCROCHE obligatoire depuis le 5 nov. 2026 : champs "accroche" + "accroche_dite" (voir HASHTAGS.md), vérifiés par verifier_episode.py.**
 
 Un épisode = 10 questions, 4 réponses (A, B, C, D) dont une seule correcte, 5 secondes pour réfléchir, puis la bonne réponse.
 Hôtes : Prune la kangourou (elle parle, voix 3) et Tilou le koala. Décor de la colline au soleil. Durée ≈ 2 min 50.

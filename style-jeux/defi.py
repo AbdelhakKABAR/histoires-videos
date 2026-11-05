@@ -2,7 +2,7 @@
    Formats : "mot" (mot mystère : indices + lettres qui se retournent) et "logique" (suite logique, 4 propositions).
    3 secondes pour réfléchir, puis révélation.
    python3 defi.py <defi.json> <sortie.mp4>"""
-import argparse, json, math, os, random, subprocess, sys, time
+import argparse, json, math, os, random, re, subprocess, sys, time
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
 import numpy as np
 import cairo
@@ -139,6 +139,26 @@ def check(cr, x, y, k, col=GOOD):
     cr.set_line_cap(cairo.LINE_CAP_ROUND); cr.set_line_join(cairo.LINE_JOIN_ROUND); cr.stroke(); cr.restore()
 
 
+def hook_card(cr, D, s, t):
+    """Accroche écrite en grand dès la 1re image (5 nov. 2026, demande de l'utilisateur : plus de vues).
+       Champ "accroche" (écrit) ; sinon un texte par défaut. S'efface quand la catégorie / la question arrive."""
+    end = s.get("cat", s.get("q", 2.0)) - 0.05
+    a = 1 - ease((t - (end - 0.35)) / 0.35)
+    if a <= 0.01: return
+    txt = D.get("accroche", "Seulement 1 % trouvent" if D["format"] == "logique" else "Seulement 1 % trouvent avec 1 indice").upper()
+    txt = re.sub(r"(\d) ([%A-Z])", "\\1\u00a0\\2", txt)  # « 1 % » jamais coupé
+    lines = wrap(cr, txt, 92, 860); size = 92
+    while len(lines) > 3 and size > 60: size -= 6; lines = wrap(cr, txt, size, 860)
+    for mw in range(840, 300, -20):  # lignes équilibrées (pas de mot seul sur la dernière ligne)
+        l2 = wrap(cr, txt, size, mw)
+        if len(l2) > len(lines): break
+        lines = l2
+    lh = size * 1.15; y0 = 830 - lh * (len(lines) - 1) / 2; ch = lh * len(lines) + 140
+    glass(cr, 50, 830 - ch / 2, W - 100, ch, 40, a=a, fill=(0.03, 0.04, 0.09), glow=ACC)
+    for i, ln in enumerate(lines):
+        T(cr, ln, W / 2, y0 + i * lh + size * 0.35, size, col=ACC if i == 0 else (1, 1, 1), a=a, glow=ACC if i == 0 else None, maxw=960)
+
+
 # ---------------- mot mystère ----------------
 def build_mot(D, tl):
     """Indices un par un : chaque indice est lu puis le joueur a PER secondes (5 par défaut) avant le suivant.
@@ -168,7 +188,7 @@ def build_mot(D, tl):
 
 def draw_mot(cr, D, s, t):
     mot = D["mot"].upper()
-    banner(cr, D.get("titre", "MOT MYSTÈRE"), ease(t / 0.4))
+    banner(cr, D.get("titre", "MOT MYSTÈRE"), 1.0)
     pill(cr, D.get("niveau", "NIVEAU : IMPOSSIBLE"), 310, BAD, ease((t - 0.2) / 0.4))
     if t >= s["cat"]:
         T(cr, D["categorie"].upper(), W / 2, 430, 50, col=ACC, a=ease((t - s["cat"]) / 0.3), spacing=4)
@@ -229,7 +249,7 @@ def build_logique(D, tl):
 
 
 def draw_logique(cr, D, s, t):
-    banner(cr, D.get("titre", "SUITE LOGIQUE"), ease(t / 0.4))
+    banner(cr, D.get("titre", "SUITE LOGIQUE"), 1.0)
     pill(cr, D.get("niveau", "NIVEAU : IMPOSSIBLE"), 310, BAD, ease((t - 0.2) / 0.4))
     T(cr, D.get("consigne", "Quelle est la suite ?"), W / 2, 430, 54, a=ease((t - 0.3) / 0.4))
     items = D["suite"] + ["?"]; n = len(items)
@@ -274,6 +294,7 @@ def draw_logique(cr, D, s, t):
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("fichier"); ap.add_argument("out"); a = ap.parse_args()
+    if subprocess.run([sys.executable, os.path.join(HERE, "..", "style-quiz", "verifier_episode.py"), a.fichier]).returncode: sys.exit(1)  # accroche + description
     D = json.load(open(a.fichier)); set_palette(D); out = os.path.abspath(a.out); os.chdir(HERE)
     build, draw = {"mot": (build_mot, draw_mot), "logique": (build_logique, draw_logique)}[D["format"]]
     tl = Timeline(); s = build(D, tl); dur = tl.t + 0.6
@@ -283,7 +304,7 @@ def main():
         background(cr, t)
         cr.save(); cr.translate(0, DY)
         if t < s["fin"] + 0.2:
-            draw(cr, D, s, t)
+            draw(cr, D, s, t); hook_card(cr, D, s, t)
         else:
             e = t - s["fin"] - 0.2
             draw(cr, D, s, t)

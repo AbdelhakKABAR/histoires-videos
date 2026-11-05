@@ -24,3 +24,5 @@ quiz/defis_faits.json (l'y ajouter après chaque vidéo).
   question_dite (la suite lue en toutes lettres), explication (affichée) et explication_dite (lue, nombres en lettres).
 - Vraiment difficile mais avec UNE seule logique évidente une fois expliquée (vérifier qu'aucune autre option ne marche aussi).
 - Toujours une description TikTok avec hashtags, selon style-quiz/HASHTAGS.md (prioritaire).
+- 5 nov. 2026 : champ "accroche" (écrit en grand à l'écran pendant que la voix lit "accroche_dite", 2 à 7 mots,
+  ex. « Seulement 1 % trouvent avec 1 indice ») ; vérifié avec la description par style-quiz/verifier_episode.py.

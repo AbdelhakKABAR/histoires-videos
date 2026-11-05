@@ -1,3 +1,22 @@
+# ⚠️ MISE À JOUR 5 nov. 2026 (demande de l'utilisateur : les vues ne dépassent pas 250) — PRIORITAIRE
+Contrôlé automatiquement par `style-quiz/verifier_episode.py` (lancé par faire_quiz_adulte.sh et defi.py : le rendu
+refuse un épisode qui ne respecte pas ces règles).
+
+## 1. ACCROCHE obligatoire (champ "accroche") — écrite en GRAND à l'écran dès la 1re image + dite par la voix
+- 2 à 7 mots, une promesse ou un défi chiffré, propre à la vidéo. Exemples :
+  « 97 % ratent la dernière question », « Personne n'a eu 10/10 », « Seul 1 Français sur 50 trouve tout »,
+  « La question 8 piège tout le monde », « Seulement 1 % trouvent avec 1 indice », « Un génie trouve en 10 secondes ».
+- "accroche_dite" : la même phrase pour la voix, nombres EN LETTRES (« quatre-vingt-dix-sept pour cent des gens ratent la dernière question ! »).
+- Optionnel : "accroche_pill" (petite étiquette rouge au-dessus, « DÉFI CULTURE G » par défaut), ex. « SPÉCIAL FRANCE », « NIVEAU EXPERT ».
+- Varier les accroches d'une vidéo à l'autre (jamais la même deux fois dans la journée).
+
+## 2. DESCRIPTION : courte, propre à la vidéo, une question
+- Texte ≤ 170 caractères avant les hashtags. 1re phrase = mot-clé cherché + thème (« Quiz culture générale : les danses du monde »),
+  puis une question qui fait commenter (« Tu as eu combien sur 10 ? 👇 », « Tu tombes dans quel piège ? 👇 »).
+- INTERDIT : la phrase passe-partout « du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire ».
+- 3 à 5 hashtags, sans doublon. INTERDITS : #quiztime #defi #question #connaissance #fyp #foryou #pourtoi #viral #tiktok #piege #logique #cerveau.
+- Exemple : « 💃 Quiz culture générale : de quel pays vient chaque danse ? La 9 piège presque tout le monde. Ton score sur 10 ? 👇 #quiz #culturegenerale #danse #geographie »
+
 # Hashtags et description TikTok — règles (4 nov. 2026, demande de l'utilisateur : « hashtags pertinents pour plus de vues »)
 
 PRIORITAIRE sur les listes de hashtags données ailleurs (README, DEFIS.md, tâche programmée).

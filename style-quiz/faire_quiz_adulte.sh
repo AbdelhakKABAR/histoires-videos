@@ -5,6 +5,7 @@
 # Le JSON contient tout : questions (q = texte lu, qd = texte affiché), subject, banner (titre fixe en haut), symbols (fond).
 set -euo pipefail
 D=$(cd "$(dirname "$0")" && pwd); EP=$(realpath "$1"); SLUG=$(basename "$EP" .json | sed 's/^episode-//' | tr -c 'a-z0-9\n-' '-')
+python3 "$D/verifier_episode.py" "$EP" || exit 1   # accroche + description (5 nov. 2026)
 SK=${MOTION_REEL:-}
 if [ -z "$SK" ]; then SC=$(find / -path /proc -prune -o -path '*/.trash' -prune -o -name scaffold.mjs -path '*motion-reel/scripts/*' -print 2>/dev/null | head -1); SK=$(dirname "$(dirname "$SC")"); fi
 echo "motion-reel : $SK"

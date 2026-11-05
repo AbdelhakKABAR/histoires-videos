@@ -386,21 +386,50 @@ function banner(ctx, t, bf, bx, by, bw, tr) {
     ctx.shadowColor = 'rgba(0,0,0,0.5)'; ctx.shadowBlur = 10; ctx.fillText(ICON, 0, 3); ctx.restore(); }
 }
 
+
+// ---------------------------------------------------------------- accroche (5 nov. 2026) : phrase choc en grand dès la 1re image
+// QD.accroche (écrite) ; QD._hook = [début, fin] de la phrase lue (timeline). Visible dès l'image 0, s'efface avant la question 1.
+function hookCard(ctx, tr, y0 = 560) {
+  if (!QD.accroche) return;
+  const end = LETTRE ? (QD._hook ? QD._hook[1] + 0.25 : 2) : QZ[0].q0 - 0.15;
+  const out = 1 - sm((tr - (end - 0.35)) / 0.35); if (out <= 0.01) return;
+  const k = spring(tr + 0.3, SPRING.snappy), punch = 1 + 0.035 * Math.exp(-Math.max(0, tr - 0.05) * 5) * Math.sin(tr * 18);
+  ctx.save(); ctx.globalAlpha = out;
+  const pw = 400; ctx.save(); ctx.translate(W / 2, y0); ctx.scale(k, k);
+  ctx.shadowColor = 'rgba(239,68,68,0.6)'; ctx.shadowBlur = 30; ctx.beginPath(); ctx.roundRect(-pw / 2, -36, pw, 72, 36);
+  ctx.fillStyle = lgrad(ctx, 0, -36, 0, 36, [[0, '#F43F5E'], [1, '#DC2626']]); ctx.fill(); ctx.shadowBlur = 0;
+  SPACED(ctx, QD.accroche_pill || 'DÉFI CULTURE G', 0, 3, 32, '#FFFFFF', 5, 900); ctx.restore();
+  const t = QD.accroche.toUpperCase().replace(/(\d) ([%A-Z])/g, '$1\u00a0$2'); let fs = 96, lines = wrapWords(ctx, t, fs, 900, 900);
+  while (lines.length > 3 && fs > 60) { fs -= 6; lines = wrapWords(ctx, t, fs, 900, 900); }
+  for (let mw = 880; mw > 300; mw -= 20) { const l2 = wrapWords(ctx, t, fs, mw, 900); if (l2.length > lines.length) break; lines = l2; } // lignes équilibrées
+  const lh = fs * 1.12, yc = y0 + 90 + lh * lines.length / 2 + 20;
+  ctx.save(); ctx.translate(W / 2, yc); ctx.scale(punch * (0.92 + 0.08 * k), punch * (0.92 + 0.08 * k));
+  lines.forEach((ln, i) => { const y = (i - (lines.length - 1) / 2) * lh;
+    ctx.save(); ctx.shadowColor = 'rgba(0,0,0,0.7)'; ctx.shadowBlur = 24; ctx.font = font(fs, 900, DISPLAY); ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+    ctx.fillStyle = i === 0 ? lgrad(ctx, -420, 0, 420, 0, [[0, ACC], [1, ACC2]]) : '#FFFFFF'; ctx.fillText(ln, 0, y); ctx.restore(); });
+  ctx.restore();
+  if (!LETTRE) { const ty = yc + lh * lines.length / 2 + 70; TXT(ctx, QD.tagline || `${NQ} questions · de facile à impossible`, W / 2, ty, 42, 'rgba(255,255,255,0.8)', 700); }
+  ctx.restore();
+}
+
 // ---------------------------------------------------------------- image
 function draw(ctx, u, tr) {
   const st = STAGE(tr);
   ctx.drawImage(BG.base, 0, 0); floaters(ctx, tr);
   ctx.save(); ctx.translate(0, DY);
   if (LETTRE && tr < QZ[0].q0) { // intro lettre : la liste vide + carte « Toutes les réponses commencent par … »
-    lettreList(ctx, -1, tr);
-    const k = spring(tr - 0.1, SPRING.snappy), out = 1 - sm((tr - (QZ[0].q0 - 0.6)) / 0.35), pk = spring(tr - 0.45, SPRING.bouncy);
+    const HE = QD.accroche && QD._hook ? QD._hook[1] + 0.25 : 0; // fin de l'accroche (0 si pas d'accroche)
+    if (tr < HE) hookCard(ctx, tr); else {
+    lettreList(ctx, -1, tr - HE);
+    const k = spring(tr - HE - 0.1, SPRING.snappy), out = 1 - sm((tr - (QZ[0].q0 - 0.6)) / 0.35), pk = spring(tr - HE - 0.45, SPRING.bouncy);
     ctx.save(); ctx.globalAlpha = clamp(Math.min(k * 1.4, out)); ctx.translate(0, (1 - k) * 100);
     glass(ctx, ROW.x, 1080, ROW.w, 330, 34);
     SPACED(ctx, 'TOUTES LES RÉPONSES', W / 2, 1140, 36, 'rgba(255,255,255,0.85)', 5, 800);
     SPACED(ctx, 'COMMENCENT PAR', W / 2, 1190, 36, 'rgba(255,255,255,0.85)', 5, 800);
     ctx.save(); ctx.translate(W / 2, 1310); ctx.scale(pk, pk); ctx.shadowColor = RGBA(ACC, 0.8); ctx.shadowBlur = 50; ctx.font = font(170, 900, DISPLAY); ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
     ctx.fillStyle = lgrad(ctx, -80, 0, 80, 0, [[0, ACC], [1, ACC2]]); ctx.fillText(LTR, 0, 6); ctx.restore();
-    ctx.restore();
+    ctx.restore(); }
+  } else if (QD.accroche && tr < QZ[0].q0) { hookCard(ctx, tr);
   } else if (tr < QZ[0].q0) {
     const out = 1 - sm((tr - (QZ[0].lv ? QZ[0].lv[0] - 0.5 : QZ[0].q0 - 0.9)) / 0.4);
     if (out > 0.01) { ctx.save(); ctx.globalAlpha = out;

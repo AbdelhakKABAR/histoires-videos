@@ -43,6 +43,11 @@ def layout(QS):
     clips = []; quiz = []
     phrases = []
     WAIT = float(Q.get("wait", 3)); t = 0.4
+    # accroche (5 nov. 2026, demande de l'utilisateur : « plus de vues ») : phrase choc dite dès la 1re seconde
+    # et écrite en grand à l'écran (champ "accroche" affiché, "accroche_dite" lue si différente).
+    global HOOK; HOOK = None
+    if Q.get("accroche"):
+        hp = put(Q.get("accroche_dite", Q["accroche"]), "accroche", 0.12, Q.get("accroche_speed", 1.0)); HOOK = [hp["t0"], hp["t1"]]; t = hp["t1"] + 0.35
     # intro : une ou plusieurs phrases, lues plus lentement (demande de l'utilisateur : « trop rapide »), avec un silence entre elles
     if Q.get("intro"):
         for k, line in enumerate(Q["intro"] if isinstance(Q["intro"], list) else [Q["intro"]]):
@@ -50,7 +55,7 @@ def layout(QS):
         t += 0.2
     LEVELS = Q.get("levels", []); prev = None
     # "skip_first_level": pas d'annonce « Niveau facile » au début : la vidéo démarre directement sur la 1re question
-    if Q.get("skip_first_level") and QS and "level" in QS[0]: prev = QS[0]["level"]; t = t if Q.get("intro") else 0.25
+    if Q.get("skip_first_level") and QS and "level" in QS[0]: prev = QS[0]["level"]; t = t if (Q.get("intro") or Q.get("accroche")) else 0.25
     for n, q in enumerate(QS):
         lv = None
         # niveaux (facile, normal, difficile, impossible) : une annonce parlée avant la première question de chaque niveau
@@ -72,6 +77,7 @@ while dur > MAXD and len(QS) > 4:
     QS.remove([q for q in QS if q.get("level", 0) == big][-1]); dur = layout(QS)
 if len(QS) < len(ALLQ): print(f"trop long : {len(ALLQ)} -> {len(QS)} questions pour tenir en {MAXD:.0f} s")
 Q = dict(Q, questions=QS)
+if HOOK: Q["_hook"] = HOOK
 N = int(dur * SR); vo = np.zeros(N)
 for at, x in clips: k = int(at * SR); vo[k:k + len(x)] += x[: N - k]
 vo *= 0.7 / np.max(np.abs(vo)); (FILM / "audio").mkdir(parents=True, exist_ok=True); sf.write(FILM / "audio" / "vo.wav", np.stack([vo, vo], 1), SR)
