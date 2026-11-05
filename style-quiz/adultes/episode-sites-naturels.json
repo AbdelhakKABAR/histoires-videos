@@ -1,0 +1,18 @@
+{
+ "title": "La région de chaque site naturel", "subject": "Sites naturels", "banner": "La région de chaque site naturel",
+ "symbols": ["🏞","⛰","🌊","🏔","🌲","🧭","📍","🗺","🇫🇷","🌄","✦","🪨","🌅","🦅","✧","🌿"],
+ "description": "🏞️ Quiz France : retrouve la région de chaque site naturel ! Gorges, falaises, dunes, cirques… du niveau facile à impossible. Tu arrives jusqu'où ? Donne ton score en commentaire 👇 #france #quiz #quiztime #nature #regions #geographie #culturegenerale #defi",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Dans quelle région se trouvent les gorges du Verdon ?", "qd": "Les gorges du Verdon : quelle région ?", "a": [["","La région PACA"],["","L'Occitanie"],["","Auvergne-Rhône-Alpes"],["","La Corse"]], "ok": 0, "say": "Provence-Alpes-Côte d'Azur !", "level": 0},
+  {"q": "Dans quelle région se trouvent les falaises d'Étretat ?", "qd": "Les falaises d'Étretat : quelle région ?", "a": [["","La Bretagne"],["","Les Hauts-de-France"],["","La Normandie"],["","Les Pays de la Loire"]], "ok": 2, "say": "La Normandie !", "level": 0},
+  {"q": "Dans quelle région se trouve la dune du Pilat ?", "qd": "La dune du Pilat : quelle région ?", "a": [["","L'Occitanie"],["","Les Pays de la Loire"],["","La Bretagne"],["","La Nouvelle-Aquitaine"]], "ok": 3, "say": "La Nouvelle-Aquitaine !", "level": 1},
+  {"q": "Dans quelle région se trouve la pointe du Raz ?", "qd": "La pointe du Raz : quelle région ?", "a": [["","La Normandie"],["","La Bretagne"],["","Les Pays de la Loire"],["","La Nouvelle-Aquitaine"]], "ok": 1, "say": "La Bretagne !", "level": 1},
+  {"q": "Dans quelle région se trouve le cirque de Gavarnie ?", "qd": "Le cirque de Gavarnie : quelle région ?", "a": [["","L'Occitanie"],["","La Nouvelle-Aquitaine"],["","La région PACA"],["","Auvergne-Rhône-Alpes"]], "ok": 0, "say": "L'Occitanie !", "level": 2},
+  {"q": "Dans quelle région se trouve la baie de Somme ?", "qd": "La baie de Somme : quelle région ?", "a": [["","La Normandie"],["","Le Grand Est"],["","Les Hauts-de-France"],["","L'Île-de-France"]], "ok": 2, "say": "Les Hauts-de-France !", "level": 2},
+  {"q": "Dans quelle région se trouve le gouffre de Padirac ?", "qd": "Le gouffre de Padirac : quelle région ?", "a": [["","La Nouvelle-Aquitaine"],["","Auvergne-Rhône-Alpes"],["","Centre-Val de Loire"],["","L'Occitanie"]], "ok": 3, "say": "L'Occitanie, dans le Lot !", "level": 3},
+  {"q": "Dans quelle région se trouve le lac du Der ?", "qd": "Le lac du Der : quelle région ?", "a": [["","Bourgogne-Franche-Comté"],["","Le Grand Est"],["","Les Hauts-de-France"],["","Centre-Val de Loire"]], "ok": 1, "say": "Le Grand Est !", "level": 3}
+ ]
+}
