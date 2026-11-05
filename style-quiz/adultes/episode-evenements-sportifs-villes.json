@@ -1,0 +1,18 @@
+{
+ "title": "La ville de chaque événement sportif", "subject": "Sport en France", "banner": "La ville de chaque événement sportif",
+ "symbols": ["🏆","🎾","⛵","🏁","🚴","🏃","⛳","🏅","🇫🇷","🏟","🥇","🚗","🌊","🎯","⚽","✨"],
+ "description": "🏆 Quiz France : dans quelle ville a lieu chaque grand événement sportif ? Du niveau facile à impossible. Donne ton score en commentaire 👇 #quiz #france #sport #culturegenerale #quiztime #defi #question #connaissance",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Dans quelle ville se joue le tournoi de tennis de Roland-Garros ?", "qd": "La ville de Roland-Garros ?", "a": [["","Lyon"],["","Paris"],["","Nice"],["","Bordeaux"]], "ok": 1, "say": "Paris !", "level": 0},
+  {"q": "De quelle ville part la course à la voile du Vendée Globe ?", "qd": "Le départ du Vendée Globe ?", "a": [["","La Rochelle"],["","Brest"],["","Les Sables-d'Olonne"],["","Lorient"]], "ok": 2, "say": "Les Sables-d'Olonne !", "level": 0},
+  {"q": "De quelle ville part la Route du Rhum ?", "qd": "Le départ de la Route du Rhum ?", "a": [["","Saint-Malo"],["","Le Havre"],["","Brest"],["","Cherbourg"]], "ok": 0, "say": "Saint-Malo !", "level": 1},
+  {"q": "De quelle ville part la Transat Jacques Vabre ?", "qd": "Le départ de la Transat Jacques Vabre ?", "a": [["","Saint-Nazaire"],["","Lorient"],["","Concarneau"],["","Le Havre"]], "ok": 3, "say": "Le Havre !", "level": 1},
+  {"q": "Dans quelle ville se court l'Enduropale, la course de motos sur la plage ?", "qd": "La ville de l'Enduropale ?", "a": [["","Berck"],["","Le Touquet"],["","Dunkerque"],["","Deauville"]], "ok": 1, "say": "Le Touquet !", "level": 2},
+  {"q": "Dans quelle commune se trouve le circuit Paul Ricard ?", "qd": "La commune du circuit Paul Ricard ?", "a": [["","Le Castellet"],["","Magny-Cours"],["","Nogaro"],["","Le Luc"]], "ok": 0, "say": "Le Castellet, dans le Var !", "level": 2},
+  {"q": "De quelle ville part et arrive le Marathon du Médoc ?", "qd": "Départ et arrivée du Marathon du Médoc ?", "a": [["","Margaux"],["","Saint-Émilion"],["","Pauillac"],["","Lesparre"]], "ok": 2, "say": "Pauillac !", "level": 3},
+  {"q": "Dans quelle commune se trouve le Golf National, hôte de la Ryder Cup 2018 ?", "qd": "La commune du Golf National ?", "a": [["","Versailles"],["","Chantilly"],["","Évian"],["","Guyancourt"]], "ok": 3, "say": "Guyancourt, dans les Yvelines !", "level": 3}
+ ]
+}
