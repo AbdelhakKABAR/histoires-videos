@@ -1,0 +1,238 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🧩 Trouve l'intrus : des pays aux lunes de Jupiter, les deux dernières séries sont de vrais pièges. Tu tombes dans lequel ? 👇 #trouvelintrus #testculturegenerale #sciences #enigme",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : la Grèce, l'Italie, le Maroc ou la France ?",
+   "qd": "L'intrus parmi ces pays ?",
+   "a": [
+    [
+     "",
+     "La Grèce"
+    ],
+    [
+     "",
+     "L'Italie"
+    ],
+    [
+     "",
+     "Le Maroc"
+    ],
+    [
+     "",
+     "La France"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le Maroc ! Il est en Afrique, les autres en Europe.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : l'écureuil, le corbeau, le moineau ou la mésange ?",
+   "qd": "L'intrus parmi ces animaux ?",
+   "a": [
+    [
+     "",
+     "L'écureuil"
+    ],
+    [
+     "",
+     "Le corbeau"
+    ],
+    [
+     "",
+     "Le moineau"
+    ],
+    [
+     "",
+     "La mésange"
+    ]
+   ],
+   "ok": 0,
+   "say": "L'écureuil ! C'est un mammifère, les autres sont des oiseaux.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le pentagone, l'hexagone, le cylindre ou l'octogone ?",
+   "qd": "L'intrus parmi ces formes ?",
+   "a": [
+    [
+     "",
+     "Le pentagone"
+    ],
+    [
+     "",
+     "L'hexagone"
+    ],
+    [
+     "",
+     "Le cylindre"
+    ],
+    [
+     "",
+     "L'octogone"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le cylindre ! C'est un volume, les autres sont des polygones.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : 7, 11, 19 ou 27 ?",
+   "qd": "L'intrus parmi ces nombres ?",
+   "a": [
+    [
+     "",
+     "7"
+    ],
+    [
+     "",
+     "11"
+    ],
+    [
+     "",
+     "19"
+    ],
+    [
+     "",
+     "27"
+    ]
+   ],
+   "ok": 3,
+   "say": "27 ! Il n'est pas premier : 27, c'est 3 fois 9.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le Rhin, l'Elbe, le Tibre ou le Danube ?",
+   "qd": "L'intrus parmi ces fleuves ?",
+   "a": [
+    [
+     "",
+     "Le Rhin"
+    ],
+    [
+     "",
+     "L'Elbe"
+    ],
+    [
+     "",
+     "Le Tibre"
+    ],
+    [
+     "",
+     "Le Danube"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le Tibre ! Les trois autres traversent l'Allemagne.",
+   "level": 2
+  },
+  {
+   "q": "Quelle est l'intruse : la coccinelle, la cigale, le scarabée ou le hanneton ?",
+   "qd": "L'intruse parmi ces insectes ?",
+   "a": [
+    [
+     "",
+     "La coccinelle"
+    ],
+    [
+     "",
+     "La cigale"
+    ],
+    [
+     "",
+     "Le scarabée"
+    ],
+    [
+     "",
+     "Le hanneton"
+    ]
+   ],
+   "ok": 1,
+   "say": "La cigale ! Les trois autres sont des coléoptères.",
+   "level": 2
+  },
+  {
+   "q": "Quelle est l'intruse : la Bolivie, la Bulgarie, le Paraguay ou le Népal ?",
+   "qd": "L'intruse : pays sans mer ?",
+   "a": [
+    [
+     "",
+     "La Bolivie"
+    ],
+    [
+     "",
+     "La Bulgarie"
+    ],
+    [
+     "",
+     "Le Paraguay"
+    ],
+    [
+     "",
+     "Le Népal"
+    ]
+   ],
+   "ok": 1,
+   "say": "La Bulgarie ! Elle borde la mer Noire, les autres n'ont pas de côte.",
+   "level": 3
+  },
+  {
+   "q": "Quelle est l'intruse : Io, Europe, Encelade ou Callisto ?",
+   "qd": "L'intruse parmi ces lunes ?",
+   "a": [
+    [
+     "",
+     "Io"
+    ],
+    [
+     "",
+     "Europe"
+    ],
+    [
+     "",
+     "Encelade"
+    ],
+    [
+     "",
+     "Callisto"
+    ]
+   ],
+   "ok": 2,
+   "say": "Encelade ! C'est une lune de Saturne, les autres tournent autour de Jupiter.",
+   "level": 3
+  }
+ ],
+ "accroche": "Seul 1 cerveau sur 30 voit tout",
+ "accroche_dite": "Seul un cerveau sur trente voit tous les intrus !",
+ "accroche_pill": "TROUVE L'INTRUS"
+}
