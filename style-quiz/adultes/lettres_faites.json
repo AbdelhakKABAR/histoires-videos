@@ -120,6 +120,21 @@
     "Euclide",
     "Étain"
    ]
+  },
+  {
+   "lettre": "F",
+   "date": "2026-11-05",
+   "fichier": "episode-lettre-f-2026-11-05-09.json",
+   "reponses": [
+    "Fraise",
+    "Flamant",
+    "Finlande",
+    "Florence",
+    "Flaubert",
+    "Fluor",
+    "Freetown",
+    "Fermi"
+   ]
   }
  ]
 }

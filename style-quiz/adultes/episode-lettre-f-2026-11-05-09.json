@@ -1,0 +1,96 @@
+{
+ "title": "Quiz lettre F",
+ "subject": "Lettre F",
+ "banner": "Quiz lettre F",
+ "mode": "lettre",
+ "letter": "F",
+ "icon": "🧠",
+ "symbols": [
+  "F",
+  "A",
+  "B",
+  "C",
+  "?",
+  "!",
+  "★",
+  "✦",
+  "F",
+  "Z",
+  "M",
+  "?",
+  "●",
+  "◆",
+  "F",
+  "✧"
+ ],
+ "description": "🔤 QUIZ LETTRE F : toutes les réponses commencent par F ! Du facile à l'impossible. Écris ton score en commentaire 👇 #quiz #quizlettre #culturegenerale #quiztime #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel fruit rouge porte ses petites graines à l'extérieur ?",
+   "qd": "Fruit rouge aux graines à l'extérieur ?",
+   "answer": "Fraise",
+   "say": "La fraise !",
+   "level": 0
+  },
+  {
+   "q": "Quel grand oiseau rose dort souvent sur une seule patte ?",
+   "qd": "Oiseau rose qui dort sur une patte ?",
+   "answer": "Flamant",
+   "say": "Le flamant rose !",
+   "level": 0
+  },
+  {
+   "q": "Quel pays a pour capitale Helsinki ?",
+   "qd": "Pays dont la capitale est Helsinki ?",
+   "answer": "Finlande",
+   "say": "La Finlande !",
+   "level": 1
+  },
+  {
+   "q": "Quelle ville italienne est célèbre pour le Ponte Vecchio ?",
+   "qd": "Ville italienne du Ponte Vecchio ?",
+   "answer": "Florence",
+   "say": "Florence !",
+   "level": 1
+  },
+  {
+   "q": "Quel écrivain français a écrit Madame Bovary ?",
+   "qd": "Auteur de Madame Bovary ?",
+   "answer": "Flaubert",
+   "say": "Gustave Flaubert !",
+   "level": 2
+  },
+  {
+   "q": "Quel élément chimique a pour symbole la seule lettre F ?",
+   "qd": "Élément chimique de symbole F ?",
+   "answer": "Fluor",
+   "say": "Le fluor !",
+   "level": 2
+  },
+  {
+   "q": "Quelle est la capitale de la Sierra Leone ?",
+   "qd": "Capitale de la Sierra Leone ?",
+   "answer": "Freetown",
+   "say": "Freetown !",
+   "level": 3
+  },
+  {
+   "q": "Quel physicien italien a dirigé le premier réacteur nucléaire, en 1942 ?",
+   "qd": "Physicien du 1er réacteur nucléaire (1942) ?",
+   "answer": "Fermi",
+   "say": "Enrico Fermi !",
+   "level": 3
+  }
+ ],
+ "intro": "Toutes les réponses commencent par la lettre F !",
+ "intro_speed": 0.9
+}
