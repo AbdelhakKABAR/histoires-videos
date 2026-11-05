@@ -1,0 +1,285 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🕵️ TROUVE L'INTRUS : de facile à impossible… la dernière piège presque tout le monde ! Ton score en commentaire 👇 #intrus #quiz #quiztime #piege #culturegenerale #logique #defi #pourtoi",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : Varsovie, Budapest, Cracovie ou Vienne ?",
+   "qd": "L'intrus parmi ces villes ?",
+   "a": [
+    [
+     "",
+     "Varsovie"
+    ],
+    [
+     "",
+     "Budapest"
+    ],
+    [
+     "",
+     "Cracovie"
+    ],
+    [
+     "",
+     "Vienne"
+    ]
+   ],
+   "ok": 2,
+   "say": "Cracovie ! Ce n'est pas une capitale.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : la chèvre, le lion, le tigre ou le guépard ?",
+   "qd": "L'intruse parmi ces animaux ?",
+   "a": [
+    [
+     "",
+     "La chèvre"
+    ],
+    [
+     "",
+     "Le lion"
+    ],
+    [
+     "",
+     "Le tigre"
+    ],
+    [
+     "",
+     "Le guépard"
+    ]
+   ],
+   "ok": 0,
+   "say": "La chèvre ! Les autres sont des félins.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : Saturne, Uranus, Neptune ou le Soleil ?",
+   "qd": "L'intrus dans le ciel ?",
+   "a": [
+    [
+     "",
+     "Saturne"
+    ],
+    [
+     "",
+     "Uranus"
+    ],
+    [
+     "",
+     "Neptune"
+    ],
+    [
+     "",
+     "Le Soleil"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le Soleil ! C'est une étoile, pas une planète.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le violon, le xylophone, l'alto ou la contrebasse ?",
+   "qd": "L'intrus parmi ces instruments ?",
+   "a": [
+    [
+     "",
+     "Le violon"
+    ],
+    [
+     "",
+     "Le xylophone"
+    ],
+    [
+     "",
+     "L'alto"
+    ],
+    [
+     "",
+     "La contrebasse"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le xylophone ! C'est une percussion, les autres ont des cordes.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : manger, chanter, prendre ou danser ?",
+   "qd": "L'intrus parmi ces verbes ?",
+   "a": [
+    [
+     "",
+     "Manger"
+    ],
+    [
+     "",
+     "Chanter"
+    ],
+    [
+     "",
+     "Prendre"
+    ],
+    [
+     "",
+     "Danser"
+    ]
+   ],
+   "ok": 2,
+   "say": "Prendre ! Il est du troisième groupe, les autres du premier.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : l'Amazone, le Nil, le Congo ou le Niger ?",
+   "qd": "L'intrus parmi ces fleuves ?",
+   "a": [
+    [
+     "",
+     "L'Amazone"
+    ],
+    [
+     "",
+     "Le Nil"
+    ],
+    [
+     "",
+     "Le Congo"
+    ],
+    [
+     "",
+     "Le Niger"
+    ]
+   ],
+   "ok": 0,
+   "say": "L'Amazone ! Les autres coulent en Afrique.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : l'hélium, le néon, l'argon ou l'ozone ?",
+   "qd": "L'intrus parmi ces gaz ?",
+   "a": [
+    [
+     "",
+     "L'hélium"
+    ],
+    [
+     "",
+     "Le néon"
+    ],
+    [
+     "",
+     "L'argon"
+    ],
+    [
+     "",
+     "L'ozone"
+    ]
+   ],
+   "ok": 3,
+   "say": "L'ozone ! Les trois autres sont des gaz nobles.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : le koala, le lémurien, le wombat ou l'opossum ?",
+   "qd": "L'intrus parmi ces animaux ?",
+   "a": [
+    [
+     "",
+     "Le koala"
+    ],
+    [
+     "",
+     "Le lémurien"
+    ],
+    [
+     "",
+     "Le wombat"
+    ],
+    [
+     "",
+     "L'opossum"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le lémurien ! Les trois autres sont des marsupiaux.",
+   "level": 2
+  },
+  {
+   "q": "Quelle est l'intruse : Canberra, Ottawa, Madrid ou Ankara ?",
+   "qd": "L'intruse parmi ces capitales ?",
+   "a": [
+    [
+     "",
+     "Canberra"
+    ],
+    [
+     "",
+     "Ottawa"
+    ],
+    [
+     "",
+     "Madrid"
+    ],
+    [
+     "",
+     "Ankara"
+    ]
+   ],
+   "ok": 2,
+   "say": "Madrid ! C'est la seule qui est la plus grande ville de son pays.",
+   "level": 3
+  },
+  {
+   "q": "Quelle est l'intruse : le chou, le cresson, la roquette ou la laitue ?",
+   "qd": "L'intruse au potager ?",
+   "a": [
+    [
+     "",
+     "Le chou"
+    ],
+    [
+     "",
+     "Le cresson"
+    ],
+    [
+     "",
+     "La roquette"
+    ],
+    [
+     "",
+     "La laitue"
+    ]
+   ],
+   "ok": 3,
+   "say": "La laitue ! Les trois autres sont de la famille du chou, les crucifères.",
+   "level": 3
+  }
+ ]
+}
