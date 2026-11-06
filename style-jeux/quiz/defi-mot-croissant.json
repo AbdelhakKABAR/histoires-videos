@@ -1,0 +1,22 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "mot": "CROISSANT",
+ "categorie": "Cuisine française",
+ "categorie_dite": "Mot mystère. Catégorie : cuisine française.",
+ "accroche": "Un gourmand trouve en 2 indices",
+ "accroche_pill": "MOT MYSTÈRE",
+ "accroche_dite": "Un vrai gourmand trouve ce mot mystère en deux indices !",
+ "indices": [
+  "On en mange beaucoup le matin en France.",
+  "Il est fait d'une pâte feuilletée au beurre.",
+  "On l'achète à la boulangerie.",
+  "Il a un cousin : le pain au chocolat.",
+  "Sa forme rappelle une lune pas encore pleine."
+ ],
+ "lettres_donnees": 1,
+ "dire": "Croissant",
+ "explication": "Le croissant, star des boulangeries et du petit-déjeuner français.",
+ "description": "🔤 Mot mystère : une spécialité française en 5 indices. Combien t'en a-t-il fallu ? Dis-le en commentaire 👇 #motmystere #culturegenerale #cuisine #france #publiostudio"
+}
