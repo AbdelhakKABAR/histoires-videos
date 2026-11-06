@@ -1,0 +1,238 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🧩 Trouve l'intrus : planètes, serpents, arbres, langues… les derniers pièges font tomber presque tout le monde. Ton score ? 👇 #trouvelintrus #culturegenerale #nature #enigme",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : la France, l'Allemagne, le Kenya ou la Belgique ?",
+   "qd": "L'intrus parmi ces pays ?",
+   "a": [
+    [
+     "",
+     "La France"
+    ],
+    [
+     "",
+     "L'Allemagne"
+    ],
+    [
+     "",
+     "Le Kenya"
+    ],
+    [
+     "",
+     "La Belgique"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le Kenya ! Il est en Afrique, les autres en Europe.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : la vache, le cochon, le mouton ou le renard ?",
+   "qd": "L'intrus à la ferme ?",
+   "a": [
+    [
+     "",
+     "La vache"
+    ],
+    [
+     "",
+     "Le cochon"
+    ],
+    [
+     "",
+     "Le mouton"
+    ],
+    [
+     "",
+     "Le renard"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le renard ! C'est un animal sauvage, les autres sont des animaux de ferme.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : la contrebasse, la flûte, la clarinette ou le hautbois ?",
+   "qd": "L'intruse parmi ces instruments ?",
+   "a": [
+    [
+     "",
+     "La contrebasse"
+    ],
+    [
+     "",
+     "La flûte"
+    ],
+    [
+     "",
+     "La clarinette"
+    ],
+    [
+     "",
+     "Le hautbois"
+    ]
+   ],
+   "ok": 0,
+   "say": "La contrebasse ! C'est un instrument à cordes, les autres sont à vent.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : le Louvre, le Prado, Orsay ou Beaubourg ?",
+   "qd": "L'intrus parmi ces musées ?",
+   "a": [
+    [
+     "",
+     "Le Louvre"
+    ],
+    [
+     "",
+     "Le Prado"
+    ],
+    [
+     "",
+     "Orsay"
+    ],
+    [
+     "",
+     "Beaubourg"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le Prado ! Il est à Madrid, les autres à Paris.",
+   "level": 1
+  },
+  {
+   "q": "Quelle est l'intruse : Mercure, Vénus, Mars ou Saturne ?",
+   "qd": "L'intruse parmi ces planètes ?",
+   "a": [
+    [
+     "",
+     "Mercure"
+    ],
+    [
+     "",
+     "Vénus"
+    ],
+    [
+     "",
+     "Mars"
+    ],
+    [
+     "",
+     "Saturne"
+    ]
+   ],
+   "ok": 3,
+   "say": "Saturne ! C'est une géante gazeuse, les autres sont rocheuses.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : la vipère, le cobra, l'orvet ou le python ?",
+   "qd": "L'intrus parmi ces reptiles ?",
+   "a": [
+    [
+     "",
+     "La vipère"
+    ],
+    [
+     "",
+     "Le cobra"
+    ],
+    [
+     "",
+     "L'orvet"
+    ],
+    [
+     "",
+     "Le python"
+    ]
+   ],
+   "ok": 2,
+   "say": "L'orvet ! C'est un lézard sans pattes, pas un serpent.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : le cèdre, le houx, le pin ou le sapin ?",
+   "qd": "L'intrus parmi ces arbres ?",
+   "a": [
+    [
+     "",
+     "Le cèdre"
+    ],
+    [
+     "",
+     "Le houx"
+    ],
+    [
+     "",
+     "Le pin"
+    ],
+    [
+     "",
+     "Le sapin"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le houx ! Il garde ses feuilles, mais ce n'est pas un conifère.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : le roumain, le finnois, l'estonien ou le hongrois ?",
+   "qd": "L'intrus parmi ces langues ?",
+   "a": [
+    [
+     "",
+     "Le roumain"
+    ],
+    [
+     "",
+     "Le finnois"
+    ],
+    [
+     "",
+     "L'estonien"
+    ],
+    [
+     "",
+     "Le hongrois"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le roumain ! C'est une langue latine, les autres sont finno-ougriennes.",
+   "level": 3
+  }
+ ],
+ "accroche": "Seuls 3 % voient tous les intrus",
+ "accroche_dite": "Seulement trois pour cent des gens voient tous les intrus !",
+ "accroche_pill": "NIVEAU EXPERT"
+}
