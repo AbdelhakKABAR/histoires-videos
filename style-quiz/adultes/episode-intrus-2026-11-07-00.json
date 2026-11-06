@@ -1,0 +1,238 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🧩 Trouve l'intrus : sport, géographie et animaux. Le dernier fait tomber 9 personnes sur 10. Et toi, lequel t'a piégé ? 👇 #trouvelintrus #testculturegenerale #sport #animaux #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Écris ton score en commentaire, et abonne-toi !",
+ "accroche": "Même un expert rate le dernier",
+ "accroche_dite": "Même un expert rate le dernier intrus !",
+ "accroche_pill": "SPORT & NATURE",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : le basket, le volley, le water-polo ou le squash ?",
+   "qd": "L'intrus parmi ces sports ?",
+   "a": [
+    [
+     "",
+     "Le basket"
+    ],
+    [
+     "",
+     "Le volley"
+    ],
+    [
+     "",
+     "Le water-polo"
+    ],
+    [
+     "",
+     "Le squash"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le squash ! Il se joue seul contre un adversaire, pas en équipe.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le homard, le saumon, la truite ou le brochet ?",
+   "qd": "L'intrus dans l'eau ?",
+   "a": [
+    [
+     "",
+     "Le homard"
+    ],
+    [
+     "",
+     "Le saumon"
+    ],
+    [
+     "",
+     "La truite"
+    ],
+    [
+     "",
+     "Le brochet"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le homard ! C'est un crustacé, les autres sont des poissons.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : la pizza, les lasagnes, la moussaka ou le risotto ?",
+   "qd": "L'intruse en cuisine ?",
+   "a": [
+    [
+     "",
+     "La pizza"
+    ],
+    [
+     "",
+     "Les lasagnes"
+    ],
+    [
+     "",
+     "La moussaka"
+    ],
+    [
+     "",
+     "Le risotto"
+    ]
+   ],
+   "ok": 2,
+   "say": "La moussaka ! C'est un plat grec, les autres sont italiens.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : Mbappé, Antoine Dupont, Zidane ou Thierry Henry ?",
+   "qd": "L'intrus parmi ces sportifs ?",
+   "a": [
+    [
+     "",
+     "Mbappé"
+    ],
+    [
+     "",
+     "Antoine Dupont"
+    ],
+    [
+     "",
+     "Zidane"
+    ],
+    [
+     "",
+     "Thierry Henry"
+    ]
+   ],
+   "ok": 1,
+   "say": "Antoine Dupont ! C'est un rugbyman, les autres sont footballeurs.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : l'ours polaire, le morse, le renard polaire ou le manchot empereur ?",
+   "qd": "L'intrus du grand froid ?",
+   "a": [
+    [
+     "",
+     "L'ours polaire"
+    ],
+    [
+     "",
+     "Le morse"
+    ],
+    [
+     "",
+     "Le renard polaire"
+    ],
+    [
+     "",
+     "Le manchot empereur"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le manchot empereur ! Il vit en Antarctique, les autres en Arctique.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : Roland-Garros, Wimbledon, Indian Wells ou l'US Open ?",
+   "qd": "L'intrus au tennis ?",
+   "a": [
+    [
+     "",
+     "Roland-Garros"
+    ],
+    [
+     "",
+     "Wimbledon"
+    ],
+    [
+     "",
+     "Indian Wells"
+    ],
+    [
+     "",
+     "L'US Open"
+    ]
+   ],
+   "ok": 2,
+   "say": "Indian Wells ! Ce n'est pas un tournoi du Grand Chelem.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : le Népal, le Ghana, la Bolivie ou le Mali ?",
+   "qd": "L'intrus parmi ces pays ?",
+   "a": [
+    [
+     "",
+     "Le Népal"
+    ],
+    [
+     "",
+     "Le Ghana"
+    ],
+    [
+     "",
+     "La Bolivie"
+    ],
+    [
+     "",
+     "Le Mali"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le Ghana ! Il a un accès à la mer, les trois autres n'en ont pas.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : le panda roux, le koala, le kangourou ou le wombat ?",
+   "qd": "L'intrus parmi ces animaux ?",
+   "a": [
+    [
+     "",
+     "Le panda roux"
+    ],
+    [
+     "",
+     "Le koala"
+    ],
+    [
+     "",
+     "Le kangourou"
+    ],
+    [
+     "",
+     "Le wombat"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le panda roux ! Ce n'est pas un marsupial, les autres en sont.",
+   "level": 3
+  }
+ ]
+}
