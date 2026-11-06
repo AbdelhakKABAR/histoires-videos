@@ -1,0 +1,22 @@
+{
+ "title": "Le pays de chaque parc national", "subject": "Parcs nationaux", "banner": "Le pays de chaque parc national",
+ "symbols": ["🌲","🦁","🌍","⛰","🗺","🌎","🦒","🧭","✦","🏞","🐻","🌐","★","🌿","✧","🦓"],
+ "decor": "monde",
+ "accroche": "Seuls 2 % trouvent le dernier parc",
+ "accroche_dite": "Seulement deux pour cent des gens trouvent le dernier parc !",
+ "accroche_pill": "SPÉCIAL MONDE",
+ "description": "🏞 Quiz culture générale : dans quel pays se trouve chaque parc national ? Le dernier piège presque tout le monde. Ton score ? 👇 #quiz #culturegenerale #geographie #parcnational #monde",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Dans quel pays se trouve le parc national de Yellowstone ?", "qd": "Le parc de Yellowstone ?", "a": [["","Le Canada"],["","Les États-Unis"],["","L'Australie"],["","Le Mexique"]], "ok": 1, "say": "Aux États-Unis !", "level": 0},
+  {"q": "Dans quel pays se trouve le parc national du Serengeti ?", "qd": "Le parc du Serengeti ?", "a": [["","La Tanzanie"],["","Le Botswana"],["","Le Maroc"],["","Madagascar"]], "ok": 0, "say": "En Tanzanie !", "level": 0},
+  {"q": "Dans quel pays se trouve le parc national Kruger ?", "qd": "Le parc Kruger ?", "a": [["","Le Kenya"],["","La Namibie"],["","L'Afrique du Sud"],["","Le Zimbabwe"]], "ok": 2, "say": "En Afrique du Sud !", "level": 1},
+  {"q": "Dans quel pays se trouve le parc national de Banff ?", "qd": "Le parc de Banff ?", "a": [["","La Norvège"],["","La Nouvelle-Zélande"],["","Les États-Unis"],["","Le Canada"]], "ok": 3, "say": "Au Canada !", "level": 1},
+  {"q": "Dans quel pays se trouve le parc national Torres del Paine ?", "qd": "Le parc Torres del Paine ?", "a": [["","L'Argentine"],["","Le Chili"],["","Le Pérou"],["","L'Espagne"]], "ok": 1, "say": "Au Chili, en Patagonie !", "level": 2},
+  {"q": "Dans quel pays se trouve le parc national des lacs de Plitvice ?", "qd": "Le parc des lacs de Plitvice ?", "a": [["","La Slovénie"],["","La Pologne"],["","La Croatie"],["","La Serbie"]], "ok": 2, "say": "En Croatie !", "level": 2},
+  {"q": "Dans quel pays se trouve le parc national de Komodo ?", "qd": "Le parc de Komodo ?", "a": [["","L'Indonésie"],["","Les Philippines"],["","La Malaisie"],["","La Thaïlande"]], "ok": 0, "say": "En Indonésie !", "level": 3},
+  {"q": "Dans quel pays se trouve le parc national d'Etosha ?", "qd": "Le parc d'Etosha ?", "a": [["","Le Botswana"],["","L'Angola"],["","La Zambie"],["","La Namibie"]], "ok": 3, "say": "En Namibie !", "level": 3}
+ ]
+}
