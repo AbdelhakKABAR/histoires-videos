@@ -1,3 +1,10 @@
+# ⚠️ DIFFICULTÉ — 6 nov. 2026 (demande de l'utilisateur : « rends les vidéos un peu faciles pour donner l'envie de continuer ») — PRIORITAIRE
+Plus de niveau « IMPOSSIBLE » : viser DIFFICILE MAIS TROUVABLE (la moitié des gens trouvent avant la fin).
+- Mot mystère : un mot très connu (monument, plat, animal, objet, personnage célèbre…), 5 à 9 lettres ; indice 3 déjà
+  assez parlant, indice 5 quasi évident.
+- Suite logique : une seule règle simple (+n, ×2, carrés, alternance, lettres de l'alphabet, jours/mois…), pas de suite
+  de Conway ni de règle savante.
+
 # Défis « une question » — mot mystère et suite logique (≈ 38 s, voix siwis, design premium)
 
 Une SEULE question, niveau IMPOSSIBLE (très difficile mais juste et vérifiable), 20 secondes de chrono pour réfléchir,

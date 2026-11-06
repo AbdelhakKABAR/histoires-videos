@@ -1,3 +1,14 @@
+# ⚠️ DIFFICULTÉ — 6 nov. 2026 (demande de l'utilisateur : « rends les vidéos un peu faciles pour donner l'envie de continuer ») — PRIORITAIRE
+Le spectateur doit trouver presque tout pour avoir envie d'aller au bout (et de commenter son score).
+- Écrire 8 questions réparties 3 / 3 / 1 / 1 (facile / normal / difficile / impossible) au lieu de 2/2/2/2.
+- Facile = connu de tout le monde (≈ 90 % trouvent) ; normal = culture générale courante (≈ 70 %) ;
+  difficile = connu mais demande de réfléchir ; « impossible » = la seule vraie colle, à la fin (≈ 25 % trouvent), jamais obscure.
+- Pas de réponse érudite (élément chimique rare, capitale peu connue, date précise, savant méconnu) : préférer ce qu'on a vu à l'école,
+  à la télé, en voyage. Les 3 autres choix restent plausibles mais la bonne réponse se reconnaît.
+- Intrus : raisons simples (« ce n'est pas un fruit », « elle n'est pas en Europe ») ; pas de piège technique.
+- Lettre : réponses du quotidien (animaux, pays, villes, aliments, objets, personnages très connus).
+- L'accroche peut rester un défi (« La dernière piège 80 % des gens »), mais la vidéo doit être réussissable.
+
 # Format « Le grand quiz de Prune » (essai du 13 oct. 2026)
 
 > **Hashtags et description : suivre style-quiz/HASHTAGS.md (prioritaire, 4 nov. 2026).**
