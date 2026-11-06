@@ -1,0 +1,17 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["2", "5", "10", "17", "26"],
+ "options": ["35", "36", "37", "39"],
+ "ok": 2,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "La moitié des gens se trompent",
+ "accroche_dite": "La moitié des gens se trompent sur cette suite !",
+ "question_dite": "Deux, cinq, dix, dix-sept, vingt-six… Et ensuite ?",
+ "explication": "On ajoute 3, puis 5, puis 7, puis 9… donc + 11 : 26 + 11 = 37.",
+ "explication_dite": "Trente-sept ! On ajoute trois, puis cinq, puis sept, puis neuf : les nombres impairs. Donc vingt-six plus onze, trente-sept.",
+ "fin": "Tu avais trouvé ? Écris ta réponse en commentaire, et abonne-toi !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🧩 Suite logique : 2, 5, 10, 17, 26… et ensuite ? Trouvé avant la fin du chrono ? Ta réponse en commentaire 👇 #suitelogique #culturegenerale #maths #enigme #publiostudio"
+}
