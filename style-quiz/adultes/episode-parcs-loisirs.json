@@ -1,0 +1,238 @@
+{
+ "title": "La région de chaque parc de loisirs",
+ "subject": "Parcs de loisirs",
+ "banner": "La région de chaque parc de loisirs",
+ "symbols": [
+  "🎢",
+  "🎡",
+  "🎠",
+  "🏰",
+  "🇫🇷",
+  "📍",
+  "🗺",
+  "🎪",
+  "🚀",
+  "✦",
+  "🌋",
+  "🦁",
+  "🎟",
+  "✧",
+  "🍿",
+  "🎆"
+ ],
+ "description": "🎢 Quiz France : dans quelle région se trouve chaque parc de loisirs ? Puy du Fou, Futuroscope, Astérix… Ton score ? 👇 #quiz #testculturegenerale #parcdattractions #france",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Dans quelle région se trouve Disneyland Paris ?",
+   "qd": "Disneyland Paris : quelle région ?",
+   "a": [
+    [
+     "",
+     "Normandie"
+    ],
+    [
+     "",
+     "Île-de-France"
+    ],
+    [
+     "",
+     "Hauts-de-France"
+    ],
+    [
+     "",
+     "Grand Est"
+    ]
+   ],
+   "ok": 1,
+   "say": "Île-de-France !",
+   "level": 0
+  },
+  {
+   "q": "Dans quelle région se trouve le Puy du Fou ?",
+   "qd": "Le Puy du Fou : quelle région ?",
+   "a": [
+    [
+     "",
+     "Pays de la Loire"
+    ],
+    [
+     "",
+     "Bretagne"
+    ],
+    [
+     "",
+     "Nouvelle-Aquitaine"
+    ],
+    [
+     "",
+     "Normandie"
+    ]
+   ],
+   "ok": 0,
+   "say": "Pays de la Loire, en Vendée !",
+   "level": 0
+  },
+  {
+   "q": "Dans quelle région se trouve la Cité de l'espace de Toulouse ?",
+   "qd": "La Cité de l'espace : quelle région ?",
+   "a": [
+    [
+     "",
+     "Nouvelle-Aquitaine"
+    ],
+    [
+     "",
+     "Provence-Alpes-Côte d'Azur"
+    ],
+    [
+     "",
+     "Auvergne-Rhône-Alpes"
+    ],
+    [
+     "",
+     "Occitanie"
+    ]
+   ],
+   "ok": 3,
+   "say": "Occitanie !",
+   "level": 0
+  },
+  {
+   "q": "Dans quelle région se trouve le Futuroscope ?",
+   "qd": "Le Futuroscope : quelle région ?",
+   "a": [
+    [
+     "",
+     "Centre-Val de Loire"
+    ],
+    [
+     "",
+     "Nouvelle-Aquitaine"
+    ],
+    [
+     "",
+     "Pays de la Loire"
+    ],
+    [
+     "",
+     "Occitanie"
+    ]
+   ],
+   "ok": 1,
+   "say": "Nouvelle-Aquitaine, près de Poitiers !",
+   "level": 1
+  },
+  {
+   "q": "Dans quelle région se trouve Vulcania, le parc des volcans ?",
+   "qd": "Vulcania : quelle région ?",
+   "a": [
+    [
+     "",
+     "Occitanie"
+    ],
+    [
+     "",
+     "Bourgogne-Franche-Comté"
+    ],
+    [
+     "",
+     "Auvergne-Rhône-Alpes"
+    ],
+    [
+     "",
+     "Corse"
+    ]
+   ],
+   "ok": 2,
+   "say": "Auvergne-Rhône-Alpes !",
+   "level": 1
+  },
+  {
+   "q": "Dans quelle région se trouve le zoo de Beauval ?",
+   "qd": "Le zoo de Beauval : quelle région ?",
+   "a": [
+    [
+     "",
+     "Centre-Val de Loire"
+    ],
+    [
+     "",
+     "Île-de-France"
+    ],
+    [
+     "",
+     "Normandie"
+    ],
+    [
+     "",
+     "Bourgogne-Franche-Comté"
+    ]
+   ],
+   "ok": 0,
+   "say": "Centre-Val de Loire !",
+   "level": 1
+  },
+  {
+   "q": "Dans quelle région se trouve le Parc Astérix ?",
+   "qd": "Le Parc Astérix : quelle région ?",
+   "a": [
+    [
+     "",
+     "Île-de-France"
+    ],
+    [
+     "",
+     "Normandie"
+    ],
+    [
+     "",
+     "Hauts-de-France"
+    ],
+    [
+     "",
+     "Grand Est"
+    ]
+   ],
+   "ok": 2,
+   "say": "Hauts-de-France, dans l'Oise !",
+   "level": 2
+  },
+  {
+   "q": "Dans quelle région se trouve le parc Nigloland ?",
+   "qd": "Nigloland : quelle région ?",
+   "a": [
+    [
+     "",
+     "Hauts-de-France"
+    ],
+    [
+     "",
+     "Bourgogne-Franche-Comté"
+    ],
+    [
+     "",
+     "Normandie"
+    ],
+    [
+     "",
+     "Grand Est"
+    ]
+   ],
+   "ok": 3,
+   "say": "Grand Est, dans l'Aube !",
+   "level": 3
+  }
+ ],
+ "accroche": "Astérix piège 8 Français sur 10",
+ "accroche_dite": "Le Parc Astérix piège huit Français sur dix !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
