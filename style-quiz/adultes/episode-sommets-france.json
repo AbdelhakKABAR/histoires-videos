@@ -1,0 +1,24 @@
+{
+ "title": "Les sommets et massifs de France",
+ "subject": "Montagnes",
+ "banner": "Les sommets de France",
+ "symbols": ["🏔","⛰","🗻","🇫🇷","🧗","🥾","❄","🌲","📍","🗺","✦","🦅","⛷","✧","🌄","🧭"],
+ "description": "🏔 Quiz France : dans quel massif se trouve chaque sommet ? Alpes, Vosges, Jura, Pyrénées… Ton score sur 8 ? 👇 #quiz #testculturegenerale #montagne #geographie #france",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "accroche": "Seul 1 Français sur 30 a tout bon",
+ "accroche_dite": "Seul un Français sur trente a tout bon !",
+ "accroche_pill": "SPÉCIAL FRANCE",
+ "questions": [
+  {"q": "Dans quel massif se trouve le mont Blanc ?", "qd": "Le massif du mont Blanc ?", "a": [["","Les Pyrénées"],["","Les Alpes"],["","Les Vosges"],["","Le Jura"]], "ok": 1, "say": "Les Alpes !", "level": 0},
+  {"q": "Dans quel massif se trouve le puy de Dôme ?", "qd": "Le massif du puy de Dôme ?", "a": [["","Le Massif central"],["","Les Alpes"],["","Le Jura"],["","Les Pyrénées"]], "ok": 0, "say": "Le Massif central !", "level": 0},
+  {"q": "Dans quel massif se trouve le Vignemale ?", "qd": "Le massif du Vignemale ?", "a": [["","Les Alpes"],["","Le Jura"],["","Les Pyrénées"],["","Les Vosges"]], "ok": 2, "say": "Les Pyrénées !", "level": 1},
+  {"q": "Dans quel massif se trouve le ballon d'Alsace ?", "qd": "Le massif du ballon d'Alsace ?", "a": [["","Le Jura"],["","Le Massif central"],["","Les Alpes"],["","Les Vosges"]], "ok": 3, "say": "Les Vosges !", "level": 1},
+  {"q": "Dans quel massif se trouve le crêt de la Neige ?", "qd": "Le massif du crêt de la Neige ?", "a": [["","Les Vosges"],["","Le Jura"],["","Les Alpes"],["","Le Massif central"]], "ok": 1, "say": "Le Jura, c'est son point culminant !", "level": 2},
+  {"q": "Quel est le plus haut sommet du Massif central ?", "qd": "Le toit du Massif central ?", "a": [["","Le puy de Dôme"],["","Le plomb du Cantal"],["","Le puy de Sancy"],["","Le mont Aigoual"]], "ok": 2, "say": "Le puy de Sancy !", "level": 2},
+  {"q": "Quel est le plus haut sommet de la Corse ?", "qd": "Le toit de la Corse ?", "a": [["","Le monte Rotondo"],["","Le monte d'Oro"],["","L'Incudine"],["","Le monte Cinto"]], "ok": 3, "say": "Le monte Cinto !", "level": 3},
+  {"q": "Quel est le plus haut sommet des Vosges ?", "qd": "Le toit des Vosges ?", "a": [["","Le Grand Ballon"],["","Le Hohneck"],["","Le ballon d'Alsace"],["","Le Donon"]], "ok": 0, "say": "Le Grand Ballon !", "level": 3}
+ ]
+}
