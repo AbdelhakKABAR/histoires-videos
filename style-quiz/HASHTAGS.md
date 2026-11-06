@@ -1,3 +1,22 @@
+# 📊 MISE À JOUR 6 nov. 2026 — d'après les stats réelles (outil Publio voir_stats) et les guides 2026 — PRIORITAIRE
+Constat : TikTok ≈ 135 vues/vidéo, Instagram ≈ 145, YouTube 0 à 180, Facebook ≈ 2 (page sans abonné).
+Presque aucun j'aime/commentaire : c'est ça qui bloque la diffusion (TikTok et YouTube élargissent l'audience
+quand les gens regardent jusqu'au bout, commentent ou s'abonnent). Meilleurs sujets : sport (359 vues), boissons/cuisine
+(278), défis suite logique / mot mystère (208-234). Plus faibles : quiz lettre (≈ 90).
+
+1. LÉGENDE = aussi le TITRE YouTube (Publio coupe à 100 caractères) : la 1re phrase doit tenir en 60 caractères
+   et se lire comme un titre complet (« 🏛 Quiz : le pays de chaque site antique ? »). Puis la question au public.
+2. HASHTAGS (3 à 5, guides 2026 : 3-5 sur TikTok et YouTube, 3-8 sur Instagram ; la légende compte plus que les tags) :
+   - 1er tag = #quiz (ou #motmystere / #trouvelintrus / #suitelogique pour les défis et intrus).
+   - Faire TOURNER le tag communauté : #culturegenerale, #testculturegenerale, #apprendresurtiktok (Metricool 2026,
+     catégorie éducation), #quizz — jamais le même deux vidéos de suite.
+   - 1 à 2 tags du sujet précis (#sport, #football, #histoire, #geographie, #cuisine, #animaux…) + #france si thème France.
+   - Toujours interdits : #fyp #foryou #pourtoi #viral #trending #reels #quiztime #defi #question #connaissance #piege #logique #cerveau #tiktok.
+3. FIN DE VIDÉO : "outro" = appel au commentaire, dit ET écrit, ex. « Écris ton score en commentaire, et abonne-toi ! »
+   ou « Dis-moi en commentaire laquelle t'a piégé ! » (varier). Ne plus mettre seulement « Abonnez-vous ».
+4. SUJETS : privilégier sport, cuisine/boissons, animaux, géographie « grand public » ; les listes a_faire de themes.json
+   en contiennent.
+
 # ⚠️ MISE À JOUR 5 nov. 2026 (demande de l'utilisateur : les vues ne dépassent pas 250) — PRIORITAIRE
 Contrôlé automatiquement par `style-quiz/verifier_episode.py` (lancé par faire_quiz_adulte.sh et defi.py : le rendu
 refuse un épisode qui ne respecte pas ces règles).
