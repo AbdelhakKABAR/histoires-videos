@@ -1,0 +1,22 @@
+{
+ "title": "Le pays de chaque site antique", "subject": "Sites antiques", "banner": "Le pays de chaque site antique",
+ "symbols": ["🏛","🗿","🌍","🏺","🗺","🌎","⚱","🧭","✦","🏜","📜","🌐","★","🗝","✧","⛰"],
+ "decor": "monde",
+ "accroche": "Seul 1 sur 4 trouve la dernière",
+ "accroche_dite": "Seulement une personne sur quatre trouve la dernière !",
+ "accroche_pill": "SPÉCIAL MONDE",
+ "description": "🏛 Quiz culture générale : dans quel pays se trouve chaque site antique ? Pompéi, Pétra, Angkor… Tu as eu combien ? 👇 #quiz #testculturegenerale #histoire #archeologie #monde",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {"q": "Dans quel pays se trouvent les ruines de Pompéi ?", "qd": "Pompéi : quel pays ?", "a": [["","L'Italie"],["","La Grèce"],["","L'Espagne"],["","La Turquie"]], "ok": 0, "say": "L'Italie !", "level": 0},
+  {"q": "Dans quel pays se trouve le Machu Picchu ?", "qd": "Le Machu Picchu : quel pays ?", "a": [["","Le Mexique"],["","Le Pérou"],["","La Bolivie"],["","Le Chili"]], "ok": 1, "say": "Le Pérou !", "level": 0},
+  {"q": "Dans quel pays se trouvent les pyramides de Gizeh ?", "qd": "Les pyramides de Gizeh : quel pays ?", "a": [["","Le Soudan"],["","Le Maroc"],["","L'Égypte"],["","La Jordanie"]], "ok": 2, "say": "L'Égypte !", "level": 0},
+  {"q": "Dans quel pays se trouve la cité de Pétra, taillée dans la roche ?", "qd": "Pétra : quel pays ?", "a": [["","L'Égypte"],["","Le Liban"],["","La Syrie"],["","La Jordanie"]], "ok": 3, "say": "La Jordanie !", "level": 1},
+  {"q": "Dans quel pays se trouvent les temples d'Angkor ?", "qd": "Les temples d'Angkor : quel pays ?", "a": [["","Le Cambodge"],["","La Thaïlande"],["","Le Vietnam"],["","Le Laos"]], "ok": 0, "say": "Le Cambodge !", "level": 1},
+  {"q": "Dans quel pays se trouve la pyramide maya de Chichén Itzá ?", "qd": "Chichén Itzá : quel pays ?", "a": [["","Le Pérou"],["","Le Guatemala"],["","Le Mexique"],["","La Colombie"]], "ok": 2, "say": "Le Mexique !", "level": 1},
+  {"q": "Dans quel pays se trouvent les ruines de la cité grecque d'Éphèse ?", "qd": "Éphèse : quel pays ?", "a": [["","La Grèce"],["","La Turquie"],["","L'Italie"],["","Chypre"]], "ok": 1, "say": "La Turquie !", "level": 2},
+  {"q": "Dans quel pays se trouvent les ruines de Persépolis ?", "qd": "Persépolis : quel pays ?", "a": [["","L'Irak"],["","La Syrie"],["","L'Égypte"],["","L'Iran"]], "ok": 3, "say": "L'Iran !", "level": 3}
+ ]
+}
