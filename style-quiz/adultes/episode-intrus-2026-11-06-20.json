@@ -1,0 +1,238 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🧩 Trouve l'intrus : sport, cuisine et animaux ! Le dernier piège presque tout le monde. Tu tombes dans lequel ? 👇 #trouvelintrus #testculturegenerale #sport #cuisine #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Dis-moi en commentaire lequel t'a piégé, et abonne-toi !",
+ "accroche": "Personne ne voit le dernier intrus",
+ "accroche_dite": "Personne ne voit le dernier intrus !",
+ "accroche_pill": "SPORT & CUISINE",
+ "questions": [
+  {
+   "q": "Quelle est l'intruse : Athènes, Dublin, Varsovie ou Manchester ?",
+   "qd": "L'intruse parmi ces villes ?",
+   "a": [
+    [
+     "",
+     "Athènes"
+    ],
+    [
+     "",
+     "Dublin"
+    ],
+    [
+     "",
+     "Varsovie"
+    ],
+    [
+     "",
+     "Manchester"
+    ]
+   ],
+   "ok": 3,
+   "say": "Manchester ! Ce n'est pas une capitale.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le chat, la girafe, le lapin ou le chien ?",
+   "qd": "L'intrus à la maison ?",
+   "a": [
+    [
+     "",
+     "Le chat"
+    ],
+    [
+     "",
+     "La girafe"
+    ],
+    [
+     "",
+     "Le lapin"
+    ],
+    [
+     "",
+     "Le chien"
+    ]
+   ],
+   "ok": 1,
+   "say": "La girafe ! Les autres sont des animaux de compagnie.",
+   "level": 0
+  },
+  {
+   "q": "Quelle est l'intruse : la baguette, le croissant, la brioche ou le pain au chocolat ?",
+   "qd": "L'intruse à la boulangerie ?",
+   "a": [
+    [
+     "",
+     "La baguette"
+    ],
+    [
+     "",
+     "Le croissant"
+    ],
+    [
+     "",
+     "La brioche"
+    ],
+    [
+     "",
+     "Le pain au chocolat"
+    ]
+   ],
+   "ok": 0,
+   "say": "La baguette ! C'est du pain, les autres sont des viennoiseries.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : Zidane, Mbappé, Teddy Riner ou Griezmann ?",
+   "qd": "L'intrus parmi ces champions ?",
+   "a": [
+    [
+     "",
+     "Zidane"
+    ],
+    [
+     "",
+     "Mbappé"
+    ],
+    [
+     "",
+     "Teddy Riner"
+    ],
+    [
+     "",
+     "Griezmann"
+    ]
+   ],
+   "ok": 2,
+   "say": "Teddy Riner ! C'est un judoka, les autres sont footballeurs.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : l'autruche, l'émeu, le kiwi ou le flamant rose ?",
+   "qd": "L'intrus parmi ces oiseaux ?",
+   "a": [
+    [
+     "",
+     "L'autruche"
+    ],
+    [
+     "",
+     "L'émeu"
+    ],
+    [
+     "",
+     "Le kiwi"
+    ],
+    [
+     "",
+     "Le flamant rose"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le flamant rose ! Il vole, les trois autres en sont incapables.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : le comté, le sainte-maure, le reblochon ou le camembert ?",
+   "qd": "L'intrus au plateau de fromages ?",
+   "a": [
+    [
+     "",
+     "Le comté"
+    ],
+    [
+     "",
+     "Le sainte-maure"
+    ],
+    [
+     "",
+     "Le reblochon"
+    ],
+    [
+     "",
+     "Le camembert"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le sainte-maure ! C'est un fromage de chèvre, les autres sont au lait de vache.",
+   "level": 2
+  },
+  {
+   "q": "Quelle est l'intruse : l'Italie, l'Écosse, la Géorgie ou le pays de Galles ?",
+   "qd": "L'intruse au rugby ?",
+   "a": [
+    [
+     "",
+     "L'Italie"
+    ],
+    [
+     "",
+     "L'Écosse"
+    ],
+    [
+     "",
+     "La Géorgie"
+    ],
+    [
+     "",
+     "Le pays de Galles"
+    ]
+   ],
+   "ok": 2,
+   "say": "La Géorgie ! Elle ne joue pas le Tournoi des Six Nations.",
+   "level": 3
+  },
+  {
+   "q": "Quel est l'intrus : le dugong, l'orque, le narval ou le béluga ?",
+   "qd": "L'intrus dans l'océan ?",
+   "a": [
+    [
+     "",
+     "Le dugong"
+    ],
+    [
+     "",
+     "L'orque"
+    ],
+    [
+     "",
+     "Le narval"
+    ],
+    [
+     "",
+     "Le béluga"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le dugong ! Ce n'est pas un cétacé, c'est un cousin du lamantin.",
+   "level": 3
+  }
+ ]
+}
