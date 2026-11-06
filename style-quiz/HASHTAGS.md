@@ -14,6 +14,9 @@ quand les gens regardent jusqu'au bout, commentent ou s'abonnent). Meilleurs suj
    - Toujours interdits : #fyp #foryou #pourtoi #viral #trending #reels #quiztime #defi #question #connaissance #piege #logique #cerveau #tiktok.
 3. FIN DE VIDÉO : "outro" = appel au commentaire, dit ET écrit, ex. « Écris ton score en commentaire, et abonne-toi ! »
    ou « Dis-moi en commentaire laquelle t'a piégé ! » (varier). Ne plus mettre seulement « Abonnez-vous ».
+4bis. TEST (6 nov. 2026, demande de l'utilisateur : avant, avec #publiostudio et la position « Tour Eiffel », ses TikTok
+   dépassaient 1 000 vues, certains 10 000) : mettre #publiostudio en DERNIER hashtag de chaque vidéo (il compte dans
+   les 5 max). La position ne peut pas être mise par Publio (l'API TikTok ne la propose pas). Comparer les vues avec voir_stats après 2-3 jours.
 4. SUJETS : privilégier sport, cuisine/boissons, animaux, géographie « grand public » ; les listes a_faire de themes.json
    en contiennent.
 
