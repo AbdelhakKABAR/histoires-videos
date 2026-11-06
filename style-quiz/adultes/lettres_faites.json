@@ -135,6 +135,21 @@
     "Freetown",
     "Fermi"
    ]
+  },
+  {
+   "lettre": "G",
+   "date": "2026-11-06",
+   "fichier": "episode-lettre-g-2026-11-06-12.json",
+   "reponses": [
+    "Girafe",
+    "Galette",
+    "Grèce",
+    "Garonne",
+    "Galilée",
+    "Genève",
+    "Gauguin",
+    "Gallium"
+   ]
   }
  ]
 }

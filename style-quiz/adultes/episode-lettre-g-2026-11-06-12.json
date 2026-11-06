@@ -1,0 +1,99 @@
+{
+ "title": "Quiz lettre G",
+ "subject": "Lettre G",
+ "banner": "Quiz lettre G",
+ "mode": "lettre",
+ "letter": "G",
+ "icon": "🧠",
+ "symbols": [
+  "G",
+  "A",
+  "B",
+  "C",
+  "?",
+  "!",
+  "★",
+  "✦",
+  "G",
+  "Z",
+  "M",
+  "?",
+  "●",
+  "◆",
+  "G",
+  "✧"
+ ],
+ "description": "🔤 Quiz lettre G : 8 questions de culture générale, toutes les réponses commencent par G. Tu bloques sur laquelle ? 👇 #quizlettre #testculturegenerale #geographie #quiz",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Bravo ! Abonnez-vous pour plus de questions !",
+ "questions": [
+  {
+   "q": "Quel animal d'Afrique a le plus long cou ?",
+   "qd": "Animal au plus long cou ?",
+   "answer": "Girafe",
+   "say": "La girafe !",
+   "level": 0
+  },
+  {
+   "q": "Quelle pâtisserie avec une fève mange-t-on à l'Épiphanie ?",
+   "qd": "Pâtisserie de l'Épiphanie, avec une fève ?",
+   "answer": "Galette",
+   "say": "La galette des rois !",
+   "level": 0
+  },
+  {
+   "q": "Quel pays a pour capitale Athènes ?",
+   "qd": "Pays dont la capitale est Athènes ?",
+   "answer": "Grèce",
+   "say": "La Grèce !",
+   "level": 1
+  },
+  {
+   "q": "Quel fleuve traverse Toulouse et Bordeaux ?",
+   "qd": "Fleuve de Toulouse et Bordeaux ?",
+   "answer": "Garonne",
+   "say": "La Garonne !",
+   "level": 1
+  },
+  {
+   "q": "Quel savant italien a été condamné en 1633 pour avoir dit que la Terre tourne autour du Soleil ?",
+   "qd": "Savant condamné en 1633 ?",
+   "answer": "Galilée",
+   "say": "Galilée !",
+   "level": 2
+  },
+  {
+   "q": "Quelle ville suisse accueille le siège européen de l'ONU ?",
+   "qd": "Ville suisse, siège européen de l'ONU ?",
+   "answer": "Genève",
+   "say": "Genève !",
+   "level": 2
+  },
+  {
+   "q": "Quel peintre français a fini sa vie en Polynésie, après avoir peint Tahiti ?",
+   "qd": "Peintre français de Tahiti ?",
+   "answer": "Gauguin",
+   "say": "Paul Gauguin !",
+   "level": 3
+  },
+  {
+   "q": "Quel élément chimique a pour symbole G A ?",
+   "qd": "Élément chimique de symbole Ga ?",
+   "answer": "Gallium",
+   "say": "Le gallium !",
+   "level": 3
+  }
+ ],
+ "intro": "Toutes les réponses commencent par la lettre G !",
+ "intro_speed": 0.9,
+ "accroche": "95 % bloquent sur le dernier G",
+ "accroche_dite": "Quatre-vingt-quinze pour cent des gens bloquent sur le dernier mot en G !",
+ "accroche_pill": "QUIZ LETTRE G"
+}
