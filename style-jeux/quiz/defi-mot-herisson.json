@@ -1,0 +1,22 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "mot": "HÉRISSON",
+ "categorie": "Un animal",
+ "categorie_dite": "Mot mystère. Catégorie : un animal.",
+ "accroche": "Seulement 1 % trouvent avec 1 indice",
+ "accroche_pill": "MOT MYSTÈRE",
+ "accroche_dite": "Seulement un pour cent des gens trouvent ce mot mystère avec un seul indice !",
+ "indices": [
+  "On le croise parfois dans les jardins.",
+  "Il sort surtout la nuit.",
+  "Il hiberne pendant l'hiver.",
+  "Quand il a peur, il se roule en boule.",
+  "Son dos est couvert de piquants."
+ ],
+ "lettres_donnees": 1,
+ "dire": "Hérisson",
+ "explication": "Le hérisson, petit animal nocturne couvert de piquants.",
+ "description": "🦔 Mot mystère : un animal de nos jardins en 5 indices. Combien t'en a-t-il fallu ? Dis-le en commentaire 👇 #motmystere #apprendresurtiktok #animaux #nature #publiostudio"
+}
