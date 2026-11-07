@@ -148,7 +148,8 @@
   "Les sommets et massifs de France",
   "Le pays de chaque parc national",
   "Le pays de chaque site antique",
-  "La région de chaque parc de loisirs"
+  "La région de chaque parc de loisirs",
+  "Le pays de chaque club de foot"
  ],
  "a_faire": [
   "Les pays d'Europe",
@@ -167,7 +168,6 @@
   "La ville de chaque spécialité salée"
  ],
  "a_faire_monde": [
-  "Le pays de chaque club de foot",
   "Le pays de chaque légende du sport",
   "Le pays de chaque street food"
  ]

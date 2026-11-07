@@ -1,0 +1,22 @@
+{
+ "title": "Le pays de chaque club de foot", "subject": "Football", "banner": "Le pays de chaque club de foot",
+ "icon": "⚽", "decor": "monde",
+ "symbols": ["⚽","🏟","🥅","🏆","🌍","⭐","👟","🧤","🗺","✦","🎽","📣","🌎","✧","🏁","🥇"],
+ "description": "⚽ Quiz foot : de quel pays vient chaque club ? Real, Ajax, Boca… La dernière piège même les fans. Ton score ? 👇 #quiz #culturegenerale #football #monde #publiostudio",
+ "accroche": "La dernière piège même les fans de foot",
+ "accroche_dite": "La dernière question piège même les fans de foot !",
+ "accroche_pill": "SPÉCIAL FOOT",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Écris ton score en commentaire, et abonne-toi !",
+ "questions": [
+  {"q": "De quel pays vient le club du Real Madrid ?", "qd": "Le Real Madrid ?", "a": [["","L'Espagne"],["","Le Portugal"],["","L'Italie"],["","Le Mexique"]], "ok": 0, "say": "L'Espagne !", "level": 0},
+  {"q": "De quel pays vient le club de Manchester United ?", "qd": "Manchester United ?", "a": [["","L'Écosse"],["","L'Irlande"],["","L'Angleterre"],["","L'Australie"]], "ok": 2, "say": "L'Angleterre !", "level": 0},
+  {"q": "De quel pays vient le club de la Juventus ?", "qd": "La Juventus ?", "a": [["","L'Espagne"],["","L'Italie"],["","Le Brésil"],["","L'Argentine"]], "ok": 1, "say": "L'Italie !", "level": 0},
+  {"q": "De quel pays vient le club du Bayern Munich ?", "qd": "Le Bayern Munich ?", "a": [["","L'Autriche"],["","La Suisse"],["","Les Pays-Bas"],["","L'Allemagne"]], "ok": 3, "say": "L'Allemagne !", "level": 1},
+  {"q": "De quel pays vient le club de l'Ajax Amsterdam ?", "qd": "L'Ajax Amsterdam ?", "a": [["","Les Pays-Bas"],["","La Belgique"],["","Le Danemark"],["","L'Allemagne"]], "ok": 0, "say": "Les Pays-Bas !", "level": 1},
+  {"q": "De quel pays vient le club de Boca Juniors ?", "qd": "Boca Juniors ?", "a": [["","Le Brésil"],["","L'Uruguay"],["","L'Argentine"],["","Le Chili"]], "ok": 2, "say": "L'Argentine !", "level": 1},
+  {"q": "De quel pays vient le club du Benfica ?", "qd": "Le Benfica ?", "a": [["","L'Espagne"],["","Le Portugal"],["","Le Brésil"],["","La Grèce"]], "ok": 1, "say": "Le Portugal !", "level": 2},
+  {"q": "De quel pays vient le club du Celtic ?", "qd": "Le Celtic ?", "a": [["","L'Irlande"],["","L'Irlande du Nord"],["","Le pays de Galles"],["","L'Écosse"]], "ok": 3, "say": "L'Écosse ! Le Celtic joue à Glasgow.", "level": 3}
+ ]
+}
