@@ -17,39 +17,25 @@
    "fait": "pays-clubs-foot.mp4"
   },
   {
-   "heure": "10:00",
+   "heure": "11:00",
    "type": "france",
    "fait": null
   },
   {
-   "heure": "12:00",
-   "type": "lettre",
-   "fait": null
-  },
-  {
-   "heure": "14:00",
-   "type": "france",
-   "fait": null
-  },
-  {
-   "heure": "16:00",
-   "type": "monde",
-   "fait": null
-  },
-  {
-   "heure": "18:00",
+   "heure": "13:00",
    "type": "mot",
    "fait": null
   },
   {
-   "heure": "20:00",
+   "heure": "17:00",
    "type": "france",
    "fait": null
   },
   {
-   "heure": "22:00",
+   "heure": "20:00",
    "type": "logique",
    "fait": null
   }
- ]
+ ],
+ "note": "7 nov. : passage à 6 vidéos/jour (heures selon le jour) ; journée de transition (3 déjà faites + 4)."
 }
