@@ -41,6 +41,7 @@
   "2, 3, 5, 9, 17 → 33 (on double et on retire 1)",
   "1, 4, 27, 256 → 3125 (n puissance n)",
   "679, 378, 168, 48, 32 → 6 (produit des chiffres)",
-  "2, 5, 10, 17, 26 → 37 (on ajoute 3, 5, 7, 9, 11 : les impairs)"
+  "2, 5, 10, 17, 26 → 37 (on ajoute 3, 5, 7, 9, 11 : les impairs)",
+  "A, Z, B, Y, C → X (alternance début et fin de l'alphabet)"
  ]
 }

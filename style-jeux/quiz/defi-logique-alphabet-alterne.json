@@ -1,0 +1,17 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["A", "Z", "B", "Y", "C"],
+ "options": ["D", "W", "X", "E"],
+ "ok": 2,
+ "consigne": "Quelle lettre vient ensuite ?",
+ "accroche": "Un génie trouve en 5 secondes",
+ "accroche_dite": "Un génie trouve cette suite logique en cinq secondes !",
+ "question_dite": "A, Z, B, Y, C… Et ensuite ?",
+ "explication": "On alterne le début et la fin de l'alphabet : A, Z, B, Y, C… puis X.",
+ "explication_dite": "X ! On alterne le début et la fin de l'alphabet : A, Z, puis B, Y, puis C, X.",
+ "fin": "Tu avais trouvé ? Écris ta réponse en commentaire, et abonne-toi !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔠 Suite logique : A, Z, B, Y, C… quelle lettre ensuite ? Trouvé avant la fin du chrono ? Ta réponse en commentaire 👇 #suitelogique #quizz #alphabet #enigme #publiostudio"
+}
