@@ -1,0 +1,99 @@
+{
+ "title": "Quiz lettre H",
+ "subject": "Lettre H",
+ "banner": "Quiz lettre H",
+ "mode": "lettre",
+ "letter": "H",
+ "icon": "🧠",
+ "symbols": [
+  "H",
+  "A",
+  "B",
+  "C",
+  "?",
+  "!",
+  "★",
+  "✦",
+  "H",
+  "Z",
+  "M",
+  "?",
+  "●",
+  "◆",
+  "H",
+  "✧"
+ ],
+ "description": "🔤 Quiz lettre H : sport, capitales et sciences ! La dernière capitale piège presque tout le monde. Ton score ? 👇 #quiz #apprendresurtiktok #geographie #sport #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Dis-moi en commentaire laquelle t'a bloqué, et abonne-toi !",
+ "questions": [
+  {
+   "q": "Quel sport se joue sur la glace avec une crosse et un palet ?",
+   "qd": "Sport sur glace, avec crosse et palet ?",
+   "answer": "Hockey",
+   "say": "Le hockey !",
+   "level": 0
+  },
+  {
+   "q": "Quel animal d'Afrique est célèbre pour son cri qui ressemble à un rire ?",
+   "qd": "Animal d'Afrique dont le cri ressemble à un rire ?",
+   "answer": "Hyène",
+   "say": "La hyène !",
+   "level": 0
+  },
+  {
+   "q": "Quel pays a pour capitale Budapest ?",
+   "qd": "Pays dont la capitale est Budapest ?",
+   "answer": "Hongrie",
+   "say": "La Hongrie !",
+   "level": 1
+  },
+  {
+   "q": "Quel écrivain français a écrit Les Misérables ?",
+   "qd": "Auteur des Misérables ?",
+   "answer": "Hugo",
+   "say": "Victor Hugo !",
+   "level": 1
+  },
+  {
+   "q": "Quelle est la capitale de la Finlande ?",
+   "qd": "Capitale de la Finlande ?",
+   "answer": "Helsinki",
+   "say": "Helsinki !",
+   "level": 2
+  },
+  {
+   "q": "Quel gaz, plus léger que l'air, sert à gonfler les ballons de fête ?",
+   "qd": "Gaz qui gonfle les ballons de fête ?",
+   "answer": "Hélium",
+   "say": "L'hélium !",
+   "level": 2
+  },
+  {
+   "q": "Quel astronome a découvert la planète Uranus en 1781 ?",
+   "qd": "Astronome qui a découvert Uranus en 1781 ?",
+   "answer": "Herschel",
+   "say": "William Herschel !",
+   "level": 3
+  },
+  {
+   "q": "Quelle est la capitale du Zimbabwe ?",
+   "qd": "Capitale du Zimbabwe ?",
+   "answer": "Harare",
+   "say": "Harare !",
+   "level": 3
+  }
+ ],
+ "intro": "Toutes les réponses commencent par la lettre H !",
+ "intro_speed": 0.9,
+ "accroche": "La dernière capitale piège 95 % des gens",
+ "accroche_dite": "La dernière capitale piège quatre-vingt-quinze pour cent des gens !",
+ "accroche_pill": "QUIZ LETTRE H"
+}
