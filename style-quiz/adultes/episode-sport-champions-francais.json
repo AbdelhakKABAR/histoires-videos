@@ -1,0 +1,22 @@
+{
+ "title": "Le sport de chaque champion français", "subject": "Sport", "banner": "Le sport de chaque champion français",
+ "icon": "🏅", "decor": "france",
+ "symbols": ["🏅","🥇","🏆","⚽","🏉","🏀","🥋","🚴","🎾","⛷","🤺","🏊","🇫🇷","⭐","✦","🏁"],
+ "description": "🏅 Quiz sport : quel sport pour chaque champion français ? Riner, Dupont, Fourcade… Lequel t'a piégé ? 👇 #quiz #testculturegenerale #sport #france #publiostudio",
+ "accroche": "Le dernier champion piège tout le monde",
+ "accroche_dite": "Le dernier champion piège presque tout le monde !",
+ "accroche_pill": "SPÉCIAL SPORT",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Dis-moi en commentaire quel champion t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Dans quel sport Teddy Riner est-il champion ?", "qd": "Le sport de Teddy Riner ?", "a": [["","Le judo"],["","La lutte"],["","La boxe"],["","Le karaté"]], "ok": 0, "say": "Le judo !", "level": 0},
+  {"q": "Dans quel sport Tony Parker a-t-il brillé ?", "qd": "Le sport de Tony Parker ?", "a": [["","Le handball"],["","Le volley-ball"],["","Le basket-ball"],["","Le tennis"]], "ok": 2, "say": "Le basket-ball !", "level": 0},
+  {"q": "Dans quel sport joue Antoine Dupont ?", "qd": "Le sport d'Antoine Dupont ?", "a": [["","Le football"],["","Le rugby"],["","Le handball"],["","Le hockey"]], "ok": 1, "say": "Le rugby !", "level": 0},
+  {"q": "Dans quel sport Martin Fourcade a-t-il été champion olympique ?", "qd": "Le sport de Martin Fourcade ?", "a": [["","Le ski alpin"],["","Le saut à ski"],["","Le ski de fond"],["","Le biathlon"]], "ok": 3, "say": "Le biathlon !", "level": 1},
+  {"q": "Dans quelle discipline Renaud Lavillenie a-t-il battu le record du monde ?", "qd": "La discipline de Renaud Lavillenie ?", "a": [["","Le saut à la perche"],["","Le saut en longueur"],["","Le 100 mètres"],["","Le lancer du poids"]], "ok": 0, "say": "Le saut à la perche !", "level": 1},
+  {"q": "Dans quel sport Marie-José Pérec a-t-elle gagné trois médailles d'or olympiques ?", "qd": "Le sport de Marie-José Pérec ?", "a": [["","La natation"],["","L'escrime"],["","L'athlétisme"],["","Le cyclisme"]], "ok": 2, "say": "L'athlétisme !", "level": 1},
+  {"q": "Dans quelle épreuve Kevin Mayer a-t-il été champion du monde ?", "qd": "L'épreuve de Kevin Mayer ?", "a": [["","Le marathon"],["","Le décathlon"],["","L'aviron"],["","L'haltérophilie"]], "ok": 1, "say": "Le décathlon !", "level": 2},
+  {"q": "Dans quel sport Laura Flessel a-t-elle été championne olympique ?", "qd": "Le sport de Laura Flessel ?", "a": [["","Le tir à l'arc"],["","Le taekwondo"],["","Le judo"],["","L'escrime"]], "ok": 3, "say": "L'escrime !", "level": 3}
+ ]
+}

@@ -149,7 +149,8 @@
   "Le pays de chaque parc national",
   "Le pays de chaque site antique",
   "La région de chaque parc de loisirs",
-  "Le pays de chaque club de foot"
+  "Le pays de chaque club de foot",
+  "Le sport de chaque champion français"
  ],
  "a_faire": [
   "Les pays d'Europe",
@@ -164,7 +165,6 @@
   "Les découvertes scientifiques"
  ],
  "a_faire_france": [
-  "Le sport de chaque champion français",
   "La ville de chaque spécialité salée"
  ],
  "a_faire_monde": [
