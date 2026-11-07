@@ -12,7 +12,9 @@ D = pathlib.Path(__file__).parent
 cible = now + datetime.timedelta(hours=1)          # créneau visé : l'heure suivante (lancé à 23 h 20 -> 0 h du lendemain)
 jour = cible if (len(sys.argv) > 1 and sys.argv[1] in ("a-faire", "fait")) else now
 F = D / f"{jour:%Y-%m-%d}.json"
-POOL = ["france"] * 3 + ["monde"] * 3 + ["intrus"] * 2 + ["lettre"] * 2 + ["mot", "logique"]
+# 7 nov. 2026 (demande de l'utilisateur : « fais des choses pro ») : 4 défis par jour (les vidéos qui font le plus de vues),
+# lettre et intrus (les plus faibles) une fois par jour.
+POOL = ["france"] * 2 + ["monde"] * 2 + ["intrus", "lettre"] + ["mot"] * 2 + ["logique"] * 2
 
 def creer():
     r = random.SystemRandom()

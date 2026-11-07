@@ -1,3 +1,14 @@
+# 🚀 MISE À JOUR 7 nov. 2026 (demande de l'utilisateur : « fais des choses pro ») — PRIORITAIRE
+D'après les guides TikTok 2026 (Hootsuite, Metricool, go-viral) et nos stats (défis 30-45 s = meilleures vues) :
+1. DURÉE quiz : ≈ 55 s, 60 s au plus (max_duration 58 par défaut dans quiz_voix_court.py ; ≈ 5 questions gardées sur 8).
+   Vérification après rendu : 48 à 62 s. Défis inchangés (30 à 45 s). Plus courte = plus regardée jusqu'au bout.
+2. PROGRAMME : 4 défis par jour (2 mot mystère + 2 suite logique), 2 France, 2 Monde, 1 intrus, 1 lettre (planifier.py).
+3. HASHTAGS (4 ou 5) : format (#quiz / #motmystere / #suitelogique / #trouvelintrus) + 1 tag communauté qui tourne
+   parmi #culturegenerale, #apprendresurtiktok, #quizz, #testculturegenerale (jamais le même 2 fois de suite)
+   + 1 à 2 tags du sujet (#football, #geographie, #cuisine, #histoire, #animaux…, #france si thème France) + #publiostudio en dernier.
+4. Les 3 premières secondes : la question ou le défi doit être lisible à l'écran tout de suite (accroche), sans écran vide.
+5. Le mot-clé principal (ex. « quiz foot », « mot mystère ») doit être dit par la voix, écrit à l'écran ET dans la 1re phrase de la légende.
+
 # 📊 MISE À JOUR 6 nov. 2026 — d'après les stats réelles (outil Publio voir_stats) et les guides 2026 — PRIORITAIRE
 Constat : TikTok ≈ 135 vues/vidéo, Instagram ≈ 145, YouTube 0 à 180, Facebook ≈ 2 (page sans abonné).
 Presque aucun j'aime/commentaire : c'est ça qui bloque la diffusion (TikTok et YouTube élargissent l'audience

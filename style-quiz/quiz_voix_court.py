@@ -37,7 +37,8 @@ def put(text, kind, at, speed=0.95):
     x = say(text, speed); clips.append((at, x)); ph = {"t0": round(at, 3), "t1": round(at + len(x) / SR, 3), "text": text, "who": kind}; phrases.append(ph); print(ph); return ph
 # Durée maximale (demande de l'utilisateur, 4 nov. 2026) : 90 s au plus, viser 85 s -> "max_duration" (85 par défaut).
 # Si l'épisode est trop long, on retire des questions (dans le niveau qui en a le plus, en gardant chaque niveau) jusqu'à tenir.
-MAXD = float(Q.get("max_duration", 85)); ALLQ = list(Q["questions"])
+# 7 nov. 2026 : quiz plus courts (≈ 55 s, max 60 s) pour qu'on les regarde jusqu'au bout (taux de complétion = signal n° 1 de TikTok).
+MAXD = float(Q.get("max_duration", 58)); ALLQ = list(Q["questions"])
 def layout(QS):
     global clips, quiz, phrases
     clips = []; quiz = []
