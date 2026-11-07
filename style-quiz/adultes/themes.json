@@ -150,7 +150,8 @@
   "Le pays de chaque site antique",
   "La région de chaque parc de loisirs",
   "Le pays de chaque club de foot",
-  "Le sport de chaque champion français"
+  "Le sport de chaque champion français",
+  "La ville de chaque spécialité salée"
  ],
  "a_faire": [
   "Les pays d'Europe",
@@ -164,9 +165,7 @@
   "La peinture",
   "Les découvertes scientifiques"
  ],
- "a_faire_france": [
-  "La ville de chaque spécialité salée"
- ],
+ "a_faire_france": [],
  "a_faire_monde": [
   "Le pays de chaque légende du sport",
   "Le pays de chaque street food"

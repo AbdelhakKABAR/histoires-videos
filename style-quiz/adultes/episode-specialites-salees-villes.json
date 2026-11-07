@@ -1,0 +1,238 @@
+{
+ "title": "La ville de chaque spécialité salée",
+ "subject": "Spécialités",
+ "banner": "La ville de chaque spécialité salée",
+ "symbols": [
+  "🍽",
+  "🥖",
+  "🧀",
+  "🌭",
+  "🇫🇷",
+  "📍",
+  "🗺",
+  "🥘",
+  "🦆",
+  "✦",
+  "🍳",
+  "🧅",
+  "🐟",
+  "✧",
+  "🥓",
+  "🍷"
+ ],
+ "description": "🍽 Quiz France : de quelle ville vient chaque spécialité salée ? Saucisse, pâté, galette… Laquelle t'a piégé ? 👇 #quiz #culturegenerale #cuisine #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Écris ton score en commentaire, et abonne-toi !",
+ "questions": [
+  {
+   "q": "Quelle ville du Sud-Ouest a donné son nom à une saucisse célèbre ?",
+   "qd": "La saucisse célèbre : quelle ville ?",
+   "a": [
+    [
+     "",
+     "Toulouse"
+    ],
+    [
+     "",
+     "Bordeaux"
+    ],
+    [
+     "",
+     "Pau"
+    ],
+    [
+     "",
+     "Agen"
+    ]
+   ],
+   "ok": 0,
+   "say": "Toulouse !",
+   "level": 0
+  },
+  {
+   "q": "De quelle ville la galette-saucisse est-elle l'emblème ?",
+   "qd": "La galette-saucisse : quelle ville ?",
+   "a": [
+    [
+     "",
+     "Brest"
+    ],
+    [
+     "",
+     "Nantes"
+    ],
+    [
+     "",
+     "Rennes"
+    ],
+    [
+     "",
+     "Quimper"
+    ]
+   ],
+   "ok": 2,
+   "say": "Rennes !",
+   "level": 0
+  },
+  {
+   "q": "De quelle ville vient la pissaladière, la tarte aux oignons et aux anchois ?",
+   "qd": "La pissaladière : quelle ville ?",
+   "a": [
+    [
+     "",
+     "Marseille"
+    ],
+    [
+     "",
+     "Nice"
+    ],
+    [
+     "",
+     "Toulon"
+    ],
+    [
+     "",
+     "Montpellier"
+    ]
+   ],
+   "ok": 1,
+   "say": "Nice !",
+   "level": 0
+  },
+  {
+   "q": "Où se trouve l'omelette géante de la Mère Poulard ?",
+   "qd": "L'omelette de la Mère Poulard : où ?",
+   "a": [
+    [
+     "",
+     "Saint-Malo"
+    ],
+    [
+     "",
+     "Étretat"
+    ],
+    [
+     "",
+     "Deauville"
+    ],
+    [
+     "",
+     "Le Mont-Saint-Michel"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le Mont-Saint-Michel !",
+   "level": 1
+  },
+  {
+   "q": "De quelle ville viennent les pieds paquets, des tripes de mouton farcies ?",
+   "qd": "Les pieds paquets : quelle ville ?",
+   "a": [
+    [
+     "",
+     "Marseille"
+    ],
+    [
+     "",
+     "Lyon"
+    ],
+    [
+     "",
+     "Bordeaux"
+    ],
+    [
+     "",
+     "Lille"
+    ]
+   ],
+   "ok": 0,
+   "say": "Marseille !",
+   "level": 1
+  },
+  {
+   "q": "De quelle ville vient la rosette, un saucisson célèbre ?",
+   "qd": "La rosette : quelle ville ?",
+   "a": [
+    [
+     "",
+     "Grenoble"
+    ],
+    [
+     "",
+     "Saint-Étienne"
+    ],
+    [
+     "",
+     "Lyon"
+    ],
+    [
+     "",
+     "Annecy"
+    ]
+   ],
+   "ok": 2,
+   "say": "Lyon !",
+   "level": 1
+  },
+  {
+   "q": "Quelle ville a donné son nom au canard au sang, servi à la presse ?",
+   "qd": "Le canard au sang : quelle ville ?",
+   "a": [
+    [
+     "",
+     "Le Havre"
+    ],
+    [
+     "",
+     "Rouen"
+    ],
+    [
+     "",
+     "Caen"
+    ],
+    [
+     "",
+     "Amiens"
+    ]
+   ],
+   "ok": 1,
+   "say": "Rouen ! Le canard à la rouennaise.",
+   "level": 2
+  },
+  {
+   "q": "Quelle ville de la Beauce est célèbre pour son pâté en croûte ?",
+   "qd": "Le pâté en croûte : quelle ville ?",
+   "a": [
+    [
+     "",
+     "Orléans"
+    ],
+    [
+     "",
+     "Blois"
+    ],
+    [
+     "",
+     "Bourges"
+    ],
+    [
+     "",
+     "Chartres"
+    ]
+   ],
+   "ok": 3,
+   "say": "Chartres ! Le pâté de Chartres.",
+   "level": 3
+  }
+ ],
+ "accroche": "Seul un vrai gourmand trouve la dernière",
+ "accroche_dite": "Seul un vrai gourmand trouve la dernière !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
