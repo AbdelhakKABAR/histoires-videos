@@ -1,0 +1,238 @@
+{
+ "title": "La ville de chaque boisson",
+ "subject": "Boissons",
+ "banner": "La ville de chaque boisson",
+ "symbols": [
+  "🍷",
+  "🥂",
+  "🍺",
+  "🍾",
+  "🇫🇷",
+  "📍",
+  "🗺",
+  "🍸",
+  "✦",
+  "🍹",
+  "🥃",
+  "🍋",
+  "✧",
+  "🍇",
+  "🍊",
+  "🧊"
+ ],
+ "description": "🍷 Quiz France : de quelle ville vient chaque boisson ? Pastis, kir, Cointreau… Tu as eu combien ? 👇 #quiz #testculturegenerale #boissons #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {
+   "q": "Dans quelle ville le pastis Ricard est-il né ?",
+   "qd": "Le pastis Ricard : quelle ville ?",
+   "a": [
+    [
+     "",
+     "Nice"
+    ],
+    [
+     "",
+     "Marseille"
+    ],
+    [
+     "",
+     "Toulon"
+    ],
+    [
+     "",
+     "Montpellier"
+    ]
+   ],
+   "ok": 1,
+   "say": "Marseille !",
+   "level": 0
+  },
+  {
+   "q": "Quelle ville a donné son nom au cognac ?",
+   "qd": "Le cognac : quelle ville ?",
+   "a": [
+    [
+     "",
+     "Bordeaux"
+    ],
+    [
+     "",
+     "Angoulême"
+    ],
+    [
+     "",
+     "Cognac"
+    ],
+    [
+     "",
+     "La Rochelle"
+    ]
+   ],
+   "ok": 2,
+   "say": "Cognac, en Charente !",
+   "level": 0
+  },
+  {
+   "q": "Dans quelle ville la bière Kronenbourg est-elle née ?",
+   "qd": "La bière Kronenbourg : quelle ville ?",
+   "a": [
+    [
+     "",
+     "Strasbourg"
+    ],
+    [
+     "",
+     "Lille"
+    ],
+    [
+     "",
+     "Metz"
+    ],
+    [
+     "",
+     "Nancy"
+    ]
+   ],
+   "ok": 0,
+   "say": "Strasbourg !",
+   "level": 0
+  },
+  {
+   "q": "Le kir porte le nom d'un ancien maire de quelle ville ?",
+   "qd": "Le kir : le maire de quelle ville ?",
+   "a": [
+    [
+     "",
+     "Lyon"
+    ],
+    [
+     "",
+     "Beaune"
+    ],
+    [
+     "",
+     "Mâcon"
+    ],
+    [
+     "",
+     "Dijon"
+    ]
+   ],
+   "ok": 3,
+   "say": "Dijon ! Le chanoine Kir.",
+   "level": 1
+  },
+  {
+   "q": "Dans quelle ville la liqueur Cointreau a-t-elle été créée ?",
+   "qd": "Le Cointreau : quelle ville ?",
+   "a": [
+    [
+     "",
+     "Nantes"
+    ],
+    [
+     "",
+     "Angers"
+    ],
+    [
+     "",
+     "Tours"
+    ],
+    [
+     "",
+     "Rennes"
+    ]
+   ],
+   "ok": 1,
+   "say": "Angers !",
+   "level": 1
+  },
+  {
+   "q": "Dans quelle ville normande est fabriquée la Bénédictine ?",
+   "qd": "La Bénédictine : quelle ville ?",
+   "a": [
+    [
+     "",
+     "Rouen"
+    ],
+    [
+     "",
+     "Caen"
+    ],
+    [
+     "",
+     "Fécamp"
+    ],
+    [
+     "",
+     "Honfleur"
+    ]
+   ],
+   "ok": 2,
+   "say": "Fécamp !",
+   "level": 1
+  },
+  {
+   "q": "Quelle ville du Doubs est surnommée la capitale de l'absinthe ?",
+   "qd": "La capitale de l'absinthe ?",
+   "a": [
+    [
+     "",
+     "Pontarlier"
+    ],
+    [
+     "",
+     "Besançon"
+    ],
+    [
+     "",
+     "Montbéliard"
+    ],
+    [
+     "",
+     "Morteau"
+    ]
+   ],
+   "ok": 0,
+   "say": "Pontarlier !",
+   "level": 2
+  },
+  {
+   "q": "Dans quelle ville se trouve la maison de champagne Moët et Chandon ?",
+   "qd": "Le champagne Moët et Chandon : où ?",
+   "a": [
+    [
+     "",
+     "Reims"
+    ],
+    [
+     "",
+     "Troyes"
+    ],
+    [
+     "",
+     "Châlons"
+    ],
+    [
+     "",
+     "Épernay"
+    ]
+   ],
+   "ok": 3,
+   "say": "Épernay !",
+   "level": 3
+  }
+ ],
+ "accroche": "9 Français sur 10 ratent la dernière",
+ "accroche_dite": "Neuf Français sur dix ratent la dernière !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
