@@ -153,7 +153,8 @@
   "Le sport de chaque champion français",
   "La ville de chaque spécialité salée",
   "La ville de chaque boisson",
-  "La ville de chaque grande marque"
+  "La ville de chaque grande marque",
+  "Le pays de chaque légende du sport"
  ],
  "a_faire": [
   "Les pays d'Europe",
@@ -169,7 +170,6 @@
  ],
  "a_faire_france": [],
  "a_faire_monde": [
-  "Le pays de chaque légende du sport",
   "Le pays de chaque street food"
  ]
 }

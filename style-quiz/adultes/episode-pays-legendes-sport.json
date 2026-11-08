@@ -1,0 +1,22 @@
+{
+ "title": "Le pays de chaque légende du sport", "subject": "Sport", "banner": "Le pays de chaque légende du sport",
+ "icon": "🏅", "decor": "monde",
+ "symbols": ["🏅","🏆","⚽","🎾","🏃","🚴","🏒","🌍","⭐","🥇","🏁","🤸","🗺","✦","🌎","🏟"],
+ "description": "🏅 Quiz sport : de quel pays vient chaque légende ? Bolt, Federer, Pelé… Seul 1 fan sur 4 trouve la dernière. Tu as eu combien ? 👇 #quiz #quizz #sport #monde #publiostudio",
+ "accroche": "Seul 1 fan sur 4 trouve la dernière",
+ "accroche_dite": "Seul un fan de sport sur quatre trouve la dernière !",
+ "accroche_pill": "SPÉCIAL SPORT",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Dis-moi en commentaire quelle légende t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "De quel pays vient le sprinteur Usain Bolt ?", "qd": "Usain Bolt ?", "a": [["","Les États-Unis"],["","Le Kenya"],["","La Jamaïque"],["","Cuba"]], "ok": 2, "say": "La Jamaïque !", "level": 0},
+  {"q": "De quel pays vient le joueur de tennis Roger Federer ?", "qd": "Roger Federer ?", "a": [["","La Suisse"],["","L'Autriche"],["","L'Allemagne"],["","La Suède"]], "ok": 0, "say": "La Suisse !", "level": 0},
+  {"q": "De quel pays vient le footballeur Pelé ?", "qd": "Pelé ?", "a": [["","L'Argentine"],["","Le Brésil"],["","Le Portugal"],["","L'Uruguay"]], "ok": 1, "say": "Le Brésil !", "level": 0},
+  {"q": "De quel pays vient le joueur de tennis Rafael Nadal ?", "qd": "Rafael Nadal ?", "a": [["","L'Italie"],["","L'Argentine"],["","Le Portugal"],["","L'Espagne"]], "ok": 3, "say": "L'Espagne !", "level": 1},
+  {"q": "De quel pays vient le cycliste Eddy Merckx ?", "qd": "Eddy Merckx ?", "a": [["","Les Pays-Bas"],["","La Belgique"],["","La France"],["","Le Luxembourg"]], "ok": 1, "say": "La Belgique !", "level": 1},
+  {"q": "De quel pays vient la gymnaste Nadia Comaneci ?", "qd": "Nadia Comaneci ?", "a": [["","La Roumanie"],["","La Russie"],["","La Hongrie"],["","La Bulgarie"]], "ok": 0, "say": "La Roumanie !", "level": 1},
+  {"q": "De quel pays vient le hockeyeur Wayne Gretzky ?", "qd": "Wayne Gretzky ?", "a": [["","Les États-Unis"],["","La Suède"],["","La Finlande"],["","Le Canada"]], "ok": 3, "say": "Le Canada !", "level": 2},
+  {"q": "De quel pays vient le coureur de fond Haile Gebrselassie ?", "qd": "Haile Gebrselassie ?", "a": [["","Le Kenya"],["","L'Ouganda"],["","L'Éthiopie"],["","L'Érythrée"]], "ok": 2, "say": "L'Éthiopie !", "level": 3}
+ ]
+}
