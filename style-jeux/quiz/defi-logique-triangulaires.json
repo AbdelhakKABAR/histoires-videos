@@ -1,0 +1,17 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["1", "3", "6", "10", "15"],
+ "options": ["20", "25", "21", "22"],
+ "ok": 2,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "Seulement 1 sur 3 trouve à temps",
+ "accroche_dite": "Seulement une personne sur trois trouve cette suite logique à temps !",
+ "question_dite": "Un, trois, six, dix, quinze… Et ensuite ?",
+ "explication": "On ajoute 2, puis 3, puis 4, puis 5… donc 15 + 6 = 21.",
+ "explication_dite": "Vingt et un ! On ajoute deux, puis trois, puis quatre, puis cinq… donc quinze plus six, vingt et un.",
+ "fin": "Tu avais trouvé ? Écris ta réponse en commentaire, et abonne-toi !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔢 Suite logique : 1, 3, 6, 10, 15… quel nombre ensuite ? Tu trouves avant la fin du chrono ? Ta réponse en commentaire 👇 #suitelogique #testculturegenerale #maths #enigme #publiostudio"
+}
