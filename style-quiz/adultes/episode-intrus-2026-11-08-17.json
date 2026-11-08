@@ -1,0 +1,238 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🧩 Trouve l'intrus : capitales, fromages, rois et euro. Le dernier piège presque tout le monde. Tu as eu combien ? 👇 #trouvelintrus #culturegenerale #geographie #animaux #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Dis-moi en commentaire lequel t'a piégé, et abonne-toi !",
+ "accroche": "Presque personne ne voit le dernier piège",
+ "accroche_dite": "Presque personne ne voit le dernier piège !",
+ "accroche_pill": "CULTURE G",
+ "questions": [
+  {
+   "q": "Quelle est l'intruse : Rome, Berlin, Lisbonne ou Naples ?",
+   "qd": "L'intruse parmi ces villes ?",
+   "a": [
+    [
+     "",
+     "Rome"
+    ],
+    [
+     "",
+     "Berlin"
+    ],
+    [
+     "",
+     "Lisbonne"
+    ],
+    [
+     "",
+     "Naples"
+    ]
+   ],
+   "ok": 3,
+   "say": "Naples ! Ce n'est pas une capitale.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le chien, le perroquet, le chat ou le lapin ?",
+   "qd": "L'intrus à la maison ?",
+   "a": [
+    [
+     "",
+     "Le chien"
+    ],
+    [
+     "",
+     "Le perroquet"
+    ],
+    [
+     "",
+     "Le chat"
+    ],
+    [
+     "",
+     "Le lapin"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le perroquet ! C'est un oiseau, les autres sont des mammifères.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le football, le basket, le hockey sur glace ou le handball ?",
+   "qd": "L'intrus parmi ces sports ?",
+   "a": [
+    [
+     "",
+     "Le football"
+    ],
+    [
+     "",
+     "Le basket"
+    ],
+    [
+     "",
+     "Le hockey sur glace"
+    ],
+    [
+     "",
+     "Le handball"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le hockey sur glace ! On y joue avec un palet, pas un ballon.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le parmesan, le camembert, le brie ou le reblochon ?",
+   "qd": "L'intrus parmi ces fromages ?",
+   "a": [
+    [
+     "",
+     "Le parmesan"
+    ],
+    [
+     "",
+     "Le camembert"
+    ],
+    [
+     "",
+     "Le brie"
+    ],
+    [
+     "",
+     "Le reblochon"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le parmesan ! Il est italien, les autres sont français.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : les Alpes, les Pyrénées, l'Himalaya ou le Jura ?",
+   "qd": "L'intrus parmi ces montagnes ?",
+   "a": [
+    [
+     "",
+     "Les Alpes"
+    ],
+    [
+     "",
+     "Les Pyrénées"
+    ],
+    [
+     "",
+     "L'Himalaya"
+    ],
+    [
+     "",
+     "Le Jura"
+    ]
+   ],
+   "ok": 2,
+   "say": "L'Himalaya ! Il est en Asie, les autres sont en Europe.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : Louis XIV, Henri IV, Philippe le Bel ou Vercingétorix ?",
+   "qd": "L'intrus parmi ces personnages ?",
+   "a": [
+    [
+     "",
+     "Louis XIV"
+    ],
+    [
+     "",
+     "Henri IV"
+    ],
+    [
+     "",
+     "Philippe le Bel"
+    ],
+    [
+     "",
+     "Vercingétorix"
+    ]
+   ],
+   "ok": 3,
+   "say": "Vercingétorix ! C'est un chef gaulois, pas un roi de France.",
+   "level": 1
+  },
+  {
+   "q": "Quelle est l'intruse : le crocodile, la rainette, la vipère ou le caméléon ?",
+   "qd": "L'intruse parmi ces animaux ?",
+   "a": [
+    [
+     "",
+     "Le crocodile"
+    ],
+    [
+     "",
+     "La rainette"
+    ],
+    [
+     "",
+     "La vipère"
+    ],
+    [
+     "",
+     "Le caméléon"
+    ]
+   ],
+   "ok": 1,
+   "say": "La rainette ! C'est une grenouille, un amphibien. Les autres sont des reptiles.",
+   "level": 2
+  },
+  {
+   "q": "Quelle est l'intruse : la Hongrie, la Croatie, la Grèce ou l'Irlande ?",
+   "qd": "L'intruse : pays d'Europe ?",
+   "a": [
+    [
+     "",
+     "La Hongrie"
+    ],
+    [
+     "",
+     "La Croatie"
+    ],
+    [
+     "",
+     "La Grèce"
+    ],
+    [
+     "",
+     "L'Irlande"
+    ]
+   ],
+   "ok": 0,
+   "say": "La Hongrie ! Elle n'a pas l'euro, les trois autres l'ont.",
+   "level": 3
+  }
+ ]
+}
