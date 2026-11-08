@@ -1,0 +1,22 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "mot": "COLISÉE",
+ "categorie": "Un monument célèbre",
+ "categorie_dite": "Mot mystère. Catégorie : un monument célèbre.",
+ "accroche": "Trouve-le avant le 3e indice",
+ "accroche_pill": "MOT MYSTÈRE",
+ "accroche_dite": "Mot mystère : essaie de le trouver avant le troisième indice !",
+ "indices": [
+  "C'est un monument visité par des millions de gens.",
+  "Il a presque 2 000 ans.",
+  "Des gladiateurs y combattaient.",
+  "Il se trouve en Italie.",
+  "C'est le grand amphithéâtre de Rome."
+ ],
+ "lettres_donnees": 1,
+ "dire": "Colisée",
+ "explication": "Le Colisée, l'immense amphithéâtre antique de Rome.",
+ "description": "🏛 Mot mystère : un monument célèbre en 5 indices. Combien t'en a-t-il fallu ? Dis-le en commentaire 👇 #motmystere #quizz #histoire #rome #publiostudio"
+}
