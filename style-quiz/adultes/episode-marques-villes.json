@@ -1,0 +1,25 @@
+{
+ "title": "La ville de chaque grande marque",
+ "subject": "Marques",
+ "banner": "La ville de chaque marque",
+ "icon": "🏭",
+ "symbols": ["🏭","🇫🇷","📍","🛞","🍪","✈","🚗","🌸","⌚","🐓","✦","🗺","✧","🏷","⭐","🧭"],
+ "description": "🏭 Quiz France : la ville de chaque grande marque. Michelin, LU, Lip… Laquelle t'a piégé ? 👇 #quiz #apprendresurtiktok #entreprises #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Écris ton score en commentaire, et abonne-toi !",
+ "questions": [
+  {"q": "Dans quelle ville la marque de pneus Michelin est-elle née ?", "qd": "Les pneus Michelin : quelle ville ?", "a": [["","Lyon"],["","Clermont-Ferrand"],["","Saint-Étienne"],["","Limoges"]], "ok": 1, "say": "Clermont-Ferrand !", "level": 0},
+  {"q": "Dans quelle ville sont assemblés les avions Airbus en France ?", "qd": "Les avions Airbus : quelle ville ?", "a": [["","Toulouse"],["","Bordeaux"],["","Marseille"],["","Nantes"]], "ok": 0, "say": "Toulouse !", "level": 0},
+  {"q": "Dans quelle ville les biscuits LU sont-ils nés ?", "qd": "Les biscuits LU : quelle ville ?", "a": [["","Rennes"],["","Angers"],["","Nantes"],["","Brest"]], "ok": 2, "say": "Nantes !", "level": 0},
+  {"q": "Dans quelle ville se trouve la grande usine historique de Peugeot ?", "qd": "L'usine historique Peugeot : où ?", "a": [["","Flins"],["","Le Mans"],["","Sochaux"],["","Douai"]], "ok": 2, "say": "Sochaux !", "level": 1},
+  {"q": "Dans quelle ville la marque Renault est-elle née ?", "qd": "Renault est née où ?", "a": [["","Lyon"],["","Boulogne-Billancourt"],["","Le Mans"],["","Lille"]], "ok": 1, "say": "Boulogne-Billancourt !", "level": 1},
+  {"q": "Dans quelle ville la parfumerie Fragonard a-t-elle été fondée ?", "qd": "Les parfums Fragonard : où ?", "a": [["","Nice"],["","Cannes"],["","Aix-en-Provence"],["","Grasse"]], "ok": 3, "say": "Grasse, la capitale du parfum !", "level": 1},
+  {"q": "Dans quelle ville les montres Lip sont-elles nées ?", "qd": "Les montres Lip : quelle ville ?", "a": [["","Annecy"],["","Grenoble"],["","Chambéry"],["","Besançon"]], "ok": 3, "say": "Besançon !", "level": 2},
+  {"q": "Dans quelle ville la marque Le Coq Sportif est-elle née ?", "qd": "Le Coq Sportif est né où ?", "a": [["","Troyes"],["","Romilly-sur-Seine"],["","Roubaix"],["","Reims"]], "ok": 1, "say": "Romilly-sur-Seine, dans l'Aube !", "level": 3}
+ ],
+ "accroche": "Seul 1 Français sur 20 trouve la dernière",
+ "accroche_dite": "Seul un Français sur vingt trouve la dernière !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
