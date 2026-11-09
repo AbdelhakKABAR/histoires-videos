@@ -1,0 +1,17 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["1", "1", "2", "3", "5", "8"],
+ "options": ["11", "12", "14", "13"],
+ "ok": 3,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "Un génie trouve en 10 secondes",
+ "accroche_dite": "Suite logique : un génie trouve la réponse en dix secondes. Et toi ?",
+ "question_dite": "Un, un, deux, trois, cinq, huit… Et ensuite ?",
+ "explication": "Chaque nombre est la somme des deux précédents : 5 + 8 = 13.",
+ "explication_dite": "Treize ! Chaque nombre est la somme des deux précédents : cinq plus huit, treize. C'est la suite de Fibonacci.",
+ "fin": "Tu avais trouvé ? Écris ton temps en commentaire, et abonne-toi !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔢 Suite logique : 1, 1, 2, 3, 5, 8… quel nombre ensuite ? Tu trouves en moins de 10 secondes ? Ta réponse en commentaire 👇 #suitelogique #apprendresurtiktok #maths #enigme #publiostudio"
+}
