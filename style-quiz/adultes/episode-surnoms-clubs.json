@@ -1,0 +1,24 @@
+{
+ "title": "Le surnom de chaque club de foot",
+ "subject": "Football",
+ "banner": "Quiz foot : les surnoms des clubs",
+ "symbols": ["⚽","🏟","🥅","🏆","🇫🇷","📣","⭐","🧤","✦","👕","🎽","🦁","✧","🐊","🦅","🐟"],
+ "description": "⚽ Quiz foot France : quelle ville se cache derrière chaque surnom de club ? Les Verts, les Merlus… Tu as eu combien ? 👇 #quiz #apprendresurtiktok #football #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Écris ton club préféré en commentaire, et abonne-toi !",
+ "accroche": "Seul un vrai fan trouve le dernier",
+ "accroche_dite": "Quiz foot : seul un vrai fan trouve le dernier surnom !",
+ "accroche_pill": "SPÉCIAL FOOT",
+ "questions": [
+  {"q": "Quiz foot ! Les Verts, c'est le surnom du club de quelle ville ?", "qd": "Les Verts : quelle ville ?", "a": [["","Saint-Étienne"],["","Lyon"],["","Nantes"],["","Lens"]], "ok": 0, "say": "Saint-Étienne !", "level": 0},
+  {"q": "Les Phocéens, ce sont les joueurs de quelle ville ?", "qd": "Les Phocéens : quelle ville ?", "a": [["","Nice"],["","Toulon"],["","Marseille"],["","Montpellier"]], "ok": 2, "say": "Marseille !", "level": 0},
+  {"q": "Les Gones, ce sont les joueurs de quelle ville ?", "qd": "Les Gones : quelle ville ?", "a": [["","Grenoble"],["","Lyon"],["","Saint-Étienne"],["","Clermont"]], "ok": 1, "say": "Lyon !", "level": 0},
+  {"q": "Les Sang et Or, c'est le club de quelle ville ?", "qd": "Les Sang et Or : quelle ville ?", "a": [["","Lille"],["","Reims"],["","Valenciennes"],["","Lens"]], "ok": 3, "say": "Lens !", "level": 1},
+  {"q": "Les Aiglons, c'est le club de quelle ville ?", "qd": "Les Aiglons : quelle ville ?", "a": [["","Nice"],["","Monaco"],["","Toulon"],["","Ajaccio"]], "ok": 0, "say": "Nice !", "level": 1},
+  {"q": "Les Crocos, c'est le club de quelle ville ?", "qd": "Les Crocos : quelle ville ?", "a": [["","Montpellier"],["","Béziers"],["","Nîmes"],["","Sète"]], "ok": 2, "say": "Nîmes !", "level": 1},
+  {"q": "Les Merlus, c'est le club de quelle ville bretonne ?", "qd": "Les Merlus : quelle ville ?", "a": [["","Brest"],["","Lorient"],["","Guingamp"],["","Vannes"]], "ok": 1, "say": "Lorient !", "level": 2},
+  {"q": "Les Lionceaux, c'est le club de quelle ville ?", "qd": "Les Lionceaux : quelle ville ?", "a": [["","Auxerre"],["","Mulhouse"],["","Dijon"],["","Sochaux"]], "ok": 3, "say": "Sochaux ! Le lion de Peugeot.", "level": 3}
+ ]
+}
