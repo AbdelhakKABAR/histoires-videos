@@ -1,0 +1,238 @@
+{
+ "title": "Trouve l'intrus",
+ "subject": "Intrus",
+ "banner": "Trouve l'intrus",
+ "symbols": [
+  "?",
+  "✗",
+  "✓",
+  "🔍",
+  "🕵",
+  "❓",
+  "!",
+  "✦",
+  "★",
+  "◆",
+  "●",
+  "▲",
+  "■",
+  "⬤",
+  "✧",
+  "➜"
+ ],
+ "description": "🧩 Trouve l'intrus : animaux, musique et villes d'Afrique. Seul 1 sur 4 trouve le dernier. Tu tombes dans quel piège ? 👇 #trouvelintrus #testculturegenerale #animaux #geographie #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Écris ton score en commentaire, et abonne-toi !",
+ "accroche": "Seul 1 sur 4 trouve le dernier",
+ "accroche_dite": "Seulement une personne sur quatre trouve le dernier intrus !",
+ "accroche_pill": "TEST CULTURE G",
+ "questions": [
+  {
+   "q": "Quel est l'intrus : le lynx, le lion, le tigre ou le lévrier ?",
+   "qd": "L'intrus parmi ces animaux ?",
+   "a": [
+    [
+     "",
+     "Le lynx"
+    ],
+    [
+     "",
+     "Le lion"
+    ],
+    [
+     "",
+     "Le tigre"
+    ],
+    [
+     "",
+     "Le lévrier"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le lévrier ! C'est un chien, les autres sont des félins.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : la France, l'Australie, l'Espagne ou l'Italie ?",
+   "qd": "L'intrus parmi ces pays ?",
+   "a": [
+    [
+     "",
+     "La France"
+    ],
+    [
+     "",
+     "L'Australie"
+    ],
+    [
+     "",
+     "L'Espagne"
+    ],
+    [
+     "",
+     "L'Italie"
+    ]
+   ],
+   "ok": 1,
+   "say": "L'Australie ! Elle n'est pas en Europe.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : le football, le rugby, la gymnastique ou le handball ?",
+   "qd": "L'intrus parmi ces sports ?",
+   "a": [
+    [
+     "",
+     "Le football"
+    ],
+    [
+     "",
+     "Le rugby"
+    ],
+    [
+     "",
+     "La gymnastique"
+    ],
+    [
+     "",
+     "Le handball"
+    ]
+   ],
+   "ok": 2,
+   "say": "La gymnastique ! On n'y joue pas avec un ballon.",
+   "level": 0
+  },
+  {
+   "q": "Quel est l'intrus : la flûte, la trompette, le violon ou la clarinette ?",
+   "qd": "L'intrus parmi ces instruments ?",
+   "a": [
+    [
+     "",
+     "La flûte"
+    ],
+    [
+     "",
+     "La trompette"
+    ],
+    [
+     "",
+     "Le violon"
+    ],
+    [
+     "",
+     "La clarinette"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le violon ! C'est un instrument à cordes, les autres sont à vent.",
+   "level": 1
+  },
+  {
+   "q": "Quel est l'intrus : la crème brûlée, la tarte Tatin, l'éclair ou le tiramisu ?",
+   "qd": "L'intrus parmi ces desserts ?",
+   "a": [
+    [
+     "",
+     "La crème brûlée"
+    ],
+    [
+     "",
+     "La tarte Tatin"
+    ],
+    [
+     "",
+     "L'éclair"
+    ],
+    [
+     "",
+     "Le tiramisu"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le tiramisu ! Il est italien, les autres sont français.",
+   "level": 1
+  },
+  {
+   "q": "Quelle est l'intruse : la poule, la vache, le crocodile ou la tortue ?",
+   "qd": "L'intruse : qui ne pond pas ?",
+   "a": [
+    [
+     "",
+     "La poule"
+    ],
+    [
+     "",
+     "La vache"
+    ],
+    [
+     "",
+     "Le crocodile"
+    ],
+    [
+     "",
+     "La tortue"
+    ]
+   ],
+   "ok": 1,
+   "say": "La vache ! Elle ne pond pas d'œufs.",
+   "level": 1
+  },
+  {
+   "q": "Quelle est l'intruse : Le Caire, Nairobi, Johannesburg ou Dakar ?",
+   "qd": "L'intruse parmi ces villes d'Afrique ?",
+   "a": [
+    [
+     "",
+     "Johannesburg"
+    ],
+    [
+     "",
+     "Le Caire"
+    ],
+    [
+     "",
+     "Nairobi"
+    ],
+    [
+     "",
+     "Dakar"
+    ]
+   ],
+   "ok": 0,
+   "say": "Johannesburg ! Ce n'est pas une capitale.",
+   "level": 2
+  },
+  {
+   "q": "Quel est l'intrus : le dauphin, le chat, la chauve-souris ou l'ornithorynque ?",
+   "qd": "L'intrus parmi ces mammifères ?",
+   "a": [
+    [
+     "",
+     "Le dauphin"
+    ],
+    [
+     "",
+     "Le chat"
+    ],
+    [
+     "",
+     "La chauve-souris"
+    ],
+    [
+     "",
+     "L'ornithorynque"
+    ]
+   ],
+   "ok": 3,
+   "say": "L'ornithorynque ! C'est un mammifère qui pond des œufs.",
+   "level": 3
+  }
+ ]
+}
