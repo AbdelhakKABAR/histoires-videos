@@ -1,0 +1,22 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "mot": "BAGUETTE",
+ "categorie": "Un aliment français",
+ "categorie_dite": "Mot mystère. Catégorie : un aliment français.",
+ "accroche": "1 % trouvent avec 1 indice",
+ "accroche_pill": "MOT MYSTÈRE",
+ "accroche_dite": "Mot mystère : seulement un pour cent des gens le trouvent avec un seul indice !",
+ "indices": [
+  "On l'achète souvent tous les jours.",
+  "Elle est longue, fine et dorée.",
+  "Farine, eau, sel et levure, rien de plus.",
+  "Son savoir-faire est classé à l'UNESCO depuis 2022.",
+  "C'est le pain le plus célèbre de France."
+ ],
+ "lettres_donnees": 1,
+ "dire": "Baguette",
+ "explication": "La baguette, dont le savoir-faire artisanal est inscrit à l'UNESCO depuis 2022.",
+ "description": "🥖 Mot mystère : un aliment français en 5 indices. Combien d'indices t'a-t-il fallu ? Dis-le en commentaire 👇 #motmystere #culturegenerale #cuisine #france #publiostudio"
+}

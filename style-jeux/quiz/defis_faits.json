@@ -20,7 +20,8 @@
   "MILLAU",
   "CROISSANT",
   "HÉRISSON",
-  "COLISÉE"
+  "COLISÉE",
+  "BAGUETTE"
  ],
  "suites": [
   "1, 11, 21, 1211, 111221 (suite de Conway)",
