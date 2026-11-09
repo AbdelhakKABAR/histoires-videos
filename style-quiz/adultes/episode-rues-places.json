@@ -1,0 +1,24 @@
+{
+ "title": "La ville de chaque rue célèbre",
+ "subject": "Rues et places",
+ "banner": "La ville de chaque rue célèbre",
+ "symbols": ["📍","🏙","🇫🇷","🗺","⛲","🏛","🚶","✦","🌳","🧭","🏘","✧","🛣","⭐","🗼","🌆"],
+ "description": "📍 Quiz France : dans quelle ville se trouve chaque rue ou place célèbre ? Canebière, Croisette… Tu as eu combien ? 👇 #quiz #quizz #geographie #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Écris ton score en commentaire, et abonne-toi !",
+ "questions": [
+  {"q": "Dans quelle ville se trouve la promenade des Anglais ?", "qd": "La promenade des Anglais : où ?", "a": [["","Cannes"],["","Nice"],["","Menton"],["","Antibes"]], "ok": 1, "say": "Nice !", "level": 0},
+  {"q": "Dans quelle ville se trouve la Canebière ?", "qd": "La Canebière : quelle ville ?", "a": [["","Marseille"],["","Toulon"],["","Montpellier"],["","Nîmes"]], "ok": 0, "say": "Marseille !", "level": 0},
+  {"q": "Dans quelle ville se trouve le boulevard de la Croisette ?", "qd": "La Croisette : quelle ville ?", "a": [["","Saint-Tropez"],["","Nice"],["","Biarritz"],["","Cannes"]], "ok": 3, "say": "Cannes !", "level": 0},
+  {"q": "Dans quelle ville se trouve la place Stanislas ?", "qd": "La place Stanislas : où ?", "a": [["","Metz"],["","Strasbourg"],["","Nancy"],["","Reims"]], "ok": 2, "say": "Nancy !", "level": 1},
+  {"q": "Dans quelle ville se trouve la place Bellecour ?", "qd": "La place Bellecour : quelle ville ?", "a": [["","Lyon"],["","Grenoble"],["","Dijon"],["","Saint-Étienne"]], "ok": 0, "say": "Lyon !", "level": 1},
+  {"q": "Dans quelle ville se trouve le quartier de la Petite France ?", "qd": "Le quartier de la Petite France : où ?", "a": [["","Colmar"],["","Strasbourg"],["","Mulhouse"],["","Paris"]], "ok": 1, "say": "Strasbourg !", "level": 1},
+  {"q": "Dans quelle ville se trouve la longue rue piétonne Sainte-Catherine ?", "qd": "La rue Sainte-Catherine : quelle ville ?", "a": [["","Nantes"],["","Lille"],["","Toulouse"],["","Bordeaux"]], "ok": 3, "say": "Bordeaux !", "level": 2},
+  {"q": "Dans quelle ville se trouve la place Plumereau ?", "qd": "La place Plumereau : quelle ville ?", "a": [["","Angers"],["","Orléans"],["","Tours"],["","Blois"]], "ok": 2, "say": "Tours !", "level": 3}
+ ],
+ "accroche": "La dernière place piège 3 Français sur 4",
+ "accroche_dite": "La dernière place piège trois Français sur quatre !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
