@@ -1,0 +1,22 @@
+{
+ "title": "Le pays de chaque street food", "subject": "Street food", "banner": "Le pays de chaque street food",
+ "icon": "🌮", "decor": "monde",
+ "symbols": ["🌮","🍟","🍜","🥖","🌭","🍢","🥟","🌯","🍤","🌍","⭐","🥙","🗺","✦","🌎","🍽"],
+ "description": "🌮 Quiz street food : de quel pays vient chaque spécialité de rue ? Tacos, banh mi, poutine… La dernière piège 3 gourmands sur 4. Ton score ? 👇 #quiz #culturegenerale #cuisine #monde #publiostudio",
+ "accroche": "La dernière piège 3 gourmands sur 4",
+ "accroche_dite": "La dernière question piège trois gourmands sur quatre !",
+ "accroche_pill": "SPÉCIAL CUISINE",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Écris en commentaire ta street food préférée, et abonne-toi !",
+ "questions": [
+  {"q": "De quel pays viennent les tacos ?", "qd": "Les tacos ?", "a": [["","L'Espagne"],["","Le Mexique"],["","Le Pérou"],["","Les États-Unis"]], "ok": 1, "say": "Le Mexique !", "level": 0},
+  {"q": "De quel pays vient le fish and chips ?", "qd": "Le fish and chips ?", "a": [["","Le Royaume-Uni"],["","L'Irlande"],["","L'Australie"],["","Le Canada"]], "ok": 0, "say": "Le Royaume-Uni !", "level": 0},
+  {"q": "De quel pays vient le pad thaï ?", "qd": "Le pad thaï ?", "a": [["","Le Vietnam"],["","La Chine"],["","Le Cambodge"],["","La Thaïlande"]], "ok": 3, "say": "La Thaïlande !", "level": 0},
+  {"q": "De quel pays vient le sandwich banh mi ?", "qd": "Le banh mi ?", "a": [["","La Corée du Sud"],["","Le Laos"],["","Le Vietnam"],["","Les Philippines"]], "ok": 2, "say": "Le Vietnam !", "level": 1},
+  {"q": "De quel pays vient la poutine, des frites au fromage et à la sauce ?", "qd": "La poutine ?", "a": [["","Le Canada"],["","La Belgique"],["","Les États-Unis"],["","La Suisse"]], "ok": 0, "say": "Le Canada !", "level": 1},
+  {"q": "De quel pays vient la currywurst, une saucisse au ketchup et au curry ?", "qd": "La currywurst ?", "a": [["","L'Autriche"],["","L'Allemagne"],["","L'Inde"],["","La Pologne"]], "ok": 1, "say": "L'Allemagne !", "level": 1},
+  {"q": "De quel pays viennent les takoyakis, des boulettes au poulpe ?", "qd": "Les takoyakis ?", "a": [["","La Chine"],["","La Corée du Sud"],["","Taïwan"],["","Le Japon"]], "ok": 3, "say": "Le Japon !", "level": 2},
+  {"q": "De quel pays vient le bunny chow, un pain rempli de curry ?", "qd": "Le bunny chow ?", "a": [["","L'Inde"],["","La Jamaïque"],["","L'Afrique du Sud"],["","Le Kenya"]], "ok": 2, "say": "L'Afrique du Sud !", "level": 3}
+ ]
+}
