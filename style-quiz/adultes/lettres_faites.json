@@ -165,6 +165,21 @@
     "Herschel",
     "Harare"
    ]
+  },
+  {
+   "lettre": "I",
+   "date": "2026-11-10",
+   "fichier": "episode-lettre-i-2026-11-10-16.json",
+   "reponses": [
+    "Île",
+    "Italie",
+    "Igloo",
+    "Iguane",
+    "Irlande",
+    "Islande",
+    "Indien",
+    "Islamabad"
+   ]
   }
  ]
 }

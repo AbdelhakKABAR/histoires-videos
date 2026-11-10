@@ -1,0 +1,99 @@
+{
+ "title": "Quiz lettre I",
+ "subject": "Lettre I",
+ "banner": "Quiz lettre I",
+ "mode": "lettre",
+ "letter": "I",
+ "icon": "🧠",
+ "symbols": [
+  "I",
+  "A",
+  "B",
+  "C",
+  "?",
+  "!",
+  "★",
+  "✦",
+  "I",
+  "Z",
+  "M",
+  "?",
+  "●",
+  "◆",
+  "I",
+  "✧"
+ ],
+ "description": "🔤 Quiz lettre I : îles, pays et animaux, tout commence par I ! La dernière capitale bloque presque tout le monde. Ton score ? 👇 #quiz #quizz #geographie #animaux #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Écris ton score en commentaire, et abonne-toi !",
+ "questions": [
+  {
+   "q": "Comment appelle-t-on une terre entourée d'eau de tous les côtés ?",
+   "qd": "Terre entourée d'eau ?",
+   "answer": "Île",
+   "say": "Une île !",
+   "level": 0
+  },
+  {
+   "q": "Quel pays d'Europe a la forme d'une botte ?",
+   "qd": "Pays en forme de botte ?",
+   "answer": "Italie",
+   "say": "L'Italie !",
+   "level": 0
+  },
+  {
+   "q": "Quelle maison de neige construisent les Inuits ?",
+   "qd": "Maison de neige des Inuits ?",
+   "answer": "Igloo",
+   "say": "L'igloo !",
+   "level": 0
+  },
+  {
+   "q": "Quel grand lézard vert d'Amérique porte une crête sur le dos ?",
+   "qd": "Lézard vert à crête, d'Amérique ?",
+   "answer": "Iguane",
+   "say": "L'iguane !",
+   "level": 1
+  },
+  {
+   "q": "Quel pays a pour capitale Dublin et pour symbole le trèfle ?",
+   "qd": "Pays de Dublin et du trèfle ?",
+   "answer": "Irlande",
+   "say": "L'Irlande !",
+   "level": 1
+  },
+  {
+   "q": "Quel pays nordique est célèbre pour ses geysers et ses volcans ?",
+   "qd": "Pays des geysers et des volcans ?",
+   "answer": "Islande",
+   "say": "L'Islande !",
+   "level": 1
+  },
+  {
+   "q": "Quel océan baigne les côtes de Madagascar ?",
+   "qd": "Océan autour de Madagascar ?",
+   "answer": "Indien",
+   "say": "L'océan Indien !",
+   "level": 2
+  },
+  {
+   "q": "Quelle est la capitale du Pakistan ?",
+   "qd": "Capitale du Pakistan ?",
+   "answer": "Islamabad",
+   "say": "Islamabad !",
+   "level": 3
+  }
+ ],
+ "intro": "Toutes les réponses commencent par la lettre I !",
+ "intro_speed": 0.9,
+ "accroche": "Seul 1 Français sur 10 a tout bon",
+ "accroche_dite": "Seul un Français sur dix a tout bon !",
+ "accroche_pill": "QUIZ LETTRE I"
+}
