@@ -1,0 +1,25 @@
+{
+ "title": "La région de chaque race animale",
+ "subject": "Animaux",
+ "banner": "Quiz France : animaux des régions",
+ "icon": "🐄",
+ "symbols": ["🐄","🐕","🐎","🐑","🐓","🐂","🇫🇷","🌾","🏔","🌻","🥖","🧀","🐾","⛰","🌿","🏡"],
+ "description": "🐄 Quiz France : de quelle région vient chaque race animale ? Chiens, vaches, chevaux… La dernière bloque presque tout le monde. Ton score ? 👇 #quiz #apprendresurtiktok #animaux #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire la race de ta région, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz France sur les animaux ! Dans quelle région vivent les chevaux blancs et les taureaux sauvages ?", "qd": "Chevaux blancs et taureaux ?", "a": [["","Camargue"],["","Bretagne"],["","Alsace"],["","Vosges"]], "ok": 0, "say": "La Camargue !", "level": 0},
+  {"q": "Le dogue, gros chien musclé, porte le nom de quelle ville ?", "qd": "Le dogue de… ?", "a": [["","Lyon"],["","Bordeaux"],["","Lille"],["","Brest"]], "ok": 1, "say": "Le dogue de Bordeaux !", "level": 0},
+  {"q": "Quel chien de chasse vient de Bretagne ?", "qd": "Le chien de chasse breton ?", "a": [["","Le caniche"],["","Le labrador"],["","L'épagneul"],["","Le husky"]], "ok": 2, "say": "L'épagneul breton !", "level": 0},
+  {"q": "De quelle région vient la vache charolaise ?", "qd": "La vache charolaise vient… ?", "a": [["","Bretagne"],["","Provence"],["","Alsace"],["","Bourgogne"]], "ok": 3, "say": "De Bourgogne, autour de Charolles !", "level": 1},
+  {"q": "Le patou, grand chien blanc qui garde les moutons, vient de quelles montagnes ?", "qd": "Le patou vient de… ?", "a": [["","Alpes"],["","Pyrénées"],["","Vosges"],["","Jura"]], "ok": 1, "say": "Des Pyrénées !", "level": 1},
+  {"q": "Les moutons de pré-salé broutent au pied de quel monument ?", "qd": "Les moutons de pré-salé ?", "a": [["","Mont-Saint-Michel"],["","Pont du Gard"],["","Chambord"],["","Tour Eiffel"]], "ok": 0, "say": "Le Mont-Saint-Michel !", "level": 1},
+  {"q": "Comment s'appelle le chien berger venu de la Brie ?", "qd": "Le berger de la Brie ?", "a": [["","Le beauceron"],["","Le bressan"],["","Le briard"],["","Le picard"]], "ok": 2, "say": "Le briard !", "level": 2},
+  {"q": "La vache Salers, à la robe acajou, vient de quel département ?", "qd": "La vache Salers vient… ?", "a": [["","Aveyron"],["","Lozère"],["","Corrèze"],["","Cantal"]], "ok": 3, "say": "Du Cantal, comme le village de Salers !", "level": 3}
+ ],
+ "accroche": "Seul 1 Français sur 4 trouve la dernière",
+ "accroche_dite": "Seul un Français sur quatre trouve la dernière !",
+ "accroche_pill": "SPÉCIAL ANIMAUX"
+}
