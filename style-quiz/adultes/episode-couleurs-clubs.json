@@ -1,0 +1,25 @@
+{
+ "title": "La couleur du club de chaque ville",
+ "subject": "Football",
+ "banner": "Quiz foot : couleurs des clubs",
+ "icon": "⚽",
+ "symbols": ["⚽","🇫🇷","🏟","👕","🥅","🏆","📣","🟢","🟡","🟣","🟠","🔴","⭐","🎽","🧤","🏅"],
+ "description": "⚽ Quiz foot France : la couleur du maillot de chaque club. Saint-Étienne, Lens, Sochaux… Tu as eu combien ? 👇 #quiz #culturegenerale #football #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire ton club préféré, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz foot ! Quelle est la couleur du maillot de Saint-Étienne ?", "qd": "Le maillot de Saint-Étienne ?", "a": [["","Rouge"],["","Vert"],["","Jaune"],["","Violet"]], "ok": 1, "say": "Vert, ce sont les Verts !", "level": 0},
+  {"q": "Quelle est la couleur du maillot du FC Nantes ?", "qd": "Le maillot du FC Nantes ?", "a": [["","Jaune"],["","Bleu"],["","Orange"],["","Rouge"]], "ok": 0, "say": "Jaune, comme les Canaris !", "level": 0},
+  {"q": "Quelle est la couleur principale du maillot de l'Olympique de Marseille ?", "qd": "Le maillot de l'OM ?", "a": [["","Rouge"],["","Vert"],["","Blanc"],["","Noir"]], "ok": 2, "say": "Blanc, avec du bleu ciel !", "level": 0},
+  {"q": "Quelle est la couleur du maillot du Toulouse FC ?", "qd": "Le maillot de Toulouse ?", "a": [["","Orange"],["","Rouge"],["","Vert"],["","Violet"]], "ok": 3, "say": "Violet, comme la Ville rose et ses violettes !", "level": 1},
+  {"q": "Quelles sont les couleurs du RC Lens, le club sang et or ?", "qd": "Les couleurs du RC Lens ?", "a": [["","Bleu et blanc"],["","Rouge et jaune"],["","Rouge et noir"],["","Vert et blanc"]], "ok": 1, "say": "Rouge et jaune, le sang et or !", "level": 1},
+  {"q": "Quelle est la couleur du maillot du FC Lorient ?", "qd": "Le maillot de Lorient ?", "a": [["","Vert"],["","Bleu"],["","Orange"],["","Violet"]], "ok": 2, "say": "Orange, les Merlus !", "level": 1},
+  {"q": "Quelles sont les couleurs du Stade rennais ?", "qd": "Les couleurs du Stade rennais ?", "a": [["","Bleu et blanc"],["","Jaune et bleu"],["","Vert et blanc"],["","Rouge et noir"]], "ok": 3, "say": "Rouge et noir !", "level": 2},
+  {"q": "Quelles sont les couleurs du FC Sochaux ?", "qd": "Les couleurs du FC Sochaux ?", "a": [["","Jaune et bleu"],["","Rouge et noir"],["","Vert et blanc"],["","Orange et noir"]], "ok": 0, "say": "Jaune et bleu, les Lionceaux !", "level": 3}
+ ],
+ "accroche": "80 % des fans ratent la dernière",
+ "accroche_dite": "Quatre-vingts pour cent des fans de foot ratent la dernière !",
+ "accroche_pill": "SPÉCIAL FOOT"
+}
