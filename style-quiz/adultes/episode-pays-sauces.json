@@ -1,0 +1,22 @@
+{
+ "title": "Le pays de chaque sauce", "subject": "Sauces", "banner": "Le pays de chaque sauce",
+ "icon": "🥫", "decor": "monde",
+ "symbols": ["🥫","🌶","🧄","🍅","🥑","🌿","🍋","🫒","🌍","⭐","🍽","🗺","✦","🌎","🥄","🧂"],
+ "description": "🥫 Quiz cuisine du monde : de quel pays vient chaque sauce ? Pesto, harissa, sriracha… Tu as eu combien ? Dis-le en commentaire 👇 #quiz #testculturegenerale #cuisine #monde #publiostudio",
+ "accroche": "Seul 1 gourmet sur 5 trouve tout",
+ "accroche_dite": "Seul un gourmet sur cinq trouve tout !",
+ "accroche_pill": "SPÉCIAL SAUCES",
+ "wait": 5, "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Écris ta sauce préférée en commentaire, et abonne-toi !",
+ "questions": [
+  {"q": "De quel pays vient le pesto, la sauce au basilic ?", "qd": "Le pesto ?", "a": [["","L'Espagne"],["","La Grèce"],["","L'Italie"],["","La France"]], "ok": 2, "say": "L'Italie, de Gênes !", "level": 0},
+  {"q": "De quel pays vient le guacamole, la sauce à l'avocat ?", "qd": "Le guacamole ?", "a": [["","Le Mexique"],["","Le Brésil"],["","L'Espagne"],["","Cuba"]], "ok": 0, "say": "Le Mexique !", "level": 0},
+  {"q": "De quel pays vient le tzatziki, au yaourt et au concombre ?", "qd": "Le tzatziki ?", "a": [["","L'Italie"],["","La Grèce"],["","L'Inde"],["","La Suède"]], "ok": 1, "say": "La Grèce !", "level": 0},
+  {"q": "De quel pays vient la harissa, la pâte de piment rouge ?", "qd": "La harissa ?", "a": [["","L'Inde"],["","Le Liban"],["","La Turquie"],["","La Tunisie"]], "ok": 3, "say": "La Tunisie !", "level": 1},
+  {"q": "De quel pays vient le chimichurri, la sauce des grillades ?", "qd": "Le chimichurri ?", "a": [["","L'Argentine"],["","Le Mexique"],["","L'Espagne"],["","Le Portugal"]], "ok": 0, "say": "L'Argentine !", "level": 1},
+  {"q": "De quel pays vient la sauce Worcestershire ?", "qd": "La sauce Worcestershire ?", "a": [["","Les États-Unis"],["","L'Australie"],["","Le Royaume-Uni"],["","L'Irlande"]], "ok": 2, "say": "Le Royaume-Uni, d'Angleterre !", "level": 1},
+  {"q": "De quel pays vient la sriracha, la sauce piquante ?", "qd": "La sriracha ?", "a": [["","La Corée du Sud"],["","La Thaïlande"],["","Le Japon"],["","La Chine"]], "ok": 1, "say": "La Thaïlande !", "level": 2},
+  {"q": "De quel pays vient la sauce romesco, aux amandes et aux poivrons ?", "qd": "La sauce romesco ?", "a": [["","L'Italie"],["","Le Mexique"],["","Le Portugal"],["","L'Espagne"]], "ok": 3, "say": "L'Espagne, de Catalogne !", "level": 3}
+ ]
+}
