@@ -1,0 +1,17 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["J", "F", "M", "A", "M"],
+ "options": ["N", "A", "S", "J"],
+ "ok": 3,
+ "consigne": "Quelle lettre vient ensuite ?",
+ "accroche": "8 personnes sur 10 bloquent ici",
+ "accroche_dite": "Huit personnes sur dix bloquent sur cette suite logique !",
+ "question_dite": "J, F, M, A, M… Et ensuite ?",
+ "explication": "Ce sont les initiales des mois : janvier, février, mars, avril, mai… puis juin.",
+ "explication_dite": "J ! Ce sont les initiales des mois de l'année : janvier, février, mars, avril, mai, puis juin.",
+ "fin": "Tu avais trouvé ? Écris ta réponse en commentaire, et abonne-toi !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "📅 Suite logique : J, F, M, A, M… quelle lettre ensuite ? Tu trouves avant la fin du chrono ? Ta réponse en commentaire 👇 #suitelogique #testculturegenerale #enigme #publiostudio"
+}
