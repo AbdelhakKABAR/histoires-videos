@@ -1,0 +1,22 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "mot": "KANGOUROU",
+ "categorie": "Un animal",
+ "categorie_dite": "Mot mystère. Catégorie : un animal.",
+ "accroche": "Un génie trouve en 1 indice",
+ "accroche_pill": "MOT MYSTÈRE",
+ "accroche_dite": "Mot mystère : un vrai génie le trouve dès le premier indice !",
+ "indices": [
+  "Il vit dans l'hémisphère Sud.",
+  "C'est un mammifère marsupial.",
+  "Il se déplace en faisant de grands bonds.",
+  "La femelle porte son petit dans une poche.",
+  "C'est l'animal symbole de l'Australie."
+ ],
+ "lettres_donnees": 1,
+ "dire": "Kangourou",
+ "explication": "Le kangourou, marsupial sauteur et emblème de l'Australie.",
+ "description": "🦘 Mot mystère : un animal célèbre en 5 indices. Tu l'as trouvé au combien ? Dis-le en commentaire 👇 #motmystere #testculturegenerale #animaux #publiostudio"
+}
