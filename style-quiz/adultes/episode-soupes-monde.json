@@ -1,0 +1,25 @@
+{
+ "title": "Le pays de chaque soupe",
+ "subject": "Cuisine",
+ "banner": "Quiz cuisine : les soupes du monde",
+ "icon": "🍲",
+ "symbols": ["🍲","🥣","🍜","🥄","🍅","🧅","🥕","🌶","🍋","🥬","🌍","🧄","🫕","🍚","🌿","🗺"],
+ "description": "🍲 Quiz cuisine du monde : de quel pays vient chaque soupe ? Gazpacho, pho, goulash… La dernière piège presque tout le monde. Ton score ? 👇 #quiz #culturegenerale #cuisine #monde #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Écris ta soupe préférée en commentaire, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz cuisine du monde ! Le gaspacho, soupe froide à la tomate, vient de quel pays ?", "qd": "Le gaspacho vient de… ?", "a": [["","Italie"],["","Espagne"],["","Grèce"],["","Mexique"]], "ok": 1, "say": "D'Espagne !", "level": 0},
+  {"q": "Le minestrone, soupe de légumes et de pâtes, vient de quel pays ?", "qd": "Le minestrone vient de… ?", "a": [["","Italie"],["","Portugal"],["","Suisse"],["","Argentine"]], "ok": 0, "say": "D'Italie !", "level": 0},
+  {"q": "Le pho, soupe de nouilles au bœuf, vient de quel pays ?", "qd": "Le pho vient de… ?", "a": [["","Chine"],["","Japon"],["","Corée du Sud"],["","Vietnam"]], "ok": 3, "say": "Du Vietnam !", "level": 0},
+  {"q": "La soupe miso vient de quel pays ?", "qd": "La soupe miso vient de… ?", "a": [["","Thaïlande"],["","Chine"],["","Japon"],["","Inde"]], "ok": 2, "say": "Du Japon !", "level": 1},
+  {"q": "Le goulash, au bœuf et au paprika, vient de quel pays ?", "qd": "Le goulash vient de… ?", "a": [["","Hongrie"],["","Pologne"],["","Russie"],["","Autriche"]], "ok": 0, "say": "De Hongrie !", "level": 1},
+  {"q": "Le tom yum, soupe épicée à la citronnelle, vient de quel pays ?", "qd": "Le tom yum vient de… ?", "a": [["","Inde"],["","Thaïlande"],["","Japon"],["","Philippines"]], "ok": 1, "say": "De Thaïlande !", "level": 1},
+  {"q": "La harira, soupe aux pois chiches et aux lentilles du ramadan, vient de quel pays ?", "qd": "La harira vient de… ?", "a": [["","Turquie"],["","Liban"],["","Égypte"],["","Maroc"]], "ok": 3, "say": "Du Maroc !", "level": 2},
+  {"q": "L'avgolemono, soupe à l'œuf et au citron, vient de quel pays ?", "qd": "L'avgolemono vient de… ?", "a": [["","Liban"],["","Italie"],["","Grèce"],["","Portugal"]], "ok": 2, "say": "De Grèce !", "level": 3}
+ ],
+ "accroche": "75 % ratent la dernière soupe",
+ "accroche_dite": "Soixante-quinze pour cent des gens ratent la dernière soupe !",
+ "accroche_pill": "SPÉCIAL CUISINE"
+}
