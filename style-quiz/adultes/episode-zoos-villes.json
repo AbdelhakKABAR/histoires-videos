@@ -1,0 +1,25 @@
+{
+ "title": "La ville de chaque zoo et aquarium",
+ "subject": "Animaux",
+ "banner": "Quiz France : zoos et aquariums",
+ "icon": "🦁",
+ "symbols": ["🦁","🐧","🦒","🐬","🐘","🦈","🐢","🐙","🐒","🦜","🐠","🇫🇷","🐼","🦓","🐋","🐾"],
+ "description": "🦁 Quiz France : dans quelle ville se trouve chaque zoo ou aquarium ? Nausicaá, Océanopolis… La dernière piège presque tout le monde. Ton score ? 👇 #quiz #testculturegenerale #animaux #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire ton zoo préféré, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz France sur les zoos ! Le zoo de Vincennes se trouve dans quelle ville ?", "qd": "Le zoo de Vincennes ?", "a": [["","Marseille"],["","Paris"],["","Bordeaux"],["","Strasbourg"]], "ok": 1, "say": "Paris !", "level": 0},
+  {"q": "Le parc de la Tête d'Or et son zoo gratuit sont dans quelle ville ?", "qd": "Le parc de la Tête d'Or ?", "a": [["","Lyon"],["","Lille"],["","Nantes"],["","Toulouse"]], "ok": 0, "say": "Lyon !", "level": 0},
+  {"q": "Nausicaá, l'un des plus grands aquariums d'Europe, est dans quelle ville ?", "qd": "L'aquarium Nausicaá ?", "a": [["","Brest"],["","Nice"],["","Boulogne-sur-Mer"],["","Biarritz"]], "ok": 2, "say": "Boulogne-sur-Mer !", "level": 0},
+  {"q": "Océanopolis, le parc des océans, se trouve dans quelle ville ?", "qd": "Océanopolis ?", "a": [["","Lorient"],["","Nantes"],["","Le Havre"],["","Brest"]], "ok": 3, "say": "Brest !", "level": 1},
+  {"q": "L'aquarium Mare Nostrum est dans quelle ville du Sud ?", "qd": "L'aquarium Mare Nostrum ?", "a": [["","Montpellier"],["","Nîmes"],["","Avignon"],["","Perpignan"]], "ok": 0, "say": "Montpellier !", "level": 1},
+  {"q": "Le zoo de la Palmyre se trouve près de quelle ville ?", "qd": "Le zoo de la Palmyre ?", "a": [["","La Baule"],["","Royan"],["","Arcachon"],["","Sète"]], "ok": 1, "say": "Royan, en Charente-Maritime !", "level": 1},
+  {"q": "La Cité de la Mer et son grand aquarium sont dans quelle ville ?", "qd": "La Cité de la Mer ?", "a": [["","Dieppe"],["","Calais"],["","Cherbourg"],["","Saint-Nazaire"]], "ok": 2, "say": "Cherbourg !", "level": 2},
+  {"q": "La Réserve africaine de Sigean se trouve près de quelle ville ?", "qd": "La Réserve africaine de Sigean ?", "a": [["","Perpignan"],["","Montpellier"],["","Béziers"],["","Narbonne"]], "ok": 3, "say": "Narbonne, dans l'Aude !", "level": 3}
+ ],
+ "accroche": "80 % ratent le dernier zoo",
+ "accroche_dite": "Quatre-vingts pour cent des gens ratent le dernier zoo !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
