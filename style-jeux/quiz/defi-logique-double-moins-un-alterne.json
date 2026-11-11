@@ -1,0 +1,17 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["2", "4", "3", "6", "5", "10"],
+ "options": ["20", "9", "15", "11"],
+ "ok": 1,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "Un génie trouve en 10 secondes",
+ "accroche_dite": "Un génie trouve cette suite logique en dix secondes. Et toi ?",
+ "question_dite": "Deux, quatre, trois, six, cinq, dix… Et ensuite ?",
+ "explication": "On alterne : ×2 puis −1. 2→4→3→6→5→10, donc 10 − 1 = 9.",
+ "explication_dite": "Neuf ! On alterne : fois deux, puis moins un. Cinq fois deux font dix, et dix moins un font neuf.",
+ "fin": "Tu avais répondu vingt ? Dis-le en commentaire, et abonne-toi !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔢 Suite logique : 2, 4, 3, 6, 5, 10… quel nombre ensuite ? Attention au piège ! Tu trouves avant la fin du chrono ? 👇 #suitelogique #culturegenerale #maths #publiostudio"
+}
