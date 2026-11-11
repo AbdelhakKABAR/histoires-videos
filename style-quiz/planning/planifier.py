@@ -30,7 +30,9 @@ HEURES = {  # 0 = lundi … 6 = dimanche ; la 1re heure de chaque liste = meille
 def creer():
     r = random.SystemRandom()
     hs = HEURES[jour.weekday()]
-    gen2 = r.choice(["monde", "intrus", "lettre"])
+    # 11 nov. 2026 (demande de l'utilisateur, d'après voir_stats : le quiz lettre a fait 1 278 vues sur Instagram) :
+    # le 2e quiz culture générale est TOUJOURS un quiz lettre -> 2 défis, 2 France, 1 Monde, 1 lettre.
+    gen2 = "lettre"
     defi_top = r.choice(["mot", "logique"])            # le défi sur la meilleure heure du jour
     reste = ["france", "france", "monde", gen2, "logique" if defi_top == "mot" else "mot"]
     for _ in range(10000):

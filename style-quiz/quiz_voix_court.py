@@ -67,6 +67,11 @@ def layout(QS):
         rp = put(q["say"], "r", c1 + 0.15)
         quiz.append({"q0": qp["t0"], "q1": qp["t1"], "a0": qp["t0"], "a1": qp["t1"], "c0": round(c0, 3), "c1": round(c1, 3), "r0": rp["t0"], "r1": rp["t1"], "end": round(rp["t1"] + 0.3, 3), "lv": lv, "level": q.get("level")})
         t = rp["t1"] + 0.3
+    # Question bonus (11 nov. 2026, demande de l'utilisateur : faire commenter) : une question SANS réponse après la dernière,
+    # dite et affichée, « ta réponse en commentaire ». Champ "bonus": {"q": texte lu, "qd": texte affiché court}. Pas pour le quiz lettre.
+    global BONUS; BONUS = None
+    if Q.get("bonus") and Q.get("mode") != "lettre":
+        bp = put("Question bonus ! " + Q["bonus"]["q"] + " Ta réponse en commentaire !", "bonus", t, 0.9); BONUS = [bp["t0"], bp["t1"]]; t = bp["t1"] + 1.6
     op = put(Q["outro"], "outro", t, Q.get("outro_speed", 0.85)); dur = round(op["t1"] + (1.5 if len(Q["outro"].split()) > 3 else 0.4), 2)
     return dur
 QS = list(ALLQ); dur = layout(QS)
@@ -79,6 +84,7 @@ while dur > MAXD and len(QS) > 4:
 if len(QS) < len(ALLQ): print(f"trop long : {len(ALLQ)} -> {len(QS)} questions pour tenir en {MAXD:.0f} s")
 Q = dict(Q, questions=QS)
 if HOOK: Q["_hook"] = HOOK
+if BONUS: Q["_bonus"] = BONUS
 N = int(dur * SR); vo = np.zeros(N)
 for at, x in clips: k = int(at * SR); vo[k:k + len(x)] += x[: N - k]
 vo *= 0.7 / np.max(np.abs(vo)); (FILM / "audio").mkdir(parents=True, exist_ok=True); sf.write(FILM / "audio" / "vo.wav", np.stack([vo, vo], 1), SR)

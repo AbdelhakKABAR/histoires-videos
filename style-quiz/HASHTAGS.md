@@ -1,3 +1,17 @@
+# 💬 MISE À JOUR 11 nov. 2026 (demande de l'utilisateur, d'après voir_stats) — PRIORITAIRE, à lire en premier
+Constat : TikTok ≈ 270 vues/vidéo (×2 depuis le 6 nov.), mais 0 à 2 commentaires. Quiz lettre = meilleur (1 278 vues Instagram),
+suite logique = meilleur YouTube (483 vues). Facebook ≈ 0.
+1. PROGRAMME : le 2e quiz culture générale est TOUJOURS un quiz lettre (planifier.py) -> chaque jour 2 défis (mot + logique),
+   2 quiz France, 1 quiz Monde, 1 quiz lettre.
+2. QUESTION BONUS obligatoire (quiz France / Monde / intrus, pas le quiz lettre ni les défis) : champ
+   "bonus": {"q": "question lue", "qd": "texte affiché, 60 caractères max"}. Elle passe APRÈS la dernière réponse, SANS réponse :
+   la voix dit « Question bonus ! … Ta réponse en commentaire ! » et l'écran affiche QUESTION BONUS + « Réponds en commentaire ! ».
+   Une vraie question du thème, réponse exacte et unique, niveau normal (que beaucoup osent répondre). Vérifié par verifier_episode.py.
+   La légende peut finir par « Et la question bonus ? 👇 ». Test du 11 nov. : vidéo de 65 s, 4 questions + bonus (OK).
+3. LÉGENDE : le script retire des questions au-delà de 72 s (avec la question bonus, 4 gardées sur 8 : il retire les 3e, 6e, 2e puis 5e).
+   Seules les questions 1, 4, 7 et 8 sont sûres d'être gardées. Ne citer en exemple dans la description QUE des éléments de
+   ces questions-là (jamais la réponse des questions 7 et 8, ni un simple mauvais choix), ou ne citer aucun exemple.
+
 # 🚀 MISE À JOUR 7 nov. 2026 (demande de l'utilisateur : « fais des choses pro ») — PRIORITAIRE
 D'après les guides TikTok 2026 (Hootsuite, Metricool, go-viral) et nos stats (défis 30-45 s = meilleures vues) :
 1. DURÉE quiz : environ 70 s (demande de l'utilisateur ; max_duration 72 par défaut dans quiz_voix_court.py ; ≈ 6 questions gardées sur 8).

@@ -26,6 +26,13 @@ if re.search(r"du niveau facile à impossible|Tu arrives jusqu'où \? Donne ton 
 if not re.search(r"(?i)quiz|mot mystère|trouve l'intrus|suite logique|test de qi|culture générale", texte[:80]):
     err.append("la 1re phrase doit contenir le mot-clé cherché (quiz…, mot mystère, trouve l'intrus, suite logique, culture générale)")
 
+# 11 nov. 2026 (demande de l'utilisateur) : question bonus sans réponse à la fin des quiz (sauf quiz lettre) pour faire commenter.
+if "questions" in D and D.get("mode") != "lettre":
+    b = D.get("bonus")
+    if not (isinstance(b, dict) and b.get("q") and b.get("qd")):
+        err.append('"bonus" manquant : {"q": "question lue (sans réponse)", "qd": "texte court affiché"} — question bonus du thème, réponse en commentaire')
+    elif len(b["qd"]) > 60: err.append(f'"bonus.qd" trop long ({len(b["qd"])} caractères, 60 au plus)')
+
 if err:
     print("ÉPISODE À CORRIGER (" + sys.argv[1] + ") :"); [print(" -", e) for e in err]; sys.exit(1)
 print("accroche + description OK :", acc, "|", len(tags), "hashtags")

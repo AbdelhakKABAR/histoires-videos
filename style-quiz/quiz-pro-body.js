@@ -72,6 +72,7 @@ QZ.forEach((s) => {
   HITS.push([2 * s.c1, 'reveal', 'bell', { pitch: 'E6', gain: 0.16 }], [2 * (s.c1 + 0.08), 'reveal', 'bell', { pitch: 'B6', gain: 0.1 }]);
 });
 HITS.push([2 * (QZ[NQ - 1].end + 0.2), 'outro', 'swell', { gain: 0.12 }]);
+if (!(QD.mode === 'lettre') && QD.bonus && QD._bonus) HITS.push([2 * (QD._bonus[0] - 0.3), 'bonus', 'whoosh', { len: 0.5, gain: 0.12, from: 400, to: 1800 }]);
 
 // ---------------------------------------------------------------- fond
 const BG = {};
@@ -453,8 +454,21 @@ function draw(ctx, u, tr) {
       ctx.shadowColor = 'rgba(239,68,68,0.6)'; ctx.shadowBlur = 30; ctx.beginPath(); ctx.roundRect(-230, -44, 460, 88, 44); ctx.fillStyle = lgrad(ctx, 0, -44, 0, 44, [[0, '#F43F5E'], [1, '#DC2626']]); ctx.fill(); ctx.shadowBlur = 0;
       TXT(ctx, "S'abonner", 0, 3, 44, '#FFFFFF', 800); ctx.restore(); }
     ctx.restore(); }
-  if (st.k === 'outro' && !LETTRE) {
-    const t0 = QZ[NQ - 1].end, p = spring(tr - (t0 + 0.05), SPRING.snappy), p2 = spring(tr - (t0 + 0.5), SPRING.snappy), p3 = spring(tr - (t0 + 1.0), SPRING.snappy);
+  const BON = !LETTRE && QD.bonus && QD._bonus, BONEND = BON ? QD._bonus[1] + 1.4 : 0;
+  if (st.k === 'outro' && BON && tr < BONEND) { // question bonus sans réponse (11 nov. 2026) : faire commenter
+    const b0 = QD._bonus[0] - 0.1, p = spring(tr - b0, SPRING.snappy), p2 = spring(tr - (b0 + 0.4), SPRING.snappy), p3 = spring(tr - (b0 + 1.0), SPRING.snappy), out = clamp((BONEND - tr) / 0.35);
+    ctx.save(); ctx.globalAlpha = clamp(p * 1.3) * out; ctx.translate(0, (1 - p) * 80);
+    ctx.save(); ctx.translate(W / 2, 560); ctx.shadowColor = 'rgba(239,68,68,0.6)'; ctx.shadowBlur = 30; ctx.beginPath(); ctx.roundRect(-250, -40, 500, 80, 40); ctx.fillStyle = lgrad(ctx, 0, -40, 0, 40, [[0, '#F43F5E'], [1, '#DC2626']]); ctx.fill(); ctx.shadowBlur = 0;
+    SPACED(ctx, 'QUESTION BONUS', 0, 3, 38, '#FFFFFF', 6, 900); ctx.restore();
+    glass(ctx, ROW.x, 650, ROW.w, 380, 34);
+    ctx.save(); ctx.globalAlpha *= clamp(p2 * 1.3); const ls = wrapWords(ctx, QD.bonus.qd || QD.bonus.q, 64, ROW.w - 100, 800); const y0 = 840 - (ls.length - 1) * 40;
+    ls.forEach((l, k) => TXT(ctx, l, W / 2, y0 + k * 80, 64, '#FFFFFF', 800)); ctx.restore();
+    if (p3 > 0.01) { ctx.save(); ctx.globalAlpha *= clamp(p3 * 1.3); ctx.translate(W / 2, 1130); const pulse = 1 + 0.03 * Math.sin(tr * 6); ctx.scale(pulse, pulse);
+      ctx.shadowColor = RGBA(ACC, 0.6); ctx.shadowBlur = 40; ctx.font = font(62, 900, DISPLAY); ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+      ctx.fillStyle = lgrad(ctx, -300, 0, 300, 0, [[0, ACC], [1, ACC2]]); ctx.fillText('Réponds en commentaire !', 0, 0); ctx.restore(); }
+    ctx.restore(); }
+  if (st.k === 'outro' && !LETTRE && tr >= BONEND) {
+    const t0 = BON ? BONEND - 0.3 : QZ[NQ - 1].end, p = spring(tr - (t0 + 0.05), SPRING.snappy), p2 = spring(tr - (t0 + 0.5), SPRING.snappy), p3 = spring(tr - (t0 + 1.0), SPRING.snappy);
     ctx.save(); ctx.globalAlpha = clamp(p); SPACED(ctx, 'ALORS, TON SCORE ?', W / 2, 640, 44, 'rgba(255,255,255,0.75)', 8, 700);
     ctx.translate(W / 2, 800); ctx.scale(0.9 + 0.1 * p, 0.9 + 0.1 * p); ctx.shadowColor = RGBA(ACC, 0.6); ctx.shadowBlur = 50;
     ctx.font = font(220, 900, DISPLAY); ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillStyle = lgrad(ctx, -260, 0, 260, 0, [[0, ACC], [1, ACC2]]); ctx.fillText(`?/${NQ}`, 0, 0); ctx.restore();
