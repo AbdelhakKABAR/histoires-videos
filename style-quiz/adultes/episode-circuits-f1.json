@@ -1,0 +1,239 @@
+{
+ "title": "Le pays de chaque circuit de F1",
+ "subject": "Formule 1",
+ "banner": "Quiz F1 : les circuits du monde",
+ "icon": "🏎",
+ "symbols": [
+  "🏎",
+  "🏁",
+  "🏆",
+  "⏱",
+  "🛞",
+  "🚦",
+  "🌍",
+  "🔧",
+  "⛽",
+  "🥇",
+  "🗺",
+  "🏟",
+  "🍾",
+  "🔥",
+  "⭐",
+  "🚩"
+ ],
+ "description": "🏎 Quiz F1 : dans quel pays se trouve chaque circuit ? Monza, Suzuka, Spa… La dernière piège presque tout le monde. Ton score ? 👇 #quiz #quizz #formule1 #monde #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Écris ton circuit préféré en commentaire, et abonne-toi !",
+ "questions": [
+  {
+   "q": "Quiz F1 ! Dans quel pays se trouve le circuit de Monza ?",
+   "qd": "Monza : dans quel pays ?",
+   "a": [
+    [
+     "",
+     "Espagne"
+    ],
+    [
+     "",
+     "Italie"
+    ],
+    [
+     "",
+     "France"
+    ],
+    [
+     "",
+     "Allemagne"
+    ]
+   ],
+   "ok": 1,
+   "say": "En Italie !",
+   "level": 0
+  },
+  {
+   "q": "Dans quel pays se trouve le circuit de Silverstone ?",
+   "qd": "Silverstone : dans quel pays ?",
+   "a": [
+    [
+     "",
+     "Royaume-Uni"
+    ],
+    [
+     "",
+     "Irlande"
+    ],
+    [
+     "",
+     "Australie"
+    ],
+    [
+     "",
+     "Canada"
+    ]
+   ],
+   "ok": 0,
+   "say": "Au Royaume-Uni !",
+   "level": 0
+  },
+  {
+   "q": "Dans quel pays se trouve le circuit des Amériques, à Austin ?",
+   "qd": "Circuit des Amériques : quel pays ?",
+   "a": [
+    [
+     "",
+     "Mexique"
+    ],
+    [
+     "",
+     "Canada"
+    ],
+    [
+     "",
+     "États-Unis"
+    ],
+    [
+     "",
+     "Brésil"
+    ]
+   ],
+   "ok": 2,
+   "say": "Aux États-Unis, au Texas !",
+   "level": 0
+  },
+  {
+   "q": "Dans quel pays se trouve le circuit d'Interlagos ?",
+   "qd": "Interlagos : dans quel pays ?",
+   "a": [
+    [
+     "",
+     "Argentine"
+    ],
+    [
+     "",
+     "Portugal"
+    ],
+    [
+     "",
+     "Mexique"
+    ],
+    [
+     "",
+     "Brésil"
+    ]
+   ],
+   "ok": 3,
+   "say": "Au Brésil, à São Paulo !",
+   "level": 1
+  },
+  {
+   "q": "Dans quel pays se trouve le circuit de Spa-Francorchamps ?",
+   "qd": "Spa-Francorchamps : dans quel pays ?",
+   "a": [
+    [
+     "",
+     "Suisse"
+    ],
+    [
+     "",
+     "Belgique"
+    ],
+    [
+     "",
+     "France"
+    ],
+    [
+     "",
+     "Luxembourg"
+    ]
+   ],
+   "ok": 1,
+   "say": "En Belgique !",
+   "level": 1
+  },
+  {
+   "q": "Dans quel pays se trouve le circuit de Suzuka ?",
+   "qd": "Suzuka : dans quel pays ?",
+   "a": [
+    [
+     "",
+     "Chine"
+    ],
+    [
+     "",
+     "Corée du Sud"
+    ],
+    [
+     "",
+     "Japon"
+    ],
+    [
+     "",
+     "Malaisie"
+    ]
+   ],
+   "ok": 2,
+   "say": "Au Japon !",
+   "level": 1
+  },
+  {
+   "q": "Dans quel pays se trouve le Red Bull Ring ?",
+   "qd": "Le Red Bull Ring : quel pays ?",
+   "a": [
+    [
+     "",
+     "Autriche"
+    ],
+    [
+     "",
+     "Allemagne"
+    ],
+    [
+     "",
+     "Suisse"
+    ],
+    [
+     "",
+     "Hongrie"
+    ]
+   ],
+   "ok": 0,
+   "say": "En Autriche !",
+   "level": 2
+  },
+  {
+   "q": "Dans quel pays se trouve le circuit Gilles-Villeneuve ?",
+   "qd": "Circuit Gilles-Villeneuve : quel pays ?",
+   "a": [
+    [
+     "",
+     "France"
+    ],
+    [
+     "",
+     "Canada"
+    ],
+    [
+     "",
+     "Belgique"
+    ],
+    [
+     "",
+     "Suisse"
+    ]
+   ],
+   "ok": 1,
+   "say": "Au Canada, à Montréal !",
+   "level": 3
+  }
+ ],
+ "accroche": "80 % ratent le dernier circuit",
+ "accroche_dite": "Quatre-vingts pour cent des gens ratent le dernier circuit !",
+ "accroche_pill": "SPÉCIAL F1"
+}
