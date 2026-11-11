@@ -1,0 +1,35 @@
+{
+ "date": "2026-11-11",
+ "videos": [
+  {
+   "heure": "06:00",
+   "type": "monde",
+   "fait": null
+  },
+  {
+   "heure": "08:00",
+   "type": "france",
+   "fait": null
+  },
+  {
+   "heure": "12:00",
+   "type": "monde",
+   "fait": null
+  },
+  {
+   "heure": "16:00",
+   "type": "logique",
+   "fait": null
+  },
+  {
+   "heure": "20:00",
+   "type": "france",
+   "fait": null
+  },
+  {
+   "heure": "22:00",
+   "type": "mot",
+   "fait": null
+  }
+ ]
+}
