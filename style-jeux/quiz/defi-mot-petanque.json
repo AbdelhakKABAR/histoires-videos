@@ -1,0 +1,22 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "mot": "PÉTANQUE",
+ "categorie": "Un jeu français",
+ "categorie_dite": "Mot mystère. Catégorie : un jeu français.",
+ "accroche": "Seulement 1 % trouvent avec 1 indice",
+ "accroche_pill": "MOT MYSTÈRE",
+ "accroche_dite": "Mot mystère : seulement un pour cent des gens le trouvent avec un seul indice !",
+ "indices": [
+  "Il se pratique en plein air.",
+  "Il est né à La Ciotat en 1907.",
+  "On y joue les pieds immobiles, joints au sol.",
+  "On y joue souvent sur la place du village.",
+  "On lance des boules vers le cochonnet."
+ ],
+ "lettres_donnees": 1,
+ "dire": "Pétanque",
+ "explication": "La pétanque, jeu de boules né en Provence en 1907.",
+ "description": "🎯 Mot mystère : un jeu français culte en 5 indices. Tu l'as trouvé au combien ? Dis-le en commentaire 👇 #motmystere #quizz #sport #france #publiostudio"
+}
