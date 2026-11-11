@@ -1,0 +1,25 @@
+{
+ "title": "La ville de chaque cathédrale et basilique",
+ "subject": "Monuments",
+ "banner": "Quiz France : cathédrales",
+ "icon": "⛪",
+ "symbols": ["⛪","🔔","🕍","✨","🏰","🇫🇷","🌹","🕯","⭐","🗼","🎨","🧱","👑","🕰","🗺","🏛"],
+ "description": "⛪ Quiz France : dans quelle ville est chaque cathédrale ? Reims, Chartres… La dernière piège presque tout le monde. Ton score ? 👇 #quiz #apprendresurtiktok #histoire #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire la plus belle cathédrale de France, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz France sur les cathédrales ! La basilique du Sacré-Cœur domine quelle ville ?", "qd": "La basilique du Sacré-Cœur ?", "a": [["","Lyon"],["","Paris"],["","Lille"],["","Bordeaux"]], "ok": 1, "say": "Paris, sur la butte Montmartre !", "level": 0},
+  {"q": "Notre-Dame-de-la-Garde, surnommée la Bonne Mère, veille sur quelle ville ?", "qd": "Notre-Dame-de-la-Garde, la Bonne Mère ?", "a": [["","Marseille"],["","Nice"],["","Toulon"],["","Montpellier"]], "ok": 0, "say": "Marseille !", "level": 0},
+  {"q": "La basilique de Fourvière se trouve dans quelle ville ?", "qd": "La basilique de Fourvière ?", "a": [["","Grenoble"],["","Dijon"],["","Lyon"],["","Saint-Étienne"]], "ok": 2, "say": "Lyon !", "level": 0},
+  {"q": "Dans quelle ville les rois de France étaient-ils sacrés, dans la cathédrale ?", "qd": "La cathédrale du sacre des rois ?", "a": [["","Orléans"],["","Chartres"],["","Rouen"],["","Reims"]], "ok": 3, "say": "Reims !", "level": 1},
+  {"q": "La cathédrale en grès rose avec sa célèbre horloge astronomique est dans quelle ville ?", "qd": "Cathédrale en grès rose et horloge astronomique ?", "a": [["","Strasbourg"],["","Metz"],["","Colmar"],["","Besançon"]], "ok": 0, "say": "Strasbourg !", "level": 1},
+  {"q": "Claude Monet a peint plus de trente fois la cathédrale de quelle ville ?", "qd": "La cathédrale peinte trente fois par Monet ?", "a": [["","Caen"],["","Rouen"],["","Amiens"],["","Le Havre"]], "ok": 1, "say": "Rouen !", "level": 1},
+  {"q": "La plus grande cathédrale gothique de France, par son volume, est dans quelle ville ?", "qd": "La plus grande cathédrale de France ?", "a": [["","Paris"],["","Beauvais"],["","Amiens"],["","Bourges"]], "ok": 2, "say": "Amiens !", "level": 2},
+  {"q": "La plus grande cathédrale en brique du monde, Sainte-Cécile, est dans quelle ville ?", "qd": "Sainte-Cécile, la cathédrale en brique ?", "a": [["","Toulouse"],["","Montauban"],["","Carcassonne"],["","Albi"]], "ok": 3, "say": "Albi, dans le Tarn !", "level": 3}
+ ],
+ "accroche": "90 % ratent la dernière cathédrale",
+ "accroche_dite": "Quatre-vingt-dix pour cent des gens ratent la dernière cathédrale !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
