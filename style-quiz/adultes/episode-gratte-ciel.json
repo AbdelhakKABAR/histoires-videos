@@ -1,0 +1,26 @@
+{
+ "title": "Le pays de chaque gratte-ciel",
+ "subject": "Architecture",
+ "banner": "Quiz : les gratte-ciel",
+ "icon": "🏙",
+ "symbols": ["🏙","🌆","🏢","🌍","✨","🗼","🌃","🏗","⭐","🌐","🏬","🧭","🌎","✦","🛗","🗺"],
+ "description": "🏙 Quiz culture générale : dans quel pays est chaque gratte-ciel ? Burj Khalifa… La dernière piège presque tout le monde. Ton score ? 👇 #quiz #culturegenerale #architecture #monde #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Écris ton score en commentaire, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz gratte-ciel ! La Burj Khalifa, plus haute tour du monde, est dans quel pays ?", "qd": "La Burj Khalifa ?", "a": [["","Qatar"],["","Arabie saoudite"],["","Émirats arabes unis"],["","Koweït"]], "ok": 2, "say": "Les Émirats arabes unis, à Dubaï !", "level": 0},
+  {"q": "L'Empire State Building se trouve dans quel pays ?", "qd": "L'Empire State Building ?", "a": [["","États-Unis"],["","Canada"],["","Royaume-Uni"],["","Australie"]], "ok": 0, "say": "Les États-Unis, à New York !", "level": 0},
+  {"q": "La tour Montparnasse se trouve dans quel pays ?", "qd": "La tour Montparnasse ?", "a": [["","Belgique"],["","France"],["","Suisse"],["","Canada"]], "ok": 1, "say": "La France, à Paris !", "level": 0},
+  {"q": "Les tours jumelles Petronas sont dans quel pays ?", "qd": "Les tours Petronas ?", "a": [["","Singapour"],["","Thaïlande"],["","Indonésie"],["","Malaisie"]], "ok": 3, "say": "La Malaisie, à Kuala Lumpur !", "level": 1},
+  {"q": "The Shard, le gratte-ciel en forme d'éclat de verre, est dans quel pays ?", "qd": "The Shard ?", "a": [["","Royaume-Uni"],["","Irlande"],["","États-Unis"],["","Australie"]], "ok": 0, "say": "Le Royaume-Uni, à Londres !", "level": 1},
+  {"q": "L'hôtel Marina Bay Sands et sa piscine sur le toit sont dans quel pays ?", "qd": "Le Marina Bay Sands ?", "a": [["","Hong Kong"],["","Singapour"],["","Japon"],["","Dubaï"]], "ok": 1, "say": "Singapour !", "level": 1},
+  {"q": "La tour Taipei 101 se trouve dans quel pays ?", "qd": "La tour Taipei 101 ?", "a": [["","Chine"],["","Japon"],["","Taïwan"],["","Corée du Sud"]], "ok": 2, "say": "Taïwan !", "level": 2},
+  {"q": "La Lotte World Tower, l'une des plus hautes tours du monde, est dans quel pays ?", "qd": "La Lotte World Tower ?", "a": [["","Japon"],["","Chine"],["","Vietnam"],["","Corée du Sud"]], "ok": 3, "say": "La Corée du Sud, à Séoul !", "level": 3}
+ ],
+ "bonus": {"q": "Dans quel pays se trouve la Tour CN, la grande tour de Toronto ?", "qd": "Dans quel pays est la Tour CN de Toronto ?"},
+ "accroche": "85 % ratent la dernière tour",
+ "accroche_dite": "Quatre-vingt-cinq pour cent des gens ratent la dernière tour !",
+ "accroche_pill": "NIVEAU EXPERT"
+}

@@ -8,6 +8,8 @@ suite logique = meilleur YouTube (483 vues). Facebook ≈ 0.
    la voix dit « Question bonus ! … Ta réponse en commentaire ! » et l'écran affiche QUESTION BONUS + « Réponds en commentaire ! ».
    Une vraie question du thème, réponse exacte et unique, niveau normal (que beaucoup osent répondre). Vérifié par verifier_episode.py.
    La légende peut finir par « Et la question bonus ? 👇 ». Test du 11 nov. : vidéo de 65 s, 4 questions + bonus (OK).
+4. VOIX (11 nov. 2026, choix de l'utilisateur) : Supertonic, voix 5, 6, 13 et 14 du comparatif (sid 0, 1, 8, 9), une par vidéo
+   à tour de rôle (moteur/voix_supertonic.py, quiz ET défis). Forcer : "voix_sid" dans l'épisode ou VOIX_SID=… pour defi.py.
 3. LÉGENDE : le script retire des questions au-delà de 72 s (avec la question bonus, 4 gardées sur 8 : il retire les 3e, 6e, 2e puis 5e).
    Seules les questions 1, 4, 7 et 8 sont sûres d'être gardées. Ne citer en exemple dans la description QUE des éléments de
    ces questions-là (jamais la réponse des questions 7 et 8, ni un simple mauvais choix), ou ne citer aucun exemple.

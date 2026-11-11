@@ -15,18 +15,18 @@ VERT, ROUGE = (0.25, 0.85, 0.45), (1.0, 0.3, 0.35)
 _tts = None
 def voix(text, speed=0.95):
     global _tts
-    cache = os.path.expanduser("~/voix/cache"); os.makedirs(cache, exist_ok=True)
-    key = os.path.join(cache, hashlib.md5(f"{text}|{speed}".encode()).hexdigest() + ".npy")
-    if os.path.exists(key): return np.load(key)
+    # 11 nov. 2026 (choix de l'utilisateur) : voix Supertonic 5, 6, 13 ou 14 du comparatif, à tour de rôle (moteur/voix_supertonic.py).
+    # VOIX_SID=<0|1|8|9> pour forcer. Ancienne voix : Piper siwis.
     if _tts is None:
-        import sherpa_onnx
-        PD = os.path.expanduser("~/voix/vits-piper-fr_FR-siwis-medium")
-        if not os.path.isdir(PD):
-            subprocess.run(f"mkdir -p ~/voix && cd ~/voix && curl -sSL --fail https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-piper-fr_FR-siwis-medium.tar.bz2 | tar xj", shell=True, check=True)
-        _tts = sherpa_onnx.OfflineTts(sherpa_onnx.OfflineTtsConfig(model=sherpa_onnx.OfflineTtsModelConfig(
-            vits=sherpa_onnx.OfflineTtsVitsModelConfig(model=glob.glob(PD + "/*.onnx")[0], tokens=PD + "/tokens.txt",
-                                                       data_dir=PD + "/espeak-ng-data"), num_threads=2)))
-    a = _tts.generate(text, sid=0, speed=speed)
+        sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "moteur"))
+        import voix_supertonic as VS
+        _tts = (VS, int(os.environ["VOIX_SID"]) if os.environ.get("VOIX_SID") else VS.choisir_sid()); print("voix supertonic sid", _tts[1])
+    cache = os.path.expanduser("~/voix/cache"); os.makedirs(cache, exist_ok=True)
+    key = os.path.join(cache, hashlib.md5(f"{text}|{speed}|supertonic{_tts[1]}".encode()).hexdigest() + ".npy")
+    if os.path.exists(key): return np.load(key)
+    samples, rate = _tts[0].parler(text, speed, _tts[1])
+    class _A: pass
+    a = _A(); a.samples, a.sample_rate = samples, rate
     from scipy.signal import resample_poly
     x = resample_poly(np.asarray(a.samples, dtype=np.float64), SR, a.sample_rate)
     idx = np.where(np.abs(x) > 0.02 * np.max(np.abs(x)))[0]; x = x[max(idx[0] - 400, 0): idx[-1] + 3000]

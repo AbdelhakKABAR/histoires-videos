@@ -14,16 +14,16 @@ FILM = Path(sys.argv[1]); Q = json.loads(Path(sys.argv[2]).read_text()); VD = Pa
 src = (Path(__file__).resolve().parent.parent / "moteur" / "vo.py").read_text()
 SUPER = "sherpa-onnx-supertonic-tts-int8-2026-03-06"; MODEL = VD / SUPER; PROF = {"voice": SUPER}
 import subprocess, unicodedata, difflib
-MODEL = VD / SUPER; i = src.index("_asr = None"); j = src.index("def chunks(text):"); exec(src[i:j])
-# Voix choisie par l'utilisateur le 13 oct. 2026 (« voix 2 ») : Piper fr_FR siwis medium (femme, français très net).
-PD = VD / "vits-piper-fr_FR-siwis-medium"
-if not PD.exists(): subprocess.run(f"curl -sSL --fail https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-piper-fr_FR-siwis-medium.tar.bz2 | tar xj -C '{VD}'", shell=True, check=True)
-tts = sherpa_onnx.OfflineTts(sherpa_onnx.OfflineTtsConfig(model=sherpa_onnx.OfflineTtsModelConfig(vits=sherpa_onnx.OfflineTtsVitsModelConfig(model=str(next(PD.glob("*.onnx"))), tokens=str(PD / "tokens.txt"), data_dir=str(PD / "espeak-ng-data")), num_threads=2)))
-VERIF = {"restent": []}
+# Voix (11 nov. 2026, choix de l'utilisateur) : Supertonic, une des voix 5, 6, 13, 14 du comparatif par vidéo, à tour de rôle
+# (moteur/voix_supertonic.py ; "voix_sid" dans le JSON pour forcer). Ancienne voix : Piper siwis (13 oct. 2026).
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "moteur"))
+import voix_supertonic as VS
+SID = VS.choisir_sid(Q); print("voix supertonic sid", SID)
+class _Take:
+    def __init__(self, x, sr): self.samples, self.sample_rate = x, sr
+VERIF = VS.VERIF
 def narrate(text, speed):
-    a = tts.generate(text, sid=0, speed=speed)
-    if missing(text, np.asarray(a.samples, dtype=np.float64), a.sample_rate): VERIF["restent"].append(text)
-    return a
+    x, sr = VS.parler(text, speed, SID); return _Take(x, sr)
 NUM = {"1": "un", "2": "deux", "3": "trois", "4": "quatre", "5": "cinq", "6": "six", "7": "sept", "8": "huit", "9": "neuf", "10": "dix"}
 NTH = ["un", "deux", "trois", "quatre", "cinq", "six", "sept", "huit", "neuf", "dix"]
 _CACHE = {}
