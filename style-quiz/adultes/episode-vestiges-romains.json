@@ -4,7 +4,7 @@
  "banner": "Quiz France : vestiges romains",
  "icon": "🏛",
  "symbols": ["🏛","🏟","🛡","⚔","🇫🇷","🏺","👑","✨","🗿","🌿","🦅","🏰","⭐","🗺","📜","🧱"],
- "description": "🏛 Quiz France : dans quelle ville est chaque vestige romain ? Lutèce, Fourvière… Ton score sur 8 ? Et la question bonus ? 👇 #quiz #quizz #histoire #france #publiostudio",
+ "description": "🏛 Quiz France : dans quelle ville est chaque vestige romain ? Lutèce, Fourvière… Ton score ? Et la question bonus ? 👇 #quiz #quizz #histoire #france #publiostudio",
  "wait": 5,
  "skip_first_level": true,
  "levels": ["facile","normal","difficile","impossible"],
