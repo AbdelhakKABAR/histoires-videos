@@ -1,0 +1,26 @@
+{
+ "title": "Le pays de chaque surnom d'équipe nationale",
+ "subject": "Football",
+ "banner": "Quiz foot : les surnoms d'équipes",
+ "icon": "⚽",
+ "symbols": ["⚽","🏆","🥅","🏟","🦁","🦅","🌍","🧤","👟","🥇","🚩","⭐","📣","🎽","🔥","🗺"],
+ "description": "⚽ Quiz foot : à quel pays va chaque surnom d'équipe ? La Seleção, les Lions de la Teranga… La dernière piège tout le monde. Ton score ? 👇 #quiz #testculturegenerale #football #monde #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Écris en commentaire le surnom de ton équipe préférée, et abonne-toi !",
+ "bonus": {"q": "Quel est le surnom de l'équipe de France de football ?", "qd": "Le surnom de l'équipe de France de foot ?"},
+ "questions": [
+  {"q": "Quiz foot ! La Seleção, c'est l'équipe nationale de quel pays ?", "qd": "La Seleção : quel pays ?", "a": [["","Portugal"],["","Brésil"],["","Argentine"],["","Uruguay"]], "ok": 1, "say": "Le Brésil !", "level": 0},
+  {"q": "La Squadra Azzurra, c'est l'équipe de quel pays ?", "qd": "La Squadra Azzurra : quel pays ?", "a": [["","Italie"],["","Espagne"],["","Grèce"],["","France"]], "ok": 0, "say": "L'Italie !", "level": 0},
+  {"q": "Les Diables rouges, c'est l'équipe nationale de quel pays ?", "qd": "Les Diables rouges : quel pays ?", "a": [["","Suisse"],["","Danemark"],["","Belgique"],["","Pays-Bas"]], "ok": 2, "say": "La Belgique !", "level": 0},
+  {"q": "Les Lions de la Teranga, c'est l'équipe de quel pays ?", "qd": "Les Lions de la Teranga : quel pays ?", "a": [["","Cameroun"],["","Maroc"],["","Mali"],["","Sénégal"]], "ok": 3, "say": "Le Sénégal !", "level": 1},
+  {"q": "Les Fennecs, c'est l'équipe nationale de quel pays ?", "qd": "Les Fennecs : quel pays ?", "a": [["","Tunisie"],["","Algérie"],["","Maroc"],["","Égypte"]], "ok": 1, "say": "L'Algérie !", "level": 1},
+  {"q": "Les Socceroos, c'est l'équipe de quel pays ?", "qd": "Les Socceroos : quel pays ?", "a": [["","Australie"],["","Nouvelle-Zélande"],["","Afrique du Sud"],["","Canada"]], "ok": 0, "say": "L'Australie !", "level": 1},
+  {"q": "Les Lions indomptables, c'est l'équipe nationale de quel pays ?", "qd": "Les Lions indomptables : quel pays ?", "a": [["","Sénégal"],["","Côte d'Ivoire"],["","Cameroun"],["","Ghana"]], "ok": 2, "say": "Le Cameroun !", "level": 2},
+  {"q": "La Celeste, c'est l'équipe nationale de quel pays ?", "qd": "La Celeste : quel pays ?", "a": [["","Argentine"],["","Paraguay"],["","Chili"],["","Uruguay"]], "ok": 3, "say": "L'Uruguay ! Pour son maillot bleu ciel.", "level": 3}
+ ],
+ "accroche": "Personne ne trouve le dernier surnom",
+ "accroche_dite": "Personne ne trouve le dernier surnom !",
+ "accroche_pill": "SPÉCIAL FOOT"
+}
