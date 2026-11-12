@@ -1,0 +1,26 @@
+{
+ "title": "La ville de chaque fruit et légume",
+ "subject": "Terroir",
+ "banner": "Quiz France : fruits et légumes",
+ "icon": "🍈",
+ "symbols": ["🍈","🍓","🍋","🧅","🍇","🍒","🫘","🥕","🍑","🥬","🧺","🌱","🇫🇷","🍐","🌞","🚜"],
+ "description": "🍈 Quiz France : de quelle ville vient chaque fruit et légume ? Melon, fraise… La dernière piège presque tout le monde. Ton score ? 👇 #quiz #culturegenerale #cuisine #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Écris ton score en commentaire, et abonne-toi pour le prochain quiz !",
+ "questions": [
+  {"q": "Quiz France sur les fruits et légumes ! Le melon le plus célèbre de France vient de quelle ville ?", "qd": "La ville du melon le plus célèbre ?", "a": [["","Agen"],["","Cavaillon"],["","Menton"],["","Dijon"]], "ok": 1, "say": "Cavaillon, dans le Vaucluse !", "level": 0},
+  {"q": "Le pruneau le plus célèbre de France porte le nom de quelle ville ?", "qd": "La ville du pruneau ?", "a": [["","Agen"],["","Nîmes"],["","Tours"],["","Brest"]], "ok": 0, "say": "Agen !", "level": 0},
+  {"q": "Quelle ville de la Côte d'Azur organise chaque année la fête du citron ?", "qd": "La ville de la fête du citron ?", "a": [["","Cannes"],["","Antibes"],["","Menton"],["","Saint-Tropez"]], "ok": 2, "say": "Menton !", "level": 0},
+  {"q": "Quelle commune du Finistère est célèbre pour ses fraises ?", "qd": "La ville bretonne de la fraise ?", "a": [["","Roscoff"],["","Quimper"],["","Vannes"],["","Plougastel"]], "ok": 3, "say": "Plougastel, près de Brest !", "level": 1},
+  {"q": "L'oignon rosé, protégé par une AOP, porte le nom de quelle ville bretonne ?", "qd": "La ville de l'oignon rosé AOP ?", "a": [["","Roscoff"],["","Rennes"],["","Lorient"],["","Saint-Malo"]], "ok": 0, "say": "Roscoff !", "level": 1},
+  {"q": "Le coco, un haricot blanc à écosser AOP, porte le nom de quelle ville bretonne ?", "qd": "La ville du haricot coco AOP ?", "a": [["","Dinan"],["","Paimpol"],["","Morlaix"],["","Concarneau"]], "ok": 1, "say": "Paimpol !", "level": 1},
+  {"q": "Le chasselas, raisin de table doré protégé par une AOP, porte le nom de quelle ville ?", "qd": "La ville du chasselas, raisin de table AOP ?", "a": [["","Cahors"],["","Bergerac"],["","Moissac"],["","Albi"]], "ok": 2, "say": "Moissac, dans le Tarn-et-Garonne !", "level": 2},
+  {"q": "Une célèbre cerise acidulée porte le nom de quelle ville du Val-d'Oise ?", "qd": "La ville de la cerise acidulée ?", "a": [["","Pontoise"],["","Argenteuil"],["","Cergy"],["","Montmorency"]], "ok": 3, "say": "Montmorency !", "level": 3}
+ ],
+ "bonus": {"q": "Quelle île française est célèbre pour sa clémentine protégée par une IGP ?", "qd": "L'île française de la clémentine IGP ?"},
+ "accroche": "80 % ratent la dernière question",
+ "accroche_dite": "Quatre-vingts pour cent des gens ratent la dernière question !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
