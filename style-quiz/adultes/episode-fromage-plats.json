@@ -1,0 +1,26 @@
+{
+ "title": "Le fromage de chaque plat",
+ "subject": "Cuisine",
+ "banner": "Quiz France : quel fromage ?",
+ "icon": "🧀",
+ "symbols": ["🧀","🍷","🥖","🇫🇷","🔥","🥔","🍽","🐄","🐐","🐑","🌿","⭐","🥘","🍴","🏔","🗺"],
+ "description": "🧀 Quiz France : quel fromage dans chaque plat ? Tartiflette, aligot… La dernière piège presque tout le monde. Ton score ? 👇 #quiz #testculturegenerale #cuisine #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Écris ton plat au fromage préféré en commentaire, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz France : quel fromage dans chaque plat ? Pour faire une vraie tartiflette, il faut quel fromage ?", "qd": "Le fromage de la tartiflette ?", "a": [["","Reblochon"],["","Comté"],["","Brie"],["","Roquefort"]], "ok": 0, "say": "Le reblochon !", "level": 0},
+  {"q": "Quel fromage normand, dans sa boîte en bois, se fait rôtir au four ?", "qd": "Le normand en boîte en bois, rôti au four ?", "a": [["","Comté"],["","Camembert"],["","Cantal"],["","Roquefort"]], "ok": 1, "say": "Le camembert !", "level": 0},
+  {"q": "La fondue comtoise, en Franche-Comté, se fait avec quel fromage ?", "qd": "Le fromage de la fondue comtoise ?", "a": [["","Munster"],["","Roquefort"],["","Cantal"],["","Comté"]], "ok": 3, "say": "Le comté !", "level": 0},
+  {"q": "L'aligot de l'Aubrac, la purée qui file, se fait avec quel fromage ?", "qd": "Le fromage de l'aligot ?", "a": [["","Roquefort"],["","Tomme fraîche"],["","Camembert"],["","Brie"]], "ok": 1, "say": "La tomme fraîche !", "level": 1},
+  {"q": "Le welsh, le plat star du Nord, se fait avec quel fromage fondu ?", "qd": "Le fromage du welsh du Nord ?", "a": [["","Mozzarella"],["","Parmesan"],["","Cheddar"],["","Emmental"]], "ok": 2, "say": "Le cheddar, avec de la bière !", "level": 1},
+  {"q": "À Lyon, la cervelle de canut est faite avec quel fromage ?", "qd": "La base de la cervelle de canut ?", "a": [["","Fromage blanc"],["","Roquefort"],["","Comté"],["","Chèvre sec"]], "ok": 0, "say": "Du fromage blanc, avec des herbes !", "level": 1},
+  {"q": "La boîte chaude du Jura, cuite au four dans sa boîte en épicéa, c'est quel fromage ?", "qd": "La « boîte chaude » du Jura ?", "a": [["","Munster"],["","Camembert"],["","Mont-d'Or"],["","Brie"]], "ok": 2, "say": "Le mont-d'or !", "level": 2},
+  {"q": "La goyère, la tarte de Valenciennes, se fait avec quel fromage ?", "qd": "Le fromage de la goyère de Valenciennes ?", "a": [["","Munster"],["","Livarot"],["","Époisses"],["","Maroilles"]], "ok": 3, "say": "Le maroilles !", "level": 3}
+ ],
+ "bonus": {"q": "Quel fromage bleu au lait de brebis est affiné dans des caves de l'Aveyron ?", "qd": "Le bleu de brebis affiné en caves dans l'Aveyron ?"},
+ "accroche": "Seul 1 Français sur 20 a tout bon",
+ "accroche_dite": "Seul un Français sur vingt a tout bon !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
