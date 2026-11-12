@@ -1,0 +1,17 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["1", "8", "27", "64", "125"],
+ "options": ["196", "150", "216", "225"],
+ "ok": 2,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "8 personnes sur 10 se trompent",
+ "accroche_dite": "Huit personnes sur dix se trompent sur cette suite logique. Et toi ?",
+ "question_dite": "Un, huit, vingt-sept, soixante-quatre, cent vingt-cinq… Et ensuite ?",
+ "explication": "Ce sont les cubes : 1×1×1, 2×2×2, 3×3×3… donc 6×6×6 = 216.",
+ "explication_dite": "Deux cent seize ! Ce sont les cubes : un fois un fois un, deux fois deux fois deux… et six fois six fois six font deux cent seize.",
+ "fin": "Tu avais répondu deux cent vingt-cinq ? Dis-le en commentaire, et abonne-toi !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔢 Suite logique : 1, 8, 27, 64, 125… quel nombre ensuite ? Tu trouves avant la fin du chrono ? 👇 #suitelogique #culturegenerale #maths #publiostudio"
+}
