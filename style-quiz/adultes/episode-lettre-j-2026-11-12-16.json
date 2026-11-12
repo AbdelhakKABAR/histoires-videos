@@ -1,0 +1,99 @@
+{
+ "title": "Quiz lettre J",
+ "subject": "Lettre J",
+ "banner": "Quiz lettre J",
+ "mode": "lettre",
+ "letter": "J",
+ "icon": "🧠",
+ "symbols": [
+  "J",
+  "A",
+  "B",
+  "C",
+  "?",
+  "!",
+  "★",
+  "✦",
+  "J",
+  "Z",
+  "M",
+  "?",
+  "●",
+  "◆",
+  "J",
+  "✧"
+ ],
+ "description": "🔤 Quiz lettre J : planètes, pays et animaux, tout commence par J ! La dernière question bloque presque tout le monde. Ton score ? 👇 #quiz #testculturegenerale #geographie #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {
+   "q": "Quel mois vient juste après juin ?",
+   "qd": "Mois qui suit juin ?",
+   "answer": "Juillet",
+   "say": "Juillet !",
+   "level": 0
+  },
+  {
+   "q": "De quelle couleur est un citron bien mûr ?",
+   "qd": "Couleur du citron ?",
+   "answer": "Jaune",
+   "say": "Jaune !",
+   "level": 0
+  },
+  {
+   "q": "Quel pays a pour capitale Tokyo ?",
+   "qd": "Pays dont la capitale est Tokyo ?",
+   "answer": "Japon",
+   "say": "Le Japon !",
+   "level": 0
+  },
+  {
+   "q": "Quelle est la plus grande planète du système solaire ?",
+   "qd": "Plus grande planète du système solaire ?",
+   "answer": "Jupiter",
+   "say": "Jupiter !",
+   "level": 1
+  },
+  {
+   "q": "Quel grand félin tacheté vit dans les forêts d'Amérique du Sud ?",
+   "qd": "Grand félin tacheté d'Amérique du Sud ?",
+   "answer": "Jaguar",
+   "say": "Le jaguar !",
+   "level": 1
+  },
+  {
+   "q": "Quelle héroïne française a été brûlée à Rouen en 1431 ?",
+   "qd": "Héroïne brûlée à Rouen en 1431 ?",
+   "answer": "Jeanne d'Arc",
+   "say": "Jeanne d'Arc !",
+   "level": 1
+  },
+  {
+   "q": "Quel pays a pour capitale Amman ?",
+   "qd": "Pays dont la capitale est Amman ?",
+   "answer": "Jordanie",
+   "say": "La Jordanie !",
+   "level": 2
+  },
+  {
+   "q": "Quel massif, entre la France et la Suisse, a donné son nom à un département et produit le comté ?",
+   "qd": "Massif franco-suisse, pays du comté ?",
+   "answer": "Jura",
+   "say": "Le Jura !",
+   "level": 3
+  }
+ ],
+ "intro": "Toutes les réponses commencent par la lettre J !",
+ "intro_speed": 0.9,
+ "accroche": "La dernière piège 80 % des gens",
+ "accroche_dite": "La dernière question piège quatre-vingts pour cent des gens !",
+ "accroche_pill": "QUIZ LETTRE J"
+}
