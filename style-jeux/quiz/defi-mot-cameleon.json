@@ -1,0 +1,22 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "mot": "CAMÉLÉON",
+ "categorie": "Un animal",
+ "categorie_dite": "Mot mystère. Catégorie : un animal.",
+ "accroche": "Un génie trouve avec 1 indice",
+ "accroche_pill": "MOT MYSTÈRE",
+ "accroche_dite": "Mot mystère : seul un génie le trouve avec un seul indice !",
+ "indices": [
+  "Il vit surtout à Madagascar et en Afrique.",
+  "Ses yeux bougent chacun de leur côté.",
+  "Ce reptile attrape ses proies avec sa langue.",
+  "Sa langue peut être plus longue que son corps.",
+  "Il est célèbre pour changer de couleur."
+ ],
+ "lettres_donnees": 1,
+ "dire": "Caméléon",
+ "explication": "Le caméléon, reptile qui change de couleur et chasse avec sa langue.",
+ "description": "🦎 Mot mystère : un animal étonnant en 5 indices. Tu l'as trouvé au combien ? Dis-le en commentaire 👇 #motmystere #apprendresurtiktok #animaux #publiostudio"
+}
