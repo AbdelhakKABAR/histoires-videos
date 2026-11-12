@@ -18,7 +18,7 @@ _tts = None; _asr = None
 
 
 def choisir_sid(D=None):
-    """sid forcé par "voix_sid", sinon voix suivante de la rotation : (jour × 6 + vidéos déjà faites aujourd'hui) modulo 4,
+    """sid forcé par "voix_sid", sinon voix suivante de la rotation : (jour × 12 + vidéos déjà faites aujourd'hui) modulo 4,
     pour que deux vidéos qui se suivent n'aient jamais la même voix."""
     if D and "voix_sid" in D: return int(D["voix_sid"])
     now = datetime.datetime.now(zoneinfo.ZoneInfo("Europe/Paris")) + datetime.timedelta(hours=1)
@@ -26,7 +26,7 @@ def choisir_sid(D=None):
     faites = 0
     try: faites = sum(1 for v in json.loads(f.read_text())["videos"] if v.get("fait"))
     except Exception: pass
-    return ROTATION[(now.date().toordinal() * 6 + faites) % len(ROTATION)]
+    return ROTATION[(now.date().toordinal() * 12 + faites) % len(ROTATION)]
 
 
 def _engine():

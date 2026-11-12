@@ -1,3 +1,10 @@
+# ⏰ MISE À JOUR 12 nov. 2026 (demande de l'utilisateur) — PRIORITAIRE sur le « PROGRAMME » plus bas
+- 12 vidéos par jour, une toutes les 2 heures (0 h, 2 h … 22 h), à des MINUTES AU HASARD chaque jour (ex. 6 h 10, 7 h 55, 10 h 03) :
+  jamais l'heure pile, jamais le même horaire d'un jour à l'autre, pour ne pas ressembler à un robot (planifier.py le fait seul).
+- Types : 2 mots mystères, 2 suites logiques, 4 quiz France, 2 quiz Monde, 2 quiz lettre (jamais deux fois le même type de suite).
+- Si une plateforme refuse une vidéo (limite de vidéos par jour, ex. quota YouTube), on la publie seulement sur les comptes qui
+  l'acceptent : c'est normal, pas une panne.
+
 # 💬 MISE À JOUR 11 nov. 2026 (demande de l'utilisateur, d'après voir_stats) — PRIORITAIRE, à lire en premier
 Constat : TikTok ≈ 270 vues/vidéo (×2 depuis le 6 nov.), mais 0 à 2 commentaires. Quiz lettre = meilleur (1 278 vues Instagram),
 suite logique = meilleur YouTube (483 vues). Facebook ≈ 0.

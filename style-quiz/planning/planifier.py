@@ -1,4 +1,4 @@
-# Programme du jour — voir HEURES plus bas (7 nov. 2026). Ancien texte (5 nov.) :
+# Programme du jour — 12 nov. 2026 : 12 vidéos, toutes les 2 h à des minutes au hasard (voir creer()). Ancien texte (5 nov.) :
 # 10 vidéos par jour, une toutes les 2 heures à heure pile, à partir de 6 h (6 h, 8 h, … 22 h, puis 0 h) — 2 h et 4 h retirées
 # (demande du 5 nov. au soir). Ordre des types tiré au hasard chaque jour. Le fichier d'une date contient 00:00, 06:00, 08:00 … 22:00.
 #   python3 planifier.py                -> crée (si absent) et affiche le programme du jour : planning/AAAA-MM-JJ.json
@@ -28,18 +28,21 @@ HEURES = {  # 0 = lundi … 6 = dimanche ; la 1re heure de chaque liste = meille
 }
 
 def creer():
+    # 12 nov. 2026 (demande de l'utilisateur) : retour à 12 vidéos par jour, une toutes les 2 heures (0 h, 2 h, 4 h … 22 h),
+    # mais JAMAIS à l'heure pile ni à la même minute d'un jour à l'autre (pour ne pas ressembler à une machine) :
+    # chaque créneau est décalé au hasard de -14 à +17 min (0 h : de +3 à +25 min, pour rester dans la journée), ex. 6 h 10, 7 h 55, 10 h 03.
+    # Types (12) : 2 mots mystères, 2 suites logiques, 4 quiz France, 2 quiz Monde, 2 quiz lettre ; jamais deux fois le même type de suite.
+    # (L'ancien tableau HEURES par jour de la semaine ne sert plus.)
     r = random.SystemRandom()
-    hs = HEURES[jour.weekday()]
-    # 11 nov. 2026 (demande de l'utilisateur, d'après voir_stats : le quiz lettre a fait 1 278 vues sur Instagram) :
-    # le 2e quiz culture générale est TOUJOURS un quiz lettre -> 2 défis, 2 France, 1 Monde, 1 lettre.
-    gen2 = "lettre"
-    defi_top = r.choice(["mot", "logique"])            # le défi sur la meilleure heure du jour
-    reste = ["france", "france", "monde", gen2, "logique" if defi_top == "mot" else "mot"]
+    reste = ["mot", "mot", "logique", "logique", "france", "france", "france", "france", "monde", "monde", "lettre", "lettre"]
     for _ in range(10000):
-        r.shuffle(reste); types = [defi_top] + reste
-        ordre = sorted(zip(hs, types))
-        if all(a[1] != b[1] for a, b in zip(ordre, ordre[1:])): break
-    plan = {"date": f"{jour:%Y-%m-%d}", "videos": [{"heure": f"{h:02d}:00", "type": ty, "fait": None} for h, ty in ordre]}
+        r.shuffle(reste)
+        if all(a != b for a, b in zip(reste, reste[1:])): break
+    vids = []
+    for k, ty in enumerate(reste):
+        base = 2 * k * 60; m = base + (r.randint(3, 25) if k == 0 else r.choice([x for x in range(-14, 18) if abs(x) > 1]))
+        vids.append({"heure": f"{m // 60:02d}:{m % 60:02d}", "type": ty, "fait": None})
+    plan = {"date": f"{jour:%Y-%m-%d}", "videos": vids}
     F.write_text(json.dumps(plan, ensure_ascii=False, indent=1)); return plan
 
 plan = json.loads(F.read_text()) if F.exists() else creer()
