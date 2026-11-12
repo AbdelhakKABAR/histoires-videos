@@ -1,0 +1,26 @@
+{
+ "title": "La ville de chaque vestige romain",
+ "subject": "Histoire",
+ "banner": "Quiz France : vestiges romains",
+ "icon": "🏛",
+ "symbols": ["🏛","🏟","🛡","⚔","🇫🇷","🏺","👑","✨","🗿","🌿","🦅","🏰","⭐","🗺","📜","🧱"],
+ "description": "🏛 Quiz France : dans quelle ville est chaque vestige romain ? Lutèce, Fourvière… Ton score sur 8 ? Et la question bonus ? 👇 #quiz #quizz #histoire #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Écris ton score en commentaire, et abonne-toi pour le prochain quiz !",
+ "questions": [
+  {"q": "Quiz France ! Les arènes de Lutèce, un amphithéâtre romain, se trouvent dans quelle ville ?", "qd": "Les arènes de Lutèce ?", "a": [["","Lyon"],["","Paris"],["","Bordeaux"],["","Toulouse"]], "ok": 1, "say": "Paris ! Lutèce, c'est l'ancien nom de Paris.", "level": 0},
+  {"q": "La Porte de Mars, un arc de triomphe romain, est dans la ville du sacre des rois de France. Laquelle ?", "qd": "La Porte de Mars ?", "a": [["","Reims"],["","Chartres"],["","Orléans"],["","Rouen"]], "ok": 0, "say": "Reims, la ville du sacre !", "level": 0},
+  {"q": "La Maison carrée, un temple romain intact, est dans la ville au crocodile, dans le Gard. Laquelle ?", "qd": "La Maison carrée ?", "a": [["","Montpellier"],["","Marseille"],["","Nîmes"],["","Perpignan"]], "ok": 2, "say": "Nîmes !", "level": 0},
+  {"q": "Les théâtres romains de Fourvière se trouvent dans quelle ville ?", "qd": "Les théâtres de Fourvière ?", "a": [["","Grenoble"],["","Dijon"],["","Saint-Étienne"],["","Lyon"]], "ok": 3, "say": "Lyon, l'ancienne Lugdunum !", "level": 1},
+  {"q": "Les arènes romaines peintes par Van Gogh, en Camargue, sont dans quelle ville ?", "qd": "Les arènes peintes par Van Gogh ?", "a": [["","Arles"],["","Avignon"],["","Aix-en-Provence"],["","Toulon"]], "ok": 0, "say": "Arles !", "level": 1},
+  {"q": "Le palais Gallien, un amphithéâtre romain, se trouve dans quelle ville ?", "qd": "Le palais Gallien ?", "a": [["","Nantes"],["","Bordeaux"],["","Limoges"],["","Poitiers"]], "ok": 1, "say": "Bordeaux !", "level": 1},
+  {"q": "Le temple d'Auguste et de Livie, au bord du Rhône en Isère, est dans quelle ville ?", "qd": "Le temple d'Auguste et de Livie ?", "a": [["","Grenoble"],["","Valence"],["","Vienne"],["","Chambéry"]], "ok": 2, "say": "Vienne, en Isère !", "level": 2},
+  {"q": "Le théâtre antique au mur de scène intact, que Louis Quatorze trouvait magnifique, est dans quelle ville du Vaucluse ?", "qd": "Le théâtre antique du Vaucluse ?", "a": [["","Avignon"],["","Carpentras"],["","Cavaillon"],["","Orange"]], "ok": 3, "say": "Orange !", "level": 3}
+ ],
+ "bonus": {"q": "Quel général romain a conquis la Gaule et battu Vercingétorix ?", "qd": "Quel général romain a conquis la Gaule ?"},
+ "accroche": "Seul 1 Français sur 10 a tout bon",
+ "accroche_dite": "Seul un Français sur dix a tout bon !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
