@@ -1,0 +1,26 @@
+{
+ "title": "Le pays de chaque jeu et jouet",
+ "subject": "Jeux et jouets",
+ "banner": "Quiz : jeux et jouets du monde",
+ "icon": "🧸",
+ "symbols": ["🧸","🎲","🪀","🪁","🧩","♟","🎮","🃏","🌍","✨","🎯","🪆","🌐","⭐","🎁","🗺"],
+ "description": "🧸 Quiz culture générale : de quel pays vient chaque jeu et jouet ? Matriochka, Playmobil… Ton score ? Et la question bonus ? 👇 #quiz #culturegenerale #jeux #monde #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz jeux et jouets ! Les matriochkas, ces poupées en bois qui s'emboîtent, viennent de quel pays ?", "qd": "Les matriochkas ?", "a": [["","Pologne"],["","Ukraine"],["","Russie"],["","Hongrie"]], "ok": 2, "say": "La Russie !", "level": 0},
+  {"q": "Les Pokémon ont été créés dans quel pays ?", "qd": "Les Pokémon ?", "a": [["","Japon"],["","Chine"],["","Corée du Sud"],["","États-Unis"]], "ok": 0, "say": "Le Japon !", "level": 0},
+  {"q": "La poupée Barbie est née dans quel pays ?", "qd": "La poupée Barbie ?", "a": [["","France"],["","Royaume-Uni"],["","Italie"],["","États-Unis"]], "ok": 3, "say": "Les États-Unis !", "level": 0},
+  {"q": "Les petits personnages Playmobil viennent de quel pays ?", "qd": "Les Playmobil ?", "a": [["","Danemark"],["","Allemagne"],["","Suisse"],["","Pays-Bas"]], "ok": 1, "say": "L'Allemagne !", "level": 1},
+  {"q": "Le Rubik's Cube a été inventé dans quel pays ?", "qd": "Le Rubik's Cube ?", "a": [["","Hongrie"],["","Japon"],["","Autriche"],["","Tchéquie"]], "ok": 0, "say": "La Hongrie, par Ernő Rubik !", "level": 1},
+  {"q": "Le cerf-volant a été inventé il y a plus de deux mille ans dans quel pays ?", "qd": "Le cerf-volant ?", "a": [["","Égypte"],["","Grèce"],["","Inde"],["","Chine"]], "ok": 3, "say": "La Chine !", "level": 1},
+  {"q": "Le jeu de questions Trivial Pursuit a été inventé dans quel pays ?", "qd": "Le Trivial Pursuit ?", "a": [["","États-Unis"],["","Canada"],["","Royaume-Uni"],["","Australie"]], "ok": 1, "say": "Le Canada, à Montréal !", "level": 2},
+  {"q": "Le Cluedo, le jeu d'enquête avec le colonel Moutarde, vient de quel pays ?", "qd": "Le Cluedo ?", "a": [["","États-Unis"],["","France"],["","Royaume-Uni"],["","Canada"]], "ok": 2, "say": "Le Royaume-Uni, en Angleterre !", "level": 3}
+ ],
+ "bonus": {"q": "Dans quel pays a été inventé le jeu du Monopoly ?", "qd": "Le Monopoly vient de quel pays ?"},
+ "accroche": "80 % ratent la dernière question",
+ "accroche_dite": "Quatre-vingts pour cent des gens ratent la dernière question !",
+ "accroche_pill": "SPÉCIAL MONDE"
+}
