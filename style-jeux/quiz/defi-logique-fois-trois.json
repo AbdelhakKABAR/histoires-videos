@@ -1,0 +1,17 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["2", "6", "18", "54", "162"],
+ "options": ["324", "486", "216", "648"],
+ "ok": 1,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "7 personnes sur 10 calculent faux",
+ "accroche_dite": "Sept personnes sur dix calculent faux sur cette suite logique. Et toi ?",
+ "question_dite": "Deux, six, dix-huit, cinquante-quatre, cent soixante-deux… Et ensuite ?",
+ "explication": "Chaque nombre est multiplié par 3 : 162 × 3 = 486.",
+ "explication_dite": "Quatre cent quatre-vingt-six ! Chaque nombre est multiplié par trois : cent soixante-deux fois trois font quatre cent quatre-vingt-six.",
+ "fin": "Tu avais répondu trois cent vingt-quatre ? Dis-le en commentaire, et abonne-toi !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔢 Suite logique : 2, 6, 18, 54, 162… quel nombre ensuite ? Tu trouves avant la fin du chrono ? 👇 #suitelogique #quizz #maths #publiostudio"
+}
