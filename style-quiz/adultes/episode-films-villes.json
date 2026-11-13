@@ -1,0 +1,26 @@
+{
+ "title": "La ville de chaque film français",
+ "subject": "Cinéma",
+ "banner": "Quiz France : la ville du film",
+ "icon": "🎬",
+ "symbols": ["🎬","🎥","🍿","🎞","⭐","🇫🇷","🎟","📽","✨","🏙","🌊","🚕","🗼","🎭","🏖","🌟"],
+ "description": "🎬 Quiz France : dans quelle ville se passe chaque film culte ? Taxi, La Cité de la peur… La dernière piège presque tout le monde. Ton score ? 👇 #quiz #culturegenerale #cinema #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire quel film t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz France, spécial cinéma ! Le film Taxi, avec son chauffeur fou de vitesse, se passe dans quelle ville ?", "qd": "Le film Taxi ?", "a": [["","Nice"],["","Marseille"],["","Lyon"],["","Toulon"]], "ok": 1, "say": "Marseille !", "level": 0},
+  {"q": "Amélie Poulain est serveuse dans un café de quelle ville ?", "qd": "Amélie Poulain ?", "a": [["","Lyon"],["","Lille"],["","Bordeaux"],["","Paris"]], "ok": 3, "say": "Paris, à Montmartre !", "level": 0},
+  {"q": "Dans Bienvenue chez les Ch'tis, le directeur de la poste est muté dans quelle ville ?", "qd": "Bienvenue chez les Ch'tis ?", "a": [["","Bergues"],["","Lille"],["","Dunkerque"],["","Roubaix"]], "ok": 0, "say": "Bergues, dans le Nord !", "level": 0},
+  {"q": "La Cité de la peur se déroule pendant le festival de quelle ville ?", "qd": "La Cité de la peur ?", "a": [["","Deauville"],["","Nice"],["","Cannes"],["","Antibes"]], "ok": 2, "say": "Cannes, pendant le festival !", "level": 1},
+  {"q": "Et Dieu… créa la femme, avec Brigitte Bardot, se passe dans quelle ville ?", "qd": "Et Dieu… créa la femme ?", "a": [["","Cannes"],["","Biarritz"],["","Saint-Tropez"],["","Deauville"]], "ok": 2, "say": "Saint-Tropez !", "level": 1},
+  {"q": "Les Petits Mouchoirs, la bande d'amis part en vacances où ?", "qd": "Les Petits Mouchoirs ?", "a": [["","Cap-Ferret"],["","La Baule"],["","Biarritz"],["","Saint-Malo"]], "ok": 0, "say": "Au Cap-Ferret !", "level": 1},
+  {"q": "La célèbre scène sur la plage d'Un homme et une femme, de Claude Lelouch, est tournée dans quelle ville ?", "qd": "Un homme et une femme ?", "a": [["","Étretat"],["","Le Touquet"],["","Arcachon"],["","Deauville"]], "ok": 3, "say": "Deauville !", "level": 2},
+  {"q": "Dans Bienvenue chez les Ch'tis, avant sa mutation, Philippe dirige la poste de quelle ville ?", "qd": "Philippe, avant les Ch'tis ?", "a": [["","Aix-en-Provence"],["","Salon-de-Provence"],["","Avignon"],["","Toulon"]], "ok": 1, "say": "Salon-de-Provence !", "level": 3}
+ ],
+ "bonus": {"q": "Le film Disco, avec Franck Dubosc, se passe dans quelle ville ?", "qd": "Dans quelle ville se passe le film Disco ?"},
+ "accroche": "90 % ratent le dernier film",
+ "accroche_dite": "Quatre-vingt-dix pour cent des gens ratent le dernier film !",
+ "accroche_pill": "SPÉCIAL CINÉMA"
+}
