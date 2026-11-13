@@ -1,0 +1,26 @@
+{
+ "title": "Le pays de chaque lac",
+ "subject": "Géographie",
+ "banner": "Quiz géographie : les lacs du monde",
+ "icon": "🏞",
+ "symbols": ["🏞","🌊","⛰","🛶","🐟","🌍","💧","🏔","🦢","🌲","⛵","🗺","🌅","🧭","✨","🌐"],
+ "description": "🏞 Quiz géographie : dans quel pays est chaque lac ? Loch Ness, Baïkal… La dernière piège presque tout le monde. Ton score ? 👇 #quiz #quizz #geographie #monde #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire quel lac t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz géographie ! Le Loch Ness, célèbre pour son monstre, se trouve dans quel pays ?", "qd": "Le Loch Ness ?", "a": [["","Irlande"],["","Royaume-Uni"],["","Norvège"],["","Islande"]], "ok": 1, "say": "Le Royaume-Uni, en Écosse !", "level": 0},
+  {"q": "Le lac Michigan, l'un des Grands Lacs, se trouve dans quel pays ?", "qd": "Le lac Michigan ?", "a": [["","États-Unis"],["","Canada"],["","Mexique"],["","Australie"]], "ok": 0, "say": "Les États-Unis !", "level": 0},
+  {"q": "Le lac de Côme, avec ses villas au pied des Alpes, est dans quel pays ?", "qd": "Le lac de Côme ?", "a": [["","Suisse"],["","Autriche"],["","France"],["","Italie"]], "ok": 3, "say": "L'Italie !", "level": 0},
+  {"q": "Le lac Baïkal, le plus profond du monde, se trouve dans quel pays ?", "qd": "Le lac Baïkal ?", "a": [["","Mongolie"],["","Kazakhstan"],["","Russie"],["","Chine"]], "ok": 2, "say": "La Russie, en Sibérie !", "level": 1},
+  {"q": "Le lac Balaton, la grande plage d'Europe centrale, est dans quel pays ?", "qd": "Le lac Balaton ?", "a": [["","Autriche"],["","Hongrie"],["","Roumanie"],["","Croatie"]], "ok": 1, "say": "La Hongrie !", "level": 1},
+  {"q": "Le lac Louise, aux eaux turquoise dans les Rocheuses, est dans quel pays ?", "qd": "Le lac Louise ?", "a": [["","Canada"],["","États-Unis"],["","Suisse"],["","Nouvelle-Zélande"]], "ok": 0, "say": "Le Canada !", "level": 1},
+  {"q": "Le lac de Bled, avec son île et sa petite église, est dans quel pays ?", "qd": "Le lac de Bled ?", "a": [["","Croatie"],["","Autriche"],["","Slovaquie"],["","Slovénie"]], "ok": 3, "say": "La Slovénie !", "level": 2},
+  {"q": "Le lac Inle, où les pêcheurs rament avec une jambe, est dans quel pays ?", "qd": "Le lac Inle ?", "a": [["","Thaïlande"],["","Laos"],["","Birmanie"],["","Cambodge"]], "ok": 2, "say": "La Birmanie, aussi appelée Myanmar !", "level": 3}
+ ],
+ "bonus": {"q": "Dans quel pays se trouvent les célèbres lacs de Plitvice et leurs cascades ?", "qd": "Dans quel pays sont les lacs de Plitvice ?"},
+ "accroche": "Seul 1 sur 10 trouve le dernier lac",
+ "accroche_dite": "Seule une personne sur dix trouve le dernier lac !",
+ "accroche_pill": "SPÉCIAL MONDE"
+}
