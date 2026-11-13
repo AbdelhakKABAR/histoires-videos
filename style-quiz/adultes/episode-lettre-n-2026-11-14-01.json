@@ -1,0 +1,29 @@
+{
+ "title": "Quiz lettre N",
+ "subject": "Lettre N",
+ "banner": "Quiz lettre N",
+ "mode": "lettre",
+ "letter": "N",
+ "icon": "🧠",
+ "symbols": ["N","A","B","C","?","!","★","✦","N","Z","M","?","●","◆","N","✧"],
+ "description": "🔤 Quiz lettre N : tout commence par N ! De la neige à la Norvège, la dernière bloque presque tout le monde. Ton score ? 👇 #quizlettre #culturegenerale #geographie #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Écris ton score en commentaire, et abonne-toi !",
+ "questions": [
+  {"q": "Qu'est-ce qui tombe du ciel en flocons blancs en hiver ?", "qd": "Tombe en flocons blancs en hiver ?", "answer": "Neige", "say": "La neige !", "level": 0},
+  {"q": "Avec quelle partie du visage sent-on les odeurs ?", "qd": "Partie du visage qui sent les odeurs ?", "answer": "Nez", "say": "Le nez !", "level": 0},
+  {"q": "Quelle fête célèbre-t-on le vingt-cinq décembre ?", "qd": "Fête du 25 décembre ?", "answer": "Noël", "say": "Noël !", "level": 0},
+  {"q": "Quel pays a pour capitale Oslo ?", "qd": "Pays dont la capitale est Oslo ?", "answer": "Norvège", "say": "La Norvège !", "level": 1},
+  {"q": "Quelle ville est la préfecture de la Loire-Atlantique ?", "qd": "Préfecture de la Loire-Atlantique ?", "answer": "Nantes", "say": "Nantes !", "level": 1},
+  {"q": "Quel grand fleuve traverse l'Égypte ?", "qd": "Grand fleuve qui traverse l'Égypte ?", "answer": "Nil", "say": "Le Nil !", "level": 1},
+  {"q": "Quel empereur français a perdu la bataille de Waterloo ?", "qd": "Empereur vaincu à Waterloo ?", "answer": "Napoléon", "say": "Napoléon !", "level": 2},
+  {"q": "Quelle est la planète la plus éloignée du Soleil ?", "qd": "Planète la plus éloignée du Soleil ?", "answer": "Neptune", "say": "Neptune !", "level": 3}
+ ],
+ "intro": "Toutes les réponses commencent par la lettre N !",
+ "intro_speed": 0.9,
+ "accroche": "97 % ratent la dernière question",
+ "accroche_dite": "Quatre-vingt-dix-sept pour cent des gens ratent la dernière question !",
+ "accroche_pill": "QUIZ LETTRE N"
+}
