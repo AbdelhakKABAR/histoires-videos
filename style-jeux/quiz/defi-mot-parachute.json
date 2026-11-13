@@ -1,0 +1,22 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "mot": "PARACHUTE",
+ "categorie": "Un objet",
+ "categorie_dite": "Mot mystère. Catégorie : un objet.",
+ "accroche": "90 % trouvent au 3e indice",
+ "accroche_pill": "MOT MYSTÈRE",
+ "accroche_dite": "Mot mystère : quatre-vingt-dix pour cent des gens le trouvent au troisième indice. Et toi ?",
+ "indices": [
+  "Il sert surtout dans les airs.",
+  "Son nom a été inventé en France en 1783.",
+  "Il est fait de toile et de cordes.",
+  "Il s'ouvre pour freiner une chute.",
+  "On saute d'un avion avec, sur le dos."
+ ],
+ "lettres_donnees": 1,
+ "dire": "Parachute",
+ "explication": "Le parachute, dont le nom a été inventé par le Français Louis-Sébastien Lenormand.",
+ "description": "🪂 Mot mystère : un objet célèbre en 5 indices. Tu l'as trouvé au combien ? Dis-le en commentaire 👇 #motmystere #culturegenerale #inventions #publiostudio"
+}
