@@ -1,0 +1,17 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["A", "C", "F", "J", "O"],
+ "options": ["T", "V", "U", "S"],
+ "ok": 2,
+ "consigne": "Quelle lettre vient ensuite ?",
+ "accroche": "6 personnes sur 10 se trompent",
+ "accroche_dite": "Six personnes sur dix se trompent sur cette suite logique de lettres. Et toi ?",
+ "question_dite": "A, C, F, J, O… Quelle lettre vient ensuite ?",
+ "explication": "On avance de 2, puis 3, 4, 5 lettres… donc 6 après O : U.",
+ "explication_dite": "La lettre U ! On avance de deux lettres, puis trois, puis quatre, puis cinq… donc six lettres après le O, on tombe sur le U.",
+ "fin": "Tu avais répondu T ? Dis-le en commentaire, et abonne-toi !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔤 Suite logique de lettres : A, C, F, J, O… quelle lettre ensuite ? Tu trouves avant la fin du chrono ? 👇 #suitelogique #apprendresurtiktok #alphabet #enigme #publiostudio"
+}

@@ -55,6 +55,7 @@
   "J, F, M, A, M → J (initiales des mois de l'année)",
   "2, 4, 3, 6, 5, 10 → 9 (alternance ×2 puis −1)",
   "1, 8, 27, 64, 125 → 216 (cubes : 1³, 2³, 3³…)",
-  "2, 6, 18, 54, 162 → 486 (on multiplie par 3)"
+  "2, 6, 18, 54, 162 → 486 (on multiplie par 3)",
+  "A, C, F, J, O → U (on avance de 2, 3, 4, 5, 6 lettres)"
  ]
 }
