@@ -1,0 +1,22 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "mot": "MACARON",
+ "categorie": "Une gourmandise",
+ "categorie_dite": "Mot mystère. Catégorie : une gourmandise.",
+ "accroche": "Les gourmands trouvent au 2e indice",
+ "accroche_pill": "MOT MYSTÈRE",
+ "accroche_dite": "Mot mystère : les vrais gourmands le trouvent dès le deuxième indice !",
+ "indices": [
+  "On le trouve dans les vitrines des pâtissiers.",
+  "Il est fait de poudre d'amande et de sucre.",
+  "On y met des blancs d'œufs montés en neige.",
+  "Il a deux coques et une garniture au milieu.",
+  "Petit, rond, coloré : la spécialité parisienne."
+ ],
+ "lettres_donnees": 1,
+ "dire": "Macaron",
+ "explication": "Le macaron, petit gâteau rond à l'amande, garni entre deux coques colorées.",
+ "description": "🍬 Mot mystère : une gourmandise célèbre en 5 indices. Tu l'as trouvé au combien ? Dis-le en commentaire 👇 #motmystere #apprendresurtiktok #cuisine #publiostudio"
+}
