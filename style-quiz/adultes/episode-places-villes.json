@@ -1,0 +1,26 @@
+{
+ "title": "La ville de chaque place célèbre",
+ "subject": "Villes",
+ "banner": "Quiz France : places célèbres",
+ "icon": "⛲",
+ "symbols": ["⛲","🏛","🗽","🌳","🇫🇷","🏙","⭐","✨","🗺","🚶","🎠","🕍","🌟","🏰","📍","🪙"],
+ "description": "⛲ Quiz France : dans quelle ville est chaque place célèbre ? Concorde, Stanislas… Ton score ? Et la question bonus ? 👇 #quiz #testculturegenerale #villes #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire quelle place t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz France ! La place de la Concorde, avec son obélisque, se trouve dans quelle ville ?", "qd": "La place de la Concorde ?", "a": [["","Lyon"],["","Marseille"],["","Paris"],["","Nice"]], "ok": 2, "say": "Paris, au bout des Champs-Élysées !", "level": 0},
+  {"q": "La place du Capitole, au cœur de la ville rose, est dans quelle ville ?", "qd": "La place du Capitole ?", "a": [["","Toulouse"],["","Montpellier"],["","Albi"],["","Bordeaux"]], "ok": 0, "say": "Toulouse, la ville rose !", "level": 0},
+  {"q": "La place Bellecour, l'une des plus grandes places de France, est dans quelle ville ?", "qd": "La place Bellecour ?", "a": [["","Grenoble"],["","Lyon"],["","Dijon"],["","Marseille"]], "ok": 1, "say": "Lyon !", "level": 0},
+  {"q": "La place Stanislas, aux grilles dorées, est dans quelle ville de Lorraine ?", "qd": "La place Stanislas ?", "a": [["","Metz"],["","Épinal"],["","Verdun"],["","Nancy"]], "ok": 3, "say": "Nancy !", "level": 1},
+  {"q": "La place de la Bourse, avec son célèbre miroir d'eau, est dans quelle ville ?", "qd": "La place de la Bourse et son miroir d'eau ?", "a": [["","Bordeaux"],["","Nantes"],["","La Rochelle"],["","Rouen"]], "ok": 0, "say": "Bordeaux !", "level": 1},
+  {"q": "La Grand-Place, avec sa colonne de la Déesse, est dans quelle ville du Nord ?", "qd": "La Grand-Place et la Déesse ?", "a": [["","Amiens"],["","Arras"],["","Lille"],["","Calais"]], "ok": 2, "say": "Lille !", "level": 1},
+  {"q": "La place Kléber, la plus grande place de la ville, est dans quelle ville d'Alsace ?", "qd": "La place Kléber ?", "a": [["","Colmar"],["","Strasbourg"],["","Mulhouse"],["","Metz"]], "ok": 1, "say": "Strasbourg !", "level": 2},
+  {"q": "La place Plumereau, aux maisons à colombages, est dans quelle ville de la Loire ?", "qd": "La place Plumereau ?", "a": [["","Angers"],["","Orléans"],["","Blois"],["","Tours"]], "ok": 3, "say": "Tours !", "level": 3}
+ ],
+ "bonus": {"q": "Sur quelle place de Paris se dresse l'Arc de triomphe ?", "qd": "La place de l'Arc de triomphe à Paris ?"},
+ "accroche": "90 % ratent la dernière place",
+ "accroche_dite": "Quatre-vingt-dix pour cent des gens ratent la dernière place !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
