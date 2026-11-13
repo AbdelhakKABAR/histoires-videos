@@ -210,6 +210,21 @@
     "Loire",
     "Lisbonne"
    ]
+  },
+  {
+   "lettre": "M",
+   "date": "2026-11-13",
+   "fichier": "episode-lettre-m-2026-11-13-11.json",
+   "reponses": [
+    "Mouton",
+    "Marseille",
+    "Mangue",
+    "Maroc",
+    "Mars",
+    "Moule",
+    "Mont Blanc",
+    "Michel-Ange"
+   ]
   }
  ]
 }

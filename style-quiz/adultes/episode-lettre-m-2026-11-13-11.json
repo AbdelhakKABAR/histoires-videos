@@ -1,0 +1,99 @@
+{
+ "title": "Quiz lettre M",
+ "subject": "Lettre M",
+ "banner": "Quiz lettre M",
+ "mode": "lettre",
+ "letter": "M",
+ "icon": "🧠",
+ "symbols": [
+  "M",
+  "A",
+  "B",
+  "C",
+  "?",
+  "!",
+  "★",
+  "✦",
+  "M",
+  "Z",
+  "L",
+  "?",
+  "●",
+  "◆",
+  "M",
+  "✧"
+ ],
+ "description": "🔤 Quiz lettre M : tout commence par M ! Du mouton au Maroc, la dernière bloque presque tout le monde. Ton score ? 👇 #quizlettre #testculturegenerale #animaux #geographie #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {
+   "q": "Quel animal nous donne de la laine ?",
+   "qd": "Animal qui nous donne de la laine ?",
+   "answer": "Mouton",
+   "say": "Le mouton !",
+   "level": 0
+  },
+  {
+   "q": "Quelle grande ville portuaire est surnommée la cité phocéenne ?",
+   "qd": "Ville surnommée la cité phocéenne ?",
+   "answer": "Marseille",
+   "say": "Marseille !",
+   "level": 0
+  },
+  {
+   "q": "Quel fruit tropical à chair orange a un gros noyau plat ?",
+   "qd": "Fruit tropical orange au gros noyau plat ?",
+   "answer": "Mangue",
+   "say": "La mangue !",
+   "level": 0
+  },
+  {
+   "q": "Quel pays a pour capitale Rabat ?",
+   "qd": "Pays dont la capitale est Rabat ?",
+   "answer": "Maroc",
+   "say": "Le Maroc !",
+   "level": 1
+  },
+  {
+   "q": "Quelle planète est surnommée la planète rouge ?",
+   "qd": "La planète rouge ?",
+   "answer": "Mars",
+   "say": "Mars !",
+   "level": 1
+  },
+  {
+   "q": "Quel coquillage noir mange-t-on avec des frites en Belgique ?",
+   "qd": "Coquillage noir servi avec des frites ?",
+   "answer": "Moule",
+   "say": "La moule !",
+   "level": 1
+  },
+  {
+   "q": "Quel est le plus haut sommet des Alpes ?",
+   "qd": "Plus haut sommet des Alpes ?",
+   "answer": "Mont Blanc",
+   "say": "Le mont Blanc !",
+   "level": 2
+  },
+  {
+   "q": "Quel artiste italien a peint le plafond de la chapelle Sixtine ?",
+   "qd": "Peintre du plafond de la chapelle Sixtine ?",
+   "answer": "Michel-Ange",
+   "say": "Michel-Ange !",
+   "level": 3
+  }
+ ],
+ "intro": "Toutes les réponses commencent par la lettre M !",
+ "intro_speed": 0.9,
+ "accroche": "La question 8 piège tout le monde",
+ "accroche_dite": "La question huit piège tout le monde !",
+ "accroche_pill": "QUIZ LETTRE M"
+}
