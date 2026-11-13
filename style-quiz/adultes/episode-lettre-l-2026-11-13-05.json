@@ -1,0 +1,99 @@
+{
+ "title": "Quiz lettre L",
+ "subject": "Lettre L",
+ "banner": "Quiz lettre L",
+ "mode": "lettre",
+ "letter": "L",
+ "icon": "🧠",
+ "symbols": [
+  "L",
+  "A",
+  "B",
+  "C",
+  "?",
+  "!",
+  "★",
+  "✦",
+  "L",
+  "Z",
+  "M",
+  "?",
+  "●",
+  "◆",
+  "L",
+  "✧"
+ ],
+ "description": "🔤 Quiz lettre L : tout commence par L ! Du lion à la lune, puis une dernière qui bloque presque tout le monde. Ton score ? 👇 #quizlettre #apprendresurtiktok #geographie #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Écris ton score en commentaire, et abonne-toi !",
+ "questions": [
+  {
+   "q": "Quel animal est surnommé le roi des animaux ?",
+   "qd": "Le roi des animaux ?",
+   "answer": "Lion",
+   "say": "Le lion !",
+   "level": 0
+  },
+  {
+   "q": "Quel animal aux longues oreilles adore les carottes ?",
+   "qd": "Animal aux longues oreilles qui adore les carottes ?",
+   "answer": "Lapin",
+   "say": "Le lapin !",
+   "level": 0
+  },
+  {
+   "q": "Quelle est la capitale du Royaume-Uni ?",
+   "qd": "Capitale du Royaume-Uni ?",
+   "answer": "Londres",
+   "say": "Londres !",
+   "level": 0
+  },
+  {
+   "q": "Quel astre tourne autour de la Terre et éclaire nos nuits ?",
+   "qd": "Astre qui tourne autour de la Terre ?",
+   "answer": "Lune",
+   "say": "La Lune !",
+   "level": 1
+  },
+  {
+   "q": "Quelle salade verte met-on souvent dans un hamburger ?",
+   "qd": "Salade verte du hamburger ?",
+   "answer": "Laitue",
+   "say": "La laitue !",
+   "level": 1
+  },
+  {
+   "q": "Quel musée de Paris expose la Joconde ?",
+   "qd": "Musée parisien de la Joconde ?",
+   "answer": "Louvre",
+   "say": "Le Louvre !",
+   "level": 1
+  },
+  {
+   "q": "Quel fleuve traverse Orléans, Tours et Nantes ?",
+   "qd": "Fleuve d'Orléans, Tours et Nantes ?",
+   "answer": "Loire",
+   "say": "La Loire !",
+   "level": 2
+  },
+  {
+   "q": "Quelle capitale européenne est traversée par le Tage ?",
+   "qd": "Capitale traversée par le Tage ?",
+   "answer": "Lisbonne",
+   "say": "Lisbonne !",
+   "level": 3
+  }
+ ],
+ "intro": "Toutes les réponses commencent par la lettre L !",
+ "intro_speed": 0.9,
+ "accroche": "Seul un génie a tout bon",
+ "accroche_dite": "Seul un génie a tout bon !",
+ "accroche_pill": "QUIZ LETTRE L"
+}

@@ -195,6 +195,21 @@
     "Jordanie",
     "Jura"
    ]
+  },
+  {
+   "lettre": "L",
+   "date": "2026-11-13",
+   "fichier": "episode-lettre-l-2026-11-13-05.json",
+   "reponses": [
+    "Lion",
+    "Lapin",
+    "Londres",
+    "Lune",
+    "Laitue",
+    "Louvre",
+    "Loire",
+    "Lisbonne"
+   ]
   }
  ]
 }
