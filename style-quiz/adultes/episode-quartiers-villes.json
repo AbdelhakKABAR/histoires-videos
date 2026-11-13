@@ -1,0 +1,26 @@
+{
+ "title": "La ville de chaque quartier célèbre",
+ "subject": "Villes de France",
+ "banner": "Quiz France : les quartiers",
+ "icon": "🏘",
+ "symbols": ["🏘","🇫🇷","🏙","🗼","⛪","🌉","🏛","🚋","🍷","🎨","🗺","⭐","🏠","☀","⚓","✦"],
+ "description": "🏘 Quiz France : dans quelle ville est chaque quartier célèbre ? Montmartre, les Chartrons… Ton score ? 👇 #quiz #testculturegenerale #villes #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire quel quartier t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz France ! Le quartier de Montmartre et sa butte se trouvent dans quelle ville ?", "qd": "Le quartier de Montmartre ?", "a": [["","Lyon"],["","Paris"],["","Lille"],["","Nice"]], "ok": 1, "say": "Paris, bien sûr !", "level": 0},
+  {"q": "Le Panier, le plus vieux quartier de la ville, est dans quelle ville ?", "qd": "Le quartier du Panier ?", "a": [["","Marseille"],["","Toulon"],["","Nice"],["","Montpellier"]], "ok": 0, "say": "Marseille, au-dessus du Vieux-Port !", "level": 0},
+  {"q": "Le quartier de la Croix-Rousse, la colline des canuts, est dans quelle ville ?", "qd": "Le quartier de la Croix-Rousse ?", "a": [["","Grenoble"],["","Saint-Étienne"],["","Lyon"],["","Dijon"]], "ok": 2, "say": "Lyon !", "level": 0},
+  {"q": "Le quartier des Chartrons, célèbre pour son négoce du vin, est dans quelle ville ?", "qd": "Le quartier des Chartrons ?", "a": [["","Reims"],["","Dijon"],["","Cognac"],["","Bordeaux"]], "ok": 3, "say": "Bordeaux !", "level": 1},
+  {"q": "Le quartier de la Petite Venise, avec ses canaux, est dans quelle ville ?", "qd": "La Petite Venise ?", "a": [["","Reims"],["","Colmar"],["","Nancy"],["","Besançon"]], "ok": 1, "say": "Colmar, en Alsace !", "level": 1},
+  {"q": "Le quartier du Bouffay, le cœur médiéval de la ville, est dans quelle ville ?", "qd": "Le quartier du Bouffay ?", "a": [["","Nantes"],["","Rennes"],["","Angers"],["","Tours"]], "ok": 0, "say": "Nantes !", "level": 1},
+  {"q": "Le quartier Antigone, construit par l'architecte Ricardo Bofill, est dans quelle ville ?", "qd": "Le quartier Antigone ?", "a": [["","Nîmes"],["","Perpignan"],["","Montpellier"],["","Avignon"]], "ok": 2, "say": "Montpellier !", "level": 2},
+  {"q": "Le quartier de Wazemmes et son grand marché sont dans quelle ville ?", "qd": "Le quartier de Wazemmes ?", "a": [["","Roubaix"],["","Amiens"],["","Valenciennes"],["","Lille"]], "ok": 3, "say": "Lille !", "level": 3}
+ ],
+ "bonus": {"q": "Dans quelle ville se trouve le quartier d'affaires de la Part-Dieu ?", "qd": "Où est le quartier de la Part-Dieu ?"},
+ "accroche": "80 % ratent le dernier quartier",
+ "accroche_dite": "Quatre-vingts pour cent des gens ratent le dernier quartier !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
