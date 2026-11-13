@@ -1,0 +1,26 @@
+{
+ "title": "La ville de chaque jardin et parc",
+ "subject": "Jardins",
+ "banner": "Quiz France : jardins et parcs",
+ "icon": "🌳",
+ "symbols": ["🌳","🌷","🌹","⛲","🦢","🌸","🇫🇷","🍃","🌼","🏛","🪷","🌿","🦋","☀️","🗺","✨"],
+ "description": "🌳 Quiz France : dans quelle ville est chaque jardin célèbre ? Luxembourg, Giverny… Ton score ? Et la question bonus ? 👇 #quiz #quizz #jardin #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire ton jardin préféré, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz France sur les jardins ! Le jardin du Luxembourg, près du Sénat, est dans quelle ville ?", "qd": "Le jardin du Luxembourg ?", "a": [["","Lyon"],["","Paris"],["","Nantes"],["","Lille"]], "ok": 1, "say": "Paris, dans le sixième arrondissement !", "level": 0},
+  {"q": "Le parc de la Tête d'Or, avec son zoo et son grand lac, est dans quelle ville ?", "qd": "Le parc de la Tête d'Or ?", "a": [["","Lyon"],["","Grenoble"],["","Dijon"],["","Toulouse"]], "ok": 0, "say": "Lyon !", "level": 0},
+  {"q": "Les jardins du château de Louis XIV, le Roi-Soleil, sont dans quelle ville ?", "qd": "Les jardins du château du Roi-Soleil ?", "a": [["","Chambord"],["","Fontainebleau"],["","Versailles"],["","Chantilly"]], "ok": 2, "say": "Versailles !", "level": 0},
+  {"q": "Le jardin de Claude Monet, avec son bassin aux nymphéas, est dans quel village ?", "qd": "Le jardin des nymphéas de Monet ?", "a": [["","Étretat"],["","Honfleur"],["","Barbizon"],["","Giverny"]], "ok": 3, "say": "Giverny, en Normandie !", "level": 1},
+  {"q": "Le parc de l'Orangerie, célèbre pour ses cigognes, est dans quelle ville ?", "qd": "Le parc de l'Orangerie et ses cigognes ?", "a": [["","Strasbourg"],["","Colmar"],["","Metz"],["","Mulhouse"]], "ok": 0, "say": "Strasbourg !", "level": 1},
+  {"q": "Le parc Borély, tout près des plages du Prado, est dans quelle ville ?", "qd": "Le parc Borély ?", "a": [["","Nice"],["","Toulon"],["","Marseille"],["","Montpellier"]], "ok": 2, "say": "Marseille !", "level": 1},
+  {"q": "Le plus ancien jardin botanique de France, créé sous Henri IV, est dans quelle ville ?", "qd": "Le plus ancien jardin botanique de France ?", "a": [["","Paris"],["","Montpellier"],["","Bordeaux"],["","Toulouse"]], "ok": 1, "say": "Montpellier, depuis quinze cent quatre-vingt-treize !", "level": 2},
+  {"q": "Le jardin du Thabor, l'un des plus beaux parcs de Bretagne, est dans quelle ville ?", "qd": "Le jardin du Thabor ?", "a": [["","Nantes"],["","Brest"],["","Quimper"],["","Rennes"]], "ok": 3, "say": "Rennes !", "level": 3}
+ ],
+ "bonus": {"q": "Quel palais, qui abrite le Sénat, se trouve dans le jardin du Luxembourg ?", "qd": "Le palais du Sénat, au Luxembourg ?"},
+ "accroche": "La dernière piège 80 % des gens",
+ "accroche_dite": "Quatre-vingts pour cent des gens tombent dans le piège de la dernière !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
