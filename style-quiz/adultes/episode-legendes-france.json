@@ -1,0 +1,26 @@
+{
+ "title": "Le lieu de chaque légende de France",
+ "subject": "Légendes",
+ "banner": "Quiz : légendes de France",
+ "icon": "🐉",
+ "symbols": ["🐉","🏰","⚔️","🗡","🛡","👑","🔮","🌲","✨","⭐","🧙","🦄","📜","🕯","🌙","🗺"],
+ "description": "🐉 Quiz France : où se passe chaque légende ? Jeanne d'Arc, Brocéliande… La dernière piège presque tout le monde. Ton score ? Et la question bonus ? 👇 #quiz #testculturegenerale #histoire #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz légendes de France ! Jeanne d'Arc est surnommée la Pucelle de quelle ville ?", "qd": "La Pucelle de… ?", "a": [["","Rouen"],["","Reims"],["","Orléans"],["","Domrémy"]], "ok": 2, "say": "Orléans, qu'elle a libérée en 1429 !", "level": 0},
+  {"q": "Le comte de Monte-Cristo est enfermé au château d'If, au large de quelle ville ?", "qd": "Le château d'If, près de… ?", "a": [["","Marseille"],["","Nice"],["","Toulon"],["","Brest"]], "ok": 0, "say": "Marseille !", "level": 0},
+  {"q": "Quasimodo, le bossu, sonne les cloches de Notre-Dame de quelle ville ?", "qd": "Quasimodo, à Notre-Dame de… ?", "a": [["","Reims"],["","Chartres"],["","Amiens"],["","Paris"]], "ok": 3, "say": "Paris !", "level": 0},
+  {"q": "La forêt de Brocéliande, celle de Merlin l'enchanteur, est dans quelle région ?", "qd": "La forêt de Brocéliande ?", "a": [["","Normandie"],["","Bretagne"],["","Alsace"],["","Auvergne"]], "ok": 1, "say": "La Bretagne !", "level": 1},
+  {"q": "La Tarasque, monstre dompté par sainte Marthe, est le symbole de quelle ville ?", "qd": "La Tarasque ?", "a": [["","Arles"],["","Nîmes"],["","Tarascon"],["","Avignon"]], "ok": 2, "say": "Tarascon !", "level": 1},
+  {"q": "D'après la célèbre chanson, sur le pont de quelle ville l'on y danse ?", "qd": "Sur le pont d'… on y danse ?", "a": [["","Avignon"],["","Albi"],["","Orange"],["","Cahors"]], "ok": 0, "say": "Avignon !", "level": 1},
+  {"q": "Le Graoully, dragon vaincu par saint Clément, est le symbole de quelle ville ?", "qd": "Le dragon Graoully ?", "a": [["","Nancy"],["","Strasbourg"],["","Reims"],["","Metz"]], "ok": 3, "say": "Metz !", "level": 2},
+  {"q": "Selon la légende, Dame Carcas a sauvé quelle ville du siège de Charlemagne ?", "qd": "La légende de Dame Carcas ?", "a": [["","Narbonne"],["","Carcassonne"],["","Perpignan"],["","Béziers"]], "ok": 1, "say": "Carcassonne ! Carcas sonne !", "level": 3}
+ ],
+ "bonus": {"q": "Dans quelle ville Jeanne d'Arc a-t-elle été brûlée en 1431 ?", "qd": "Où Jeanne d'Arc a-t-elle été brûlée ?"},
+ "accroche": "Seul 1 Français sur 10 a tout bon",
+ "accroche_dite": "Seul un Français sur dix a tout bon !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
