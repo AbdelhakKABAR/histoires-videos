@@ -1,0 +1,26 @@
+{
+ "title": "La région de chaque langue régionale",
+ "subject": "Langues régionales",
+ "banner": "Quiz : les langues régionales",
+ "icon": "🗣",
+ "symbols": ["🗣","🇫🇷","🗺","📜","✨","🏔","⚓","🥨","🌻","🐚","⭐","🧭","🏰","✦","🎶","📚"],
+ "description": "🗣 Quiz France : dans quelle région parle-t-on chaque langue régionale ? L'alsacien, le provençal… Tu as eu combien ? 👇 #quiz #apprendresurtiktok #languefrancaise #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz langues régionales ! L'alsacien est parlé dans quelle région ?", "qd": "L'alsacien ?", "a": [["","Bretagne"],["","Normandie"],["","Alsace"],["","Auvergne"]], "ok": 2, "say": "En Alsace, bien sûr !", "level": 0},
+  {"q": "Le basque est parlé dans quelle région ?", "qd": "Le basque ?", "a": [["","Pays basque"],["","Savoie"],["","Lorraine"],["","Picardie"]], "ok": 0, "say": "Au Pays basque !", "level": 0},
+  {"q": "Le ch'ti, rendu célèbre par le film Bienvenue chez les Ch'tis, est parlé dans quelle région ?", "qd": "Le ch'ti ?", "a": [["","Bourgogne"],["","Nord-Pas-de-Calais"],["","Provence"],["","Limousin"]], "ok": 1, "say": "Dans le Nord-Pas-de-Calais !", "level": 0},
+  {"q": "Le provençal, la langue du poète Frédéric Mistral, est parlé dans quelle région ?", "qd": "Le provençal ?", "a": [["","Bretagne"],["","Champagne"],["","Alsace"],["","Provence"]], "ok": 3, "say": "En Provence !", "level": 1},
+  {"q": "L'occitan, la langue d'oc, a donné son nom à quelle région ?", "qd": "L'occitan ?", "a": [["","Aquitaine"],["","Occitanie"],["","Bourgogne"],["","Normandie"]], "ok": 1, "say": "L'Occitanie !", "level": 1},
+  {"q": "Le catalan est aussi parlé en France, dans quelle région ?", "qd": "Le catalan ?", "a": [["","Roussillon"],["","Savoie"],["","Lorraine"],["","Vendée"]], "ok": 0, "say": "Dans le Roussillon, autour de Perpignan !", "level": 1},
+  {"q": "Le nissart est la langue traditionnelle de quelle ville ?", "qd": "Le nissart ?", "a": [["","Nantes"],["","Nancy"],["","Nîmes"],["","Nice"]], "ok": 3, "say": "Nice ! Nissart veut dire niçois.", "level": 2},
+  {"q": "Le gallo, à ne pas confondre avec le gaélique, est parlé dans quelle région ?", "qd": "Le gallo ?", "a": [["","Normandie"],["","Corse"],["","Bretagne"],["","Savoie"]], "ok": 2, "say": "En Bretagne ! Dans l'est de la Bretagne, à côté du breton.", "level": 3}
+ ],
+ "bonus": {"q": "Quelle langue régionale parle-t-on traditionnellement à Quimper ?", "qd": "Quelle langue régionale parle-t-on à Quimper ?"},
+ "accroche": "La dernière piège 9 Français sur 10",
+ "accroche_dite": "La dernière langue piège neuf Français sur dix !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
