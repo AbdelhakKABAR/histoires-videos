@@ -1,0 +1,22 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "mot": "BOUSSOLE",
+ "categorie": "Un objet célèbre",
+ "categorie_dite": "Mot mystère. Catégorie : un objet célèbre.",
+ "accroche": "Trouve-le avant le 3e indice",
+ "accroche_pill": "MOT MYSTÈRE",
+ "accroche_dite": "Mot mystère : les plus malins le trouvent avant le troisième indice !",
+ "indices": [
+  "Les marins ne partaient jamais sans elle.",
+  "Elle a été inventée en Chine.",
+  "Elle contient une aiguille aimantée.",
+  "Les randonneurs l'utilisent avec une carte.",
+  "Son aiguille indique toujours le nord."
+ ],
+ "lettres_donnees": 1,
+ "dire": "Boussole",
+ "explication": "La boussole, dont l'aiguille aimantée indique le nord.",
+ "description": "🧭 Mot mystère : un objet célèbre en 5 indices. Tu l'as trouvé au combien ? Dis-le en commentaire 👇 #motmystere #testculturegenerale #histoire #publiostudio"
+}
