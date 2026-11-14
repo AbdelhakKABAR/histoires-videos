@@ -1,0 +1,26 @@
+{
+ "title": "Le pays de chaque palais",
+ "subject": "Palais du monde",
+ "banner": "Quiz : les palais du monde",
+ "icon": "🏰",
+ "symbols": ["🏰","👑","🌍","✨","🏛","💎","🗺","⭐","🌐","🧭","🌎","✦","🕌","🏯","🛕","🎖"],
+ "description": "🏰 Quiz culture générale : dans quel pays est chaque palais ? Buckingham, Schönbrunn… La dernière piège presque tout le monde. Ton score ? 👇 #quiz #testculturegenerale #monde #histoire #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire quel palais t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz palais du monde ! Le palais de Buckingham, résidence du roi, se trouve dans quel pays ?", "qd": "Le palais de Buckingham ?", "a": [["","Irlande"],["","Royaume-Uni"],["","Canada"],["","Australie"]], "ok": 1, "say": "Le Royaume-Uni, à Londres !", "level": 0},
+  {"q": "La Cité interdite, le palais des empereurs, se trouve dans quel pays ?", "qd": "La Cité interdite ?", "a": [["","Japon"],["","Corée du Sud"],["","Vietnam"],["","Chine"]], "ok": 3, "say": "La Chine, à Pékin !", "level": 0},
+  {"q": "Le palais royal de Madrid se trouve dans quel pays ?", "qd": "Le palais royal de Madrid ?", "a": [["","Portugal"],["","Espagne"],["","Italie"],["","Mexique"]], "ok": 1, "say": "L'Espagne, bien sûr !", "level": 0},
+  {"q": "Le palais de Schönbrunn, résidence de l'impératrice Sissi, se trouve dans quel pays ?", "qd": "Le palais de Schönbrunn ?", "a": [["","Allemagne"],["","Hongrie"],["","Autriche"],["","Suisse"]], "ok": 2, "say": "L'Autriche, à Vienne !", "level": 1},
+  {"q": "Le palais de Topkapi, demeure des sultans ottomans, se trouve dans quel pays ?", "qd": "Le palais de Topkapi ?", "a": [["","Turquie"],["","Égypte"],["","Grèce"],["","Iran"]], "ok": 0, "say": "La Turquie, à Istanbul !", "level": 1},
+  {"q": "Le palais de Peterhof, surnommé le Versailles russe, se trouve dans quel pays ?", "qd": "Le palais de Peterhof ?", "a": [["","Pologne"],["","Finlande"],["","Suède"],["","Russie"]], "ok": 3, "say": "La Russie, près de Saint-Pétersbourg !", "level": 1},
+  {"q": "Le palais de Gyeongbokgung se trouve dans quel pays ?", "qd": "Le palais Gyeongbokgung ?", "a": [["","Corée du Sud"],["","Japon"],["","Chine"],["","Mongolie"]], "ok": 0, "say": "La Corée du Sud, à Séoul !", "level": 2},
+  {"q": "Le Grand Palais, qui abrite le Bouddha d'émeraude, se trouve dans quel pays ?", "qd": "Le Grand Palais du Bouddha d'émeraude ?", "a": [["","Cambodge"],["","Thaïlande"],["","Laos"],["","Birmanie"]], "ok": 1, "say": "La Thaïlande, à Bangkok !", "level": 3}
+ ],
+ "bonus": {"q": "Dans quel pays se trouve le palais des Doges ?", "qd": "Dans quel pays est le palais des Doges ?"},
+ "accroche": "Le dernier palais piège 80 %",
+ "accroche_dite": "Quatre-vingts pour cent des gens se trompent sur le dernier palais !",
+ "accroche_pill": "TOUR DU MONDE"
+}
