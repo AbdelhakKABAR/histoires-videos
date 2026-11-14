@@ -1,0 +1,26 @@
+{
+ "title": "Le pays voisin de chaque ville",
+ "subject": "Géographie",
+ "banner": "Quiz France : pays voisins",
+ "icon": "🧭",
+ "symbols": ["🧭","🗺","🇫🇷","🏔","🌉","🚆","📍","⛰","🌍","✨","🛣","🏞","⭐","🗼","🚗","🌐"],
+ "description": "🧭 Quiz France : de quel pays chaque ville est-elle voisine ? Strasbourg, Annemasse, Sarreguemines… Ton score sur 8 ? 👇 #quiz #culturegenerale #geographie #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz France, les pays voisins ! Strasbourg est collée à quel pays ?", "qd": "Strasbourg est voisine de… ?", "a": [["","Belgique"],["","Allemagne"],["","Suisse"],["","Luxembourg"]], "ok": 1, "say": "L'Allemagne, juste de l'autre côté du Rhin !", "level": 0},
+  {"q": "Menton, sur la Côte d'Azur, est voisine de quel pays ?", "qd": "Menton est voisine de… ?", "a": [["","Espagne"],["","Suisse"],["","Italie"],["","Allemagne"]], "ok": 2, "say": "L'Italie !", "level": 0},
+  {"q": "Hendaye, au Pays basque, est voisine de quel pays ?", "qd": "Hendaye est voisine de… ?", "a": [["","Espagne"],["","Portugal"],["","Italie"],["","Andorre"]], "ok": 0, "say": "L'Espagne !", "level": 0},
+  {"q": "Annemasse, en Haute-Savoie, est voisine de quel pays ?", "qd": "Annemasse est voisine de… ?", "a": [["","Italie"],["","Belgique"],["","Allemagne"],["","Suisse"]], "ok": 3, "say": "La Suisse, tout près de Genève !", "level": 1},
+  {"q": "Lille, dans le Nord, est proche de quel pays ?", "qd": "Lille est voisine de… ?", "a": [["","Belgique"],["","Luxembourg"],["","Allemagne"],["","Suisse"]], "ok": 0, "say": "La Belgique !", "level": 1},
+  {"q": "Thionville, en Moselle, est proche de quel pays ?", "qd": "Thionville est voisine de… ?", "a": [["","Suisse"],["","Luxembourg"],["","Espagne"],["","Italie"]], "ok": 1, "say": "Le Luxembourg !", "level": 1},
+  {"q": "Briançon, dans les Hautes-Alpes, est proche de quel pays ?", "qd": "Briançon est voisine de… ?", "a": [["","Suisse"],["","Espagne"],["","Italie"],["","Andorre"]], "ok": 2, "say": "L'Italie, par le col de Montgenèvre !", "level": 2},
+  {"q": "Sarreguemines, en Moselle, touche quel pays ?", "qd": "Sarreguemines touche… ?", "a": [["","Luxembourg"],["","Belgique"],["","Suisse"],["","Allemagne"]], "ok": 3, "say": "L'Allemagne, de l'autre côté de la Sarre !", "level": 3}
+ ],
+ "bonus": {"q": "Quel petit pays touche à la fois la France et l'Espagne ?", "qd": "Quel pays touche la France ET l'Espagne ?"},
+ "accroche": "La dernière ville piège 75 %",
+ "accroche_dite": "La dernière ville piège soixante-quinze pour cent des gens !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
