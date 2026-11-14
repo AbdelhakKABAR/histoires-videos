@@ -240,6 +240,21 @@
     "Napoléon",
     "Neptune"
    ]
+  },
+  {
+   "lettre": "O",
+   "date": "2026-11-14",
+   "fichier": "episode-lettre-o-2026-11-14-15.json",
+   "reponses": [
+    "Orange",
+    "Ours",
+    "Œuf",
+    "Océan",
+    "Oslo",
+    "Orléans",
+    "Olympe",
+    "Ottawa"
+   ]
   }
  ]
 }

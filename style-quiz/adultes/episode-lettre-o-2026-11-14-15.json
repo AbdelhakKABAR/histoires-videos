@@ -1,0 +1,29 @@
+{
+ "title": "Quiz lettre O",
+ "subject": "Lettre O",
+ "banner": "Quiz lettre O",
+ "mode": "lettre",
+ "letter": "O",
+ "icon": "🧠",
+ "symbols": ["O","A","B","C","?","!","★","✦","O","Z","M","?","●","◆","O","✧"],
+ "description": "🔤 Quiz lettre O : tout commence par O ! De l'orange à l'océan, mais la dernière capitale piège presque tout le monde. Ton score ? 👇 #quizlettre #apprendresurtiktok #geographie #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quel fruit porte le même nom qu'une couleur ?", "qd": "Fruit qui porte le nom d'une couleur ?", "answer": "Orange", "say": "L'orange !", "level": 0},
+  {"q": "Quel grand animal brun hiberne tout l'hiver et adore le miel ?", "qd": "Grand animal qui hiberne et adore le miel ?", "answer": "Ours", "say": "L'ours !", "level": 0},
+  {"q": "Que pond une poule ?", "qd": "Que pond une poule ?", "answer": "Œuf", "say": "Un œuf !", "level": 0},
+  {"q": "L'Atlantique et le Pacifique sont des quoi ?", "qd": "L'Atlantique et le Pacifique sont des… ?", "answer": "Océan", "say": "Des océans !", "level": 1},
+  {"q": "Quelle est la capitale de la Norvège ?", "qd": "Capitale de la Norvège ?", "answer": "Oslo", "say": "Oslo !", "level": 1},
+  {"q": "Quelle ville Jeanne d'Arc a-t-elle libérée en 1429 ?", "qd": "Ville libérée par Jeanne d'Arc en 1429 ?", "answer": "Orléans", "say": "Orléans !", "level": 1},
+  {"q": "Sur quelle montagne vivaient les dieux grecs ?", "qd": "Montagne des dieux grecs ?", "answer": "Olympe", "say": "Le mont Olympe !", "level": 2},
+  {"q": "Quelle est la capitale du Canada ?", "qd": "Capitale du Canada ?", "answer": "Ottawa", "say": "Ottawa, et pas Toronto !", "level": 3}
+ ],
+ "intro": "Toutes les réponses commencent par la lettre O !",
+ "intro_speed": 0.9,
+ "accroche": "La capitale finale piège 8 sur 10",
+ "accroche_dite": "La capitale finale piège huit personnes sur dix !",
+ "accroche_pill": "QUIZ LETTRE O"
+}
