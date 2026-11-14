@@ -1,0 +1,17 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["1", "10", "2", "20", "3", "30"],
+ "options": ["40", "31", "4", "33"],
+ "ok": 2,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "Seuls 2 % trouvent du premier coup",
+ "accroche_dite": "Seulement deux pour cent des gens trouvent cette suite logique du premier coup !",
+ "question_dite": "Un, dix, deux, vingt, trois, trente… Quel nombre vient ensuite ?",
+ "explication": "Deux suites mêlées : 1, 2, 3… et 10, 20, 30… Après 30, c'est le tour de la 1re : 4.",
+ "explication_dite": "Quatre ! Il y a deux suites mêlées : un, deux, trois… et dix, vingt, trente. Après trente, c'est le tour de la première suite : quatre.",
+ "fin": "Tu avais répondu quarante ? Avoue-le en commentaire, et abonne-toi !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔢 Suite logique : 1, 10, 2, 20, 3, 30… quel nombre ensuite ? Tu as dit 40 toi aussi ? 👇 #suitelogique #apprendresurtiktok #maths #enigme #publiostudio"
+}
