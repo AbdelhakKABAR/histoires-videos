@@ -1,0 +1,17 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["100", "81", "64", "49", "36"],
+ "options": ["27", "25", "24", "30"],
+ "ok": 1,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "Un génie trouve en 5 secondes",
+ "accroche_dite": "Un génie trouve cette suite logique en cinq secondes. Et toi ?",
+ "question_dite": "Cent, quatre-vingt-un, soixante-quatre, quarante-neuf, trente-six… Quel nombre vient ensuite ?",
+ "explication": "Ce sont les carrés à rebours : 10×10, 9×9, 8×8, 7×7, 6×6… puis 5×5 = 25.",
+ "explication_dite": "Vingt-cinq ! Ce sont les carrés à rebours : dix fois dix, neuf fois neuf, huit fois huit… et donc cinq fois cinq, vingt-cinq.",
+ "fin": "Tu avais trouvé avant le chrono ? Dis-le en commentaire, et abonne-toi !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔢 Suite logique : 100, 81, 64, 49, 36… quel nombre ensuite ? Tu trouves avant la fin du chrono ? 👇 #suitelogique #culturegenerale #maths #enigme #publiostudio"
+}
