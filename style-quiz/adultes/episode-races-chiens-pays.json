@@ -1,0 +1,26 @@
+{
+ "title": "Le pays de chaque race de chien",
+ "subject": "Animaux",
+ "banner": "Quiz chiens : le pays de chaque race",
+ "icon": "🐶",
+ "symbols": ["🐶","🐕","🦮","🐩","🐾","🦴","🌍","🗺","✨","🐕‍🦺","🌐","⭐","🏡","🧭","🎾","🌎"],
+ "description": "🐶 Quiz chiens : de quel pays vient chaque race ? Chihuahua, Shiba… La dernière piège presque tout le monde. Ton score ? 👇 #quiz #culturegenerale #chiens #monde #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Quelle race t'a piégé ? Dis-le en commentaire, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz chiens ! Le chihuahua, le plus petit chien du monde, vient de quel pays ?", "qd": "Le chihuahua ?", "a": [["","Espagne"],["","Mexique"],["","Brésil"],["","Argentine"]], "ok": 1, "say": "Le Mexique !", "level": 0},
+  {"q": "Le saint-bernard, le chien sauveteur des montagnes, vient de quel pays ?", "qd": "Le saint-bernard ?", "a": [["","Autriche"],["","Italie"],["","France"],["","Suisse"]], "ok": 3, "say": "La Suisse !", "level": 0},
+  {"q": "Le berger allemand vient de quel pays ?", "qd": "Le berger allemand ?", "a": [["","Allemagne"],["","Autriche"],["","Pologne"],["","Belgique"]], "ok": 0, "say": "L'Allemagne, bien sûr !", "level": 0},
+  {"q": "Le shiba inu, le petit chien roux devenu star d'Internet, vient de quel pays ?", "qd": "Le shiba inu ?", "a": [["","Chine"],["","Corée du Sud"],["","Japon"],["","Thaïlande"]], "ok": 2, "say": "Le Japon !", "level": 1},
+  {"q": "Le yorkshire terrier vient de quel pays ?", "qd": "Le yorkshire terrier ?", "a": [["","États-Unis"],["","Royaume-Uni"],["","Irlande"],["","Canada"]], "ok": 1, "say": "Le Royaume-Uni, en Angleterre !", "level": 1},
+  {"q": "Le shar-pei, le chien couvert de plis, vient de quel pays ?", "qd": "Le shar-pei ?", "a": [["","Japon"],["","Mongolie"],["","Inde"],["","Chine"]], "ok": 3, "say": "La Chine !", "level": 1},
+  {"q": "Le terre-neuve, le grand chien nageur, vient de quel pays ?", "qd": "Le terre-neuve ?", "a": [["","Canada"],["","Norvège"],["","Islande"],["","Écosse"]], "ok": 0, "say": "Le Canada !", "level": 2},
+  {"q": "Le dalmatien, le chien à taches noires, vient de quel pays ?", "qd": "Le dalmatien ?", "a": [["","Italie"],["","Grèce"],["","Croatie"],["","Royaume-Uni"]], "ok": 2, "say": "La Croatie, de la région de Dalmatie !", "level": 3}
+ ],
+ "bonus": {"q": "Et le berger malinois, le chien des policiers, vient de quel pays ?", "qd": "De quel pays vient le berger malinois ?"},
+ "accroche": "9 sur 10 ratent le dernier chien",
+ "accroche_dite": "Neuf personnes sur dix ratent le dernier chien !",
+ "accroche_pill": "SPÉCIAL MONDE"
+}
