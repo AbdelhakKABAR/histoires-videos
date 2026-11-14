@@ -1,0 +1,17 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["2", "3", "5", "7", "11", "13"],
+ "options": ["15", "19", "17", "14"],
+ "ok": 2,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "7 personnes sur 10 répondent 15",
+ "accroche_dite": "Sept personnes sur dix répondent quinze à cette suite logique. Et toi ?",
+ "question_dite": "Deux, trois, cinq, sept, onze, treize… Quel nombre vient ensuite ?",
+ "explication": "Ce sont les nombres premiers (divisibles seulement par 1 et par eux-mêmes) : après 13 vient 17.",
+ "explication_dite": "Dix-sept ! Ce sont les nombres premiers, divisibles seulement par un et par eux-mêmes. Quinze se divise par trois, donc après treize, c'est dix-sept.",
+ "fin": "Tu avais répondu quinze ? Avoue-le en commentaire, et abonne-toi !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔢 Suite logique : 2, 3, 5, 7, 11, 13… quel nombre ensuite ? Tu trouves avant la fin du chrono ? 👇 #suitelogique #testculturegenerale #maths #enigme #publiostudio"
+}

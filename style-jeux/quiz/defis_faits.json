@@ -58,6 +58,7 @@
   "1, 8, 27, 64, 125 → 216 (cubes : 1³, 2³, 3³…)",
   "2, 6, 18, 54, 162 → 486 (on multiplie par 3)",
   "A, C, F, J, O → U (on avance de 2, 3, 4, 5, 6 lettres)",
-  "100, 81, 64, 49, 36 → 25 (carrés à rebours : 10², 9², 8²…)"
+  "100, 81, 64, 49, 36 → 25 (carrés à rebours : 10², 9², 8²…)",
+  "2, 3, 5, 7, 11, 13 → 17 (nombres premiers)"
  ]
 }
