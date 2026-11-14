@@ -4,7 +4,7 @@
  "banner": "Quiz France : pays voisins",
  "icon": "🧭",
  "symbols": ["🧭","🗺","🇫🇷","🏔","🌉","🚆","📍","⛰","🌍","✨","🛣","🏞","⭐","🗼","🚗","🌐"],
- "description": "🧭 Quiz France : de quel pays chaque ville est-elle voisine ? Strasbourg, Annemasse, Sarreguemines… Ton score sur 8 ? 👇 #quiz #culturegenerale #geographie #france #publiostudio",
+ "description": "🧭 Quiz France : de quel pays chaque ville est-elle voisine ? Strasbourg, Annemasse, Sarreguemines… Ton score sur 4 ? 👇 #quiz #culturegenerale #geographie #france #publiostudio",
  "wait": 5,
  "skip_first_level": true,
  "levels": ["facile","normal","difficile","impossible"],
