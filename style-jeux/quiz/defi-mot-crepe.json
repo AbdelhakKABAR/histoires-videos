@@ -1,0 +1,22 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "mot": "CRÊPE",
+ "categorie": "Une spécialité française",
+ "categorie_dite": "Mot mystère. Catégorie : une spécialité française.",
+ "accroche": "1 % trouvent avec 1 indice",
+ "accroche_pill": "MOT MYSTÈRE",
+ "accroche_dite": "Mot mystère : seulement un pour cent des gens le trouvent avec un seul indice !",
+ "indices": [
+  "Elle se mange salée ou sucrée.",
+  "La Bretagne en a fait sa grande spécialité.",
+  "Sa pâte mêle farine, œufs et lait.",
+  "On la fait sauter dans la poêle.",
+  "On la mange surtout à la Chandeleur."
+ ],
+ "lettres_donnees": 1,
+ "dire": "Crêpe",
+ "explication": "La crêpe, spécialité bretonne qu'on fait sauter à la Chandeleur.",
+ "description": "🥞 Mot mystère : une spécialité française en 5 indices. Tu l'as trouvée au combien ? Dis-le en commentaire 👇 #motmystere #quizz #cuisine #france #publiostudio"
+}
