@@ -1,0 +1,17 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["1", "2", "4", "7", "11", "16"],
+ "options": ["21", "32", "22", "23"],
+ "ok": 2,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "7 personnes sur 10 répondent 21",
+ "accroche_dite": "Sept personnes sur dix se trompent sur cette suite logique. Et toi ?",
+ "question_dite": "Un, deux, quatre, sept, onze, seize… Quel nombre vient ensuite ?",
+ "explication": "On ajoute 1, puis 2, puis 3, puis 4, puis 5… donc 16 + 6 = 22.",
+ "explication_dite": "Vingt-deux ! On ajoute un, puis deux, puis trois, puis quatre, puis cinq… et donc seize plus six, vingt-deux.",
+ "fin": "Tu avais dit vingt et un ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔢 Suite logique : 1, 2, 4, 7, 11, 16… quel nombre ensuite ? Tu trouves avant la fin du chrono ? 👇 #suitelogique #quizz #maths #enigme #publiostudio"
+}
