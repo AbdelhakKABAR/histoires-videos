@@ -1,0 +1,26 @@
+{
+ "title": "Le pays de chaque désert",
+ "subject": "Géographie",
+ "banner": "Quiz : les déserts",
+ "icon": "🏜",
+ "symbols": ["🏜","🐪","🌵","☀️","🌍","🦂","⭐","🌙","🏝","🧭","🌐","✨","🦎","🌄","🗺","🌎"],
+ "description": "🏜 Quiz culture générale : dans quel pays est chaque désert ? Vallée de la Mort, salar d'Uyuni… Ton score ? Et la question bonus ? 👇 #quiz #testculturegenerale #geographie #monde #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire quel désert t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz désert ! La vallée de la Mort, l'un des endroits les plus chauds du monde, est dans quel pays ?", "qd": "La vallée de la Mort ?", "a": [["","Mexique"],["","États-Unis"],["","Australie"],["","Égypte"]], "ok": 1, "say": "Les États-Unis, en Californie !", "level": 0},
+  {"q": "Le désert du Wadi Rum, aux roches rouges, est dans quel pays ?", "qd": "Le Wadi Rum ?", "a": [["","Jordanie"],["","Égypte"],["","Maroc"],["","Tunisie"]], "ok": 0, "say": "La Jordanie !", "level": 0},
+  {"q": "Le désert d'Atacama, le plus sec du monde hors pôles, est dans quel pays ?", "qd": "Le désert d'Atacama ?", "a": [["","Mexique"],["","Brésil"],["","Chili"],["","Colombie"]], "ok": 2, "say": "Le Chili !", "level": 0},
+  {"q": "Le salar d'Uyuni, le plus grand désert de sel du monde, est dans quel pays ?", "qd": "Le salar d'Uyuni ?", "a": [["","Chili"],["","Pérou"],["","Argentine"],["","Bolivie"]], "ok": 3, "say": "La Bolivie !", "level": 1},
+  {"q": "Les grandes dunes de l'erg Chebbi, près de Merzouga, sont dans quel pays ?", "qd": "L'erg Chebbi ?", "a": [["","Algérie"],["","Maroc"],["","Tunisie"],["","Mauritanie"]], "ok": 1, "say": "Le Maroc !", "level": 1},
+  {"q": "Le Désert Blanc, aux rochers de craie, est dans quel pays ?", "qd": "Le Désert Blanc ?", "a": [["","Égypte"],["","Libye"],["","Soudan"],["","Tchad"]], "ok": 0, "say": "L'Égypte !", "level": 1},
+  {"q": "Les Lençóis Maranhenses, dunes blanches et lagons bleus, sont dans quel pays ?", "qd": "Les Lençóis Maranhenses ?", "a": [["","Argentine"],["","Mexique"],["","Brésil"],["","Pérou"]], "ok": 2, "say": "Le Brésil !", "level": 2},
+  {"q": "Le désert de Tabernas, où l'on a tourné des westerns spaghetti, est dans quel pays ?", "qd": "Le désert de Tabernas ?", "a": [["","Italie"],["","Portugal"],["","Grèce"],["","Espagne"]], "ok": 3, "say": "L'Espagne, en Andalousie !", "level": 3}
+ ],
+ "bonus": {"q": "Dans quel pays se trouve le désert du Taklamakan ?", "qd": "Dans quel pays est le désert du Taklamakan ?"},
+ "accroche": "9 sur 10 ratent le dernier désert",
+ "accroche_dite": "Neuf personnes sur dix ratent le dernier désert !",
+ "accroche_pill": "SPÉCIAL MONDE"
+}
