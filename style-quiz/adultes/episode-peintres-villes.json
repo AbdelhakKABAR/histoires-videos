@@ -30,10 +30,10 @@
   "difficile",
   "impossible"
  ],
- "outro": "Écris ton score en commentaire, et abonne-toi !",
+ "outro": "Ton score en commentaire !",
  "questions": [
   {
-   "q": "Quiz France, les peintres ! Monet a peint ses célèbres Nymphéas dans son jardin de quel village ?",
+   "q": "Quiz France, les peintres ! Où Monet a-t-il peint ses Nymphéas ?",
    "qd": "Les Nymphéas de Monet : où ?",
    "a": [
     [
@@ -54,11 +54,11 @@
     ]
    ],
    "ok": 0,
-   "say": "Giverny, en Normandie !",
+   "say": "Giverny !",
    "level": 0
   },
   {
-   "q": "Van Gogh a peint ses Tournesols et sa célèbre chambre dans quelle ville du Sud ?",
+   "q": "Où Van Gogh a-t-il peint ses Tournesols ?",
    "qd": "Les Tournesols de Van Gogh : où ?",
    "a": [
     [
@@ -83,7 +83,7 @@
    "level": 0
   },
   {
-   "q": "Cézanne a peint des dizaines de fois la montagne Sainte-Victoire, près de quelle ville ?",
+   "q": "La montagne Sainte-Victoire de Cézanne est près de quelle ville ?",
    "qd": "La Sainte-Victoire de Cézanne ?",
    "a": [
     [
@@ -104,12 +104,12 @@
     ]
    ],
    "ok": 2,
-   "say": "Aix-en-Provence, sa ville natale !",
+   "say": "Aix-en-Provence !",
    "level": 0
   },
   {
-   "q": "Le musée Toulouse-Lautrec se trouve dans la ville natale du peintre. Laquelle ?",
-   "qd": "Le musée Toulouse-Lautrec ?",
+   "q": "Dans quelle ville est né Toulouse-Lautrec ?",
+   "qd": "La ville natale de Toulouse-Lautrec ?",
    "a": [
     [
      "",
@@ -129,11 +129,11 @@
     ]
    ],
    "ok": 3,
-   "say": "Albi, et pas Toulouse !",
+   "say": "Albi !",
    "level": 1
   },
   {
-   "q": "L'école de peinture de Gauguin, en Bretagne, porte le nom de quel village ?",
+   "q": "Quel village breton a donné son nom à l'école de Gauguin ?",
    "qd": "L'école de Gauguin en Bretagne ?",
    "a": [
     [
@@ -158,7 +158,7 @@
    "level": 1
   },
   {
-   "q": "Van Gogh est mort en 1890 dans quel village près de Paris ?",
+   "q": "Dans quel village Van Gogh est-il mort ?",
    "qd": "Le dernier village de Van Gogh ?",
    "a": [
     [
@@ -183,7 +183,7 @@
    "level": 1
   },
   {
-   "q": "Henri Matisse est mort en 1954 dans quelle ville de la Côte d'Azur ?",
+   "q": "Dans quelle ville Matisse est-il mort ?",
    "qd": "La ville où meurt Matisse ?",
    "a": [
     [
@@ -208,8 +208,8 @@
    "level": 2
   },
   {
-   "q": "Le musée Soulages, consacré au peintre du noir, est dans sa ville natale. Laquelle ?",
-   "qd": "Le musée Soulages ?",
+   "q": "Dans quelle ville est né Pierre Soulages, le peintre du noir ?",
+   "qd": "La ville natale de Soulages ?",
    "a": [
     [
      "",
@@ -229,12 +229,12 @@
     ]
    ],
    "ok": 3,
-   "say": "Rodez, dans l'Aveyron !",
+   "say": "Rodez !",
    "level": 3
   }
  ],
  "bonus": {
-  "q": "Monet a peint « Impression, soleil levant » dans le port de quelle ville normande ?",
+  "q": "Dans quel port Monet a-t-il peint « Impression, soleil levant » ?",
   "qd": "Impression, soleil levant : quelle ville ?"
  },
  "accroche": "Seul 1 Français sur 10 a tout bon",
