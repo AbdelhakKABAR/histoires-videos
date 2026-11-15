@@ -1,0 +1,29 @@
+{
+ "title": "Quiz lettre S",
+ "subject": "Lettre S",
+ "banner": "Quiz lettre S",
+ "mode": "lettre",
+ "letter": "S",
+ "icon": "🧠",
+ "symbols": ["S","A","B","C","?","!","★","✦","S","Z","M","?","●","◆","S","✧"],
+ "description": "🔤 Quiz lettre S : tout commence par S ! Du Soleil à la Suisse, mais l'auteur de la fin piège presque tout le monde. Ton score ? 👇 #quizlettre #apprendresurtiktok #geographie #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quelle étoile nous éclaire et nous chauffe le jour ?", "qd": "Étoile qui nous éclaire le jour ?", "answer": "Soleil", "say": "Le Soleil !", "level": 0},
+  {"q": "Quel reptile sans pattes avance en rampant ?", "qd": "Reptile sans pattes qui rampe ?", "answer": "Serpent", "say": "Le serpent !", "level": 0},
+  {"q": "Quel arbre décore-t-on à Noël ?", "qd": "Arbre qu'on décore à Noël ?", "answer": "Sapin", "say": "Le sapin !", "level": 0},
+  {"q": "Quel pays est célèbre pour ses montres, son chocolat et a pour capitale Berne ?", "qd": "Pays des montres, capitale Berne ?", "answer": "Suisse", "say": "La Suisse !", "level": 1},
+  {"q": "Quel fleuve traverse Paris ?", "qd": "Fleuve qui traverse Paris ?", "answer": "Seine", "say": "La Seine !", "level": 1},
+  {"q": "Quelle ville d'Alsace accueille le Parlement européen ?", "qd": "Ville alsacienne du Parlement européen ?", "answer": "Strasbourg", "say": "Strasbourg !", "level": 1},
+  {"q": "Dans quelle ville d'Australie se trouve le célèbre opéra aux voiles blanches ?", "qd": "Ville australienne du célèbre opéra ?", "answer": "Sydney", "say": "Sydney !", "level": 2},
+  {"q": "Quel écrivain anglais a écrit Roméo et Juliette ?", "qd": "Auteur anglais de Roméo et Juliette ?", "answer": "Shakespeare", "say": "William Shakespeare !", "level": 3}
+ ],
+ "intro": "Toutes les réponses commencent par la lettre S !",
+ "intro_speed": 0.9,
+ "accroche": "La dernière piège 80 % des gens",
+ "accroche_dite": "La dernière question piège quatre-vingts pour cent des gens !",
+ "accroche_pill": "QUIZ LETTRE S"
+}

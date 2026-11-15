@@ -270,6 +270,21 @@
     "Reims",
     "Rembrandt"
    ]
+  },
+  {
+   "lettre": "S",
+   "date": "2026-11-15",
+   "fichier": "episode-lettre-s-2026-11-15-20.json",
+   "reponses": [
+    "Soleil",
+    "Serpent",
+    "Sapin",
+    "Suisse",
+    "Seine",
+    "Strasbourg",
+    "Sydney",
+    "Shakespeare"
+   ]
   }
  ]
 }
