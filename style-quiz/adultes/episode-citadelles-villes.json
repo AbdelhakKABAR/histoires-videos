@@ -1,0 +1,26 @@
+{
+ "title": "La ville de chaque citadelle et rempart",
+ "subject": "Patrimoine",
+ "banner": "Quiz France : citadelles",
+ "icon": "🏰",
+ "symbols": ["🏰","🛡","⚔","🇫🇷","🧱","🗼","✨","🏯","⭐","🗺","🚩","🔭","⛰","✦","🏳","🧭"],
+ "description": "🏰 Quiz France : la ville de chaque citadelle et rempart ! Carcassonne, Besançon… Tu as eu combien ? Et la question bonus ? 👇 #quiz #culturegenerale #histoire #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz France ! La Cité médiévale et ses doubles remparts sont dans quelle ville ?", "qd": "La Cité aux doubles remparts ?", "a": [["","Albi"],["","Carcassonne"],["","Perpignan"],["","Nîmes"]], "ok": 1, "say": "Carcassonne, dans l'Aude !", "level": 0},
+  {"q": "Les remparts de la cité corsaire bretonne entourent quelle ville ?", "qd": "Les remparts de la cité corsaire ?", "a": [["","Brest"],["","Lorient"],["","Vannes"],["","Saint-Malo"]], "ok": 3, "say": "Saint-Malo !", "level": 0},
+  {"q": "Le palais des Papes et ses remparts se trouvent dans quelle ville ?", "qd": "Le palais des Papes ?", "a": [["","Avignon"],["","Arles"],["","Orange"],["","Nîmes"]], "ok": 0, "say": "Avignon !", "level": 0},
+  {"q": "La citadelle de Vauban qui domine le Doubs est dans quelle ville ?", "qd": "La citadelle au-dessus du Doubs ?", "a": [["","Dijon"],["","Belfort"],["","Besançon"],["","Metz"]], "ok": 2, "say": "Besançon !", "level": 1},
+  {"q": "Le Lion de Bartholdi, sculpté au pied de la citadelle, est dans quelle ville ?", "qd": "Le Lion de Bartholdi ?", "a": [["","Belfort"],["","Mulhouse"],["","Nancy"],["","Colmar"]], "ok": 0, "say": "Belfort !", "level": 1},
+  {"q": "La Ville close, entourée de remparts au milieu du port, est dans quelle ville bretonne ?", "qd": "La Ville close bretonne ?", "a": [["","Quimper"],["","Concarneau"],["","Douarnenez"],["","Morlaix"]], "ok": 1, "say": "Concarneau !", "level": 1},
+  {"q": "La tour de Constance et les remparts de Saint Louis, en Camargue, sont dans quelle ville ?", "qd": "La tour de Constance ?", "a": [["","Sète"],["","Arles"],["","Aigues-Mortes"],["","Montpellier"]], "ok": 2, "say": "Aigues-Mortes, dans le Gard !", "level": 2},
+  {"q": "Quelle ville d'Alsace, fortifiée par Vauban, a la forme d'un octogone parfait ?", "qd": "L'octogone de Vauban en Alsace ?", "a": [["","Sélestat"],["","Haguenau"],["","Wissembourg"],["","Neuf-Brisach"]], "ok": 3, "say": "Neuf-Brisach !", "level": 3}
+ ],
+ "bonus": {"q": "Quel architecte de Louis XIV a fortifié des dizaines de villes de France ?", "qd": "Quel architecte de Louis XIV a fortifié la France ?"},
+ "accroche": "La dernière citadelle piège 90 %",
+ "accroche_dite": "La dernière citadelle piège quatre-vingt-dix pour cent des gens !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
