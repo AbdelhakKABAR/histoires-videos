@@ -1,0 +1,26 @@
+{
+ "title": "La ville de chaque événement historique",
+ "subject": "Histoire de France",
+ "banner": "Quiz France : l'histoire",
+ "icon": "📜",
+ "symbols": ["📜","🏰","⚔","👑","🇫🇷","🛡","🕊","⛪","🗡","🏛","🔥","📯","🎖","⚜","🗺","✦"],
+ "description": "📜 Quiz France : dans quelle ville a eu lieu chaque événement historique ? La Bastille, la croisade… Ton score ? Et la question bonus ? 👇 #quiz #apprendresurtiktok #histoire #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz histoire de France ! La prise de la Bastille, en 1789, a eu lieu dans quelle ville ?", "qd": "La prise de la Bastille ?", "a": [["","Lyon"],["","Paris"],["","Versailles"],["","Marseille"]], "ok": 1, "say": "Paris, le 14 juillet 1789 !", "level": 0},
+  {"q": "En 1429, Jeanne d'Arc libère quelle ville assiégée par les Anglais ?", "qd": "La ville libérée par Jeanne d'Arc ?", "a": [["","Orléans"],["","Rouen"],["","Bordeaux"],["","Calais"]], "ok": 0, "say": "Orléans !", "level": 0},
+  {"q": "La plus célèbre bataille de 1916 porte le nom de quelle ville ?", "qd": "La grande bataille de 1916 ?", "a": [["","Reims"],["","Lille"],["","Nancy"],["","Verdun"]], "ok": 3, "say": "Verdun !", "level": 0},
+  {"q": "Dans quelle ville les rois de France étaient-ils sacrés ?", "qd": "Le sacre des rois de France ?", "a": [["","Chartres"],["","Paris"],["","Reims"],["","Orléans"]], "ok": 2, "say": "Reims, dans sa cathédrale !", "level": 1},
+  {"q": "En 1431, Jeanne d'Arc meurt sur le bûcher dans quelle ville ?", "qd": "Le bûcher de Jeanne d'Arc ?", "a": [["","Rouen"],["","Paris"],["","Orléans"],["","Caen"]], "ok": 0, "say": "Rouen !", "level": 1},
+  {"q": "L'édit signé par Henri IV en 1598 porte le nom de quelle ville ?", "qd": "L'édit d'Henri IV en 1598 ?", "a": [["","Pau"],["","Nantes"],["","Tours"],["","Blois"]], "ok": 1, "say": "Nantes, l'édit de Nantes !", "level": 1},
+  {"q": "L'armistice du 11 novembre 1918 est signé dans une forêt près de quelle ville ?", "qd": "L'armistice de 1918 ?", "a": [["","Verdun"],["","Fontainebleau"],["","Compiègne"],["","Sedan"]], "ok": 2, "say": "Compiègne, à Rethondes !", "level": 2},
+  {"q": "En 1095, le pape Urbain II appelle à la première croisade dans quelle ville ?", "qd": "L'appel à la 1re croisade ?", "a": [["","Avignon"],["","Vézelay"],["","Lyon"],["","Clermont"]], "ok": 3, "say": "Clermont, aujourd'hui Clermont-Ferrand !", "level": 3}
+ ],
+ "bonus": {"q": "Dans quelle ville le général de Gaulle a-t-il lancé son appel du 18 juin 1940 ?", "qd": "D'où vient l'appel du 18 juin 1940 ?"},
+ "accroche": "La croisade piège 80 % des gens",
+ "accroche_dite": "Quatre-vingts pour cent des gens se trompent sur la dernière question !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
