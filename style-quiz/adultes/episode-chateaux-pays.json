@@ -1,0 +1,26 @@
+{
+ "title": "Le pays de chaque château",
+ "subject": "Châteaux du monde",
+ "banner": "Quiz : les châteaux du monde",
+ "icon": "🏰",
+ "symbols": ["🏰","🏯","👑","🌍","✨","🛡","⚔","🗝","⭐","🌐","🐉","🧭","🌎","✦","🏴","🗺"],
+ "description": "🏰 Quiz culture générale : dans quel pays est chaque château ? Neuschwanstein, Himeji… Ton score ? Et la question bonus ? 👇 #quiz #testculturegenerale #chateaux #monde #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire quel château t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz châteaux du monde ! Le château de Neuschwanstein, qui a inspiré Disney, est dans quel pays ?", "qd": "Le château de Neuschwanstein ?", "a": [["","Autriche"],["","Allemagne"],["","Suisse"],["","Hongrie"]], "ok": 1, "say": "L'Allemagne, en Bavière !", "level": 0},
+  {"q": "Le château de Bran, surnommé le château de Dracula, est dans quel pays ?", "qd": "Le château de Dracula, Bran ?", "a": [["","Hongrie"],["","Bulgarie"],["","Serbie"],["","Roumanie"]], "ok": 3, "say": "La Roumanie, en Transylvanie !", "level": 0},
+  {"q": "Le château d'Édimbourg, perché sur un ancien volcan, est dans quel pays ?", "qd": "Le château d'Édimbourg ?", "a": [["","Royaume-Uni"],["","Irlande"],["","Canada"],["","Norvège"]], "ok": 0, "say": "Le Royaume-Uni, en Écosse !", "level": 0},
+  {"q": "Le château de Himeji, surnommé le Héron blanc, est dans quel pays ?", "qd": "Le château de Himeji ?", "a": [["","Chine"],["","Corée du Sud"],["","Japon"],["","Vietnam"]], "ok": 2, "say": "Le Japon !", "level": 1},
+  {"q": "Le château de Prague, qui domine la Vltava, est dans quel pays ?", "qd": "Le château de Prague ?", "a": [["","Tchéquie"],["","Pologne"],["","Slovaquie"],["","Autriche"]], "ok": 0, "say": "La Tchéquie !", "level": 1},
+  {"q": "Le château de Kronborg, le château d'Hamlet de Shakespeare, est dans quel pays ?", "qd": "Kronborg, le château d'Hamlet ?", "a": [["","Suède"],["","Norvège"],["","Danemark"],["","Royaume-Uni"]], "ok": 2, "say": "Le Danemark !", "level": 1},
+  {"q": "Le château de Malbork, immense forteresse en briques des chevaliers Teutoniques, est dans quel pays ?", "qd": "Le château de Malbork ?", "a": [["","Allemagne"],["","Pologne"],["","Lituanie"],["","Lettonie"]], "ok": 1, "say": "La Pologne !", "level": 2},
+  {"q": "Le château de Chillon, posé au bord du lac Léman, est dans quel pays ?", "qd": "Le château de Chillon ?", "a": [["","France"],["","Italie"],["","Autriche"],["","Suisse"]], "ok": 3, "say": "La Suisse, près de Montreux !", "level": 3}
+ ],
+ "bonus": {"q": "Le célèbre château Frontenac, à Québec, est dans quel pays ?", "qd": "Dans quel pays est le château Frontenac ?"},
+ "accroche": "80 % ratent le dernier château",
+ "accroche_dite": "Quatre-vingts pour cent des gens ratent le dernier château !",
+ "accroche_pill": "TOUR DU MONDE"
+}
