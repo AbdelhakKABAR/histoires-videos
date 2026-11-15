@@ -1,0 +1,26 @@
+{
+ "title": "La ville de chaque palais",
+ "subject": "Patrimoine",
+ "banner": "Quiz France : les palais",
+ "icon": "🏛",
+ "symbols": ["🏛","👑","🏰","⚜","✨","🗝","🖼","⭐","🕯","🎭","🌿","✦","🏯","🔔","🗺","💎"],
+ "description": "🏛 Quiz France : dans quelle ville est chaque palais ? Palais des Papes, palais des ducs de Bourgogne… Ton score ? Et la question bonus ? 👇 #quiz #culturegenerale #patrimoine #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire quel palais t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz palais ! Le célèbre palais des Papes se trouve dans quelle ville ?", "qd": "Le palais des Papes ?", "a": [["","Nîmes"],["","Avignon"],["","Arles"],["","Orange"]], "ok": 1, "say": "Avignon !", "level": 0},
+  {"q": "Le palais des Festivals, où l'on monte les marches du Festival de cinéma, est dans quelle ville ?", "qd": "Le palais des Festivals ?", "a": [["","Nice"],["","Antibes"],["","Saint-Tropez"],["","Cannes"]], "ok": 3, "say": "Cannes !", "level": 0},
+  {"q": "Le palais Garnier, le célèbre opéra, se trouve dans quelle ville ?", "qd": "Le palais Garnier ?", "a": [["","Paris"],["","Lyon"],["","Bordeaux"],["","Marseille"]], "ok": 0, "say": "Paris !", "level": 0},
+  {"q": "Le palais des ducs et des États de Bourgogne se trouve dans quelle ville ?", "qd": "Le palais des ducs de Bourgogne ?", "a": [["","Beaune"],["","Auxerre"],["","Dijon"],["","Mâcon"]], "ok": 2, "say": "Dijon !", "level": 1},
+  {"q": "Le palais Longchamp et sa grande fontaine se trouvent dans quelle ville ?", "qd": "Le palais Longchamp ?", "a": [["","Marseille"],["","Toulon"],["","Montpellier"],["","Nice"]], "ok": 0, "say": "Marseille !", "level": 1},
+  {"q": "Le palais de l'Isle, l'ancienne prison au milieu du canal, est dans quelle ville ?", "qd": "Le palais de l'Isle ?", "a": [["","Chambéry"],["","Annecy"],["","Grenoble"],["","Colmar"]], "ok": 1, "say": "Annecy !", "level": 1},
+  {"q": "Le palais des rois de Majorque se trouve dans quelle ville française ?", "qd": "Le palais des rois de Majorque ?", "a": [["","Montpellier"],["","Narbonne"],["","Carcassonne"],["","Perpignan"]], "ok": 3, "say": "Perpignan !", "level": 2},
+  {"q": "Le palais de la Berbie, qui abrite le musée Toulouse-Lautrec, est dans quelle ville ?", "qd": "Le palais de la Berbie ?", "a": [["","Toulouse"],["","Rodez"],["","Albi"],["","Montauban"]], "ok": 2, "say": "Albi !", "level": 3}
+ ],
+ "bonus": {"q": "Dans quelle ville se trouve le palais du Tau, à côté de la cathédrale des sacres des rois ?", "qd": "Dans quelle ville est le palais du Tau ?"},
+ "accroche": "Seul 1 Français sur 20 trouve tout",
+ "accroche_dite": "Seul un Français sur vingt trouve tout !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
