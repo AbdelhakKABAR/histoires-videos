@@ -255,6 +255,21 @@
     "Olympe",
     "Ottawa"
    ]
+  },
+  {
+   "lettre": "R",
+   "date": "2026-11-15",
+   "fichier": "episode-lettre-r-2026-11-15-12.json",
+   "reponses": [
+    "Rose",
+    "Rat",
+    "Renne",
+    "Rome",
+    "Russie",
+    "Rhône",
+    "Reims",
+    "Rembrandt"
+   ]
   }
  ]
 }

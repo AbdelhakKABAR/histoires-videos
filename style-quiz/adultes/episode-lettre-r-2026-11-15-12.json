@@ -1,0 +1,29 @@
+{
+ "title": "Quiz lettre R",
+ "subject": "Lettre R",
+ "banner": "Quiz lettre R",
+ "mode": "lettre",
+ "letter": "R",
+ "icon": "🧠",
+ "symbols": ["R","A","B","C","?","!","★","✦","R","Z","M","?","●","◆","R","✧"],
+ "description": "🔤 Quiz lettre R : tout commence par R ! De la rose à Rome, mais le peintre de la fin piège presque tout le monde. Ton score ? 👇 #quizlettre #testculturegenerale #geographie #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Écris ton score en commentaire, et abonne-toi !",
+ "questions": [
+  {"q": "Quelle fleur a des épines et symbolise l'amour ?", "qd": "Fleur à épines, symbole de l'amour ?", "answer": "Rose", "say": "La rose !", "level": 0},
+  {"q": "Quel rongeur à longue queue vit souvent dans les égouts ?", "qd": "Rongeur à longue queue des égouts ?", "answer": "Rat", "say": "Le rat !", "level": 0},
+  {"q": "Quel animal tire le traîneau du Père Noël ?", "qd": "Animal qui tire le traîneau du Père Noël ?", "answer": "Renne", "say": "Le renne !", "level": 0},
+  {"q": "Quelle est la capitale de l'Italie ?", "qd": "Capitale de l'Italie ?", "answer": "Rome", "say": "Rome !", "level": 1},
+  {"q": "Quel pays a pour capitale Moscou ?", "qd": "Pays dont la capitale est Moscou ?", "answer": "Russie", "say": "La Russie !", "level": 1},
+  {"q": "Quel fleuve traverse Lyon avec la Saône ?", "qd": "Fleuve qui traverse Lyon avec la Saône ?", "answer": "Rhône", "say": "Le Rhône !", "level": 1},
+  {"q": "Dans quelle ville les rois de France étaient-ils sacrés ?", "qd": "Ville du sacre des rois de France ?", "answer": "Reims", "say": "Reims, et sa cathédrale !", "level": 2},
+  {"q": "Quel peintre néerlandais a peint La Ronde de nuit ?", "qd": "Peintre néerlandais de La Ronde de nuit ?", "answer": "Rembrandt", "say": "Rembrandt !", "level": 3}
+ ],
+ "intro": "Toutes les réponses commencent par la lettre R !",
+ "intro_speed": 0.9,
+ "accroche": "Seul 1 sur 5 trouve la dernière",
+ "accroche_dite": "Seulement une personne sur cinq trouve la dernière !",
+ "accroche_pill": "QUIZ LETTRE R"
+}
