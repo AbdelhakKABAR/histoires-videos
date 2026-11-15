@@ -1,0 +1,22 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "mot": "FONDUE",
+ "categorie": "Un plat célèbre",
+ "categorie_dite": "Mot mystère. Catégorie : un plat célèbre.",
+ "accroche": "Seulement 1 % trouvent avec 1 indice",
+ "accroche_pill": "MOT MYSTÈRE",
+ "accroche_dite": "Mot mystère : seulement un pour cent des gens le trouvent avec un seul indice !",
+ "indices": [
+  "C'est un plat qu'on partage à plusieurs.",
+  "On la mange surtout en hiver, à la montagne.",
+  "On la mange avec de longues fourchettes.",
+  "Elle est célèbre en Savoie et en Suisse.",
+  "On y trempe du pain dans du fromage fondu."
+ ],
+ "lettres_donnees": 1,
+ "dire": "Fondue",
+ "explication": "La fondue, où l'on trempe du pain dans du fromage fondu.",
+ "description": "🧀 Mot mystère : un plat célèbre en 5 indices. Tu l'as trouvé au combien ? Dis-le en commentaire 👇 #motmystere #culturegenerale #cuisine #publiostudio"
+}
