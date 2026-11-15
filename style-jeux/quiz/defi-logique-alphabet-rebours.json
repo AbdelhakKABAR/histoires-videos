@@ -1,0 +1,17 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["Z", "X", "V", "T", "R"],
+ "options": ["Q", "O", "S", "P"],
+ "ok": 3,
+ "consigne": "Quelle lettre vient ensuite ?",
+ "accroche": "6 personnes sur 10 répondent Q",
+ "accroche_dite": "Six personnes sur dix se trompent sur cette suite logique de lettres. Et toi ?",
+ "question_dite": "Z, X, V, T, R… Quelle lettre vient ensuite ?",
+ "explication": "On recule de 2 lettres dans l'alphabet à chaque fois : Z, X, V, T, R → P.",
+ "explication_dite": "P ! On recule de deux lettres dans l'alphabet à chaque fois : Z, X, V, T, R, et donc P.",
+ "fin": "Tu avais dit Q ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔠 Suite logique de lettres : Z, X, V, T, R… quelle lettre ensuite ? Tu trouves avant la fin du chrono ? 👇 #suitelogique #testculturegenerale #alphabet #enigme #publiostudio"
+}
