@@ -1,0 +1,22 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "mot": "GIRAFE",
+ "categorie": "Un animal célèbre",
+ "categorie_dite": "Mot mystère. Catégorie : un animal célèbre.",
+ "accroche": "Un génie trouve avec 1 indice",
+ "accroche_pill": "MOT MYSTÈRE",
+ "accroche_dite": "Mot mystère : un vrai génie trouve ce mot avec un seul indice !",
+ "indices": [
+  "C'est un animal sauvage d'Afrique.",
+  "Sa langue bleu foncé mesure environ 50 cm.",
+  "Elle a seulement 7 vertèbres dans le cou.",
+  "C'est l'animal le plus haut du monde.",
+  "Son cou immense atteint le haut des arbres."
+ ],
+ "lettres_donnees": 1,
+ "dire": "Girafe",
+ "explication": "La girafe, l'animal le plus haut du monde.",
+ "description": "🦒 Mot mystère : un animal célèbre en 5 indices. Tu l'as trouvé au combien ? Dis-le en commentaire 👇 #motmystere #culturegenerale #animaux #publiostudio"
+}
