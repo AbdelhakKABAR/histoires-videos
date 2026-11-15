@@ -1,0 +1,243 @@
+{
+ "title": "La ville de chaque grand peintre",
+ "subject": "Peintres en France",
+ "banner": "Quiz France : les peintres",
+ "icon": "🎨",
+ "symbols": [
+  "🎨",
+  "🖌",
+  "🖼",
+  "🇫🇷",
+  "🌻",
+  "🌸",
+  "🏛",
+  "✦",
+  "🎭",
+  "🌅",
+  "⛵",
+  "🏞",
+  "🌿",
+  "🗼",
+  "🖍",
+  "⚜"
+ ],
+ "description": "🎨 Quiz France : la ville de chaque grand peintre ! Monet, Toulouse-Lautrec… Tu as eu combien ? Et la question bonus ? 👇 #quiz #testculturegenerale #peinture #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Écris ton score en commentaire, et abonne-toi !",
+ "questions": [
+  {
+   "q": "Quiz France, les peintres ! Monet a peint ses célèbres Nymphéas dans son jardin de quel village ?",
+   "qd": "Les Nymphéas de Monet : où ?",
+   "a": [
+    [
+     "",
+     "Giverny"
+    ],
+    [
+     "",
+     "Barbizon"
+    ],
+    [
+     "",
+     "Étretat"
+    ],
+    [
+     "",
+     "Honfleur"
+    ]
+   ],
+   "ok": 0,
+   "say": "Giverny, en Normandie !",
+   "level": 0
+  },
+  {
+   "q": "Van Gogh a peint ses Tournesols et sa célèbre chambre dans quelle ville du Sud ?",
+   "qd": "Les Tournesols de Van Gogh : où ?",
+   "a": [
+    [
+     "",
+     "Nice"
+    ],
+    [
+     "",
+     "Arles"
+    ],
+    [
+     "",
+     "Marseille"
+    ],
+    [
+     "",
+     "Montpellier"
+    ]
+   ],
+   "ok": 1,
+   "say": "Arles !",
+   "level": 0
+  },
+  {
+   "q": "Cézanne a peint des dizaines de fois la montagne Sainte-Victoire, près de quelle ville ?",
+   "qd": "La Sainte-Victoire de Cézanne ?",
+   "a": [
+    [
+     "",
+     "Avignon"
+    ],
+    [
+     "",
+     "Toulon"
+    ],
+    [
+     "",
+     "Aix-en-Provence"
+    ],
+    [
+     "",
+     "Nîmes"
+    ]
+   ],
+   "ok": 2,
+   "say": "Aix-en-Provence, sa ville natale !",
+   "level": 0
+  },
+  {
+   "q": "Le musée Toulouse-Lautrec se trouve dans la ville natale du peintre. Laquelle ?",
+   "qd": "Le musée Toulouse-Lautrec ?",
+   "a": [
+    [
+     "",
+     "Toulouse"
+    ],
+    [
+     "",
+     "Rodez"
+    ],
+    [
+     "",
+     "Montauban"
+    ],
+    [
+     "",
+     "Albi"
+    ]
+   ],
+   "ok": 3,
+   "say": "Albi, et pas Toulouse !",
+   "level": 1
+  },
+  {
+   "q": "L'école de peinture de Gauguin, en Bretagne, porte le nom de quel village ?",
+   "qd": "L'école de Gauguin en Bretagne ?",
+   "a": [
+    [
+     "",
+     "Pont-Aven"
+    ],
+    [
+     "",
+     "Carnac"
+    ],
+    [
+     "",
+     "Locronan"
+    ],
+    [
+     "",
+     "Dinan"
+    ]
+   ],
+   "ok": 0,
+   "say": "Pont-Aven !",
+   "level": 1
+  },
+  {
+   "q": "Van Gogh est mort en 1890 dans quel village près de Paris ?",
+   "qd": "Le dernier village de Van Gogh ?",
+   "a": [
+    [
+     "",
+     "Barbizon"
+    ],
+    [
+     "",
+     "Auvers-sur-Oise"
+    ],
+    [
+     "",
+     "Giverny"
+    ],
+    [
+     "",
+     "Chatou"
+    ]
+   ],
+   "ok": 1,
+   "say": "Auvers-sur-Oise !",
+   "level": 1
+  },
+  {
+   "q": "Henri Matisse est mort en 1954 dans quelle ville de la Côte d'Azur ?",
+   "qd": "La ville où meurt Matisse ?",
+   "a": [
+    [
+     "",
+     "Cannes"
+    ],
+    [
+     "",
+     "Menton"
+    ],
+    [
+     "",
+     "Nice"
+    ],
+    [
+     "",
+     "Saint-Tropez"
+    ]
+   ],
+   "ok": 2,
+   "say": "Nice !",
+   "level": 2
+  },
+  {
+   "q": "Le musée Soulages, consacré au peintre du noir, est dans sa ville natale. Laquelle ?",
+   "qd": "Le musée Soulages ?",
+   "a": [
+    [
+     "",
+     "Albi"
+    ],
+    [
+     "",
+     "Aurillac"
+    ],
+    [
+     "",
+     "Millau"
+    ],
+    [
+     "",
+     "Rodez"
+    ]
+   ],
+   "ok": 3,
+   "say": "Rodez, dans l'Aveyron !",
+   "level": 3
+  }
+ ],
+ "bonus": {
+  "q": "Monet a peint « Impression, soleil levant » dans le port de quelle ville normande ?",
+  "qd": "Impression, soleil levant : quelle ville ?"
+ },
+ "accroche": "Seul 1 Français sur 10 a tout bon",
+ "accroche_dite": "Seul un Français sur dix a tout bon !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
