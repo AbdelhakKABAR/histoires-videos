@@ -1,0 +1,244 @@
+{
+ "title": "Le pays de chaque vêtement traditionnel",
+ "subject": "Vêtements",
+ "banner": "Quiz : les tenues du monde",
+ "icon": "👘",
+ "symbols": [
+  "👘",
+  "🥻",
+  "👗",
+  "🧵",
+  "🌍",
+  "✨",
+  "🎎",
+  "🪡",
+  "⭐",
+  "🌐",
+  "👒",
+  "🧭",
+  "🌎",
+  "✦",
+  "🧶",
+  "🗺"
+ ],
+ "description": "👘 Quiz : le pays de chaque vêtement traditionnel. Kimono, hanbok, barong… Tu as eu combien ? Et la question bonus ? 👇 #quiz #culturegenerale #mode #monde #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {
+   "q": "Quiz tenues du monde ! Le kimono vient de quel pays ?",
+   "qd": "Le kimono ?",
+   "a": [
+    [
+     "",
+     "Chine"
+    ],
+    [
+     "",
+     "Japon"
+    ],
+    [
+     "",
+     "Corée du Sud"
+    ],
+    [
+     "",
+     "Vietnam"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le Japon !",
+   "level": 0
+  },
+  {
+   "q": "Le sombrero, ce grand chapeau des mariachis, vient de quel pays ?",
+   "qd": "Le sombrero des mariachis ?",
+   "a": [
+    [
+     "",
+     "Espagne"
+    ],
+    [
+     "",
+     "Argentine"
+    ],
+    [
+     "",
+     "Mexique"
+    ],
+    [
+     "",
+     "Pérou"
+    ]
+   ],
+   "ok": 2,
+   "say": "Le Mexique !",
+   "level": 0
+  },
+  {
+   "q": "Le sari, long drapé de tissu porté par les femmes, est typique de quel pays ?",
+   "qd": "Le sari ?",
+   "a": [
+    [
+     "",
+     "Inde"
+    ],
+    [
+     "",
+     "Thaïlande"
+    ],
+    [
+     "",
+     "Égypte"
+    ],
+    [
+     "",
+     "Maroc"
+    ]
+   ],
+   "ok": 0,
+   "say": "L'Inde !",
+   "level": 0
+  },
+  {
+   "q": "Le hanbok est le costume traditionnel de quel pays ?",
+   "qd": "Le hanbok ?",
+   "a": [
+    [
+     "",
+     "Japon"
+    ],
+    [
+     "",
+     "Chine"
+    ],
+    [
+     "",
+     "Mongolie"
+    ],
+    [
+     "",
+     "Corée"
+    ]
+   ],
+   "ok": 3,
+   "say": "La Corée !",
+   "level": 1
+  },
+  {
+   "q": "La robe qipao, aussi appelée cheongsam, vient de quel pays ?",
+   "qd": "La robe qipao ?",
+   "a": [
+    [
+     "",
+     "Japon"
+    ],
+    [
+     "",
+     "Chine"
+    ],
+    [
+     "",
+     "Thaïlande"
+    ],
+    [
+     "",
+     "Vietnam"
+    ]
+   ],
+   "ok": 1,
+   "say": "La Chine !",
+   "level": 1
+  },
+  {
+   "q": "Le kilt, la jupe à carreaux portée par les hommes, est le symbole de quel pays ?",
+   "qd": "Le kilt à carreaux ?",
+   "a": [
+    [
+     "",
+     "Suède"
+    ],
+    [
+     "",
+     "Islande"
+    ],
+    [
+     "",
+     "Écosse"
+    ],
+    [
+     "",
+     "Pays-Bas"
+    ]
+   ],
+   "ok": 2,
+   "say": "L'Écosse !",
+   "level": 1
+  },
+  {
+   "q": "L'ao daï, longue tunique fendue, est la tenue de quel pays ?",
+   "qd": "L'ao dai ?",
+   "a": [
+    [
+     "",
+     "Cambodge"
+    ],
+    [
+     "",
+     "Vietnam"
+    ],
+    [
+     "",
+     "Laos"
+    ],
+    [
+     "",
+     "Thaïlande"
+    ]
+   ],
+   "ok": 1,
+   "say": "Le Vietnam !",
+   "level": 2
+  },
+  {
+   "q": "Le barong tagalog, chemise brodée, est la tenue de quel pays ?",
+   "qd": "Le barong tagalog ?",
+   "a": [
+    [
+     "",
+     "Indonésie"
+    ],
+    [
+     "",
+     "Malaisie"
+    ],
+    [
+     "",
+     "Thaïlande"
+    ],
+    [
+     "",
+     "Philippines"
+    ]
+   ],
+   "ok": 3,
+   "say": "Les Philippines !",
+   "level": 3
+  }
+ ],
+ "bonus": {
+  "q": "De quel pays vient la chapka, la toque en fourrure avec des rabats sur les oreilles ?",
+  "qd": "De quel pays vient la chapka en fourrure ?"
+ },
+ "accroche": "90 % ratent la dernière tenue",
+ "accroche_dite": "Quatre-vingt-dix pour cent des gens ratent la dernière tenue !",
+ "accroche_pill": "TOUR DU MONDE",
+ "max_duration": 68
+}
