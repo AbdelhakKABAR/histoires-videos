@@ -1,0 +1,26 @@
+{
+ "title": "La ville de chaque statue célèbre",
+ "subject": "Patrimoine",
+ "banner": "Quiz France : les statues",
+ "icon": "🗽",
+ "symbols": ["🗽","🗿","🏛","⛲","🦁","🐎","✨","🇫🇷","⭐","🗼","🏰","🎨","🧭","✦","🗺","🔨"],
+ "description": "🗽 Quiz France : la ville de chaque statue célèbre. La Bonne Mère, le Lion de Bartholdi… Ton score ? Et la question bonus ? 👇 #quiz #apprendresurtiktok #patrimoine #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz France, les statues ! La Bonne Mère dorée, au sommet de Notre-Dame-de-la-Garde, veille sur quelle ville ?", "qd": "La Bonne Mère dorée ?", "a": [["","Lyon"],["","Marseille"],["","Nice"],["","Toulon"]], "ok": 1, "say": "Marseille !", "level": 0},
+  {"q": "La petite statue de la Liberté de l'île aux Cygnes se trouve dans quelle ville ?", "qd": "La statue de la Liberté de l'île aux Cygnes ?", "a": [["","Lyon"],["","Nantes"],["","Paris"],["","Lille"]], "ok": 2, "say": "Paris, sur la Seine !", "level": 0},
+  {"q": "Le célèbre groupe sculpté par Rodin s'appelle « Les Bourgeois de… » quelle ville ?", "qd": "« Les Bourgeois de… » de Rodin ?", "a": [["","Rouen"],["","Caen"],["","Amiens"],["","Calais"]], "ok": 3, "say": "Calais !", "level": 0},
+  {"q": "Le grand lion de pierre rouge sculpté par Bartholdi, sous la citadelle, est dans quelle ville ?", "qd": "Le Lion de Bartholdi, sous la citadelle ?", "a": [["","Besançon"],["","Belfort"],["","Metz"],["","Nancy"]], "ok": 1, "say": "Belfort, c'est le Lion de Belfort !", "level": 1},
+  {"q": "La statue de Vercingétorix à cheval, place de Jaude, est dans quelle ville ?", "qd": "Vercingétorix, place de Jaude ?", "a": [["","Clermont-Ferrand"],["","Dijon"],["","Limoges"],["","Bourges"]], "ok": 0, "say": "Clermont-Ferrand, en Auvergne !", "level": 1},
+  {"q": "La statue du général Kléber, sur la place qui porte son nom, est dans quelle ville ?", "qd": "Kléber, sur la place Kléber ?", "a": [["","Colmar"],["","Mulhouse"],["","Strasbourg"],["","Metz"]], "ok": 2, "say": "Strasbourg !", "level": 1},
+  {"q": "Notre-Dame-de-France, la grande statue rouge posée sur le rocher Corneille, domine quelle ville ?", "qd": "La statue rouge du rocher Corneille ?", "a": [["","Lourdes"],["","Le Puy-en-Velay"],["","Rocamadour"],["","Conques"]], "ok": 1, "say": "Le Puy-en-Velay !", "level": 2},
+  {"q": "La fontaine Bartholdi et ses quatre chevaux sauvages, place des Terreaux, est dans quelle ville ?", "qd": "La fontaine Bartholdi aux 4 chevaux ?", "a": [["","Bordeaux"],["","Colmar"],["","Marseille"],["","Lyon"]], "ok": 3, "say": "Lyon, place des Terreaux !", "level": 3}
+ ],
+ "bonus": {"q": "Dans quelle ville peut-on admirer la Vénus de Milo ?", "qd": "Dans quelle ville admirer la Vénus de Milo ?"},
+ "accroche": "La dernière statue piège 80 %",
+ "accroche_dite": "La dernière statue piège quatre-vingts pour cent des gens !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
