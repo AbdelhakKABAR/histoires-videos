@@ -1,0 +1,26 @@
+{
+ "title": "La ville de chaque tour célèbre",
+ "subject": "Monuments",
+ "banner": "Quiz France : les tours",
+ "icon": "🗼",
+ "symbols": ["🗼","🏰","🇫🇷","🏛","⭐","🧱","🌆","🔔","⚓","🗺","✨","🏙","🧭","🌉","🏯","✦"],
+ "description": "🗼 Quiz France : la ville de chaque tour célèbre. Tour Eiffel, tour Bretagne… Tu en as eu combien ? Et la question bonus ? 👇 #quiz #testculturegenerale #monuments #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire quelle tour t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz France, les tours ! La tour Eiffel se trouve dans quelle ville ?", "qd": "La tour Eiffel ?", "a": [["","Lyon"],["","Paris"],["","Marseille"],["","Lille"]], "ok": 1, "say": "Paris, bien sûr !", "level": 0},
+  {"q": "La tour surnommée le Crayon, dans le quartier de la Part-Dieu, est dans quelle ville ?", "qd": "La tour « le Crayon » ?", "a": [["","Lyon"],["","Lille"],["","Nice"],["","Toulouse"]], "ok": 0, "say": "Lyon !", "level": 0},
+  {"q": "La tour Saint-Nicolas et la tour de la Chaîne gardent le Vieux-Port de quelle ville ?", "qd": "Les tours du Vieux-Port ?", "a": [["","Brest"],["","Bordeaux"],["","Nantes"],["","La Rochelle"]], "ok": 3, "say": "La Rochelle !", "level": 0},
+  {"q": "La tour Bretagne, le grand gratte-ciel du centre-ville, est dans quelle ville ?", "qd": "La tour Bretagne ?", "a": [["","Rennes"],["","Brest"],["","Nantes"],["","Vannes"]], "ok": 2, "say": "Nantes !", "level": 1},
+  {"q": "La tour Magne, tour romaine du jardin de la Fontaine, est dans quelle ville ?", "qd": "La tour Magne ?", "a": [["","Nîmes"],["","Arles"],["","Orange"],["","Avignon"]], "ok": 0, "say": "Nîmes !", "level": 1},
+  {"q": "La tour Pey-Berland, clocher de la cathédrale Saint-André, est dans quelle ville ?", "qd": "La tour Pey-Berland ?", "a": [["","Toulouse"],["","Bordeaux"],["","Pau"],["","Bayonne"]], "ok": 1, "say": "Bordeaux !", "level": 1},
+  {"q": "La tour de Constance, ancienne prison au milieu des remparts, est dans quelle ville ?", "qd": "La tour de Constance ?", "a": [["","Carcassonne"],["","Sète"],["","Aigues-Mortes"],["","Collioure"]], "ok": 2, "say": "Aigues-Mortes !", "level": 2},
+  {"q": "La tour Solidor, donjon au bord de la Rance, est dans quelle ville ?", "qd": "La tour Solidor ?", "a": [["","Dinan"],["","Concarneau"],["","Granville"],["","Saint-Malo"]], "ok": 3, "say": "Saint-Malo !", "level": 3}
+ ],
+ "bonus": {"q": "Dans quelle ville se trouve la tour Jeanne d'Arc, le donjon où Jeanne d'Arc fut menacée de torture ?", "qd": "Dans quelle ville est la tour Jeanne d'Arc ?"},
+ "accroche": "Personne ne trouve la dernière tour",
+ "accroche_dite": "Personne ne trouve la dernière tour !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
