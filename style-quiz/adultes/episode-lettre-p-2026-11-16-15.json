@@ -1,0 +1,29 @@
+{
+ "title": "Quiz lettre P",
+ "subject": "Lettre P",
+ "banner": "Quiz lettre P",
+ "mode": "lettre",
+ "letter": "P",
+ "icon": "🧠",
+ "symbols": ["P","A","B","C","?","!","★","✦","P","Z","M","?","●","◆","P","✧"],
+ "description": "🔤 Quiz lettre P : tout commence par P ! De la pomme à la Pologne, mais le savant de la fin en piège beaucoup. Tu as eu combien ? 👇 #quizlettre #testculturegenerale #geographie #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Écris ton score en commentaire, et abonne-toi !",
+ "questions": [
+  {"q": "Quel fruit rouge ou vert croque-t-on, et sert à faire le cidre ?", "qd": "Fruit qui sert à faire le cidre ?", "answer": "Pomme", "say": "La pomme !", "level": 0},
+  {"q": "Quel oiseau coloré est capable de répéter des mots ?", "qd": "Oiseau coloré qui répète des mots ?", "answer": "Perroquet", "say": "Le perroquet !", "level": 0},
+  {"q": "Quel plat italien rond est garni de tomate et de mozzarella ?", "qd": "Plat italien rond, tomate et mozzarella ?", "answer": "Pizza", "say": "La pizza !", "level": 0},
+  {"q": "Quel pays a pour capitale Varsovie ?", "qd": "Pays dont la capitale est Varsovie ?", "answer": "Pologne", "say": "La Pologne !", "level": 1},
+  {"q": "Quelle chaîne de montagnes sépare la France de l'Espagne ?", "qd": "Montagnes entre la France et l'Espagne ?", "answer": "Pyrénées", "say": "Les Pyrénées !", "level": 1},
+  {"q": "Quel pantin de bois voit son nez s'allonger quand il ment ?", "qd": "Pantin dont le nez s'allonge quand il ment ?", "answer": "Pinocchio", "say": "Pinocchio !", "level": 1},
+  {"q": "Quelle est la capitale de la Chine ?", "qd": "Capitale de la Chine ?", "answer": "Pékin", "say": "Pékin !", "level": 2},
+  {"q": "Quel savant français a mis au point le vaccin contre la rage ?", "qd": "Savant du vaccin contre la rage ?", "answer": "Pasteur", "say": "Louis Pasteur !", "level": 3}
+ ],
+ "intro": "Toutes les réponses commencent par la lettre P !",
+ "intro_speed": 0.9,
+ "accroche": "Seul 1 sur 4 trouve la dernière",
+ "accroche_dite": "Seule une personne sur quatre trouve la dernière question !",
+ "accroche_pill": "QUIZ LETTRE P"
+}

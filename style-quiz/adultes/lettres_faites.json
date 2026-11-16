@@ -285,6 +285,21 @@
     "Sydney",
     "Shakespeare"
    ]
+  },
+  {
+   "lettre": "P",
+   "date": "2026-11-16",
+   "fichier": "episode-lettre-p-2026-11-16-15.json",
+   "reponses": [
+    "Pomme",
+    "Perroquet",
+    "Pizza",
+    "Pologne",
+    "Pyrénées",
+    "Pinocchio",
+    "Pékin",
+    "Pasteur"
+   ]
   }
  ]
 }
