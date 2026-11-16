@@ -1,0 +1,17 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["2", "6", "12", "20", "30"],
+ "options": ["40", "44", "42", "36"],
+ "ok": 2,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "La moitié répondent 40",
+ "accroche_dite": "La moitié des gens répondent quarante à cette suite logique. Et toi ?",
+ "question_dite": "Deux, six, douze, vingt, trente… Quel nombre vient ensuite ?",
+ "explication": "On ajoute 4, 6, 8, 10, puis 12 : 30 + 12 = 42.",
+ "explication_dite": "Quarante-deux ! On ajoute quatre, puis six, puis huit, puis dix… donc trente plus douze, quarante-deux.",
+ "fin": "Tu avais dit 40 ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔢 Suite logique : 2, 6, 12, 20, 30… quel nombre ensuite ? Tu trouves avant la fin du chrono ? 👇 #suitelogique #culturegenerale #maths #enigme #publiostudio"
+}
