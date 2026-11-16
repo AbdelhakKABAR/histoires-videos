@@ -1,0 +1,244 @@
+{
+ "title": "La région de chaque drapeau",
+ "subject": "Drapeaux",
+ "banner": "Quiz France : les drapeaux régionaux",
+ "icon": "🚩",
+ "symbols": [
+  "🚩",
+  "🏴",
+  "🏳",
+  "🇫🇷",
+  "🗺",
+  "⚜",
+  "🦁",
+  "✨",
+  "🏰",
+  "⭐",
+  "🧭",
+  "🎌",
+  "🛡",
+  "👑",
+  "🌟",
+  "📍"
+ ],
+ "description": "🚩 Quiz France : à quelle région appartient chaque drapeau ? Gwenn ha du, croix occitane… Ton score ? Et la question bonus ? 👇 #quiz #quizz #drapeaux #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Quel drapeau t'a piégé ? Dis-le en commentaire !",
+ "questions": [
+  {
+   "q": "Quiz drapeaux de France ! Le Gwenn ha du, noir et blanc, c'est quelle région ?",
+   "qd": "Le Gwenn ha du noir et blanc ?",
+   "a": [
+    [
+     "",
+     "Normandie"
+    ],
+    [
+     "",
+     "Bretagne"
+    ],
+    [
+     "",
+     "Alsace"
+    ],
+    [
+     "",
+     "Corse"
+    ]
+   ],
+   "ok": 1,
+   "say": "La Bretagne !",
+   "level": 0
+  },
+  {
+   "q": "Le drapeau blanc avec une tête de Maure au bandeau blanc est celui de quelle région ?",
+   "qd": "La tête de Maure ?",
+   "a": [
+    [
+     "",
+     "Corse"
+    ],
+    [
+     "",
+     "Provence"
+    ],
+    [
+     "",
+     "Bretagne"
+    ],
+    [
+     "",
+     "Savoie"
+    ]
+   ],
+   "ok": 0,
+   "say": "La Corse !",
+   "level": 0
+  },
+  {
+   "q": "Deux léopards d'or sur fond rouge : c'est le drapeau de quelle région ?",
+   "qd": "Deux léopards d'or sur fond rouge ?",
+   "a": [
+    [
+     "",
+     "Picardie"
+    ],
+    [
+     "",
+     "Bourgogne"
+    ],
+    [
+     "",
+     "Normandie"
+    ],
+    [
+     "",
+     "Lorraine"
+    ]
+   ],
+   "ok": 2,
+   "say": "La Normandie !",
+   "level": 0
+  },
+  {
+   "q": "La croix occitane jaune sur fond rouge, c'est quelle région ?",
+   "qd": "La croix occitane jaune sur fond rouge ?",
+   "a": [
+    [
+     "",
+     "Auvergne"
+    ],
+    [
+     "",
+     "Bretagne"
+    ],
+    [
+     "",
+     "Alsace"
+    ],
+    [
+     "",
+     "Occitanie"
+    ]
+   ],
+   "ok": 3,
+   "say": "L'Occitanie, le drapeau du Languedoc !",
+   "level": 1
+  },
+  {
+   "q": "Le drapeau rouge avec une croix verte et une croix blanche, l'ikurriña, est celui de quelle région ?",
+   "qd": "L'ikurriña rouge, vert et blanc ?",
+   "a": [
+    [
+     "",
+     "Pays basque"
+    ],
+    [
+     "",
+     "Corse"
+    ],
+    [
+     "",
+     "Provence"
+    ],
+    [
+     "",
+     "Savoie"
+    ]
+   ],
+   "ok": 0,
+   "say": "Le Pays basque !",
+   "level": 1
+  },
+  {
+   "q": "Une croix blanche sur fond rouge : c'est le drapeau de quelle région française ?",
+   "qd": "Croix blanche sur fond rouge ?",
+   "a": [
+    [
+     "",
+     "Alsace"
+    ],
+    [
+     "",
+     "Savoie"
+    ],
+    [
+     "",
+     "Lorraine"
+    ],
+    [
+     "",
+     "Corse"
+    ]
+   ],
+   "ok": 1,
+   "say": "La Savoie !",
+   "level": 1
+  },
+  {
+   "q": "Le Rot un Wiss, rouge et blanc, c'est quelle région ?",
+   "qd": "Le Rot un Wiss rouge et blanc ?",
+   "a": [
+    [
+     "",
+     "Lorraine"
+    ],
+    [
+     "",
+     "Picardie"
+    ],
+    [
+     "",
+     "Alsace"
+    ],
+    [
+     "",
+     "Franche-Comté"
+    ]
+   ],
+   "ok": 2,
+   "say": "L'Alsace !",
+   "level": 2
+  },
+  {
+   "q": "Jaune, une bande rouge et trois alérions blancs : quelle région ?",
+   "qd": "Jaune, bande rouge et trois alérions ?",
+   "a": [
+    [
+     "",
+     "Champagne"
+    ],
+    [
+     "",
+     "Bourgogne"
+    ],
+    [
+     "",
+     "Picardie"
+    ],
+    [
+     "",
+     "Lorraine"
+    ]
+   ],
+   "ok": 3,
+   "say": "La Lorraine !",
+   "level": 3
+  }
+ ],
+ "bonus": {
+  "q": "Quel animal est représenté par les petites taches noires du drapeau breton ?",
+  "qd": "Quel animal se cache sur le drapeau breton ?"
+ },
+ "accroche": "La dernière piège 80 % des Français",
+ "accroche_dite": "La dernière piège quatre-vingts pour cent des Français !",
+ "accroche_pill": "SPÉCIAL FRANCE",
+ "max_duration": 70
+}
