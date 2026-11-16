@@ -300,6 +300,21 @@
     "Pékin",
     "Pasteur"
    ]
+  },
+  {
+   "lettre": "T",
+   "date": "2026-11-16",
+   "fichier": "episode-lettre-t-2026-11-16-20.json",
+   "reponses": [
+    "Tomate",
+    "Tigre",
+    "Tortue",
+    "Toulouse",
+    "Tennis",
+    "Tunisie",
+    "Tamise",
+    "Toutankhamon"
+   ]
   }
  ]
 }

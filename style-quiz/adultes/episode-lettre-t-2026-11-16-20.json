@@ -1,0 +1,29 @@
+{
+ "title": "Quiz lettre T",
+ "subject": "Lettre T",
+ "banner": "Quiz lettre T",
+ "mode": "lettre",
+ "letter": "T",
+ "icon": "🧠",
+ "symbols": ["T","A","B","C","?","!","★","✦","T","Z","M","?","●","◆","T","✧"],
+ "description": "🔤 Quiz lettre T : toutes les réponses commencent par T ! De la tomate à Toulouse, mais la dernière en piège plus d'un. Ton score ? 👇 #quizlettre #apprendresurtiktok #geographie #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quel fruit rouge sert à faire le ketchup ?", "qd": "Fruit rouge qui sert à faire le ketchup ?", "answer": "Tomate", "say": "La tomate !", "level": 0},
+  {"q": "Quel grand félin a un pelage orange rayé de noir ?", "qd": "Félin orange rayé de noir ?", "answer": "Tigre", "say": "Le tigre !", "level": 0},
+  {"q": "Quel reptile très lent est protégé par une carapace ?", "qd": "Reptile lent avec une carapace ?", "answer": "Tortue", "say": "La tortue !", "level": 0},
+  {"q": "Quelle grande ville française est surnommée la Ville rose ?", "qd": "Ville française surnommée la Ville rose ?", "answer": "Toulouse", "say": "Toulouse !", "level": 1},
+  {"q": "Quel sport se joue à Roland-Garros ?", "qd": "Sport joué à Roland-Garros ?", "answer": "Tennis", "say": "Le tennis !", "level": 1},
+  {"q": "Quel pays d'Afrique du Nord a pour capitale Tunis ?", "qd": "Pays dont la capitale est Tunis ?", "answer": "Tunisie", "say": "La Tunisie !", "level": 1},
+  {"q": "Quel fleuve traverse la ville de Londres ?", "qd": "Fleuve qui traverse Londres ?", "answer": "Tamise", "say": "La Tamise !", "level": 2},
+  {"q": "Quel pharaon égyptien a été retrouvé en 1922 avec un célèbre masque en or ?", "qd": "Pharaon au masque d'or, retrouvé en 1922 ?", "answer": "Toutankhamon", "say": "Toutankhamon !", "level": 3}
+ ],
+ "intro": "Toutes les réponses commencent par la lettre T !",
+ "intro_speed": 0.9,
+ "accroche": "90 % ratent la dernière question",
+ "accroche_dite": "Quatre-vingt-dix pour cent des gens ratent la dernière question !",
+ "accroche_pill": "QUIZ LETTRE T"
+}
