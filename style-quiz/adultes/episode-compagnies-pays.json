@@ -1,0 +1,26 @@
+{
+ "title": "Le pays de chaque compagnie aérienne",
+ "subject": "Aviation",
+ "banner": "Quiz : les compagnies aériennes",
+ "icon": "✈️",
+ "symbols": ["✈️","🛫","🛬","🌍","🧳","🌐","☁️","🗺","🛂","⭐","🌎","✦","🎫","🧭","🌏","🌅"],
+ "description": "✈️ Quiz culture générale : de quel pays vient chaque compagnie aérienne ? Lufthansa, KLM… Ton score ? Et la question bonus ? 👇 #quiz #culturegenerale #aviation #monde #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz compagnies aériennes ! La compagnie Lufthansa vient de quel pays ?", "qd": "Lufthansa ?", "a": [["","Autriche"],["","Allemagne"],["","Suisse"],["","Pays-Bas"]], "ok": 1, "say": "L'Allemagne !", "level": 0},
+  {"q": "La compagnie Iberia vient de quel pays ?", "qd": "Iberia ?", "a": [["","Portugal"],["","Italie"],["","Mexique"],["","Espagne"]], "ok": 3, "say": "L'Espagne !", "level": 0},
+  {"q": "La compagnie Qantas, au logo kangourou, vient de quel pays ?", "qd": "Qantas ?", "a": [["","Australie"],["","Nouvelle-Zélande"],["","Canada"],["","Afrique du Sud"]], "ok": 0, "say": "L'Australie !", "level": 0},
+  {"q": "La compagnie KLM vient de quel pays ?", "qd": "KLM ?", "a": [["","Belgique"],["","Danemark"],["","Pays-Bas"],["","Suède"]], "ok": 2, "say": "Les Pays-Bas !", "level": 1},
+  {"q": "La compagnie Aer Lingus, au trèfle vert, vient de quel pays ?", "qd": "Aer Lingus ?", "a": [["","Royaume-Uni"],["","Irlande"],["","Islande"],["","Norvège"]], "ok": 1, "say": "L'Irlande !", "level": 1},
+  {"q": "La compagnie Finnair vient de quel pays ?", "qd": "Finnair ?", "a": [["","Norvège"],["","Suède"],["","Finlande"],["","Estonie"]], "ok": 2, "say": "La Finlande !", "level": 1},
+  {"q": "La compagnie Avianca vient de quel pays d'Amérique du Sud ?", "qd": "Avianca ?", "a": [["","Colombie"],["","Mexique"],["","Pérou"],["","Brésil"]], "ok": 0, "say": "La Colombie !", "level": 2},
+  {"q": "La compagnie Copa Airlines vient de quel pays ?", "qd": "Copa Airlines ?", "a": [["","Costa Rica"],["","Panama"],["","Colombie"],["","Cuba"]], "ok": 1, "say": "Le Panama !", "level": 3}
+ ],
+ "bonus": {"q": "La compagnie aérienne TAP vient de quel pays ?", "qd": "La compagnie TAP vient de quel pays ?"},
+ "accroche": "80 % ratent la dernière compagnie",
+ "accroche_dite": "Quatre-vingts pour cent des gens ratent la dernière compagnie !",
+ "accroche_pill": "NIVEAU EXPERT"
+}
