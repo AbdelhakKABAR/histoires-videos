@@ -1,0 +1,26 @@
+{
+ "title": "La gare de Paris de chaque ville",
+ "subject": "Trains",
+ "banner": "Quiz France : les gares de Paris",
+ "icon": "🚄",
+ "symbols": ["🚄","🚆","🚉","🎫","🛤","🇫🇷","🗼","⏱","🧳","🚅","🗺","✨","🚂","🕰","⭐","🧭"],
+ "description": "🚄 Quiz France : de quelle gare de Paris part le train pour chaque ville ? Marseille, Bordeaux… Ton score ? Et la question bonus ? 👇 #quiz #culturegenerale #train #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz France, les gares de Paris ! Pour aller à Marseille en TGV, on part de quelle gare parisienne ?", "qd": "Paris → Marseille ?", "a": [["","Gare du Nord"],["","Gare de Lyon"],["","Gare de l'Est"],["","Montparnasse"]], "ok": 1, "say": "La gare de Lyon !", "level": 0},
+  {"q": "Pour aller à Lille en TGV, on part de quelle gare de Paris ?", "qd": "Paris → Lille ?", "a": [["","Gare du Nord"],["","Saint-Lazare"],["","Gare de Lyon"],["","Austerlitz"]], "ok": 0, "say": "La gare du Nord !", "level": 0},
+  {"q": "Pour aller à Strasbourg en TGV, on part de quelle gare de Paris ?", "qd": "Paris → Strasbourg ?", "a": [["","Montparnasse"],["","Gare du Nord"],["","Gare de l'Est"],["","Austerlitz"]], "ok": 2, "say": "La gare de l'Est !", "level": 0},
+  {"q": "Pour aller à Bordeaux en TGV, on part de quelle gare de Paris ?", "qd": "Paris → Bordeaux ?", "a": [["","Gare de Lyon"],["","Saint-Lazare"],["","Gare de l'Est"],["","Montparnasse"]], "ok": 3, "say": "La gare Montparnasse !", "level": 1},
+  {"q": "Pour aller à Deauville, en Normandie, on part de quelle gare de Paris ?", "qd": "Paris → Deauville ?", "a": [["","Saint-Lazare"],["","Gare du Nord"],["","Montparnasse"],["","Gare de Lyon"]], "ok": 0, "say": "La gare Saint-Lazare !", "level": 1},
+  {"q": "Pour aller à Nice en TGV, on part de quelle gare de Paris ?", "qd": "Paris → Nice ?", "a": [["","Austerlitz"],["","Montparnasse"],["","Gare de Lyon"],["","Gare de l'Est"]], "ok": 2, "say": "La gare de Lyon !", "level": 1},
+  {"q": "Pour aller à Orléans en train, on part de quelle gare de Paris ?", "qd": "Paris → Orléans ?", "a": [["","Gare de Lyon"],["","Austerlitz"],["","Montparnasse"],["","Saint-Lazare"]], "ok": 1, "say": "La gare d'Austerlitz !", "level": 2},
+  {"q": "Pour aller à Cherbourg en train, on part de quelle gare de Paris ?", "qd": "Paris → Cherbourg ?", "a": [["","Montparnasse"],["","Gare du Nord"],["","Austerlitz"],["","Saint-Lazare"]], "ok": 3, "say": "La gare Saint-Lazare !", "level": 3}
+ ],
+ "bonus": {"q": "De quelle gare de Paris part l'Eurostar pour Londres ?", "qd": "De quelle gare de Paris part l'Eurostar ?"},
+ "accroche": "90 % ratent la dernière gare",
+ "accroche_dite": "Quatre-vingt-dix pour cent des gens ratent la dernière gare !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
