@@ -1,0 +1,22 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "mot": "ESCARGOT",
+ "categorie": "Un plat français",
+ "categorie_dite": "Mot mystère. Catégorie : un plat français.",
+ "accroche": "Les gourmands trouvent en 2 indices",
+ "accroche_pill": "MOT MYSTÈRE",
+ "accroche_dite": "Mot mystère : les vrais gourmands le trouvent en deux indices !",
+ "indices": [
+  "On le sert souvent en entrée, à Noël.",
+  "Il est cuisiné au beurre, à l'ail et au persil.",
+  "On le mange avec une pince et une petite fourchette.",
+  "Le plus célèbre porte le nom de la Bourgogne.",
+  "Ce mollusque transporte sa coquille sur son dos."
+ ],
+ "lettres_donnees": 1,
+ "dire": "Escargot",
+ "explication": "Les escargots de Bourgogne au beurre persillé.",
+ "description": "🐌 Mot mystère : un plat français en 5 indices. Tu l'as trouvé au combien ? 👇 #motmystere #quizz #cuisine #france #publiostudio"
+}
