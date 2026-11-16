@@ -1,0 +1,26 @@
+{
+ "title": "La ville de chaque port célèbre",
+ "subject": "Ports de France",
+ "banner": "Quiz France : les ports",
+ "icon": "⚓",
+ "symbols": ["⚓","⛵","🚢","🌊","⚓","🐚","🦀","🐟","⛴","🧭","🗺","🌅","🏖","🛟","🦞","✨"],
+ "description": "⚓ Quiz France : la ville de chaque port célèbre. Vieux-Port, base du Charles-de-Gaulle… Tu en as eu combien ? Et la question bonus ? 👇 #quiz #quizz #mer #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire quel port t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz ports de France ! Le Vieux-Port, cœur de la cité phocéenne, est dans quelle ville ?", "qd": "Le Vieux-Port ?", "a": [["","Toulon"],["","Marseille"],["","Nice"],["","Montpellier"]], "ok": 1, "say": "Marseille !", "level": 0},
+  {"q": "Quel grand port normand, à l'embouchure de la Seine, a été reconstruit par Auguste Perret ?", "qd": "Le grand port de la Seine ?", "a": [["","Le Havre"],["","Cherbourg"],["","Caen"],["","Dieppe"]], "ok": 0, "say": "Le Havre !", "level": 0},
+  {"q": "Quel port breton, la cité des corsaires entourée de remparts, est célèbre pour Surcouf ?", "qd": "La cité des corsaires ?", "a": [["","Brest"],["","Lorient"],["","Saint-Malo"],["","Vannes"]], "ok": 2, "say": "Saint-Malo !", "level": 0},
+  {"q": "Quel port de la Méditerranée est la base du porte-avions Charles-de-Gaulle ?", "qd": "Le port du Charles-de-Gaulle ?", "a": [["","Marseille"],["","Brest"],["","Nice"],["","Toulon"]], "ok": 3, "say": "Toulon !", "level": 1},
+  {"q": "Quel port normand, avec son Vieux Bassin aux maisons étroites, a inspiré les peintres impressionnistes ?", "qd": "Le Vieux Bassin des peintres ?", "a": [["","Deauville"],["","Honfleur"],["","Dieppe"],["","Fécamp"]], "ok": 1, "say": "Honfleur !", "level": 1},
+  {"q": "Quel petit port du Var a été rendu célèbre par les films du Gendarme avec Louis de Funès ?", "qd": "Le port du Gendarme ?", "a": [["","Saint-Tropez"],["","Cassis"],["","Menton"],["","Bandol"]], "ok": 0, "say": "Saint-Tropez !", "level": 1},
+  {"q": "Quel port de l'Hérault, traversé de canaux, est célèbre pour ses joutes nautiques ?", "qd": "Le port des joutes nautiques ?", "a": [["","Agde"],["","Narbonne"],["","Sète"],["","Port-Vendres"]], "ok": 2, "say": "Sète, la Venise du Languedoc !", "level": 2},
+  {"q": "Quelle ville bretonne est surnommée la ville aux cinq ports ?", "qd": "La ville aux cinq ports ?", "a": [["","Brest"],["","Douarnenez"],["","Vannes"],["","Lorient"]], "ok": 3, "say": "Lorient !", "level": 3}
+ ],
+ "bonus": {"q": "Quel port normand, où partent les ferries vers l'Irlande, abrite la Cité de la Mer ?", "qd": "Quel port normand abrite la Cité de la Mer ?"},
+ "accroche": "Seul 1 Français sur 20 trouve tout",
+ "accroche_dite": "Seul un Français sur vingt trouve tout !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
