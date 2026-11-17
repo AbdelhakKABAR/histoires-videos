@@ -20,7 +20,7 @@
   {"q": "Fifi Brindacier, la petite fille la plus forte du monde, vient de quel pays ?", "qd": "Fifi Brindacier ?", "a": [["","Norvège"],["","Danemark"],["","Suède"],["","Finlande"]], "ok": 2, "say": "La Suède, d'Astrid Lindgren !", "level": 3}
  ],
  "bonus": {"q": "Guillaume Tell, le héros à l'arbalète, est une légende de quel pays ?", "qd": "Le pays de Guillaume Tell ?"},
- "accroche": "La question 8 piège tout le monde",
- "accroche_dite": "La question huit piège tout le monde !",
+ "accroche": "Presque personne ne trouve la dernière",
+ "accroche_dite": "Presque personne ne trouve la dernière !",
  "accroche_pill": "NIVEAU EXPERT"
 }
