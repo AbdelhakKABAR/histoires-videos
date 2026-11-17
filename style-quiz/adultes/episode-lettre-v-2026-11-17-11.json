@@ -1,0 +1,29 @@
+{
+ "title": "Quiz lettre V",
+ "subject": "Lettre V",
+ "banner": "Quiz lettre V",
+ "mode": "lettre",
+ "letter": "V",
+ "icon": "🧠",
+ "symbols": ["V","A","B","C","?","!","★","✦","V","Z","M","?","●","◆","V","✧"],
+ "description": "🔤 Quiz lettre V : toutes les réponses commencent par V ! De la vache à Venise… Tu fais un sans-faute ? 👇 #quizlettre #quizz #geographie #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Écris ton score en commentaire, et abonne-toi !",
+ "questions": [
+  {"q": "Quel animal de la ferme fait meuh ?", "qd": "Animal de la ferme qui fait meuh ?", "answer": "Vache", "say": "La vache !", "level": 0},
+  {"q": "Quel véhicule à deux roues avance grâce aux pédales ?", "qd": "Deux roues qui avance avec des pédales ?", "answer": "Vélo", "say": "Le vélo !", "level": 0},
+  {"q": "Quelle couleur obtient-on en mélangeant du bleu et du jaune ?", "qd": "Bleu + jaune = quelle couleur ?", "answer": "Vert", "say": "Le vert !", "level": 0},
+  {"q": "Quelle ville italienne est célèbre pour ses canaux et ses gondoles ?", "qd": "Ville italienne des canaux et des gondoles ?", "answer": "Venise", "say": "Venise !", "level": 1},
+  {"q": "Quel instrument à cordes se joue avec un archet, posé sous le menton ?", "qd": "Instrument à archet posé sous le menton ?", "answer": "Violon", "say": "Le violon !", "level": 1},
+  {"q": "Quelle planète est la deuxième plus proche du Soleil ?", "qd": "2e planète la plus proche du Soleil ?", "answer": "Vénus", "say": "Vénus !", "level": 1},
+  {"q": "Quel pays d'Amérique du Sud a pour capitale Caracas ?", "qd": "Pays dont la capitale est Caracas ?", "answer": "Venezuela", "say": "Le Venezuela !", "level": 2},
+  {"q": "Quel volcan italien a détruit la ville de Pompéi en l'an 79 ?", "qd": "Volcan qui a détruit Pompéi en 79 ?", "answer": "Vésuve", "say": "Le Vésuve !", "level": 3}
+ ],
+ "intro": "Toutes les réponses commencent par la lettre V !",
+ "intro_speed": 0.9,
+ "accroche": "Seul 1 sur 5 fait un sans-faute",
+ "accroche_dite": "Seulement une personne sur cinq fait un sans-faute !",
+ "accroche_pill": "QUIZ LETTRE V"
+}
