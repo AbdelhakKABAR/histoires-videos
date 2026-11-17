@@ -1,0 +1,243 @@
+{
+ "title": "Le lieu de chaque animal sauvage",
+ "subject": "Animaux",
+ "banner": "Quiz : animaux de France",
+ "icon": "🐻",
+ "symbols": [
+  "🐻",
+  "🦩",
+  "🦭",
+  "🐺",
+  "🦌",
+  "🐐",
+  "🦅",
+  "🐬",
+  "🌲",
+  "⛰",
+  "🐾",
+  "🌿",
+  "🦉",
+  "🐗",
+  "🪶",
+  "✨"
+ ],
+ "description": "🐻 Quiz France : où vit chaque animal sauvage ? L'ours, la cigogne… La dernière piège presque tout le monde. Ton score ? Et la question bonus ? 👇 #quiz #testculturegenerale #animaux #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Ton piège en commentaire, et abonne-toi !",
+ "questions": [
+  {
+   "q": "Quiz animaux de France ! Où vit encore l'ours brun sauvage ?",
+   "qd": "L'ours brun sauvage ?",
+   "a": [
+    [
+     "",
+     "Les Alpes"
+    ],
+    [
+     "",
+     "Les Vosges"
+    ],
+    [
+     "",
+     "Les Pyrénées"
+    ],
+    [
+     "",
+     "Le Jura"
+    ]
+   ],
+   "ok": 2,
+   "say": "Les Pyrénées !",
+   "level": 0
+  },
+  {
+   "q": "Les flamants roses vivent en grand nombre dans quelle région ?",
+   "qd": "Les flamants roses ?",
+   "a": [
+    [
+     "",
+     "La Camargue"
+    ],
+    [
+     "",
+     "La Bretagne"
+    ],
+    [
+     "",
+     "L'Alsace"
+    ],
+    [
+     "",
+     "La Normandie"
+    ]
+   ],
+   "ok": 0,
+   "say": "La Camargue !",
+   "level": 0
+  },
+  {
+   "q": "La plus grande colonie de phoques de France vit dans quelle baie ?",
+   "qd": "Les phoques ?",
+   "a": [
+    [
+     "",
+     "Baie de Quiberon"
+    ],
+    [
+     "",
+     "Bassin d'Arcachon"
+    ],
+    [
+     "",
+     "Baie de Morlaix"
+    ],
+    [
+     "",
+     "Baie de Somme"
+    ]
+   ],
+   "ok": 3,
+   "say": "La baie de Somme !",
+   "level": 0
+  },
+  {
+   "q": "La cigogne est le symbole de quelle région ?",
+   "qd": "La cigogne ?",
+   "a": [
+    [
+     "",
+     "La Provence"
+    ],
+    [
+     "",
+     "L'Alsace"
+    ],
+    [
+     "",
+     "La Corse"
+    ],
+    [
+     "",
+     "La Bretagne"
+    ]
+   ],
+   "ok": 1,
+   "say": "L'Alsace !",
+   "level": 1
+  },
+  {
+   "q": "Dauphins et baleines du sanctuaire Pelagos nagent dans quelle mer ?",
+   "qd": "Le sanctuaire Pelagos ?",
+   "a": [
+    [
+     "",
+     "La Manche"
+    ],
+    [
+     "",
+     "La mer du Nord"
+    ],
+    [
+     "",
+     "La Méditerranée"
+    ],
+    [
+     "",
+     "L'Atlantique"
+    ]
+   ],
+   "ok": 2,
+   "say": "La Méditerranée !",
+   "level": 1
+  },
+  {
+   "q": "Quel parc national, le premier de France, a été créé pour protéger le bouquetin ?",
+   "qd": "Le parc du bouquetin ?",
+   "a": [
+    [
+     "",
+     "La Vanoise"
+    ],
+    [
+     "",
+     "Les Cévennes"
+    ],
+    [
+     "",
+     "Les Calanques"
+    ],
+    [
+     "",
+     "Port-Cros"
+    ]
+   ],
+   "ok": 0,
+   "say": "La Vanoise, en 1963 !",
+   "level": 1
+  },
+  {
+   "q": "En 1992, le loup est revenu par quel parc national ?",
+   "qd": "Le retour du loup en 1992 ?",
+   "a": [
+    [
+     "",
+     "Les Écrins"
+    ],
+    [
+     "",
+     "Les Pyrénées"
+    ],
+    [
+     "",
+     "Les Cévennes"
+    ],
+    [
+     "",
+     "Le Mercantour"
+    ]
+   ],
+   "ok": 3,
+   "say": "Le Mercantour !",
+   "level": 2
+  },
+  {
+   "q": "Le lynx a été réintroduit en France dans quel massif ?",
+   "qd": "Le lynx réintroduit ?",
+   "a": [
+    [
+     "",
+     "Les Pyrénées"
+    ],
+    [
+     "",
+     "Les Vosges"
+    ],
+    [
+     "",
+     "Le Massif central"
+    ],
+    [
+     "",
+     "La Corse"
+    ]
+   ],
+   "ok": 1,
+   "say": "Les Vosges !",
+   "level": 3
+  }
+ ],
+ "bonus": {
+  "q": "Quel animal des Alpes siffle face au danger ?",
+  "qd": "Quel animal des Alpes siffle au danger ?"
+ },
+ "accroche": "3 Français sur 4 ratent la dernière",
+ "accroche_dite": "Trois Français sur quatre ratent la dernière !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
