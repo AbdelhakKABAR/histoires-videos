@@ -1,0 +1,22 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "mot": "DAUPHIN",
+ "categorie": "Un animal",
+ "categorie_dite": "Mot mystère. Catégorie : un animal.",
+ "accroche": "Un génie trouve en 1 indice",
+ "accroche_pill": "MOT MYSTÈRE",
+ "accroche_dite": "Mot mystère : un génie le trouve dès le premier indice !",
+ "indices": [
+  "Il vit dans la mer, mais ce n'est pas un poisson.",
+  "Il respire par un évent sur le haut de la tête.",
+  "C'était le titre de l'héritier du roi de France.",
+  "Le célèbre Flipper de la télé en était un.",
+  "Mammifère marin joueur, il saute hors des vagues."
+ ],
+ "lettres_donnees": 1,
+ "dire": "Dauphin",
+ "explication": "Le dauphin, mammifère marin, et aussi le titre de l'héritier du trône de France.",
+ "description": "🐬 Mot mystère : un animal en 5 indices. Tu l'as trouvé au combien ? Dis-le en commentaire 👇 #motmystere #culturegenerale #animaux #publiostudio"
+}
