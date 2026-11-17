@@ -1,0 +1,26 @@
+{
+ "title": "L'ancienne province de chaque ville",
+ "subject": "Provinces",
+ "banner": "Quiz France : les anciennes provinces",
+ "icon": "🏰",
+ "symbols": ["🏰","👑","⚜️","🗺","🇫🇷","🛡","📜","🏛","🗼","⛪","🌾","🍇","🧭","⭐","🕰","✨"],
+ "description": "🏰 Quiz France : dans quelle ancienne province était chaque ville ? Marseille, Dijon… La dernière piège presque tout le monde. Ton score ? 👇 #quiz #culturegenerale #histoire #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Écris ton score en commentaire, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz France, les anciennes provinces ! Sous l'Ancien Régime, Marseille était dans quelle province ?", "qd": "Marseille ?", "a": [["","Languedoc"],["","Provence"],["","Dauphiné"],["","Gascogne"]], "ok": 1, "say": "La Provence !", "level": 0},
+  {"q": "Et Strasbourg, dans quelle ancienne province ?", "qd": "Strasbourg ?", "a": [["","Alsace"],["","Lorraine"],["","Champagne"],["","Bourgogne"]], "ok": 0, "say": "L'Alsace !", "level": 0},
+  {"q": "Rouen était la capitale de quelle ancienne province ?", "qd": "Rouen ?", "a": [["","Picardie"],["","Bretagne"],["","Normandie"],["","Anjou"]], "ok": 2, "say": "La Normandie !", "level": 0},
+  {"q": "Dijon était la capitale de quelle ancienne province ?", "qd": "Dijon ?", "a": [["","Champagne"],["","Lorraine"],["","Franche-Comté"],["","Bourgogne"]], "ok": 3, "say": "La Bourgogne !", "level": 1},
+  {"q": "Grenoble était la capitale de quelle ancienne province ?", "qd": "Grenoble ?", "a": [["","Dauphiné"],["","Savoie"],["","Provence"],["","Lyonnais"]], "ok": 0, "say": "Le Dauphiné !", "level": 1},
+  {"q": "Pau était la capitale de quelle ancienne province ?", "qd": "Pau ?", "a": [["","Gascogne"],["","Guyenne"],["","Béarn"],["","Roussillon"]], "ok": 2, "say": "Le Béarn !", "level": 1},
+  {"q": "Tours était la capitale de quelle ancienne province ?", "qd": "Tours ?", "a": [["","Anjou"],["","Touraine"],["","Berry"],["","Poitou"]], "ok": 1, "say": "La Touraine !", "level": 2},
+  {"q": "Et Bourges, capitale de quelle ancienne province ?", "qd": "Bourges ?", "a": [["","Limousin"],["","Auvergne"],["","Orléanais"],["","Berry"]], "ok": 3, "say": "Le Berry !", "level": 3}
+ ],
+ "bonus": {"q": "Angers était la capitale de quelle ancienne province ?", "qd": "Angers : quelle ancienne province ?"},
+ "accroche": "La dernière province piège 80 %",
+ "accroche_dite": "La dernière province piège quatre-vingts pour cent des gens !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
