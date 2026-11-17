@@ -1,0 +1,22 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "mot": "CINÉMA",
+ "categorie": "Un art",
+ "categorie_dite": "Mot mystère. Catégorie : un art.",
+ "accroche": "Trouve-le avant le 3e indice",
+ "accroche_pill": "MOT MYSTÈRE",
+ "accroche_dite": "Mot mystère : trouve-le avant le troisième indice !",
+ "indices": [
+  "C'est à la fois un art et un lieu.",
+  "Les frères Lumière l'ont lancé à Paris en 1895.",
+  "On le surnomme le septième art.",
+  "Le festival de Cannes le célèbre chaque année.",
+  "On s'y assoit dans le noir face à un grand écran."
+ ],
+ "lettres_donnees": 1,
+ "dire": "Cinéma",
+ "explication": "Le cinéma, le septième art, né avec la projection des frères Lumière à Paris en 1895.",
+ "description": "🎬 Mot mystère : un art célèbre en 5 indices. Tu l'as trouvé au combien ? Dis-le en commentaire 👇 #motmystere #quizz #cinema #france #publiostudio"
+}
