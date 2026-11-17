@@ -1,0 +1,26 @@
+{
+ "title": "Le pays de chaque temple",
+ "subject": "Temples du monde",
+ "banner": "Quiz : les temples du monde",
+ "icon": "🛕",
+ "symbols": ["🛕","🏛","🌏","✨","⛩","🌍","🗺","⭐","🧭","🏯","🌄","✦","🌐","🕯","🌅","🗿"],
+ "description": "🛕 Quiz : dans quel pays est chaque temple ? Le Parthénon, Angkor… La dernière piège presque tout le monde. Ton score ? 👇 #quiz #apprendresurtiktok #voyage #monde #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire quel temple t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz temples ! Le Parthénon, le célèbre temple sur l'Acropole, est dans quel pays ?", "qd": "Le Parthénon ?", "a": [["","Italie"],["","Grèce"],["","Turquie"],["","Égypte"]], "ok": 1, "say": "La Grèce, à Athènes !", "level": 0},
+  {"q": "Le temple d'Abou Simbel, avec ses statues géantes de Ramsès deux, est dans quel pays ?", "qd": "Le temple d'Abou Simbel ?", "a": [["","Égypte"],["","Soudan"],["","Jordanie"],["","Maroc"]], "ok": 0, "say": "L'Égypte !", "level": 0},
+  {"q": "La pyramide de Kukulcán, à Chichén Itzá, est dans quel pays ?", "qd": "La pyramide de Chichén Itzá ?", "a": [["","Pérou"],["","Guatemala"],["","Mexique"],["","Bolivie"]], "ok": 2, "say": "Le Mexique, dans le Yucatán !", "level": 0},
+  {"q": "Angkor Vat, le plus grand monument religieux du monde, est dans quel pays ?", "qd": "Le temple d'Angkor Vat ?", "a": [["","Thaïlande"],["","Vietnam"],["","Laos"],["","Cambodge"]], "ok": 3, "say": "Le Cambodge !", "level": 1},
+  {"q": "Le Pavillon d'or, un temple couvert de feuilles d'or au bord d'un étang, est dans quel pays ?", "qd": "Le Pavillon d'or ?", "a": [["","Chine"],["","Japon"],["","Corée du Sud"],["","Vietnam"]], "ok": 1, "say": "Le Japon, à Kyoto !", "level": 1},
+  {"q": "Le temple du Ciel, avec son toit rond bleu, est dans quel pays ?", "qd": "Le temple du Ciel ?", "a": [["","Japon"],["","Corée du Sud"],["","Chine"],["","Mongolie"]], "ok": 2, "say": "La Chine, à Pékin !", "level": 1},
+  {"q": "Borobudur, le plus grand temple bouddhiste du monde, est dans quel pays ?", "qd": "Le temple de Borobudur ?", "a": [["","Indonésie"],["","Inde"],["","Népal"],["","Malaisie"]], "ok": 0, "say": "L'Indonésie, sur l'île de Java !", "level": 2},
+  {"q": "La pagode Shwedagon, couverte d'or, est dans quel pays ?", "qd": "La pagode Shwedagon ?", "a": [["","Thaïlande"],["","Birmanie"],["","Laos"],["","Népal"]], "ok": 1, "say": "La Birmanie, à Rangoun !", "level": 3}
+ ],
+ "bonus": {"q": "Dans quel pays se trouve le temple de Karnak, près de Louxor ?", "qd": "Dans quel pays est le temple de Karnak ?"},
+ "accroche": "90 % ratent le dernier temple",
+ "accroche_dite": "Quatre-vingt-dix pour cent des gens ratent le dernier temple !",
+ "accroche_pill": "TOUR DU MONDE"
+}
