@@ -1,0 +1,26 @@
+{
+ "title": "Le pays de chaque héros de fiction",
+ "subject": "Héros de fiction",
+ "banner": "Quiz : les héros de fiction",
+ "icon": "📚",
+ "symbols": ["📚","🎭","🌍","🕵","✨","🧭","⭐","📖","🗺","🏰","🦇","🏹","🎩","🌐","✦","🌎"],
+ "description": "📚 Quiz culture générale : de quel pays vient chaque héros de fiction ? Pinocchio, Heidi… Ton score ? Et la question bonus ? 👇 #quiz #apprendresurtiktok #litterature #monde #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire quel héros t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz héros de fiction ! Pinocchio, la marionnette au nez qui s'allonge, vient de quel pays ?", "qd": "Pinocchio ?", "a": [["","Espagne"],["","Italie"],["","Allemagne"],["","Grèce"]], "ok": 1, "say": "L'Italie, grâce à Carlo Collodi !", "level": 0},
+  {"q": "Sherlock Holmes, le célèbre détective de Baker Street, vit dans quel pays ?", "qd": "Sherlock Holmes ?", "a": [["","États-Unis"],["","Irlande"],["","Canada"],["","Royaume-Uni"]], "ok": 3, "say": "Le Royaume-Uni, à Londres !", "level": 0},
+  {"q": "Tintin, le reporter à la houppe, a été créé dans quel pays ?", "qd": "Tintin ?", "a": [["","Belgique"],["","France"],["","Suisse"],["","Luxembourg"]], "ok": 0, "say": "La Belgique, par Hergé !", "level": 0},
+  {"q": "Heidi, la petite fille des montagnes, vit dans quel pays ?", "qd": "Heidi ?", "a": [["","Autriche"],["","Allemagne"],["","Suisse"],["","Italie"]], "ok": 2, "say": "La Suisse, dans les Alpes !", "level": 1},
+  {"q": "Don Quichotte, le chevalier qui combat les moulins à vent, vient de quel pays ?", "qd": "Don Quichotte ?", "a": [["","Portugal"],["","Espagne"],["","Italie"],["","Mexique"]], "ok": 1, "say": "L'Espagne, de Cervantès !", "level": 1},
+  {"q": "Robin des Bois, le voleur de la forêt de Sherwood, est un héros de quel pays ?", "qd": "Robin des Bois ?", "a": [["","Écosse"],["","Irlande"],["","Pays de Galles"],["","Angleterre"]], "ok": 3, "say": "L'Angleterre, près de Nottingham !", "level": 1},
+  {"q": "Le comte Dracula vit en Transylvanie. Cette région est aujourd'hui dans quel pays ?", "qd": "La Transylvanie de Dracula ?", "a": [["","Hongrie"],["","Roumanie"],["","Bulgarie"],["","Serbie"]], "ok": 1, "say": "La Roumanie !", "level": 2},
+  {"q": "Fifi Brindacier, la petite fille la plus forte du monde, vient de quel pays ?", "qd": "Fifi Brindacier ?", "a": [["","Norvège"],["","Danemark"],["","Suède"],["","Finlande"]], "ok": 2, "say": "La Suède, d'Astrid Lindgren !", "level": 3}
+ ],
+ "bonus": {"q": "Guillaume Tell, le héros à l'arbalète, est une légende de quel pays ?", "qd": "Le pays de Guillaume Tell ?"},
+ "accroche": "La question 8 piège tout le monde",
+ "accroche_dite": "La question huit piège tout le monde !",
+ "accroche_pill": "NIVEAU EXPERT"
+}
