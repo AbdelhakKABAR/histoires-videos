@@ -1,0 +1,17 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["1", "4", "13", "40", "121"],
+ "options": ["242", "363", "364", "361"],
+ "ok": 2,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "Presque tout le monde répond 363",
+ "accroche_dite": "Presque tout le monde répond trois cent soixante-trois à cette suite logique. Et toi ?",
+ "question_dite": "Un, quatre, treize, quarante, cent vingt et un… Et ensuite ?",
+ "explication": "On multiplie par 3 puis on ajoute 1 : 121 × 3 + 1 = 364.",
+ "explication_dite": "Trois cent soixante-quatre ! On multiplie par trois, puis on ajoute un.",
+ "fin": "Tu avais trouvé ? Écris ta réponse en commentaire, et abonne-toi !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔢 Suite logique : 1, 4, 13, 40, 121… quel nombre ensuite ? Tu trouves avant la fin du chrono ? Ta réponse en commentaire 👇 #suitelogique #apprendresurtiktok #maths #enigme #publiostudio"
+}
