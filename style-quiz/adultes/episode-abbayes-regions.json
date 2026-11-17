@@ -1,0 +1,26 @@
+{
+ "title": "La région de chaque abbaye",
+ "subject": "Abbayes",
+ "banner": "Quiz France : les abbayes",
+ "icon": "⛪",
+ "symbols": ["⛪","🏰","🔔","🕯","📜","🇫🇷","🗺","✨","🌿","🏛","⭐","🧭","🌄","🪨","🕊","⚜️"],
+ "description": "⛪ Quiz France : dans quelle région est chaque abbaye ? Mont-Saint-Michel, Fontevraud… La dernière piège presque tout le monde. Ton score ? 👇 #quiz #testculturegenerale #histoire #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz France, les abbayes ! L'abbaye du Mont-Saint-Michel se trouve dans quelle région ?", "qd": "L'abbaye du Mont-Saint-Michel ?", "a": [["","Bretagne"],["","Normandie"],["","Pays de la Loire"],["","Hauts-de-France"]], "ok": 1, "say": "La Normandie, dans la Manche !", "level": 0},
+  {"q": "L'abbaye de Cluny, immense abbaye du Moyen Âge, est dans quelle région ?", "qd": "L'abbaye de Cluny ?", "a": [["","Bourgogne-Franche-Comté"],["","Grand Est"],["","Centre-Val de Loire"],["","Occitanie"]], "ok": 0, "say": "La Bourgogne-Franche-Comté !", "level": 0},
+  {"q": "L'abbaye de Sénanque, entourée de champs de lavande, est dans quelle région ?", "qd": "L'abbaye de Sénanque ?", "a": [["","Occitanie"],["","Corse"],["","Auvergne-Rhône-Alpes"],["","Provence-Alpes-Côte d'Azur"]], "ok": 3, "say": "La Provence, dans le Vaucluse !", "level": 0},
+  {"q": "L'abbaye royale de Fontevraud, où repose Richard Cœur de Lion, est dans quelle région ?", "qd": "L'abbaye de Fontevraud ?", "a": [["","Bretagne"],["","Nouvelle-Aquitaine"],["","Pays de la Loire"],["","Normandie"]], "ok": 2, "say": "Les Pays de la Loire, en Maine-et-Loire !", "level": 1},
+  {"q": "L'abbaye de Conques, étape des pèlerins de Compostelle, est dans quelle région ?", "qd": "L'abbaye de Conques ?", "a": [["","Occitanie"],["","Nouvelle-Aquitaine"],["","Auvergne-Rhône-Alpes"],["","Provence-Alpes-Côte d'Azur"]], "ok": 0, "say": "L'Occitanie, dans l'Aveyron !", "level": 1},
+  {"q": "L'abbaye de Saint-Savin, célèbre pour ses fresques romanes, est dans quelle région ?", "qd": "L'abbaye de Saint-Savin ?", "a": [["","Centre-Val de Loire"],["","Pays de la Loire"],["","Occitanie"],["","Nouvelle-Aquitaine"]], "ok": 3, "say": "La Nouvelle-Aquitaine, dans la Vienne !", "level": 1},
+  {"q": "L'abbaye de Royaumont, fondée par Saint Louis, est dans quelle région ?", "qd": "L'abbaye de Royaumont ?", "a": [["","Hauts-de-France"],["","Île-de-France"],["","Normandie"],["","Grand Est"]], "ok": 1, "say": "L'Île-de-France, dans le Val-d'Oise !", "level": 2},
+  {"q": "Et l'abbaye de Clairvaux, fondée par saint Bernard, est dans quelle région ?", "qd": "L'abbaye de Clairvaux ?", "a": [["","Bourgogne-Franche-Comté"],["","Île-de-France"],["","Grand Est"],["","Hauts-de-France"]], "ok": 2, "say": "Le Grand Est, dans l'Aube !", "level": 3}
+ ],
+ "bonus": {"q": "Dans quelle région se trouve l'abbaye de Jumièges, surnommée la plus belle ruine de France ?", "qd": "L'abbaye de Jumièges : quelle région ?"},
+ "accroche": "Seul 1 Français sur 5 a tout bon",
+ "accroche_dite": "Seul un Français sur cinq a tout bon !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
