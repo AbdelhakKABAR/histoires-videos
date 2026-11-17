@@ -1,0 +1,29 @@
+{
+ "title": "Quiz lettre A",
+ "subject": "Lettre A",
+ "banner": "Quiz lettre A",
+ "mode": "lettre",
+ "letter": "A",
+ "icon": "🧠",
+ "symbols": ["A","B","C","D","?","!","★","✦","A","Z","M","?","●","◆","A","✧"],
+ "description": "🔤 Quiz lettre A : toutes les réponses commencent par A ! De l'ananas à l'Allemagne… Tu fais un sans-faute ? 👇 #quizlettre #apprendresurtiktok #geographie #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quel fruit tropical porte une couronne de feuilles piquantes ?", "qd": "Fruit tropical avec une couronne de feuilles ?", "answer": "Ananas", "say": "L'ananas !", "level": 0},
+  {"q": "Quel moyen de transport vole dans le ciel avec des ailes et des réacteurs ?", "qd": "Transport qui vole avec des ailes ?", "answer": "Avion", "say": "L'avion !", "level": 0},
+  {"q": "Qu'apparaît-il dans le ciel quand il y a du soleil et de la pluie en même temps ?", "qd": "Dans le ciel, avec soleil et pluie ?", "answer": "Arc-en-ciel", "say": "L'arc-en-ciel !", "level": 0},
+  {"q": "Quel pays a pour capitale Berlin ?", "qd": "Pays dont la capitale est Berlin ?", "answer": "Allemagne", "say": "L'Allemagne !", "level": 1},
+  {"q": "Quel petit animal a huit pattes et tisse une toile ?", "qd": "Animal à huit pattes qui tisse une toile ?", "answer": "Araignée", "say": "L'araignée !", "level": 1},
+  {"q": "Sur quel continent se trouve le désert du Sahara ?", "qd": "Continent du désert du Sahara ?", "answer": "Afrique", "say": "L'Afrique !", "level": 1},
+  {"q": "Quel grand fleuve traverse la plus grande forêt tropicale du monde ?", "qd": "Fleuve de la plus grande forêt tropicale ?", "answer": "Amazone", "say": "L'Amazone !", "level": 2},
+  {"q": "Quelle est la capitale des Pays-Bas ?", "qd": "Capitale des Pays-Bas ?", "answer": "Amsterdam", "say": "Amsterdam !", "level": 3}
+ ],
+ "intro": "Toutes les réponses commencent par la lettre A !",
+ "intro_speed": 0.9,
+ "accroche": "La dernière piège 75 % des gens",
+ "accroche_dite": "La dernière question piège soixante-quinze pour cent des gens !",
+ "accroche_pill": "QUIZ LETTRE A"
+}

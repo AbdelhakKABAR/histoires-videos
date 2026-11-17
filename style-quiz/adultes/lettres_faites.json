@@ -330,6 +330,21 @@
     "Venezuela",
     "Vésuve"
    ]
+  },
+  {
+   "lettre": "A",
+   "date": "2026-11-17",
+   "fichier": "episode-lettre-a-2026-11-17-17.json",
+   "reponses": [
+    "Ananas",
+    "Avion",
+    "Arc-en-ciel",
+    "Allemagne",
+    "Araignée",
+    "Afrique",
+    "Amazone",
+    "Amsterdam"
+   ]
   }
  ]
 }
