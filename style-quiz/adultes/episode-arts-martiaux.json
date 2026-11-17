@@ -1,0 +1,26 @@
+{
+ "title": "Le pays de chaque art martial",
+ "subject": "Arts martiaux",
+ "banner": "Quiz : les arts martiaux",
+ "icon": "🥋",
+ "symbols": ["🥋","🥊","🌍","🏆","⭐","🥇","🌐","✨","🗺","🎌","🌏","🥉","🧭","✦","🌎","💪"],
+ "description": "🥋 Quiz arts martiaux : de quel pays vient chacun ? Karaté, taekwondo… La dernière piège presque tout le monde. Ton score ? Et la question bonus ? 👇 #quiz #culturegenerale #artsmartiaux #monde #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz arts martiaux ! Le karaté vient de quel pays ?", "qd": "Le karaté ?", "a": [["","Chine"],["","Japon"],["","Corée du Sud"],["","Thaïlande"]], "ok": 1, "say": "Le Japon, de l'île d'Okinawa !", "level": 0},
+  {"q": "La capoeira, mélange de combat et de danse, vient de quel pays ?", "qd": "La capoeira ?", "a": [["","Portugal"],["","Cuba"],["","Argentine"],["","Brésil"]], "ok": 3, "say": "Le Brésil !", "level": 0},
+  {"q": "Le kung-fu, popularisé par les films de Bruce Lee, vient de quel pays ?", "qd": "Le kung-fu ?", "a": [["","Chine"],["","Japon"],["","Vietnam"],["","Corée du Sud"]], "ok": 0, "say": "La Chine !", "level": 0},
+  {"q": "Le taekwondo, sport olympique, vient de quel pays ?", "qd": "Le taekwondo ?", "a": [["","Japon"],["","Chine"],["","Corée du Sud"],["","Mongolie"]], "ok": 2, "say": "La Corée du Sud !", "level": 1},
+  {"q": "La savate, sport de combat qui frappe avec les pieds et les poings, vient de quel pays ?", "qd": "La savate ?", "a": [["","Belgique"],["","France"],["","Suisse"],["","Canada"]], "ok": 1, "say": "La France : c'est la boxe française !", "level": 1},
+  {"q": "La boxe muay-thaï vient de quel pays ?", "qd": "Le muay-thaï ?", "a": [["","Indonésie"],["","Philippines"],["","Malaisie"],["","Thaïlande"]], "ok": 3, "say": "La Thaïlande !", "level": 1},
+  {"q": "Le sambo, sport de combat créé dans les années 1930, vient de quel pays ?", "qd": "Le sambo ?", "a": [["","Russie"],["","Pologne"],["","Turquie"],["","Mongolie"]], "ok": 0, "say": "La Russie, à l'époque de l'URSS !", "level": 2},
+  {"q": "Le kalaripayattu, l'un des plus anciens arts martiaux du monde, vient de quel pays ?", "qd": "Le kalaripayattu ?", "a": [["","Sri Lanka"],["","Népal"],["","Inde"],["","Bangladesh"]], "ok": 2, "say": "L'Inde, de l'État du Kerala !", "level": 3}
+ ],
+ "bonus": {"q": "De quel pays vient le judo ?", "qd": "De quel pays vient le judo ?"},
+ "accroche": "Seul 1 fan sur 10 a tout bon",
+ "accroche_dite": "Seul un fan sur dix a tout bon !",
+ "accroche_pill": "SPÉCIAL MONDE"
+}
