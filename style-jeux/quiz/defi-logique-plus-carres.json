@@ -1,0 +1,17 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["1", "2", "6", "15", "31"],
+ "options": ["46", "52", "56", "63"],
+ "ok": 2,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "Seulement 1 personne sur 10 trouve",
+ "accroche_dite": "Seulement une personne sur dix trouve cette suite logique. Et toi ?",
+ "question_dite": "Un, deux, six, quinze, trente et un… Et ensuite ?",
+ "explication": "On ajoute les carrés : +1, +4, +9, +16, +25 → 31 + 25 = 56.",
+ "explication_dite": "Cinquante-six ! On ajoute les carrés : un, quatre, neuf, seize, puis vingt-cinq.",
+ "fin": "Tu avais trouvé ? Écris ta réponse en commentaire, et abonne-toi !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔢 Suite logique : 1, 2, 6, 15, 31… quel nombre ensuite ? Tu trouves avant la fin du chrono ? Ta réponse en commentaire 👇 #suitelogique #culturegenerale #maths #enigme #publiostudio"
+}
