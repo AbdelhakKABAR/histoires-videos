@@ -1,0 +1,18 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["50", "49", "47", "44", "40"],
+ "options": ["36", "34", "35", "30"],
+ "ok": 2,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "La plupart répondent 36",
+ "accroche_pill": "SUITE LOGIQUE",
+ "accroche_dite": "Dans cette suite logique, la plupart des gens répondent trente-six. Et toi ?",
+ "question_dite": "Cinquante, quarante-neuf, quarante-sept, quarante-quatre, quarante… Quel nombre vient ensuite ?",
+ "explication": "On retire 1, puis 2, puis 3, puis 4… donc 40 − 5 = 35.",
+ "explication_dite": "Trente-cinq ! On retire un, puis deux, puis trois, puis quatre, et donc cinq : quarante moins cinq, trente-cinq.",
+ "fin": "Tu avais dit 36 ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔢 Suite logique : 50, 49, 47, 44, 40… quel nombre ensuite ? Tu trouves avant la fin du chrono ? 👇 #suitelogique #culturegenerale #maths #enigme #publiostudio"
+}
