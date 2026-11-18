@@ -1,4 +1,12 @@
-# ⏰ MISE À JOUR 12 nov. 2026 (demande de l'utilisateur) — PRIORITAIRE sur le « PROGRAMME » plus bas
+# 📈 MISE À JOUR 18 nov. 2026 (demande de l'utilisateur, d'après voir_stats) — PRIORITAIRE, remplace celle du 12 nov.
+- 6 vidéos par jour (plus 12), RIEN la nuit : créneaux vers 9 h, 12 h, 15 h, 18 h, 20 h, 22 h, minutes au hasard (planifier.py le fait seul).
+- Types : 2 suites logiques, 2 quiz lettre, 1 quiz France, 1 quiz Monde OU mot mystère (un jour sur deux).
+  Logique et lettre = meilleurs scores (YouTube 923 / 222 vues, Instagram ≈ 220, TikTok ≈ 100) → placés le soir 18-22 h.
+- Publication sur 3 comptes : TikTok, YouTube, Instagram. FACEBOOK EN PAUSE (0 vue, 0 abonné) tant que la page n'est pas
+  reconnectée dans Publio.
+- Bilan chaque dimanche : relire voir_stats et ajuster le mélange des types.
+
+# ⏰ MISE À JOUR 12 nov. 2026 — REMPLACÉE par celle du 18 nov. (le programme ci-dessous ne vaut plus)
 - 12 vidéos par jour, une toutes les 2 heures (0 h, 2 h … 22 h), à des MINUTES AU HASARD chaque jour (ex. 6 h 10, 7 h 55, 10 h 03) :
   jamais l'heure pile, jamais le même horaire d'un jour à l'autre, pour ne pas ressembler à un robot (planifier.py le fait seul).
 - Types : 2 mots mystères, 2 suites logiques, 4 quiz France, 2 quiz Monde, 2 quiz lettre (jamais deux fois le même type de suite).
