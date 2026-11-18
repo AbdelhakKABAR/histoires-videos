@@ -199,7 +199,8 @@
   "L'ancienne province de chaque ville",
   "La région de chaque abbaye",
   "Le pays de chaque temple",
-  "La mer de chaque ville côtière"
+  "La mer de chaque ville côtière",
+  "La région de chaque forêt"
  ],
  "a_faire": [
   "Les pays d'Europe",

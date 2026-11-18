@@ -1,0 +1,26 @@
+{
+ "title": "La région de chaque forêt",
+ "subject": "Forêts de France",
+ "banner": "Quiz : les forêts de France",
+ "icon": "🌳",
+ "symbols": ["🌳","🌲","🍂","🦌","🍄","🌿","🐗","🦉","🍃","🌰","🐿","🪵","🗺","✨","🇫🇷","⭐"],
+ "description": "🌳 Quiz France : dans quelle région est chaque forêt ? Brocéliande, Compiègne… La dernière piège plein de monde. Ton score ? 👇 #quiz #testculturegenerale #geographie #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz forêts de France ! La forêt de Brocéliande, celle de la légende du roi Arthur, est dans quelle région ?", "qd": "La forêt de Brocéliande ?", "a": [["","Normandie"],["","Bretagne"],["","Occitanie"],["","Grand Est"]], "ok": 1, "say": "La Bretagne !", "level": 0},
+  {"q": "La forêt des Landes, immense forêt de pins, est dans quelle région ?", "qd": "La forêt des Landes ?", "a": [["","Occitanie"],["","Pays de la Loire"],["","Nouvelle-Aquitaine"],["","Provence-Alpes-Côte d'Azur"]], "ok": 2, "say": "La Nouvelle-Aquitaine !", "level": 0},
+  {"q": "La forêt de Fontainebleau et ses rochers d'escalade sont dans quelle région ?", "qd": "La forêt de Fontainebleau ?", "a": [["","Île-de-France"],["","Centre-Val de Loire"],["","Hauts-de-France"],["","Normandie"]], "ok": 0, "say": "L'Île-de-France !", "level": 0},
+  {"q": "La forêt de Compiègne, près du célèbre château, est dans quelle région ?", "qd": "La forêt de Compiègne ?", "a": [["","Normandie"],["","Grand Est"],["","Île-de-France"],["","Hauts-de-France"]], "ok": 3, "say": "Les Hauts-de-France, dans l'Oise !", "level": 1},
+  {"q": "La forêt de Chaux, près de Dole, dans le Jura, est dans quelle région ?", "qd": "La forêt de Chaux, dans le Jura ?", "a": [["","Auvergne-Rhône-Alpes"],["","Bourgogne-Franche-Comté"],["","Grand Est"],["","Centre-Val de Loire"]], "ok": 1, "say": "La Bourgogne-Franche-Comté !", "level": 1},
+  {"q": "La forêt de Verdun, plantée sur l'ancien champ de bataille, est dans quelle région ?", "qd": "La forêt de Verdun ?", "a": [["","Hauts-de-France"],["","Bourgogne-Franche-Comté"],["","Grand Est"],["","Normandie"]], "ok": 2, "say": "Le Grand Est, dans la Meuse !", "level": 1},
+  {"q": "La forêt de Tronçais et ses chênes géants, dans l'Allier, est dans quelle région ?", "qd": "La forêt de Tronçais ?", "a": [["","Auvergne-Rhône-Alpes"],["","Centre-Val de Loire"],["","Nouvelle-Aquitaine"],["","Bourgogne-Franche-Comté"]], "ok": 0, "say": "L'Auvergne-Rhône-Alpes, dans l'Allier !", "level": 2},
+  {"q": "La forêt de Bercé, dans la Sarthe, est dans quelle région ?", "qd": "La forêt de Bercé ?", "a": [["","Normandie"],["","Centre-Val de Loire"],["","Bretagne"],["","Pays de la Loire"]], "ok": 3, "say": "Les Pays de la Loire, dans la Sarthe !", "level": 3}
+ ],
+ "bonus": {"q": "Dans quelle région se trouve la forêt d'Orient et ses grands lacs, dans l'Aube ?", "qd": "La forêt d'Orient, dans l'Aube : quelle région ?"},
+ "accroche": "La dernière forêt piège tout le monde",
+ "accroche_dite": "La dernière forêt piège presque tout le monde !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
