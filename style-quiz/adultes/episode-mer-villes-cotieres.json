@@ -1,0 +1,26 @@
+{
+ "title": "La mer de chaque ville côtière",
+ "subject": "Géographie",
+ "banner": "Quiz France : les mers",
+ "icon": "🌊",
+ "symbols": ["🌊","⚓","🏖","⛵","🐚","🌅","🧭","🐟","🦀","⛱","🚢","🗺","✨","🐬","🏝","⭐"],
+ "description": "🌊 Quiz France : au bord de quelle mer est chaque ville ? Marseille, La Rochelle… La dernière piège plein de monde. Ton score ? 👇 #quiz #quizz #geographie #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz France ! Au bord de quelle mer se trouve Marseille ?", "qd": "La mer de Marseille ?", "a": [["","Manche"],["","Méditerranée"],["","Atlantique"],["","Mer du Nord"]], "ok": 1, "say": "La Méditerranée !", "level": 0},
+  {"q": "Biarritz se trouve au bord de quelle mer ?", "qd": "La mer de Biarritz ?", "a": [["","Atlantique"],["","Méditerranée"],["","Manche"],["","Mer du Nord"]], "ok": 0, "say": "L'océan Atlantique !", "level": 0},
+  {"q": "Saint-Malo se trouve au bord de quelle mer ?", "qd": "La mer de Saint-Malo ?", "a": [["","Méditerranée"],["","Mer du Nord"],["","Atlantique"],["","Manche"]], "ok": 3, "say": "La Manche !", "level": 0},
+  {"q": "La Rochelle se trouve au bord de quelle mer ?", "qd": "La mer de La Rochelle ?", "a": [["","Manche"],["","Mer du Nord"],["","Atlantique"],["","Méditerranée"]], "ok": 2, "say": "L'océan Atlantique !", "level": 1},
+  {"q": "Sète se trouve au bord de quelle mer ?", "qd": "La mer de Sète ?", "a": [["","Atlantique"],["","Méditerranée"],["","Manche"],["","Mer du Nord"]], "ok": 1, "say": "La Méditerranée !", "level": 1},
+  {"q": "Le Havre se trouve au bord de quelle mer ?", "qd": "La mer du Havre ?", "a": [["","Manche"],["","Atlantique"],["","Mer du Nord"],["","Méditerranée"]], "ok": 0, "say": "La Manche !", "level": 1},
+  {"q": "Cherbourg se trouve au bord de quelle mer ?", "qd": "La mer de Cherbourg ?", "a": [["","Mer du Nord"],["","Atlantique"],["","Manche"],["","Méditerranée"]], "ok": 2, "say": "La Manche !", "level": 2},
+  {"q": "Et Dunkerque, au bord de quelle mer se trouve la ville ?", "qd": "La mer de Dunkerque ?", "a": [["","Manche"],["","Atlantique"],["","Méditerranée"],["","Mer du Nord"]], "ok": 3, "say": "La mer du Nord !", "level": 3}
+ ],
+ "bonus": {"q": "Au bord de quelle mer se trouve la ville de Toulon ?", "qd": "Au bord de quelle mer est Toulon ?"},
+ "accroche": "80 % se trompent sur la dernière ville",
+ "accroche_dite": "Quatre-vingts pour cent des gens se trompent sur la dernière ville !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
