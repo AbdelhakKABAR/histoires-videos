@@ -1,0 +1,26 @@
+{
+ "title": "Le journal régional de chaque ville",
+ "subject": "Presse",
+ "banner": "Quiz France : les journaux",
+ "icon": "📰",
+ "symbols": ["📰","🗞","✒","🇫🇷","🖋","📍","🗼","☕","📖","✨","🥐","📮","⭐","🗺","✦","📣"],
+ "description": "📰 Quiz France : quel journal régional dans chaque ville ? Marseille, Lyon… Et chez toi, tu lis lequel ? 👇 #quiz #apprendresurtiktok #presse #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire le journal de ta ville, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz France ! Quel journal régional a son siège à Marseille ?", "qd": "Le journal de Marseille ?", "a": [["","Nice-Matin"],["","La Provence"],["","Le Progrès"],["","Sud Ouest"]], "ok": 1, "say": "La Provence !", "level": 0},
+  {"q": "Quel journal régional a son siège à Lille ?", "qd": "Le journal de Lille ?", "a": [["","La Voix du Nord"],["","Ouest-France"],["","Le Courrier picard"],["","L'Est Républicain"]], "ok": 0, "say": "La Voix du Nord !", "level": 0},
+  {"q": "Quel journal régional a son siège à Bordeaux ?", "qd": "Le journal de Bordeaux ?", "a": [["","La Dépêche du Midi"],["","Le Télégramme"],["","Sud Ouest"],["","La Montagne"]], "ok": 2, "say": "Sud Ouest !", "level": 0},
+  {"q": "Quel journal régional a son siège à Lyon ?", "qd": "Le journal de Lyon ?", "a": [["","Le Dauphiné libéré"],["","La Montagne"],["","L'Est Républicain"],["","Le Progrès"]], "ok": 3, "say": "Le Progrès !", "level": 1},
+  {"q": "Quel journal régional a son siège à Toulouse ?", "qd": "Le journal de Toulouse ?", "a": [["","La Dépêche du Midi"],["","Midi Libre"],["","Sud Ouest"],["","La Provence"]], "ok": 0, "say": "La Dépêche du Midi !", "level": 1},
+  {"q": "Quel journal régional a son siège à Strasbourg ?", "qd": "Le journal de Strasbourg ?", "a": [["","Le Républicain lorrain"],["","Les Dernières Nouvelles d'Alsace"],["","L'Est Républicain"],["","La Voix du Nord"]], "ok": 1, "say": "Les Dernières Nouvelles d'Alsace !", "level": 1},
+  {"q": "Quel journal régional a son siège à Clermont-Ferrand ?", "qd": "Le journal de Clermont-Ferrand ?", "a": [["","Le Progrès"],["","Le Dauphiné libéré"],["","La Montagne"],["","La Nouvelle République"]], "ok": 2, "say": "La Montagne !", "level": 2},
+  {"q": "Quel grand journal régional breton a son siège à Morlaix ?", "qd": "Le journal basé à Morlaix ?", "a": [["","Ouest-France"],["","Le Courrier picard"],["","Paris-Normandie"],["","Le Télégramme"]], "ok": 3, "say": "Le Télégramme !", "level": 3}
+ ],
+ "bonus": {"q": "Quel journal régional a son siège à Nice ?", "qd": "Quel journal a son siège à Nice ?"},
+ "accroche": "Seul 1 Français sur 20 a tout bon",
+ "accroche_dite": "Seul un Français sur vingt a tout bon !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
