@@ -1,0 +1,22 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "mot": "PAPILLON",
+ "categorie": "Un animal",
+ "categorie_dite": "Mot mystère. Catégorie : un animal.",
+ "accroche": "Tu le trouves en combien d'indices ?",
+ "accroche_pill": "MOT MYSTÈRE",
+ "accroche_dite": "Mot mystère : tu le trouves en combien d'indices ?",
+ "indices": [
+  "Il change de corps au cours de sa vie.",
+  "Ses ailes sont couvertes de fines écailles.",
+  "Il sort d'une chrysalide.",
+  "Il butine les fleurs du jardin.",
+  "Avant, c'était une chenille."
+ ],
+ "lettres_donnees": 1,
+ "dire": "Papillon",
+ "explication": "Le papillon : une chenille qui se transforme dans sa chrysalide.",
+ "description": "🦋 Mot mystère : un animal en 5 indices. Au combien tu l'as trouvé ? Dis-le en commentaire 👇 #motmystere #culturegenerale #animaux #insectes #publiostudio"
+}

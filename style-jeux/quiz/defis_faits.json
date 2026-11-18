@@ -35,7 +35,8 @@
   "TOURNESOL",
   "DAUPHIN",
   "CINÉMA",
-  "CHOCOLAT"
+  "CHOCOLAT",
+  "PAPILLON"
  ],
  "suites": [
   "1, 11, 21, 1211, 111221 (suite de Conway)",
