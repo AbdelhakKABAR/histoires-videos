@@ -1,0 +1,22 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "mot": "CHOCOLAT",
+ "categorie": "Une gourmandise",
+ "categorie_dite": "Mot mystère. Catégorie : une gourmandise.",
+ "accroche": "Les gourmands trouvent au 1er indice",
+ "accroche_pill": "MOT MYSTÈRE",
+ "accroche_dite": "Mot mystère : les gourmands le trouvent dès le premier indice !",
+ "indices": [
+  "Il vient d'une graine d'Amérique.",
+  "Les Aztèques en faisaient une boisson épicée.",
+  "On l'offre en œufs ou en cloches à Pâques.",
+  "Il peut être noir, au lait ou blanc.",
+  "On le fabrique avec des fèves de cacao."
+ ],
+ "lettres_donnees": 1,
+ "dire": "Chocolat",
+ "explication": "Le chocolat, fabriqué avec les fèves du cacaoyer, déjà bu par les Aztèques.",
+ "description": "🍫 Mot mystère : une gourmandise célèbre en 5 indices. Tu l'as trouvée au combien ? Dis-le en commentaire 👇 #motmystere #testculturegenerale #cuisine #chocolat #publiostudio"
+}
