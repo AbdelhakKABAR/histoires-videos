@@ -1,0 +1,243 @@
+{
+ "title": "Complète le nom de chaque spécialité",
+ "subject": "Gastronomie",
+ "banner": "Quiz : complète la spécialité",
+ "icon": "🥖",
+ "symbols": [
+  "🥖",
+  "🧀",
+  "🍯",
+  "🥐",
+  "🍬",
+  "🍰",
+  "🇫🇷",
+  "⭐",
+  "🍮",
+  "🥧",
+  "🍫",
+  "🗼",
+  "✨",
+  "🍷",
+  "🫙",
+  "🧁"
+ ],
+ "description": "🥖 Quiz France : complète le nom de chaque spécialité ! Moutarde de…, nougat de… La dernière piège presque tout le monde. Ton score sur 8 ? 👇 #quiz #testculturegenerale #cuisine #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Laquelle t'a piégé ? Dis-le en commentaire !",
+ "questions": [
+  {
+   "q": "Quiz France ! La moutarde de… ?",
+   "qd": "La moutarde de… ?",
+   "a": [
+    [
+     "",
+     "Dijon"
+    ],
+    [
+     "",
+     "Lyon"
+    ],
+    [
+     "",
+     "Reims"
+    ],
+    [
+     "",
+     "Nancy"
+    ]
+   ],
+   "ok": 0,
+   "say": "Dijon !",
+   "level": 0
+  },
+  {
+   "q": "Le gâteau Paris… ?",
+   "qd": "Le gâteau Paris-… ?",
+   "a": [
+    [
+     "",
+     "Nice"
+    ],
+    [
+     "",
+     "Lille"
+    ],
+    [
+     "",
+     "Brest"
+    ],
+    [
+     "",
+     "Rouen"
+    ]
+   ],
+   "ok": 2,
+   "say": "Brest !",
+   "level": 0
+  },
+  {
+   "q": "La salade au thon et aux olives : la salade… ?",
+   "qd": "La salade… au thon et olives ?",
+   "a": [
+    [
+     "",
+     "lyonnaise"
+    ],
+    [
+     "",
+     "niçoise"
+    ],
+    [
+     "",
+     "landaise"
+    ],
+    [
+     "",
+     "parisienne"
+    ]
+   ],
+   "ok": 1,
+   "say": "Niçoise !",
+   "level": 0
+  },
+  {
+   "q": "Le nougat de… ?",
+   "qd": "Le nougat de… ?",
+   "a": [
+    [
+     "",
+     "Marseille"
+    ],
+    [
+     "",
+     "Toulon"
+    ],
+    [
+     "",
+     "Montpellier"
+    ],
+    [
+     "",
+     "Montélimar"
+    ]
+   ],
+   "ok": 3,
+   "say": "Montélimar !",
+   "level": 1
+  },
+  {
+   "q": "Les rillettes du… ?",
+   "qd": "Les rillettes du… ?",
+   "a": [
+    [
+     "",
+     "Mans"
+    ],
+    [
+     "",
+     "Havre"
+    ],
+    [
+     "",
+     "Puy"
+    ],
+    [
+     "",
+     "Creusot"
+    ]
+   ],
+   "ok": 0,
+   "say": "Du Mans !",
+   "level": 1
+  },
+  {
+   "q": "Les calissons d'… ?",
+   "qd": "Les calissons d'… ?",
+   "a": [
+    [
+     "",
+     "Arles"
+    ],
+    [
+     "",
+     "Agen"
+    ],
+    [
+     "",
+     "Aix"
+    ],
+    [
+     "",
+     "Albi"
+    ]
+   ],
+   "ok": 2,
+   "say": "Aix !",
+   "level": 1
+  },
+  {
+   "q": "Ces bonbons à la menthe : les bêtises de… ?",
+   "qd": "Les bêtises de… ?",
+   "a": [
+    [
+     "",
+     "Calais"
+    ],
+    [
+     "",
+     "Cambrai"
+    ],
+    [
+     "",
+     "Cognac"
+    ],
+    [
+     "",
+     "Colmar"
+    ]
+   ],
+   "ok": 1,
+   "say": "Cambrai !",
+   "level": 2
+  },
+  {
+   "q": "Et les madeleines de… ?",
+   "qd": "Les madeleines de… ?",
+   "a": [
+    [
+     "",
+     "Cabourg"
+    ],
+    [
+     "",
+     "Combourg"
+    ],
+    [
+     "",
+     "Compiègne"
+    ],
+    [
+     "",
+     "Commercy"
+    ]
+   ],
+   "ok": 3,
+   "say": "Commercy !",
+   "level": 3
+  }
+ ],
+ "bonus": {
+  "q": "Le canelé vient de quelle ville ?",
+  "qd": "Le canelé vient de quelle ville ?"
+ },
+ "accroche": "La madeleine piège tout le monde",
+ "accroche_dite": "La madeleine piège tout le monde !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
