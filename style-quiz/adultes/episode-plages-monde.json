@@ -1,0 +1,26 @@
+{
+ "title": "Le pays de chaque plage célèbre",
+ "subject": "Voyage",
+ "banner": "Quiz : les plages du monde",
+ "icon": "🏖",
+ "symbols": ["🏖","🌴","🌊","🐚","☀️","🌍","🏝","⛱","🐠","🌅","🦀","🧭","🌎","✨","🛶","🗺"],
+ "description": "🏖 Quiz culture générale : dans quel pays est chaque plage ? Copacabana, Maya Bay… La dernière piège presque tout le monde. Ton score ? 👇 #quiz #culturegenerale #voyage #monde #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire quelle plage t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz plages ! La plage de Copacabana se trouve dans quel pays ?", "qd": "La plage de Copacabana ?", "a": [["","Argentine"],["","Brésil"],["","Mexique"],["","Portugal"]], "ok": 1, "say": "Le Brésil, à Rio de Janeiro !", "level": 0},
+  {"q": "Bondi Beach, la plage des surfeurs, est dans quel pays ?", "qd": "Bondi Beach ?", "a": [["","Australie"],["","Nouvelle-Zélande"],["","Afrique du Sud"],["","États-Unis"]], "ok": 0, "say": "L'Australie, à Sydney !", "level": 0},
+  {"q": "La plage de Waikiki, à Honolulu, est dans quel pays ?", "qd": "La plage de Waikiki ?", "a": [["","Philippines"],["","Fidji"],["","États-Unis"],["","Mexique"]], "ok": 2, "say": "Les États-Unis, à Hawaï !", "level": 0},
+  {"q": "Maya Bay, la plage du film La Plage, est dans quel pays ?", "qd": "Maya Bay ?", "a": [["","Indonésie"],["","Vietnam"],["","Philippines"],["","Thaïlande"]], "ok": 3, "say": "La Thaïlande !", "level": 1},
+  {"q": "La plage de Navagio et son bateau échoué sont dans quel pays ?", "qd": "La plage de Navagio ?", "a": [["","Grèce"],["","Croatie"],["","Italie"],["","Malte"]], "ok": 0, "say": "La Grèce, sur l'île de Zante !", "level": 1},
+  {"q": "Nazaré, la plage des vagues géantes, est dans quel pays ?", "qd": "La plage de Nazaré ?", "a": [["","Espagne"],["","Portugal"],["","Brésil"],["","Maroc"]], "ok": 1, "say": "Le Portugal !", "level": 1},
+  {"q": "L'Anse Source d'Argent et ses gros rochers de granit sont dans quel pays ?", "qd": "L'Anse Source d'Argent ?", "a": [["","Maurice"],["","Maldives"],["","Seychelles"],["","Madagascar"]], "ok": 2, "say": "Les Seychelles !", "level": 2},
+  {"q": "Reynisfjara, la célèbre plage de sable noir, est dans quel pays ?", "qd": "La plage de Reynisfjara ?", "a": [["","Norvège"],["","Écosse"],["","Irlande"],["","Islande"]], "ok": 3, "say": "L'Islande !", "level": 3}
+ ],
+ "bonus": {"q": "Dans quel pays se trouve la station balnéaire de Benidorm ?", "qd": "Dans quel pays est la plage de Benidorm ?"},
+ "accroche": "1 sur 4 trouve la dernière plage",
+ "accroche_dite": "Seulement une personne sur quatre trouve la dernière plage !",
+ "accroche_pill": "TOUR DU MONDE"
+}
