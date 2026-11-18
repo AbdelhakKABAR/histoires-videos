@@ -345,6 +345,21 @@
     "Amazone",
     "Amsterdam"
    ]
+  },
+  {
+   "lettre": "B",
+   "date": "2026-11-18",
+   "fichier": "episode-lettre-b-2026-11-18-09.json",
+   "reponses": [
+    "Baleine",
+    "Bougie",
+    "Boulanger",
+    "Bordeaux",
+    "Brocoli",
+    "Berlin",
+    "Barcelone",
+    "Bolivie"
+   ]
   }
  ]
 }

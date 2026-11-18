@@ -1,0 +1,29 @@
+{
+ "title": "Quiz lettre B",
+ "subject": "Lettre B",
+ "banner": "Quiz lettre B",
+ "mode": "lettre",
+ "letter": "B",
+ "icon": "🧠",
+ "symbols": ["B","A","B","C","?","!","★","✦","B","Z","M","?","●","◆","B","✧"],
+ "description": "🔤 Quiz lettre B : toutes les réponses commencent par B ! De la baleine à Bordeaux… Tu fais un sans-faute ? 👇 #quizlettre #apprendresurtiktok #culturegenerale #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quel est le plus grand animal du monde, qui vit dans l'océan ?", "qd": "Plus grand animal du monde, dans l'océan ?", "answer": "Baleine", "say": "La baleine !", "level": 0},
+  {"q": "Quel objet en cire éclaire avec une petite flamme ?", "qd": "Objet en cire qui éclaire avec une flamme ?", "answer": "Bougie", "say": "La bougie !", "level": 0},
+  {"q": "Quel artisan fabrique le pain et les croissants ?", "qd": "Artisan qui fait le pain ?", "answer": "Boulanger", "say": "Le boulanger !", "level": 0},
+  {"q": "Quelle grande ville du sud-ouest, traversée par la Garonne, est célèbre pour son vin ?", "qd": "Ville du vin, traversée par la Garonne ?", "answer": "Bordeaux", "say": "Bordeaux !", "level": 1},
+  {"q": "Quel légume vert ressemble à un petit arbre ?", "qd": "Légume vert en forme de petit arbre ?", "answer": "Brocoli", "say": "Le brocoli !", "level": 1},
+  {"q": "Quelle est la capitale de l'Allemagne ?", "qd": "Capitale de l'Allemagne ?", "answer": "Berlin", "say": "Berlin !", "level": 1},
+  {"q": "Quelle ville espagnole abrite la Sagrada Família ?", "qd": "Ville de la Sagrada Família ?", "answer": "Barcelone", "say": "Barcelone !", "level": 2},
+  {"q": "Quel pays d'Amérique du Sud porte le nom de Simón Bolívar ?", "qd": "Pays qui porte le nom de Simón Bolívar ?", "answer": "Bolivie", "say": "La Bolivie !", "level": 3}
+ ],
+ "intro": "Toutes les réponses commencent par la lettre B !",
+ "intro_speed": 0.9,
+ "accroche": "La 8 piège 3 personnes sur 4",
+ "accroche_dite": "La huitième question piège trois personnes sur quatre !",
+ "accroche_pill": "QUIZ LETTRE B"
+}
