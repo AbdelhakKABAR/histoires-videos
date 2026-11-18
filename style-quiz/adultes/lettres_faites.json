@@ -360,6 +360,21 @@
     "Barcelone",
     "Bolivie"
    ]
+  },
+  {
+   "lettre": "C",
+   "date": "2026-11-18",
+   "fichier": "episode-lettre-c-2026-11-18-16.json",
+   "reponses": [
+    "Citron",
+    "Crocodile",
+    "Chocolat",
+    "Chine",
+    "Coq",
+    "Caméléon",
+    "Cléopâtre",
+    "Cervantès"
+   ]
   }
  ]
 }

@@ -1,0 +1,29 @@
+{
+ "title": "Quiz lettre C",
+ "subject": "Lettre C",
+ "banner": "Quiz lettre C",
+ "mode": "lettre",
+ "letter": "C",
+ "icon": "🧠",
+ "symbols": ["C","A","B","C","?","!","★","✦","C","Z","M","?","●","◆","C","✧"],
+ "description": "🔤 Quiz lettre C : toutes les réponses commencent par C ! Du citron à la Chine… Tu fais un sans-faute ? Ton score en commentaire 👇 #quizlettre #testculturegenerale #quizz #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Écris ton score en commentaire, et abonne-toi !",
+ "questions": [
+  {"q": "Quel fruit jaune est très acide ?", "qd": "Fruit jaune très acide ?", "answer": "Citron", "say": "Le citron !", "level": 0},
+  {"q": "Quel grand reptile aux dents pointues vit dans les fleuves d'Afrique ?", "qd": "Grand reptile aux dents pointues des fleuves ?", "answer": "Crocodile", "say": "Le crocodile !", "level": 0},
+  {"q": "Quelle gourmandise est fabriquée avec des fèves de cacao ?", "qd": "Gourmandise faite avec du cacao ?", "answer": "Chocolat", "say": "Le chocolat !", "level": 0},
+  {"q": "Dans quel pays se trouve la Grande Muraille ?", "qd": "Pays de la Grande Muraille ?", "answer": "Chine", "say": "La Chine !", "level": 1},
+  {"q": "Quel oiseau de la ferme est un symbole de la France ?", "qd": "Oiseau symbole de la France ?", "answer": "Coq", "say": "Le coq !", "level": 1},
+  {"q": "Quel lézard est capable de changer de couleur ?", "qd": "Lézard qui change de couleur ?", "answer": "Caméléon", "say": "Le caméléon !", "level": 1},
+  {"q": "Quelle célèbre reine a été la dernière souveraine de l'Égypte ancienne ?", "qd": "Dernière reine de l'Égypte ancienne ?", "answer": "Cléopâtre", "say": "Cléopâtre !", "level": 2},
+  {"q": "Quel écrivain espagnol a écrit Don Quichotte ?", "qd": "Écrivain espagnol de Don Quichotte ?", "answer": "Cervantès", "say": "Cervantès !", "level": 3}
+ ],
+ "intro": "Toutes les réponses commencent par la lettre C !",
+ "intro_speed": 0.9,
+ "accroche": "Seul 1 sur 5 trouve la dernière",
+ "accroche_dite": "Seulement une personne sur cinq trouve la dernière !",
+ "accroche_pill": "QUIZ LETTRE C"
+}
