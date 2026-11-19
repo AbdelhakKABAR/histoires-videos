@@ -1,0 +1,22 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "mot": "VOLCAN",
+ "categorie": "Un phénomène de la nature",
+ "categorie_dite": "Mot mystère. Catégorie : un phénomène de la nature.",
+ "accroche": "Trouvé au 2e indice ? Génie !",
+ "accroche_pill": "MOT MYSTÈRE",
+ "accroche_dite": "Mot mystère : si tu le trouves au deuxième indice, tu es un génie !",
+ "indices": [
+  "Il peut dormir pendant des siècles.",
+  "Il en existe aussi sous les océans.",
+  "Il crache des cendres et de la fumée.",
+  "En Auvergne, le puy de Dôme en est un.",
+  "De son cratère jaillit de la lave."
+ ],
+ "lettres_donnees": 1,
+ "dire": "Volcan",
+ "explication": "Le volcan : il crache lave et cendres par son cratère, comme les puys d'Auvergne.",
+ "description": "🌋 Mot mystère : un phénomène de la nature en 5 indices. Tu l'as trouvé au combien ? Dis-le en commentaire 👇 #motmystere #apprendresurtiktok #nature #geographie #publiostudio"
+}
