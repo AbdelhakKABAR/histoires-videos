@@ -390,6 +390,21 @@
     "Dalí",
     "Dumas"
    ]
+  },
+  {
+   "lettre": "E",
+   "date": "2026-11-19",
+   "fichier": "episode-lettre-e-2026-11-19-20.json",
+   "reponses": [
+    "Escargot",
+    "Étoile",
+    "Écureuil",
+    "Égypte",
+    "Épinards",
+    "Eiffel",
+    "Écosse",
+    "Etna"
+   ]
   }
  ]
 }

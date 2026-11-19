@@ -1,0 +1,29 @@
+{
+ "title": "Quiz lettre E",
+ "subject": "Lettre E",
+ "banner": "Quiz lettre E",
+ "mode": "lettre",
+ "letter": "E",
+ "icon": "🧠",
+ "symbols": ["E","A","B","C","?","!","★","✦","E","Z","M","?","●","◆","E","✧"],
+ "description": "🔤 Quiz lettre E : toutes les réponses commencent par E ! De l'escargot à l'Égypte… Tu tiens jusqu'à la dernière ? Ton score en commentaire 👇 #quizlettre #testculturegenerale #quiz #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Écris ton score en commentaire, et abonne-toi !",
+ "questions": [
+  {"q": "Quel petit animal lent porte sa coquille sur le dos ?", "qd": "Animal lent qui porte sa coquille ?", "answer": "Escargot", "say": "L'escargot !", "level": 0},
+  {"q": "Qu'est-ce qui brille dans le ciel la nuit, à part la Lune ?", "qd": "Brille dans le ciel la nuit, à part la Lune ?", "answer": "Étoile", "say": "Une étoile !", "level": 0},
+  {"q": "Quel petit rongeur roux à la queue touffue adore les noisettes ?", "qd": "Rongeur roux à queue touffue, fan de noisettes ?", "answer": "Écureuil", "say": "L'écureuil !", "level": 0},
+  {"q": "Dans quel pays se trouvent les pyramides de Gizeh ?", "qd": "Pays des pyramides de Gizeh ?", "answer": "Égypte", "say": "L'Égypte !", "level": 1},
+  {"q": "Quel légume vert donne sa force à Popeye ?", "qd": "Légume vert qui rend Popeye fort ?", "answer": "Épinards", "say": "Les épinards !", "level": 1},
+  {"q": "Quel ingénieur a donné son nom à la célèbre tour de Paris ?", "qd": "Ingénieur de la célèbre tour de Paris ?", "answer": "Eiffel", "say": "Gustave Eiffel !", "level": 1},
+  {"q": "Quel pays est célèbre pour le kilt et la cornemuse ?", "qd": "Pays du kilt et de la cornemuse ?", "answer": "Écosse", "say": "L'Écosse !", "level": 2},
+  {"q": "Quel volcan actif domine l'île de Sicile ?", "qd": "Volcan actif de Sicile ?", "answer": "Etna", "say": "L'Etna !", "level": 3}
+ ],
+ "intro": "Toutes les réponses commencent par la lettre E !",
+ "intro_speed": 0.9,
+ "accroche": "La 8e piège presque tout le monde",
+ "accroche_dite": "La huitième question piège presque tout le monde !",
+ "accroche_pill": "QUIZ LETTRE E"
+}
