@@ -1,0 +1,18 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["1", "2", "3", "6", "11", "20"],
+ "options": ["31", "37", "40", "34"],
+ "ok": 1,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "9 personnes sur 10 répondent 31",
+ "accroche_pill": "SUITE LOGIQUE",
+ "accroche_dite": "Neuf personnes sur dix se trompent sur cette suite logique. Et toi ?",
+ "question_dite": "Un, deux, trois, six, onze, vingt… Quel nombre vient ensuite ?",
+ "explication": "Chaque nombre est la somme des trois précédents : 6 + 11 + 20 = 37.",
+ "explication_dite": "Trente-sept ! Chaque nombre est la somme des trois précédents : six plus onze plus vingt, trente-sept.",
+ "fin": "Tu avais trouvé 37 ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔢 Suite logique : 1, 2, 3, 6, 11, 20… quel nombre ensuite ? Tu trouves avant la fin du chrono ? 👇 #suitelogique #culturegenerale #maths #enigme #publiostudio"
+}
