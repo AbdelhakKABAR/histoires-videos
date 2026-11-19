@@ -1,0 +1,18 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["1", "2", "5", "14", "41"],
+ "options": ["121", "164", "123", "122"],
+ "ok": 3,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "Presque tout le monde se trompe",
+ "accroche_pill": "SUITE LOGIQUE",
+ "accroche_dite": "Cette suite logique, presque tout le monde se trompe. Et toi ?",
+ "question_dite": "Un, deux, cinq, quatorze, quarante et un… Quel nombre vient ensuite ?",
+ "explication": "On multiplie par 3 puis on retire 1 : 41 × 3 − 1 = 122.",
+ "explication_dite": "Cent vingt-deux ! On multiplie par trois, puis on retire un : quarante et un fois trois, cent vingt-trois, moins un, cent vingt-deux.",
+ "fin": "Tu avais trouvé 122 ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔢 Suite logique : 1, 2, 5, 14, 41… quel nombre ensuite ? Tu trouves avant la fin du chrono ? 👇 #suitelogique #testculturegenerale #maths #enigme #publiostudio"
+}
