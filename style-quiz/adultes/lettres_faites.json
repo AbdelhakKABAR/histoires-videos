@@ -375,6 +375,21 @@
     "Cléopâtre",
     "Cervantès"
    ]
+  },
+  {
+   "lettre": "D",
+   "date": "2026-11-19",
+   "fichier": "episode-lettre-d-2026-11-19-08.json",
+   "reponses": [
+    "Dromadaire",
+    "Dinosaure",
+    "Dé",
+    "Dijon",
+    "Dragon",
+    "Domino",
+    "Dalí",
+    "Dumas"
+   ]
   }
  ]
 }

@@ -1,0 +1,29 @@
+{
+ "title": "Quiz lettre D",
+ "subject": "Lettre D",
+ "banner": "Quiz lettre D",
+ "mode": "lettre",
+ "letter": "D",
+ "icon": "🧠",
+ "symbols": ["D","A","B","C","?","!","★","✦","D","Z","M","?","●","◆","D","✧"],
+ "description": "🔤 Quiz lettre D : toutes les réponses commencent par D ! Du dromadaire à Dijon… Tu fais un sans-faute ? Ton score en commentaire 👇 #quizlettre #culturegenerale #quiz #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quel animal du désert n'a qu'une seule bosse ?", "qd": "Animal du désert à une seule bosse ?", "answer": "Dromadaire", "say": "Le dromadaire !", "level": 0},
+  {"q": "Quel grand reptile préhistorique a disparu il y a des millions d'années ?", "qd": "Grand reptile préhistorique disparu ?", "answer": "Dinosaure", "say": "Le dinosaure !", "level": 0},
+  {"q": "Quel petit cube à six faces sert à jouer ?", "qd": "Petit cube à six faces pour jouer ?", "answer": "Dé", "say": "Le dé !", "level": 0},
+  {"q": "Quelle ville de Bourgogne est célèbre pour sa moutarde ?", "qd": "Ville de Bourgogne célèbre pour sa moutarde ?", "answer": "Dijon", "say": "Dijon !", "level": 1},
+  {"q": "Quel animal légendaire crache du feu ?", "qd": "Animal légendaire qui crache du feu ?", "answer": "Dragon", "say": "Le dragon !", "level": 1},
+  {"q": "Quel jeu se joue avec des petits rectangles marqués de points ?", "qd": "Jeu de petits rectangles à points ?", "answer": "Domino", "say": "Les dominos !", "level": 1},
+  {"q": "Quel peintre espagnol est célèbre pour ses montres molles ?", "qd": "Peintre espagnol des montres molles ?", "answer": "Dalí", "say": "Salvador Dalí !", "level": 2},
+  {"q": "Quel écrivain français a écrit Les Trois Mousquetaires ?", "qd": "Auteur des Trois Mousquetaires ?", "answer": "Dumas", "say": "Alexandre Dumas !", "level": 3}
+ ],
+ "intro": "Toutes les réponses commencent par la lettre D !",
+ "intro_speed": 0.9,
+ "accroche": "3 sur 4 ratent la dernière",
+ "accroche_dite": "Trois personnes sur quatre ratent la dernière !",
+ "accroche_pill": "QUIZ LETTRE D"
+}
