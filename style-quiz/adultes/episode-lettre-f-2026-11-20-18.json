@@ -1,0 +1,29 @@
+{
+ "title": "Quiz lettre F",
+ "subject": "Lettre F",
+ "banner": "Quiz lettre F",
+ "mode": "lettre",
+ "letter": "F",
+ "icon": "🧠",
+ "symbols": ["F","A","B","C","?","!","★","✦","F","Z","M","?","●","◆","F","✧"],
+ "description": "🔤 Quiz lettre F : toutes les réponses commencent par F ! De la fourmi à la fusée… Tu tiens jusqu'à la dernière ? Ton score en commentaire 👇 #quizlettre #quizz #quiz #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quel petit insecte vit en colonie et transporte des miettes ?", "qd": "Petit insecte qui vit en colonie ?", "answer": "Fourmi", "say": "La fourmi !", "level": 0},
+  {"q": "Le camembert et le brie sont des sortes de quoi ?", "qd": "Le camembert et le brie sont des… ?", "answer": "Fromage", "say": "Du fromage !", "level": 0},
+  {"q": "Quel sport se joue à onze contre onze avec un ballon rond ?", "qd": "Sport à 11 contre 11 avec un ballon rond ?", "answer": "Football", "say": "Le football !", "level": 0},
+  {"q": "Quel engin emmène les astronautes dans l'espace ?", "qd": "Engin qui emmène les astronautes dans l'espace ?", "answer": "Fusée", "say": "La fusée !", "level": 1},
+  {"q": "Quel fruit violet pousse sur un arbre du Sud et se mange souvent séché ?", "qd": "Fruit violet du Sud, souvent mangé séché ?", "answer": "Figue", "say": "La figue !", "level": 1},
+  {"q": "Quel oiseau de proie est l'animal le plus rapide du monde en piqué ?", "qd": "Oiseau le plus rapide du monde en piqué ?", "answer": "Faucon", "say": "Le faucon pèlerin !", "level": 1},
+  {"q": "Quel chant mélancolique est la musique traditionnelle du Portugal ?", "qd": "Chant mélancolique typique du Portugal ?", "answer": "Fado", "say": "Le fado !", "level": 2},
+  {"q": "Dans quel château Napoléon a-t-il fait ses adieux à sa garde en 1814 ?", "qd": "Château des adieux de Napoléon en 1814 ?", "answer": "Fontainebleau", "say": "Fontainebleau !", "level": 3}
+ ],
+ "intro": "Toutes les réponses commencent par la lettre F !",
+ "intro_speed": 0.9,
+ "accroche": "9 personnes sur 10 ratent la dernière",
+ "accroche_dite": "Neuf personnes sur dix ratent la dernière question !",
+ "accroche_pill": "QUIZ LETTRE F"
+}

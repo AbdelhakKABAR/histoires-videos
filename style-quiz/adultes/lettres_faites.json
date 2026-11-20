@@ -405,6 +405,21 @@
     "Écosse",
     "Etna"
    ]
+  },
+  {
+   "lettre": "F",
+   "date": "2026-11-20",
+   "fichier": "episode-lettre-f-2026-11-20-18.json",
+   "reponses": [
+    "Fourmi",
+    "Fromage",
+    "Football",
+    "Fusée",
+    "Figue",
+    "Faucon",
+    "Fado",
+    "Fontainebleau"
+   ]
   }
  ]
 }
