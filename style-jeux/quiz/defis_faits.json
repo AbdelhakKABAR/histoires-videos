@@ -79,6 +79,7 @@
   "1, 2, 6, 15, 31 → 56 (on ajoute les carrés 1, 4, 9, 16, 25)",
   "50, 49, 47, 44, 40 → 35 (on retire 1, 2, 3, 4, 5)",
   "1, 2, 5, 14, 41 → 122 (on multiplie par 3 puis on retire 1)",
-  "1, 2, 3, 6, 11, 20 → 37 (somme des trois précédents)"
+  "1, 2, 3, 6, 11, 20 → 37 (somme des trois précédents)",
+  "1, 2, 4, 5, 10, 11 → 22 (alternance +1 puis ×2)"
  ]
 }

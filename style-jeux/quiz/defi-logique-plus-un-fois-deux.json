@@ -1,0 +1,18 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["1", "2", "4", "5", "10", "11"],
+ "options": ["22", "21", "12", "16"],
+ "ok": 0,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "8 personnes sur 10 répondent 12",
+ "accroche_pill": "SUITE LOGIQUE",
+ "accroche_dite": "Huit personnes sur dix répondent douze à cette suite logique. Et toi ?",
+ "question_dite": "Un, deux, quatre, cinq, dix, onze… Quel nombre vient ensuite ?",
+ "explication": "On alterne : +1 puis ×2. Donc 11 × 2 = 22.",
+ "explication_dite": "Vingt-deux ! On ajoute un, puis on multiplie par deux, et on recommence : onze fois deux, vingt-deux.",
+ "fin": "Tu avais trouvé 22 ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔢 Suite logique : 1, 2, 4, 5, 10, 11… quel nombre ensuite ? Tu trouves avant la fin du chrono ? 👇 #suitelogique #apprendresurtiktok #maths #enigme #publiostudio"
+}
