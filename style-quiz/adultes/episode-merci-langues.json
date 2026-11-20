@@ -1,0 +1,26 @@
+{
+ "title": "La langue de chaque « merci »",
+ "subject": "Langues",
+ "banner": "Quiz : merci en langues",
+ "icon": "🙏",
+ "symbols": ["🙏","💬","🌍","🗣","✨","🌎","📖","🔤","🌐","🤝","🗺","💛","🌏","⭐","✉️","🧭"],
+ "description": "🙏 Quiz langues : dans quelle langue dit-on chaque merci ? Gracias, Obrigado… Tu en connais combien ? Et la question bonus ? 👇 #quiz #apprendresurtiktok #langues #monde #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire quel merci t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz langues ! « Gracias », ça veut dire merci dans quelle langue ?", "qd": "« Gracias » ?", "a": [["","Italien"],["","Espagnol"],["","Portugais"],["","Roumain"]], "ok": 1, "say": "En espagnol !", "level": 0},
+  {"q": "« Danke », ça veut dire merci dans quelle langue ?", "qd": "« Danke » ?", "a": [["","Suédois"],["","Néerlandais"],["","Danois"],["","Allemand"]], "ok": 3, "say": "En allemand !", "level": 0},
+  {"q": "« Grazie », ça veut dire merci dans quelle langue ?", "qd": "« Grazie » ?", "a": [["","Italien"],["","Grec"],["","Espagnol"],["","Roumain"]], "ok": 0, "say": "En italien !", "level": 0},
+  {"q": "« Obrigado », ça veut dire merci dans quelle langue ?", "qd": "« Obrigado » ?", "a": [["","Espagnol"],["","Catalan"],["","Portugais"],["","Italien"]], "ok": 2, "say": "En portugais !", "level": 1},
+  {"q": "« Arigato », ça veut dire merci dans quelle langue ?", "qd": "« Arigato » ?", "a": [["","Chinois"],["","Japonais"],["","Coréen"],["","Thaï"]], "ok": 1, "say": "En japonais !", "level": 1},
+  {"q": "« Spassiba », ça veut dire merci dans quelle langue ?", "qd": "« Spassiba » ?", "a": [["","Russe"],["","Polonais"],["","Grec"],["","Hongrois"]], "ok": 0, "say": "En russe !", "level": 1},
+  {"q": "« Choukrane », ça veut dire merci dans quelle langue ?", "qd": "« Choukrane » ?", "a": [["","Turc"],["","Hébreu"],["","Grec"],["","Arabe"]], "ok": 3, "say": "En arabe !", "level": 2},
+  {"q": "« Asante », ça veut dire merci dans quelle langue ?", "qd": "« Asante » ?", "a": [["","Zoulou"],["","Swahili"],["","Amharique"],["","Wolof"]], "ok": 1, "say": "En swahili, parlé en Afrique de l'Est !", "level": 3}
+ ],
+ "bonus": {"q": "Dans quelle langue dit-on « Xièxie » pour dire merci ?", "qd": "« Xièxie » = merci dans quelle langue ?"},
+ "accroche": "90 % ratent le dernier merci",
+ "accroche_dite": "Quatre-vingt-dix pour cent des gens ratent le dernier merci !",
+ "accroche_pill": "TOUR DU MONDE"
+}
