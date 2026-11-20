@@ -1,0 +1,29 @@
+{
+ "title": "Quiz lettre G",
+ "subject": "Lettre G",
+ "banner": "Quiz lettre G",
+ "mode": "lettre",
+ "letter": "G",
+ "icon": "🧠",
+ "symbols": ["G","A","B","C","?","!","★","✦","G","Z","M","?","●","◆","G","✧"],
+ "description": "🔤 Quiz lettre G : toutes les réponses commencent par G ! Du gâteau à Grenoble… Tu fais un sans-faute ? Ton score en commentaire 👇 #quizlettre #culturegenerale #quiz #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Écris ton score en commentaire, et abonne-toi !",
+ "questions": [
+  {"q": "Quel dessert porte les bougies qu'on souffle à son anniversaire ?", "qd": "Dessert avec des bougies d'anniversaire ?", "answer": "Gâteau", "say": "Le gâteau !", "level": 0},
+  {"q": "Quel instrument de musique a six cordes et se joue en les grattant ?", "qd": "Instrument à six cordes qu'on gratte ?", "answer": "Guitare", "say": "La guitare !", "level": 0},
+  {"q": "Quel est le plus grand de tous les singes ?", "qd": "Le plus grand des singes ?", "answer": "Gorille", "say": "Le gorille !", "level": 0},
+  {"q": "Quelle grande ville des Alpes a accueilli les Jeux olympiques d'hiver de 1968 ?", "qd": "Ville des Alpes, JO d'hiver de 1968 ?", "answer": "Grenoble", "say": "Grenoble !", "level": 1},
+  {"q": "Quelle est la plus grande île du monde ?", "qd": "La plus grande île du monde ?", "answer": "Groenland", "say": "Le Groenland !", "level": 1},
+  {"q": "Quel fruit rouge est rempli de petits grains juteux ?", "qd": "Fruit rouge rempli de petits grains ?", "answer": "Grenade", "say": "La grenade !", "level": 1},
+  {"q": "Quel détroit sépare l'Espagne du Maroc ?", "qd": "Détroit entre l'Espagne et le Maroc ?", "answer": "Gibraltar", "say": "Le détroit de Gibraltar !", "level": 2},
+  {"q": "Qui a inventé l'imprimerie à caractères mobiles en Europe, vers 1450 ?", "qd": "Inventeur de l'imprimerie vers 1450 ?", "answer": "Gutenberg", "say": "Gutenberg !", "level": 3}
+ ],
+ "intro": "Toutes les réponses commencent par la lettre G !",
+ "intro_speed": 0.9,
+ "accroche": "Seul 1 sur 20 fait un sans-faute",
+ "accroche_dite": "Seule une personne sur vingt fait un sans-faute !",
+ "accroche_pill": "QUIZ LETTRE G"
+}

@@ -420,6 +420,21 @@
     "Fado",
     "Fontainebleau"
    ]
+  },
+  {
+   "lettre": "G",
+   "date": "2026-11-20",
+   "fichier": "episode-lettre-g-2026-11-20-21.json",
+   "reponses": [
+    "Gâteau",
+    "Guitare",
+    "Gorille",
+    "Grenoble",
+    "Groenland",
+    "Grenade",
+    "Gibraltar",
+    "Gutenberg"
+   ]
   }
  ]
 }
