@@ -80,6 +80,7 @@
   "50, 49, 47, 44, 40 → 35 (on retire 1, 2, 3, 4, 5)",
   "1, 2, 5, 14, 41 → 122 (on multiplie par 3 puis on retire 1)",
   "1, 2, 3, 6, 11, 20 → 37 (somme des trois précédents)",
-  "1, 2, 4, 5, 10, 11 → 22 (alternance +1 puis ×2)"
+  "1, 2, 4, 5, 10, 11 → 22 (alternance +1 puis ×2)",
+  "1, 4, 10, 22, 46 → 94 (on multiplie par 2 puis on ajoute 2)"
  ]
 }

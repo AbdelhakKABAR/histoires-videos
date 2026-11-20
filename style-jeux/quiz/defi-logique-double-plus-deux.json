@@ -1,0 +1,18 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["1", "4", "10", "22", "46"],
+ "options": ["92", "94", "70", "96"],
+ "ok": 1,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "9 personnes sur 10 répondent 92",
+ "accroche_pill": "SUITE LOGIQUE",
+ "accroche_dite": "Neuf personnes sur dix répondent quatre-vingt-douze à cette suite logique. Et toi ?",
+ "question_dite": "Un, quatre, dix, vingt-deux, quarante-six… Quel nombre vient ensuite ?",
+ "explication": "On multiplie par 2 puis on ajoute 2 : 46 × 2 + 2 = 94.",
+ "explication_dite": "Quatre-vingt-quatorze ! On multiplie par deux, puis on ajoute deux : quarante-six fois deux, quatre-vingt-douze, plus deux, quatre-vingt-quatorze.",
+ "fin": "Tu avais dit 92 ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔢 Suite logique : 1, 4, 10, 22, 46… quel nombre ensuite ? Tu trouves avant la fin du chrono ? 👇 #suitelogique #quizz #maths #enigme #publiostudio"
+}
