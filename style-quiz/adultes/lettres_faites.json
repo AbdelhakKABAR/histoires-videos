@@ -447,6 +447,21 @@
     "Hanoï",
     "Hannibal"
    ]
+  },
+  {
+   "lettre": "I",
+   "date": "2026-11-21",
+   "fichier": "episode-lettre-i-2026-11-21-20.json",
+   "reponses": [
+    "Insecte",
+    "Index",
+    "Infirmier",
+    "Inde",
+    "Iceberg",
+    "Istanbul",
+    "Icare",
+    "Incas"
+   ]
   }
  ]
 }

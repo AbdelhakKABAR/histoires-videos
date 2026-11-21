@@ -1,0 +1,29 @@
+{
+ "title": "Quiz lettre I",
+ "subject": "Lettre I",
+ "banner": "Quiz lettre I",
+ "mode": "lettre",
+ "letter": "I",
+ "icon": "🧠",
+ "symbols": ["I","A","B","C","?","!","★","✦","I","Z","M","?","●","◆","I","✧"],
+ "description": "🔤 Quiz lettre I : toutes les réponses commencent par I ! De l'insecte à l'Inde… Tu fais un sans-faute ? Ton score en commentaire 👇 #quizlettre #culturegenerale #quiz #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Comment appelle-t-on un petit animal à six pattes, comme la fourmi ou la mouche ?", "qd": "Petit animal à six pattes, comme la fourmi ?", "answer": "Insecte", "say": "Un insecte !", "level": 0},
+  {"q": "Quel doigt, juste à côté du pouce, sert à montrer quelque chose ?", "qd": "Doigt à côté du pouce, qui sert à montrer ?", "answer": "Index", "say": "L'index !", "level": 0},
+  {"q": "Qui fait les piqûres et les pansements à l'hôpital ?", "qd": "Qui fait les piqûres et les pansements ?", "answer": "Infirmier", "say": "L'infirmier !", "level": 0},
+  {"q": "Dans quel pays se trouve le Taj Mahal ?", "qd": "Pays du Taj Mahal ?", "answer": "Inde", "say": "L'Inde !", "level": 1},
+  {"q": "Quel énorme bloc de glace a fait couler le Titanic ?", "qd": "Bloc de glace qui a coulé le Titanic ?", "answer": "Iceberg", "say": "Un iceberg !", "level": 1},
+  {"q": "Quelle grande ville de Turquie s'appelait autrefois Constantinople ?", "qd": "Ville de Turquie, ex-Constantinople ?", "answer": "Istanbul", "say": "Istanbul !", "level": 1},
+  {"q": "Dans la mythologie grecque, qui s'est approché trop près du soleil avec des ailes de cire ?", "qd": "Héros grec aux ailes de cire ?", "answer": "Icare", "say": "Icare !", "level": 2},
+  {"q": "Quel peuple a construit la cité du Machu Picchu, au Pérou ?", "qd": "Peuple qui a bâti le Machu Picchu ?", "answer": "Incas", "say": "Les Incas !", "level": 3}
+ ],
+ "intro": "Toutes les réponses commencent par la lettre I !",
+ "intro_speed": 0.9,
+ "accroche": "La dernière piège 80 % des gens",
+ "accroche_dite": "La dernière question piège quatre-vingts pour cent des gens !",
+ "accroche_pill": "QUIZ LETTRE I"
+}
