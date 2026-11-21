@@ -1,0 +1,29 @@
+{
+ "title": "Quiz lettre H",
+ "subject": "Lettre H",
+ "banner": "Quiz lettre H",
+ "mode": "lettre",
+ "letter": "H",
+ "icon": "🧠",
+ "symbols": ["H","A","B","C","?","!","★","✦","H","Z","M","?","●","◆","H","✧"],
+ "description": "🔤 Quiz lettre H : toutes les réponses commencent par H ! Du hibou à l'hippopotame… Tu fais un sans-faute ? Ton score en commentaire 👇 #quizlettre #testculturegenerale #quiz #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Écris ton score en commentaire, et abonne-toi !",
+ "questions": [
+  {"q": "Quel oiseau de nuit hulule dans les arbres ?", "qd": "Oiseau de nuit qui hulule ?", "answer": "Hibou", "say": "Le hibou !", "level": 0},
+  {"q": "Quel petit rongeur domestique court dans une roue dans sa cage ?", "qd": "Petit rongeur qui court dans une roue ?", "answer": "Hamster", "say": "Le hamster !", "level": 0},
+  {"q": "Quelle est la saison la plus froide de l'année ?", "qd": "Saison la plus froide de l'année ?", "answer": "Hiver", "say": "L'hiver !", "level": 0},
+  {"q": "Quel énorme animal d'Afrique passe ses journées dans l'eau des rivières ?", "qd": "Énorme animal d'Afrique qui vit dans l'eau ?", "answer": "Hippopotame", "say": "L'hippopotame !", "level": 1},
+  {"q": "Quel instrument à cordes en forme de grand triangle se joue avec les doigts ?", "qd": "Grand instrument à cordes en triangle ?", "answer": "Harpe", "say": "La harpe !", "level": 1},
+  {"q": "Quelle fête du trente et un octobre se fête avec des citrouilles et des déguisements ?", "qd": "Fête du 31 octobre avec des citrouilles ?", "answer": "Halloween", "say": "Halloween !", "level": 1},
+  {"q": "Quelle est la capitale du Vietnam ?", "qd": "Capitale du Vietnam ?", "answer": "Hanoï", "say": "Hanoï !", "level": 2},
+  {"q": "Quel général de Carthage a traversé les Alpes avec des éléphants ?", "qd": "Général qui a traversé les Alpes avec des éléphants ?", "answer": "Hannibal", "say": "Hannibal !", "level": 3}
+ ],
+ "intro": "Toutes les réponses commencent par la lettre H !",
+ "intro_speed": 0.9,
+ "accroche": "Presque personne ne trouve la dernière",
+ "accroche_dite": "Presque personne ne trouve la dernière !",
+ "accroche_pill": "QUIZ LETTRE H"
+}

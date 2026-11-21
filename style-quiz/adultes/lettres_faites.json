@@ -435,6 +435,18 @@
     "Gibraltar",
     "Gutenberg"
    ]
+  },
+  {
+   "lettre": "H",
+   "date": "2026-11-21",
+   "fichier": "episode-lettre-h-2026-11-21-12.json",
+   "reponses": [
+    "Hibou",
+    "Hippopotame",
+    "Harpe",
+    "Hanoï",
+    "Hannibal"
+   ]
   }
  ]
 }
