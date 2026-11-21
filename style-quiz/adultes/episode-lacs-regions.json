@@ -1,0 +1,26 @@
+{
+ "title": "La région de chaque lac",
+ "subject": "Lacs de France",
+ "banner": "Quiz : les lacs de France",
+ "icon": "🏞",
+ "symbols": ["🏞","💧","🌊","⛵","🛶","🐟","🦢","🏔","🌲","☀️","🗺","🇫🇷","✨","⭐","🌿","🦆"],
+ "description": "🏞 Quiz France : dans quelle région est chaque lac ? Annecy, Guerlédan… La dernière piège plein de monde. Ton score ? 👇 #quiz #apprendresurtiktok #geographie #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Écris ton score en commentaire, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz lacs de France ! Le lac d'Annecy, en Haute-Savoie, est dans quelle région ?", "qd": "Le lac d'Annecy ?", "a": [["","Bourgogne-Franche-Comté"],["","Provence-Alpes-Côte d'Azur"],["","Auvergne-Rhône-Alpes"],["","Occitanie"]], "ok": 2, "say": "L'Auvergne-Rhône-Alpes !", "level": 0},
+  {"q": "Le lac de Gérardmer, dans les Vosges, est dans quelle région ?", "qd": "Le lac de Gérardmer ?", "a": [["","Grand Est"],["","Hauts-de-France"],["","Bourgogne-Franche-Comté"],["","Normandie"]], "ok": 0, "say": "Le Grand Est !", "level": 0},
+  {"q": "Le lac de Sainte-Croix, au bout des gorges du Verdon, est dans quelle région ?", "qd": "Le lac de Sainte-Croix ?", "a": [["","Occitanie"],["","Auvergne-Rhône-Alpes"],["","Corse"],["","Provence-Alpes-Côte d'Azur"]], "ok": 3, "say": "La Provence-Alpes-Côte d'Azur !", "level": 0},
+  {"q": "Le lac de Guerlédan, entre Côtes-d'Armor et Morbihan, est dans quelle région ?", "qd": "Le lac de Guerlédan ?", "a": [["","Normandie"],["","Bretagne"],["","Pays de la Loire"],["","Centre-Val de Loire"]], "ok": 1, "say": "La Bretagne !", "level": 1},
+  {"q": "Le lac du Salagou et sa terre rouge, dans l'Hérault, est dans quelle région ?", "qd": "Le lac du Salagou ?", "a": [["","Provence-Alpes-Côte d'Azur"],["","Nouvelle-Aquitaine"],["","Occitanie"],["","Auvergne-Rhône-Alpes"]], "ok": 2, "say": "L'Occitanie !", "level": 1},
+  {"q": "Le lac de Serre-Ponçon, immense lac des Hautes-Alpes, est dans quelle région ?", "qd": "Le lac de Serre-Ponçon ?", "a": [["","Provence-Alpes-Côte d'Azur"],["","Auvergne-Rhône-Alpes"],["","Occitanie"],["","Bourgogne-Franche-Comté"]], "ok": 0, "say": "La Provence-Alpes-Côte d'Azur !", "level": 1},
+  {"q": "Le lac de Grand-Lieu, en Loire-Atlantique, est dans quelle région ?", "qd": "Le lac de Grand-Lieu ?", "a": [["","Bretagne"],["","Nouvelle-Aquitaine"],["","Centre-Val de Loire"],["","Pays de la Loire"]], "ok": 3, "say": "Les Pays de la Loire !", "level": 2},
+  {"q": "Le lac de Vassivière, entre Creuse et Haute-Vienne, est dans quelle région ?", "qd": "Le lac de Vassivière ?", "a": [["","Auvergne-Rhône-Alpes"],["","Nouvelle-Aquitaine"],["","Centre-Val de Loire"],["","Occitanie"]], "ok": 1, "say": "La Nouvelle-Aquitaine, dans le Limousin !", "level": 3}
+ ],
+ "bonus": {"q": "Dans quelle région se trouve le lac du Bourget, le plus grand lac naturel de France ?", "qd": "Le lac du Bourget : quelle région ?"},
+ "accroche": "Seul 1 Français sur 20 trouve tout",
+ "accroche_dite": "Seul un Français sur vingt trouve tout !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
