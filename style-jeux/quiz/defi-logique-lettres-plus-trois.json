@@ -1,0 +1,18 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["A", "D", "G", "J", "M"],
+ "options": ["O", "Q", "N", "P"],
+ "ok": 3,
+ "consigne": "Quelle lettre vient ensuite ?",
+ "accroche": "Seulement 1 sur 5 trouve la lettre",
+ "accroche_pill": "SUITE LOGIQUE",
+ "accroche_dite": "Seulement une personne sur cinq trouve la lettre de cette suite logique. Et toi ?",
+ "question_dite": "A, D, G, J, M… Quelle lettre vient ensuite ?",
+ "explication": "On avance de 3 lettres dans l'alphabet : M (13e) + 3 = P (16e).",
+ "explication_dite": "La lettre P ! On avance de trois lettres à chaque fois dans l'alphabet : après M, on saute N et O, et on arrive à P.",
+ "fin": "Tu avais trouvé P ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔤 Suite logique : A, D, G, J, M… quelle lettre ensuite ? Tu trouves avant la fin du chrono ? 👇 #suitelogique #culturegenerale #alphabet #enigme #publiostudio"
+}
