@@ -37,7 +37,8 @@
   "CINÉMA",
   "CHOCOLAT",
   "PAPILLON",
-  "VOLCAN"
+  "VOLCAN",
+  "PARAPLUIE"
  ],
  "suites": [
   "1, 11, 21, 1211, 111221 (suite de Conway)",

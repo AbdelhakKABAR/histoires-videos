@@ -1,0 +1,22 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "mot": "PARAPLUIE",
+ "categorie": "Un objet du quotidien",
+ "categorie_dite": "Mot mystère. Catégorie : un objet du quotidien.",
+ "accroche": "Trouvé au 1er indice ? Bravo !",
+ "accroche_pill": "MOT MYSTÈRE",
+ "accroche_dite": "Mot mystère : si tu le trouves au premier indice, bravo !",
+ "indices": [
+  "On l'oublie souvent dans le train.",
+  "Il a des baleines, mais ce n'est pas un animal.",
+  "Un film célèbre le relie à Cherbourg.",
+  "Il s'ouvre et se ferme d'un seul geste.",
+  "On le sort quand il pleut."
+ ],
+ "lettres_donnees": 1,
+ "dire": "Parapluie",
+ "explication": "Le parapluie, avec ses baleines, comme dans Les Parapluies de Cherbourg.",
+ "description": "☂️ Mot mystère : un objet du quotidien en 5 indices. Tu l'as trouvé au combien ? Dis-le en commentaire 👇 #motmystere #quizz #objets #pluie #publiostudio"
+}
