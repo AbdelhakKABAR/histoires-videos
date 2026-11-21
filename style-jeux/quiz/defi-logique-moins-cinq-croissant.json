@@ -1,0 +1,18 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["100", "95", "85", "70", "50"],
+ "options": ["30", "35", "25", "20"],
+ "ok": 2,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "La plupart répondent 30… et se trompent",
+ "accroche_pill": "SUITE LOGIQUE",
+ "accroche_dite": "La plupart des gens répondent trente à cette suite logique… et se trompent. Et toi ?",
+ "question_dite": "Cent, quatre-vingt-quinze, quatre-vingt-cinq, soixante-dix, cinquante… Quel nombre vient ensuite ?",
+ "explication": "On retire 5, puis 10, 15, 20, et enfin 25 : 50 − 25 = 25.",
+ "explication_dite": "Vingt-cinq ! On retire cinq, puis dix, quinze, vingt, et maintenant vingt-cinq : cinquante moins vingt-cinq, vingt-cinq.",
+ "fin": "Tu avais dit 30 ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔢 Suite logique : 100, 95, 85, 70, 50… quel nombre ensuite ? Tu trouves avant la fin du chrono ? 👇 #suitelogique #testculturegenerale #maths #enigme #publiostudio"
+}
