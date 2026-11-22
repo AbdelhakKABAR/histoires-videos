@@ -1,0 +1,29 @@
+{
+ "title": "Quiz lettre J",
+ "subject": "Lettre J",
+ "banner": "Quiz lettre J",
+ "mode": "lettre",
+ "letter": "J",
+ "icon": "🧠",
+ "symbols": ["J","A","B","C","?","!","★","✦","J","Z","M","?","●","◆","J","✧"],
+ "description": "🔤 Quiz lettre J : toutes les réponses commencent par J ! Du jeudi à la Jamaïque… Tu fais un sans-faute ? Ton score en commentaire 👇 #quizlettre #testculturegenerale #quiz #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Écris ton score en commentaire, et abonne-toi !",
+ "questions": [
+  {"q": "Quel jour de la semaine vient juste après mercredi ?", "qd": "Jour qui vient après mercredi ?", "answer": "Jeudi", "say": "Jeudi !", "level": 0},
+  {"q": "Que met-on avec le beurre dans le célèbre sandwich jambon-beurre ?", "qd": "Avec le beurre, dans le sandwich parisien ?", "answer": "Jambon", "say": "Le jambon !", "level": 0},
+  {"q": "Quel artiste de cirque lance et rattrape des balles sans les faire tomber ?", "qd": "Artiste de cirque qui lance des balles ?", "answer": "Jongleur", "say": "Le jongleur !", "level": 0},
+  {"q": "Quelle île des Caraïbes est le pays d'Usain Bolt et de Bob Marley ?", "qd": "Pays d'Usain Bolt et de Bob Marley ?", "answer": "Jamaïque", "say": "La Jamaïque !", "level": 1},
+  {"q": "Quel art martial japonais se pratique en kimono, avec une ceinture de couleur ?", "qd": "Art martial japonais en kimono ?", "answer": "Judo", "say": "Le judo !", "level": 1},
+  {"q": "Quel écrivain français a écrit Vingt mille lieues sous les mers ?", "qd": "Auteur de Vingt mille lieues sous les mers ?", "answer": "Jules Verne", "say": "Jules Verne !", "level": 1},
+  {"q": "Sur quelle île d'Indonésie se trouve la ville de Jakarta ?", "qd": "Île d'Indonésie où se trouve Jakarta ?", "answer": "Java", "say": "Java !", "level": 2},
+  {"q": "Quel grand homme politique socialiste a été assassiné à Paris en juillet 1914, juste avant la guerre ?", "qd": "Socialiste assassiné à Paris en 1914 ?", "answer": "Jaurès", "say": "Jean Jaurès !", "level": 3}
+ ],
+ "intro": "Toutes les réponses commencent par la lettre J !",
+ "intro_speed": 0.9,
+ "accroche": "Seul 1 joueur sur 4 trouve la 8",
+ "accroche_dite": "Seul un joueur sur quatre trouve la huitième question !",
+ "accroche_pill": "QUIZ LETTRE J"
+}
