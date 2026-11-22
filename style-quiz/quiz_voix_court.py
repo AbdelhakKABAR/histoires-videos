@@ -27,11 +27,11 @@ def narrate(text, speed):
 NUM = {"1": "un", "2": "deux", "3": "trois", "4": "quatre", "5": "cinq", "6": "six", "7": "sept", "8": "huit", "9": "neuf", "10": "dix"}
 NTH = ["un", "deux", "trois", "quatre", "cinq", "six", "sept", "huit", "neuf", "dix"]
 _CACHE = {}
-def say(text, speed=0.95):
+def say(text, speed=0.95):  # seuil RMS relatif si la prise est très faible (22 nov. 2026)
     if (text, speed) in _CACHE: return _CACHE[(text, speed)]
     a = narrate(text, speed); x = resample_poly(np.asarray(a.samples, dtype=np.float64), SR, a.sample_rate)
     idx = np.where(np.abs(x) > 0.02 * np.max(np.abs(x)))[0]; x = x[max(idx[0] - 480, 0): idx[-1] + 3600]; x[-2400:] *= np.linspace(1, 0, 2400)
-    x = x / np.sqrt(np.mean(x[np.abs(x) > 0.02] ** 2)); _CACHE[(text, speed)] = x; return x
+    x = x / np.sqrt(np.mean(x[np.abs(x) > min(0.02, 0.1 * np.max(np.abs(x)))] ** 2)); _CACHE[(text, speed)] = x; return x
 clips = []; quiz = []; t = 0.5
 def put(text, kind, at, speed=0.95):
     x = say(text, speed); clips.append((at, x)); ph = {"t0": round(at, 3), "t1": round(at + len(x) / SR, 3), "text": text, "who": kind}; phrases.append(ph); print(ph); return ph

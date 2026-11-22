@@ -1,0 +1,99 @@
+{
+ "title": "Quiz lettre L",
+ "subject": "Lettre L",
+ "banner": "Quiz lettre L",
+ "mode": "lettre",
+ "letter": "L",
+ "icon": "🧠",
+ "symbols": [
+  "L",
+  "A",
+  "B",
+  "C",
+  "?",
+  "!",
+  "★",
+  "✦",
+  "L",
+  "Z",
+  "M",
+  "?",
+  "●",
+  "◆",
+  "L",
+  "✧"
+ ],
+ "description": "🔤 Quiz lettre L : toutes les réponses commencent par L ! Du lait à Lyon… La dernière te piège ? Ton score en commentaire 👇 #quizlettre #culturegenerale #quiz #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {
+   "q": "Quelle boisson blanche nous donne la vache ?",
+   "qd": "Boisson blanche que donne la vache ?",
+   "answer": "Lait",
+   "say": "Le lait !",
+   "level": 0
+  },
+  {
+   "q": "Quel animal hurle à la lune et croque le Petit Chaperon rouge ?",
+   "qd": "Animal qui mange le Petit Chaperon rouge ?",
+   "answer": "Loup",
+   "say": "Le loup !",
+   "level": 0
+  },
+  {
+   "q": "Quel est le premier jour de la semaine ?",
+   "qd": "Premier jour de la semaine ?",
+   "answer": "Lundi",
+   "say": "Lundi !",
+   "level": 0
+  },
+  {
+   "q": "Quelle grande ville française est célèbre pour sa fête des Lumières, en décembre ?",
+   "qd": "Ville de la fête des Lumières ?",
+   "answer": "Lyon",
+   "say": "Lyon !",
+   "level": 1
+  },
+  {
+   "q": "Quel plat italien superpose des feuilles de pâtes, de la sauce bolognaise et de la béchamel ?",
+   "qd": "Plat italien en couches de pâtes ?",
+   "answer": "Lasagnes",
+   "say": "Les lasagnes !",
+   "level": 1
+  },
+  {
+   "q": "Quel poète a écrit la fable Le Corbeau et le Renard ?",
+   "qd": "Auteur du Corbeau et le Renard ?",
+   "answer": "La Fontaine",
+   "say": "Jean de La Fontaine !",
+   "level": 1
+  },
+  {
+   "q": "Quelle est la capitale du Pérou ?",
+   "qd": "Capitale du Pérou ?",
+   "answer": "Lima",
+   "say": "Lima !",
+   "level": 2
+  },
+  {
+   "q": "Quel grand lac, au bord de Genève, est partagé entre la France et la Suisse ?",
+   "qd": "Grand lac entre la France et la Suisse ?",
+   "answer": "Léman",
+   "say": "Le lac Léman !",
+   "level": 3
+  }
+ ],
+ "intro": "Toutes les réponses commencent par la lettre L !",
+ "intro_speed": 0.9,
+ "accroche": "La dernière piège 3 joueurs sur 4",
+ "accroche_dite": "La dernière question piège trois joueurs sur quatre !",
+ "accroche_pill": "QUIZ LETTRE L"
+}

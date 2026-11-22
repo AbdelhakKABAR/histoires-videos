@@ -83,15 +83,16 @@ def parler(text, speed=0.95, sid=0):
     tts = _engine(); out = []; sr = 44100
     for part, pause in _chunks(text):
         best = None
-        for k in range(4 if len(part.split()) > 5 else 2):
+        for k in range(6 if len(part.split()) > 5 else 4):
             g = sherpa_onnx.GenerationConfig(); g.sid = sid; g.speed = speed * ACCEL; g.num_steps = 12 if k < 2 else 16; g.extra = {"lang": "fr"}
             a = tts.generate(part, g); x = np.asarray(a.samples, dtype=np.float64); sr = a.sample_rate; VERIF["prises"] += 1
-            m = _missing(part, x, sr)
+            if not np.all(np.isfinite(x)) or not np.any(np.abs(x) > 1e-4): m = 999   # prise ratée (NaN / silence) -> on refait (22 nov. 2026)
+            else: m = _missing(part, x, sr)
             if best is None or m < best[0]: best = (m, x)
-            if m == 0: break
+            if m == 0 or (k >= (3 if len(part.split()) > 5 else 1) and best[0] < 999): break
             VERIF["refaites"] += 1
         if best[0]: VERIF["restent"].append(part)
-        x = best[1]; idx = np.where(np.abs(x) > 0.02 * np.max(np.abs(x)))[0]
+        x = np.nan_to_num(best[1]); idx = np.where(np.abs(x) > 0.02 * np.max(np.abs(x)))[0]
         if len(idx): x = x[max(idx[0] - 400, 0): idx[-1] + 1800]
         out += [x, np.zeros(int(sr * pause))]
     return np.concatenate(out), sr
