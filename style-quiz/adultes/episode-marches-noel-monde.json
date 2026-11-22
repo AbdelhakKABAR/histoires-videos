@@ -1,0 +1,26 @@
+{
+ "title": "Le pays de chaque marché de Noël",
+ "subject": "Noël",
+ "banner": "Quiz : les marchés de Noël",
+ "icon": "🎄",
+ "symbols": ["🎄","🎅","❄️","🌟","🎁","🕯","☃️","🔔","🍪","🧣","🌍","✨","🦌","🍷","🏰","🗺"],
+ "description": "🎄 Quiz culture générale : dans quel pays est chaque marché de Noël ? De Nuremberg à Bruxelles… Ton score sur 8 ? 👇 #quiz #apprendresurtiktok #noel #monde #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire ton marché de Noël préféré, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz marchés de Noël ! Le célèbre marché de Noël de Nuremberg est dans quel pays ?", "qd": "Le marché de Noël de Nuremberg ?", "a": [["","Autriche"],["","Allemagne"],["","Suisse"],["","Belgique"]], "ok": 1, "say": "L'Allemagne, en Bavière !", "level": 0},
+  {"q": "Strasbourg, surnommée la capitale de Noël, est dans quel pays ?", "qd": "Strasbourg, capitale de Noël ?", "a": [["","France"],["","Allemagne"],["","Luxembourg"],["","Suisse"]], "ok": 0, "say": "La France, en Alsace !", "level": 0},
+  {"q": "Le marché de Noël devant l'hôtel de ville de Vienne est dans quel pays ?", "qd": "Le marché de Noël de Vienne ?", "a": [["","Hongrie"],["","Allemagne"],["","Autriche"],["","Tchéquie"]], "ok": 2, "say": "L'Autriche, dans la capitale !", "level": 0},
+  {"q": "Les Plaisirs d'Hiver, le marché de Noël de Bruxelles, sont dans quel pays ?", "qd": "Le marché de Noël de Bruxelles ?", "a": [["","Pays-Bas"],["","France"],["","Luxembourg"],["","Belgique"]], "ok": 3, "say": "La Belgique !", "level": 1},
+  {"q": "Le marché de Noël de Prague, sur la place de la Vieille-Ville, est dans quel pays ?", "qd": "Le marché de Noël de Prague ?", "a": [["","Pologne"],["","Tchéquie"],["","Slovaquie"],["","Autriche"]], "ok": 1, "say": "La Tchéquie !", "level": 1},
+  {"q": "Rovaniemi, le village du Père Noël, est dans quel pays ?", "qd": "Le village du Père Noël, Rovaniemi ?", "a": [["","Finlande"],["","Norvège"],["","Suède"],["","Islande"]], "ok": 0, "say": "La Finlande, en Laponie !", "level": 1},
+  {"q": "Le marché de Noël de Tallinn, au cœur de la vieille ville, est dans quel pays ?", "qd": "Le marché de Noël de Tallinn ?", "a": [["","Lettonie"],["","Lituanie"],["","Estonie"],["","Finlande"]], "ok": 2, "say": "L'Estonie, dans la capitale !", "level": 2},
+  {"q": "Le grand marché de Noël de Sibiu, en Transylvanie, est dans quel pays ?", "qd": "Le marché de Noël de Sibiu ?", "a": [["","Hongrie"],["","Bulgarie"],["","Serbie"],["","Roumanie"]], "ok": 3, "say": "La Roumanie !", "level": 3}
+ ],
+ "bonus": {"q": "Dans quel pays se trouve le marché de Noël de Montreux, au bord du lac Léman ?", "qd": "Dans quel pays est le marché de Montreux ?"},
+ "accroche": "1 sur 4 trouve le dernier marché",
+ "accroche_dite": "Seulement une personne sur quatre trouve le dernier marché de Noël !",
+ "accroche_pill": "SPÉCIAL NOËL"
+}
