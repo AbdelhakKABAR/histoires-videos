@@ -1,0 +1,26 @@
+{
+ "title": "L'ingrédient de chaque plat français",
+ "subject": "Cuisine",
+ "banner": "Quiz : l'ingrédient de chaque plat",
+ "icon": "🥘",
+ "symbols": ["🥘","🧀","🥖","🍷","🫒","🧅","🥔","🍒","🫑","🐟","🧄","🥐","🍳","🥕","🍽","✨"],
+ "description": "🥘 Quiz France : l'ingrédient de chaque plat ? Choucroute, tapenade… La dernière piège presque tout le monde. Ton score ? 👇 #quiz #apprendresurtiktok #cuisine #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz France ! Quel légume est la base de la choucroute ?", "qd": "La base de la choucroute ?", "a": [["","Le chou"],["","Le poireau"],["","Le navet"],["","La carotte"]], "ok": 0, "say": "Le chou, fermenté !", "level": 0},
+  {"q": "La frangipane de la galette des rois est faite avec quel fruit sec ?", "qd": "Le fruit sec de la frangipane ?", "a": [["","La noisette"],["","L'amande"],["","La noix"],["","La pistache"]], "ok": 1, "say": "L'amande !", "level": 0},
+  {"q": "Quel fruit trouve-t-on dans un vrai clafoutis ?", "qd": "Le fruit du clafoutis ?", "a": [["","La fraise"],["","La framboise"],["","La cerise"],["","La myrtille"]], "ok": 2, "say": "La cerise !", "level": 0},
+  {"q": "La tapenade provençale est faite surtout avec quoi ?", "qd": "La base de la tapenade ?", "a": [["","Des tomates"],["","Des poivrons"],["","Des aubergines"],["","Des olives"]], "ok": 3, "say": "Des olives, avec des câpres !", "level": 1},
+  {"q": "Le gratin dauphinois est fait avec quel légume ?", "qd": "Le légume du gratin dauphinois ?", "a": [["","Les pommes de terre"],["","Les courgettes"],["","Les endives"],["","Le chou-fleur"]], "ok": 0, "say": "Les pommes de terre, avec de la crème !", "level": 1},
+  {"q": "Quel poisson est la base de la brandade de Nîmes ?", "qd": "Le poisson de la brandade ?", "a": [["","Le thon"],["","Le saumon"],["","La morue"],["","Le hareng"]], "ok": 2, "say": "La morue !", "level": 1},
+  {"q": "La pissaladière niçoise est garnie surtout de quoi ?", "qd": "La garniture de la pissaladière ?", "a": [["","Des tomates"],["","Des oignons"],["","Des courgettes"],["","Des poireaux"]], "ok": 1, "say": "Des oignons, avec anchois et olives !", "level": 2},
+  {"q": "La piperade basque est faite surtout avec quel légume ?", "qd": "Le légume de la piperade ?", "a": [["","Les aubergines"],["","Les courgettes"],["","Les haricots verts"],["","Les poivrons"]], "ok": 3, "say": "Les poivrons, avec tomates et oignons !", "level": 3}
+ ],
+ "bonus": {"q": "Quel est l'ingrédient star de l'aïoli provençal ?", "qd": "L'ingrédient star de l'aïoli ?"},
+ "accroche": "8 Français sur 10 ratent la dernière",
+ "accroche_dite": "Huit Français sur dix ratent la dernière !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
