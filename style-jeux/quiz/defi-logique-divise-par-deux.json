@@ -1,0 +1,18 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["96", "48", "24", "12", "6"],
+ "options": ["0", "2", "3", "4"],
+ "ok": 2,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "6 personnes sur 10 répondent 0",
+ "accroche_pill": "SUITE LOGIQUE",
+ "accroche_dite": "Six personnes sur dix répondent zéro à cette suite logique… Et toi ?",
+ "question_dite": "Quatre-vingt-seize, quarante-huit, vingt-quatre, douze, six… Quel nombre vient ensuite ?",
+ "explication": "Chaque nombre est la moitié du précédent : 6 ÷ 2 = 3.",
+ "explication_dite": "Trois ! Chaque nombre est la moitié du précédent : la moitié de six, c'est trois.",
+ "fin": "Tu avais dit zéro ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔢 Suite logique : 96, 48, 24, 12, 6… quel nombre ensuite ? Tu trouves avant la fin du chrono ? 👇 #suitelogique #quizz #maths #enigme #publiostudio"
+}
