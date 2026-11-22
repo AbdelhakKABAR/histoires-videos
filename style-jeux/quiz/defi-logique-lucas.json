@@ -1,0 +1,18 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["3", "4", "7", "11", "18"],
+ "options": ["25", "36", "27", "29"],
+ "ok": 3,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "7 personnes sur 10 répondent 25",
+ "accroche_pill": "SUITE LOGIQUE",
+ "accroche_dite": "Sept personnes sur dix répondent vingt-cinq à cette suite logique… Et toi ?",
+ "question_dite": "Trois, quatre, sept, onze, dix-huit… Quel nombre vient ensuite ?",
+ "explication": "Chaque nombre est la somme des deux précédents : 11 + 18 = 29.",
+ "explication_dite": "Vingt-neuf ! Chaque nombre est la somme des deux précédents : onze plus dix-huit, ça fait vingt-neuf.",
+ "fin": "Tu avais dit vingt-cinq ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔢 Suite logique : 3, 4, 7, 11, 18… quel nombre ensuite ? Tu trouves avant la fin du chrono ? Ta réponse 👇 #suitelogique #culturegenerale #maths #enigme #publiostudio"
+}
