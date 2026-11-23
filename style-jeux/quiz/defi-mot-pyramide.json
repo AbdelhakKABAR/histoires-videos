@@ -1,0 +1,22 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "mot": "PYRAMIDE",
+ "categorie": "Une construction célèbre",
+ "categorie_dite": "Mot mystère. Catégorie : une construction célèbre.",
+ "accroche": "Trouve-le avant le 3e indice",
+ "accroche_pill": "MOT MYSTÈRE",
+ "accroche_dite": "Mot mystère : seuls les plus malins le trouvent avant le troisième indice !",
+ "indices": [
+  "Elle a une base et un seul sommet.",
+  "En géométrie, ses faces sont des triangles.",
+  "Des pharaons en ont fait leur tombeau.",
+  "Celle de Khéops est la plus célèbre.",
+  "Il y en a une en verre devant le Louvre."
+ ],
+ "lettres_donnees": 1,
+ "dire": "Pyramide",
+ "explication": "La pyramide : tombeau des pharaons comme Khéops à Gizeh, et symbole du Louvre à Paris.",
+ "description": "🔺 Mot mystère : une construction célèbre en 5 indices. Tu l'as trouvée à quel indice ? Dis-le en commentaire 👇 #motmystere #culturegenerale #histoire #egypte #publiostudio"
+}
