@@ -1,0 +1,26 @@
+{
+ "title": "Le département de chaque grotte",
+ "subject": "Grottes de France",
+ "banner": "Quiz France : les grottes",
+ "icon": "🦇",
+ "symbols": ["🦇","🕯","🪨","💎","🗺","🇫🇷","🔦","⛰","💧","✨","🐎","🖐","🌑","⭐","🧭","🏞"],
+ "description": "🦇 Quiz France : dans quel département est chaque grotte ? Lascaux, Padirac… Tu as eu combien sur 8 ? 👇 #quiz #apprendresurtiktok #france #geographie #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire quelle grotte t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz France, les grottes ! La grotte de Lascaux et ses peintures préhistoriques est dans quel département ?", "qd": "La grotte de Lascaux ?", "a": [["","Ardèche"],["","Dordogne"],["","Lot"],["","Ariège"]], "ok": 1, "say": "La Dordogne, à Montignac !", "level": 0},
+  {"q": "La grotte Cosquer, dont l'entrée est sous la mer près de Marseille, est dans quel département ?", "qd": "La grotte Cosquer ?", "a": [["","Var"],["","Alpes-Maritimes"],["","Bouches-du-Rhône"],["","Hérault"]], "ok": 2, "say": "Les Bouches-du-Rhône, dans les calanques !", "level": 0},
+  {"q": "La grotte Chauvet, près de Vallon-Pont-d'Arc, est dans quel département ?", "qd": "La grotte Chauvet ?", "a": [["","Ardèche"],["","Gard"],["","Drôme"],["","Lozère"]], "ok": 0, "say": "L'Ardèche !", "level": 0},
+  {"q": "Le gouffre de Padirac, avec sa rivière souterraine en barque, est dans quel département ?", "qd": "Le gouffre de Padirac ?", "a": [["","Corrèze"],["","Aveyron"],["","Cantal"],["","Lot"]], "ok": 3, "say": "Le Lot !", "level": 1},
+  {"q": "La grotte de Niaux, au pied des Pyrénées, est dans quel département ?", "qd": "La grotte de Niaux ?", "a": [["","Ariège"],["","Hautes-Pyrénées"],["","Aude"],["","Pyrénées-Orientales"]], "ok": 0, "say": "L'Ariège !", "level": 1},
+  {"q": "La grotte des Demoiselles, près de Ganges, est dans quel département ?", "qd": "La grotte des Demoiselles ?", "a": [["","Gard"],["","Hérault"],["","Tarn"],["","Vaucluse"]], "ok": 1, "say": "L'Hérault !", "level": 1},
+  {"q": "L'Aven Armand, sur le causse Méjean, est dans quel département ?", "qd": "L'Aven Armand ?", "a": [["","Aveyron"],["","Cantal"],["","Lozère"],["","Ardèche"]], "ok": 2, "say": "La Lozère !", "level": 2},
+  {"q": "La grotte de Gargas, célèbre pour ses mains peintes, est dans quel département ?", "qd": "La grotte de Gargas ?", "a": [["","Gers"],["","Landes"],["","Ariège"],["","Hautes-Pyrénées"]], "ok": 3, "say": "Les Hautes-Pyrénées !", "level": 3}
+ ],
+ "bonus": {"q": "Dans quel département se trouve la grotte de Font-de-Gaume, aux Eyzies ?", "qd": "Font-de-Gaume, aux Eyzies : quel département ?"},
+ "accroche": "Seul 1 Français sur 20 a tout bon",
+ "accroche_dite": "Seulement un Français sur vingt a tout bon !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
