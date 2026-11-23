@@ -1,0 +1,18 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["1", "9", "25", "49", "81"],
+ "options": ["100", "121", "144", "99"],
+ "ok": 1,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "7 personnes sur 10 répondent 100",
+ "accroche_pill": "SUITE LOGIQUE",
+ "accroche_dite": "Sept personnes sur dix répondent cent à cette suite logique… Et toi ?",
+ "question_dite": "Un, neuf, vingt-cinq, quarante-neuf, quatre-vingt-un… Quel nombre vient ensuite ?",
+ "explication": "Les carrés des nombres impairs : 1², 3², 5², 7², 9² → 11² = 121.",
+ "explication_dite": "Cent vingt et un ! Ce sont les carrés des nombres impairs : un, trois, cinq, sept, neuf au carré… et maintenant onze au carré, cent vingt et un.",
+ "fin": "Tu avais dit cent ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔢 Suite logique : 1, 9, 25, 49, 81… quel nombre ensuite ? Tu trouves avant la fin du chrono ? 👇 #suitelogique #culturegenerale #maths #enigme #publiostudio"
+}
