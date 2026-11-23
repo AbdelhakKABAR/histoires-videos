@@ -1,0 +1,99 @@
+{
+ "title": "Quiz lettre N",
+ "subject": "Lettre N",
+ "banner": "Quiz lettre N",
+ "mode": "lettre",
+ "letter": "N",
+ "icon": "🧠",
+ "symbols": [
+  "N",
+  "A",
+  "B",
+  "C",
+  "?",
+  "!",
+  "★",
+  "✦",
+  "N",
+  "Z",
+  "O",
+  "?",
+  "●",
+  "◆",
+  "N",
+  "✧"
+ ],
+ "description": "🔤 Quiz lettre N : toutes les réponses commencent par N ! Du nuage à Nice… Tu fais un sans-faute ? Ton score en commentaire 👇 #quizlettre #testculturegenerale #quiz #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {
+   "q": "Quelle masse blanche ou grise flotte dans le ciel et apporte la pluie ?",
+   "qd": "Masse blanche dans le ciel qui apporte la pluie ?",
+   "answer": "Nuage",
+   "say": "Le nuage !",
+   "level": 0
+  },
+  {
+   "q": "Quel moment de la journée arrive quand le soleil est couché et qu'on va dormir ?",
+   "qd": "Moment où il fait noir et où l'on dort ?",
+   "answer": "Nuit",
+   "say": "La nuit !",
+   "level": 0
+  },
+  {
+   "q": "Quel petit fruit sec à coque est l'ingrédient vedette du Nutella ?",
+   "qd": "Fruit à coque du Nutella ?",
+   "answer": "Noisette",
+   "say": "La noisette !",
+   "level": 0
+  },
+  {
+   "q": "Quelle ville de la Côte d'Azur est célèbre pour sa promenade des Anglais ?",
+   "qd": "Ville de la promenade des Anglais ?",
+   "answer": "Nice",
+   "say": "Nice !",
+   "level": 1
+  },
+  {
+   "q": "Quel pays d'Océanie est célèbre pour ses All Blacks et ses kiwis ?",
+   "qd": "Pays des All Blacks ?",
+   "answer": "Nouvelle-Zélande",
+   "say": "La Nouvelle-Zélande !",
+   "level": 1
+  },
+  {
+   "q": "Quel petit poisson-clown orange de Pixar est recherché par son père ?",
+   "qd": "Poisson-clown de Pixar perdu par son père ?",
+   "answer": "Nemo",
+   "say": "Nemo !",
+   "level": 1
+  },
+  {
+   "q": "Quel est le pays le plus peuplé d'Afrique ?",
+   "qd": "Pays le plus peuplé d'Afrique ?",
+   "answer": "Nigeria",
+   "say": "Le Nigeria !",
+   "level": 2
+  },
+  {
+   "q": "Quel mammifère marin de l'Arctique porte une longue défense torsadée, la licorne des mers ?",
+   "qd": "« Licorne des mers » de l'Arctique ?",
+   "answer": "Narval",
+   "say": "Le narval !",
+   "level": 3
+  }
+ ],
+ "intro": "Toutes les réponses commencent par la lettre N !",
+ "intro_speed": 0.9,
+ "accroche": "Seuls 2 % font un sans-faute",
+ "accroche_dite": "Seuls deux pour cent des joueurs font un sans-faute !",
+ "accroche_pill": "QUIZ LETTRE N"
+}
