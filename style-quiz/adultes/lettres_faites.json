@@ -492,6 +492,21 @@
     "Lima",
     "Léman"
    ]
+  },
+  {
+   "lettre": "M",
+   "date": "2026-11-23",
+   "fichier": "episode-lettre-m-2026-11-23-12.json",
+   "reponses": [
+    "Miel",
+    "Mardi",
+    "Mickey",
+    "Marmotte",
+    "Mexique",
+    "Molière",
+    "Mozart",
+    "Madagascar"
+   ]
   }
  ]
 }

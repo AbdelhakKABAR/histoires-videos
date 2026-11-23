@@ -1,0 +1,99 @@
+{
+ "title": "Quiz lettre M",
+ "subject": "Lettre M",
+ "banner": "Quiz lettre M",
+ "mode": "lettre",
+ "letter": "M",
+ "icon": "🧠",
+ "symbols": [
+  "M",
+  "A",
+  "B",
+  "C",
+  "?",
+  "!",
+  "★",
+  "✦",
+  "M",
+  "Z",
+  "L",
+  "?",
+  "●",
+  "◆",
+  "M",
+  "✧"
+ ],
+ "description": "🔤 Quiz lettre M : toutes les réponses commencent par M ! Du miel à la marmotte… Tu fais un sans-faute ? 👇 #quizlettre #quizz #animaux #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Écris ton score en commentaire, et abonne-toi !",
+ "questions": [
+  {
+   "q": "Quel produit sucré et doré fabriquent les abeilles ?",
+   "qd": "Produit sucré fabriqué par les abeilles ?",
+   "answer": "Miel",
+   "say": "Le miel !",
+   "level": 0
+  },
+  {
+   "q": "Quel jour de la semaine vient juste après lundi ?",
+   "qd": "Jour qui vient après lundi ?",
+   "answer": "Mardi",
+   "say": "Mardi !",
+   "level": 0
+  },
+  {
+   "q": "Quelle célèbre souris de Disney porte des gants blancs et un short rouge ?",
+   "qd": "Souris de Disney au short rouge ?",
+   "answer": "Mickey",
+   "say": "Mickey !",
+   "level": 0
+  },
+  {
+   "q": "Quel petit animal des montagnes siffle pour donner l'alerte et dort tout l'hiver ?",
+   "qd": "Animal des montagnes qui siffle ?",
+   "answer": "Marmotte",
+   "say": "La marmotte !",
+   "level": 1
+  },
+  {
+   "q": "Quel pays d'Amérique a pour capitale Mexico ?",
+   "qd": "Pays dont la capitale est Mexico ?",
+   "answer": "Mexique",
+   "say": "Le Mexique !",
+   "level": 1
+  },
+  {
+   "q": "Quel auteur de théâtre a écrit Le Malade imaginaire ?",
+   "qd": "Auteur du Malade imaginaire ?",
+   "answer": "Molière",
+   "say": "Molière !",
+   "level": 1
+  },
+  {
+   "q": "Quel compositeur autrichien a écrit La Flûte enchantée ?",
+   "qd": "Compositeur de La Flûte enchantée ?",
+   "answer": "Mozart",
+   "say": "Wolfgang Amadeus Mozart !",
+   "level": 2
+  },
+  {
+   "q": "Quelle grande île de l'océan Indien est le pays des lémuriens ?",
+   "qd": "Grande île, pays des lémuriens ?",
+   "answer": "Madagascar",
+   "say": "Madagascar !",
+   "level": 3
+  }
+ ],
+ "intro": "Toutes les réponses commencent par la lettre M !",
+ "intro_speed": 0.9,
+ "accroche": "Seul 1 joueur sur 10 fait un sans-faute",
+ "accroche_dite": "Seul un joueur sur dix fait un sans-faute !",
+ "accroche_pill": "QUIZ LETTRE M"
+}
