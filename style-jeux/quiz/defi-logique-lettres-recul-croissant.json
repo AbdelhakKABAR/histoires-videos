@@ -1,0 +1,18 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["Z", "Y", "W", "T", "P"],
+ "options": ["L", "M", "K", "J"],
+ "ok": 2,
+ "consigne": "Quelle lettre vient ensuite ?",
+ "accroche": "8 personnes sur 10 répondent L",
+ "accroche_pill": "SUITE LOGIQUE",
+ "accroche_dite": "Huit personnes sur dix répondent L à cette suite logique… Et toi ?",
+ "question_dite": "Z, Y, W, T, P… Quelle lettre vient ensuite ?",
+ "explication": "On recule de 1, 2, 3, 4 puis 5 lettres : P − 5 = K.",
+ "explication_dite": "K ! On recule dans l'alphabet d'une lettre, puis deux, trois, quatre, et maintenant cinq : après P, on recule de cinq lettres, et on tombe sur K.",
+ "fin": "Tu avais dit L ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔠 Suite logique : Z, Y, W, T, P… quelle lettre ensuite ? Tu trouves avant la fin du chrono ? 👇 #suitelogique #testculturegenerale #alphabet #enigme #publiostudio"
+}
