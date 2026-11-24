@@ -1,0 +1,26 @@
+{
+ "title": "Le pays de chaque pain",
+ "subject": "Cuisine",
+ "banner": "Quiz : les pains du monde",
+ "icon": "🥖",
+ "symbols": ["🥖","🥐","🍞","🥨","🫓","🌍","🌾","✨","🥯","🧈","🌐","⭐","🍽","🧭","🌎","✦"],
+ "description": "🥖 Quiz culture générale : de quel pays vient chaque pain ? Ciabatta, naan, injera… Ton score en commentaire ? Et la question bonus ? 👇 #quiz #testculturegenerale #cuisine #monde #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire quel pain t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz pains du monde ! La ciabatta vient de quel pays ?", "qd": "La ciabatta ?", "a": [["","Espagne"],["","Italie"],["","Grèce"],["","Portugal"]], "ok": 1, "say": "L'Italie !", "level": 0},
+  {"q": "Le bretzel, en forme de nœud, est une spécialité de quel pays ?", "qd": "Le bretzel ?", "a": [["","Allemagne"],["","Espagne"],["","Grèce"],["","Portugal"]], "ok": 0, "say": "L'Allemagne, surtout la Bavière !", "level": 0},
+  {"q": "La tortilla de maïs vient de quel pays ?", "qd": "La tortilla de maïs ?", "a": [["","Brésil"],["","Argentine"],["","Pérou"],["","Mexique"]], "ok": 3, "say": "Le Mexique !", "level": 0},
+  {"q": "Le naan, cuit dans un four tandoor, est typique de quel pays ?", "qd": "Le naan ?", "a": [["","Thaïlande"],["","Japon"],["","Inde"],["","Maroc"]], "ok": 2, "say": "L'Inde !", "level": 1},
+  {"q": "Le pão de queijo, petit pain au fromage, vient de quel pays ?", "qd": "Le pão de queijo ?", "a": [["","Portugal"],["","Brésil"],["","Espagne"],["","Argentine"]], "ok": 1, "say": "Le Brésil !", "level": 1},
+  {"q": "Le simit, anneau de pain au sésame, est typique de quel pays ?", "qd": "Le simit ?", "a": [["","Turquie"],["","Italie"],["","Russie"],["","Égypte"]], "ok": 0, "say": "La Turquie, à Istanbul !", "level": 1},
+  {"q": "L'injera, grande galette spongieuse, est le pain de quel pays ?", "qd": "L'injera ?", "a": [["","Kenya"],["","Nigeria"],["","Afrique du Sud"],["","Éthiopie"]], "ok": 3, "say": "L'Éthiopie !", "level": 2},
+  {"q": "Le soda bread, pain levé au bicarbonate, est le pain traditionnel de quel pays ?", "qd": "Le soda bread ?", "a": [["","Canada"],["","Irlande"],["","Australie"],["","Norvège"]], "ok": 1, "say": "L'Irlande !", "level": 3}
+ ],
+ "bonus": {"q": "Le bao, petit pain moelleux cuit à la vapeur, vient de quel pays ?", "qd": "Le bao, pain vapeur, vient de quel pays ?"},
+ "accroche": "90 % ratent le dernier pain",
+ "accroche_dite": "Quatre-vingt-dix pour cent des gens ratent le dernier pain !",
+ "accroche_pill": "SPÉCIAL MONDE"
+}
