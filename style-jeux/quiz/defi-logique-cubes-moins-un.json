@@ -1,0 +1,29 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": [
+  "0",
+  "7",
+  "26",
+  "63",
+  "124"
+ ],
+ "options": [
+  "185",
+  "216",
+  "215",
+  "225"
+ ],
+ "ok": 2,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "Presque tout le monde dit 216",
+ "accroche_pill": "SUITE LOGIQUE",
+ "accroche_dite": "Presque tout le monde répond deux cent seize à cette suite logique !",
+ "question_dite": "Zéro, sept, vingt-six, soixante-trois, cent vingt-quatre… Quel nombre vient ensuite ?",
+ "explication": "Les cubes moins 1 : 1³−1, 2³−1, 3³−1… → 6³−1 = 215.",
+ "explication_dite": "Deux cent quinze ! Ce sont les cubes moins un. Six au cube, deux cent seize, moins un : deux cent quinze.",
+ "fin": "Tu avais dit deux cent seize ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔢 Suite logique : 0, 7, 26, 63, 124… quel nombre ensuite ? Tu trouves avant la fin du chrono ? 👇 #suitelogique #quizz #maths #enigme #publiostudio"
+}

@@ -89,6 +89,7 @@
   "96, 48, 24, 12, 6 → 3 (on divise par 2 à chaque fois)",
   "3, 4, 7, 11, 18 → 29 (somme des deux précédents, départ 3 et 4)",
   "Z, Y, W, T, P → K (on recule de 1, 2, 3, 4, 5 lettres)",
-  "1, 9, 25, 49, 81 → 121 (carrés des nombres impairs)"
+  "1, 9, 25, 49, 81 → 121 (carrés des nombres impairs)",
+  "0, 7, 26, 63, 124 → 215 (cubes moins 1)"
  ]
 }
