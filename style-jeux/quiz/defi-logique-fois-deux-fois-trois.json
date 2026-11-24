@@ -1,0 +1,18 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["1", "2", "6", "12", "36", "72"],
+ "options": ["144", "108", "216", "288"],
+ "ok": 2,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "La plupart répondent 144",
+ "accroche_pill": "SUITE LOGIQUE",
+ "accroche_dite": "La plupart des gens répondent cent quarante-quatre à cette suite logique !",
+ "question_dite": "Un, deux, six, douze, trente-six, soixante-douze… Quel nombre vient ensuite ?",
+ "explication": "On multiplie tour à tour par 2 puis par 3 : 72 × 3 = 216.",
+ "explication_dite": "Deux cent seize ! On multiplie tour à tour par deux, puis par trois. Soixante-douze fois trois : deux cent seize.",
+ "fin": "Tu avais dit cent quarante-quatre ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔢 Suite logique : 1, 2, 6, 12, 36, 72… quel nombre ensuite ? Tu trouves avant la fin du chrono ? 👇 #suitelogique #culturegenerale #maths #enigme #publiostudio"
+}
