@@ -1,0 +1,29 @@
+{
+ "title": "Quiz lettre R",
+ "subject": "Lettre R",
+ "banner": "Quiz lettre R",
+ "mode": "lettre",
+ "letter": "R",
+ "icon": "🧠",
+ "symbols": ["R", "A", "B", "C", "?", "!", "★", "✦", "R", "Z", "M", "?", "●", "◆", "R", "✧"],
+ "description": "🔤 Quiz lettre R : toutes les réponses commencent par R ! Du renard à la Roumanie… Tu fais un sans-faute ? Ton score en commentaire 👇 #quizlettre #culturegenerale #quiz #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quel animal roux à la queue touffue est le plus rusé des fables ?", "qd": "Animal roux et rusé des fables ?", "answer": "Renard", "say": "Le renard !", "level": 0},
+  {"q": "Quel petit légume rouge et blanc se croque avec du beurre ?", "qd": "Petit légume rouge qu'on croque au beurre ?", "answer": "Radis", "say": "Le radis !", "level": 0},
+  {"q": "Quel fruit pousse en grappes sur la vigne ?", "qd": "Fruit qui pousse en grappes sur la vigne ?", "answer": "Raisin", "say": "Le raisin !", "level": 0},
+  {"q": "Quel pays a pour capitale Bucarest ?", "qd": "Pays dont la capitale est Bucarest ?", "answer": "Roumanie", "say": "La Roumanie !", "level": 1},
+  {"q": "Quel sport se joue avec un ballon ovale ?", "qd": "Sport qui se joue avec un ballon ovale ?", "answer": "Rugby", "say": "Le rugby !", "level": 1},
+  {"q": "Quelle ville est la capitale de la Bretagne ?", "qd": "Capitale de la Bretagne ?", "answer": "Rennes", "say": "Rennes !", "level": 1},
+  {"q": "Quel grand fleuve sépare l'Alsace de l'Allemagne ?", "qd": "Fleuve entre l'Alsace et l'Allemagne ?", "answer": "Rhin", "say": "Le Rhin !", "level": 2},
+  {"q": "Quelle ville est la capitale du Maroc ?", "qd": "Capitale du Maroc ?", "answer": "Rabat", "say": "Rabat ! Et pas Casablanca !", "level": 3}
+ ],
+ "intro": "Toutes les réponses commencent par la lettre R !",
+ "intro_speed": 0.9,
+ "accroche": "Seul 1 joueur sur 5 trouve tout",
+ "accroche_dite": "Seul un joueur sur cinq trouve tout !",
+ "accroche_pill": "QUIZ LETTRE R"
+}
