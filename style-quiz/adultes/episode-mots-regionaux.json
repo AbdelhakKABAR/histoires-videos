@@ -1,0 +1,26 @@
+{
+ "title": "La région de chaque mot régional",
+ "subject": "Langue française",
+ "banner": "Quiz France : mots régionaux",
+ "icon": "🗣",
+ "symbols": ["🗣","🇫🇷","💬","📍","🥐","🗺","✨","🥨","⚓","🌻","🏔","🍷","⭐","🧀","🔤","🌊"],
+ "description": "🗣 Quiz France : de quelle région vient chaque mot ? Chocolatine, gone… Ton score en commentaire ? Et la question bonus ? 👇 #quiz #quizz #languefrancaise #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire le mot de ta région !",
+ "questions": [
+  {"q": "Quiz France des mots régionaux ! On dit chocolatine au lieu de pain au chocolat dans quelle région ?", "qd": "« Chocolatine » ?", "a": [["","Alsace"],["","Sud-Ouest"],["","Bretagne"],["","Nord"]], "ok": 1, "say": "Dans le Sud-Ouest !", "level": 0},
+  {"q": "Le mot fada, qui veut dire fou, vient de quelle région ?", "qd": "« Fada » (fou) ?", "a": [["","Provence"],["","Normandie"],["","Alsace"],["","Bretagne"]], "ok": 0, "say": "De Provence !", "level": 0},
+  {"q": "Biloute, le surnom affectueux du film Bienvenue chez les Ch'tis, vient de quelle région ?", "qd": "« Biloute » ?", "a": [["","Savoie"],["","Corse"],["","Provence"],["","Nord"]], "ok": 3, "say": "Du Nord !", "level": 0},
+  {"q": "Dans quelle ville appelle-t-on les enfants des gones ?", "qd": "« Gone » (enfant) ?", "a": [["","Bordeaux"],["","Lille"],["","Lyon"],["","Nantes"]], "ok": 2, "say": "À Lyon !", "level": 1},
+  {"q": "Kenavo, qui veut dire au revoir, vient de quelle région ?", "qd": "« Kenavo » (au revoir) ?", "a": [["","Bretagne"],["","Pays basque"],["","Alsace"],["","Corse"]], "ok": 0, "say": "De Bretagne, c'est du breton !", "level": 1},
+  {"q": "Dans quelle ville dit-on dégun pour dire personne ?", "qd": "« Dégun » (personne) ?", "a": [["","Strasbourg"],["","Marseille"],["","Brest"],["","Lille"]], "ok": 1, "say": "À Marseille !", "level": 1},
+  {"q": "Les bredele, les petits biscuits de Noël, viennent de quelle région ?", "qd": "« Bredele » (biscuits) ?", "a": [["","Bretagne"],["","Auvergne"],["","Provence"],["","Alsace"]], "ok": 3, "say": "D'Alsace !", "level": 2},
+  {"q": "Dans quelle région appelle-t-on la serpillière une wassingue ?", "qd": "« Wassingue » (serpillière) ?", "a": [["","Pays basque"],["","Nord"],["","Savoie"],["","Bourgogne"]], "ok": 1, "say": "Dans le Nord !", "level": 3}
+ ],
+ "bonus": {"q": "Dans le Sud-Ouest, on dit chocolatine. Mais à Paris, on dit comment ?", "qd": "À Paris, la chocolatine s'appelle comment ?"},
+ "accroche": "La dernière piège 9 Français sur 10",
+ "accroche_dite": "La dernière question piège neuf Français sur dix !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
