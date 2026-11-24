@@ -1,0 +1,29 @@
+{
+ "title": "Quiz lettre O",
+ "subject": "Lettre O",
+ "banner": "Quiz lettre O",
+ "mode": "lettre",
+ "letter": "O",
+ "icon": "🧠",
+ "symbols": ["O", "A", "B", "C", "?", "!", "★", "✦", "O", "Z", "M", "?", "●", "◆", "O", "✧"],
+ "description": "🔤 Quiz lettre O : toutes les réponses commencent par O ! De l'oreille à l'orque… Tu fais un sans-faute ? Ton score en commentaire 👇 #quizlettre #apprendresurtiktok #quiz #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Écris ton score en commentaire, et abonne-toi pour la prochaine lettre !",
+ "questions": [
+  {"q": "Quel organe du corps sert à entendre ?", "qd": "Organe qui sert à entendre ?", "answer": "Oreille", "say": "L'oreille !", "level": 0},
+  {"q": "Quel légume fait pleurer quand on le coupe ?", "qd": "Légume qui fait pleurer quand on le coupe ?", "answer": "Oignon", "say": "L'oignon !", "level": 0},
+  {"q": "Quel petit fruit vert ou noir donne une huile très utilisée en cuisine ?", "qd": "Petit fruit dont on tire une huile ?", "answer": "Olive", "say": "L'olive !", "level": 0},
+  {"q": "Quel grand animal marin noir et blanc est surnommé la baleine tueuse ?", "qd": "Animal marin surnommé « baleine tueuse » ?", "answer": "Orque", "say": "L'orque !", "level": 1},
+  {"q": "Quel plat est fait d'œufs battus cuits à la poêle ?", "qd": "Plat d'œufs battus cuits à la poêle ?", "answer": "Omelette", "say": "L'omelette !", "level": 1},
+  {"q": "Quelle statuette dorée récompense les meilleurs films à Hollywood ?", "qd": "Statuette dorée du cinéma à Hollywood ?", "answer": "Oscar", "say": "L'Oscar !", "level": 1},
+  {"q": "Quel poème d'Homère raconte le long voyage d'Ulysse pour rentrer chez lui ?", "qd": "Poème d'Homère sur le retour d'Ulysse ?", "answer": "Odyssée", "say": "L'Odyssée !", "level": 2},
+  {"q": "Quel animal d'Afrique, cousin de la girafe, a des pattes rayées comme un zèbre ?", "qd": "Cousin de la girafe aux pattes de zèbre ?", "answer": "Okapi", "say": "L'okapi !", "level": 3}
+ ],
+ "intro": "Toutes les réponses commencent par la lettre O !",
+ "intro_speed": 0.9,
+ "accroche": "La dernière piège 80 % des gens",
+ "accroche_dite": "La dernière question piège quatre-vingts pour cent des gens !",
+ "accroche_pill": "QUIZ LETTRE O"
+}

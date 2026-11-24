@@ -522,6 +522,21 @@
     "Nigeria",
     "Narval"
    ]
+  },
+  {
+   "lettre": "O",
+   "date": "2026-11-24",
+   "fichier": "episode-lettre-o-2026-11-24-18.json",
+   "reponses": [
+    "Oreille",
+    "Oignon",
+    "Olive",
+    "Orque",
+    "Omelette",
+    "Oscar",
+    "Odyssée",
+    "Okapi"
+   ]
   }
  ]
 }
