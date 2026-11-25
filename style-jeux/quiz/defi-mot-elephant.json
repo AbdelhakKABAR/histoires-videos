@@ -1,0 +1,22 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "mot": "ÉLÉPHANT",
+ "categorie": "Un animal",
+ "categorie_dite": "Mot mystère. Catégorie : un animal.",
+ "accroche": "Trouve-le dès le 2e indice",
+ "accroche_pill": "MOT MYSTÈRE",
+ "accroche_dite": "Mot mystère : un vrai génie le trouve dès le deuxième indice !",
+ "indices": [
+  "Il peut peser plusieurs tonnes.",
+  "Il vit en Afrique et en Asie.",
+  "Ses défenses sont en ivoire.",
+  "Il se sert de sa trompe pour boire.",
+  "C'est le plus gros animal terrestre."
+ ],
+ "lettres_donnees": 1,
+ "dire": "Éléphant",
+ "explication": "L'éléphant : le plus gros animal terrestre, avec sa trompe et ses défenses en ivoire.",
+ "description": "🐘 Mot mystère : un animal en 5 indices. Tu l'as trouvé à quel indice ? Dis-le en commentaire 👇 #motmystere #culturegenerale #animaux #nature #publiostudio"
+}
