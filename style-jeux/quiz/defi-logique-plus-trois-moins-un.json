@@ -1,0 +1,29 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": [
+  "2",
+  "5",
+  "4",
+  "7",
+  "6"
+ ],
+ "options": [
+  "8",
+  "5",
+  "9",
+  "10"
+ ],
+ "ok": 2,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "Beaucoup répondent 8… à tort",
+ "accroche_pill": "SUITE LOGIQUE",
+ "accroche_dite": "Beaucoup de gens répondent huit à cette suite logique. Et toi ?",
+ "question_dite": "Deux, cinq, quatre, sept, six… Quel nombre vient ensuite ?",
+ "explication": "On ajoute 3, puis on retire 1, à tour de rôle : 6 + 3 = 9.",
+ "explication_dite": "Neuf ! On ajoute trois, puis on retire un, à tour de rôle. Six plus trois : neuf.",
+ "fin": "Tu avais trouvé neuf ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔢 Suite logique : 2, 5, 4, 7, 6… quel nombre ensuite ? Tu trouves avant la fin du chrono ? 👇 #suitelogique #apprendresurtiktok #maths #enigme #publiostudio"
+}
