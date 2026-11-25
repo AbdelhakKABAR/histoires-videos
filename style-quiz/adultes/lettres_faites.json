@@ -552,6 +552,21 @@
     "Rhin",
     "Rabat"
    ]
+  },
+  {
+   "lettre": "S",
+   "date": "2026-11-25",
+   "fichier": "episode-lettre-s-2026-11-25-18.json",
+   "reponses": [
+    "Singe",
+    "Sel",
+    "Ski",
+    "Suède",
+    "Saumon",
+    "Saturne",
+    "Sahara",
+    "Santiago"
+   ]
   }
  ]
 }

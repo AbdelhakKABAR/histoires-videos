@@ -1,0 +1,29 @@
+{
+ "title": "Quiz lettre S",
+ "subject": "Lettre S",
+ "banner": "Quiz lettre S",
+ "mode": "lettre",
+ "letter": "S",
+ "icon": "🧠",
+ "symbols": ["S", "A", "B", "C", "?", "!", "★", "✦", "S", "Z", "M", "?", "●", "◆", "S", "✧"],
+ "description": "🔤 Quiz lettre S : toutes les réponses commencent par S ! Du singe à la Suède… Tu fais un sans-faute ? Ton score en commentaire 👇 #quizlettre #quizz #quiz #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Écris ton score en commentaire, et abonne-toi !",
+ "questions": [
+  {"q": "Quel animal grimpe aux arbres et adore les bananes ?", "qd": "Animal qui grimpe aux arbres et adore les bananes ?", "answer": "Singe", "say": "Le singe !", "level": 0},
+  {"q": "Quel condiment blanc met-on à table avec le poivre ?", "qd": "Condiment blanc qui va avec le poivre ?", "answer": "Sel", "say": "Le sel !", "level": 0},
+  {"q": "Quel sport d'hiver se pratique avec deux planches aux pieds ?", "qd": "Sport d'hiver avec deux planches aux pieds ?", "answer": "Ski", "say": "Le ski !", "level": 0},
+  {"q": "Quel pays a pour capitale Stockholm ?", "qd": "Pays dont la capitale est Stockholm ?", "answer": "Suède", "say": "La Suède !", "level": 1},
+  {"q": "Quel poisson à la chair rose remonte les rivières pour pondre ?", "qd": "Poisson à chair rose qui remonte les rivières ?", "answer": "Saumon", "say": "Le saumon !", "level": 1},
+  {"q": "Quelle planète est entourée de célèbres anneaux ?", "qd": "Planète entourée de célèbres anneaux ?", "answer": "Saturne", "say": "Saturne !", "level": 1},
+  {"q": "Quel est le plus grand désert chaud du monde, au nord de l'Afrique ?", "qd": "Plus grand désert chaud du monde ?", "answer": "Sahara", "say": "Le Sahara !", "level": 2},
+  {"q": "Quelle ville est la capitale du Chili ?", "qd": "Capitale du Chili ?", "answer": "Santiago", "say": "Santiago !", "level": 3}
+ ],
+ "intro": "Toutes les réponses commencent par la lettre S !",
+ "intro_speed": 0.9,
+ "accroche": "Seuls 3 % trouvent la dernière",
+ "accroche_dite": "Seulement trois pour cent des gens trouvent la dernière !",
+ "accroche_pill": "QUIZ LETTRE S"
+}
