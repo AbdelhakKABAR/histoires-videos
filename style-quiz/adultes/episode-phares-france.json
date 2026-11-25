@@ -1,0 +1,26 @@
+{
+ "title": "Le département de chaque phare",
+ "subject": "Phares",
+ "banner": "Quiz France : les phares",
+ "icon": "🗼",
+ "symbols": ["🗼","🌊","⚓","🚢","🐚","⛵","🌅","💡","🧭","🦀","🐟","⭐","🌬","🏝","✨","⛴"],
+ "description": "🗼 Quiz France : dans quel département est chaque phare ? Biarritz, l'île de Ré… Tu connais les côtes françaises ? Ton score ? 👇 #quiz #testculturegenerale #mer #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire quel phare t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz France des phares ! Le phare de Biarritz est dans quel département ?", "qd": "Le phare de Biarritz ?", "a": [["","Landes"],["","Gironde"],["","Pyrénées-Atlantiques"],["","Hautes-Pyrénées"]], "ok": 2, "say": "Les Pyrénées-Atlantiques !", "level": 0},
+  {"q": "Le phare de Calais se trouve dans quel département ?", "qd": "Le phare de Calais ?", "a": [["","Pas-de-Calais"],["","Nord"],["","Somme"],["","Seine-Maritime"]], "ok": 0, "say": "Le Pas-de-Calais, évidemment !", "level": 0},
+  {"q": "Le phare du Cap-Ferret, face au bassin d'Arcachon, est dans quel département ?", "qd": "Le phare du Cap-Ferret ?", "a": [["","Landes"],["","Charente-Maritime"],["","Vendée"],["","Gironde"]], "ok": 3, "say": "La Gironde !", "level": 0},
+  {"q": "Le phare des Baleines, sur l'île de Ré, est dans quel département ?", "qd": "Le phare des Baleines (île de Ré) ?", "a": [["","Vendée"],["","Charente-Maritime"],["","Loire-Atlantique"],["","Gironde"]], "ok": 1, "say": "La Charente-Maritime !", "level": 1},
+  {"q": "Le phare du cap Fréhel, en Bretagne, est dans quel département ?", "qd": "Le phare du cap Fréhel ?", "a": [["","Finistère"],["","Morbihan"],["","Ille-et-Vilaine"],["","Côtes-d'Armor"]], "ok": 3, "say": "Les Côtes-d'Armor !", "level": 1},
+  {"q": "Le phare des Sanguinaires, près d'Ajaccio, est dans quel département ?", "qd": "Le phare des Sanguinaires ?", "a": [["","Haute-Corse"],["","Corse-du-Sud"],["","Var"],["","Alpes-Maritimes"]], "ok": 1, "say": "La Corse-du-Sud !", "level": 1},
+  {"q": "Le phare de Cordouan, surnommé le roi des phares, est dans quel département ?", "qd": "Le phare de Cordouan ?", "a": [["","Charente-Maritime"],["","Landes"],["","Gironde"],["","Vendée"]], "ok": 2, "say": "La Gironde, à l'embouchure de l'estuaire !", "level": 2},
+  {"q": "Le phare de Gatteville, l'un des plus hauts de France, est dans quel département ?", "qd": "Le phare de Gatteville ?", "a": [["","Manche"],["","Calvados"],["","Seine-Maritime"],["","Finistère"]], "ok": 0, "say": "La Manche, près de Barfleur !", "level": 3}
+ ],
+ "bonus": {"q": "Dans quel département se trouve le phare d'Eckmühl, à Penmarch ?", "qd": "Le phare d'Eckmühl, à Penmarch : quel département ?"},
+ "accroche": "Personne ne place le dernier phare",
+ "accroche_dite": "Personne ne place le dernier phare !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
