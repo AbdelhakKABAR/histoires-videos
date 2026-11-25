@@ -567,6 +567,21 @@
     "Sahara",
     "Santiago"
    ]
+  },
+  {
+   "lettre": "P",
+   "date": "2026-11-25",
+   "fichier": "episode-lettre-p-2026-11-25-21.json",
+   "reponses": [
+    "Papillon",
+    "Poule",
+    "Pain",
+    "Pérou",
+    "Piano",
+    "Parapluie",
+    "Prague",
+    "Panama"
+   ]
   }
  ]
 }

@@ -1,0 +1,29 @@
+{
+ "title": "Quiz lettre P",
+ "subject": "Lettre P",
+ "banner": "Quiz lettre P",
+ "mode": "lettre",
+ "letter": "P",
+ "icon": "🧠",
+ "symbols": ["P", "A", "B", "C", "?", "!", "★", "✦", "P", "Z", "M", "?", "●", "◆", "P", "✧"],
+ "description": "🔤 Quiz lettre P : toutes les réponses commencent par P ! Du papillon au Pérou… Combien tu en trouves sur 8 ? 👇 #quizlettre #culturegenerale #quiz #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quel insecte aux ailes colorées sort d'une chenille ?", "qd": "Insecte aux ailes colorées, né d'une chenille ?", "answer": "Papillon", "say": "Le papillon !", "level": 0},
+  {"q": "Quel oiseau de la ferme pond des œufs ?", "qd": "Oiseau de la ferme qui pond des œufs ?", "answer": "Poule", "say": "La poule !", "level": 0},
+  {"q": "Que fabrique le boulanger avec de la farine ?", "qd": "Ce que le boulanger fait avec de la farine ?", "answer": "Pain", "say": "Le pain !", "level": 0},
+  {"q": "Quel pays d'Amérique du Sud abrite le Machu Picchu ?", "qd": "Pays du Machu Picchu ?", "answer": "Pérou", "say": "Le Pérou !", "level": 1},
+  {"q": "Quel instrument a des touches noires et blanches ?", "qd": "Instrument aux touches noires et blanches ?", "answer": "Piano", "say": "Le piano !", "level": 1},
+  {"q": "Quel objet ouvre-t-on quand il pleut ?", "qd": "Objet qu'on ouvre quand il pleut ?", "answer": "Parapluie", "say": "Le parapluie !", "level": 1},
+  {"q": "Quelle ville est la capitale de la République tchèque ?", "qd": "Capitale de la République tchèque ?", "answer": "Prague", "say": "Prague !", "level": 2},
+  {"q": "Quel canal relie l'océan Atlantique à l'océan Pacifique ?", "qd": "Canal entre l'Atlantique et le Pacifique ?", "answer": "Panama", "say": "Le canal de Panama !", "level": 3}
+ ],
+ "intro": "Toutes les réponses commencent par la lettre P !",
+ "intro_speed": 0.9,
+ "accroche": "La 8e piège 9 personnes sur 10",
+ "accroche_dite": "La huitième question piège neuf personnes sur dix !",
+ "accroche_pill": "QUIZ LETTRE P"
+}
