@@ -1,0 +1,18 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["1", "2", "5", "10", "13", "26"],
+ "options": ["29", "52", "39", "31"],
+ "ok": 0,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "La plupart répondent 52",
+ "accroche_pill": "SUITE LOGIQUE",
+ "accroche_dite": "La plupart des gens répondent cinquante-deux à cette suite logique !",
+ "question_dite": "Un, deux, cinq, dix, treize, vingt-six… Quel nombre vient ensuite ?",
+ "explication": "On multiplie par 2, puis on ajoute 3, à tour de rôle : 26 + 3 = 29.",
+ "explication_dite": "Vingt-neuf ! On multiplie par deux, puis on ajoute trois, à tour de rôle. Vingt-six plus trois : vingt-neuf.",
+ "fin": "Tu avais dit cinquante-deux ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔢 Suite logique : 1, 2, 5, 10, 13, 26… quel nombre ensuite ? Tu trouves avant la fin du chrono ? 👇 #suitelogique #testculturegenerale #maths #enigme #publiostudio"
+}

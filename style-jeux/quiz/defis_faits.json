@@ -93,6 +93,7 @@
   "1, 9, 25, 49, 81 → 121 (carrés des nombres impairs)",
   "0, 7, 26, 63, 124 → 215 (cubes moins 1)",
   "1, 2, 6, 12, 36, 72 → 216 (alternance ×2 puis ×3)",
-  "2, 5, 4, 7, 6 → 9 (alternance +3 puis −1)"
+  "2, 5, 4, 7, 6 → 9 (alternance +3 puis −1)",
+  "1, 2, 5, 10, 13, 26 → 29 (alternance ×2 puis +3)"
  ]
 }
