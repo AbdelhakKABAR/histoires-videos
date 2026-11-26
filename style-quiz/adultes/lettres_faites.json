@@ -597,6 +597,21 @@
     "Titanic",
     "Tolstoï"
    ]
+  },
+  {
+   "lettre": "V",
+   "date": "2026-11-26",
+   "fichier": "episode-lettre-v-2026-11-26-21.json",
+   "reponses": [
+    "Vendredi",
+    "Valise",
+    "Volcan",
+    "Vanille",
+    "Vietnam",
+    "Versailles",
+    "Vienne",
+    "Vermeer"
+   ]
   }
  ]
 }

@@ -1,0 +1,29 @@
+{
+ "title": "Quiz lettre V",
+ "subject": "Lettre V",
+ "banner": "Quiz lettre V",
+ "mode": "lettre",
+ "letter": "V",
+ "icon": "🧠",
+ "symbols": ["V", "A", "B", "C", "?", "!", "★", "✦", "V", "Z", "M", "?", "●", "◆", "V", "✧"],
+ "description": "🔤 Quiz lettre V : toutes les réponses commencent par V ! Du vendredi à la vanille… Tu en trouves combien ? 👇 #quizlettre #culturegenerale #quiz #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quel jour de la semaine vient juste après jeudi ?", "qd": "Jour qui vient juste après jeudi ?", "answer": "Vendredi", "say": "Vendredi !", "level": 0},
+  {"q": "Dans quoi range-t-on ses vêtements pour partir en voyage ?", "qd": "On y range ses habits pour voyager ?", "answer": "Valise", "say": "La valise !", "level": 0},
+  {"q": "Quelle montagne peut cracher de la lave ?", "qd": "Montagne qui crache de la lave ?", "answer": "Volcan", "say": "Le volcan !", "level": 0},
+  {"q": "Quelle épice en gousse parfume beaucoup de glaces et de crèmes ?", "qd": "Épice en gousse qui parfume les glaces ?", "answer": "Vanille", "say": "La vanille !", "level": 1},
+  {"q": "Quel pays d'Asie a pour capitale Hanoï ?", "qd": "Pays dont la capitale est Hanoï ?", "answer": "Vietnam", "say": "Le Vietnam !", "level": 1},
+  {"q": "Quel château de Louis XIV abrite la galerie des Glaces ?", "qd": "Château de Louis XIV, galerie des Glaces ?", "answer": "Versailles", "say": "Versailles !", "level": 1},
+  {"q": "Quelle capitale européenne, au bord du Danube, est célèbre pour ses valses ?", "qd": "Capitale des valses, au bord du Danube ?", "answer": "Vienne", "say": "Vienne, en Autriche !", "level": 2},
+  {"q": "Quel peintre néerlandais a peint La Jeune Fille à la perle ?", "qd": "Peintre de « La Jeune Fille à la perle » ?", "answer": "Vermeer", "say": "Johannes Vermeer !", "level": 3}
+ ],
+ "intro": "Toutes les réponses commencent par la lettre V !",
+ "intro_speed": 0.9,
+ "accroche": "Seul 1 sur 20 trouve tout",
+ "accroche_dite": "Seulement une personne sur vingt trouve tout !",
+ "accroche_pill": "QUIZ LETTRE V"
+}
