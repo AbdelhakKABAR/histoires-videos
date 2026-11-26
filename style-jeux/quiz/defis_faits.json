@@ -95,6 +95,7 @@
   "1, 2, 6, 12, 36, 72 → 216 (alternance ×2 puis ×3)",
   "2, 5, 4, 7, 6 → 9 (alternance +3 puis −1)",
   "1, 2, 5, 10, 13, 26 → 29 (alternance ×2 puis +3)",
-  "2, 3, 6, 18, 108 → 1944 (produit des deux précédents)"
+  "2, 3, 6, 18, 108 → 1944 (produit des deux précédents)",
+  "3, 6, 12, 24, 48 → 96 (on multiplie par 2)"
  ]
 }

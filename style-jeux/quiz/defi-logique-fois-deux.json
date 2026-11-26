@@ -1,0 +1,18 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["3", "6", "12", "24", "48"],
+ "options": ["72", "60", "96", "84"],
+ "ok": 2,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "Un génie trouve en 3 secondes",
+ "accroche_pill": "SUITE LOGIQUE",
+ "accroche_dite": "Un génie trouve cette suite logique en trois secondes !",
+ "question_dite": "Trois, six, douze, vingt-quatre, quarante-huit… Quel nombre vient ensuite ?",
+ "explication": "On multiplie par 2 à chaque fois : 48 × 2 = 96.",
+ "explication_dite": "Quatre-vingt-seize ! On multiplie par deux à chaque fois : quarante-huit fois deux, quatre-vingt-seize.",
+ "fin": "Tu as trouvé en combien de secondes ? Dis-le en commentaire !",
+ "fin_ecrite": "Trouvé en combien de secondes ?",
+ "description": "🔢 Suite logique : 3, 6, 12, 24, 48… quel nombre ensuite ? Tu trouves en moins de 3 secondes ? Ta réponse en commentaire 👇 #suitelogique #culturegenerale #maths #enigme #publiostudio"
+}
