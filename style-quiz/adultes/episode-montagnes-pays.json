@@ -20,7 +20,7 @@
   {"q": "Le Denali, le plus haut sommet d'Amérique du Nord, est dans quel pays ?", "qd": "Le Denali ?", "a": [["","Canada"],["","Groenland"],["","États-Unis"],["","Russie"]], "ok": 2, "say": "Les États-Unis, en Alaska !", "level": 3}
  ],
  "bonus": {"q": "Dans quel pays se trouve le mont Ararat, où se serait échouée l'arche de Noé ?", "qd": "Dans quel pays est le mont Ararat ?"},
- "accroche": "La montagne n°8 piège tout le monde",
- "accroche_dite": "La huitième montagne piège tout le monde !",
+ "accroche": "La dernière montagne piège tout le monde",
+ "accroche_dite": "La dernière montagne piège tout le monde !",
  "accroche_pill": "SPÉCIAL MONDE"
 }
