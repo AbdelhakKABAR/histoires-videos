@@ -1,0 +1,18 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["2", "3", "6", "18", "108"],
+ "options": ["648", "1296", "216", "1944"],
+ "ok": 3,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "Presque tout le monde dit 648",
+ "accroche_pill": "SUITE LOGIQUE",
+ "accroche_dite": "Presque tout le monde répond six cent quarante-huit à cette suite logique !",
+ "question_dite": "Deux, trois, six, dix-huit, cent huit… Quel nombre vient ensuite ?",
+ "explication": "Chaque nombre = produit des deux précédents : 18 × 108 = 1944.",
+ "explication_dite": "Mille neuf cent quarante-quatre ! Chaque nombre est le produit des deux précédents. Dix-huit fois cent huit : mille neuf cent quarante-quatre.",
+ "fin": "Tu avais dit six cent quarante-huit ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔢 Suite logique : 2, 3, 6, 18, 108… quel nombre ensuite ? Tu trouves avant la fin du chrono ? 👇 #suitelogique #quizz #maths #enigme #publiostudio"
+}
