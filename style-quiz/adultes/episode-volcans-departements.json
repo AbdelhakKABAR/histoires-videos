@@ -1,0 +1,26 @@
+{
+ "title": "Le département de chaque volcan",
+ "subject": "Volcans",
+ "banner": "Quiz France : les volcans",
+ "icon": "🌋",
+ "symbols": ["🌋","🔥","⛰","🏔","🇫🇷","✨","🌄","🪨","⭐","🗺","🌿","🧭","☁","✦","🌅","💨"],
+ "description": "🌋 Quiz France : dans quel département est chaque volcan ? Puy de Dôme, Soufrière… Ton score sur 8 ? Et la question bonus ? 👇 #quiz #testculturegenerale #geographie #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire quel volcan t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz volcans de France ! Le puy de Dôme se trouve dans quel département ?", "qd": "Le puy de Dôme ?", "a": [["","Cantal"],["","Puy-de-Dôme"],["","Haute-Loire"],["","Corrèze"]], "ok": 1, "say": "Le Puy-de-Dôme, près de Clermont-Ferrand !", "level": 0},
+  {"q": "Le piton de la Fournaise, l'un des volcans les plus actifs du monde, est sur quelle île ?", "qd": "Le piton de la Fournaise ?", "a": [["","Martinique"],["","Guadeloupe"],["","Mayotte"],["","La Réunion"]], "ok": 3, "say": "La Réunion !", "level": 0},
+  {"q": "La montagne Pelée se trouve dans quel département d'outre-mer ?", "qd": "La montagne Pelée ?", "a": [["","Martinique"],["","Guyane"],["","La Réunion"],["","Mayotte"]], "ok": 0, "say": "La Martinique !", "level": 0},
+  {"q": "La Soufrière, le plus haut sommet des Antilles françaises, est dans quel département ?", "qd": "Le volcan de la Soufrière ?", "a": [["","Martinique"],["","Guadeloupe"],["","Guyane"],["","La Réunion"]], "ok": 1, "say": "La Guadeloupe !", "level": 1},
+  {"q": "Le puy Mary, l'un des grands sites d'Auvergne, est dans quel département ?", "qd": "Le puy Mary ?", "a": [["","Aveyron"],["","Lozère"],["","Cantal"],["","Corrèze"]], "ok": 2, "say": "Le Cantal !", "level": 1},
+  {"q": "Le puy de Sancy, plus haut sommet du Massif central, est dans quel département ?", "qd": "Le puy de Sancy ?", "a": [["","Haute-Loire"],["","Allier"],["","Creuse"],["","Puy-de-Dôme"]], "ok": 3, "say": "Le Puy-de-Dôme !", "level": 1},
+  {"q": "Le mont Gerbier-de-Jonc, ancien volcan où naît la Loire, est dans quel département ?", "qd": "Le mont Gerbier-de-Jonc ?", "a": [["","Loire"],["","Ardèche"],["","Haute-Loire"],["","Lozère"]], "ok": 1, "say": "L'Ardèche !", "level": 2},
+  {"q": "Un énorme volcan sous-marin, découvert en 2019, est né au large de quelle île française ?", "qd": "Le nouveau volcan sous-marin de 2019 ?", "a": [["","La Réunion"],["","Tahiti"],["","Mayotte"],["","Nouvelle-Calédonie"]], "ok": 2, "say": "Mayotte, dans l'océan Indien !", "level": 3}
+ ],
+ "bonus": {"q": "Dans quel département se trouve le parc Vulcania, consacré aux volcans ?", "qd": "Dans quel département est le parc Vulcania ?"},
+ "accroche": "Seuls 5 % trouvent le dernier volcan",
+ "accroche_dite": "Seulement cinq pour cent des gens trouvent le dernier volcan !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
