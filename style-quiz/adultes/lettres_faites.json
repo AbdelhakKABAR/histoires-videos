@@ -582,6 +582,21 @@
     "Prague",
     "Panama"
    ]
+  },
+  {
+   "lettre": "T",
+   "date": "2026-11-26",
+   "fichier": "episode-lettre-t-2026-11-26-18.json",
+   "reponses": [
+    "Taupe",
+    "Téléphone",
+    "Tarte",
+    "Tokyo",
+    "Turquie",
+    "Thé",
+    "Titanic",
+    "Tolstoï"
+   ]
   }
  ]
 }

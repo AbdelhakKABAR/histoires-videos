@@ -1,0 +1,29 @@
+{
+ "title": "Quiz lettre T",
+ "subject": "Lettre T",
+ "banner": "Quiz lettre T",
+ "mode": "lettre",
+ "letter": "T",
+ "icon": "🧠",
+ "symbols": ["T", "A", "B", "C", "?", "!", "★", "✦", "T", "Z", "M", "?", "●", "◆", "T", "✧"],
+ "description": "🔤 Quiz lettre T : toutes les réponses commencent par T ! De la taupe à Tokyo… Tu en trouves combien sur 5 ? 👇 #quizlettre #testculturegenerale #quiz #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Écris ton score en commentaire, et abonne-toi !",
+ "questions": [
+  {"q": "Quel petit animal creuse des galeries sous la terre ?", "qd": "Petit animal qui creuse des galeries sous terre ?", "answer": "Taupe", "say": "La taupe !", "level": 0},
+  {"q": "Quel appareil utilise-t-on pour appeler quelqu'un ?", "qd": "Appareil pour appeler quelqu'un ?", "answer": "Téléphone", "say": "Le téléphone !", "level": 0},
+  {"q": "Quel dessert à pâte se fait souvent aux pommes ?", "qd": "Dessert à pâte, souvent aux pommes ?", "answer": "Tarte", "say": "La tarte !", "level": 0},
+  {"q": "Quelle ville est la capitale du Japon ?", "qd": "Capitale du Japon ?", "answer": "Tokyo", "say": "Tokyo !", "level": 1},
+  {"q": "Dans quel pays se trouve la ville d'Istanbul ?", "qd": "Pays où se trouve Istanbul ?", "answer": "Turquie", "say": "La Turquie !", "level": 1},
+  {"q": "Quelle boisson chaude, très bue en Angleterre, se prépare avec des feuilles infusées ?", "qd": "Boisson chaude aux feuilles infusées, adorée des Anglais ?", "answer": "Thé", "say": "Le thé !", "level": 1},
+  {"q": "Quel paquebot a coulé en 1912 après avoir heurté un iceberg ?", "qd": "Paquebot qui a coulé en 1912 contre un iceberg ?", "answer": "Titanic", "say": "Le Titanic !", "level": 2},
+  {"q": "Quel écrivain russe a écrit Guerre et Paix ?", "qd": "Écrivain russe de « Guerre et Paix » ?", "answer": "Tolstoï", "say": "Léon Tolstoï !", "level": 3}
+ ],
+ "intro": "Toutes les réponses commencent par la lettre T !",
+ "intro_speed": 0.9,
+ "accroche": "Personne ne trouve la dernière",
+ "accroche_dite": "Presque personne ne trouve la dernière question !",
+ "accroche_pill": "QUIZ LETTRE T"
+}
