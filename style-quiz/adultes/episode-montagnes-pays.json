@@ -1,0 +1,26 @@
+{
+ "title": "Le pays de chaque montagne",
+ "subject": "Géographie",
+ "banner": "Quiz : les montagnes",
+ "icon": "⛰️",
+ "symbols": ["⛰️","🏔","🗻","🌍","🧗","🥾","❄️","🌄","⭐","🌐","🦅","🧭","🌎","✦","🏕","🗺"],
+ "description": "⛰️ Quiz Monde : dans quel pays est chaque montagne ? Pain de Sucre, montagne de la Table… Ton score ? Et la question bonus ? 👇 #quiz #apprendresurtiktok #geographie #monde #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz montagnes ! Le Pain de Sucre, qui domine la baie de Rio, est dans quel pays ?", "qd": "Le Pain de Sucre ?", "a": [["","Argentine"],["","Brésil"],["","Portugal"],["","Mexique"]], "ok": 1, "say": "Le Brésil, à Rio de Janeiro !", "level": 0},
+  {"q": "Le mont Olympe, la montagne des dieux grecs, se trouve dans quel pays ?", "qd": "Le mont Olympe ?", "a": [["","Italie"],["","Turquie"],["","Chypre"],["","Grèce"]], "ok": 3, "say": "La Grèce !", "level": 0},
+  {"q": "Uluru, le grand rocher rouge sacré, se trouve dans quel pays ?", "qd": "Le rocher Uluru ?", "a": [["","Australie"],["","Nouvelle-Zélande"],["","Afrique du Sud"],["","États-Unis"]], "ok": 0, "say": "L'Australie !", "level": 0},
+  {"q": "La montagne de la Table, au-dessus du Cap, est dans quel pays ?", "qd": "La montagne de la Table ?", "a": [["","Kenya"],["","Namibie"],["","Afrique du Sud"],["","Maroc"]], "ok": 2, "say": "L'Afrique du Sud, au Cap !", "level": 1},
+  {"q": "Le mont Sinaï se trouve dans quel pays ?", "qd": "Le mont Sinaï ?", "a": [["","Jordanie"],["","Égypte"],["","Israël"],["","Arabie saoudite"]], "ok": 1, "say": "L'Égypte, dans la péninsule du Sinaï !", "level": 1},
+  {"q": "Le Ben Nevis, le plus haut sommet des îles Britanniques, est dans quel pays ?", "qd": "Le Ben Nevis ?", "a": [["","Irlande"],["","Islande"],["","Norvège"],["","Royaume-Uni"]], "ok": 3, "say": "Le Royaume-Uni, en Écosse !", "level": 1},
+  {"q": "L'Aconcagua, le plus haut sommet des Amériques, est dans quel pays ?", "qd": "L'Aconcagua ?", "a": [["","Argentine"],["","Chili"],["","Pérou"],["","Bolivie"]], "ok": 0, "say": "L'Argentine !", "level": 2},
+  {"q": "Le Denali, le plus haut sommet d'Amérique du Nord, est dans quel pays ?", "qd": "Le Denali ?", "a": [["","Canada"],["","Groenland"],["","États-Unis"],["","Russie"]], "ok": 2, "say": "Les États-Unis, en Alaska !", "level": 3}
+ ],
+ "bonus": {"q": "Dans quel pays se trouve le mont Ararat, où se serait échouée l'arche de Noé ?", "qd": "Dans quel pays est le mont Ararat ?"},
+ "accroche": "La montagne n°8 piège tout le monde",
+ "accroche_dite": "La huitième montagne piège tout le monde !",
+ "accroche_pill": "SPÉCIAL MONDE"
+}
