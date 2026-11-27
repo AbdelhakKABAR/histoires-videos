@@ -1,0 +1,22 @@
+{
+ "format": "mot",
+ "titre": "MOT MYSTÈRE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "mot": "RATATOUILLE",
+ "categorie": "Un plat français",
+ "categorie_dite": "Mot mystère. Catégorie : un plat français.",
+ "accroche": "Les gourmands trouvent dès l'indice 2",
+ "accroche_pill": "MOT MYSTÈRE",
+ "accroche_dite": "Mot mystère : les vrais gourmands le trouvent dès le deuxième indice !",
+ "indices": [
+  "C'est un plat d'été, souvent servi chaud ou froid.",
+  "Il vient de Provence, et surtout de Nice.",
+  "On y met courgettes, aubergines et poivrons.",
+  "Les légumes mijotent avec tomates, oignons et ail.",
+  "Un film Pixar de 2007 avec un rat porte son nom."
+ ],
+ "lettres_donnees": 1,
+ "dire": "Ratatouille",
+ "explication": "La ratatouille niçoise : un mijoté de légumes du soleil, rendu célèbre aussi par le film Pixar.",
+ "description": "🍆 Mot mystère : un plat français en 5 indices. Tu l'as trouvé à quel indice ? Dis-le en commentaire 👇 #motmystere #culturegenerale #cuisine #france #publiostudio"
+}
