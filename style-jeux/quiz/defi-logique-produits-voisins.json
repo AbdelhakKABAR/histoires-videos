@@ -1,0 +1,18 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["2", "12", "30", "56", "90"],
+ "options": ["124", "130", "132", "144"],
+ "ok": 2,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "Un génie trouve en 10 secondes",
+ "accroche_pill": "SUITE LOGIQUE",
+ "accroche_dite": "Un génie trouve cette suite logique en dix secondes !",
+ "question_dite": "Deux, douze, trente, cinquante-six, quatre-vingt-dix… Quel nombre vient ensuite ?",
+ "explication": "1×2, 3×4, 5×6, 7×8, 9×10… → 11 × 12 = 132.",
+ "explication_dite": "Cent trente-deux ! On multiplie deux nombres qui se suivent : un fois deux, trois fois quatre, cinq fois six… Onze fois douze : cent trente-deux.",
+ "fin": "Tu as trouvé en combien de secondes ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔢 Suite logique : 2, 12, 30, 56, 90… quel nombre ensuite ? Tu trouves avant la fin du chrono ? 👇 #suitelogique #apprendresurtiktok #maths #enigme #publiostudio"
+}

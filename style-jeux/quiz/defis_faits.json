@@ -97,6 +97,7 @@
   "2, 5, 4, 7, 6 → 9 (alternance +3 puis −1)",
   "1, 2, 5, 10, 13, 26 → 29 (alternance ×2 puis +3)",
   "2, 3, 6, 18, 108 → 1944 (produit des deux précédents)",
-  "3, 6, 12, 24, 48 → 96 (on multiplie par 2)"
+  "3, 6, 12, 24, 48 → 96 (on multiplie par 2)",
+  "2, 12, 30, 56, 90 → 132 (produits de deux nombres qui se suivent : 1×2, 3×4, 5×6…)"
  ]
 }
