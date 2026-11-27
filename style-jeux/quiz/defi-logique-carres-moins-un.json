@@ -1,0 +1,18 @@
+{
+ "format": "logique",
+ "titre": "SUITE LOGIQUE",
+ "niveau": "NIVEAU : DIFFICILE",
+ "suite": ["3", "8", "15", "24", "35"],
+ "options": ["46", "48", "49", "50"],
+ "ok": 1,
+ "consigne": "Quel nombre vient ensuite ?",
+ "accroche": "8 personnes sur 10 se trompent",
+ "accroche_pill": "SUITE LOGIQUE",
+ "accroche_dite": "Huit personnes sur dix se trompent sur cette suite logique !",
+ "question_dite": "Trois, huit, quinze, vingt-quatre, trente-cinq… Quel nombre vient ensuite ?",
+ "explication": "On ajoute 5, 7, 9, 11… puis 13 → 48 (= 7 × 7 − 1).",
+ "explication_dite": "Quarante-huit ! On ajoute cinq, sept, neuf, onze, puis treize. Ce sont aussi les carrés moins un : sept fois sept moins un, quarante-huit.",
+ "fin": "Tu avais trouvé avant le chrono ? Dis-le en commentaire !",
+ "fin_ecrite": "Tu avais trouvé ?",
+ "description": "🔢 Suite logique : 3, 8, 15, 24, 35… quel nombre ensuite ? Le piège est à côté de la bonne réponse. Tu dis quoi ? 👇 #suitelogique #culturegenerale #maths #enigme #publiostudio"
+}
