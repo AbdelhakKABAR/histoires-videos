@@ -612,6 +612,21 @@
     "Vienne",
     "Vermeer"
    ]
+  },
+  {
+   "lettre": "A",
+   "date": "2026-11-27",
+   "fichier": "episode-lettre-a-2026-11-27-18.json",
+   "reponses": [
+    "Âne",
+    "Août",
+    "Avocat",
+    "Australie",
+    "Alpes",
+    "Astérix",
+    "Alger",
+    "Aphrodite"
+   ]
   }
  ]
 }

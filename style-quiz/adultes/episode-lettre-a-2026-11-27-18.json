@@ -1,0 +1,29 @@
+{
+ "title": "Quiz lettre A",
+ "subject": "Lettre A",
+ "banner": "Quiz lettre A",
+ "mode": "lettre",
+ "letter": "A",
+ "icon": "🧠",
+ "symbols": ["A", "B", "C", "D", "?", "!", "★", "✦", "A", "Z", "M", "?", "●", "◆", "A", "✧"],
+ "description": "🔤 Quiz lettre A : toutes les réponses commencent par A ! De l'âne à l'Australie… Tu en trouves combien ? 👇 #quizlettre #testculturegenerale #quiz #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Écris ton score en commentaire, et abonne-toi !",
+ "questions": [
+  {"q": "Quel animal aux longues oreilles fait hi-han ?", "qd": "Animal aux longues oreilles qui fait hi-han ?", "answer": "Âne", "say": "L'âne !", "level": 0},
+  {"q": "Quel mois de l'année vient juste après juillet ?", "qd": "Mois qui vient juste après juillet ?", "answer": "Août", "say": "Août !", "level": 0},
+  {"q": "Quel fruit vert à gros noyau sert à faire le guacamole ?", "qd": "Fruit vert du guacamole ?", "answer": "Avocat", "say": "L'avocat !", "level": 0},
+  {"q": "Dans quel pays vivent les kangourous à l'état sauvage ?", "qd": "Pays des kangourous ?", "answer": "Australie", "say": "L'Australie !", "level": 1},
+  {"q": "Dans quelle chaîne de montagnes se trouve le mont Blanc ?", "qd": "Montagnes où se trouve le mont Blanc ?", "answer": "Alpes", "say": "Les Alpes !", "level": 1},
+  {"q": "Quel petit Gaulois moustachu est le meilleur ami d'Obélix ?", "qd": "Meilleur ami gaulois d'Obélix ?", "answer": "Astérix", "say": "Astérix !", "level": 1},
+  {"q": "Quelle est la capitale de l'Algérie ?", "qd": "Capitale de l'Algérie ?", "answer": "Alger", "say": "Alger !", "level": 2},
+  {"q": "Quelle déesse grecque de l'amour et de la beauté est née de l'écume de la mer ?", "qd": "Déesse grecque de l'amour et de la beauté ?", "answer": "Aphrodite", "say": "Aphrodite !", "level": 3}
+ ],
+ "intro": "Toutes les réponses commencent par la lettre A !",
+ "intro_speed": 0.9,
+ "accroche": "Seuls 5 % trouvent la dernière",
+ "accroche_dite": "Seulement cinq pour cent des gens trouvent la dernière !",
+ "accroche_pill": "QUIZ LETTRE A"
+}
