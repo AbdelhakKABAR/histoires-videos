@@ -1,0 +1,29 @@
+{
+ "title": "Quiz lettre B",
+ "subject": "Lettre B",
+ "banner": "Quiz lettre B",
+ "mode": "lettre",
+ "letter": "B",
+ "icon": "🧠",
+ "symbols": ["B", "A", "C", "D", "?", "!", "★", "✦", "B", "Z", "M", "?", "●", "◆", "B", "✧"],
+ "description": "🔤 Quiz lettre B : toutes les réponses commencent par B ! Du ballon à la Belgique… Tu fais combien sur 8 ? 👇 #quizlettre #culturegenerale #quiz #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile", "normal", "difficile", "impossible"],
+ "outro": "Dis-moi en commentaire laquelle t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quel objet rond tape-t-on du pied au football ?", "qd": "Objet rond du football ?", "answer": "Ballon", "say": "Le ballon !", "level": 0},
+  {"q": "Quel produit jaune, fait avec la crème du lait, étale-t-on sur les tartines ?", "qd": "Produit laitier qu'on étale sur les tartines ?", "answer": "Beurre", "say": "Le beurre !", "level": 0},
+  {"q": "De quelle couleur est le ciel quand il fait beau ?", "qd": "Couleur du ciel quand il fait beau ?", "answer": "Bleu", "say": "Bleu !", "level": 0},
+  {"q": "Quel pays voisin de la France est célèbre pour ses frites et le Manneken-Pis ?", "qd": "Pays des frites et du Manneken-Pis ?", "answer": "Belgique", "say": "La Belgique !", "level": 1},
+  {"q": "Dans quel sport faut-il lancer le ballon dans un panier ?", "qd": "Sport où l'on vise un panier ?", "answer": "Basket", "say": "Le basket !", "level": 1},
+  {"q": "Comment s'appelle le petit faon du célèbre dessin animé de Disney ?", "qd": "Petit faon du dessin animé Disney ?", "answer": "Bambi", "say": "Bambi !", "level": 1},
+  {"q": "Quelle est la capitale de la Hongrie, traversée par le Danube ?", "qd": "Capitale de la Hongrie ?", "answer": "Budapest", "say": "Budapest !", "level": 2},
+  {"q": "Quel grand compositeur allemand a écrit les Concertos brandebourgeois ?", "qd": "Compositeur des Concertos brandebourgeois ?", "answer": "Bach", "say": "Jean-Sébastien Bach !", "level": 3}
+ ],
+ "intro": "Toutes les réponses commencent par la lettre B !",
+ "intro_speed": 0.9,
+ "accroche": "La 8 piège 85 % des gens",
+ "accroche_dite": "La huitième question piège quatre-vingt-cinq pour cent des gens !",
+ "accroche_pill": "QUIZ LETTRE B"
+}
