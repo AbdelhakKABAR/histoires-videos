@@ -1,0 +1,26 @@
+{
+ "title": "La ville de chaque porte et arc célèbre",
+ "subject": "Monuments",
+ "banner": "Quiz : portes et arcs",
+ "icon": "🏛",
+ "symbols": ["🏛","🚪","🏰","🇫🇷","✨","🗝","⭐","🧱","🕰","🗺","👑","✦","🏙","🧭","🌟","🔔"],
+ "description": "🏛 Quiz France : dans quelle ville est chaque porte ou arc célèbre ? Arc de Triomphe, Gros-Horloge… Ton score sur 4 ? Et la question bonus ? 👇 #quiz #quizz #monuments #france #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Écris ton score en commentaire, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz France ! L'Arc de Triomphe, en haut des Champs-Élysées, est dans quelle ville ?", "qd": "L'Arc de Triomphe ?", "a": [["","Paris"],["","Lyon"],["","Lille"],["","Toulouse"]], "ok": 0, "say": "Paris, bien sûr !", "level": 0},
+  {"q": "L'Arc Héré, au bout de la place Stanislas, se trouve dans quelle ville ?", "qd": "L'Arc Héré, place Stanislas ?", "a": [["","Metz"],["","Strasbourg"],["","Dijon"],["","Nancy"]], "ok": 3, "say": "Nancy !", "level": 0},
+  {"q": "La Porte d'Aix, l'arc de triomphe près du Vieux-Port, est dans quelle ville ?", "qd": "La Porte d'Aix ?", "a": [["","Nice"],["","Toulon"],["","Marseille"],["","Avignon"]], "ok": 2, "say": "Marseille !", "level": 0},
+  {"q": "Le Gros-Horloge, l'arc avec sa grande horloge dorée, est dans quelle ville ?", "qd": "Le Gros-Horloge ?", "a": [["","Caen"],["","Rouen"],["","Le Havre"],["","Amiens"]], "ok": 1, "say": "Rouen, en Normandie !", "level": 1},
+  {"q": "La Porte de Paris, arc de triomphe de Louis XIV, est dans quelle ville du Nord ?", "qd": "La Porte de Paris, dans le Nord ?", "a": [["","Arras"],["","Amiens"],["","Lille"],["","Valenciennes"]], "ok": 2, "say": "Lille !", "level": 1},
+  {"q": "La Grosse Cloche, porte médiévale avec son beffroi, est dans quelle ville ?", "qd": "La Grosse Cloche ?", "a": [["","Bordeaux"],["","La Rochelle"],["","Toulouse"],["","Bayonne"]], "ok": 0, "say": "Bordeaux !", "level": 1},
+  {"q": "La Porte du Peyrou, arc de triomphe de Louis XIV, est dans quelle ville du Sud ?", "qd": "La Porte du Peyrou ?", "a": [["","Nîmes"],["","Perpignan"],["","Montpellier"],["","Béziers"]], "ok": 2, "say": "Montpellier !", "level": 2},
+  {"q": "La Porte Mordelaise, ancienne porte des remparts, est dans quelle ville ?", "qd": "La Porte Mordelaise ?", "a": [["","Nantes"],["","Rennes"],["","Brest"],["","Vannes"]], "ok": 1, "say": "Rennes, en Bretagne !", "level": 3}
+ ],
+ "bonus": {"q": "Dans quelle ville se trouve la Porte Saint-Denis, l'arc de triomphe des Grands Boulevards ?", "qd": "Dans quelle ville est la Porte Saint-Denis ?"},
+ "accroche": "90 % ratent la dernière porte",
+ "accroche_dite": "Quatre-vingt-dix pour cent des gens ratent la dernière porte !",
+ "accroche_pill": "SPÉCIAL FRANCE"
+}
