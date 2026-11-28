@@ -1,0 +1,26 @@
+{
+ "title": "Le pays de chaque train célèbre",
+ "subject": "Trains",
+ "banner": "Quiz : les trains célèbres",
+ "icon": "🚄",
+ "symbols": ["🚄","🚆","🚂","🛤","🌍","🚅","🚉","✨","🗺","🚞","⭐","🌐","🚇","🧭","🌎","🎫"],
+ "description": "🚄 Quiz culture générale : le pays de chaque train célèbre ? Shinkansen, ICE… Le dernier piège presque tout le monde. Ton score ? 👇 #quiz #testculturegenerale #trains #monde #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": ["facile","normal","difficile","impossible"],
+ "outro": "Dis-moi en commentaire quel train t'a piégé, et abonne-toi !",
+ "questions": [
+  {"q": "Quiz trains ! Le Shinkansen, le célèbre train à grande vitesse, roule dans quel pays ?", "qd": "Le Shinkansen ?", "a": [["","Chine"],["","Japon"],["","Corée du Sud"],["","Taïwan"]], "ok": 1, "say": "Le Japon !", "level": 0},
+  {"q": "Le TGV est le train à grande vitesse de quel pays ?", "qd": "Le TGV ?", "a": [["","Belgique"],["","Suisse"],["","France"],["","Canada"]], "ok": 2, "say": "La France !", "level": 0},
+  {"q": "Le Transsibérien, la plus longue ligne de train du monde, est dans quel pays ?", "qd": "Le Transsibérien ?", "a": [["","Russie"],["","Kazakhstan"],["","Finlande"],["","Ukraine"]], "ok": 0, "say": "La Russie, de Moscou à Vladivostok !", "level": 0},
+  {"q": "L'ICE est le train à grande vitesse de quel pays ?", "qd": "L'ICE ?", "a": [["","Autriche"],["","Pays-Bas"],["","Danemark"],["","Allemagne"]], "ok": 3, "say": "L'Allemagne !", "level": 1},
+  {"q": "L'AVE est le train à grande vitesse de quel pays ?", "qd": "L'AVE ?", "a": [["","Portugal"],["","Espagne"],["","Italie"],["","Mexique"]], "ok": 1, "say": "L'Espagne !", "level": 1},
+  {"q": "Le Glacier Express, qui traverse les Alpes de Zermatt à Saint-Moritz, roule dans quel pays ?", "qd": "Le Glacier Express ?", "a": [["","Autriche"],["","Norvège"],["","Suisse"],["","Canada"]], "ok": 2, "say": "La Suisse !", "level": 1},
+  {"q": "Le Frecciarossa, la « flèche rouge », est le train rapide de quel pays ?", "qd": "Le Frecciarossa ?", "a": [["","Italie"],["","Espagne"],["","Portugal"],["","Grèce"]], "ok": 0, "say": "L'Italie !", "level": 2},
+  {"q": "The Ghan, le train qui traverse le désert du nord au sud, roule dans quel pays ?", "qd": "The Ghan ?", "a": [["","Afrique du Sud"],["","Australie"],["","États-Unis"],["","Namibie"]], "ok": 1, "say": "L'Australie, d'Adélaïde à Darwin !", "level": 3}
+ ],
+ "bonus": {"q": "Dans quel pays roule le Blue Train, le célèbre train de luxe bleu ?", "qd": "Le Blue Train, train de luxe : dans quel pays ?"},
+ "accroche": "80 % ratent le dernier train",
+ "accroche_dite": "Quatre-vingts pour cent des gens ratent le dernier train !",
+ "accroche_pill": "NIVEAU EXPERT"
+}
