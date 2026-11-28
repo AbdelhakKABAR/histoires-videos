@@ -642,6 +642,21 @@
     "Budapest",
     "Bach"
    ]
+  },
+  {
+   "lettre": "C",
+   "date": "2026-11-28",
+   "fichier": "episode-lettre-c-2026-11-28-12.json",
+   "reponses": [
+    "Chat",
+    "Cerise",
+    "Camembert",
+    "Cuba",
+    "Cendrillon",
+    "Crêpe",
+    "Copenhague",
+    "Chopin"
+   ]
   }
  ]
 }

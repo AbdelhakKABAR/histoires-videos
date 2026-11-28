@@ -1,0 +1,99 @@
+{
+ "title": "Quiz lettre C",
+ "subject": "Lettre C",
+ "banner": "Quiz lettre C",
+ "mode": "lettre",
+ "letter": "C",
+ "icon": "🧠",
+ "symbols": [
+  "C",
+  "A",
+  "B",
+  "D",
+  "?",
+  "!",
+  "★",
+  "✦",
+  "C",
+  "Z",
+  "M",
+  "?",
+  "●",
+  "◆",
+  "C",
+  "✧"
+ ],
+ "description": "🔤 Quiz lettre C : toutes les réponses commencent par C ! Du chat à Cuba… Tu en trouves combien ? 👇 #quizlettre #testculturegenerale #quiz #publiostudio",
+ "wait": 5,
+ "skip_first_level": true,
+ "levels": [
+  "facile",
+  "normal",
+  "difficile",
+  "impossible"
+ ],
+ "outro": "Écris ton score en commentaire, et abonne-toi !",
+ "questions": [
+  {
+   "q": "Quel animal domestique miaule et ronronne ?",
+   "qd": "Animal qui miaule et ronronne ?",
+   "answer": "Chat",
+   "say": "Le chat !",
+   "level": 0
+  },
+  {
+   "q": "Quel petit fruit rouge à noyau pousse sur un arbre au printemps ?",
+   "qd": "Petit fruit rouge à noyau ?",
+   "answer": "Cerise",
+   "say": "La cerise !",
+   "level": 0
+  },
+  {
+   "q": "Quel fromage rond et crémeux vient de Normandie ?",
+   "qd": "Fromage rond de Normandie ?",
+   "answer": "Camembert",
+   "say": "Le camembert !",
+   "level": 0
+  },
+  {
+   "q": "Quelle île des Caraïbes a pour capitale La Havane ?",
+   "qd": "Île dont la capitale est La Havane ?",
+   "answer": "Cuba",
+   "say": "Cuba !",
+   "level": 1
+  },
+  {
+   "q": "Quelle princesse de conte perd sa pantoufle de verre au bal ?",
+   "qd": "Princesse à la pantoufle de verre ?",
+   "answer": "Cendrillon",
+   "say": "Cendrillon !",
+   "level": 1
+  },
+  {
+   "q": "Quelle fine galette sucrée mange-t-on à la Chandeleur ?",
+   "qd": "Galette sucrée de la Chandeleur ?",
+   "answer": "Crêpe",
+   "say": "La crêpe !",
+   "level": 1
+  },
+  {
+   "q": "Quelle est la capitale du Danemark ?",
+   "qd": "Capitale du Danemark ?",
+   "answer": "Copenhague",
+   "say": "Copenhague !",
+   "level": 2
+  },
+  {
+   "q": "Quel compositeur polonais, mort à Paris, est célèbre pour ses Nocturnes au piano ?",
+   "qd": "Compositeur polonais des Nocturnes ?",
+   "answer": "Chopin",
+   "say": "Frédéric Chopin !",
+   "level": 3
+  }
+ ],
+ "intro": "Toutes les réponses commencent par la lettre C !",
+ "intro_speed": 0.9,
+ "accroche": "Seul 1 sur 20 trouve la 8",
+ "accroche_dite": "Seulement une personne sur vingt trouve la huitième question !",
+ "accroche_pill": "QUIZ LETTRE C"
+}
